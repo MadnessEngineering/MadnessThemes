@@ -1,0 +1,234 @@
+{
+  "themeName": "gunmetal",
+  "displayName": "Gunmetal Arsenal",
+  "description": "Sleek industrial theme with gunmetal grays, steel blues, and polished metal accents",
+  "icon": "🔫",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#78909c",
+    "primaryButton": "#546e7a",
+    "secondary": "#90a4ae",
+    "success": "#66bb6a",
+    "warning": "#ffb74d",
+    "error": "#ef5350",
+    "background": {
+      "main": "linear-gradient(135deg, #263238 0%, #37474f 50%, #455a64 100%)",
+      "card": {
+        "normal": "rgba(38, 50, 56, 0.95)",
+        "selected": "rgba(55, 71, 79, 0.98)",
+        "hover": "rgba(69, 90, 100, 0.9)"
+      },
+      "header": "linear-gradient(135deg, #263238 0%, #37474f 100%)",
+      "paper": "rgba(55, 71, 79, 0.92)",
+      "topBar": "linear-gradient(90deg, #263238 0%, #37474f 50%, #455a64 100%)"
+    },
+    "text": {
+      "primary": "rgba(236, 239, 241, 0.95)",
+      "secondary": "rgba(207, 216, 220, 0.9)",
+      "tertiary": "rgba(176, 190, 197, 0.75)",
+      "muted": "rgba(144, 164, 174, 0.65)",
+      "contrast": "#ffffff",
+      "disabled": "rgba(120, 144, 156, 0.6)",
+      "success": "#81c784",
+      "warning": "#ffb74d",
+      "error": "#ef5350",
+      "info": "#4fc3f7",
+      "critical": "#f44336",
+      "high": "#ff6f00",
+      "medium": "#ffa726",
+      "low": "#78909c"
+    },
+    "border": {
+      "primary": "#78909c",
+      "secondary": "#90a4ae",
+      "subtle": "rgba(176, 190, 197, 0.15)",
+      "disabled": "rgba(120, 144, 156, 0.2)"
+    },
+    "dashboard": {
+      "stats": {
+        "total": {
+          "background": "linear-gradient(135deg, #546e7a 0%, #455a64 100%)",
+          "color": "#eceff1"
+        },
+        "active": {
+          "background": "linear-gradient(135deg, #66bb6a 0%, #43a047 100%)",
+          "color": "#ffffff"
+        },
+        "completed": {
+          "background": "linear-gradient(135deg, #78909c 0%, #607d8b 100%)",
+          "color": "#eceff1"
+        },
+        "archived": {
+          "background": "linear-gradient(135deg, #546e7a 0%, #37474f 100%)",
+          "color": "#b0bec5"
+        }
+      },
+      "activity": {
+        "panel": {
+          "background": "rgba(69, 90, 100, 0.1)",
+          "border": "rgba(120, 144, 156, 0.3)"
+        },
+        "create": "#4fc3f7",
+        "complete": "#66bb6a",
+        "delete": "#ef5350",
+        "update": "#ffb74d",
+        "review": "#90a4ae"
+      },
+      "completed": {
+        "panel": {
+          "background": "rgba(102, 187, 106, 0.1)",
+          "border": "rgba(102, 187, 106, 0.25)"
+        },
+        "highlight": {
+          "background": "rgba(102, 187, 106, 0.12)"
+        }
+      },
+      "button": {
+        "neutral": "#cfd8dc",
+        "neutralHover": "#b0bec5",
+        "danger": "#ef5350",
+        "dangerHover": "#e53935"
+      }
+    },
+    "accent": {
+      "orange": "#ffb74d",
+      "deepOrange": "#ff9100",
+      "green": "#66bb6a",
+      "lightGreen": "#81c784",
+      "amber": "#ffa726",
+      "red": "#ef5350",
+      "deepRed": "#e53935",
+      "purple": "#ab47bc",
+      "deepPurple": "#8e24aa",
+      "cyan": "#4fc3f7",
+      "blue": "#64b5f6"
+    },
+    "state": {
+      "editing": {
+        "primary": "#ffb74d",
+        "background": "rgba(255, 183, 77, 0.1)",
+        "backgroundMedium": "rgba(255, 183, 77, 0.18)",
+        "border": "rgba(255, 183, 77, 0.6)",
+        "shadow": "rgba(255, 183, 77, 0.2)"
+      },
+      "hover": {
+        "background": "rgba(255, 183, 77, 0.12)",
+        "overlay": "rgba(255, 255, 255, 0.02)"
+      },
+      "selected": {
+        "background": "rgba(255, 183, 77, 0.25)",
+        "border": "rgba(255, 183, 77, 0.7)"
+      },
+      "disabled": {
+        "background": "rgba(255, 255, 255, 0.02)",
+        "text": "rgba(120, 144, 156, 0.3)"
+      }
+    },
+    "effects": {
+      "magic": {
+        "primary": "#ab47bc",
+        "glow": "rgba(171, 71, 188, 0.35)",
+        "background": "rgba(171, 71, 188, 0.12)",
+        "backgroundMedium": "rgba(171, 71, 188, 0.22)",
+        "trail": "rgba(171, 71, 188, 0.18)"
+      },
+      "energy": {
+        "primary": "#4fc3f7",
+        "glow": "rgba(79, 195, 247, 0.25)",
+        "background": "rgba(79, 195, 247, 0.12)",
+        "pulse": "rgba(79, 195, 247, 0.6)"
+      },
+      "debug": {
+        "mobile": "#66bb6a",
+        "desktop": "#ffb74d",
+        "mobileBackground": "rgba(102, 187, 106, 0.15)",
+        "desktopBackground": "rgba(255, 183, 77, 0.15)"
+      }
+    },
+    "tags": {
+      "default": {
+        "background": "rgba(255, 183, 77, 0.15)",
+        "border": "rgba(255, 183, 77, 0.25)",
+        "hover": "rgba(255, 183, 77, 0.28)"
+      },
+      "cached": {
+        "background": "rgba(102, 187, 106, 0.18)",
+        "border": "rgba(102, 187, 106, 0.6)",
+        "text": "#66bb6a"
+      },
+      "selected": {
+        "background": "rgba(255, 183, 77, 0.32)",
+        "border": "rgba(255, 183, 77, 0.75)"
+      }
+    },
+    "shadows": {
+      "light": "rgba(0, 0, 0, 0.15)",
+      "medium": "rgba(0, 0, 0, 0.25)",
+      "heavy": "rgba(0, 0, 0, 0.65)",
+      "overlay": "rgba(0, 0, 0, 0.9)",
+      "cardNormal": "rgba(0, 0, 0, 0.2)",
+      "cardHover": "rgba(0, 0, 0, 0.3)"
+    },
+    "overlays": {
+      "light": "rgba(255, 255, 255, 0.1)",
+      "medium": "rgba(255, 255, 255, 0.12)",
+      "dark": "rgba(0, 0, 0, 0.3)",
+      "darker": "rgba(0, 0, 0, 0.7)"
+    },
+    "status": {
+      "completed": {
+        "background": "rgba(102, 187, 106, 0.18)",
+        "border": "rgba(102, 187, 106, 0.6)",
+        "text": "#66bb6a"
+      },
+      "pending": {
+        "background": "rgba(255, 193, 7, 0.18)",
+        "border": "rgba(255, 193, 7, 0.6)",
+        "text": "#ffb74d"
+      },
+      "inProgress": {
+        "background": "rgba(79, 195, 247, 0.18)",
+        "border": "rgba(79, 195, 247, 0.6)",
+        "text": "#4fc3f7"
+      },
+      "blocked": {
+        "background": "rgba(239, 83, 80, 0.18)",
+        "border": "rgba(239, 83, 80, 0.6)",
+        "text": "#ef5350"
+      }
+    }
+  },
+  "threeJS": {
+    "colors": {
+      "primary": "0x78909c",
+      "secondary": "0x90a4ae",
+      "success": "0x66bb6a",
+      "warning": "0xffb74d",
+      "error": "0xef5350",
+      "background": {
+        "main": "0x263238",
+        "card": "0x37474f",
+        "paper": "0x455a64"
+      },
+      "text": {
+        "primary": "0xeceff1",
+        "secondary": "0xcfd8dc"
+      },
+      "border": {
+        "primary": "0x78909c",
+        "secondary": "0x90a4ae",
+        "subtle": "0x455a64"
+      }
+    },
+    "materials": {
+      "metalness": 0.85,
+      "roughness": 0.35,
+      "emissiveIntensity": 0.15
+    },
+    "lighting": {
+      "ambientIntensity": 0.4,
+      "directionalIntensity": 0.9,
+      "pointIntensity": 0.7
+    }
+  }
+}

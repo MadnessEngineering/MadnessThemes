@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Plant New Branch",
+    "subtitle": "Establish a new tree project in your jungle laboratory",
+    "buttons": {
+      "reset": "Shake Tree",
+      "create": "Start Climbing",
+      "submit": "Swing Into Action",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "DEMO MODE",
+      "title": "Monkey See Mode - Observation Only",
+      "description": "🍌 You're in demonstration mode! Branch planting is locked to preserve the jungle's delicate ecosystem. Sign up for full ape access to unleash your primal creativity!"
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Swing Tasks",
+    "lessons": "Jungle Wisdom",
+    "project": "New Branch",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "Branch name is required",
+    "nameLength": "Name must be at least 2 banana characters",
+    "nameFormat": "Name can only contain letters, numbers, vine-hyphens, and underscores",
+    "displayNameRequired": "Display name for your branch is required",
+    "descriptionRequired": "Branch documentation is required",
+    "descriptionLength": "Tree notes must be at least 10 characters to swing on",
+    "topicRequired": "Jungle topic cannot be empty",
+    "topicTooLong": "Jungle topic must be less than 200 primate characters",
+    "contentRequired": "Foraging findings cannot be empty",
+    "contentTooLong": "Jungle documentation must be less than 5000 monkey characters",
+    "invalidLanguage": "Please select a valid primate language",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Stash in Tree",
+    "cancel": "Drop Banana",
+    "close": "Descend from Tree",
+    "edit": "Re-Groom",
+    "delete": "Chuck Away",
+    "loading": "Peeling bananas...",
+    "error": "Tree branch snapped",
+    "success": "Successfully harvested!",
+    "failed": "Banana slipped - operation halted",
+    "perPage": "per tree",
+    "refreshNow": "Shake the Tree",
+    "copyId": "Copy Branch ID",
+    "show": "Display",
+    "copy": "Monkey Copy",
+    "reset": "Reset",
+    "refresh": "Refresh",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Branch Name",
+    "displayName": "Tree Display Name",
+    "description": "Jungle Documentation",
+    "type": "Tree Type",
+    "visibility": "Canopy Visibility",
+    "repository": "Banana Repository",
+    "language": "Primate Language",
+    "framework": "Jungle Framework",
+    "priority": "Swing Urgency",
+    "status": "Climbing Phase",
+    "notes": "Grooming Annotations",
+    "ticket": "Vine Reference"
+  },
+  "dashboard": {
+    "title": "📊 Jungle Command Tree",
+    "projectStats": {
+      "title": "📂 Active Tree Branches",
+      "collection": "branch archives",
+      "totalProjects": "Total Tree Projects",
+      "activeProjects": "Active Climbs",
+      "projectsWithCompleted": "Harvested Branches",
+      "avgTasksPerProject": "Avg Swings/Branch"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Jungle Priority Analysis",
+      "pendingTasks": "Awaiting Climb",
+      "inReview": "Under Grooming",
+      "inProgress": "Peeling",
+      "blocked": "Tangled in Vines",
+      "completed": "Bananas Harvested",
+      "highPriority": "Urgent Swings",
+      "mediumPriority": "Standard Foraging",
+      "lowPriority": "Background Grooming"
+    },
+    "activityLog": {
+      "title": "📊 Jungle Activity Ledger",
+      "collection": "swing_logs archive",
+      "description": "Chronicle all tree modifications and foraging operations",
+      "updates": "Modifications",
+      "creates": "New Climbs",
+      "deletes": "Dropped Branches",
+      "completions": "Banana Harvests",
+      "totalEntries": "Total Records"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recent Banana Harvests"
+    },
+    "welcome": {
+      "message": "Welcome to the Madness Interactive Jungle Lab! Your primate command tree awaits.",
+      "description": "The Tree Apparatus is primed for swinging! This command tree appears when no jungle panels are active. Use the vine controls above to access specific foraging areas, swing logs, branch archives, and more.",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "📝 Swing Tasks",
+      "chatAssistant": "🤖 AI Jungle Assistant",
+      "activityLog": "📋 Swing Logs",
+      "projects": "📂 Tree Branches"
+    },
+    "filters": {
+      "allActivity": "All Jungle Swings",
+      "todosCreated": "New Bananas Picked",
+      "todosUpdated": "Bananas Ripened",
+      "todosCompleted": "Bananas Eaten",
+      "todosDeleted": "Bananas Tossed",
+      "projectsCreated": "New Trees Planted",
+      "projectsUpdated": "Branches Pruned",
+      "projectsDeleted": "Trees Chopped"
+    },
+    "unifiedView": "Entire Canopy View",
+    "personalView": "My Private Stash",
+    "showingAllDatabases": "Swinging through all groves",
+    "showingPersonalOnly": "Guarding my personal bananas",
+    "filteredByProject": "Peeking at this specific tree",
+    "noLogsFound": "No monkeys swinging here yet!",
+    "tryChangingFilter": "Try searching a different vine!",
+    "startCreatingTodos": "Start harvesting some bananas!",
+    "failedToLoad": "Failed to load: {{error}}",
+    "changesMade": "Peels changed",
+    "completionNotes": "Monkey's tasting notes",
+    "revertOperation": "Un-peel {{operation}}",
+    "revertSuccess": "Successfully un-peeled {{operation}}",
+    "revertFailed": "Un-peel failed: {{error}}",
+    "revertDeleteNotSupported": "Can't un-toss a tossed banana!",
+    "revertNotSupported": "Cannot un-swing this {{operation}} in the jungle.",
+    "confirmRevert": "Confirm Un-peel?",
+    "confirmRevertMessage": "Are you sure you want to un-swing this {{operation}} for {{description}}?",
+    "confirmRevertAction": "Yes, un-peel it!",
+    "operationType": "Swing Type",
+    "taskDescription": "Banana Details",
+    "descriptions": {
+      "projectCreated": "Planted a new tree: {{projectName}}",
+      "projectUpdated": "Pruned the branches of {{projectName}}",
+      "projectDeleted": "Chopped down the tree: {{projectName}}",
+      "projectModified": "Shook the tree: {{projectName}}",
+      "unknownTask": "A mystery banana in the canopy"
+    },
+    "showingPageStats": "Swinging through branch {{currentPage}} of {{totalPages}} ({{totalCount}} bananas total)",
+    "autoRefreshingInterval": "Fresh bunches every 30 seconds",
+    "stats": {
+      "totalProjects": "Total Trees",
+      "activeProjects": "Growing Trees",
+      "completedTodos": "Bananas Eaten",
+      "archivedProjects": "Fossilized Trees"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "📋 Jungle Activity Chronicle",
+    "autoRefreshOn": "Auto-forage ON",
+    "autoRefreshOff": "Auto-forage OFF",
+    "filters": {
+      "allActivity": "All Jungle Activities",
+      "todosCreated": "New Swings Started",
+      "todosUpdated": "Climbs Modified",
+      "todosCompleted": "Foraging Completed",
+      "todosDeleted": "Branches Dropped",
+      "projectsCreated": "New Trees Planted",
+      "projectsUpdated": "Trees Modified",
+      "projectsDeleted": "Trees Abandoned",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Jungle-Wide View",
+    "personalView": "👤 Personal Tree View",
+    "showingAllDatabases": "Displaying chronicles from all banana repositories",
+    "showingPersonalOnly": "Displaying only your personal jungle chronicles",
+    "filteredByProject": "Filtering by tree branch:",
+    "noLogsFound": "No jungle chronicles found",
+    "tryChangingFilter": "Try adjusting your tree survey",
+    "startCreatingTodos": "Begin swinging to generate jungle activity",
+    "failedToLoad": "Failed to retrieve activity chronicles: {{error}}",
+    "changesMade": "Branch modifications:",
+    "completionNotes": "Harvest conclusions:",
+    "revertOperation": "Reverse {{operation}} swing",
+    "revertSuccess": "Successfully unpeeled {{operation}} bunch",
+    "revertFailed": "Swing reversal failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore dropped banana - already slipped away",
+    "revertNotSupported": "Cannot reverse {{operation}} - too ripe to undo",
+    "descriptions": {
+      "projectCreated": "Tree \"{{projectName}}\" was planted",
+      "projectUpdated": "Tree \"{{projectName}}\" was groomed",
+      "projectDeleted": "Tree \"{{projectName}}\" was abandoned",
+      "projectModified": "Tree \"{{projectName}}\" underwent canopy alterations",
+      "unknownTask": "Unknown jungle operation"
+    },
+    "showingPageStats": "Viewing chronicle {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
+    "autoRefreshingInterval": " • Auto-foraging every 30 banana moments",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "🎓 Jungle Wisdom Archive",
+    "refreshLessons": "Refresh Primate Discoveries",
+    "addLesson": "Stash New Wisdom",
+    "searchPlaceholder": "Search jungle knowledge, insights, or banana tags...",
+    "languages": {
+      "allLanguages": "All Primate Languages",
+      "javascript": "JavaScript Tree-Climbing",
+      "typescript": "TypeScript Ape-Logic",
+      "python": "Python Jungle-Craft",
+      "rust": "Rust Branch-Building",
+      "go": "Go Vine-Swinging",
+      "general": "General Jungle Arts"
+    },
+    "filters": {
+      "allLessons": "All Jungle Discoveries",
+      "bookmarked": "Starred Bananas",
+      "recent": "Recent Findings (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Jungle Discoveries",
+      "vaultEmpty": "Knowledge Tree is Empty!",
+      "noMatchSearch": "No discoveries match \"{{searchTerm}}\". Try adjusting your jungle search parameters.",
+      "noMatchFilters": "No discoveries found with current tree filters. Try broadening your foraging criteria.",
+      "startDocumenting": "Begin documenting your primate revelations! Every vine swung and banana found is knowledge gained."
+    },
+    "createFirstLesson": "Stash Your First Jungle Discovery",
+    "actions": {
+      "starred": "Banana-Starred",
+      "addStar": "Add Banana Star"
+    },
+    "pagination": {
+      "showingRange": "Displaying {{start}}-{{end}} of {{total}} jungle discoveries"
+    },
+    "dialog": {
+      "editTitle": "🎓 Modify Jungle Discovery",
+      "addTitle": "🎓 Stash New Jungle Discovery",
+      "topicLabel": "Jungle Topic",
+      "lessonLabel": "Primate Discovery",
+      "languageLabel": "Primate Language",
+      "tagsLabel": "Banana Tags (comma separated)",
+      "tagsPlaceholder": "climbing, swinging, jungle",
+      "databaseLabel": "Archive Location",
+      "personalDatabase": "👤 Personal Tree Archive",
+      "sharedDatabase": "🌐 Shared Jungle Compendium (swarmonomicon)",
+      "updateLesson": "Update Discovery",
+      "createLesson": "Stash Discovery"
+    },
+    "failedToLoad": "Failed to retrieve jungle discoveries: {{error}}",
+    "confirmDelete": "Are you sure you want to chuck this jungle discovery away?"
+  },
+  "todoManagement": {
+    "title": "📝 Swing Task Management"
+  },
+  "app": {
+    "titleShort": "Jungle Lab",
+    "titleLong": "Madness Interactive Jungle Laboratory"
+  },
+  "panels": {
+    "todos": "📝 Swing Tasks",
+    "logs": "📋 Swing Logs",
+    "aiChat": "🤖 AI Assistant",
+    "create": "➕ New Swing",
+    "projects": "📂 Tree Branches",
+    "mindMap": "🗺️ Canopy Map",
+    "swarmDesk": "🎪 SwarmDesk Portal",
+    "lessons": "🎓 Jungle Notes",
+    "settings": "⚙️ Tree Config",
+    "insights": "📊 Insights",
+    "labMaintenance": "🧹 Jungle Cleanup"
+  },
+  "labMaintenance": {
+    "title": "Jungle Cleanup Crew",
+    "tabs": {
+      "orphaned": "Lost Bananas",
+      "completed": "Peeled",
+      "consolidate": "Grove Overview"
+    },
+    "selectAll": "Grab All",
+    "clearSelection": "Drop",
+    "targetProject": "Swing to branch...",
+    "reassign": "Relocate",
+    "reassignSelected": "Swing selected bananas to a new branch",
+    "reopen": "Unripe",
+    "reopenSelected": "Mark peeled bananas as unripe again",
+    "delete": "Compost",
+    "deleteSelected": "Toss selected bananas into the compost",
+    "selectProjectFirst": "Pick a branch first",
+    "todosUpdated": "bananas sorted",
+    "noOrphans": "No lost bananas! Every swing task belongs to a branch.",
+    "noCompleted": "No peeled bananas found in the bunch.",
+    "consolidateDescription": "Overview of jungle cleanup and branch health.",
+    "orphanedProjectsLabel": "Fallen Branches With Remaining Bananas",
+    "quickStats": "Troop Report",
+    "orphaned": "Lost",
+    "completed": "Peeled",
+    "deletedProjects": "Fallen Branches",
+    "activeProjects": "Growing Branches"
+  },
+  "demo": {
+    "label": "DEMO - Monkey See Mode"
+  },
+  "menu": {
+    "documentation": "Jungle Manuals",
+    "github": "Banana Archive",
+    "logout": "Exit Tree",
+    "replayTutorial": "Replay Tutorial",
+    "userManagement": "User Management"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 Primate insights harvested! Review the enhanced jungle notes.",
+    "todoMarkedForReview": "👁️ Swing task marked for peer grooming successfully!",
+    "todoCompleted": "✅ Climbing task completed successfully!",
+    "taskCreated": "🎉 New swing task planted successfully!",
+    "projectCreated": "🚀 New tree branch established successfully!",
+    "aiConfigured": "✅ AI helper trained successfully!",
+    "todoCreated": "🍌 A new banana has been spotted in the grove.",
+    "settingsSaved": "⚙️ Jungle calibrations peeled to perfection.",
+    "exportCompleted": "📤 Bananas shipped out of the canopy.",
+    "importCompleted": "📥 New fruit brought into the stash."
+  },
+  "projectNavigator": {
+    "title": "🚀 JUNGLE TREE PORTAL",
+    "subtitle": "Select your tree domain • Enter primate development environments",
+    "cacheStatus": "🏪 Banana cache • Last foraged: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Shake Tree • M: Main Jungle • 1-9: Quick vine",
+    "manageTooltip": {
+      "admin": "Manage All Trees (Alpha Ape)",
+      "personal": "Manage Personal Tree Branches"
+    },
+    "refreshTooltip": "Refresh Tree Data",
+    "mainSwarmDeskTooltip": "Enter Main Jungle Portal",
+    "loading": {
+      "title": "🔍 Scanning Tree Realms...",
+      "subtitle": "Gathering swing data and banana metrics"
+    },
+    "stats": {
+      "pending": "active",
+      "completed": "harvested"
+    },
+    "activity": {
+      "title": "Recent Banana Harvests",
+      "noActivity": "No recent jungle activity"
+    },
+    "enterButton": {
+      "selected": "⚡ PORTAL ACTIVE",
+      "enter": "🚀 ENTER TREE",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
+      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
+      "relocateLabel": "Relocate todos to another project",
+      "selectDestination": "Select destination project",
+      "cancel": "Cancel",
+      "deleteButton": "Delete Project"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} swinging",
+      "completedTasks": "{{count}} harvested"
+    },
+    "loading": "🎪 Planting {{projectId}} Tree...",
+    "controls": "🎮 WASD: Navigate | Mouse Drag: Look Around | ESC: Exit Tree",
+    "workstation": {
+      "todoHint": "📝 Click to manage tree swings",
+      "projectHint": "🎪 Click to view tree details"
+    },
+    "statsPanel": {
+      "title": "📊 Tree Metrics",
+      "totalTasks": "Total Swings",
+      "pending": "Active Climbs",
+      "completed": "Harvested Bananas"
+    },
+    "reviewTab": {
+      "title": "Grooming Tree",
+      "approveButton": "Accept Banana",
+      "requestChanges": "Bad Peel",
+      "returnToProgress": "Back to Branch",
+      "emptyState": "No bananas to groom"
+    }
+  },
+  "projectTab": {
+    "title": "New Tree Branch",
+    "sections": {
+      "basicInfo": "Tree Foundation",
+      "configuration": "Branch Configuration",
+      "technicalDetails": "Jungle Implementation Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Canopy",
+      "mobile": "Portable Tree",
+      "desktop": "Desktop Jungle",
+      "library": "Jungle Library/Archive",
+      "api": "Canopy API/Service",
+      "general": "General Tree Project"
+    },
+    "buttons": {
+      "creating": "Planting...",
+      "demoMode": "Monkey See Mode",
+      "createProject": "PLANT TREE BRANCH"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Tree Branch",
+      "default": "Primary Tree"
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Swings",
+      "pending": "Active Climbs",
+      "review": "Under Grooming",
+      "completed": "Harvested Bananas",
+      "in_progress": "Peeling",
+      "blocked": "Tangled in Vines",
+      "all": "All Tasks",
+      "inProgress": "In Progress"
+    },
+    "sort": {
+      "newest": "Fresh Bananas",
+      "oldest": "Aged Fruit",
+      "priority": "Urgency Order",
+      "madness": "Chaos Swing Mode"
+    },
+    "search": {
+      "placeholder": "Search jungle operations..."
+    },
+    "project": {
+      "label": "Tree Branch",
+      "allProjects": "All Tree Branches ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Display",
+      "perPage": "per tree",
+      "all": "All Swings",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Viewing {{start}}-{{end}} of {{total}} swing tasks",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by tree: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Swings",
+      "workshopClear": "Jungle is Clear!",
+      "noMatchingDescription": "No swings match \"{{searchText}}\". Try adjusting your jungle search parameters.",
+      "workshopClearDescription": "No active swinging found. The tree apparatus has achieved perfect balance... or perhaps the apes are napping."
+    },
+    "buttons": {
+      "refresh": "Shake the Tree",
+      "export": "Extract Banana Data",
+      "saving": "Stashing...",
+      "saveChanges": "Bundle Changes",
+      "discard": "Drop Changes",
+      "complete": "Harvest Banana",
+      "edit": "Re-Groom Task",
+      "copyId": "Copy Branch ID",
+      "copyJiraCmd": "Copy Jira Vines",
+      "review": "Peer Grooming",
+      "aiInsights": "Primate Insights"
+    },
+    "fullEdit": {
+      "modeTitle": "🍌 Alpha Ape Mode - Full Jungle Access"
+    },
+    "menu": {
+      "editTask": "Re-Groom Swing",
+      "copyId": "Copy Branch ID",
+      "copyJiraCmd": "Copy Jira Vines",
+      "deleteTask": "Chuck Branch"
+    },
+    "dialog": {
+      "completeTitle": "Harvest Swing: {{description}}",
+      "completeDescription": "Add optional jungle notes about how this swing was completed (e.g., primate discoveries, branch adjustments, vines overcome, etc.)",
+      "completePlaceholder": "e.g., Successfully swung through the CSS vines by realigning the responsive branches. Required 2 hours due to compatibility testing with ancient tree spirits.",
+      "cancel": "Drop Banana",
+      "completeTask": "Harvest Banana",
+      "exportTitle": "Extract Jungle Data Compendium",
+      "exportDescription": "Preparing to extract {{count}} swing tasks from the banana archives",
+      "exportFilename": "Compendium Scroll Name",
+      "exportFilenameHelp": "The name of your extracted jungle compendium (extension will be added automatically)",
+      "exportFormat": "Extraction Method",
+      "exportButton": "Extract Data",
+      "formatJSON": "JSON - Banana Archive Format",
+      "formatJSONDesc": "Complete jungle data in structured primate notation for reimportation",
+      "formatCSV": "CSV - Tabular Scroll Format",
+      "formatCSVDesc": "Spreadsheet-compatible format for analysis in external apparatus",
+      "formatMarkdown": "Markdown - Readable Scroll Format",
+      "formatMarkdownDesc": "Ape-readable documentation format for jungle review",
+      "formatHTML": "HTML - Canopy Visualization Scroll",
+      "formatHTMLDesc": "Fully-styled web page with embedded jungle theme for browser viewing",
+      "formatJira": "Jira/Slack Jungle Vines",
+      "formatJiraDesc": "Ready-to-swing Slack commands for manifesting Jira jungle artifacts",
+      "formatVariant": "Format Variation",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard Format",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Banana Data Fields",
+      "customizeFields": "Customize Jungle Field Names",
+      "renameFields": "Rename Exported Fields",
+      "calculatedFields": "Calculated Banana Properties",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days since first swing)",
+        "daysSinceUpdate": "Days since last groom",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete (days)"
+      },
+      "selectAll": "All Fields",
+      "selectNone": "Clear Selection",
+      "advancedFilters": "Advanced Banana Filters",
+      "dateRange": "Swung Between Dates",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "priorityFilter": "Jungle Priority Levels",
+      "statusFilter": "Task Status Filter"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "Branch ID",
+      "description": "Swing Description",
+      "project": "Tree Project",
+      "priority": "Swing Urgency",
+      "status": "Climbing Phase",
+      "target": "Target Ape",
+      "created": "Plant Timestamp",
+      "updated": "Last Groom",
+      "metadata": "Banana Metadata",
+      "source": "Vine Source",
+      "notes": "Jungle Notes",
+      "ticket": "Banana Ticket",
+      "completed_at": "Completed At",
+      "completed_by": "Completed By Monkey",
+      "completion_comment": "Swing Complete Notes",
+      "duration": "Swing Duration",
+      "duration_sec": "Duration (Seconds)",
+      "tags": "Banana Tags",
+      "complexity": "Jungle Complexity",
+      "confidence": "Monkey Confidence",
+      "phase": "Swinging Phase",
+      "epic": "Great Jungle Epic",
+      "blockers": "Vine Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Swing description cannot be empty",
+      "descriptionTooLong": "Jungle documentation must be less than 500 primate characters",
+      "invalidProject": "Please select a valid tree from the jungle"
+    },
+    "error": {
+      "failedToLoad": "Failed to retrieve swing tasks",
+      "unknownError": "Unknown tree collapse",
+      "malfunctionMessage": "The Jungle Apparatus encountered a branch snap. Please try refreshing the vine connection or check your canopy network."
+    },
+    "placeholders": {
+      "setStatus": "Set climbing phase...",
+      "editDescription": "Scratch your swing intentions...",
+      "selectProject": "Choose tree...",
+      "setPriority": "Set swing urgency..."
+    },
+    "tooltip": {
+      "unsavedChanges": "Banana modifications await stashing"
+    },
+    "labels": {
+      "readOnly": "🔒 Monkey See Mode",
+      "review": "PEER GROOMING"
+    },
+    "aria": {
+      "todoActions": "Swing task banana actions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Retrieving swing task from the banana archives..."
+    },
+    "header": {
+      "editTodo": "Re-Groom Swing Task",
+      "createNewTodo": "Plant New Swing Task"
+    },
+    "buttons": {
+      "backToDashboard": "Return to Jungle Command Tree"
+    },
+    "error": {
+      "todoNotFound": "Swing task has fallen from the tree. It may have been dropped or the vine scroll is broken."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Jungle Workshop Mode - Full Tree Access"
+    },
+    "tips": {
+      "title": "💡 Primate Swing Tips:",
+      "description": "• Scratch intentions into any field to modify • Use the Re-Groom apparatus for complete form • ESC to abandon swing • Ctrl+Enter to bundle findings • Purple banana for enhanced grooming"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Tree Configuration",
+    "confirmReset": "Are you sure you want to shake all tree apparatus configurations back to their original state? This operation cannot be undone.",
+    "messages": {
+      "saveSuccess": "Tree configurations successfully stashed!",
+      "saveError": "Failed to bundle apparatus settings to banana repository"
+    },
+    "export": {
+      "starting": "Initiating banana data extraction...",
+      "success": "Extraction completed! Harvested {{todoCount}} swing tasks, {{projectCount}} tree branches, and apparatus configurations.",
+      "error": "Extraction failed due to tree collapse: {{error}}"
+    },
+    "import": {
+      "starting": "Initiating banana data planting...",
+      "confirmDialog": "Planting Preview:\n\n{{todoCount}} swing tasks, {{projectCount}} tree branches, {{settingsCount}} apparatus configurations\n\nBranch conflicts detected:\n{{conflicts}}\n\nProceed with planting?",
+      "success": "Planting completed! Successfully imported {{importedCount}} banana entities. {{skippedCount}} entities fell from tree.",
+      "error": "Planting failed due to tree collapse: {{error}}",
+      "fileDialogError": "Failed to open banana file portal"
+    },
+    "tabs": {
+      "profile": "Ape Profile",
+      "database": "Banana Repository",
+      "aiConfiguration": "AI Assistant Configuration",
+      "mcpSetup": "MCP Apparatus Setup",
+      "apiKeys": "Tree Access Keys",
+      "appearance": "Visual Apparatus",
+      "mindMap": "Canopy Visualization",
+      "privacy": "Jungle Privacy",
+      "advanced": "Advanced Primate Controls",
+      "messaging": "Messaging",
+      "umlData": "Code Visualizations",
+      "npcAgents": "Primate Personas",
+      "swarmDesk": "SwarmDesk"
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "Whoops! We already have a role from that bunch!",
+      "duplicateAgentId": "Hold your monkeys! An agent with that ID is already swinging here!"
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "auth": {
+    "app": {
+      "title": "Madness Interactive Jungle Lab"
+    },
+    "welcome": {
+      "message": "Swing into the jungle laboratory!"
+    },
+    "buttons": {
+      "demoLogin": "Access Monkey See Mode",
+      "googleLogin": "Enter with Vine Gateway"
+    },
+    "status": {
+      "loggingOut": "Leaving the tree..."
+    },
+    "errors": {
+      "demoLoginFailed": "Monkey see mode apparatus malfunction",
+      "authRequired": "Tree authentication required to access jungle",
+      "configNotFound": "Authentication apparatus not configured",
+      "tokenInvalid": "Tree access token has expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "Your jungle scratches remain unsaved. Are you sure you want to abandon this swing?",
+    "confirmDelete": "Are you sure you want to chuck this swing task away?",
+    "errors": {
+      "descriptionRequired": "A task description is required for banana enhancement",
+      "aiEnhancementFailed": "Primate enhancement ritual failed: {{error}}",
+      "saveFailed": "Failed to preserve your banana changes"
+    },
+    "placeholders": {
+      "description": "Scratch your swing task...",
+      "clickToAdd": "Groom your intentions here...",
+      "enhancedDescription": "Banana wisdom shall appear here...",
+      "notes": "Additional jungle annotations...",
+      "ticket": "Vine reference scroll..."
+    },
+    "labels": {
+      "enhancedDescription": "Banana Enhancement",
+      "aiEnhanced": "🍌 Primate Enhanced Description:",
+      "completionNotes": "✨ Harvest Notes:",
+      "completed": "Completed",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Leisurely",
+      "medium": "Focused",
+      "high": "Urgent Swing",
+      "critical": "Jungle-Shaking Swing"
+    },
+    "status": {
+      "pending": "Awaiting",
+      "in_progress": "Peeling",
+      "blocked": "Tangled in Vines",
+      "review": "Grooming",
+      "completed": "Harvested",
+      "initial": "Freshly Foraged",
+      "cancelled": "Dropped"
+    },
+    "menu": {
+      "editTask": "Re-Groom Task",
+      "deleteTask": "Chuck Branch"
+    },
+    "messages": {
+      "noEnhancedDescription": "No banana wisdom yet. Invoke the primate enhancement to reveal deeper insights."
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Enter Jungle Realm Map",
+      "switchToSphere": "Return to Banana Sphere",
+      "chaos": "🌀 Tree Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Banana Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Jungle Manipulation",
+      "dragging": "Swinging!",
+      "touchAndDrag": "Banana Touch & Swing",
+      "doubleTapBurst": "Double-scratch for banana burst!",
+      "doubleTapPhysics": "Double-scratch for jungle forces!"
+    },
+    "filter": {
+      "title": "Jungle Network Diagrams",
+      "allProjects": "All Tree Branches",
+      "projectCount": "{{selected}}/{{total}} Tree Branches",
+      "selectAll": "Select All Jungle Arts",
+      "clearAll": "Drop All Selections",
+      "selectProjects": "Choose Tree Branches",
+      "projectsSelected": "{{count}} tree branches chosen",
+      "selectedProjects": "Chosen Branches ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Tree Enchantment",
+      "enableStaticMode": "Enable Tree Enchantment",
+      "cleanUpEffects": "Purify Banana Aura"
+    },
+    "sequence": {
+      "hideSequence": "Conceal Swing Sequence",
+      "showSequence": "Reveal Vine Connections",
+      "analyzeSequences": "Forage Jungle Patterns",
+      "stopAnimation": "Halt Banana Animation",
+      "animateSequence": "Animate Swing Flow",
+      "shuffleSequence": "Transmute Sequence Pattern"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} banana nodes selected (Tree-Click to bind/unbind, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ BANANA TANGENTRON",
+      "centerWorkshop": "🔮 PRIMATE LAB"
+    },
+    "modes": {
+      "dynamic": "⚡ Banana Dynamics Mode",
+      "static": "📜 Crystallized Tree Mode"
+    },
+    "dialog": {
+      "createNode": "🍌 Manifest Banana Node",
+      "nodeText": "Banana Inscription"
+    },
+    "nodeInfo": {
+      "type": "Banana Type",
+      "priority": "Swing Urgency",
+      "energy": "Banana Energy"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "title": "🎪 Planting SwarmDesk Jungle Realm...",
+        "subtitle": "Preparing the Primate Madness!",
+        "entering": "🎮 Entering Game Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Project Data..."
+      },
+      "error": {
+        "title": "❌ SwarmDesk Tree Collapse",
+        "subtitle": "Check banana console for jungle details",
+        "initializationFailed": "SwarmDesk jungle initialization failed"
+      },
+      "controls": {
+        "instructions": "🎪 SwarmDesk Active | WASD: Banana Movement | E: Swing Interaction | F4-F7: Conjure Panels | Space: Chaos Mode"
+      },
+      "navigation": {
+        "controls": "🎮 Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎪 Welcome to Floating Banana Madness!",
+        "subtitle": "Advanced floating panel jungle-craft brings contextual workspace management to SwarmDesk!",
+        "features": {
+          "title": "🎯 Jungle Features:",
+          "draggable": "📱 Draggable banana panels with tree docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk jungle interactions",
+          "docking": "🧲 Magnetic docking zones (canopy edges & corners)",
+          "shortcuts": "⌨️ Vine shortcuts for quick access",
+          "integration": "🎮 Full SwarmDesk 3D jungle workspace integration"
+        },
+        "actions": {
+          "createProject": "📋 Manifest Branch Panel",
+          "createAgent": "🤖 Summon Ape Panel"
+        },
+        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
+        "gettingStarted": "Getting Started:",
+        "quickActions": [
+          "📝 View and manage your project tasks",
+          "🎯 Create new tasks and set priorities",
+          "📊 Review project statistics and progress",
+          "⚙️ Configure project settings and preferences",
+          "🔗 Connect to external tools and services"
+        ]
+      },
+      "shortcuts": {
+        "title": "⌨️ Jungle Vines",
+        "f3": "F3 - Toggle Banana Welcome Portal",
+        "f4": "F4 - Toggle Tree Project Portal",
+        "f5": "F5 - Toggle Ape Actions",
+        "f6": "F6 - Toggle Banana Tools",
+        "f7": "F7 - Toggle Analytics Forage Portal",
+        "f8": "F8 - Toggle WebLLM Consciousness Portal",
+        "f9": "F9 - Toggle MQTT Banana Monitor",
+        "f10": "F10 - Minimize All Jungle Portals",
+        "f11": "F11 - Drop All Portals",
+        "esc": "ESC - Cancel current jungle operation",
+        "drag": "Drag portals - Click and swing portal headers",
+        "dock": "Dock portals - Drag near canopy edges to anchor",
+        "subtitle": "Quick Controls Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Navigation",
+            "commands": [
+              "WASD: Move camera around the environment",
+              "Mouse Drag: Look around and rotate view",
+              "Scroll: Zoom in and out",
+              "ESC: Return to main dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Panel Controls",
+            "commands": [
+              "F4: Open Task Management Panel",
+              "F5: Open Activity Log Panel",
+              "F6: Open Chat Panel",
+              "F7: Open Project Info Panel"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Actions",
+            "commands": [
+              "E: Interact with selected object",
+              "Space: Quick action",
+              "M: Open main menu",
+              "R: Refresh data"
+            ]
+          }
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Tree Overview",
+          "activeProjects": "Active Trees: 5",
+          "pendingTasks": "Pending Swings: 23",
+          "completedToday": "Harvested Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Trees",
+            "addTask": "➕ Add New Swing Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Swing Task Jungle-craft",
+          "inProgress": "🎪 Dashboard Integration - Under Banana Investigation",
+          "pending": "🔧 MCP Tool Enhancement - Awaiting Jungle Alignment",
+          "actions": {
+            "addTodo": "➕ Add Swing Task"
+          }
+        },
+        "files": {
+          "title": "📁 Tree Archives",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse Banana Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Ape Banana Communication",
+          "agentReady": "Ape: Ready to assist with your jungle projects!",
+          "userQuery": "You: Help me with the floating banana panels",
+          "agentResponse": "Ape: The floating panel jungle-craft is bananas! You can drag panels anywhere and dock them to canopy edges.",
+          "placeholder": "Type your jungle vines..."
+        },
+        "commands": {
+          "title": "⚡ Ape Banana Commands",
+          "searchProjects": "🔍 Search Jungle Trees",
+          "listTodos": "📋 List Swing Tasks",
+          "deployProject": "🚀 Deploy Jungle Tree",
+          "generateReport": "📊 Generate Banana Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Jungle Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Begin Banana Conversation",
+            "executeCommand": "⚡ Execute Jungle Command"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Jungle Agent Capabilities",
+          "projectManagement": "✅ Tree Project Management",
+          "codeAnalysis": "✅ Banana Code Analysis",
+          "mcpIntegration": "✅ MCP Jungle Tool Integration",
+          "communication": "✅ Real-time Banana Communication"
+        }
+      },
+      "mcp": {
+        "tools": {
+          "title": "🛠️ Available MCP Jungle Tools",
+          "notAuthenticated": "Please swing into the jungle to access MCP tools.",
+          "authRequired": "Tree authentication required to connect to MCP apparatus",
+          "connecting": "No jungle tools available. Connecting to apparatus...",
+          "serverStatus": "Apparatus Status: {{status}}",
+          "retryConnection": "🔄 Retry Banana Connection",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Jungle Command Chronicle",
+          "noHistory": "No banana history found."
+        },
+        "debug": {
+          "title": "🐛 Jungle Debug Information",
+          "authentication": "Authentication: {{status}}",
+          "user": "Ape: {{user}}",
+          "authMode": "Jungle Mode: {{mode}}",
+          "mcpServer": "MCP Apparatus: {{status}}",
+          "activeTools": "Active Jungle Tools: {{count}}",
+          "lastPing": "Last Banana Ping: {{time}}",
+          "apiService": "API Apparatus: {{status}}",
+          "authContext": "Auth Jungle Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Tree Auth"
+        },
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "System Integration Hub",
+        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "features": [
+          "🔧 Tool Integration Framework",
+          "📊 Automated Data Collection",
+          "🎯 Task Management Integration",
+          "⚙️ Workflow Automation",
+          "🔐 Secure Communication"
+        ],
+        "gettingStarted": "Setup Instructions:",
+        "deploymentSteps": [
+          "Configure authentication settings",
+          "Connect to desired services",
+          "Set up automation rules",
+          "Test connections and workflows"
+        ]
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Jungle System Metrics",
+          "cpuUsage": "Banana CPU Usage: 42%",
+          "memory": "Jungle Memory: 68%",
+          "activePanels": "Active Portals: {{count}}",
+          "uptime": "Jungle Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Jungle Activity",
+          "panelCreated": "🏷️ Portal created: Project Management",
+          "swarmDeskInteraction": "🎮 SwarmDesk banana interaction: Workstation selected",
+          "mcpToolExecuted": "🔧 MCP jungle tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 Banana Insights",
+          "mostUsedPanel": "Most used portal: Project Management",
+          "peakActivity": "Peak jungle activity: 14:00-15:00",
+          "efficiencyScore": "Jungle efficiency score: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Consciousness Models",
+          "currentModel": "Current Consciousness: {{model}}",
+          "loadModel": "Load Banana Model"
+        },
+        "compatibility": {
+          "title": "✅ Jungle Browser Compatibility",
+          "checking": "🔄 Checking banana compatibility...",
+          "checkCompatibility": "🔍 Check Banana Compatibility"
+        },
+        "status": {
+          "title": "⚡ WebLLM Jungle Status",
+          "initialized": "Banana Initialized: {{status}}",
+          "currentModel": "Current Consciousness: {{model}}",
+          "loading": "Banana Loading: {{status}}",
+          "inferencing": "Banana Inferencing: {{status}}",
+          "queueLength": "Jungle Queue Length: {{length}}",
+          "loadedModels": "Loaded Consciousness Models: {{count}}",
+          "mode": "Jungle Mode: {{mode}}",
+          "initialize": "🚀 Initialize WebLLM Jungle"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Jungle Settings",
+          "agentModelAssignment": "Jungle Agent Model Assignment:",
+          "useGlobal": "Use Global Consciousness Model",
+          "perAgent": "Per-Agent Consciousness Models",
+          "temperature": "Banana Temperature:",
+          "maxTokens": "Max Jungle Tokens:",
+          "saveSettings": "💾 Stash Jungle Settings",
+          "resetDefaults": "🔄 Reset to Jungle Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Jungle Live Logs",
+          "noMessages": "No banana messages received yet...",
+          "waitingTraffic": "Waiting for MQTT banana traffic on port 4140",
+          "reconnect": "🔄 Reconnect Banana Link",
+          "messages": "Banana Messages: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Clear Banana Logs",
+          "export": "💾 Export Banana Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Banana Connection Status",
+          "status": "Jungle Status: {{status}}",
+          "broker": "Banana Broker: {{broker}}",
+          "clientId": "Client Jungle ID: swarmdesk_{{id}}",
+          "messagesReceived": "Banana Messages Received: {{count}}",
+          "lastActivity": "Last Jungle Activity: {{time}}",
+          "subscriptions": "📡 Banana Subscriptions:",
+          "connect": "🔄 Connect Banana Link",
+          "disconnect": "🔌 Disconnect Banana Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Jungle Settings",
+          "brokerAddress": "Banana Broker Address:",
+          "subscribeTopics": "Subscribe to Banana Topics:",
+          "autoReconnect": "Auto-reconnect on banana disconnect",
+          "showTimestamps": "Show banana timestamps",
+          "saveSettings": "💾 Stash Jungle Settings",
+          "resetDefaults": "🔄 Reset to Jungle Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk",
+        "description": "3D interactive agent command center - the jungle cyberpunk control tree for the Madness Interactive banana ecosystem",
+        "features": [
+          "🎮 3D interactive banana environment",
+          "🤖 Direct ape banana communication",
+          "📊 Real-time jungle system monitoring",
+          "🎪 Chaos mode banana activation"
+        ],
+        "status": "🔥 Active Jungle Development",
+        "visibility": "public banana repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Todo Inventory jungle management system - Keep up with Jungle Agents at speed, and edit their thoughts as they swing and tinker",
+        "features": [
+          "📋 Banana task tracking",
+          "🏷️ Smart banana categorization",
+          "📈 Analytics jungle dashboard",
+          "🔄 Cross-system banana integration"
+        ],
+        "status": "🚀 Active Jungle Development (private banana repo)",
+        "visibility": "private jungle lab"
+      },
+      "swarmonomicon": {
+        "title": "🐝 Swarmonomicon",
+        "description": "AI agent swarm coordination jungle system - the sacred book of digital ape orchestration and collective banana intelligence",
+        "features": [
+          "🤖 Ape banana orchestration",
+          "💬 Communication banana protocols",
+          "🎮 Interactive banana interfaces",
+          "🧠 Collective banana intelligence"
+        ],
+        "status": "✨ modularly banana functional",
+        "visibility": "public banana repository"
+      },
+      "title": "📂 Project Information",
+      "subtitle": "Project Management Hub",
+      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Project Dashboard",
+          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "features": [
+            "📈 Project progress tracking and analytics",
+            "🎯 Task management and prioritization",
+            "🤖 AI-powered insights and recommendations",
+            "🔗 Integration with external tools",
+            "📊 Real-time collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Integration Platform",
+          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "features": [
+            "🔧 Multi-platform connectivity",
+            "⚙️ Automated workflow processing",
+            "📊 Real-time data synchronization",
+            "🔐 Secure communication protocols",
+            "🎯 Centralized task coordination"
+          ]
+        }
+      }
+    },
+    "errors": {
+      "initializationFailed": "SwarmDesk jungle scripts failed to load within banana timeout",
+      "sceneInitFailed": "❌ Banana scene initialization failed:",
+      "panelSystemFailed": "❌ Failed to create banana panel system:",
+      "panelSystemMissing": "⚠️ FloatingPanelSystem not banana available",
+      "controlsInitFailed": "Failed to initialize banana standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js banana scene:",
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error"
+    },
+    "status": {
+      "loading": "Peeling banana components...",
+      "initialized": "✅ SwarmDesk banana tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk banana scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk banana scripts loading timeout",
+      "containerNotReady": "⚠️ Banana container not ready yet",
+      "panelSystemExists": "🏷️ Banana panel system already exists, ensuring proper state",
+      "panelSystemMissing": "⚠️ Banana panel system missing handleKeyboard, reinitializing...",
+      "panelSystemCreated": "✅ Banana panel system created successfully",
+      "initializing": "⚙️ Initializing System...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "Jungle AI apparatus is not configured. Please venture to Settings → AI Configuration to awaken your AI ape.",
+      "noResponse": "I received your jungle vines but the banana forces were too chaotic to generate a proper response. Please retry your jungle request.",
+      "demoUserRestricted": "🚫 AI jungle consultation is not available for monkey see users. Please register for full tree access to commune with your AI ape."
+    },
+    "quickActions": {
+      "listPending": "Reveal my pending jungle swings",
+      "createHighPriority": "Plant a new urgent swing task",
+      "summarizeProject": "Forage the essence of the {{project}} tree",
+      "filterHighPriority": "Show me urgent banana swings in this apparatus"
+    },
+    "suggestedActions": {
+      "listPending": "Forage Pending",
+      "newHighPrio": "Urgent Swing",
+      "summarize": "Forage Essence"
+    },
+    "status": {
+      "typing": "Jungle consultation is swinging"
+    },
+    "emptyState": {
+      "title": "Madness Interactive Jungle Assistant",
+      "demoMessage": "AI jungle consultation is not available for monkey see users. Register for full tree access to commune with your primate intelligence!",
+      "description": "Your personal jungle ape to help orchestrate trees, navigate apparatus, and forage deeper insights.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Jungle Ape Not Configured",
+      "description": "To commune with your AI ape, please configure your banana apparatus provider in the Jungle Settings.",
+      "configureButton": "Configure Banana Apparatus"
+    },
+    "header": {
+      "title": "AI Jungle Assistant",
+      "refreshTooltip": "Refresh banana context",
+      "settingsTooltip": "Apparatus Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Banana Context",
+      "aiSettings": "AI Apparatus Settings (Go to Jungle Settings)",
+      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Jungle Configuration"
+    },
+    "input": {
+      "placeholder": "Scratch your jungle inquiry...",
+      "demoPlaceholder": "AI jungle consultation is not available for monkey see users. Register for full tree access!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Plant Task",
+      "listTodos": "List Swing Tasks",
+      "projectStatus": "Apparatus Status",
+      "help": "Jungle Guidance",
+      "settings": "Tree Config",
+      "refreshData": "Refresh Banana Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me plant a new jungle task",
+      "listTodos": "Reveal my current swing tasks",
+      "projectStatus": "Forage the status of my jungle apparatus",
+      "help": "What jungle guidance can you provide?",
+      "settings": "Open tree configuration panel",
+      "refresh": "Refresh banana data"
+    },
+    "header": {
+      "title": "AI Jungle Assistant",
+      "statusListening": "Swinging banana energy...",
+      "statusTyping": "Grooming response...",
+      "statusOnline": "Banana Available"
+    },
+    "emptyState": {
+      "greeting": "Ooh ooh! I am your AI Jungle Assistant",
+      "description": "I can help you manage jungle trees, navigate tree apparatus, and forage insights about your banana workspace."
+    },
+    "status": {
+      "thinking": "AI is foraging banana wisdom..."
+    },
+    "input": {
+      "placeholder": "Scratch your banana query..."
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "Banana Enhancement Ritual",
+      "perform_geomancy": "Jungle Forage Divination",
+      "consolidate_similar": "Convergence Grooming"
+    },
+    "descriptions": {
+      "enhance_description": "Channel banana AI wisdom to swing and enhance task descriptions with deeper insights and jungle clarity",
+      "perform_geomancy": "Forage hidden patterns and banana connections within your tree work through canopy analysis",
+      "consolidate_similar": "Groom and merge similar swing tasks through banana convergence algorithms"
+    },
+    "interface": {
+      "title": "🪄 Banana Spell Grooming Tree",
+      "subtitle": "Channel jungle energies to enhance your tree swings",
+      "selectSpell": "Choose Your Jungle Vines",
+      "castSpell": "Swing Spell",
+      "cancelSpell": "Drop Ritual",
+      "casting": "Swinging Banana Energies...",
+      "resultsTitle": "✨ Banana Manifestation Results",
+      "historyTitle": "📜 Banana Spell Chronicle",
+      "clearHistory": "Purge Banana History",
+      "noHistory": "No banana rituals have been swung",
+      "placeholder": "The banana forces await your guidance..."
+    },
+    "effects": {
+      "particles": "Banana particles swinging",
+      "energy": "Jungle energy building",
+      "casting": "Banana forces converging",
+      "complete": "Ritual successfully harvested"
+    },
+    "results": {
+      "enhance": {
+        "success": "🍌 Task swung with banana wisdom!",
+        "improvement": "Banana enhancement applied to jungle documentation",
+        "insights": "Banana insights revealed:",
+        "suggestions": "Jungle suggestions manifested"
+      },
+      "geomancy": {
+        "success": "🌍 Jungle patterns foraged from the tree matrix!",
+        "insights": "Forage revelations:",
+        "patterns": "Banana pattern analysis:",
+        "recommendations": "Jungle recommendations:",
+        "analysis": "Banana analysis complete"
+      },
+      "consolidate": {
+        "success": "🔗 Similar swing tasks groomed and merged!",
+        "merged": "{{count}} tasks converged through banana grooming",
+        "candidates": "Convergence candidates identified:",
+        "preview": "Grooming preview:",
+        "confirmation": "Proceed with banana convergence?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Banana ritual failed: {{error}}",
+      "noDescription": "Task description is required for banana enhancement",
+      "rateLimited": "Banana energies depleted. Await jungle recharge: {{timeRemaining}}",
+      "aiError": "Banana AI ape encountered jungle interference",
+      "networkError": "Banana network connection disrupted",
+      "invalidSpell": "Unknown jungle vines attempted",
+      "unauthorized": "Insufficient tree clearance for this ritual"
+    },
+    "rateLimit": {
+      "enhance": "Enhancement rituals: {{used}}/{{limit}} banana charges",
+      "geomancy": "Forage divinations: {{used}}/{{limit}} jungle consultations",
+      "consolidate": "Grooming spells: {{used}}/{{limit}} convergence attempts",
+      "resetTime": "Banana energies replenish in: {{time}}",
+      "depleted": "Banana energies temporarily depleted"
+    },
+    "tooltip": {
+      "castSpell": "Channel banana energies (🪄)",
+      "enhanceDescription": "Enhance with banana AI wisdom (Ctrl+E)",
+      "performGeomancy": "Forage jungle patterns (Ctrl+G)",
+      "consolidateSimilar": "Groom similar tasks (Ctrl+C)",
+      "spellHistory": "View banana spell chronicle",
+      "clearHistory": "Purge banana spell records"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Jungle Vines:",
+      "enhance": "Ctrl+E - Banana Enhancement",
+      "geomancy": "Ctrl+G - Jungle Forage",
+      "consolidate": "Ctrl+C - Convergence Grooming",
+      "cancel": "Esc - Drop Ritual"
+    },
+    "history": {
+      "timestamp": "Banana timestamp:",
+      "spellType": "Ritual type:",
+      "target": "Target swing:",
+      "result": "Manifestation result:",
+      "success": "✨ Banana Successful",
+      "failed": "❌ Ritual Failed",
+      "duration": "Ritual duration:",
+      "empty": "No banana rituals recorded in the jungle chronicles"
+    },
+    "status": {
+      "idle": "Banana energies at rest",
+      "casting": "Swinging banana forces...",
+      "processing": "Banana computation in progress...",
+      "complete": "Ritual successfully harvested",
+      "failed": "Jungle interference detected",
+      "cooldown": "Recovering banana energies..."
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(40, 30, 0, 0.6)",
+      "cardBorder": "rgba(250, 204, 21, 0.5)",
+      "cardText": "#fef9c3",
+      "iconColor": "#facc15",
+      "chipBg": "#ca8a04",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Banana Orientation",
+      "next": "Proceed to Next Bunch",
+      "back": "Return to Previous Bunch",
+      "getStarted": "Enter the Jungle"
+    },
+    "complete": {
+      "message": "Welcome to the canopy! You're ready to swing through the trees and harvest some sweet success. Go bananas!"
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome to the Jungle",
+        "defaultName": "Banana Enthusiast",
+        "description": "Inventorium is your primate-powered task management and project visualization platform.",
+        "subtitle": "Let's swing through the vines to help you get started."
+      },
+      "projects-overview": {
+        "title": "Banana Stands",
+        "description": "Organize your banana tasks into stands for better jungle management and fruit visualization.",
+        "benefitsTitle": "Banana Stand Benefits:",
+        "benefits": {
+          "organize": "Bundle related bananas together",
+          "visualize": "See ripeness at a glance",
+          "track": "Track harvest milestones",
+          "collaborate": "Share bunches with the troop"
+        },
+        "hint": "🍌 Jungle Wisdom: Every banana can belong to a stand"
+      },
+      "create-project": {
+        "title": "Plant Your First Tree",
+        "description": "Let's plant a tree project to organize your forage. Trees help you group related bananas together.",
+        "guideTitle": "How to plant a tree:",
+        "step1": "Click the floating '+' banana in the bottom right corner",
+        "step2": "Select the 'Tree Branch' tab in the dialog",
+        "step3": "Enter a unique tree name (lowercase with hyphens, e.g., 'my-first-banana-tree')",
+        "step4": "Add a display name and jungle description",
+        "hint": "Tip: Tree names must be unique and use lowercase letters with hyphens"
+      },
+      "add-todo": {
+        "title": "Add Banana to Your Tree",
+        "description": "Now let's add a banana task to your tree. These are the fruits you need to harvest.",
+        "guideTitle": "How to create a task:",
+        "step1": "Click the floating '+' banana again",
+        "step2": "Select the 'Swing Task' tab in the dialog",
+        "step3": "Scratch your task description",
+        "step4": "Select your tree from the dropdown",
+        "step5": "Set urgency and click 'Plant'",
+        "hint": "Tip: You can plant tasks from anywhere in the jungle using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Train Your Banana AI Helper",
+        "description": "Get more bananas by connecting to a smart helper like Google Gemini or OpenAI.",
+        "whyConfigureTitle": "Why train an AI helper?",
+        "benefits": {
+          "suggestions": "Generate smart banana gathering plans",
+          "enhance": "Make your banana descriptions juicier",
+          "analyze": "Find patterns in your banana trees",
+          "insights": "Get banana productivity tips"
+        },
+        "statusConfigured": "Status: ✅ AI helper is trained and ready!",
+        "statusNotConfigured": "Status: ❌ AI helper needs training",
+        "configureButton": "Train AI Helper",
+        "skipButton": "Skip Training",
+        "helpText": "You can train your AI helper anytime from Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "Banana AI Helper",
+        "description": "Get help from your banana AI to manage fruit, analyze jungle patterns, and boost monkey productivity.",
+        "examplesTitle": "Quick Banana Actions:",
+        "quickActions": {
+          "createTodos": "Create banana tasks from peels",
+          "analyzeTasks": "Analyze ripeness patterns",
+          "suggestions": "Get banana suggestions",
+          "insights": "Jungle insights"
+        },
+        "hint": "🍌 Jungle Wisdom: Click the chat banana to start swinging"
+      },
+      "swarmdesk": {
+        "title": "3D Banana Jungle",
+        "description": "Explore your codebase in 3D banana vision - an immersive fruit visualization tool.",
+        "featuresTitle": "Banana Jungle Features:",
+        "features": {
+          "codeViz": "3D banana code trees",
+          "interactive": "Interactive jungle swinging",
+          "architecture": "Tree canopy overview",
+          "dependencies": "Vine mapping"
+        },
+        "hint": "🍌 Jungle Wisdom: Access the jungle from banana stand view",
+        "tabTip": "Once the jungle loads, press TAB to swing between your control tree and the 3D banana workspace"
+      },
+      "complete": {
+        "title": "You're All Peeled!",
+        "description": "You're ready to start using the banana jungle. Explore the fruit and make it your own.",
+        "nextStepsTitle": "Next Banana Bunches:",
+        "nextSteps": {
+          "createProject": "Plant your first tree",
+          "addTodos": "Add bananas to your tree",
+          "tryAI": "Try the banana AI",
+          "checkSwarmDesk": "Explore SwarmDesk 3D"
+        },
+        "footer": "🍌 You can replay this banana tour anytime from the Fruit Stand"
+      }
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Jungle Overview",
+      "users": "Troop Members",
+      "analytics": "Banana Analytics",
+      "featureFlags": "Jungle Protocols",
+      "systemLogs": "Canopy Logs"
+    },
+    "overview": {
+      "title": "Banana Grove Overview",
+      "loading": "Scanning the canopy...",
+      "refresh": "Shake the data tree",
+      "fallback": "(showing mock banana data for development)",
+      "totalUsers": "Total Troop Members",
+      "totalUsersSubtitle": "All registered primates",
+      "activeUsers": "Active Swingers (7d)",
+      "activeUsersSubtitle": "Primates active this banana week",
+      "premiumUsers": "Golden Banana Members",
+      "premiumUsersSubtitle": "Premium grove subscriptions",
+      "errors": "Tree Snaps (24h)",
+      "errorsSubtitle": "Canopy collapses today",
+      "tierDistribution": "Troop Rank Distribution",
+      "tier": {
+        "free": "Seedling",
+        "pro": "Vine Swinger",
+        "premium": "Alpha Ape",
+        "admin": "Jungle Elder"
+      },
+      "productivity": "Harvest Metrics",
+      "totalTodos": "Total Swing Tasks",
+      "completedTodos": "Bananas Harvested",
+      "completionRate": "Harvest Rate"
+    },
+    "analytics": {
+      "title": "Banana Intelligence",
+      "loading": "Loading jungle analytics...",
+      "comingSoon": "Analytics Canopy Under Construction",
+      "description": "Advanced banana charts and jungle visualization apparatus are currently being calibrated. Check back soon for powerful insights into troop behavior, canopy performance, and harvest productivity metrics.",
+      "timeframe": {
+        "day": "Last 24 Banana Hours",
+        "week": "Last 7 Banana Days",
+        "month": "Last 30 Banana Days",
+        "year": "Last 12 Banana Months"
+      },
+      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of banana science!",
+      "charts": {
+        "userGrowth": "Troop Growth Trends",
+        "userGrowthDesc": "Track new primate registrations over time",
+        "activityHeatmap": "Jungle Activity Heatmap",
+        "activityHeatmapDesc": "Visualize troop activity patterns by hour/day",
+        "featureUsage": "Feature Foraging Distribution",
+        "featureUsageDesc": "Which jungle features are most popular?",
+        "performance": "Canopy Performance Metrics",
+        "performanceDesc": "API response times and tree snap rates"
+      }
+    },
+    "logs": {
+      "title": "Canopy Logs",
+      "loading": "Analyzing jungle recordings...",
+      "refresh": "Refresh logs",
+      "fallback": "(showing mock banana data for development)",
+      "autoRefresh": "Auto-forage (30s)",
+      "showing": "Showing",
+      "entries": "entries",
+      "empty": "No logs found - jungle running smoothly!",
+      "columns": {
+        "timestamp": "Banana Time",
+        "level": "Urgency Level",
+        "message": "Jungle Message",
+        "user": "Primate",
+        "endpoint": "Vine Endpoint"
+      },
+      "severity": {
+        "error": "TREE SNAP",
+        "warning": "BANANA WARNING",
+        "info": "JUNGLE INFO"
+      }
+    },
+    "featureFlags": {
+      "title": "Jungle Protocols",
+      "loading": "Loading banana protocols...",
+      "refresh": "Refresh protocols",
+      "fallback": "(showing mock banana data for development)",
+      "lastUpdated": "Last harvested",
+      "unsavedChanges": "You have unsaved jungle changes. These will affect all primates when stashed!",
+      "save": "Stash Changes",
+      "cancel": "Drop Banana",
+      "saving": "Stashing...",
+      "confirmSave": "Yes, Apply Jungle Changes",
+      "tiers": {
+        "free": "Seedling Tier",
+        "pro": "Swinger Tier",
+        "premium": "Alpha Tier",
+        "admin": "Elder Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Swing Tasks",
+        "chat_interface": "Jungle Chat",
+        "theme_selector": "Canopy Theme Selector",
+        "export_todos": "Export Banana Data",
+        "advanced_search": "Advanced Foraging",
+        "unlimited_todos": "Unlimited Swing Tasks",
+        "mindmap_view": "Canopy Map View",
+        "custom_themes": "Custom Jungle Themes",
+        "api_access": "Vine API Access",
+        "priority_support": "Priority Grooming Support",
+        "swarmdesk_3d": "SwarmDesk 3D Jungle",
+        "collaborative_editing": "Troop Collaborative Editing",
+        "ai_copilot": "AI Banana Copilot",
+        "admin_panel": "Jungle Elder Panel",
+        "user_management": "Troop Management",
+        "feature_flags": "Jungle Protocols",
+        "system_logs": "Canopy Logs",
+        "analytics": "Banana Analytics",
+        "debug_mode": "Banana Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Jungle Protocol Changes",
+        "message": "Are you sure you want to apply these changes? This will immediately affect all primates across the jungle. Protocols control access to core banana functionality.",
+        "warning": "Tip: Test changes on a staging tree first. Disabling critical features may disrupt primate workflows."
+      }
+    },
+    "users": {
+      "title": "Troop Management",
+      "loading": "Cataloging jungle primates...",
+      "refresh": "Refresh troop list",
+      "fallback": "(showing mock banana data for development)",
+      "searchPlaceholder": "Search by vine-mail or primate name...",
+      "showing": "Showing",
+      "users": "primates",
+      "filtered": "filtered from",
+      "empty": "No primates registered yet",
+      "noResults": "No primates found matching your jungle search",
+      "adminBadge": "JUNGLE ELDER",
+      "edit": {
+        "title": "Groom Primate Profile",
+        "email": "Vine-Mail",
+        "tier": "Jungle Rank",
+        "isAdmin": "Grant Jungle Elder Access",
+        "cancel": "Drop Banana",
+        "save": "Stash Changes",
+        "saving": "Stashing..."
+      },
+      "columns": {
+        "email": "Vine-Mail",
+        "tier": "Jungle Rank",
+        "status": "Status",
+        "lastLogin": "Last Swing",
+        "todos": "Banana Tasks",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Jungle Elder Access Change",
+        "grantMessage": "You are about to grant jungle elder privileges to this primate. This will give them full access to the elder panel, including troop management, jungle protocols, and canopy logs.",
+        "revokeMessage": "You are about to revoke jungle elder privileges from this primate. They will lose access to all elder functionality.",
+        "cancel": "Drop Banana",
+        "confirm": "Yes, Confirm",
+        "saving": "Stashing..."
+      }
+    },
+    "common": {
+      "loading": "Peeling bananas...",
+      "error": "Tree branch snapped",
+      "refresh": "Shake Tree",
+      "save": "Stash",
+      "cancel": "Drop Banana"
+    }
+  },
+  "queuePane": {
+    "title": "Banana Priority Queue",
+    "subtitle": "Arrange your swing tasks by ripeness and urgency",
+    "dragHint": "Drag banana cards to reorder the vine priority",
+    "searchPlaceholder": "Search the banana queue...",
+    "emptyState": "No bananas in the queue - the tree is bare",
+    "noSearchResults": "No fruit matches your jungle search",
+    "reordering": "Rearranging the banana bunch...",
+    "allProjects": "All Tree Branches",
+    "cardActions": {
+      "complete": "Harvest Banana",
+      "edit": "Re-Groom",
+      "remove": "Drop from Queue"
+    },
+    "incoming": {
+      "title": "Fresh Pickings",
+      "addToTop": "Peel to Top",
+      "addToBottom": "Bunch at Bottom"
+    },
+    "ordered": {
+      "title": "Banana Priority Queue"
+    },
+    "stats": {
+      "total": "Queued Bananas",
+      "high": "Overripe Urgent",
+      "incoming": "Fresh Pickings"
+    }
+  },
+  "umlData": {
+    "title": "Code Visualizations",
+    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload UML File",
+      "reading": "Reading file",
+      "success": "Successfully uploaded {{name}} with {{classes}} classes"
+    },
+    "errors": {
+      "loadFailed": "Failed to load UML datasets",
+      "uploadFailed": "Failed to upload UML file",
+      "deleteFailed": "Failed to delete UML data"
+    },
+    "delete": {
+      "confirmTitle": "Delete Code Visualization?",
+      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "success": "Successfully deleted {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in SwarmDesk..."
+    },
+    "source": {
+      "personal": "Personal",
+      "shared": "Shared"
+    },
+    "instructions": {
+      "title": "How to use:",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON file using the button above"
+    },
+    "storage": {
+      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "limit": "10 files per user (10MB each)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Source",
+      "classes": "Classes",
+      "packages": "Packages",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in SwarmDesk",
+      "delete": "Delete"
+    },
+    "empty": "No code visualizations yet",
+    "empty.hint": "Upload a UML file to see your code in 3D"
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Map Background",
+      "description": "Set a custom background image for your War Room map",
+      "presets": "Presets",
+      "uploads": "Your Uploads",
+      "upload": "Upload",
+      "noUploads": "No custom backgrounds yet",
+      "opacity": "Opacity",
+      "fitMode": "Fit Mode",
+      "fitCover": "Cover",
+      "fitContain": "Contain",
+      "fitStretch": "Stretch",
+      "fitTile": "Tile",
+      "blendWithTerrain": "Blend with Terrain",
+      "remove": "Remove Background",
+      "active": "Active",
+      "uploadError": "Upload failed. Please try again.",
+      "fileTooLarge": "Image must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+    }
+  },
+  "insights": {
+    "loading": "Loading insights...",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "systemLogs": "System Logs"
+    }
+  },
+  "themeName": "banana",
+  "displayName": "Banana Jungle",
+  "description": "Tropical jungle terminology - vines, canopies, apes, and banana harvests",
+  "icon": "🍌",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Jungle Wisdom",
+    "addLesson": "Write on a Banana Leaf",
+    "emptyState": {
+      "title": "No Wisdom Yet!",
+      "message": "The monkeys haven't learned anything new today.",
+      "action": "Scribble a Lesson"
+    },
+    "fields": {
+      "topic": "Jungle Topic",
+      "language": "Monkey Chatter (Language)",
+      "lessonLearned": "What the monkeys learned",
+      "tags": "Vine Tags"
+    },
+    "actions": {
+      "edit": "Carve",
+      "delete": "Toss out",
+      "save": "Stash"
+    }
+  },
+  "mindmap": {
+    "title": "Canopy Mindmap",
+    "emptyState": {
+      "title": "Bare Branches!",
+      "message": "Plant some ideas to grow the canopy."
+    },
+    "controls": {
+      "zoomIn": "Closer Look",
+      "zoomOut": "See the Grove",
+      "resetView": "Back to Base",
+      "centerView": "Center the Tree"
+    }
+  },
+  "swarmdesk": {
+    "title": "Monkey Desk",
+    "emptyState": {
+      "title": "No Monkeys Here",
+      "message": "The swarm is out gathering bananas."
+    },
+    "controls": {
+      "rotate": "Spin the Vine",
+      "zoom": "Zoom In on the Peel",
+      "pan": "Swing Across",
+      "reset": "Drop to Ground"
+    }
+  },
+  "projectSelector": {
+    "title": "Pick a Tree",
+    "placeholder": "Find a specific branch...",
+    "noProjects": "No trees found in this grove.",
+    "createNew": "Plant a new tree!"
+  },
+  "errors": {
+    "generic": "Oops! A monkey slipped on a peel.",
+    "network": "The vines are tangled! Check your connection.",
+    "notFound": "Couldn't find that banana anywhere in the jungle.",
+    "unauthorized": "Hey! Only the Silverback can access this.",
+    "serverError": "The whole canopy is shaking! Server trouble.",
+    "server": "A monkey tripped on a wire! The elders have been hooted at.",
+    "timeout": "The vine was too long. Swing again."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Are you sure you want to toss this banana?",
+    "discard": "Drop this peel?",
+    "archive": "Bury it under the leaves?"
+  },
+  "agentStates": {
+    "working": "Gathering bananas...",
+    "traveling": "Swinging through the vines...",
+    "idle": "Chilling on a branch",
+    "assigned": "Given a bunch to carry"
+  },
+  "targetAgent": {
+    "user": "Chief Macaque",
+    "ai": "Robo-Chimp",
+    "system": "The Great Jungle",
+    "none": "Stray Monkey"
+  },
+  "accountPanel": {
+    "title": "My Monkey Business",
+    "tabs": {
+      "profile": "Peeled Profile",
+      "subscription": "Banana Subscriptions",
+      "account": "Account Treehouse"
+    },
+    "subscriptionDisabled": "The banana subscription bunch is empty",
+    "dangerZone": "The Forbidden Peel"
+  },
+  "billing": {
+    "title": "Banana Stash & Treats",
+    "subtitle": "Manage your jungle supply rites",
+    "loginRequired": "You must show your monkey badge to see the stash",
+    "goToLogin": "Enter the Jungle",
+    "currentPlan": "Current Banana Tier",
+    "perMonth": "/banana moon",
+    "nextBillingDate": "Next harvest collection:",
+    "planFeatures": "HARVEST BENEFITS:",
+    "upgradeToPro": "BECOME SILVERBACK",
+    "manageBilling": "Sort the Stash",
+    "cancelSubscription": "Stop the Harvest",
+    "usageStats": "Jungle Metrics",
+    "totalTodos": "Active Foraging",
+    "projects": "Banana Groves",
+    "unlimited": "Infinite Bunches",
+    "upgradePrompt": "Ascend to Silverback for infinite foraging, groves, the War Tree, and the MonkeyDesk canopy!",
+    "cancelSuccess": "Harvest stopped. Your jungle access stays until the current moon sets.",
+    "status": {
+      "active": "RIPENING",
+      "free": "CHIMP",
+      "inactive": "MUSH"
+    },
+    "errors": {
+      "loadFailed": "The banana stash is stuck in the mud",
+      "cancelFailed": "The harvest won't stop! Call the head monkey.",
+      "portalFailed": "The vine to the portal snapped."
+    },
+    "cancelDialog": {
+      "title": "Stop the Harvest?",
+      "message": "Are you sure you want to stop? Silverback perks stay until the moon sets.",
+      "resubscribe": "You can start harvesting again anytime.",
+      "keep": "Keep the Bananas",
+      "confirm": "Yes, Stop"
+    }
+  },
+  "pricing": {
+    "title": "Banana Tiers",
+    "subtitle": "The chimp path is okay. Silverback gets all the fruit.",
+    "backToDashboard": "Back to the Treetops",
+    "currentPlan": "CURRENT FRUIT",
+    "free": "Chimp",
+    "perMonth": "/banana moon",
+    "loginToUpgrade": "SHOW BADGE TO CLIMB HIGHER",
+    "currentTier": "CURRENT BRANCH",
+    "upgrade": "CLIMB",
+    "finePrint": "Drop anytime. No sticky vines. Your bananas stay yours.",
+    "errors": {
+      "loginRequired": "Show your badge to climb to Silverback",
+      "checkoutFailed": "The fruit fell off the tree. Try again."
+    }
+  },
+  "cancel": {
+    "title": "Harvest Stopped",
+    "message": "No worries! You can re-join the bunch anytime. Your chimp grove is still open.",
+    "goToDashboard": "Back to the Jungle",
+    "viewPlans": "See the Tiers"
+  },
+  "chronomancy": {
+    "loading": "Swinging through the vines to find your history...",
+    "noVersions": "No old bananas in this bunch.",
+    "today": "Today's Harvest",
+    "yesterday": "Yesterday's Peel",
+    "daysAgo": "{{days}} suns ago",
+    "currentVersion": "Top of the Canopy",
+    "versionLabel": "Banana v{{version}}",
+    "versions": "bananas",
+    "gitCommit": "Vine snap",
+    "classesChange": "Tree growth",
+    "linesChange": "Leaf count",
+    "deleteVersion": "Toss the peel",
+    "deleteDialog": {
+      "title": "Chuck this banana?",
+      "message": "Permanently toss v{{version}} of {{project}}? No monkeys can find it again.",
+      "cancel": "Keep it",
+      "confirm": "Toss it"
+    },
+    "compare": {
+      "selectTwo": "Pick two bananas",
+      "button": "Compare v{{from}} → v{{to}}"
+    },
+    "diff": {
+      "title": "Banana Peel v{{from}} vs v{{to}}",
+      "added": "Grown",
+      "removed": "Eaten",
+      "modified": "Ripened",
+      "unchanged": "Still Green",
+      "complexity": "Jungle thickness",
+      "lines": "Vines",
+      "noClassesAdded": "No new trees",
+      "noClassesRemoved": "No trees chopped",
+      "noClassesModified": "No trees changed",
+      "methodsAdded": "New branches:",
+      "methodsRemoved": "Snapped branches:",
+      "depsAdded": "New vines:",
+      "depsRemoved": "Cut vines:",
+      "close": "Back to the canopy"
+    }
+  }
+}

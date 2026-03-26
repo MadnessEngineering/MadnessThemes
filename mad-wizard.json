@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Nascent Phylacteries",
+    "subtitle": "Set up a new project in your mad laboratory",
+    "buttons": {
+      "reset": "Reset Apparatus",
+      "create": "Seal the Phylactery",
+      "submit": "Launch Investigation",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "DEMO MODE",
+      "title": "Mad Tinker's Experimentation Lab - Read Only",
+      "description": "🎭 You're exploring in demo mode! Project creation is disabled to preserve the workshop's delicate experiments. Sign up for full tinker access to unleash your creative chaos!"
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Research Tasks",
+    "lessons": "Laboratory Notes",
+    "project": "New Experiment",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "Project incantation name is required",
+    "nameLength": "Incantation must be at least 2 mystical characters",
+    "nameFormat": "Name can only contain letters, numbers, mystic hyphens, and underscores",
+    "displayNameRequired": "Display name for your apparatus is required",
+    "descriptionRequired": "Project research notes are required",
+    "descriptionLength": "Research documentation must be at least 10 characters to be worthy",
+    "topicRequired": "Research topic cannot be mystically void",
+    "topicTooLong": "Research topic must be less than 200 mystical characters",
+    "contentRequired": "Tests must be comparable, What happened here? What timeline is this?",
+    "contentTooLong": "Research documentation must be less than 5000 mystical characters",
+    "invalidLanguage": "Please select a valid incantation language",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Archive Findings",
+    "cancel": "Abandon Experiment",
+    "close": "Seal Apparatus",
+    "edit": "Modify Apparatus",
+    "delete": "Banish to Void",
+    "reset": "Reset Apparatus",
+    "refresh": "Refresh Portal",
+    "loading": "Void Tunneling...",
+    "error": "Mystical interference detected",
+    "success": "Experiment successfully archived!",
+    "failed": "Apparatus malfunction - investigation halted",
+    "perPage": "per experiment",
+    "refreshNow": "Refresh Experiment",
+    "copyId": "Copy Research ID",
+    "show": "View",
+    "copy": "Mystical Copy",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Experiment Code Name",
+    "displayName": "Laboratory Display Name",
+    "description": "Research Documentation",
+    "type": "Apparatus Type",
+    "visibility": "Research Visibility",
+    "repository": "Knowledge Repository",
+    "language": "Incantation Language",
+    "framework": "Mystical Framework",
+    "priority": "Ritual Urgency",
+    "status": "Research Phase",
+    "notes": "Arcane Annotations",
+    "ticket": "Mystical Reference"
+  },
+  "dashboard": {
+    "title": "📊 Workshop Command Central",
+    "projectStats": {
+      "title": "📂 Laboratory Experiments",
+      "collection": "experiment archives",
+      "totalProjects": "Total Experiments",
+      "activeProjects": "Active Investigations",
+      "projectsWithCompleted": "Completed Research",
+      "avgTasksPerProject": "Avg Tasks/Experiment"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Research Priority Analysis",
+      "pendingTasks": "Awaiting Investigation",
+      "inReview": "Under Analysis",
+      "inProgress": "Brewing",
+      "blocked": "Cursed",
+      "completed": "Research Complete",
+      "highPriority": "Urgent Experiments",
+      "mediumPriority": "Standard Research",
+      "lowPriority": "Background Studies"
+    },
+    "activityLog": {
+      "title": "📊 Laboratory Activity Logs",
+      "collection": "research_logs archive",
+      "description": "Chronicle all research modifications and experimental operations",
+      "updates": "Modifications",
+      "creates": "New Experiments",
+      "deletes": "Archived Studies",
+      "completions": "Research Conclusions",
+      "totalEntries": "Total Records"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recent Discoveries"
+    },
+    "welcome": {
+      "message": "Welcome to the Madness Interactive Laboratory! Your mystical research command center.",
+      "description": "The Experimental Apparatus is primed for discovery! This command center appears when no research panels are active. Use the mystical controls above to access specific research areas, experimental logs, project archives, and more.",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "📝 Research Tasks",
+      "chatAssistant": "🤖 AI Laboratory Assistant",
+      "activityLog": "📋 Research Logs",
+      "projects": "📂 Experiments"
+    },
+    "filters": {
+      "allActivity": "All Arcane Activity",
+      "todosCreated": "Conjured Experiments",
+      "todosUpdated": "Transmuted Experiments",
+      "todosCompleted": "Perfected Elixirs",
+      "todosDeleted": "Banished Specimens",
+      "projectsCreated": "New Apparatus Summoned",
+      "projectsUpdated": "Apparatus Calibrated",
+      "projectsDeleted": "Apparatus Disintegrated"
+    },
+    "unifiedView": "The Grand Grimoire View",
+    "personalView": "My Private Sanctum",
+    "showingAllDatabases": "Gazing into all Dimensional Databases!",
+    "showingPersonalOnly": "Focusing on my personal enchantments!",
+    "filteredByProject": "Scrying specific apparatus...",
+    "noLogsFound": "No mystical traces found in this sector!",
+    "tryChangingFilter": "Try tweaking the temporal filters!",
+    "startCreatingTodos": "Begin conjuring new experiments immediately!",
+    "failedToLoad": "The spell fizzled: {{error}}",
+    "changesMade": "Arcane alterations applied!",
+    "completionNotes": "Field notes on this perfection:",
+    "revertOperation": "Reverse the {{operation}} polarity!",
+    "revertSuccess": "Magnificent! Successfully reversed {{operation}}!",
+    "revertFailed": "Catastrophic backlash! Reversal failed: {{error}}",
+    "revertDeleteNotSupported": "Banished souls cannot be brought back!",
+    "revertNotSupported": "This {{operation}} is permanently bound to reality!",
+    "confirmRevert": "Are you mad?! Confirm Reversal!",
+    "confirmRevertMessage": "Do you truly wish to reverse the {{operation}} on {{description}}? The consequences could be explosive!",
+    "confirmRevertAction": "PULL THE LEVER!",
+    "operationType": "Nature of the Spell",
+    "taskDescription": "Specimen Details",
+    "descriptions": {
+      "projectCreated": "Summoned the mighty {{projectName}}!",
+      "projectUpdated": "Recalibrated the runes on {{projectName}}!",
+      "projectDeleted": "Cast {{projectName}} into the void!",
+      "projectModified": "Twisted the fabric of {{projectName}}!",
+      "unknownTask": "An anomaly of unknown origins!"
+    },
+    "showingPageStats": "Scrying page {{currentPage}} of {{totalPages}} ({{totalCount}} anomalies detected!)",
+    "autoRefreshingInterval": "Crystal ball refreshing every 30 seconds!",
+    "stats": {
+      "totalProjects": "Total Apparatuses",
+      "activeProjects": "Bubbling Cauldrons",
+      "completedTodos": "Mastered Enchantments",
+      "archivedProjects": "Dusty Tomes"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "📋 Laboratory Activity Chronicle",
+    "autoRefreshOn": "Auto-scrying ON",
+    "autoRefreshOff": "Auto-scrying OFF",
+    "filters": {
+      "allActivity": "All Laboratory Activities",
+      "todosCreated": "New Experiments Created",
+      "todosUpdated": "Experiments Modified",
+      "todosCompleted": "Research Completed",
+      "todosDeleted": "Experiments Banished",
+      "projectsCreated": "New Apparatus Created",
+      "projectsUpdated": "Apparatus Modified",
+      "projectsDeleted": "Apparatus Banished",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Mystical Omniscient View",
+    "personalView": "👤 Personal Laboratory View",
+    "showingAllDatabases": "Displaying chronicles from all mystical repositories",
+    "showingPersonalOnly": "Displaying only your personal research chronicles",
+    "filteredByProject": "Filtering by apparatus:",
+    "noLogsFound": "No experimental chronicles found",
+    "tryChangingFilter": "Try focusing your mind",
+    "startCreatingTodos": "Begin experiments to generate mystical activity",
+    "failedToLoad": "Failed to summon activity chronicles: {{error}}",
+    "changesMade": "Mystical modifications:",
+    "completionNotes": "Research conclusions:",
+    "revertOperation": "Reverse {{operation}} spell",
+    "revertSuccess": "Successfully reversed {{operation}} enchantment",
+    "revertFailed": "Reversal spell failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot reverse deletion spell - essence is dispersed",
+    "revertNotSupported": "Reversal not possible for {{operation}} enchantment",
+    "confirmRevert": "Confirm Mystical Reversal",
+    "confirmRevertMessage": "Are you certain you wish to reverse this {{operation}} enchantment for: {{description}}?",
+    "confirmRevertAction": "Reverse Enchantment",
+    "operationType": "Spell Type",
+    "taskDescription": "Experiment Description",
+    "descriptions": {
+      "projectCreated": "Apparatus \"{{projectName}}\" was manifested",
+      "projectUpdated": "Apparatus \"{{projectName}}\" was modified",
+      "projectDeleted": "Apparatus \"{{projectName}}\" was banished",
+      "projectModified": "Apparatus \"{{projectName}}\" underwent mystical alterations",
+      "unknownTask": "Unknown mystical experiment"
+    },
+    "showingPageStats": "Viewing chronicle {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
+    "autoRefreshingInterval": " • Auto-scrying every 30 mystical moments",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "🎓 Mystical Discoveries Archive",
+    "refreshLessons": "Refresh Mystical Discoveries",
+    "addLesson": "Archive New Discovery",
+    "searchPlaceholder": "Search mystical knowledge, insights, or experimental tags...",
+    "languages": {
+      "allLanguages": "All Incantation Languages",
+      "javascript": "JavaScript Mysticism",
+      "typescript": "TypeScript Alchemy",
+      "python": "Python Serpent Magic",
+      "rust": "Rust Forge Craft",
+      "go": "Go Lightning Incantations",
+      "general": "General Mystical Arts"
+    },
+    "filters": {
+      "allLessons": "All Mystical Discoveries",
+      "bookmarked": "Starred Discoveries",
+      "recent": "Recent Revelations (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Mystical Discoveries",
+      "vaultEmpty": "Mystical Knowledge Vault is Empty!",
+      "noMatchSearch": "No discoveries match \"{{searchTerm}}\". Try adjusting your mystical search parameters.",
+      "noMatchFilters": "No discoveries found with current mystical filters. Try broadening your research criteria.",
+      "startDocumenting": "Begin documenting your mystical revelations! Every bug banished and feature conjured is mystical knowledge gained."
+    },
+    "createFirstLesson": "Archive Your First Mystical Discovery",
+    "actions": {
+      "starred": "Mystically Starred",
+      "addStar": "Add Mystical Star"
+    },
+    "pagination": {
+      "showingRange": "Displaying {{start}}-{{end}} of {{total}} mystical discoveries"
+    },
+    "dialog": {
+      "editTitle": "🎓 Modify Mystical Discovery",
+      "addTitle": "🎓 Archive New Mystical Discovery",
+      "topicLabel": "Research Topic",
+      "lessonLabel": "Mystical Discovery",
+      "languageLabel": "Incantation Language",
+      "tagsLabel": "Mystical Tags (comma separated)",
+      "tagsPlaceholder": "alchemy, apparatus, mystical",
+      "databaseLabel": "Archive Location",
+      "personalDatabase": "👤 Personal Laboratory Archive",
+      "sharedDatabase": "🌐 Shared Mystical Compendium (swarmonomicon)",
+      "updateLesson": "Update Discovery",
+      "createLesson": "Archive Discovery"
+    },
+    "failedToLoad": "Failed to summon mystical discoveries: {{error}}",
+    "confirmDelete": "Are you sure you want to banish this mystical discovery to the void?"
+  },
+  "todoManagement": {
+    "title": "📝 Research Task Management"
+  },
+  "app": {
+    "titleShort": "Madness Laboratory",
+    "titleLong": "Madness Interactive Research Laboratory"
+  },
+  "panels": {
+    "todos": "📝 Research Tasks",
+    "logs": "📋 Lab Logs",
+    "aiChat": "🤖 AI Assistant",
+    "create": "➕ New Experiment",
+    "projects": "📂 Experiments",
+    "mindMap": "🗺️ Knowledge Map",
+    "swarmDesk": "🎪 SwarmDesk Portal",
+    "lessons": "🎓 Research Notes",
+    "insights": "📊 Laboratory Readings",
+    "settings": "⚙️ Apparatus Config",
+    "labMaintenance": "🧹 Workshop Cleanup"
+  },
+  "labMaintenance": {
+    "title": "Workshop Maintenance Bay",
+    "tabs": {
+      "orphaned": "Lost Specimens",
+      "completed": "Archived Results",
+      "consolidate": "Lab Overview"
+    },
+    "selectAll": "Collect All",
+    "clearSelection": "Release",
+    "targetProject": "Reassign to experiment...",
+    "reassign": "Relocate",
+    "reassignSelected": "Relocate lost specimens to chosen experiment",
+    "reopen": "Reanimate",
+    "reopenSelected": "Reanimate archived experiments back to active duty",
+    "delete": "Banish",
+    "deleteSelected": "Banish selected specimens to the void",
+    "selectProjectFirst": "Select a destination experiment first",
+    "todosUpdated": "specimens processed",
+    "noOrphans": "No lost specimens detected. All research tasks are properly catalogued.",
+    "noCompleted": "No archived results found in the vaults.",
+    "consolidateDescription": "Overview of workshop health and specimen containment status.",
+    "orphanedProjectsLabel": "Abandoned Experiments With Remaining Specimens",
+    "quickStats": "Laboratory Diagnostics",
+    "orphaned": "Lost",
+    "completed": "Archived",
+    "deletedProjects": "Abandoned",
+    "activeProjects": "Active"
+  },
+  "demo": {
+    "label": "DEMO - Observatory Mode"
+  },
+  "menu": {
+    "documentation": "Research Manuals",
+    "replayTutorial": "Re-initiate Apparatus Calibration",
+    "userManagement": "Test Subject Registry",
+    "github": "Source Archive",
+    "logout": "Exit Laboratory"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 Mystical insights channeled! Review the enhanced research notes.",
+    "todoMarkedForReview": "👁️ Research task marked for peer review successfully!",
+    "todoCompleted": "✅ Experimental task completed successfully!",
+    "taskCreated": "🎉 New research task archived successfully!",
+    "projectCreated": "🚀 New experiment initiated successfully!",
+    "aiConfigured": "✅ AI familiar successfully bound to your apparatus!",
+    "todoCreated": "📝 New task created.",
+    "settingsSaved": "⚙️ Settings saved.",
+    "exportCompleted": "📤 Export complete.",
+    "importCompleted": "📥 Import complete."
+  },
+  "projectNavigator": {
+    "title": "🚀 LABORATORY PORTAL",
+    "subtitle": "Select your research domain • Enter mystical experimental environments",
+    "cacheStatus": "🏪 Mystical cache • Last summoned: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh Apparatus • M: Main Laboratory • 1-9: Quick portal",
+    "manageTooltip": {
+      "admin": "Manage All Experiments (Master Alchemist)",
+      "personal": "Manage Personal Research Projects"
+    },
+    "refreshTooltip": "Refresh Experimental Data",
+    "mainSwarmDeskTooltip": "Enter Main Laboratory Portal",
+    "loading": {
+      "title": "🔍 Scanning Research Realms...",
+      "subtitle": "Gathering experimental data and mystical metrics"
+    },
+    "stats": {
+      "pending": "active",
+      "completed": "archived"
+    },
+    "activity": {
+      "title": "Recent Discoveries",
+      "noActivity": "No recent experimental activity"
+    },
+    "enterButton": {
+      "selected": "⚡ PORTAL ACTIVE",
+      "enter": "🚀 ENTER REALM",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Banish Apparatus",
+      "confirm": "Are you sure you wish to banish apparatus \"{{projectName}}\"?",
+      "graveyardNote": "This will consign the apparatus to the graveyard. You may restore it later if needed.",
+      "hasTodos": "This apparatus has {{count}} experimental task(s). Would you relocate them?",
+      "relocateLabel": "Relocate tasks to another apparatus",
+      "selectDestination": "Select destination apparatus",
+      "cancel": "Cancel",
+      "deleteButton": "Banish Apparatus"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} brewing",
+      "completedTasks": "{{count}} archived"
+    },
+    "loading": "🎪 Manifesting {{projectId}} Laboratory...",
+    "controls": "🎮 WASD: Navigate | Mouse Drag: Observe | ESC: Exit Experiment",
+    "workstation": {
+      "todoHint": "📝 Click to manage experimental research",
+      "projectHint": "🎪 Click to view experimental apparatus"
+    },
+    "statsPanel": {
+      "title": "📊 Experimental Metrics",
+      "totalTasks": "Total Research",
+      "pending": "Active Experiments",
+      "completed": "Archived Studies"
+    },
+    "reviewTab": {
+      "title": "Scrying Chamber",
+      "approveButton": "Seal Manifestation",
+      "requestChanges": "Return to Cauldron",
+      "returnToProgress": "Resume Investigation",
+      "emptyState": "The scrying pool is clear"
+    }
+  },
+  "projectTab": {
+    "title": "New Laboratory Experiment",
+    "sections": {
+      "basicInfo": "Experimental Foundation",
+      "configuration": "Apparatus Configuration",
+      "technicalDetails": "Mystical Implementation Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Manifestation",
+      "mobile": "Portable Apparatus",
+      "desktop": "Desktop Laboratory",
+      "library": "Mystical Library/Archive",
+      "api": "Ethereal API/Service",
+      "general": "General Research Project"
+    },
+    "buttons": {
+      "creating": "Manifesting...",
+      "demoMode": "Observatory Mode",
+      "createProject": "BEGIN EXPERIMENTATION"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Experiment",
+      "default": "Primary Laboratory"
+    },
+    "sections": {
+      "metadata": "Mystical Metadata (Optional Incantations)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Research",
+      "pending": "Active Experiments",
+      "review": "Under Review",
+      "completed": "Archived Studies",
+      "all": "All Tasks",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "in_progress": "Brewing"
+    },
+    "sort": {
+      "newest": "Fresh Contraptions",
+      "oldest": "Ancient Artifacts",
+      "priority": "Urgency Order",
+      "madness": "Chaos Mode"
+    },
+    "search": {
+      "placeholder": "Search mystical experiments..."
+    },
+    "project": {
+      "label": "Experiment",
+      "allProjects": "All Experiments ({{count}})",
+      "clearFilter": "Dispel Filter",
+      "clearAll": "Banish all"
+    },
+    "pagination": {
+      "show": "Display",
+      "perPage": "per laboratory",
+      "all": "All Research",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Viewing {{start}}-{{end}} of {{total}} research tasks",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by experiment: <strong>{{project}}</strong>",
+      "filteringByProjects": "Conjuring {{count}} experiment(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Research",
+      "workshopClear": "Laboratory is Clear!",
+      "noMatchingDescription": "No experiments match \"{{searchText}}\". Try adjusting your mystical search parameters.",
+      "workshopClearDescription": "No active research found. The mystical apparatus has achieved perfect order... or perhaps the experiments are conducting themselves."
+    },
+    "buttons": {
+      "refresh": "Refresh Apparatus",
+      "export": "Extract Research Data",
+      "saving": "Void Tunneling...",
+      "saveChanges": "Channel Changes",
+      "discard": "Abandon Timeline",
+      "complete": "",
+      "edit": "Modify Experiment",
+      "copyId": "Copy Research ID",
+      "copyJiraCmd": "Cast Jira Incantation",
+      "review": "Peer Review",
+      "aiInsights": "Divination"
+    },
+    "fullEdit": {
+      "modeTitle": "🔧 Workshop Mode - Full Edit Access"
+    },
+    "menu": {
+      "editTask": "Modify Research",
+      "copyId": "Copy Research ID",
+      "copyJiraCmd": "Copy Jira Incantation",
+      "deleteTask": "Banish Research"
+    },
+    "dialog": {
+      "completeTitle": "Complete Research: {{description}}",
+      "completeDescription": "Add optional research notes about how this experiment was concluded (e.g., mystical discoveries, apparatus adjustments, obstacles overcome, etc.)",
+      "completePlaceholder": "e.g., Successfully transmuted the CSS elements by realigning the mystical breakpoints. Required 2 hours due to compatibility testing with ancient browser spirits.",
+      "cancel": "Abandon",
+      "completeTask": "Archive Research",
+      "exportTitle": "Extract Research Data Compendium",
+      "exportDescription": "Preparing to extract {{count}} research tasks from the mystical archives",
+      "exportFilename": "Compendium Scroll Name",
+      "exportFilenameHelp": "The name of your extracted research compendium (extension will be added mystically)",
+      "exportFormat": "Extraction Ritual Format",
+      "exportButton": "Extract Data",
+      "formatJSON": "JSON - Mystical Archive Format",
+      "formatJSONDesc": "Complete research data in structured mystical notation for reimportation",
+      "formatCSV": "CSV - Tabular Scroll Format",
+      "formatCSVDesc": "Spreadsheet-compatible format for analysis in external apparatus",
+      "formatMarkdown": "Markdown - Readable Scroll Format",
+      "formatMarkdownDesc": "Human-readable documentation format for mystical review",
+      "formatHTML": "HTML - Cosmic Visualization Scroll",
+      "formatHTMLDesc": "Fully-styled web page with embedded cosmic theme for browser viewing",
+      "formatJira": "Jira/Slack Mystical Incantations",
+      "formatJiraDesc": "Ready-to-channel Slack commands for manifesting Jira mystical artifacts",
+      "formatVariant": "Format Variation",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard Format",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Mystical Data Fields",
+      "customizeFields": "Customize Mystical Field Names",
+      "renameFields": "Rename Exported Fields",
+      "calculatedFields": "Calculated Mystical Properties",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days since creation)",
+        "daysSinceUpdate": "Days since last update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete (days)"
+      },
+      "selectAll": "All Fields",
+      "selectNone": "Clear Selection",
+      "advancedFilters": "Advanced Mystical Filters",
+      "dateRange": "Created Between Dates",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "priorityFilter": "Mystical Priority Levels",
+      "statusFilter": "Task Status Filter"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "Research ID",
+      "description": "Experiment Description",
+      "project": "Laboratory Project",
+      "priority": "Mystical Urgency",
+      "status": "Research Phase",
+      "target": "Target Agent",
+      "created": "Inception Timestamp",
+      "updated": "Last Transmutation",
+      "metadata": "Mystical Metadata",
+      "source": "Ethereal Source",
+      "notes": "Laboratory Notes",
+      "ticket": "Mystical Ticket Reference",
+      "completed_at": "Completion Timestamp",
+      "completed_by": "Completed By Researcher",
+      "completion_comment": "Completion Notes",
+      "duration": "Experiment Duration",
+      "duration_sec": "Duration (Seconds)",
+      "tags": "Research Tags",
+      "complexity": "Mystical Complexity",
+      "confidence": "Confidence Level",
+      "phase": "Research Phase",
+      "epic": "Grand Epic",
+      "blockers": "Mystical Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Research description cannot be empty",
+      "descriptionTooLong": "Research documentation must be less than 500 mystical characters",
+      "invalidProject": "Please select a valid experiment from the laboratory"
+    },
+    "error": {
+      "failedToLoad": "Failed to summon research tasks",
+      "unknownError": "Unknown mystical interference",
+      "malfunctionMessage": "The Laboratory Apparatus encountered mystical interference. Please try refreshing the mystical connection or check your ethereal network."
+    },
+    "placeholders": {
+      "setStatus": "Set research phase...",
+      "editDescription": "Channel your experimental intentions...",
+      "selectProject": "Choose experiment...",
+      "setPriority": "Set mystical urgency..."
+    },
+    "tooltip": {
+      "unsavedChanges": "Mystical modifications await archiving"
+    },
+    "labels": {
+      "readOnly": "🔒 Observatory Mode",
+      "review": "PEER REVIEW"
+    },
+    "aria": {
+      "todoActions": "Research task mystical actions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Summoning research task from the mystical archives..."
+    },
+    "header": {
+      "editTodo": "Modify Mystical Research",
+      "createNewTodo": "Archive New Research"
+    },
+    "buttons": {
+      "backToDashboard": "Return to Laboratory Command Central"
+    },
+    "error": {
+      "todoNotFound": "Research task has vanished from the mystical archives. It may have been banished or the reference scroll is corrupted."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Laboratory Workshop Mode - Full Mystical Access"
+    },
+    "tips": {
+      "title": "💡 Mystical Research Tips:",
+      "description": "• Channel intentions into any field to modify • Use the Edit apparatus for complete form • ESC to abandon ritual • Ctrl+Enter to archive findings • Purple sparkle for ethereal enhancement"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Apparatus Configuration",
+    "confirmReset": "Are you certain you wish to reset all mystical apparatus configurations to their original state? This transmutation cannot be undone.",
+    "messages": {
+      "saveSuccess": "Apparatus configurations successfully archived!",
+      "saveError": "Failed to archive apparatus settings to mystical repository"
+    },
+    "export": {
+      "starting": "Initiating mystical data extraction...",
+      "success": "Extraction completed! Manifested {{todoCount}} research tasks, {{projectCount}} experiments, and apparatus configurations.",
+      "error": "Extraction failed due to mystical interference: {{error}}"
+    },
+    "import": {
+      "starting": "Initiating mystical data manifestation...",
+      "confirmDialog": "Manifestation Preview:\n\n{{todoCount}} research tasks, {{projectCount}} experiments, {{settingsCount}} apparatus configurations\n\nMystical conflicts detected:\n{{conflicts}}\n\nProceed with manifestation ritual?",
+      "success": "Manifestation completed! Successfully imported {{importedCount}} mystical entities. {{skippedCount}} entities remained in the void.",
+      "error": "Manifestation failed due to mystical interference: {{error}}",
+      "fileDialogError": "Failed to open mystical file portal"
+    },
+    "tabs": {
+      "profile": "Laboratory Profile",
+      "database": "Mystical Repository",
+      "aiConfiguration": "AI Assistant Configuration",
+      "mcpSetup": "MCP Apparatus Setup",
+      "messaging": "Consciousness Personas",
+      "apiKeys": "Mystical Access Keys",
+      "appearance": "Visual Apparatus",
+      "mindMap": "Knowledge Visualization",
+      "umlData": "Arcane Code Blueprints",
+      "privacy": "Research Privacy",
+      "advanced": "Advanced Mystical Controls",
+      "npcAgents": "Ethereal Familiars",
+      "swarmDesk": "Velocity Calibration Chamber"
+    },
+    "swarmdesk": {
+      "movementTitle": "Ethereal Drift Calibration",
+      "movementDescription": "Fine-tune the velocity coefficients for orbital drift and terrestrial locomotion within the SwarmDesk dimension.",
+      "resetDefaults": "Restore Factory Enchantments",
+      "orbitalTitle": "Orbital Drift Mode (O key)",
+      "orbitalDescription": "Governs ethereal camera drift while navigating the astral plane.",
+      "orbitalBaseSpeed": "Drift Coefficient",
+      "orbitalSprintMultiplier": "Arcane Boost Multiplier (Ctrl held)",
+      "fpsTitle": "Terrestrial Mode (F key)",
+      "fpsDescription": "Governs ground-level locomotion through the dimensional corridors.",
+      "fpsBaseSpeed": "Walking Velocity",
+      "fpsSprintSpeed": "Sprint Velocity (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Consciousness Persona Configuration",
+      "subtitle": "Configure which consciousness personas are permitted in experimental transmissions. Essential personas can be obscured but not banished (they remain active in validation rituals).",
+      "allowedRoles": "Permitted Personas",
+      "addRole": "Conjure New Persona",
+      "editRole": "Modify Consciousness Persona",
+      "infoMessage": "These consciousness personas will manifest when crafting experimental transmissions. Each persona can wield a unique mystical sigil for identification. Essential personas may be veiled yet never banished from the apparatus.",
+      "roleId": "Persona Identifier",
+      "roleIdHelper": "Lowercase arcane notation, using letters, digits, and ritual hyphens (e.g., 'oracle-4', 'mystical-agent')",
+      "roleIdDisabled": "Persona identifier is permanently inscribed",
+      "displayLabel": "Manifestation Label",
+      "displayLabelHelper": "Readable invocation name displayed in laboratory apparatus",
+      "emoji": "Mystical Sigil",
+      "emojiHelper": "Single symbolic glyph for consciousness identification",
+      "coreRole": "Essential Persona",
+      "hidden": "Veiled",
+      "showRole": "Reveal persona",
+      "hideRole": "Veil persona",
+      "saveChanges": "Inscribe Modifications",
+      "cancel": "Dismiss",
+      "npcConfig": "Homunculus Conjuration",
+      "npcEnabled": "Summon as SwarmDesk Homunculus",
+      "npcCount": "Clone Count",
+      "npcCountHelper": "Choose how many manifested copies of this persona should patrol the workshop (0-5).",
+      "npcColor": "Aura Color",
+      "npcColorHelper": "Used for the homunculus glow and status sigil.",
+      "npcRole": "Arcane Title",
+      "npcRoleHelper": "Displayed above the summoned homunculus in SwarmDesk.",
+      "npcPersonality": "Temperament",
+      "npcPersonalityHelper": "Shapes the homunculus mannerisms and fallback incantations.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Familiar",
+        "chaotic_genius": "Chaos Savant",
+        "methodical_precise": "Rune-Scribed Exactor",
+        "curious_explorer": "Planar Scout",
+        "zen_creative": "Tranquil Muse",
+        "welcoming_efficient": "Portal Steward",
+        "organized_visionary": "Grand Architect"
+      },
+      "duplicateRoleId": "A specimen with this designation already inhabits the laboratory!",
+      "duplicateAgentId": "An agent bearing this identifier already haunts the workshop!"
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "umlData": {
+    "title": "🏛️ Arcane Code Blueprints",
+    "description": "Manage mystical schema diagrams for 3D ethereal city manifestation in SwarmDesk",
+    "upload": {
+      "button": "Inscribe New Blueprint",
+      "reading": "Deciphering mystical inscriptions",
+      "success": "Successfully inscribed {{name}} with {{classes}} arcane structures"
+    },
+    "errors": {
+      "loadFailed": "Failed to materialize blueprint collection from the ether",
+      "uploadFailed": "Failed to inscribe mystical blueprint to repository",
+      "deleteFailed": "Failed to banish blueprint from collection"
+    },
+    "delete": {
+      "confirmTitle": "Banish Code Blueprint?",
+      "confirmMessage": "Are you certain you wish to banish {{name}} from your mystical archives? This transmutation cannot be reversed.",
+      "success": "Successfully banished {{name}} from the collection"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Manifesting in SwarmDesk apparatus..."
+    },
+    "source": {
+      "personal": "Personal Grimoire",
+      "shared": "Shared Archives"
+    },
+    "instructions": {
+      "title": "Ritual Instructions:",
+      "step1": "Summon the blueprint generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Extract mystical patterns from your project: uml-generator /path/to/experiment -o project-uml.json",
+      "step3": "Inscribe the generated arcane schema using the apparatus above"
+    },
+    "storage": {
+      "info": "Your grimoire contains {{count}} blueprint(s). Storage capacity: {{limit}}",
+      "limit": "10 schemas per researcher (10MB each)"
+    },
+    "table": {
+      "name": "Experiment Name",
+      "source": "Archive Source",
+      "classes": "Arcane Structures",
+      "packages": "Pattern Collections",
+      "created": "Inscribed",
+      "actions": "Mystical Actions"
+    },
+    "actions": {
+      "view": "Manifest in SwarmDesk",
+      "delete": "Banish"
+    },
+    "empty": "No arcane blueprints in your grimoire yet",
+    "empty.hint": "Inscribe a mystical schema to visualize your code in ethereal 3D space"
+  },
+  "auth": {
+    "app": {
+      "title": "Madness Interactive Laboratory"
+    },
+    "welcome": {
+      "message": "Enter the mystical research laboratory!"
+    },
+    "buttons": {
+      "demoLogin": "Access Observatory Mode",
+      "googleLogin": "Enter with Mystical Gateway"
+    },
+    "status": {
+      "loggingOut": "Departing the laboratory..."
+    },
+    "errors": {
+      "demoLoginFailed": "Observatory mode apparatus malfunction",
+      "authRequired": "Mystical authentication required to access laboratory",
+      "configNotFound": "Authentication apparatus not configured",
+      "tokenInvalid": "Mystical access token has expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "Your mystical incantations remain unsaved. Are you certain you wish to abandon this work?",
+    "confirmDelete": "Are you certain you wish to banish this mystical task from existence?",
+    "sections": {
+      "metadata": "Mystical Metadata (Optional Incantations)"
+    },
+    "errors": {
+      "descriptionRequired": "A task description is required for ethereal enhancement",
+      "aiEnhancementFailed": "Mystical enhancement ritual failed: {{error}}",
+      "saveFailed": "Failed to preserve your mystical changes"
+    },
+    "placeholders": {
+      "description": "Inscribe your mystical task...",
+      "clickToAdd": "Channel your intentions here...",
+      "enhancedDescription": "Ethereal wisdom shall manifest here...",
+      "notes": "Additional arcane annotations...",
+      "ticket": "Mystical reference scroll..."
+    },
+    "labels": {
+      "enhancedDescription": "Ethereal Enhancement",
+      "aiEnhanced": "🔮 Mystically Enhanced Description:",
+      "completionNotes": "✨ Manifestation Notes:",
+      "completed": "Completed",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Whispered",
+      "medium": "Focused",
+      "high": "Urgent Ritual",
+      "critical": "Apocalyptic Ritual"
+    },
+    "status": {
+      "pending": "Awaiting",
+      "in_progress": "Under Investigation",
+      "blocked": "Sealed by Dark Forces",
+      "review": "Scrying",
+      "completed": "Manifested",
+      "initial": "Freshly Summoned",
+      "cancelled": "Banished"
+    },
+    "menu": {
+      "editTask": "Modify Incantation",
+      "deleteTask": "Banish Task"
+    },
+    "messages": {
+      "noEnhancedDescription": "No ethereal wisdom yet. Invoke the mystical enhancement to reveal deeper insights."
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Enter Mystical Realm Map",
+      "switchToSphere": "Return to Arcane Sphere",
+      "chaos": "🌀 Mystical Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Arcane Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Mystical Manipulation",
+      "dragging": "Channeling!",
+      "touchAndDrag": "Ethereal Touch & Channel",
+      "doubleTapBurst": "Double-incantation for mystical burst!",
+      "doubleTapPhysics": "Double-incantation for arcane forces!"
+    },
+    "filter": {
+      "title": "Mystical Network Diagrams",
+      "allProjects": "All Arcane Experiments",
+      "projectCount": "{{selected}}/{{total}} Mystical Experiments",
+      "selectAll": "Select All Mystical Arts",
+      "clearAll": "Banish All Selections",
+      "selectProjects": "Choose Arcane Experiments",
+      "projectsSelected": "{{count}} mystical experiments chosen",
+      "selectedProjects": "Chosen Experiments ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Stasis Enchantment",
+      "enableStaticMode": "Enable Stasis Enchantment",
+      "cleanUpEffects": "Purify Mystical Aura"
+    },
+    "sequence": {
+      "hideSequence": "Conceal Mystical Sequence",
+      "showSequence": "Reveal Arcane Connections",
+      "analyzeSequences": "Divine Mystical Patterns",
+      "stopAnimation": "Halt Arcane Animation",
+      "animateSequence": "Animate Mystical Flow",
+      "shuffleSequence": "Transmute Sequence Pattern"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} arcane nodes channeled (Mystical-Click to bind/unbind, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ MYSTICAL TANGENTRON",
+      "centerWorkshop": "🔮 ARCANE LABORATORY"
+    },
+    "modes": {
+      "dynamic": "⚡ Ethereal Dynamics Mode",
+      "static": "📜 Crystallized Stasis Mode"
+    },
+    "dialog": {
+      "createNode": "🔮 Manifest Mystical Node",
+      "nodeText": "Arcane Inscription"
+    },
+    "nodeInfo": {
+      "type": "Mystical Type",
+      "priority": "Ritual Urgency",
+      "energy": "Ethereal Energy"
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Cartographic Enchantment",
+      "description": "Overlay an arcane map upon the War Room scrying surface",
+      "presets": "Ancient Scrolls",
+      "uploads": "Your Grimoire Maps",
+      "upload": "Inscribe",
+      "noUploads": "No enchanted maps in your grimoire",
+      "opacity": "Veil Intensity",
+      "fitMode": "Projection Spell",
+      "fitCover": "Encompass",
+      "fitContain": "Frame",
+      "fitStretch": "Warp",
+      "fitTile": "Tessellate",
+      "blendWithTerrain": "Merge with Terrain Aether",
+      "remove": "Dispel Background",
+      "active": "Enchanted",
+      "uploadError": "Inscription ritual failed. Retry the incantation.",
+      "fileTooLarge": "Scroll exceeds 5MB arcane limit",
+      "invalidType": "Only JPEG, PNG, and WebP enchantments accepted"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "title": "🎪 Conjuring SwarmDesk Apparatus...",
+        "subtitle": "Preparing the Elixir of Madness!",
+        "entering": "🎮 Entering the Arcane Laboratory...",
+        "initializing": "⚙️ Initializing Mystical Apparatus...",
+        "ready": "✅ Enchantment Ready!",
+        "connecting": "🔗 Forging Arcane Connections...",
+        "loadingProjects": "📊 Summoning Specimen Data..."
+      },
+      "error": {
+        "title": "❌ Arcane Apparatus Interference!",
+        "subtitle": "Consult the mystical console for chaotic variables!",
+        "initializationFailed": "The SwarmDesk enchantment failed to crystallize!"
+      },
+      "controls": {
+        "instructions": "🎪 Laboratory Active | WASD: Ethereal Movement | E: Arcane Interaction | F4-F7: Conjure Apparatus | Space: Unleash Chaos!"
+      },
+      "navigation": {
+        "controls": "🎮 Astrolabe Controls",
+        "movement": "⌨️ WASD: Traverse the Aether | Mouse: Gaze into the Void",
+        "interaction": "🖱️ Click: Poke Specimen | E: Channel Magic | Space: Quick Conjuration",
+        "escape": "🚪 ESC: Flee to Dashboard | M: Grimoire Menu"
+      },
+      "status": {
+        "connected": "🌐 Leylines: CONNECTED",
+        "offline": "⚠️ Leylines: SEVERED - Hermit Mode",
+        "syncing": "🔄 Distilling Data Elixir...",
+        "ready": "✅ SwarmDesk Apparatus: PRIMED"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎪 Welcome to my Floating Laboratory of Madness!",
+        "subtitle": "Behold! Advanced floating enchantments bring contextual alchemy to the SwarmDesk!",
+        "features": {
+          "title": "🎯 Arcane Marvels:",
+          "draggable": "📱 Draggable ethereal panes with magnetic warding",
+          "contextual": "🏷️ Sentient tabs that respond to your arcane gestures",
+          "docking": "🧲 Magnetic docking runes (snap to the laboratory walls!)",
+          "shortcuts": "⌨️ Incantations for instantaneous access",
+          "integration": "🎮 Absolute integration with the 3D SwarmDesk matrix!"
+        },
+        "actions": {
+          "createProject": "📋 Conjure Specimen Roster",
+          "createAgent": "🤖 Summon Homunculus Panel"
+        },
+        "description": "Step into my SwarmDesk laboratory! This is a fully interactive 3D apparatus for orchestrating your grandest experiments. Use the astrolabe controls to traverse the aether and poke at the specimens!",
+        "gettingStarted": "The Alchemist's Primer:",
+        "quickActions": [
+          "📝 Scrutinize your experimental specimens",
+          "🎯 Brew new tasks and set their volatility",
+          "📊 Observe the crystallization of your projects",
+          "⚙️ Calibrate the arcane apparatus",
+          "🔗 Forge leyline connections to outside realms"
+        ]
+      },
+      "shortcuts": {
+        "title": "⌨️ Wand Gestures & Incantations",
+        "f3": "F3 - Reveal Welcome Portal",
+        "f4": "F4 - Conjure Specimen Matrix",
+        "f5": "F5 - Summon Homunculus Logs",
+        "f6": "F6 - Peer into the Void (Chat)",
+        "f7": "F7 - Scrying Orb Analytics",
+        "f8": "F8 - Awaken WebLLM Consciousness",
+        "f9": "F9 - MQTT Ethereal Sniffer",
+        "f10": "F10 - Banish All Portals to the Aether",
+        "f11": "F11 - Vaporize All Windows",
+        "esc": "ESC - Abort the current incantation",
+        "drag": "Levitate - Click and drag the arcane headers",
+        "dock": "Enchant - Drag near the screen runes to snap",
+        "subtitle": "Quick Spellbook Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Astral Projection",
+            "commands": [
+              "WASD: Float through the arcane laboratory",
+              "Mouse Drag: Pivot your crystal ball",
+              "Scroll: Zoom your all-seeing eye",
+              "ESC: Flee back to the mortal dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Apparatus Controls",
+            "commands": [
+              "F4: Conjure Task Grimoire",
+              "F5: Reveal Alchemical Activity Log",
+              "F6: Summon Homunculus Chat",
+              "F7: Open Specimen Details"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Alchemical Reactions",
+            "commands": [
+              "E: Channel magic into the selected artifact",
+              "Space: Quick burst of chaotic energy",
+              "M: Open the master grimoire",
+              "R: Distill fresh data"
+            ]
+          }
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Specimen Overview",
+          "activeProjects": "Bubbling Cauldrons: 5",
+          "pendingTasks": "Unstable Reagents: 23",
+          "completedToday": "Transmutations Today: 7",
+          "actions": {
+            "viewAll": "📋 Gaze Upon All Specimens",
+            "addTask": "➕ Add Volatile Reagent"
+          }
+        },
+        "todos": {
+          "title": "✅ The Alchemist's Ledger",
+          "inProgress": "🎪 Dashboard Enchantment - Brewing in the Cauldron",
+          "pending": "🔧 MCP Apparatus Calibration - Awaiting Leyline Alignment",
+          "actions": {
+            "addTodo": "➕ Scribe New Formula"
+          }
+        },
+        "files": {
+          "title": "📁 Vault of Forbidden Knowledge",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Rummage the Vault"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Homunculus Telepathy",
+          "agentReady": "Homunculus: I am alive and ready to serve your mad genius, Master!",
+          "userQuery": "You: Assist me with calibrating the ethereal apparatus!",
+          "agentResponse": "Homunculus: Ah, the ethereal panels are glorious! Simply levitate them and they shall bind to the magnetic runes!",
+          "placeholder": "Whisper your dark incantations here..."
+        },
+        "commands": {
+          "title": "⚡ Directives of Command",
+          "searchProjects": "🔍 Scry for Specimens",
+          "listTodos": "📋 Recite the Ledger",
+          "deployProject": "🚀 Unleash the Experiment!",
+          "generateReport": "📊 Conjure the Post-Mortem"
+        },
+        "interface": {
+          "title": "💬 {{agentName}}'s Phylactery",
+          "role": "Arcane Designation: {{role}}",
+          "status": "Vitality: {{status}}",
+          "actions": {
+            "startConversation": "💬 Initiate Telepathy",
+            "executeCommand": "⚡ Chant Power Word"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Homunculus Proficiencies",
+          "projectManagement": "✅ Specimen Herding",
+          "codeAnalysis": "✅ Runic Deciphering",
+          "mcpIntegration": "✅ MCP Apparatus Symbiosis",
+          "communication": "✅ Ethereal Whispering"
+        }
+      },
+      "mcp": {
+        "tools": {
+          "title": "🛠️ Bound MCP Artifacts",
+          "notAuthenticated": "You must prove your madness to wield the MCP artifacts!",
+          "authRequired": "Blood oath required to awaken the MCP apparatus.",
+          "connecting": "No artifacts bound. Chanting summoning rites...",
+          "serverStatus": "Apparatus Pulse: {{status}}",
+          "retryConnection": "🔄 Re-cast Summoning Spell",
+          "connectedAs": "Bound Entity: {{username}}"
+        },
+        "history": {
+          "title": "📜 Tome of Past Invocations",
+          "noHistory": "The tome is blank. Cast a spell!"
+        },
+        "debug": {
+          "title": "🐛 Arcane Diagnostics",
+          "authentication": "Blood Seal: {{status}}",
+          "user": "Archmage: {{user}}",
+          "authMode": "Channeling Mode: {{mode}}",
+          "mcpServer": "MCP Construct: {{status}}",
+          "activeTools": "Glowing Artifacts: {{count}}",
+          "lastPing": "Last Heartbeat: {{time}}",
+          "apiService": "API Conduit: {{status}}",
+          "authContext": "Aura Context: {{status}}",
+          "refreshAuth": "🔄 Renew Blood Seal"
+        },
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "The Nexus of All Artifacts",
+        "description": "The Model Context Protocol (MCP) weaves external artifacts and enchantments into our glorious laboratory for ultimate automation!",
+        "features": [
+          "🔧 Artifact Binding Matrix",
+          "📊 Spontaneous Knowledge Siphoning",
+          "🎯 Specimen Ledger Synchronization",
+          "⚙️ Clockwork Ritual Automation",
+          "🔐 Warded Telepathic Links"
+        ],
+        "gettingStarted": "Ritual Instructions:",
+        "deploymentSteps": [
+          "Carve the authentication runes",
+          "Bind the targeted ethereal services",
+          "Design the clockwork automation rites",
+          "Poke the artifacts to ensure they spark"
+        ]
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Laboratory Vitals",
+          "cpuUsage": "Ethereal Processor Heat: 42%",
+          "memory": "Brain Fluid Capacity: 68%",
+          "activePanels": "Floating Anomalies: {{count}}",
+          "uptime": "Temporal Distortion: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Laboratory Chaos",
+          "panelCreated": "🏷️ Anomaly spawned: Specimen Ledger",
+          "swarmDeskInteraction": "🎮 Apparatus poked: Tesla Coil activated",
+          "mcpToolExecuted": "🔧 Artifact invoked: reveal_secrets"
+        },
+        "insights": {
+          "title": "💡 Alchemical Epiphanies",
+          "mostUsedPanel": "Favorite plaything: Specimen Ledger",
+          "peakActivity": "Maximum volatility: 14:00-15:00",
+          "efficiencyScore": "Mad Genius Quotient: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Jars of Captured Consciousness",
+          "currentModel": "Active Brain in Jar: {{model}}",
+          "loadModel": "Transplant New Brain"
+        },
+        "compatibility": {
+          "title": "✅ Phrenological Compatibility",
+          "checking": "🔄 Measuring skull circumference...",
+          "checkCompatibility": "🔍 Scan for Phrenological Viability"
+        },
+        "status": {
+          "title": "⚡ WebLLM Brain Fluid Status",
+          "initialized": "Brain Sparked: {{status}}",
+          "currentModel": "Active Synapses: {{model}}",
+          "loading": "Pumping Fluid: {{status}}",
+          "inferencing": "Hallucinating: {{status}}",
+          "queueLength": "Thoughts Bottlenecked: {{length}}",
+          "loadedModels": "Brains on Shelf: {{count}}",
+          "mode": "Insanity Level: {{mode}}",
+          "initialize": "🚀 Jolting the Brain with Electricity!"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Cerebral Calibrations",
+          "agentModelAssignment": "Homunculus Brain Allocation:",
+          "useGlobal": "Share the Hive Mind",
+          "perAgent": "Surgically Implant Individual Brains",
+          "temperature": "Fever Pitch (Temperature):",
+          "maxTokens": "Thought Limit (Tokens):",
+          "saveSettings": "💾 Preserve Brain Scans",
+          "resetDefaults": "🔄 Lobotomize to Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 Ethereal Frequency Logs",
+          "noMessages": "The ether is silent... too silent.",
+          "waitingTraffic": "Listening for ghost whispers on port 4140",
+          "reconnect": "🔄 Kick the Antenna",
+          "messages": "Whispers Caught: {{count}}",
+          "lastMessage": "Echoed at: {{time}}",
+          "clearLogs": "🗑️ Burn the Transcripts",
+          "export": "💾 Bottle the Whispers"
+        },
+        "status": {
+          "title": "🔌 Ethereal Antenna Status",
+          "status": "Resonance: {{status}}",
+          "broker": "Ghost Conduit: {{broker}}",
+          "clientId": "Arcane Signature: swarmdesk_{{id}}",
+          "messagesReceived": "Whispers Intercepted: {{count}}",
+          "lastActivity": "Last Spectral Bump: {{time}}",
+          "subscriptions": "📡 Tuned Frequencies:",
+          "connect": "🔄 Tune the Crystal Radio",
+          "disconnect": "🔌 Smash the Crystal Radio"
+        },
+        "settings": {
+          "title": "⚙️ Ethereal Frequency Tuner",
+          "brokerAddress": "Coordinates of the Ghost Conduit:",
+          "subscribeTopics": "Frequencies of Interest:",
+          "autoReconnect": "Automatically kick antenna if signal drops",
+          "showTimestamps": "Etch temporal runes on whispers",
+          "saveSettings": "💾 Carve Settings in Stone",
+          "resetDefaults": "🔄 Purge the Crystal"
+        }
+      }
+    },
+    "projectData": {
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk Apparatus",
+        "description": "The 3D interactive homunculus command center - the bleeding-edge mad science control room for our glorious experiments!",
+        "features": [
+          "🎮 3D holographic projection matrix",
+          "🤖 Direct telepathic links to the homunculi",
+          "📊 Scrying orb for system vitals",
+          "🎪 Big Red Button of Absolute Chaos!"
+        ],
+        "status": "🔥 Bubbling Volatile Development",
+        "visibility": "public exhibition of madness"
+      },
+      "inventorium": {
+        "title": "📦 The Inventorium",
+        "description": "The grand ledger of mad science - Keep the chaotic swarm of homunculi in check, and twist their thoughts while they tinker in the laboratory!",
+        "features": [
+          "📋 Specimen mutation tracking",
+          "🏷️ Alchemical categorization runes",
+          "📈 Scrying dashboard of progress",
+          "🔄 Leyline nexus integration"
+        ],
+        "status": "🚀 Volatile Synthesis (private vault)",
+        "visibility": "sealed subterranean laboratory"
+      },
+      "swarmonomicon": {
+        "title": "🐝 The Swarmonomicon",
+        "description": "The forbidden grimoire of homunculus coordination - the sacred tome orchestrating our legion of artificial minds!",
+        "features": [
+          "🤖 Hive mind puppet mastery",
+          "💬 Telepathic protocol definitions",
+          "🎮 Ethereal interaction surfaces",
+          "🧠 Bottled collective insanity"
+        ],
+        "status": "✨ Dangerously functional",
+        "visibility": "publicly dangerous tome"
+      },
+      "title": "📂 The Master Archives",
+      "subtitle": "Hub of Mad Science",
+      "description": "The compendium of all our unholy creations, ready to be unleashed upon the world!",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - The Master Ledger",
+          "description": "The glowing dashboard for orchestrating our most volatile experiments and keeping the homunculi from burning down the lab.",
+          "features": [
+            "📈 Scrying orb for mutation progress",
+            "🎯 Specimen prioritization matrix",
+            "🤖 Homunculus-driven alchemical insights",
+            "🔗 Leyline connections to the outside",
+            "📊 Multi-wizard chaotic collaboration"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - The Great Loom",
+          "description": "The arcane machinery that weaves our disparate apparatuses together into a single, terrifying whole.",
+          "features": [
+            "🔧 Trans-dimensional threading",
+            "⚙️ Clockwork ritual execution",
+            "📊 Ethereal state synchronization",
+            "🔐 Blood-warded communication",
+            "🎯 Centralized chaos coordination"
+          ]
+        }
+      }
+    },
+    "errors": {
+      "initializationFailed": "The SwarmDesk runes fizzled out before the spell could complete!",
+      "sceneInitFailed": "❌ The holographic projection matrix shattered:",
+      "panelSystemFailed": "❌ The ethereal panel conjuration went horribly wrong:",
+      "panelSystemMissing": "⚠️ The FloatingPanelSystem artifact is missing! Did it explode?",
+      "controlsInitFailed": "Failed to wire the astrolabe controls to the aether:",
+      "basicSceneFailed": "❌ The basic Three.js hallucination failed to manifest:",
+      "connectionFailed": "❌ Leyline Severed!",
+      "loadingError": "⚠️ Transmutation Error!",
+      "permissionDenied": "🔒 Wards Activated - Access Denied!",
+      "systemUnavailable": "🚫 Apparatus Overheated - Unavailable!",
+      "unknownError": "❓ Unknown Chaotic Anomaly!"
+    },
+    "status": {
+      "loading": "Brewing alchemical reagents...",
+      "initialized": "✅ SwarmDesk containment field established!",
+      "scriptsLoaded": "✅ Forbidden texts deciphered successfully!",
+      "scriptsTimeout": "⚠️ The ancient scrolls took too long to read!",
+      "containerNotReady": "⚠️ The specimen jar is not yet prepared!",
+      "panelSystemExists": "🏷️ The ethereal panels are already floating, stabilizing the aether...",
+      "panelSystemMissing": "⚠️ The panel system forgot its keyboard runes, re-casting the spell...",
+      "panelSystemCreated": "✅ Ethereal panels conjured perfectly! Mwahaha!",
+      "initializing": "⚙️ Winding the clockwork mechanisms...",
+      "ready": "✅ Apparatus fully primed and lethal!",
+      "error": "❌ Explosive Malfunction!",
+      "offline": "⚠️ Hermit Mode - Cut off from the Leylines"
+    },
+    "actions": {
+      "create": "🆕 Conjure Anomaly",
+      "view": "👁️ Peer into Details",
+      "edit": "✏️ Mutate Specimen",
+      "delete": "🗑️ Vaporize Item",
+      "refresh": "🔄 Distill Fresh Data",
+      "connect": "🔗 Splice Leylines",
+      "deploy": "🚀 Unleash the Abomination!",
+      "monitor": "📊 Scry the Vitals",
+      "optimize": "⚡ Supercharge the Coils!",
+      "analyze": "📈 Dissect the Results",
+      "configure": "⚙️ Tinker with the Dials"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "Mystical AI apparatus is not configured. Please venture to Settings → AI Configuration to awaken your AI familiar.",
+      "noResponse": "I received your mystical incantation but the ethereal forces were too chaotic to channel a proper response. Please retry your mystical request.",
+      "demoUserRestricted": "🚫 AI mystical consultation is not available for observatory users. Please register for full laboratory access to commune with your AI familiar."
+    },
+    "quickActions": {
+      "listPending": "Reveal my pending mystical experiments",
+      "createHighPriority": "Conjure a new urgent research task",
+      "summarizeProject": "Divine the essence of the {{project}} experiment",
+      "filterHighPriority": "Show me urgent mystical experiments in this apparatus"
+    },
+    "suggestedActions": {
+      "listPending": "Scry Pending",
+      "newHighPrio": "Urgent Ritual",
+      "summarize": "Divine Essence"
+    },
+    "status": {
+      "typing": "Mystical consultation is channeling"
+    },
+    "emptyState": {
+      "title": "Madness Interactive Laboratory Assistant",
+      "demoMessage": "AI mystical consultation is not available for observatory users. Register for full laboratory access to commune with your arcane intelligence!",
+      "description": "Your personal mystical familiar to help orchestrate experiments, navigate apparatus, and divine deeper insights.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Mystical Familiar Not Configured",
+      "description": "To commune with your AI familiar, please configure your mystical apparatus provider in the Laboratory Settings.",
+      "configureButton": "Configure Mystical Apparatus"
+    },
+    "header": {
+      "title": "AI Laboratory Assistant",
+      "refreshTooltip": "Refresh mystical context",
+      "settingsTooltip": "Apparatus Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Mystical Context",
+      "aiSettings": "AI Apparatus Settings (Go to Laboratory Settings)",
+      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Laboratory Configuration"
+    },
+    "input": {
+      "placeholder": "Channel your mystical inquiry...",
+      "demoPlaceholder": "AI mystical consultation is not available for observatory users. Register for full laboratory access!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Archive Experiment",
+      "listTodos": "List Research Tasks",
+      "projectStatus": "Apparatus Status",
+      "help": "Mystical Guidance",
+      "settings": "Laboratory Config",
+      "refreshData": "Refresh Mystical Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me archive a new mystical experiment",
+      "listTodos": "Reveal my current research tasks",
+      "projectStatus": "Divine the status of my mystical apparatus",
+      "help": "What mystical guidance can you provide?",
+      "settings": "Open laboratory configuration panel",
+      "refresh": "Refresh mystical experimental data"
+    },
+    "header": {
+      "title": "AI Laboratory Assistant",
+      "statusListening": "Channeling mystical energy...",
+      "statusTyping": "Conjuring response...",
+      "statusOnline": "Mystically Available"
+    },
+    "emptyState": {
+      "greeting": "Greetings! I am your AI Laboratory Assistant",
+      "description": "I can help you manage mystical experiments, navigate laboratory apparatus, and divine insights about your research workspace."
+    },
+    "status": {
+      "thinking": "AI is channeling mystical wisdom..."
+    },
+    "input": {
+      "placeholder": "Inscribe your mystical query..."
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "Ethereal Enhancement Ritual",
+      "perform_geomancy": "Mystical Geomancy Divination",
+      "consolidate_similar": "Convergence Transmutation"
+    },
+    "descriptions": {
+      "enhance_description": "Channel arcane AI wisdom to mystically enhance task descriptions with deeper insights and mystical clarity",
+      "perform_geomancy": "Divine hidden patterns and mystical connections within your experimental work through ethereal analysis",
+      "consolidate_similar": "Transmute and merge similar research tasks through mystical convergence algorithms"
+    },
+    "interface": {
+      "title": "🪄 Mystical Spell Casting Laboratory",
+      "subtitle": "Channel arcane energies to enhance your experimental research",
+      "selectSpell": "Choose Your Mystical Incantation",
+      "castSpell": "Cast Spell",
+      "cancelSpell": "Abandon Ritual",
+      "casting": "Channeling Mystical Energies...",
+      "resultsTitle": "✨ Mystical Manifestation Results",
+      "historyTitle": "📜 Arcane Spell Chronicle",
+      "clearHistory": "Purge Mystical History",
+      "noHistory": "No mystical rituals have been performed",
+      "placeholder": "The mystical forces await your guidance..."
+    },
+    "effects": {
+      "particles": "Ethereal particles swirling",
+      "energy": "Mystical energy building",
+      "casting": "Arcane forces converging",
+      "complete": "Ritual successfully manifested"
+    },
+    "results": {
+      "enhance": {
+        "success": "🔮 Task mystically enhanced with ethereal wisdom!",
+        "improvement": "Mystical enhancement applied to research documentation",
+        "insights": "Arcane insights revealed:",
+        "suggestions": "Ethereal suggestions manifested"
+      },
+      "geomancy": {
+        "success": "🌍 Mystical patterns divined from the experimental matrix!",
+        "insights": "Geomantic revelations:",
+        "patterns": "Arcane pattern analysis:",
+        "recommendations": "Mystical recommendations:",
+        "analysis": "Ethereal analysis complete"
+      },
+      "consolidate": {
+        "success": "🔗 Similar research tasks mystically transmuted and merged!",
+        "merged": "{{count}} tasks converged through mystical transmutation",
+        "candidates": "Convergence candidates identified:",
+        "preview": "Transmutation preview:",
+        "confirmation": "Proceed with mystical convergence?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Mystical ritual failed: {{error}}",
+      "noDescription": "Task description is required for mystical enhancement",
+      "rateLimited": "Mystical energies depleted. Await ethereal recharge: {{timeRemaining}}",
+      "aiError": "Arcane AI familiar encountered mystical interference",
+      "networkError": "Ethereal network connection disrupted",
+      "invalidSpell": "Unknown mystical incantation attempted",
+      "unauthorized": "Insufficient mystical clearance for this ritual"
+    },
+    "rateLimit": {
+      "enhance": "Enhancement rituals: {{used}}/{{limit}} ethereal charges",
+      "geomancy": "Geomancy divinations: {{used}}/{{limit}} mystical consultations",
+      "consolidate": "Transmutation spells: {{used}}/{{limit}} convergence attempts",
+      "resetTime": "Mystical energies replenish in: {{time}}",
+      "depleted": "Mystical energies temporarily depleted"
+    },
+    "tooltip": {
+      "castSpell": "Channel mystical energies (🪄)",
+      "enhanceDescription": "Enhance with ethereal AI wisdom (Ctrl+E)",
+      "performGeomancy": "Divine mystical patterns (Ctrl+G)",
+      "consolidateSimilar": "Transmute similar tasks (Ctrl+C)",
+      "spellHistory": "View mystical spell chronicle",
+      "clearHistory": "Purge arcane spell records"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Mystical Incantations:",
+      "enhance": "Ctrl+E - Ethereal Enhancement",
+      "geomancy": "Ctrl+G - Mystical Geomancy",
+      "consolidate": "Ctrl+C - Convergence Transmutation",
+      "cancel": "Esc - Abandon Ritual"
+    },
+    "history": {
+      "timestamp": "Mystical timestamp:",
+      "spellType": "Ritual type:",
+      "target": "Target research:",
+      "result": "Manifestation result:",
+      "success": "✨ Mystically Successful",
+      "failed": "❌ Ritual Failed",
+      "duration": "Ritual duration:",
+      "empty": "No mystical rituals recorded in the arcane chronicles"
+    },
+    "status": {
+      "idle": "Mystical energies at rest",
+      "casting": "Channeling arcane forces...",
+      "processing": "Mystical computation in progress...",
+      "complete": "Ritual successfully manifested",
+      "failed": "Mystical interference detected",
+      "cooldown": "Recovering mystical energies..."
+    }
+  },
+  "insights": {
+    "loading": "Scrying laboratory data...",
+    "tabs": {
+      "overview": "Laboratory Overview",
+      "analytics": "Analytical Apparatus",
+      "systemLogs": "Laboratory Recordings"
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Laboratory Overview",
+      "users": "Test Subjects",
+      "analytics": "Analytical Apparatus",
+      "featureFlags": "Experimental Protocols",
+      "systemLogs": "Laboratory Recordings"
+    },
+    "overview": {
+      "title": "🔬 Laboratory Control Center",
+      "loading": "Analyzing experimental chamber readings...",
+      "refresh": "Recalibrate instruments",
+      "fallback": "(displaying simulated laboratory data)",
+      "totalUsers": "Total Test Subjects",
+      "totalUsersSubtitle": "All enrolled participants",
+      "activeUsers": "Active Experiments (7d)",
+      "activeUsersSubtitle": "Subjects actively participating",
+      "premiumUsers": "Enhanced Apparatus Users",
+      "premiumUsersSubtitle": "Premium laboratory access",
+      "errors": "Anomaly Readings (24h)",
+      "errorsSubtitle": "Recent experimental anomalies",
+      "tierDistribution": "Subject Tier Distribution",
+      "tier": {
+        "free": "Standard Apparatus",
+        "pro": "Enhanced Equipment",
+        "premium": "Premium Laboratory",
+        "admin": "Master Scientist"
+      },
+      "productivity": "Experimental Output Metrics",
+      "totalTodos": "Total Experiments",
+      "completedTodos": "Successful Trials",
+      "completionRate": "Success Rate"
+    },
+    "analytics": {
+      "title": "📊 Analytical Apparatus Chamber",
+      "loading": "Calibrating measurement instruments...",
+      "comingSoon": "🧪 Advanced Analysis Equipment Under Construction",
+      "description": "Sophisticated measurement apparatus and analytical instruments are being assembled in the laboratory. Return soon to witness powerful insights into subject behavior, apparatus performance, and experimental productivity patterns!",
+      "timeframe": {
+        "day": "Last 24-Hour Cycle",
+        "week": "Last 7-Day Period",
+        "month": "Last 30-Day Span",
+        "year": "Last 12-Month Chronicle"
+      },
+      "futureHint": "💡 Forthcoming enhancements: Custom observation periods, data crystallization exports, real-time monitoring, cohort experimentation, and predictive algorithms powered by the very essence of mad science!",
+      "charts": {
+        "userGrowth": "Subject Recruitment Trends",
+        "userGrowthDesc": "Track new subject enrollment over time",
+        "activityHeatmap": "Experimental Activity Patterns",
+        "activityHeatmapDesc": "Visualize laboratory activity by temporal periods",
+        "featureUsage": "Apparatus Utilization Distribution",
+        "featureUsageDesc": "Which experimental tools see most use?",
+        "performance": "Laboratory Performance Readings",
+        "performanceDesc": "Apparatus response times and malfunction frequencies"
+      }
+    },
+    "logs": {
+      "title": "📋 Laboratory Recording Chamber",
+      "loading": "Reviewing experimental logs...",
+      "refresh": "Re-scan recordings",
+      "fallback": "(displaying simulated log data)",
+      "autoRefresh": "Continuous monitoring (30s)",
+      "showing": "Displaying",
+      "entries": "recorded observations",
+      "empty": "✨ No anomalies detected - apparatus functioning optimally!",
+      "columns": {
+        "timestamp": "Observation Time",
+        "level": "Severity Classification",
+        "message": "Observation Notes",
+        "user": "Responsible Scientist",
+        "endpoint": "Apparatus Component"
+      },
+      "severity": {
+        "error": "CRITICAL MALFUNCTION",
+        "warning": "CAUTIONARY READING",
+        "info": "ROUTINE OBSERVATION"
+      }
+    },
+    "featureFlags": {
+      "title": "🧪 Experimental Protocol Controls",
+      "loading": "Loading experimental configurations...",
+      "refresh": "Re-examine protocols",
+      "fallback": "(displaying simulated protocol data)",
+      "lastUpdated": "Protocols last modified",
+      "unsavedChanges": "⚠️ Unsaved protocol modifications detected! Committing changes will recalibrate all subject apparatus immediately!",
+      "save": "Commit Protocol Changes",
+      "cancel": "Abort Modifications",
+      "saving": "Recalibrating apparatus...",
+      "confirmSave": "Yes, Recalibrate All Systems",
+      "tiers": {
+        "free": "Standard Apparatus Tier",
+        "pro": "Enhanced Equipment Tier",
+        "premium": "Premium Laboratory Tier",
+        "admin": "Master Scientist Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Experiment Tracking",
+        "chat_interface": "Subject Communication Channel",
+        "theme_selector": "Laboratory Aesthetic Controls",
+        "export_todos": "Experiment Data Extraction",
+        "advanced_search": "Enhanced Data Retrieval",
+        "unlimited_todos": "Unlimited Experimentation",
+        "mindmap_view": "Neural Pattern Visualization",
+        "custom_themes": "Bespoke Laboratory Aesthetics",
+        "api_access": "Direct Apparatus Interface",
+        "priority_support": "Premium Scientific Consultation",
+        "swarmdesk_3d": "Three-Dimensional Laboratory Space",
+        "collaborative_editing": "Multi-Scientist Collaboration",
+        "ai_copilot": "Artificial Intelligence Assistant",
+        "admin_panel": "Master Control Interface",
+        "user_management": "Subject Administration",
+        "feature_flags": "Protocol Configuration",
+        "system_logs": "Laboratory Recordings Access",
+        "analytics": "Advanced Analytics Apparatus",
+        "debug_mode": "Diagnostic Instrumentation"
+      },
+      "confirm": {
+        "title": "⚠️ Confirm Protocol Recalibration",
+        "message": "You are about to modify experimental protocols! This will instantaneously reconfigure apparatus across all laboratory tiers. Protocol changes control access to fundamental experimental capabilities.",
+        "warning": "🧪 Laboratory safety tip: Test protocol modifications in isolated chambers first. Disabling critical apparatus may disrupt ongoing experiments and cause subject confusion!"
+      }
+    },
+    "users": {
+      "title": "👥 Test Subject Registry",
+      "loading": "Cataloging laboratory participants...",
+      "refresh": "Re-census subjects",
+      "fallback": "(displaying simulated subject roster)",
+      "searchPlaceholder": "Search subjects by identifier or designation...",
+      "showing": "Cataloging",
+      "users": "test subjects",
+      "filtered": "filtered from total population of",
+      "empty": "No subjects enrolled in laboratory programs",
+      "noResults": "No subjects matching search parameters",
+      "adminBadge": "MASTER SCIENTIST",
+      "edit": {
+        "title": "Modify Test Subject Credentials",
+        "email": "Subject Identifier",
+        "tier": "Apparatus Access Tier",
+        "isAdmin": "Grant Master Scientist Clearance",
+        "cancel": "Abort Modifications",
+        "save": "Commit Changes",
+        "saving": "Updating laboratory records..."
+      },
+      "columns": {
+        "email": "Subject Identifier",
+        "tier": "Apparatus Tier",
+        "status": "Clearance Level",
+        "lastLogin": "Last Laboratory Visit",
+        "todos": "Active Experiments",
+        "actions": "Administrative Actions"
+      },
+      "confirm": {
+        "title": "⚠️ Confirm Clearance Level Modification",
+        "grantMessage": "You are about to elevate this subject to Master Scientist status! This grants complete access to the master control interface, including subject administration, protocol configuration, and laboratory recording systems.",
+        "revokeMessage": "You are about to revoke Master Scientist clearance from this subject. They will lose access to all administrative apparatus and experimental control systems.",
+        "cancel": "Abort Operation",
+        "confirm": "Yes, Modify Clearance",
+        "saving": "Recalibrating access permissions..."
+      }
+    },
+    "common": {
+      "loading": "Processing laboratory data...",
+      "error": "Experimental anomaly detected",
+      "refresh": "Recalibrate",
+      "save": "Commit to Laboratory",
+      "cancel": "Abort Procedure"
+    }
+  },
+  "queuePane": {
+    "title": "Ritual Priority Queue",
+    "subtitle": "Arrange your mystical experiments in order of urgency",
+    "dragHint": "Drag specimens to reorder ritual priority",
+    "searchPlaceholder": "Search mystical queue...",
+    "emptyState": "No research tasks queued for this experiment",
+    "noSearchResults": "No mystical experiments match your search",
+    "reordering": "Channeling new order...",
+    "allProjects": "All Experiments",
+    "cardActions": {
+      "complete": "Mark Research Complete",
+      "edit": "Modify Experiment",
+      "remove": "Remove from Queue"
+    },
+    "incoming": {
+      "title": "Uncharted Specimens",
+      "addToTop": "Rush to Ritual Top",
+      "addToBottom": "Queue at Cauldron Bottom"
+    },
+    "ordered": {
+      "title": "Ritual Priority Queue"
+    },
+    "stats": {
+      "total": "Queued Experiments",
+      "high": "Urgent Research",
+      "incoming": "Uncharted"
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(30, 0, 50, 0.6)",
+      "cardBorder": "rgba(147, 51, 234, 0.5)",
+      "cardText": "#e0d0ff",
+      "iconColor": "#00ff88",
+      "chipBg": "#9333ea",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Apparatus Initialization",
+      "next": "Proceed to Next Phase",
+      "back": "Return to Previous Phase",
+      "getStarted": "Enter the Laboratory"
+    },
+    "steps": {
+      "welcome": {
+        "title": "Laboratory Initiation",
+        "defaultName": "Researcher",
+        "description": "Welcome to Inventorium - your AI-enhanced experimental apparatus for task orchestration and project manifestation.",
+        "subtitle": "Let us calibrate your laboratory instruments and familiarize you with the mystical sciences."
+      },
+      "projects-overview": {
+        "title": "Research Venues",
+        "description": "Organize your experimental protocols into research venues for superior oversight and mystical visualization.",
+        "benefitsTitle": "Research Venue Advantages:",
+        "benefits": {
+          "organize": "Cluster related experiments in arcane harmony",
+          "visualize": "Observe progress through the aetheric lens",
+          "track": "Monitor experimental milestones and temporal markers",
+          "collaborate": "Share knowledge with fellow mad scientists"
+        },
+        "hint": "⚡ Laboratory Wisdom: Every experiment can be assigned to a research venue"
+      },
+      "create-project": {
+        "title": "Manifest Your First Research Venue",
+        "description": "Let us establish a research venue to organize your experimental endeavors. Venues provide the mystical framework for clustering related protocols.",
+        "guideTitle": "Venue Manifestation Procedure:",
+        "step1": "Deploy the creation apparatus (+) rune in the lower portal of your console",
+        "step2": "Select the 'Research Venue' chamber within the manifestation dialog",
+        "step3": "Inscribe a unique venue designation (lowercase rune-separators, e.g., 'my-first-venue')",
+        "step4": "Add a mystical display name and experimental charter description",
+        "hint": "Arcane Note: Venue designations must be unique and utilize lowercase with rune-separators"
+      },
+      "add-todo": {
+        "title": "Add Experiment to Your Venue",
+        "description": "Now let us inscribe an experimental protocol into your research venue. Protocols are the mystical tasks and action invocations you must complete.",
+        "guideTitle": "Protocol Inscription Procedure:",
+        "step1": "Deploy the creation apparatus (+) rune once more",
+        "step2": "Select the 'Experiment' chamber within the manifestation dialog",
+        "step3": "Inscribe your experimental protocol description",
+        "step4": "Select your research venue from the aetheric dropdown",
+        "step5": "Assign urgency classification and invoke 'Manifest'",
+        "hint": "Arcane Note: Protocols can be manifested from any console location using the (+) apparatus"
+      },
+      "configure-ai": {
+        "title": "Summon Your Mystical AI Familiar",
+        "description": "Amplify your mad science capabilities by binding an AI familiar such as the Gemini Oracle or OpenAI Construct.",
+        "whyConfigureTitle": "Arcane Benefits of AI Binding:",
+        "benefits": {
+          "suggestions": "Manifest prophetic task guidance from the aether",
+          "enhance": "Imbue experimental protocols with mystical insights",
+          "analyze": "Divine hidden patterns in research endeavors",
+          "insights": "Receive oracular productivity revelations"
+        },
+        "statusConfigured": "Status: ✅ AI familiar bound and ready for invocation!",
+        "statusNotConfigured": "Status: ❌ No familiar currently bound to your apparatus",
+        "configureButton": "Summon AI Familiar",
+        "skipButton": "Defer Summoning",
+        "helpText": "You may summon your AI familiar at any time through Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "Mystical AI Apparatus",
+        "description": "Summon your AI familiar to assist with experimental orchestration, analyze research patterns, and amplify your mad science productivity.",
+        "examplesTitle": "Rapid Invocations:",
+        "quickActions": {
+          "createTodos": "Manifest experiments from raw thoughts",
+          "analyzeTasks": "Divine experimental patterns",
+          "suggestions": "Receive prophetic guidance",
+          "insights": "Peer into project destinies"
+        },
+        "hint": "⚡ Laboratory Wisdom: Invoke the mystical chat rune to begin communion"
+      },
+      "swarmdesk": {
+        "title": "3D Apparatus Chamber",
+        "description": "Explore your arcane codebase through the 3D visualization chamber - an immersive apparatus for code divination.",
+        "featuresTitle": "Apparatus Chamber Capabilities:",
+        "features": {
+          "codeViz": "Tri-dimensional code manifestation",
+          "interactive": "Interactive aetheric navigation",
+          "architecture": "Architectural schema revelation",
+          "dependencies": "Mystical dependency cartography"
+        },
+        "hint": "⚡ Laboratory Wisdom: Access the Apparatus Chamber from your research venue console",
+        "tabTip": "Once the apparatus materializes, invoke the TAB rune to phase-shift between your control console and the tri-dimensional workspace"
+      },
+      "complete": {
+        "title": "Calibration Complete!",
+        "description": "Your laboratory apparatus is now fully operational. Begin your mad science experiments and bend reality to your will.",
+        "nextStepsTitle": "Experimental Sequence:",
+        "nextSteps": {
+          "createProject": "Manifest your inaugural research venue",
+          "addTodos": "Inscribe experiments into your venue",
+          "tryAI": "Commune with the AI familiar",
+          "checkSwarmDesk": "Explore the 3D Apparatus Chamber"
+        },
+        "footer": "⚡ Laboratory Note: Re-initiate this calibration sequence anytime from the Settings apparatus"
+      }
+    },
+    "complete": {
+      "message": "Muahaha! The laboratory is fully operational! Let the experiments begin!"
+    }
+  },
+  "themeName": "mad-wizard",
+  "displayName": "Mad Wizard Laboratory",
+  "description": "Mystical laboratory terminology - experiments, apparatus, and arcane science",
+  "icon": "🧙‍♂️",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "The Book of Blunders & Triumphs",
+    "addLesson": "Scribe a New Revelation!",
+    "emptyState": {
+      "title": "A Blank Grimoire!",
+      "message": "No arcane knowledge recorded yet.",
+      "action": "Scribe your first lesson!"
+    },
+    "fields": {
+      "topic": "Arcane Subject",
+      "language": "Tongue of Power",
+      "lessonLearned": "The Epiphany",
+      "tags": "Mystical Runes"
+    },
+    "actions": {
+      "edit": "Transmute Text",
+      "delete": "Incinerate Page",
+      "save": "Seal the Spell"
+    }
+  },
+  "mindmap": {
+    "title": "The Cerebral Astrolabe",
+    "emptyState": {
+      "title": "The Void Stares Back",
+      "message": "No thoughts conjure in this space yet."
+    },
+    "controls": {
+      "zoomIn": "Enhance Vision!",
+      "zoomOut": "Broader Perspective!",
+      "resetView": "Realign the Spheres!",
+      "centerView": "Find the Nexus!"
+    }
+  },
+  "swarmdesk": {
+    "title": "Homunculus Workstation",
+    "emptyState": {
+      "title": "Empty Vats",
+      "message": "No minions currently gestating."
+    },
+    "controls": {
+      "rotate": "Spin the Apparatus!",
+      "zoom": "Inspect Specimen!",
+      "pan": "Shift the Ley Lines!",
+      "reset": "Calibrate Lenses!"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Apparatus",
+    "placeholder": "Consult the crystal ball...",
+    "noProjects": "No laboratories match this vibration.",
+    "createNew": "Conjure a New Apparatus!"
+  },
+  "errors": {
+    "generic": "A catastrophic miscalculation has occurred!",
+    "network": "The etheric connection is severed!",
+    "notFound": "This specimen has vanished from existence!",
+    "unauthorized": "You lack the arcane clearance for this tome!",
+    "serverError": "The core reactor is melting down!",
+    "server": "Server error. Our team has been notified.",
+    "timeout": "Request timed out. Please retry."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "CALIBRATING APPARATUS...",
+        "subtitle": "Verifying payment conduits with the Stripe dimension"
+      },
+      "success": {
+        "title": "APPARATUS ACTIVATED",
+        "subtitle": "All systems nominal. Your laboratory has been upgraded."
+      },
+      "error": {
+        "title": "CONTAINMENT BREACH",
+        "subtitle": "The verification ritual encountered interference."
+      },
+      "no_session": {
+        "title": "MISSING COORDINATES",
+        "subtitle": "No checkout session detected. Did you arrive here through a portal?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification module...",
+      "connecting": "Connecting to Stripe dimension...",
+      "session": "Session:",
+      "conduitStable": "Payment conduit: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking laboratory systems...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Containment protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "OPERATOR",
+    "enterLab": "ENTER LAB",
+    "viewManifest": "VIEW MANIFEST",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check the arcane ledger for current status."
+  },
+  "confirmations": {
+    "delete": "Are you certain you wish to disintegrate this entirely?",
+    "discard": "Throw these unstable components into the fire?",
+    "archive": "Seal this away in the deepest vaults?"
+  },
+  "agentStates": {
+    "working": "Brewing volatile mixtures...",
+    "traveling": "Traversing the astral plane...",
+    "idle": "Gathering mana...",
+    "assigned": "Bound to a master..."
+  },
+  "targetAgent": {
+    "user": "The Grand Magus",
+    "ai": "Homunculus Familiar",
+    "system": "The Arcane Engine",
+    "none": "Lost Soul"
+  },
+  "accountPanel": {
+    "title": "My Laboratory Dossier",
+    "tabs": {
+      "profile": "Arcane Profile",
+      "subscription": "Mystical Subscriptions",
+      "account": "Account Sanctum"
+    },
+    "subscriptionDisabled": "The subscription alchemy is currently dormant",
+    "dangerZone": "Forbidden Territory"
+  },
+  "billing": {
+    "title": "Arcane Ledger & Patronage",
+    "subtitle": "Manage your laboratory patronage rites",
+    "loginRequired": "You must present your credentials to access the arcane ledger",
+    "goToLogin": "Enter the Portal",
+    "currentPlan": "Current Patronage Tier",
+    "perMonth": "/lunar cycle",
+    "nextBillingDate": "Next tithe collection:",
+    "planFeatures": "PATRONAGE BENEFITS:",
+    "upgradeToPro": "ASCEND TO GRAND PATRON",
+    "manageBilling": "Manage Arcane Ledger",
+    "cancelSubscription": "Revoke Patronage",
+    "usageStats": "Laboratory Metrics",
+    "totalTodos": "Active Experiments",
+    "projects": "Research Domains",
+    "unlimited": "Boundless",
+    "upgradePrompt": "Ascend to Grand Patron for boundless experiments, domains, War Chamber, and the SwarmDesk sanctum!",
+    "cancelSuccess": "Patronage revoked. Your laboratory access persists until the current lunar cycle concludes.",
+    "status": {
+      "active": "EMPOWERED",
+      "free": "APPRENTICE",
+      "inactive": "DORMANT"
+    },
+    "errors": {
+      "loadFailed": "The arcane ledger refused to materialize",
+      "cancelFailed": "The revocation ritual failed. Attempt again or summon support.",
+      "portalFailed": "The billing portal resists opening. Try again."
+    },
+    "cancelDialog": {
+      "title": "Revoke Patronage?",
+      "message": "Are you certain you wish to revoke your patronage? Grand Patron privileges persist until the current lunar cycle ends.",
+      "resubscribe": "You may re-pledge your patronage at any time.",
+      "keep": "Maintain Patronage",
+      "confirm": "Yes, Revoke"
+    }
+  },
+  "pricing": {
+    "title": "Patronage Tiers",
+    "subtitle": "The apprentice path serves well. Grand Patron removes all boundaries.",
+    "backToDashboard": "Return to Laboratory",
+    "currentPlan": "CURRENT TIER",
+    "free": "Apprentice",
+    "perMonth": "/lunar cycle",
+    "loginToUpgrade": "PRESENT CREDENTIALS TO ASCEND",
+    "currentTier": "CURRENT TIER",
+    "upgrade": "ASCEND",
+    "finePrint": "Revoke anytime. No binding contracts. Your research remains yours regardless.",
+    "errors": {
+      "loginRequired": "Present your credentials to ascend your patronage",
+      "checkoutFailed": "The ascension ritual faltered. Attempt again."
+    }
+  },
+  "cancel": {
+    "title": "Patronage Revoked",
+    "message": "Fear not! You may re-pledge your patronage at any time. Your apprentice laboratory remains fully operational.",
+    "goToDashboard": "Return to Laboratory",
+    "viewPlans": "View Patronage Tiers"
+  },
+  "chronomancy": {
+    "loading": "Consulting the temporal grimoire...",
+    "noVersions": "No temporal strata have been recorded.",
+    "today": "This very day",
+    "yesterday": "The previous cycle",
+    "daysAgo": "{{days}} cycles past",
+    "currentVersion": "Present Era",
+    "versionLabel": "Stratum {{version}}",
+    "versions": "strata",
+    "gitCommit": "Arcane commit sigil",
+    "classesChange": "Entity flux",
+    "linesChange": "Inscription flux",
+    "deleteVersion": "Erase stratum",
+    "deleteDialog": {
+      "title": "Erase Temporal Stratum?",
+      "message": "Permanently erase stratum v{{version}} of {{project}}? This rift cannot be mended.",
+      "cancel": "Preserve",
+      "confirm": "Erase"
+    },
+    "compare": {
+      "selectTwo": "Compare (select 2 strata)",
+      "button": "Compare stratum v{{from}} → v{{to}}"
+    },
+    "diff": {
+      "title": "Temporal Rift: v{{from}} → v{{to}}",
+      "added": "Manifested",
+      "removed": "Dissolved",
+      "modified": "Transmuted",
+      "unchanged": "Preserved",
+      "complexity": "Arcane Complexity",
+      "lines": "Inscriptions",
+      "noClassesAdded": "No entities manifested",
+      "noClassesRemoved": "No entities dissolved",
+      "noClassesModified": "No entities transmuted",
+      "methodsAdded": "Spells inscribed:",
+      "methodsRemoved": "Spells erased:",
+      "depsAdded": "Bindings formed:",
+      "depsRemoved": "Bindings severed:",
+      "close": "Seal the Rift"
+    }
+  }
+}

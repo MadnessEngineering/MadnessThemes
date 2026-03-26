@@ -1,0 +1,235 @@
+{
+  "themeName": "labops",
+  "displayName": "LabOps",
+  "description": "Elemental Machines light theme: softer teal-blue primary, muted surfaces, scientific precision.",
+  "icon": "🔬",
+  "version": "1.2.0",
+  "colors": {
+    "primary": "#13B5D8",
+    "primaryButton": "#13B5D8",
+    "secondary": "#11A4D4",
+    "success": "#1BB860",
+    "warning": "#F5C127",
+    "error": "#EB4C4C",
+    "background": {
+      "main": "linear-gradient(135deg, #E9EEF3 0%, #D7DEE8 100%)",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.98)",
+        "selected": "rgba(236, 242, 248, 0.95)",
+        "hover": "rgba(236, 242, 248, 0.88)"
+      },
+      "header": "linear-gradient(135deg, #D7DEE8 0%, #C5CED9 100%)",
+      "paper": "rgba(255, 255, 255, 0.98)",
+      "topBar": "linear-gradient(90deg, #0A7A97 0%, #086B80 100%)",
+      "input": "rgba(255, 255, 255, 0.99)"
+    },
+    "text": {
+      "primary": "#1C1C1E",
+      "secondary": "#2F3D4A",
+      "tertiary": "#4E5D6C",
+      "muted": "#6B7C8B",
+      "contrast": "#FFFFFF",
+      "disabled": "rgba(47, 61, 74, 0.45)",
+      "success": "#158A4B",
+      "warning": "#B87700",
+      "error": "#C93535",
+      "info": "#0E7FA0",
+      "critical": "#C93535",
+      "high": "#B87700",
+      "medium": "#0F8FB3",
+      "low": "#546371"
+    },
+    "border": {
+      "primary": "#13B5D8",
+      "secondary": "#11A4D4",
+      "subtle": "rgba(17, 35, 52, 0.16)",
+      "disabled": "rgba(17, 35, 52, 0.1)"
+    },
+    "dashboard": {
+      "stats": {
+        "total": {
+          "background": "linear-gradient(135deg, #13B5D8 0%, #11A4D4 100%)",
+          "color": "#FFFFFF"
+        },
+        "active": {
+          "background": "linear-gradient(135deg, #1BB860 0%, #16A356 100%)",
+          "color": "#FFFFFF"
+        },
+        "completed": {
+          "background": "linear-gradient(135deg, #11A4D4 0%, #0E93BF 100%)",
+          "color": "#FFFFFF"
+        },
+        "archived": {
+          "background": "linear-gradient(135deg, #EB4C4C 0%, #D84343 100%)",
+          "color": "#FFFFFF"
+        }
+      },
+      "activity": {
+        "panel": {
+          "background": "rgba(19, 181, 216, 0.1)",
+          "border": "rgba(19, 181, 216, 0.22)"
+        },
+        "create": "#13B5D8",
+        "complete": "#1BB860",
+        "delete": "#EB4C4C",
+        "update": "#F5C127",
+        "review": "#11A4D4"
+      },
+      "completed": {
+        "panel": {
+          "background": "rgba(27, 184, 96, 0.1)",
+          "border": "rgba(27, 184, 96, 0.22)"
+        },
+        "highlight": {
+          "background": "rgba(27, 184, 96, 0.15)"
+        }
+      },
+      "button": {
+        "neutral": "#E7ECF2",
+        "neutralHover": "#DCE3EA",
+        "danger": "#EB4C4C",
+        "dangerHover": "#D84343"
+      }
+    },
+    "accent": {
+      "orange": "#F5831F",
+      "deepOrange": "#E67316",
+      "green": "#1BB860",
+      "lightGreen": "#38C977",
+      "amber": "#F5C127",
+      "red": "#EB4C4C",
+      "deepRed": "#D84343",
+      "purple": "#A855F7",
+      "deepPurple": "#9333EA",
+      "cyan": "#13B5D8",
+      "blue": "#11A4D4"
+    },
+    "state": {
+      "editing": {
+        "primary": "#F5831F",
+        "background": "rgba(245, 131, 31, 0.08)",
+        "backgroundMedium": "rgba(245, 131, 31, 0.15)",
+        "border": "rgba(245, 131, 31, 0.5)",
+        "shadow": "rgba(245, 131, 31, 0.15)"
+      },
+      "hover": {
+        "background": "rgba(0, 0, 0, 0.03)",
+        "overlay": "rgba(0, 0, 0, 0.02)"
+      },
+      "selected": {
+        "background": "rgba(19, 181, 216, 0.15)",
+        "border": "rgba(19, 181, 216, 0.6)"
+      },
+      "disabled": {
+        "background": "rgba(0, 0, 0, 0.03)",
+        "text": "rgba(28, 28, 30, 0.4)"
+      }
+    },
+    "effects": {
+      "magic": {
+        "primary": "#A855F7",
+        "glow": "rgba(168, 85, 247, 0.35)",
+        "background": "rgba(168, 85, 247, 0.12)",
+        "backgroundMedium": "rgba(168, 85, 247, 0.22)",
+        "trail": "rgba(168, 85, 247, 0.18)"
+      },
+      "energy": {
+        "primary": "#13B5D8",
+        "glow": "rgba(19, 181, 216, 0.25)",
+        "background": "rgba(19, 181, 216, 0.12)",
+        "pulse": "rgba(19, 181, 216, 0.6)"
+      },
+      "debug": {
+        "mobile": "#1BB860",
+        "desktop": "#F5C127",
+        "mobileBackground": "rgba(27, 184, 96, 0.15)",
+        "desktopBackground": "rgba(245, 193, 39, 0.15)"
+      }
+    },
+    "tags": {
+      "default": {
+        "background": "rgba(245, 131, 31, 0.15)",
+        "border": "rgba(245, 131, 31, 0.25)",
+        "hover": "rgba(245, 131, 31, 0.28)"
+      },
+      "cached": {
+        "background": "rgba(27, 184, 96, 0.18)",
+        "border": "rgba(27, 184, 96, 0.6)",
+        "text": "#158A4B"
+      },
+      "selected": {
+        "background": "rgba(245, 131, 31, 0.32)",
+        "border": "rgba(245, 131, 31, 0.75)"
+      }
+    },
+    "shadows": {
+      "light": "rgba(0, 0, 0, 0.08)",
+      "medium": "rgba(0, 0, 0, 0.14)",
+      "heavy": "rgba(0, 0, 0, 0.22)",
+      "overlay": "rgba(0, 0, 0, 0.35)",
+      "cardNormal": "rgba(0, 0, 0, 0.08)",
+      "cardHover": "rgba(0, 0, 0, 0.14)"
+    },
+    "overlays": {
+      "light": "rgba(0, 0, 0, 0.02)",
+      "medium": "rgba(0, 0, 0, 0.06)",
+      "dark": "rgba(0, 0, 0, 0.1)",
+      "darker": "rgba(0, 0, 0, 0.2)"
+    },
+    "status": {
+      "completed": {
+        "background": "rgba(27, 184, 96, 0.18)",
+        "border": "rgba(27, 184, 96, 0.6)",
+        "text": "#158A4B"
+      },
+      "pending": {
+        "background": "rgba(245, 193, 39, 0.14)",
+        "border": "rgba(245, 193, 39, 0.42)",
+        "text": "#B87700"
+      },
+      "inProgress": {
+        "background": "rgba(19, 181, 216, 0.14)",
+        "border": "rgba(19, 181, 216, 0.42)",
+        "text": "#0F8FB3"
+      },
+      "blocked": {
+        "background": "rgba(235, 76, 76, 0.14)",
+        "border": "rgba(235, 76, 76, 0.42)",
+        "text": "#C93535"
+      }
+    }
+  },
+  "threeJS": {
+    "colors": {
+      "primary": "0x13B5D8",
+      "secondary": "0x11A4D4",
+      "success": "0x1BB860",
+      "warning": "0xB87700",
+      "error": "0xC93535",
+      "background": {
+        "main": "0xE9EEF3",
+        "card": "0xFFFFFF",
+        "paper": "0xFFFFFF"
+      },
+      "text": {
+        "primary": "0x1C1C1E",
+        "secondary": "0x2F3D4A"
+      },
+      "border": {
+        "primary": "0x13B5D8",
+        "secondary": "0x11A4D4",
+        "subtle": "0xB8C4D1"
+      }
+    },
+    "materials": {
+      "metalness": 0.15,
+      "roughness": 0.7,
+      "emissiveIntensity": 0.05
+    },
+    "lighting": {
+      "ambientIntensity": 0.8,
+      "directionalIntensity": 0.7,
+      "pointIntensity": 0.6
+    }
+  }
+}

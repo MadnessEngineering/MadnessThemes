@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Forge New Quarry",
+    "subtitle": "Establish a new mining operation in your underground workshop",
+    "buttons": {
+      "reset": "Clear Anvil",
+      "create": "Begin Excavation",
+      "submit": "Strike the Forge",
+      "cancel": "Abandon Dig"
+    },
+    "demoMode": {
+      "label": "DEMO MODE",
+      "title": "Stone Reader's Gallery - Inspection Only",
+      "description": "⛏️ Ye be in demonstration mode! Quarry establishment be sealed to preserve the mountain's delicate excavations. Register for full mining rights to dig deep and strike gold!"
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Mining Tasks",
+    "lessons": "Stonecraft Runes",
+    "project": "New Quarry",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Forge Familiar",
+    "sessions": "Mining Sessions"
+  },
+  "validation": {
+    "nameRequired": "Announce family lineage",
+    "nameLength": "Designation must be at least 2 sturdy runes",
+    "nameFormat": "Name can only contain runes, numerals, ore-hyphens, and underscores",
+    "displayNameRequired": "Display name for yer excavation be required",
+    "descriptionRequired": "Quarry documentation be required",
+    "descriptionLength": "Mining notes must be at least 10 runes to be worthy o' the stone",
+    "topicRequired": "Mining topic cannot be void o' ore",
+    "topicTooLong": "Mining topic must be less than 200 solid runes",
+    "contentRequired": "Excavation findings cannot be empty",
+    "contentTooLong": "Mining documentation must be less than 5000 carved runes",
+    "invalidLanguage": "Please select a valid forge tongue",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Chisel into Stone",
+    "cancel": "Cave-In",
+    "close": "Seal Mine Entrance",
+    "edit": "Re-forge",
+    "delete": "Collapse Tunnel",
+    "loading": "Smelting ore...",
+    "error": "Cave collapse detected",
+    "success": "Successfully mined!",
+    "failed": "Pickaxe broke - excavation halted",
+    "perPage": "per mineshaft",
+    "refreshNow": "Re-Survey Veins",
+    "copyId": "Copy Mine Claim",
+    "show": "Display",
+    "copy": "Ore Copy",
+    "reset": "Reset",
+    "refresh": "Refresh",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Quarry Claim Name",
+    "displayName": "Mineshaft Display Name",
+    "description": "Mining Documentation",
+    "type": "Excavation Type",
+    "visibility": "Vein Visibility",
+    "repository": "Ore Repository",
+    "language": "Forge Tongue",
+    "framework": "Mining Framework",
+    "priority": "Dig Urgency",
+    "status": "Excavation Phase",
+    "notes": "Stonecraft Annotations",
+    "ticket": "Claim Reference"
+  },
+  "dashboard": {
+    "title": "📊 Underground Command Hall",
+    "projectStats": {
+      "title": "📂 Active Quarries",
+      "collection": "quarry archives",
+      "totalProjects": "Total Excavations",
+      "activeProjects": "Active Digs",
+      "projectsWithCompleted": "Completed Mines",
+      "avgTasksPerProject": "Avg Tasks/Quarry"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Mining Priority Analysis",
+      "pendingTasks": "Awaiting Dig",
+      "inReview": "Under Survey",
+      "inProgress": "Mining",
+      "blocked": "Cave-In",
+      "completed": "Ore Extracted",
+      "highPriority": "Urgent Excavations",
+      "mediumPriority": "Standard Mining",
+      "lowPriority": "Background Prospecting"
+    },
+    "activityLog": {
+      "title": "📊 Mining Activity Ledger",
+      "collection": "mining_logs archive",
+      "description": "Chronicle all dig modifications and excavation operations",
+      "updates": "Modifications",
+      "creates": "New Digs",
+      "deletes": "Collapsed Tunnels",
+      "completions": "Ore Extractions",
+      "totalEntries": "Total Records"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recent Ore Strikes"
+    },
+    "welcome": {
+      "message": "Welcome to the Deep Mountain Mining Hall! Yer underground command center awaits.",
+      "description": "The Excavation Apparatus be primed fer diggin'! This command hall appears when no mining panels be active. Use the stonecraft controls above to access specific mining areas, excavation logs, quarry archives, and more.",
+      "title": "Welcome to Yer Mining Hall"
+    },
+    "quickActions": {
+      "openTodos": "📝 Mining Tasks",
+      "chatAssistant": "🗣️ Forge Familiar",
+      "activityLog": "📋 Mining Logs",
+      "projects": "📂 Quarries"
+    },
+    "filters": {
+      "allActivity": "All Mining Activities",
+      "todosCreated": "Excavations Started",
+      "todosUpdated": "Excavations Modified",
+      "todosCompleted": "Ore Successfully Extracted",
+      "todosDeleted": "Tunnels Collapsed",
+      "projectsCreated": "Quarries Established",
+      "projectsUpdated": "Quarries Reinforced",
+      "projectsDeleted": "Mines Sealed and Abandoned"
+    },
+    "unifiedView": "🌐 Mountain-Wide Survey",
+    "personalView": "👤 Personal Mine Ledger",
+    "showingAllDatabases": "Displaying chronicles from all ore repositories across the mountain",
+    "showingPersonalOnly": "Displaying only yer personal mining chronicles",
+    "filteredByProject": "Filtering by quarry:",
+    "noLogsFound": "📭 No mining activity detected — the tunnels be quiet!",
+    "tryChangingFilter": "Try adjusting yer mining survey filters to dig deeper",
+    "startCreatingTodos": "Begin excavations to generate mining activity",
+    "failedToLoad": "⚠️ Failed to retrieve mining chronicles: {{error}}",
+    "changesMade": "Ore modifications:",
+    "completionNotes": "Mining conclusions:",
+    "revertOperation": "Reverse {{operation}} dig",
+    "revertSuccess": "Successfully refilled {{operation}} shaft",
+    "revertFailed": "Dig reversal failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore collapsed tunnel — ore is scattered",
+    "revertNotSupported": "Cannot reverse {{operation}} — tunnel too deep",
+    "confirmRevert": "Confirm Dig Reversal",
+    "confirmRevertMessage": "Are ye certain ye wish to reverse this {{operation}} for: {{description}}?",
+    "confirmRevertAction": "Reverse the Dig",
+    "operationType": "Mining Operation",
+    "taskDescription": "Excavation Description",
+    "descriptions": {
+      "projectCreated": "Quarry \"{{projectName}}\" was established in the mountain",
+      "projectUpdated": "Quarry \"{{projectName}}\" underwent ore modifications",
+      "projectDeleted": "Quarry \"{{projectName}}\" was sealed and abandoned",
+      "projectModified": "Quarry \"{{projectName}}\" received stonecraft alterations",
+      "unknownTask": "Unknown mining operation logged in the chronicles"
+    },
+    "showingPageStats": "Viewing chronicle {{currentPage}} of {{totalPages}} ({{totalCount}} total mining activities)",
+    "autoRefreshingInterval": " • Auto-surveying every 30 stone moments",
+    "stats": {
+      "totalProjects": "Total Quarries",
+      "activeProjects": "Active Excavations",
+      "completedTodos": "Ore Extracted",
+      "archivedProjects": "Sealed Mines"
+    },
+    "recentActivity": "Recent Mining Activity"
+  },
+  "activityLog": {
+    "title": "📋 Mining Activity Chronicle",
+    "autoRefreshOn": "Auto-survey ON",
+    "autoRefreshOff": "Auto-survey OFF",
+    "filters": {
+      "allActivity": "All Mining Activities",
+      "todosCreated": "New Digs Started",
+      "todosUpdated": "Excavations Modified",
+      "todosCompleted": "Mining Completed",
+      "todosDeleted": "Tunnels Collapsed",
+      "projectsCreated": "New Quarries Established",
+      "projectsUpdated": "Quarries Modified",
+      "projectsDeleted": "Mines Abandoned",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Mountain-Wide View",
+    "personalView": "👤 Personal Mine View",
+    "showingAllDatabases": "Displaying chronicles from all ore repositories",
+    "showingPersonalOnly": "Displaying only yer personal mining chronicles",
+    "filteredByProject": "Filtering by quarry:",
+    "noLogsFound": "No excavation chronicles found",
+    "tryChangingFilter": "Try adjusting yer mining survey",
+    "startCreatingTodos": "Begin excavations to generate mining activity",
+    "failedToLoad": "Failed to retrieve activity chronicles: {{error}}",
+    "changesMade": "Ore modifications:",
+    "completionNotes": "Mining conclusions:",
+    "revertOperation": "Reverse {{operation}} dig",
+    "revertSuccess": "Successfully refilled {{operation}} shaft",
+    "revertFailed": "Dig reversal failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore collapsed tunnel - ore is scattered",
+    "revertNotSupported": "Cannot reverse {{operation}} - tunnel too deep",
+    "descriptions": {
+      "projectCreated": "Quarry \"{{projectName}}\" was established",
+      "projectUpdated": "Quarry \"{{projectName}}\" was modified",
+      "projectDeleted": "Quarry \"{{projectName}}\" was abandoned",
+      "projectModified": "Quarry \"{{projectName}}\" underwent ore alterations",
+      "unknownTask": "Unknown mining operation"
+    },
+    "showingPageStats": "Viewing chronicle {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
+    "autoRefreshingInterval": " • Auto-surveying every 30 stone moments",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "emptyState": {
+      "title": "No mining activity yet",
+      "message": "Start diggin' to see ore activity here"
+    },
+    "events": {
+      "created": "carved",
+      "updated": "re-forged",
+      "completed": "extracted",
+      "deleted": "collapsed"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Mining Events",
+      "today": "Today's Digs",
+      "thisWeek": "This Week's Extraction"
+    }
+  },
+  "lessonsLearned": {
+    "title": "🎓 Stonecraft Wisdom Archive",
+    "refreshLessons": "Refresh Stonecraft Discoveries",
+    "addLesson": "Carve New Wisdom",
+    "searchPlaceholder": "Search stonecraft knowledge, insights, or ore tags...",
+    "languages": {
+      "allLanguages": "All Forge Tongues",
+      "javascript": "JavaScript Metalwork",
+      "typescript": "TypeScript Ore-craft",
+      "python": "Python Deep-Mining",
+      "rust": "Rust Forge Mastery",
+      "go": "Go Quarry Techniques",
+      "general": "General Stonecraft Arts"
+    },
+    "filters": {
+      "allLessons": "All Stonecraft Discoveries",
+      "bookmarked": "Starred Veins",
+      "recent": "Recent Findings (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Stonecraft Discoveries",
+      "vaultEmpty": "Knowledge Vault be Empty!",
+      "noMatchSearch": "No discoveries match \"{{searchTerm}}\". Try adjusting yer stonecraft search parameters.",
+      "noMatchFilters": "No discoveries found with current mining filters. Try broadening yer excavation criteria.",
+      "startDocumenting": "Begin documenting yer stonecraft revelations! Every tunnel dug and vein found be knowledge gained."
+    },
+    "createFirstLesson": "Carve Yer First Stonecraft Discovery",
+    "actions": {
+      "starred": "Ore-Starred",
+      "addStar": "Add Ore Star"
+    },
+    "pagination": {
+      "showingRange": "Displaying {{start}}-{{end}} of {{total}} stonecraft discoveries"
+    },
+    "dialog": {
+      "editTitle": "🎓 Modify Stonecraft Discovery",
+      "addTitle": "🎓 Carve New Stonecraft Discovery",
+      "topicLabel": "Mining Topic",
+      "lessonLabel": "Stonecraft Discovery",
+      "languageLabel": "Forge Tongue",
+      "tagsLabel": "Ore Tags (comma separated)",
+      "tagsPlaceholder": "metalwork, pickaxe, stonecraft",
+      "databaseLabel": "Archive Location",
+      "personalDatabase": "👤 Personal Mine Archive",
+      "sharedDatabase": "🌐 Shared Mining Compendium (swarmonomicon)",
+      "updateLesson": "Update Discovery",
+      "createLesson": "Carve Discovery"
+    },
+    "failedToLoad": "Failed to retrieve stonecraft discoveries: {{error}}",
+    "confirmDelete": "Are ye sure ye want to collapse this stonecraft discovery into rubble?"
+  },
+  "todoManagement": {
+    "title": "📝 Mining Task Management"
+  },
+  "app": {
+    "titleShort": "Mountain Mining Hall",
+    "titleLong": "Deep Mines"
+  },
+  "panels": {
+    "todos": "📝 Mining Tasks",
+    "logs": "📋 Dig Logs",
+    "aiChat": "🗣️ Forge Familiar",
+    "create": "➕ New Dig",
+    "projects": "📂 Quarries",
+    "mindMap": "🗺️ Cavern Survey",
+    "swarmDesk": "🎪 SwarmDesk Portal",
+    "lessons": "🎓 Stonecraft",
+    "settings": "⚙️ Forge",
+    "insights": "📊 Insights",
+    "labMaintenance": "🧹 Mine Cleanup"
+  },
+  "labMaintenance": {
+    "title": "Mine Shaft Maintenance",
+    "tabs": {
+      "orphaned": "Collapsed Tunnels",
+      "completed": "Smelted Ore",
+      "consolidate": "Forge Overview"
+    },
+    "selectAll": "Claim All",
+    "clearSelection": "Release",
+    "targetProject": "Haul to vein...",
+    "reassign": "Relocate",
+    "reassignSelected": "Haul abandoned ore to a new mining vein",
+    "reopen": "Re-excavate",
+    "reopenSelected": "Mark smelted ore for re-excavation",
+    "delete": "Collapse",
+    "deleteSelected": "Collapse selected tunnels permanently",
+    "selectProjectFirst": "Pick a destination vein first",
+    "todosUpdated": "ores processed",
+    "noOrphans": "No abandoned ore detected. All mining duties assigned to active veins.",
+    "noCompleted": "No smelted ore found in the vault.",
+    "consolidateDescription": "Forge overview of tunnel stability and vein allocation.",
+    "orphanedProjectsLabel": "Depleted Veins With Remaining Ore",
+    "quickStats": "Forge Report",
+    "orphaned": "Abandoned",
+    "completed": "Smelted",
+    "deletedProjects": "Depleted Veins",
+    "activeProjects": "Active Veins"
+  },
+  "demo": {
+    "label": "DEMO - Stone Reader Mode"
+  },
+  "menu": {
+    "documentation": "Mining Manuals",
+    "github": "Ore Archive",
+    "logout": "Exit Mine",
+    "replayTutorial": "Replay Tutorial",
+    "userManagement": "User Management"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 Stonecraft insights unearthed! Review the enhanced mining notes.",
+    "todoMarkedForReview": "👁️ Mining task marked fer peer survey successfully!",
+    "todoCompleted": "✅ Excavation task completed successfully!",
+    "taskCreated": "🎉 New mining task carved successfully!",
+    "projectCreated": "🚀 New quarry established successfully!",
+    "aiConfigured": "✅ Forge familiar bound and ready!",
+    "todoCreated": "⛏️ A new task has been hammered into the stone.",
+    "settingsSaved": "⚙️ Forge calibrations locked in.",
+    "exportCompleted": "📤 Ore shipments sent to the surface.",
+    "importCompleted": "📥 Surface supplies hauled into the deeps."
+  },
+  "projectNavigator": {
+    "title": "🚀 MINING HALL PORTAL",
+    "subtitle": "Select yer quarry domain • Enter deep mining environments",
+    "cacheStatus": "🏪 Ore cache • Last surveyed: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Re-Survey • M: Main Mining Hall • 1-9: Quick tunnel",
+    "manageTooltip": {
+      "admin": "Manage All Quarries (Master Miner)",
+      "personal": "Manage Personal Mining Claims"
+    },
+    "refreshTooltip": "Refresh Excavation Data",
+    "mainSwarmDeskTooltip": "Enter Main Mining Hall Portal",
+    "loading": {
+      "title": "🔍 Scanning Mining Realms...",
+      "subtitle": "Gathering excavation data and ore metrics"
+    },
+    "stats": {
+      "pending": "active",
+      "completed": "extracted"
+    },
+    "activity": {
+      "title": "Recent Ore Strikes",
+      "noActivity": "No recent mining activity"
+    },
+    "enterButton": {
+      "selected": "⚡ PORTAL ACTIVE",
+      "enter": "🚀 ENTER MINE",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Abandon Quarry",
+      "confirm": "Are ye certain ye wish to abandon quarry \"{{projectName}}\"?",
+      "graveyardNote": "This will seal the quarry entrance. Ye can reopen it later if the ore be needed.",
+      "hasTodos": "This quarry has {{count}} active excavation(s). Would ye like to relocate them?",
+      "relocateLabel": "Relocate excavations to another quarry",
+      "selectDestination": "Select destination quarry",
+      "cancel": "Cave-In",
+      "deleteButton": "Seal the Quarry"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} diggin'",
+      "completedTasks": "{{count}} extracted"
+    },
+    "loading": "🎪 Establishing {{projectId}} Mining Hall...",
+    "controls": "🎮 WASD: Navigate | Mouse Drag: Survey | ESC: Exit Mine",
+    "workstation": {
+      "todoHint": "📝 Click to manage excavation tasks",
+      "projectHint": "🎪 Click to view mining operation"
+    },
+    "statsPanel": {
+      "title": "📊 Excavation Metrics",
+      "totalTasks": "Total Mining",
+      "pending": "Active Digs",
+      "completed": "Extracted Ore"
+    },
+    "reviewTab": {
+      "title": "Surveyor's Office",
+      "approveButton": "Seal the Ore",
+      "requestChanges": "Dusty Findings",
+      "returnToProgress": "Back to the Vein",
+      "emptyState": "No ore for survey"
+    }
+  },
+  "projectTab": {
+    "title": "New Mining Operation",
+    "sections": {
+      "basicInfo": "Excavation Foundation",
+      "configuration": "Mining Apparatus Configuration",
+      "technicalDetails": "Stonecraft Implementation Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Excavation",
+      "mobile": "Portable Mine",
+      "desktop": "Desktop Quarry",
+      "library": "Stonecraft Library/Archive",
+      "api": "Underground API/Service",
+      "general": "General Mining Project"
+    },
+    "buttons": {
+      "creating": "Establishing...",
+      "demoMode": "Stone Reader Mode",
+      "createProject": "BEGIN EXCAVATION"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Quarry",
+      "default": "Primary Mine"
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Mining",
+      "pending": "Active Digs",
+      "review": "Under Survey",
+      "completed": "Extracted Ore",
+      "in_progress": "Mining",
+      "blocked": "Cave-In",
+      "all": "All Tasks",
+      "inProgress": "In Progress"
+    },
+    "sort": {
+      "newest": "Fresh Claims",
+      "oldest": "Ancient Veins",
+      "priority": "Urgency Order",
+      "madness": "Cave-In Mode"
+    },
+    "search": {
+      "placeholder": "Search mining operations..."
+    },
+    "project": {
+      "label": "Quarry",
+      "allProjects": "All Quarries ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Display",
+      "perPage": "per mineshaft",
+      "all": "All Mining",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Viewing {{start}}-{{end}} of {{total}} mining tasks",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by quarry: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Mining",
+      "workshopClear": "Mining Hall be Clear!",
+      "noMatchingDescription": "No excavations match \"{{searchText}}\". Try adjusting yer stonecraft search parameters.",
+      "workshopClearDescription": "No active mining found. The forge apparatus has achieved perfect order... or perhaps the dwarves be restin'."
+    },
+    "buttons": {
+      "refresh": "Re-Survey Mine",
+      "export": "Extract Mining Data",
+      "saving": "Carving...",
+      "saveChanges": "Chisel Changes",
+      "discard": "Abandon Changes",
+      "complete": "Complete Dig",
+      "edit": "Re-forge Task",
+      "copyId": "Copy Claim ID",
+      "copyJiraCmd": "Copy Jira Runes",
+      "review": "Peer Survey",
+      "aiInsights": "Stonecraft Insights"
+    },
+    "fullEdit": {
+      "modeTitle": "⛏️ Master Forge Mode - Full Excavation Access"
+    },
+    "menu": {
+      "editTask": "Re-forge Mining",
+      "copyId": "Copy Claim ID",
+      "copyJiraCmd": "Copy Jira Runes",
+      "deleteTask": "Collapse Tunnel"
+    },
+    "dialog": {
+      "completeTitle": "Complete Mining: {{description}}",
+      "completeDescription": "Add optional mining notes about how this excavation was concluded (e.g., stonecraft discoveries, ore adjustments, cave-ins overcome, etc.)",
+      "completePlaceholder": "e.g., Successfully extracted the CSS ore by realigning the stonecraft breakpoints. Required 2 hours due to compatibility testing with ancient forge spirits.",
+      "cancel": "Cave-In",
+      "completeTask": "Extract Ore",
+      "exportTitle": "Extract Mining Data Compendium",
+      "exportDescription": "Preparing to extract {{count}} mining tasks from the ore archives",
+      "exportFilename": "Compendium Scroll Name",
+      "exportFilenameHelp": "The name of yer extracted mining compendium (extension will be added by the forge)",
+      "exportFormat": "Extraction Method",
+      "exportButton": "Extract Data",
+      "formatJSON": "JSON - Ore Archive Format",
+      "formatJSONDesc": "Complete mining data in structured ore notation for reimportation",
+      "formatCSV": "CSV - Tabular Scroll Format",
+      "formatCSVDesc": "Spreadsheet-compatible format for analysis in external apparatus",
+      "formatMarkdown": "Markdown - Readable Scroll Format",
+      "formatMarkdownDesc": "Dwarf-readable documentation format for stonecraft review",
+      "formatHTML": "HTML - Mountain Visualization Scroll",
+      "formatHTMLDesc": "Fully-styled web page with embedded mountain theme for browser viewing",
+      "formatJira": "Jira/Slack Mining Runes",
+      "formatJiraDesc": "Ready-to-carve Slack commands for manifesting Jira stonecraft artifacts",
+      "formatVariant": "Format Variation",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard Format",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Ore Data Fields",
+      "customizeFields": "Customize Stonecraft Field Names",
+      "renameFields": "Rename Exported Fields",
+      "calculatedFields": "Calculated Ore Properties",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days since first dig)",
+        "daysSinceUpdate": "Days since last survey",
+        "charCount": "Character count",
+        "tokenEstimate": "Rune-count guess",
+        "timeToComplete": "Time to complete (days)"
+      },
+      "selectAll": "All Fields",
+      "selectNone": "Clear Selection",
+      "advancedFilters": "Advanced Ore Filters",
+      "dateRange": "Excavated Between Dates",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "priorityFilter": "Mining Priority Levels",
+      "statusFilter": "Task Status Filter"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "Claim ID",
+      "description": "Excavation Description",
+      "project": "Mining Quarry",
+      "priority": "Dig Urgency",
+      "status": "Mining Phase",
+      "target": "Target Miner",
+      "created": "Claim Timestamp",
+      "updated": "Last Re-Survey",
+      "metadata": "Ore Metadata",
+      "source": "Vein Source",
+      "notes": "Mineshaft Notes",
+      "ticket": "Mining Ticket",
+      "completed_at": "Dig Completed At",
+      "completed_by": "Completed By Miner",
+      "completion_comment": "Mining Complete Notes",
+      "duration": "Mining Duration",
+      "duration_sec": "Duration (Seconds)",
+      "tags": "Ore Tags",
+      "complexity": "Mining Complexity",
+      "confidence": "Miner Confidence",
+      "phase": "Excavation Phase",
+      "epic": "Great Mining Epic",
+      "blockers": "Cave Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Mining description cannot be empty",
+      "descriptionTooLong": "Mining documentation must be less than 500 solid runes",
+      "invalidProject": "Please select a valid quarry from the mining hall"
+    },
+    "error": {
+      "failedToLoad": "Failed to retrieve mining tasks",
+      "unknownError": "Unknown cave collapse",
+      "malfunctionMessage": "The Mining Apparatus encountered a cave collapse. Please try refreshing the ore connection or check yer underground network."
+    },
+    "placeholders": {
+      "setStatus": "Set mining phase...",
+      "editDescription": "Carve yer excavation intentions...",
+      "selectProject": "Choose quarry...",
+      "setPriority": "Set dig urgency..."
+    },
+    "tooltip": {
+      "unsavedChanges": "Ore modifications await chiseling"
+    },
+    "labels": {
+      "readOnly": "🔒 Stone Reader Mode",
+      "review": "PEER SURVEY"
+    },
+    "aria": {
+      "todoActions": "Mining task ore actions"
+    },
+    "title": "Mining Task Ledger",
+    "addTodo": "Carve New Task",
+    "emptyState": {
+      "title": "No excavations yet",
+      "message": "Carve yer first mining task to begin diggin'",
+      "action": "Begin Excavation",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Ore Extracted",
+      "markPending": "Return to Vein",
+      "edit": "Re-forge Task",
+      "delete": "Collapse Tunnel"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Retrieving mining task from the ore archives..."
+    },
+    "header": {
+      "editTodo": "Re-forge Mining Task",
+      "createNewTodo": "Carve New Mining Task"
+    },
+    "buttons": {
+      "backToDashboard": "Return to Mining Hall Command Central"
+    },
+    "error": {
+      "todoNotFound": "Mining task has vanished from the ore archives. It may have collapsed or the claim scroll be corrupted."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Mining Workshop Mode - Full Forge Access"
+    },
+    "tips": {
+      "title": "💡 Stonecraft Mining Tips:",
+      "description": "• Carve intentions into any field to modify • Use the Re-forge apparatus for complete form • ESC to abandon dig • Ctrl+Enter to chisel findings • Purple ore for enhanced stonecraft"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Forge Configuration",
+    "confirmReset": "Are ye certain ye wish to reset all mining apparatus configurations to their original state? This operation cannot be undone.",
+    "messages": {
+      "saveSuccess": "Forge configurations successfully chiseled!",
+      "saveError": "Failed to carve apparatus settings to ore repository"
+    },
+    "export": {
+      "starting": "Initiating ore data extraction...",
+      "success": "Extraction completed! Manifested {{todoCount}} mining tasks, {{projectCount}} quarries, and apparatus configurations.",
+      "error": "Extraction failed due to cave collapse: {{error}}"
+    },
+    "import": {
+      "starting": "Initiating ore data manifestation...",
+      "confirmDialog": "Manifestation Preview:\n\n{{todoCount}} mining tasks, {{projectCount}} quarries, {{settingsCount}} apparatus configurations\n\nOre conflicts detected:\n{{conflicts}}\n\nProceed with manifestation?",
+      "success": "Manifestation completed! Successfully imported {{importedCount}} ore entities. {{skippedCount}} entities remained in the rubble.",
+      "error": "Manifestation failed due to cave collapse: {{error}}",
+      "fileDialogError": "Failed to open ore file portal"
+    },
+    "tabs": {
+      "profile": "Miner Profile",
+      "database": "Ore Repository",
+      "aiConfiguration": "Forge Familiar Setup",
+      "mcpSetup": "MCP Toolbench Setup",
+      "apiKeys": "Forge Access Keys",
+      "appearance": "Visual Apparatus",
+      "mindMap": "Vein Visualization",
+      "privacy": "Mining Privacy",
+      "advanced": "Advanced Stonecraft Controls",
+      "messaging": "Messaging",
+      "umlData": "Code Visualizations",
+      "npcAgents": "Clan Kin",
+      "swarmDesk": "SwarmDesk"
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Clan Role Configuration",
+      "subtitle": "Configure which clan roles be allowed in forge messages. Core roles can be hidden but not destroyed (they remain valid fer mountain validation).",
+      "allowedRoles": "Permitted Clan Roles",
+      "addRole": "Add Clan Role",
+      "editRole": "Re-forge Clan Role",
+      "infoMessage": "These roles will be available when carving forge messages. Each role can have a custom rune fer visual identification. Core roles can be hidden but not destroyed (they remain valid fer mountain validation).",
+      "roleId": "Role Rune",
+      "roleIdHelper": "Lowercase, alphanumeric, and ore-hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role rune cannot be re-carved",
+      "displayLabel": "Display Name",
+      "displayLabelHelper": "Dwarf-readable name shown in the forge",
+      "emoji": "Clan Rune",
+      "emojiHelper": "Single rune character fer visual identification",
+      "coreRole": "Core Clan Role",
+      "hidden": "Hidden in the Dark",
+      "showRole": "Reveal from shadows",
+      "hideRole": "Conceal in tunnel",
+      "saveChanges": "Chisel Changes",
+      "cancel": "Cave-In",
+      "npcConfig": "SwarmDesk Dwarf Configuration",
+      "npcEnabled": "Spawn as SwarmDesk Dwarf",
+      "npcCount": "Dwarf Count",
+      "npcCountHelper": "Choose how many clones of this dwarf should roam the mines (0-5).",
+      "npcColor": "Dwarf Glow Color",
+      "npcColorHelper": "Used fer the dwarf's body glow and sidebar clan color.",
+      "npcRole": "Dwarf Title",
+      "npcRoleHelper": "Shown above the dwarf in the mines. Leave blank to use the display name.",
+      "npcPersonality": "Dwarf Temperament",
+      "npcPersonalityHelper": "Controls the default temperament and fallback grumbles fer this dwarf.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Smithy",
+        "chaotic_genius": "Chaotic Forge-Mad",
+        "methodical_precise": "Methodical Stonemason",
+        "curious_explorer": "Curious Prospector",
+        "zen_creative": "Zen Runecarver",
+        "welcoming_efficient": "Welcoming Innkeeper",
+        "organized_visionary": "Clan Architect"
+      },
+      "duplicateRoleId": "A guild role with this rune is already carved!",
+      "duplicateAgentId": "A dwarf with this claim is already striking the earth!"
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize yer mining hall appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "auth": {
+    "app": {
+      "title": "Madness Interactive Deep Mines"
+    },
+    "welcome": {
+      "message": "Enter the deep mountain mining hall!"
+    },
+    "buttons": {
+      "demoLogin": "Access Stone Reader Mode",
+      "googleLogin": "Enter with Forge Gateway"
+    },
+    "status": {
+      "loggingOut": "Departing the mine..."
+    },
+    "errors": {
+      "demoLoginFailed": "Stone reader mode apparatus malfunction",
+      "authRequired": "Forge authentication required to access mining hall",
+      "configNotFound": "Authentication apparatus not configured",
+      "tokenInvalid": "Yer forge pass-rune has gone stale"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "Yer stonecraft runes remain unsaved. Are ye certain ye wish to abandon this work?",
+    "confirmDelete": "Are ye certain ye wish to collapse this mining task into rubble?",
+    "errors": {
+      "descriptionRequired": "A task description be required for ore enhancement",
+      "aiEnhancementFailed": "Stonecraft enhancement ritual failed: {{error}}",
+      "saveFailed": "Failed to preserve yer ore changes"
+    },
+    "placeholders": {
+      "description": "Carve yer mining task...",
+      "clickToAdd": "Chisel yer intentions here...",
+      "enhancedDescription": "Ore wisdom shall manifest here...",
+      "notes": "Additional stonecraft annotations...",
+      "ticket": "Claim reference scroll..."
+    },
+    "labels": {
+      "enhancedDescription": "Ore Enhancement",
+      "aiEnhanced": "⛏️ Stonecraft Enhanced Description:",
+      "completionNotes": "✨ Extraction Notes:",
+      "completed": "Completed",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Whispered",
+      "medium": "Focused",
+      "high": "Urgent Dig",
+      "critical": "Mountain-Shaking Dig"
+    },
+    "status": {
+      "pending": "Awaiting",
+      "in_progress": "Mining",
+      "blocked": "Cave-In",
+      "review": "Surveying",
+      "completed": "Extracted",
+      "initial": "Freshly Carved",
+      "cancelled": "Abandoned"
+    },
+    "menu": {
+      "editTask": "Re-forge Task",
+      "deleteTask": "Collapse Tunnel"
+    },
+    "messages": {
+      "noEnhancedDescription": "No ore wisdom yet. Invoke the stonecraft enhancement to reveal deeper insights."
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Enter Mountain Realm Map",
+      "switchToSphere": "Return to Ore Sphere",
+      "chaos": "🌀 Cave-In Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Ore Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Stonecraft Manipulation",
+      "dragging": "Mining!",
+      "touchAndDrag": "Ore Touch & Mine",
+      "doubleTapBurst": "Double-strike for ore burst!",
+      "doubleTapPhysics": "Double-strike for mountain forces!"
+    },
+    "filter": {
+      "title": "Mining Network Diagrams",
+      "allProjects": "All Ore Quarries",
+      "projectCount": "{{selected}}/{{total}} Mining Quarries",
+      "selectAll": "Select All Mining Arts",
+      "clearAll": "Collapse All Selections",
+      "selectProjects": "Choose Ore Quarries",
+      "projectsSelected": "{{count}} mining quarries chosen",
+      "selectedProjects": "Chosen Quarries ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Stone Enchantment",
+      "enableStaticMode": "Enable Stone Enchantment",
+      "cleanUpEffects": "Purify Ore Aura"
+    },
+    "sequence": {
+      "hideSequence": "Conceal Mining Sequence",
+      "showSequence": "Reveal Ore Connections",
+      "analyzeSequences": "Survey Mining Patterns",
+      "stopAnimation": "Halt Ore Animation",
+      "animateSequence": "Animate Mining Flow",
+      "shuffleSequence": "Transmute Sequence Pattern"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} ore nodes selected (Forge-Click to bind/unbind, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ ORE TANGENTRON",
+      "centerWorkshop": "🔮 STONECRAFT HALL"
+    },
+    "modes": {
+      "dynamic": "⚡ Ore Dynamics Mode",
+      "static": "📜 Crystallized Stone Mode"
+    },
+    "dialog": {
+      "createNode": "⛏️ Manifest Ore Node",
+      "nodeText": "Ore Inscription"
+    },
+    "nodeInfo": {
+      "type": "Ore Type",
+      "priority": "Dig Urgency",
+      "energy": "Ore Energy"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "title": "🎪 Establishing SwarmDesk Mining Realm...",
+        "subtitle": "Preparing the Deep Dig!",
+        "entering": "🎮 Entering Game Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Project Data..."
+      },
+      "error": {
+        "title": "❌ SwarmDesk Cave Collapse",
+        "subtitle": "Check ore console for stonecraft details",
+        "initializationFailed": "SwarmDesk mining initialization failed"
+      },
+      "controls": {
+        "instructions": "🎪 SwarmDesk Active | WASD: Ore Movement | E: Mining Interaction | F4-F7: Conjure Panels | Space: Cave-In Mode"
+      },
+      "navigation": {
+        "controls": "🎮 Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎪 Welcome to Floating Ore Madness!",
+        "subtitle": "Advanced floating panel stonecraft brings contextual workspace management to SwarmDesk!",
+        "features": {
+          "title": "🎯 Stonecraft Features:",
+          "draggable": "📱 Draggable ore panels with mining docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk ore interactions",
+          "docking": "🧲 Magnetic docking zones (mountain edges & corners)",
+          "shortcuts": "⌨️ Ore shortcuts for quick access",
+          "integration": "🎮 Full SwarmDesk 3D mining workspace integration"
+        },
+        "actions": {
+          "createProject": "📋 Manifest Quarry Panel",
+          "createAgent": "⛏️ Call a Miner Panel"
+        },
+        "description": "Welcome to the Mining Hall! This be an interactive 3D underground realm fer managing yer quarries and excavation tasks. Use the mine controls to navigate the tunnels and interact with the ore deposits.",
+        "gettingStarted": "Begin Yer Descent:",
+        "quickActions": [
+          "📝 View and manage yer quarry excavation tasks",
+          "🎯 Carve new mining tasks and set dig urgency",
+          "📊 Survey quarry ore metrics and extraction progress",
+          "⚙️ Configure forge apparatus and preferences",
+          "🔗 Connect to external mining tools and services"
+        ]
+      },
+      "shortcuts": {
+        "title": "⌨️ Mining Runes",
+        "f3": "F3 - Toggle Ore Welcome Portal",
+        "f4": "F4 - Toggle Quarry Project Portal",
+        "f5": "F5 - Toggle Miner Actions",
+        "f6": "F6 - Toggle Ore Tools",
+        "f7": "F7 - Toggle Analytics Survey Portal",
+        "f8": "F8 - Toggle WebLLM Rune-Engine Portal",
+        "f9": "F9 - Toggle MQTT Ore Monitor",
+        "f10": "F10 - Minimize All Mining Portals",
+        "f11": "F11 - Collapse All Portals",
+        "esc": "ESC - Cancel current mining operation",
+        "drag": "Drag portals - Click and mine portal headers",
+        "dock": "Dock portals - Drag near mountain edges to anchor",
+        "subtitle": "Quick Mining Rune Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Tunnel Navigation",
+            "commands": [
+              "WASD: Navigate the tunnels and caverns",
+              "Mouse Drag: Survey surroundings and rotate view",
+              "Scroll: Adjust depth perception",
+              "ESC: Return to the Mining Hall surface"
+            ]
+          },
+          "panels": {
+            "title": "📊 Portal Controls",
+            "commands": [
+              "F4: Open Mining Task Portal",
+              "F5: Open Dig Activity Log",
+              "F6: Open Forge Familiar Chat",
+              "F7: Open Quarry Info Portal"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Mining Actions",
+            "commands": [
+              "E: Interact with selected ore deposit",
+              "Space: Quick mining action",
+              "M: Open mining hall menu",
+              "R: Re-survey ore data"
+            ]
+          }
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Quarry Overview",
+          "activeProjects": "Active Quarries: 5",
+          "pendingTasks": "Pending Digs: 23",
+          "completedToday": "Extracted Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Quarries",
+            "addTask": "➕ Add New Mining Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Mining Task Stonecraft",
+          "inProgress": "🎪 Dashboard Integration - Under Ore Investigation",
+          "pending": "🔧 MCP Tool Enhancement - Awaiting Mining Alignment",
+          "actions": {
+            "addTodo": "➕ Add Mining Task"
+          }
+        },
+        "files": {
+          "title": "📁 Quarry Archives",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse Ore Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Miner Ore Communication",
+          "agentReady": "Miner: Ready to assist with yer mining projects!",
+          "userQuery": "You: Help me with the floating ore panels",
+          "agentResponse": "Miner: The floating panel stonecraft be amazing! Ye can drag panels anywhere and dock them to mountain edges.",
+          "placeholder": "Type yer mining runes..."
+        },
+        "commands": {
+          "title": "⚡ Miner Ore Commands",
+          "searchProjects": "🔍 Search Mining Quarries",
+          "listTodos": "📋 List Mining Tasks",
+          "deployProject": "🚀 Deploy Mining Quarry",
+          "generateReport": "📊 Generate Ore Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Mining Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Begin Ore Conversation",
+            "executeCommand": "⚡ Execute Mining Command"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Mining Agent Capabilities",
+          "projectManagement": "✅ Quarry Project Management",
+          "codeAnalysis": "✅ Ore Code Analysis",
+          "mcpIntegration": "✅ MCP Mining Tool Integration",
+          "communication": "✅ Real-time Ore Communication"
+        }
+      },
+      "mcp": {
+        "tools": {
+          "title": "🛠️ Available MCP Mining Tools",
+          "notAuthenticated": "Please enter the mining hall to access MCP tools.",
+          "authRequired": "Forge authentication required to connect to MCP apparatus",
+          "connecting": "No mining tools available. Connecting to apparatus...",
+          "serverStatus": "Apparatus Status: {{status}}",
+          "retryConnection": "🔄 Retry Ore Connection",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Mining Command Chronicle",
+          "noHistory": "No ore history found."
+        },
+        "debug": {
+          "title": "🐛 Mining Debug Information",
+          "authentication": "Authentication: {{status}}",
+          "user": "Miner: {{user}}",
+          "authMode": "Mining Mode: {{mode}}",
+          "mcpServer": "MCP Apparatus: {{status}}",
+          "activeTools": "Active Mining Tools: {{count}}",
+          "lastPing": "Last Ore Ping: {{time}}",
+          "apiService": "API Apparatus: {{status}}",
+          "authContext": "Auth Mining Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Forge Auth"
+        },
+        "title": "🔗 Forge Protocol Bindings",
+        "subtitle": "Mining Tool Integration Hub",
+        "description": "The Forge Protocol enables connections to external mining tools and services fer enhanced stonecraft and automation.",
+        "features": [
+          "🔧 Mining Tool Integration Framework",
+          "📊 Automated Ore Data Collection",
+          "🎯 Excavation Task Integration",
+          "⚙️ Forge Workflow Automation",
+          "🔐 Secure Tunnel Communication"
+        ],
+        "gettingStarted": "Forge Setup Instructions:",
+        "deploymentSteps": [
+          "Configure forge authentication runes",
+          "Connect to desired mining services",
+          "Set up automation forge rules",
+          "Test tunnel connections and workflows"
+        ]
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Mining System Metrics",
+          "cpuUsage": "Ore CPU Usage: 42%",
+          "memory": "Mining Memory: 68%",
+          "activePanels": "Active Portals: {{count}}",
+          "uptime": "Mining Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Mining Activity",
+          "panelCreated": "🏷️ Portal created: Project Management",
+          "swarmDeskInteraction": "🎮 SwarmDesk ore interaction: Workstation selected",
+          "mcpToolExecuted": "🔧 MCP mining tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 Ore Insights",
+          "mostUsedPanel": "Most used portal: Project Management",
+          "peakActivity": "Peak mining activity: 14:00-15:00",
+          "efficiencyScore": "Mining efficiency score: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Rune-Engines",
+          "currentModel": "Bound Rune-Engine: {{model}}",
+          "loadModel": "Bind Rune-Engine"
+        },
+        "compatibility": {
+          "title": "✅ Mining Browser Compatibility",
+          "checking": "🔄 Checking ore compatibility...",
+          "checkCompatibility": "🔍 Check Ore Compatibility"
+        },
+        "status": {
+          "title": "⚡ WebLLM Mining Status",
+          "initialized": "Ore Initialized: {{status}}",
+          "currentModel": "Bound Rune-Engine: {{model}}",
+          "loading": "Ore Loading: {{status}}",
+          "inferencing": "Ore Inferencing: {{status}}",
+          "queueLength": "Mining Queue Length: {{length}}",
+          "loadedModels": "Loaded Rune-Engines: {{count}}",
+          "mode": "Mining Mode: {{mode}}",
+          "initialize": "🚀 Initialize WebLLM Mining"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Mining Settings",
+          "agentModelAssignment": "Miner Rune-Engine Assignment:",
+          "useGlobal": "Use One Clan-Wide Rune-Engine",
+          "perAgent": "One Rune-Engine Per Miner",
+          "temperature": "Ore Temperature:",
+          "maxTokens": "Max Mining Tokens:",
+          "saveSettings": "💾 Carve Mining Settings",
+          "resetDefaults": "🔄 Reset to Mining Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Mining Live Logs",
+          "noMessages": "No ore messages received yet...",
+          "waitingTraffic": "Waiting for MQTT ore traffic on port 4140",
+          "reconnect": "🔄 Reconnect Ore Link",
+          "messages": "Ore Messages: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Clear Ore Logs",
+          "export": "💾 Export Ore Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Ore Connection Status",
+          "status": "Mining Status: {{status}}",
+          "broker": "Ore Broker: {{broker}}",
+          "clientId": "Client Mining ID: swarmdesk_{{id}}",
+          "messagesReceived": "Ore Messages Received: {{count}}",
+          "lastActivity": "Last Mining Activity: {{time}}",
+          "subscriptions": "📡 Ore Subscriptions:",
+          "connect": "🔄 Connect Ore Link",
+          "disconnect": "🔌 Disconnect Ore Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Mining Settings",
+          "brokerAddress": "Ore Broker Address:",
+          "subscribeTopics": "Subscribe to Ore Topics:",
+          "autoReconnect": "Auto-reconnect on ore disconnect",
+          "showTimestamps": "Show ore timestamps",
+          "saveSettings": "💾 Carve Mining Settings",
+          "resetDefaults": "🔄 Reset to Mining Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk",
+        "description": "3D clan command hall — chart tunnels, steer miners, and mind the forge for the Madness Interactive mines",
+        "features": [
+          "🎮 3D interactive ore environment",
+          "🤖 Direct miner ore communication",
+          "📊 Real-time mining system monitoring",
+          "🎪 Cave-In mode ore activation"
+        ],
+        "status": "🔥 Active Mining Development",
+        "visibility": "public ore repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Todo Inventory mining management system - Keep up with Mining Agents at speed, and edit their thoughts as they mine and tinker",
+        "features": [
+          "📋 Ore task tracking",
+          "🏷️ Smart ore categorization",
+          "📈 Analytics mining dashboard",
+          "🔄 Cross-system ore integration"
+        ],
+        "status": "🚀 Active Mining Development (private ore repo)",
+        "visibility": "private mining hall"
+      },
+      "swarmonomicon": {
+        "title": "🐝 Swarmonomicon",
+        "description": "Clan-swarm coordination system — the sacred ledger for mustering many miners and keeping their runes in step",
+        "features": [
+          "🤖 Miner ore orchestration",
+          "💬 Communication ore protocols",
+          "🎮 Interactive ore interfaces",
+          "🧠 Collective ore intelligence"
+        ],
+        "status": "✨ modularly ore functional",
+        "visibility": "public ore repository"
+      },
+      "title": "📂 Quarry Archives",
+      "subtitle": "Mining Operations Command",
+      "description": "Complete quarry information and management tools fer organizing yer excavations and tracking ore extraction.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Mining Command Hall",
+          "description": "Underground command hall fer managing quarries, excavation tasks, and clan coordination with integrated mining tools.",
+          "features": [
+            "📈 Quarry extraction tracking and ore analytics",
+            "🎯 Mining task management and dig urgency",
+            "🤖 Forge familiar powered insights and recommendations",
+            "🔗 Integration with external mining apparatus",
+            "📊 Real-time clan collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Forge Integration",
+          "description": "Communication and coordination apparatus that connects various mining tools and services fer streamlined ore workflow.",
+          "features": [
+            "🔧 Multi-forge connectivity",
+            "⚙️ Automated ore workflow processing",
+            "📊 Real-time mining data synchronization",
+            "🔐 Secure tunnel communication protocols",
+            "🎯 Centralized excavation coordination"
+          ]
+        }
+      }
+    },
+    "errors": {
+      "initializationFailed": "SwarmDesk mining scripts failed to load within ore timeout",
+      "sceneInitFailed": "❌ Ore scene initialization failed:",
+      "panelSystemFailed": "❌ Failed to create ore panel system:",
+      "panelSystemMissing": "⚠️ FloatingPanelSystem not ore available",
+      "controlsInitFailed": "Failed to initialize ore standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js ore scene:",
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error"
+    },
+    "status": {
+      "loading": "Smelting ore components...",
+      "initialized": "✅ SwarmDesk ore tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk ore scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk ore scripts loading timeout",
+      "containerNotReady": "⚠️ Ore container not ready yet",
+      "panelSystemExists": "🏷️ Ore panel system already exists, ensuring proper state",
+      "panelSystemMissing": "⚠️ Ore panel system missing handleKeyboard, reinitializing...",
+      "panelSystemCreated": "✅ Ore panel system created successfully",
+      "initializing": "⚙️ Initializing System...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Mining Operation",
+      "monitor": "📊 Survey Ore Extraction Metrics",
+      "optimize": "⚡ Optimize Dig Allocation",
+      "analyze": "📈 Generate Ore Analysis",
+      "configure": "⚙️ Configure Forge Parameters"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "Yer forge familiar ain't bound. Venture to Settings → Forge Familiar Setup to wake the runes.",
+      "noResponse": "I received yer mining runes but the ore forces were too chaotic to process a proper response. Please retry yer mining request.",
+      "demoUserRestricted": "🚫 Forge-familiar counsel be not available fer stone readers. Register for full mining access to commune with the runes."
+    },
+    "quickActions": {
+      "listPending": "Reveal me pending mining operations",
+      "createHighPriority": "Forge a new urgent mining task",
+      "summarizeProject": "Survey the essence of the {{project}} quarry",
+      "filterHighPriority": "Show me urgent ore operations in this apparatus"
+    },
+    "suggestedActions": {
+      "listPending": "Survey Pending",
+      "newHighPrio": "Urgent Dig",
+      "summarize": "Survey Essence"
+    },
+    "status": {
+      "typing": "Mining consultation be processing"
+    },
+    "emptyState": {
+      "title": "Mining Hall Forge Familiar",
+      "demoMessage": "Forge-familiar counsel be not available fer stone readers. Register for full mining access to commune with yer runes!",
+      "description": "Yer personal forge familiar — helps ye wrangle quarries, steer the apparatus, and sniff out deeper veins.",
+      "suggestions": [
+        "Search stonecraft wisdom",
+        "List active mining tasks",
+        "Establish new quarry",
+        "Generate ore extraction report"
+      ]
+    },
+    "notConfigured": {
+      "title": "Forge Familiar Not Bound",
+      "description": "To commune with yer forge familiar, set yer rune-engine provider in the Forge Settings.",
+      "configureButton": "Configure Ore Apparatus"
+    },
+    "header": {
+      "title": "Forge Familiar",
+      "refreshTooltip": "Refresh ore context",
+      "settingsTooltip": "Apparatus Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Ore Context",
+      "aiSettings": "Forge Familiar Setup (Go to Forge Settings)",
+      "aiSettingsRedirect": "Forge familiar binding has moved to Settings → Forge Familiar Setup"
+    },
+    "input": {
+      "placeholder": "Carve yer mining inquiry...",
+      "demoPlaceholder": "Forge-familiar counsel be not available fer stone readers. Register for full mining access!"
+    },
+    "title": "Forge Familiar",
+    "placeholder": "Carve yer mining inquiry...",
+    "send": "Dispatch Rune",
+    "thinking": "Runes be turnin' in the dark...",
+    "suggestions": {
+      "searchLessons": "Search stonecraft wisdom",
+      "listTodos": "List active mining tasks",
+      "createProject": "Establish new quarry",
+      "summarize": "Generate ore survey"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Carve Task",
+      "listTodos": "List Mining Tasks",
+      "projectStatus": "Apparatus Status",
+      "help": "Mining Guidance",
+      "settings": "Mining Config",
+      "refreshData": "Refresh Ore Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me carve a new mining task",
+      "listTodos": "Reveal me current mining tasks",
+      "projectStatus": "Survey the status of me mining apparatus",
+      "help": "What mining guidance can ye provide?",
+      "settings": "Open mining configuration panel",
+      "refresh": "Refresh ore data"
+    },
+    "header": {
+      "title": "Forge Familiar",
+      "statusListening": "Mining ore energy...",
+      "statusTyping": "Forging response...",
+      "statusOnline": "Ore Available"
+    },
+    "emptyState": {
+      "greeting": "Hail! I be yer forge familiar",
+      "description": "I’ll help ye wrangle quarries, steer the apparatus, and sniff out insights from yer ore-work."
+    },
+    "status": {
+      "thinking": "Runes be turnin' in the dark..."
+    },
+    "input": {
+      "placeholder": "Carve yer ore query..."
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "Ore Enhancement Ritual",
+      "perform_geomancy": "Mining Survey Divination",
+      "consolidate_similar": "Convergence Forging"
+    },
+    "descriptions": {
+      "enhance_description": "Channel rune-sage wisdom to hone task carvings with sharper intent and sturdier stonecraft",
+      "perform_geomancy": "Survey hidden patterns and ore connections within yer quarry work through mountain analysis",
+      "consolidate_similar": "Forge and merge similar mining tasks through ore convergence algorithms"
+    },
+    "interface": {
+      "title": "🪄 Ore Spell Forging Hall",
+      "subtitle": "Channel mountain energies to enhance yer quarry operations",
+      "selectSpell": "Choose Yer Mining Runes",
+      "castSpell": "Forge Spell",
+      "cancelSpell": "Abandon Ritual",
+      "casting": "Mining Ore Energies...",
+      "resultsTitle": "✨ Ore Manifestation Results",
+      "historyTitle": "📜 Ore Spell Chronicle",
+      "clearHistory": "Purge Ore History",
+      "noHistory": "No ore rituals have been forged",
+      "placeholder": "The ore forces await yer guidance..."
+    },
+    "effects": {
+      "particles": "Ore particles swirling",
+      "energy": "Mining energy building",
+      "casting": "Ore forces converging",
+      "complete": "Ritual successfully extracted"
+    },
+    "results": {
+      "enhance": {
+        "success": "⛏️ Task mined with ore wisdom!",
+        "improvement": "Ore enhancement applied to mining documentation",
+        "insights": "Ore insights revealed:",
+        "suggestions": "Mining suggestions manifested"
+      },
+      "geomancy": {
+        "success": "🌍 Mining patterns surveyed from the quarry matrix!",
+        "insights": "Survey revelations:",
+        "patterns": "Ore pattern analysis:",
+        "recommendations": "Mining recommendations:",
+        "analysis": "Ore analysis complete"
+      },
+      "consolidate": {
+        "success": "🔗 Similar mining tasks forged and merged!",
+        "merged": "{{count}} tasks converged through ore forging",
+        "candidates": "Convergence candidates identified:",
+        "preview": "Forging preview:",
+        "confirmation": "Proceed with ore convergence?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Ore ritual failed: {{error}}",
+      "noDescription": "Task description be required fer ore enhancement",
+      "rateLimited": "Ore energies depleted. Await mining recharge: {{timeRemaining}}",
+      "aiError": "The rune-sage stumbled in the dust",
+      "networkError": "Ore network connection disrupted",
+      "invalidSpell": "Unknown mining runes attempted",
+      "unauthorized": "Insufficient mining clearance fer this ritual"
+    },
+    "rateLimit": {
+      "enhance": "Enhancement rituals: {{used}}/{{limit}} ore charges",
+      "geomancy": "Survey divinations: {{used}}/{{limit}} mining consultations",
+      "consolidate": "Forging spells: {{used}}/{{limit}} convergence attempts",
+      "resetTime": "Ore energies replenish in: {{time}}",
+      "depleted": "Ore energies temporarily depleted"
+    },
+    "tooltip": {
+      "castSpell": "Channel ore energies (🪄)",
+      "enhanceDescription": "Enhance with rune-sage wisdom (Ctrl+E)",
+      "performGeomancy": "Survey mining patterns (Ctrl+G)",
+      "consolidateSimilar": "Forge similar tasks (Ctrl+C)",
+      "spellHistory": "View ore spell chronicle",
+      "clearHistory": "Purge ore spell records"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Mining Runes:",
+      "enhance": "Ctrl+E - Ore Enhancement",
+      "geomancy": "Ctrl+G - Mining Survey",
+      "consolidate": "Ctrl+C - Convergence Forging",
+      "cancel": "Esc - Abandon Ritual"
+    },
+    "history": {
+      "timestamp": "Ore timestamp:",
+      "spellType": "Ritual type:",
+      "target": "Target mining:",
+      "result": "Manifestation result:",
+      "success": "✨ Ore Successful",
+      "failed": "❌ Ritual Failed",
+      "duration": "Ritual duration:",
+      "empty": "No ore rituals recorded in the mining chronicles"
+    },
+    "status": {
+      "idle": "Ore energies at rest",
+      "casting": "Mining ore forces...",
+      "processing": "Ore computation in progress...",
+      "complete": "Ritual successfully extracted",
+      "failed": "Mining interference detected",
+      "cooldown": "Recovering ore energies..."
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(40, 20, 0, 0.6)",
+      "cardBorder": "rgba(245, 158, 11, 0.5)",
+      "cardText": "#fef3c7",
+      "iconColor": "#f59e0b",
+      "chipBg": "#b45309",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Mine Orientation",
+      "next": "Delve Deeper",
+      "back": "Return to Upper Level",
+      "getStarted": "Enter the Mines"
+    },
+    "complete": {
+      "message": "Welcome to the forge! Your mining station is ready, by me beard!"
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome to the Deep Mines",
+        "defaultName": "Miner",
+        "description": "Inventorium be yer rune-guided mining hall — task ledgers, quarry charts, and mountain views all in one.",
+        "subtitle": "Let's delve through the tunnels to help ye get started."
+      },
+      "projects-overview": {
+        "title": "Mine Shafts",
+        "description": "Organize yer excavation tasks into shafts for better ore management and vein visualization.",
+        "benefitsTitle": "Mine Shaft Benefits:",
+        "benefits": {
+          "organize": "Bundle related ore deposits together",
+          "visualize": "See mineral richness at a glance",
+          "track": "Track extraction milestones",
+          "collaborate": "Share findings with the clan"
+        },
+        "hint": "⛏️ Miner's Wisdom: Every task can belong to a mine shaft"
+      },
+      "create-project": {
+        "title": "Forge New Quarry",
+        "description": "Let's establish a new quarry to organize yer mining. Quarries help ye group related excavations together.",
+        "guideTitle": "How to claim a quarry:",
+        "step1": "Strike the floating '+' button in the bottom right corner",
+        "step2": "Select the 'Quarry Claim' tab in the scroll",
+        "step3": "Enter a unique claim name (lowercase with hyphens, e.g., 'iron-deep-01')",
+        "step4": "Add a display name and survey notes",
+        "hint": "Tip: Claim names must be unique and use lowercase runes with hyphens"
+      },
+      "add-todo": {
+        "title": "Carve Mining Task",
+        "description": "Now let's carve a mining task for yer quarry. These are the veins ye need to extract.",
+        "guideTitle": "How to create a task:",
+        "step1": "Strike the floating '+' button again",
+        "step2": "Select the 'Excavation' tab in the scroll",
+        "step3": "Carve yer task instructions",
+        "step4": "Select yer quarry from the dropdown",
+        "step5": "Set urgency level and click 'Dig'",
+        "hint": "Tip: Ye can order excavations from any tunnel using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Bind Yer Forge Familiar",
+        "description": "Strengthen yer mining with a bound rune-engine (like Google Gemini or OpenAI) to lend counsel when the tunnels get tricky.",
+        "whyConfigureTitle": "Benefits of Familiar Binding:",
+        "benefits": {
+          "suggestions": "Generate strategic mining protocols",
+          "enhance": "Enrich task descriptions with ore insights",
+          "analyze": "Map quarry dependencies and lava flows",
+          "insights": "Extract productivity gems and recommendations"
+        },
+        "statusConfigured": "Status: ✅ Familiar bound and ready!",
+        "statusNotConfigured": "Status: ❌ Familiar not yet bound",
+        "configureButton": "Bind Forge Familiar",
+        "skipButton": "Not Yet",
+        "helpText": "Ye can bind yer familiar anytime from Settings → Forge Familiar Setup"
+      },
+      "ai-assistant": {
+        "title": "Ask the Forge Familiar",
+        "description": "Get counsel to manage digs, read ore patterns, and keep the clan movin' fast.",
+        "examplesTitle": "Quick Carvings:",
+        "quickActions": {
+          "createTodos": "Carve tasks from blueprints",
+          "analyzeTasks": "Analyze ore deposit patterns",
+          "suggestions": "Get mining suggestions",
+          "insights": "Shaft insights"
+        },
+        "hint": "⛏️ Miner's Wisdom: Click the forge interface to start smithing"
+      },
+      "swarmdesk": {
+        "title": "3D Mine Network",
+        "description": "Explore yer codebase in 3D underground vision - an immersive mine visualization tool.",
+        "featuresTitle": "Mine Network Features:",
+        "features": {
+          "codeViz": "3D code mine mapping",
+          "interactive": "Interactive tunnel navigation",
+          "architecture": "Shaft system overview",
+          "dependencies": "Tunnel connection mapping"
+        },
+        "hint": "⛏️ Miner's Wisdom: Access the network from mine shaft view",
+        "tabTip": "Once the mines load, press TAB to move between yer control station and the 3D mine network"
+      },
+      "complete": {
+        "title": "Ye're All Set!",
+        "description": "Ye're ready to start mining! Explore the depths and make 'em yer own, by Moradin's beard!",
+        "nextStepsTitle": "Next Mining Operations:",
+        "nextSteps": {
+          "createProject": "Claim yer first quarry",
+          "addTodos": "Add excavations to yer quarry",
+          "tryAI": "Consult the forge familiar",
+          "checkSwarmDesk": "Explore 3D Mine Network"
+        },
+        "footer": "⛏️ Ye can replay this mine tour anytime from Forge Settings"
+      }
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Hall Overview",
+      "users": "Clan Roster",
+      "analytics": "Ore Analytics",
+      "featureFlags": "Forge Protocols",
+      "systemLogs": "Mineshaft Logs"
+    },
+    "overview": {
+      "title": "Mining Hall Overview",
+      "loading": "Surveying the deep veins...",
+      "refresh": "Re-survey statistics",
+      "fallback": "(showing mock ore data for development)",
+      "totalUsers": "Total Clan Members",
+      "totalUsersSubtitle": "All registered dwarves",
+      "activeUsers": "Active Miners (7d)",
+      "activeUsersSubtitle": "Dwarves diggin' this week",
+      "premiumUsers": "Master Smiths",
+      "premiumUsersSubtitle": "Premium forge subscriptions",
+      "errors": "Cave Collapses (24h)",
+      "errorsSubtitle": "System cave-ins today",
+      "tierDistribution": "Clan Rank Distribution",
+      "tier": {
+        "free": "Apprentice",
+        "pro": "Journeyman",
+        "premium": "Master Smith",
+        "admin": "Clan Elder"
+      },
+      "productivity": "Extraction Metrics",
+      "totalTodos": "Total Mining Tasks",
+      "completedTodos": "Ore Extracted",
+      "completionRate": "Extraction Rate"
+    },
+    "analytics": {
+      "title": "Ore Intelligence",
+      "loading": "Loading mineshaft data...",
+      "comingSoon": "Analytics Forge Under Construction",
+      "description": "Advanced ore charts and mountain visualization apparatus are currently being calibrated. Check back soon for powerful insights into clan behavior, forge performance, and mining productivity metrics.",
+      "timeframe": {
+        "day": "Last 24 Stone Hours",
+        "week": "Last 7 Stone Days",
+        "month": "Last 30 Stone Days",
+        "year": "Last 12 Stone Months"
+      },
+      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of stonecraft science!",
+      "charts": {
+        "userGrowth": "Clan Growth Trends",
+        "userGrowthDesc": "Track new dwarf registrations over time",
+        "activityHeatmap": "Mining Activity Heatmap",
+        "activityHeatmapDesc": "Visualize clan activity patterns by hour/day",
+        "featureUsage": "Tool Usage Distribution",
+        "featureUsageDesc": "Which forge tools are most popular?",
+        "performance": "Cavern Performance Metrics",
+        "performanceDesc": "API response times and cave-in rates"
+      }
+    },
+    "logs": {
+      "title": "Mineshaft Logs",
+      "loading": "Analyzing cavern recordings...",
+      "refresh": "Refresh logs",
+      "fallback": "(showing mock ore data for development)",
+      "autoRefresh": "Auto-survey (30s)",
+      "showing": "Showing",
+      "entries": "entries",
+      "empty": "No logs found - mining hall running like a dwarven clock!",
+      "columns": {
+        "timestamp": "Stone Time",
+        "level": "Severity",
+        "message": "Mining Message",
+        "user": "Dwarf",
+        "endpoint": "Tunnel Endpoint"
+      },
+      "severity": {
+        "error": "CAVE-IN",
+        "warning": "ORE WARNING",
+        "info": "MINING INFO"
+      }
+    },
+    "featureFlags": {
+      "title": "Forge Protocols",
+      "loading": "Loading forge protocols...",
+      "refresh": "Refresh protocols",
+      "fallback": "(showing mock ore data for development)",
+      "lastUpdated": "Last forged",
+      "unsavedChanges": "Ye have unforged changes. These will affect all dwarves when chiseled!",
+      "save": "Chisel Changes",
+      "cancel": "Cave-In",
+      "saving": "Chiseling...",
+      "confirmSave": "Aye, Apply Forge Changes",
+      "tiers": {
+        "free": "Apprentice Tier",
+        "pro": "Journeyman Tier",
+        "premium": "Master Tier",
+        "admin": "Elder Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Mining Tasks",
+        "chat_interface": "Forge Chat",
+        "theme_selector": "Ore Theme Selector",
+        "export_todos": "Export Mining Data",
+        "advanced_search": "Advanced Ore Prospecting",
+        "unlimited_todos": "Unlimited Mining Tasks",
+        "mindmap_view": "Vein Map View",
+        "custom_themes": "Custom Forge Themes",
+        "api_access": "Tunnel API Access",
+        "priority_support": "Priority Forge Support",
+        "swarmdesk_3d": "SwarmDesk 3D Mines",
+        "collaborative_editing": "Clan Collaborative Mining",
+        "ai_copilot": "Forge Familiar",
+        "admin_panel": "Clan Elder Panel",
+        "user_management": "Clan Roster Management",
+        "feature_flags": "Forge Protocols",
+        "system_logs": "Mineshaft Logs",
+        "analytics": "Ore Analytics",
+        "debug_mode": "Ore Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Forge Protocol Changes",
+        "message": "Are ye sure ye want to apply these changes? This will immediately affect all dwarves across the mining hall. Protocols control access to core forge functionality.",
+        "warning": "Tip: Test changes on a staging anvil first. Disabling critical features may cause cave-ins in dwarf workflows."
+      }
+    },
+    "users": {
+      "title": "Clan Roster Management",
+      "loading": "Cataloging mountain dwarves...",
+      "refresh": "Refresh clan roster",
+      "fallback": "(showing mock ore data for development)",
+      "searchPlaceholder": "Search by rune-mail or dwarf name...",
+      "showing": "Showing",
+      "users": "dwarves",
+      "filtered": "filtered from",
+      "empty": "No dwarves registered yet",
+      "noResults": "No dwarves found matching yer mining search",
+      "adminBadge": "CLAN ELDER",
+      "edit": {
+        "title": "Re-forge Dwarf Profile",
+        "email": "Rune-Mail",
+        "tier": "Clan Rank",
+        "isAdmin": "Grant Clan Elder Access",
+        "cancel": "Cave-In",
+        "save": "Chisel",
+        "saving": "Chiseling..."
+      },
+      "columns": {
+        "email": "Rune-Mail",
+        "tier": "Clan Rank",
+        "status": "Status",
+        "lastLogin": "Last Dig",
+        "todos": "Mining Tasks",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Clan Elder Access Change",
+        "grantMessage": "Ye are about to grant clan elder privileges to this dwarf. This will give them full access to the elder panel, including clan roster management, forge protocols, and mineshaft logs.",
+        "revokeMessage": "Ye are about to revoke clan elder privileges from this dwarf. They will lose access to all elder functionality.",
+        "cancel": "Cave-In",
+        "confirm": "Aye, Confirm",
+        "saving": "Chiseling..."
+      }
+    },
+    "common": {
+      "loading": "Smelting ore...",
+      "error": "Cave collapse detected",
+      "refresh": "Re-Survey",
+      "save": "Chisel",
+      "cancel": "Cave-In"
+    }
+  },
+  "queuePane": {
+    "title": "Ore Priority Queue",
+    "subtitle": "Arrange yer excavation tasks by vein richness and dig urgency",
+    "dragHint": "Drag ore cards to reorder the mining priority",
+    "searchPlaceholder": "Search the ore queue...",
+    "emptyState": "No ore in the queue - the vein is tapped",
+    "noSearchResults": "No ore matches yer prospecting search",
+    "reordering": "Rearranging the ore cart...",
+    "allProjects": "All Quarries",
+    "cardActions": {
+      "complete": "Extract Ore",
+      "edit": "Re-forge",
+      "remove": "Remove from Cart"
+    },
+    "incoming": {
+      "title": "Raw Ore Deposits",
+      "addToTop": "Rush to Forge Top",
+      "addToBottom": "Stack at Cart Bottom"
+    },
+    "ordered": {
+      "title": "Mining Priority Queue"
+    },
+    "stats": {
+      "total": "Queued Ore",
+      "high": "Deep Vein Urgent",
+      "incoming": "Raw Deposits"
+    }
+  },
+  "umlData": {
+    "title": "Ore Structure Blueprints",
+    "description": "Manage blueprint scrolls fer 3D mine visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload Blueprint Scroll",
+      "reading": "Deciphering runes",
+      "success": "Successfully archived {{name}} with {{classes}} ore structures"
+    },
+    "errors": {
+      "loadFailed": "Failed to retrieve blueprint scrolls from the archive",
+      "uploadFailed": "Failed to carve blueprint scroll into the archive",
+      "deleteFailed": "Failed to destroy blueprint scroll"
+    },
+    "delete": {
+      "confirmTitle": "Destroy Ore Blueprint?",
+      "confirmMessage": "Are ye certain ye wish to destroy {{name}}? This cannot be undone, by Moradin's beard.",
+      "success": "Successfully destroyed {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in the Mining Hall..."
+    },
+    "source": {
+      "personal": "Personal Mine",
+      "shared": "Clan Shared"
+    },
+    "instructions": {
+      "title": "How to forge blueprints:",
+      "step1": "Install the blueprint forge: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate blueprints from yer codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated scroll using the button above"
+    },
+    "storage": {
+      "info": "Ye have {{count}} blueprint(s) archived. Storage limit: {{limit}}",
+      "limit": "10 scrolls per dwarf (10MB each)"
+    },
+    "table": {
+      "name": "Blueprint Name",
+      "source": "Mine Source",
+      "classes": "Ore Structures",
+      "packages": "Tunnel Packages",
+      "created": "Date Forged",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in Mining Hall",
+      "delete": "Destroy Scroll"
+    },
+    "empty": "No ore blueprints archived yet",
+    "empty.hint": "Upload a blueprint scroll to see yer code forged in 3D"
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Mountain Map Backdrop",
+      "description": "Set a custom cavern mural fer yer War Room map",
+      "presets": "Ancient Maps",
+      "uploads": "Yer Cave Paintings",
+      "upload": "Carve Upload",
+      "noUploads": "No custom cave murals yet",
+      "opacity": "Stone Transparency",
+      "fitMode": "Carving Fit",
+      "fitCover": "Cover Wall",
+      "fitContain": "Fit Within",
+      "fitStretch": "Stretch Across",
+      "fitTile": "Tile Pattern",
+      "blendWithTerrain": "Blend with Mountain Stone",
+      "remove": "Chisel Away Background",
+      "active": "Active Mural",
+      "uploadError": "Cave painting failed. Try again, miner.",
+      "fileTooLarge": "Image must be under 5MB — too heavy fer the minecart",
+      "invalidType": "Only JPEG, PNG, and WebP ore-images be supported"
+    }
+  },
+  "insights": {
+    "loading": "Surveying the ore veins...",
+    "tabs": {
+      "overview": "Mine Overview",
+      "analytics": "Ore Analytics",
+      "systemLogs": "Mineshaft Logs"
+    }
+  },
+  "themeName": "dwarf",
+  "displayName": "Dwarven Mines",
+  "description": "Deep mountain mining hall - pickaxes, ore veins, and stonecraft wisdom",
+  "icon": "⛏️",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Stonecraft Wisdom",
+    "addLesson": "Carve New Wisdom",
+    "emptyState": {
+      "title": "No stonecraft discoveries yet",
+      "message": "Document yer mining wisdom and forge insights",
+      "action": "Carve Wisdom"
+    },
+    "fields": {
+      "topic": "Mining Topic",
+      "language": "Forge Tongue",
+      "lessonLearned": "Stonecraft Discovery",
+      "tags": "Ore Tags"
+    },
+    "actions": {
+      "edit": "Re-forge Wisdom",
+      "delete": "Crumble to Rubble",
+      "save": "Chisel into Stone"
+    }
+  },
+  "mindmap": {
+    "title": "Cavern Survey Map",
+    "emptyState": {
+      "title": "No tunnel survey data",
+      "message": "Carve tasks and quarries to map the ore connections"
+    },
+    "controls": {
+      "zoomIn": "Descend Deeper",
+      "zoomOut": "Ascend Level",
+      "resetView": "Return to Surface",
+      "centerView": "Center on Main Shaft"
+    }
+  },
+  "swarmdesk": {
+    "title": "3D Mining Hall",
+    "emptyState": {
+      "title": "Establishing Mining Realm",
+      "message": "Carving out yer 3D underground workspace..."
+    },
+    "controls": {
+      "rotate": "Rotate Minecart",
+      "zoom": "Depth Survey",
+      "pan": "Traverse Tunnel",
+      "reset": "Return to Entrance"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Quarry",
+    "placeholder": "Choose a mining quarry...",
+    "noProjects": "No quarries established yet",
+    "createNew": "Establish New Quarry"
+  },
+  "errors": {
+    "generic": "Cave collapse detected!",
+    "network": "Underground ore network disrupted",
+    "notFound": "Vein not found — the tunnel be empty",
+    "unauthorized": "Ye lack the mining credentials, outsider",
+    "serverError": "The mountain's core be rumbling — server cave-in",
+    "server": "A cave-in has blocked the path! The miners are clearing the way.",
+    "timeout": "The torch flickered out. Strike the flint and try again."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Are ye certain ye wish to collapse this tunnel into rubble?",
+    "discard": "Abandon these unsaved ore modifications?",
+    "archive": "Seal this mineshaft fer the ages?"
+  },
+  "agentStates": {
+    "working": "Forging",
+    "traveling": "Tunneling",
+    "idle": "Resting",
+    "assigned": "Commissioned"
+  },
+  "targetAgent": {
+    "user": "Dwarf",
+    "ai": "Golem",
+    "system": "The Mountain",
+    "none": "None"
+  },
+  "accountPanel": {
+    "title": "The Forge Registry",
+    "tabs": {
+      "profile": "Miner Profile",
+      "subscription": "Ore Subscriptions",
+      "account": "Vault Access"
+    },
+    "subscriptionDisabled": "The subscription forge has gone cold",
+    "dangerZone": "The Lava Pit"
+  },
+  "billing": {
+    "title": "The Great Vault & Tributes",
+    "subtitle": "Manage your mining rights and clan tributes",
+    "loginRequired": "Present your clan seal to enter the vault",
+    "goToLogin": "Enter the Mountain",
+    "currentPlan": "Current Mining Right",
+    "perMonth": "/lunar moon",
+    "nextBillingDate": "Next tribute collection:",
+    "planFeatures": "MINING PRIVILEGES:",
+    "upgradeToPro": "ASCEND TO MOUNTAIN KING",
+    "manageBilling": "Consult the Ledger",
+    "cancelSubscription": "Relinquish Rights",
+    "usageStats": "Excavation Metrics",
+    "totalTodos": "Active Tasks",
+    "projects": "Mining Sectors",
+    "unlimited": "Bottomless",
+    "upgradePrompt": "Ascend to Mountain King for bottomless tasks, sectors, the War Room, and the inner Sanctum!",
+    "cancelSuccess": "Rights relinquished. Your access to the tunnels persists until the current moon fades.",
+    "status": {
+      "active": "STRIKING GOLD",
+      "free": "QUARRY HAND",
+      "inactive": "DORMANT MINE"
+    },
+    "errors": {
+      "loadFailed": "The ledger is buried under a cave-in",
+      "cancelFailed": "The elders refuse your request to leave the clan.",
+      "portalFailed": "The vault door is jammed. Try again."
+    },
+    "cancelDialog": {
+      "title": "Relinquish Rights?",
+      "message": "Are you certain you wish to stop your tributes? Mountain King privileges remain until the moon cycle ends.",
+      "resubscribe": "You may return to the mountain at any time.",
+      "keep": "Stay in the Clan",
+      "confirm": "Yes, Relinquish"
+    }
+  },
+  "pricing": {
+    "title": "Excavation Tiers",
+    "subtitle": "A quarry hand's work is honest. The Mountain King rules the deepest veins.",
+    "backToDashboard": "Return to the Deeps",
+    "currentPlan": "CURRENT RIGHT",
+    "free": "Quarry Hand",
+    "perMonth": "/lunar moon",
+    "loginToUpgrade": "PRESENT SEAL TO ASCEND",
+    "currentTier": "CURRENT RIGHT",
+    "upgrade": "ASCEND",
+    "finePrint": "Leave anytime. No blood oaths. Your ore remains yours.",
+    "errors": {
+      "loginRequired": "Present your seal to ascend your rights",
+      "checkoutFailed": "The tribute failed to reach the vault. Try again."
+    }
+  },
+  "cancel": {
+    "title": "Rights Relinquished",
+    "message": "Fear not, kin! You may return to the forge at any time. Your basic quarry remains open for work.",
+    "goToDashboard": "Return to the Deeps",
+    "viewPlans": "View Mining Rights"
+  },
+  "chronomancy": {
+    "loading": "Excavating the records... striking stone.",
+    "noVersions": "Deep rock yields no history here.",
+    "today": "Current Shift",
+    "yesterday": "Last Shift",
+    "daysAgo": "{{days}} shafts back",
+    "currentVersion": "Masterwork",
+    "versionLabel": "Excavation Layer {{version}}",
+    "versions": "strata",
+    "gitCommit": "Forge Stamp",
+    "classesChange": "Vein shifts",
+    "linesChange": "Ore weight",
+    "deleteVersion": "Collapse strata",
+    "deleteDialog": {
+      "title": "Seal the Vault?",
+      "message": "Permanently collapse layer v{{version}} of {{project}}? This tunnel is lost to the deeps once buried.",
+      "cancel": "Hold the hammers",
+      "confirm": "Strike the supports"
+    },
+    "compare": {
+      "selectTwo": "Assess two veins",
+      "button": "Compare Layer v{{from}} → Layer v{{to}}"
+    },
+    "diff": {
+      "title": "Surveying v{{from}} → v{{to}}",
+      "added": "Dug out",
+      "removed": "Filled in",
+      "modified": "Refined",
+      "unchanged": "Solid rock",
+      "complexity": "Hardness",
+      "lines": "Volume",
+      "noClassesAdded": "No new ore discovered",
+      "noClassesRemoved": "No ore depleted",
+      "noClassesModified": "No ore refined",
+      "methodsAdded": "Chisel work added:",
+      "methodsRemoved": "Chisel work lost:",
+      "depsAdded": "Alloys added:",
+      "depsRemoved": "Alloys removed:",
+      "close": "Back to the forge"
+    }
+  }
+}

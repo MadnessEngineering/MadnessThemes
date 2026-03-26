@@ -1,0 +1,2151 @@
+{
+  "themeName": "cyan-lab",
+  "displayName": "Cyan Laboratory",
+  "description": "Clean scientific laboratory terminology - bright, clear, and precise",
+  "icon": "☀️",
+  "version": "1.0.0",
+  "createProject": {
+    "title": "New Laboratory Project",
+    "subtitle": "Initialize a new research project in your lab workspace",
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "buttons": {
+      "create": "Create Project",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "reset": "Reset"
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    },
+    "demoMode": {
+      "label": "DEMO MODE",
+      "title": "Demo Environment - Read Only",
+      "description": "📖 You're in demo mode. Project creation is disabled. Sign up to access full features and create your own projects."
+    }
+  },
+  "tabs": {
+    "todos": "Tasks",
+    "lessons": "Research Notes",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "project": "Project",
+    "sessions": "Lab Sessions"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "loading": "Processing...",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "reset": "Reset",
+    "export": "Export",
+    "import": "Import",
+    "refresh": "Refresh",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand",
+    "error": "An error occurred",
+    "success": "Success!",
+    "failed": "Operation failed",
+    "perPage": "per page",
+    "refreshNow": "Refresh Now",
+    "copyId": "Copy ID",
+    "show": "Show",
+    "copy": "Copy"
+  },
+  "dashboard": {
+    "title": "🔬 Laboratory Dashboard",
+    "welcome": {
+      "title": "Welcome to Your Lab",
+      "message": "Welcome to the Cyan Laboratory! Your bright workspace for research and development.",
+      "description": "The AI Agent Swarm is ready for action! This dashboard shows when no other panels are selected. Use the header controls to open specific panels for todos, chat, projects, and more."
+    },
+    "stats": {
+      "totalProjects": "Total Laboratories",
+      "activeProjects": "Active Research",
+      "completedTodos": "Executed Protocols",
+      "archivedProjects": "Archived Data"
+    },
+    "recentActivity": "Recent Activity",
+    "quickActions": {
+      "openTodos": "📝 Tasks",
+      "chatAssistant": "🤖 AI Assistant",
+      "activityLog": "📋 Activity Log",
+      "projects": "📂 Projects"
+    },
+    "projectStats": {
+      "title": "📂 Project Statistics",
+      "collection": "projects collection",
+      "totalProjects": "Total Projects",
+      "activeProjects": "Active Projects",
+      "projectsWithCompleted": "Projects with Completed",
+      "avgTasksPerProject": "Avg Tasks/Project"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Priority Breakdown",
+      "pendingTasks": "Pending Tasks",
+      "inReview": "In Review",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "completed": "Completed",
+      "highPriority": "High Priority",
+      "mediumPriority": "Medium Priority",
+      "lowPriority": "Low Priority"
+    },
+    "activityLog": {
+      "title": "📊 Todo Activity Log",
+      "collection": "todo_logs collection",
+      "description": "Track all changes and operations performed on todos",
+      "updates": "Updates",
+      "creates": "Creates",
+      "deletes": "Deletes",
+      "completions": "Completions",
+      "totalEntries": "Total Entries"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recently Completed"
+    },
+    "filters": {
+      "allActivity": "All Observations",
+      "todosCreated": "Hypotheses Formulated",
+      "todosUpdated": "Experiments Calibrated",
+      "todosCompleted": "Protocols Executed",
+      "todosDeleted": "Specimens Discarded",
+      "projectsCreated": "Laboratories Established",
+      "projectsUpdated": "Laboratories Reconfigured",
+      "projectsDeleted": "Laboratories Decommissioned"
+    },
+    "unifiedView": "Unified Data Feed",
+    "personalView": "Local Researcher Feed",
+    "showingAllDatabases": "Displaying All Global Telemetry",
+    "showingPersonalOnly": "Displaying Local Workspace Telemetry",
+    "filteredByProject": "Filtered by Laboratory: ",
+    "noLogsFound": "No experimental data found.",
+    "tryChangingFilter": "Adjust your observation parameters.",
+    "startCreatingTodos": "Formulate a new hypothesis to begin data collection.",
+    "failedToLoad": "Failed to load: {{error}}",
+    "changesMade": "Calibrations Applied",
+    "completionNotes": "Experimental Observations",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reverted {{operation}}",
+    "revertFailed": "Revert failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot revert specimen deletion.",
+    "revertNotSupported": "Operation {{operation}} cannot be reversed.",
+    "confirmRevert": "Confirm Protocol Reversal",
+    "confirmRevertMessage": "Are you sure you want to reverse the {{operation}} protocol on {{description}}?",
+    "confirmRevertAction": "Reverse Protocol",
+    "operationType": "Protocol Type",
+    "taskDescription": "Specimen Description",
+    "descriptions": {
+      "projectCreated": "Laboratory {{projectName}} established.",
+      "projectUpdated": "Laboratory {{projectName}} parameters adjusted.",
+      "projectDeleted": "Laboratory {{projectName}} decommissioned.",
+      "projectModified": "Laboratory {{projectName}} state modified.",
+      "unknownTask": "Unidentified specimen."
+    },
+    "showingPageStats": "Displaying dataset {{currentPage}} of {{totalPages}} ({{totalCount}} total observations)",
+    "autoRefreshingInterval": "Telemetry sync interval: 30 seconds"
+  },
+  "todoList": {
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "filters": {
+      "all": "All Tasks",
+      "pending": "Pending",
+      "completed": "Completed",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "allTasks": "All Tasks",
+      "review": "Review",
+      "in_progress": "In Progress"
+    },
+    "priority": {
+      "critical": "Critical",
+      "high": "High Priority",
+      "medium": "Medium Priority",
+      "low": "Low Priority"
+    },
+    "status": {
+      "pending": "Pending",
+      "initial": "Initial",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "blocked": "Blocked"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    },
+    "pagination": {
+      "show": "Show",
+      "perPage": "per page",
+      "results": "results",
+      "all": "All"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "priority": "Priority Order",
+      "madness": "Random Order"
+    },
+    "search": {
+      "placeholder": "Search tasks..."
+    },
+    "project": {
+      "label": "Project",
+      "allProjects": "All Projects ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "results": {
+      "showing": "Showing {{start}}-{{end}} of {{total}} todos",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by project: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Tasks",
+      "workshopClear": "No Tasks Found",
+      "noMatchingDescription": "No tasks match \"{{searchText}}\". Try adjusting your search or filters.",
+      "workshopClearDescription": "No tasks found. The workspace is clear and organized."
+    },
+    "buttons": {
+      "refresh": "Refresh",
+      "export": "Export",
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "discard": "Discard",
+      "complete": "Complete",
+      "edit": "Edit",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "review": "Review",
+      "aiInsights": "AI Insights"
+    },
+    "fullEdit": {
+      "modeTitle": "Full Edit Mode"
+    },
+    "menu": {
+      "editTask": "Edit Task",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "deleteTask": "Delete Task"
+    },
+    "dialog": {
+      "completeTitle": "Complete Todo: {{description}}",
+      "completeDescription": "Add an optional comment about how this task was completed (e.g., solution details, time taken, blockers resolved, etc.)",
+      "completePlaceholder": "e.g., Fixed CSS issue by updating the responsive breakpoints. Took 2 hours due to browser compatibility testing.",
+      "cancel": "Cancel",
+      "completeTask": "Complete Task",
+      "exportTitle": "Export Todos",
+      "exportDescription": "Exporting {{count}} todos",
+      "exportFilename": "Filename",
+      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
+      "exportFormat": "Format",
+      "exportButton": "Export",
+      "formatJSON": "JSON - Structured Data",
+      "formatJSONDesc": "Complete todo data in JSON format for reimport",
+      "formatCSV": "CSV - Spreadsheet",
+      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
+      "formatMarkdown": "Markdown - Documentation",
+      "formatMarkdownDesc": "Human-readable format for documentation",
+      "formatHTML": "HTML - Web Page",
+      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
+      "formatJira": "Jira/Slack Commands",
+      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatVariant": "Format Variant",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Fields",
+      "customizeFields": "Customize Field Names",
+      "renameFields": "Rename Fields",
+      "calculatedFields": "Calculated Fields",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days)",
+        "daysSinceUpdate": "Days since update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete"
+      },
+      "selectAll": "All",
+      "selectNone": "None",
+      "advancedFilters": "Advanced Filters",
+      "dateRange": "Date Range",
+      "startDate": "From",
+      "endDate": "To",
+      "priorityFilter": "Priority",
+      "statusFilter": "Status"
+    },
+    "fields": {
+      "id": "ID",
+      "description": "Description",
+      "project": "Project",
+      "priority": "Priority",
+      "status": "Status",
+      "target": "Target",
+      "created": "Created",
+      "updated": "Updated",
+      "metadata": "Metadata",
+      "source": "Source",
+      "notes": "Notes",
+      "ticket": "Ticket",
+      "completed_at": "Completed At",
+      "completed_by": "Completed By",
+      "completion_comment": "Completion Comment",
+      "duration": "Duration",
+      "duration_sec": "Duration (seconds)",
+      "tags": "Tags",
+      "complexity": "Complexity",
+      "confidence": "Confidence",
+      "phase": "Phase",
+      "epic": "Epic",
+      "blockers": "Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Description cannot be empty",
+      "descriptionTooLong": "Description must be less than 500 characters",
+      "invalidProject": "Please select a valid project"
+    },
+    "error": {
+      "failedToLoad": "Failed to load todos",
+      "unknownError": "Unknown error",
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+    },
+    "placeholders": {
+      "setStatus": "Set status...",
+      "editDescription": "Click to edit todo description...",
+      "selectProject": "Select project...",
+      "setPriority": "Set priority..."
+    },
+    "tooltip": {
+      "unsavedChanges": "You have unsaved changes"
+    },
+    "labels": {
+      "readOnly": "🔒 Read-Only",
+      "review": "REVIEW"
+    },
+    "aria": {
+      "todoActions": "Todo actions"
+    }
+  },
+  "activityLog": {
+    "title": "Activity Log",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "filters": {
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted",
+      "allActivity": "All Activity",
+      "todosCreated": "Todos Created",
+      "todosUpdated": "Todos Updated",
+      "todosCompleted": "Todos Completed",
+      "todosDeleted": "Todos Deleted",
+      "projectsCreated": "Projects Created",
+      "projectsUpdated": "Projects Updated",
+      "projectsDeleted": "Projects Deleted"
+    },
+    "unifiedView": "All Labs",
+    "personalView": "My Lab",
+    "showingAllDatabases": "Showing all laboratory databases",
+    "showingPersonalOnly": "Showing personal lab only",
+    "filteredByProject": "Filtered by project:",
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    },
+    "noLogsFound": "No activity logs found",
+    "tryChangingFilter": "Try changing the filter",
+    "startCreatingTodos": "Start creating experiments to see activity",
+    "failedToLoad": "Failed to load activity logs: {{error}}",
+    "changesMade": "Changes made:",
+    "completionNotes": "Completion notes:",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reverted {{operation}} operation",
+    "revertFailed": "Failed to revert: {{error}}",
+    "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
+    "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "autoRefreshOn": "Auto-refresh enabled",
+    "autoRefreshOff": "Auto-refresh disabled",
+    "autoRefreshingInterval": " (auto-refreshing)",
+    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} total)",
+    "descriptions": {
+      "projectCreated": "Project \"{{projectName}}\" was created",
+      "projectUpdated": "Project \"{{projectName}}\" was updated",
+      "projectDeleted": "Project \"{{projectName}}\" was deleted",
+      "projectModified": "Project \"{{projectName}}\" was modified",
+      "unknownTask": "Unknown task"
+    },
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description"
+  },
+  "chatAssistant": {
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "emptyState": {
+      "title": "Lab Assistant Ready",
+      "description": "Your AI lab assistant is ready to help with research tasks, note-taking, and project management.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ],
+      "demoMessage": "AI chat is not available for demo users. Sign up for a free account to access AI assistance!"
+    },
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    },
+    "errors": {
+      "notConfigured": "AI provider is not configured. Please go to Settings → AI Configuration to set up your AI provider.",
+      "noResponse": "I received your message but couldn't generate a proper response. Please try again.",
+      "demoUserRestricted": "🚫 AI chat is not available for demo users. Please sign up for a free account to access AI assistance."
+    },
+    "quickActions": {
+      "listPending": "List my pending todos",
+      "createHighPriority": "Create a new high priority todo",
+      "summarizeProject": "Summarize the {{project}} project",
+      "filterHighPriority": "Show me high priority todos in this project"
+    },
+    "suggestedActions": {
+      "listPending": "List Pending",
+      "newHighPrio": "New High Prio",
+      "summarize": "Summarize"
+    },
+    "status": {
+      "typing": "Assistant is typing"
+    },
+    "notConfigured": {
+      "title": "AI Assistant Not Configured",
+      "description": "To use the AI assistant, please configure your AI provider in the Settings.",
+      "configureButton": "Configure AI Provider"
+    },
+    "header": {
+      "title": "AI Assistant",
+      "refreshTooltip": "Refresh context",
+      "settingsTooltip": "Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Context",
+      "aiSettings": "AI Settings (Go to Settings)",
+      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+    },
+    "input": {
+      "placeholder": "Ask your assistant...",
+      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
+    }
+  },
+  "lessons": {
+    "title": "Research Findings",
+    "addLesson": "Log New Observation",
+    "emptyState": {
+      "title": "No Findings Logged",
+      "message": "Record your experimental results here.",
+      "action": "Log First Observation"
+    },
+    "fields": {
+      "topic": "Research Variable",
+      "language": "Syntax",
+      "lessonLearned": "Empirical Observation",
+      "tags": "Classification Tags"
+    },
+    "actions": {
+      "edit": "Revise Data",
+      "delete": "Scrub Data",
+      "save": "Commit to Record"
+    }
+  },
+  "mindmap": {
+    "title": "Data Correlation Matrix",
+    "emptyState": {
+      "title": "Matrix Empty",
+      "message": "No data points to correlate."
+    },
+    "controls": {
+      "zoomIn": "Magnify",
+      "zoomOut": "Demagnify",
+      "resetView": "Reset Optics",
+      "centerView": "Focus Optics"
+    }
+  },
+  "swarmdesk": {
+    "title": "Agent Telemetry Overview",
+    "emptyState": {
+      "title": "No Agents Detected",
+      "message": "Swarm is currently inactive."
+    },
+    "controls": {
+      "rotate": "Adjust Axis",
+      "zoom": "Magnify Optics",
+      "pan": "Shift Perspective",
+      "reset": "Calibrate View"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    },
+    "confirmReset": "Are you sure you want to reset all settings to their default values? This action cannot be undone.",
+    "messages": {
+      "saveSuccess": "Settings saved successfully!",
+      "saveError": "Failed to save settings"
+    },
+    "export": {
+      "starting": "Starting export...",
+      "success": "Export completed! Downloaded {{todoCount}} todos, {{projectCount}} projects, and settings.",
+      "error": "Export failed: {{error}}"
+    },
+    "import": {
+      "starting": "Starting import...",
+      "confirmDialog": "Import Preview:\n\n{{todoCount}} todos, {{projectCount}} projects, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
+      "success": "Import completed! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
+      "error": "Import failed: {{error}}",
+      "fileDialogError": "Failed to open file dialog"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "database": "Database",
+      "aiConfiguration": "AI Configuration",
+      "mcpSetup": "MCP Setup",
+      "messaging": "Messaging",
+      "apiKeys": "API Keys",
+      "appearance": "Appearance",
+      "mindMap": "Mind Map",
+      "umlData": "Code Visualizations",
+      "privacy": "Privacy",
+      "advanced": "Advanced",
+      "npcAgents": "NPC Personnel",
+      "swarmDesk": "SwarmDesk"
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "A lab procedure with this designation already exists.",
+      "duplicateAgentId": "A test subject with this ID is already in the database."
+    }
+  },
+  "projectSelector": {
+    "title": "Select Laboratory",
+    "placeholder": "Scan available labs...",
+    "noProjects": "No laboratories found.",
+    "createNew": "Establish New Laboratory"
+  },
+  "validation": {
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address",
+    "nameRequired": "Project name is required",
+    "nameLength": "Name must be at least 2 characters",
+    "nameFormat": "Name can only contain letters, numbers, hyphens, and underscores",
+    "displayNameRequired": "Display name is required",
+    "descriptionRequired": "Project description is required",
+    "descriptionLength": "Description must be at least 10 characters",
+    "topicRequired": "Topic cannot be empty",
+    "topicTooLong": "Topic must be less than 200 characters",
+    "contentRequired": "Lesson content cannot be empty",
+    "contentTooLong": "Lesson must be less than 5000 characters",
+    "invalidLanguage": "Please select a valid language"
+  },
+  "errors": {
+    "generic": "System Anomaly Detected",
+    "network": "Telemetry Sync Failure",
+    "notFound": "Data Specimen Not Found",
+    "unauthorized": "Insufficient Clearance Level",
+    "serverError": "Mainframe Processing Error",
+    "server": "System-wide glitch! The network sentinels have been alerted.",
+    "timeout": "Uplink timed out. Attempting to re-sync..."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Confirm Data Purge",
+    "discard": "Discard Unsaved Telemetry",
+    "archive": "Archive Dataset"
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(0, 20, 40, 0.6)",
+      "cardBorder": "rgba(6, 182, 212, 0.5)",
+      "cardText": "#cffafe",
+      "iconColor": "#06b6d4",
+      "chipBg": "#0891b2",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Lab Tour",
+      "next": "Continue",
+      "back": "Go Back",
+      "getStarted": "Enter Laboratory"
+    },
+    "complete": {
+      "message": "Laboratory initialization complete. All systems nominal. Awaiting your first hypothesis."
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome to Cyan Lab",
+        "defaultName": "Researcher",
+        "description": "Inventorium is your AI-powered research and project visualization platform.",
+        "subtitle": "Let's initialize the system tour to help you get started."
+      },
+      "projects-overview": {
+        "title": "Research Projects",
+        "description": "Organize your tasks into projects for optimized workflow management and data visualization.",
+        "benefitsTitle": "Project Protocol Benefits:",
+        "benefits": {
+          "organize": "Group related tasks together",
+          "visualize": "Monitor progress metrics",
+          "track": "Track milestones and deadlines",
+          "collaborate": "Share data with the team"
+        },
+        "hint": "💡 System Tip: Every task can belong to a project"
+      },
+      "create-project": {
+        "title": "Initialize New Project",
+        "description": "Let's initialize a project to organize your research. Projects help you group related tasks together.",
+        "guideTitle": "How to initialize a project:",
+        "step1": "Click the floating '+' button in the bottom right corner",
+        "step2": "Select the 'Project' tab in the interface",
+        "step3": "Enter a unique project ID (lowercase with hyphens, e.g., 'cyber-protocol-01')",
+        "step4": "Add a display name and technical description",
+        "hint": "Tip: Project IDs must be unique and use lowercase letters with hyphens"
+      },
+      "add-todo": {
+        "title": "Add Task to Protocol",
+        "description": "Now let's add a task to your project. These are the actionable items in your workflow.",
+        "guideTitle": "How to create a task:",
+        "step1": "Click the floating '+' button again",
+        "step2": "Select the 'Task' tab in the interface",
+        "step3": "Enter your task directive",
+        "step4": "Select your project from the dropdown",
+        "step5": "Set priority level and click 'Execute'",
+        "hint": "Tip: You can generate tasks from any system module using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Initialize AI Protocol Assistant",
+        "description": "Enhance system efficiency by integrating an AI provider such as Google Gemini or OpenAI.",
+        "whyConfigureTitle": "System Benefits of AI Integration:",
+        "benefits": {
+          "suggestions": "Generate optimized task protocols",
+          "enhance": "Augment task directives with intelligent analysis",
+          "analyze": "Process project dependency mappings",
+          "insights": "Extract efficiency optimization recommendations"
+        },
+        "statusConfigured": "Status: ✅ AI assistant initialized and operational!",
+        "statusNotConfigured": "Status: ❌ AI assistant requires initialization",
+        "configureButton": "Initialize AI Assistant",
+        "skipButton": "Skip Initialization",
+        "helpText": "AI assistant can be initialized anytime via Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "AI Research Assistant",
+        "description": "Leverage the AI assistant to manage protocols, analyze data patterns, and optimize productivity.",
+        "examplesTitle": "Quick Actions:",
+        "quickActions": {
+          "createTodos": "Generate tasks from data",
+          "analyzeTasks": "Analyze workflow patterns",
+          "suggestions": "Get system suggestions",
+          "insights": "Project insights"
+        },
+        "hint": "💡 System Tip: Click the chat interface to initiate communication"
+      },
+      "swarmdesk": {
+        "title": "3D Holographic Workspace",
+        "description": "Explore your codebase in 3D with SwarmDesk - an immersive data visualization tool.",
+        "featuresTitle": "Workspace Features:",
+        "features": {
+          "codeViz": "3D holographic code mapping",
+          "interactive": "Interactive data navigation",
+          "architecture": "System architecture analysis",
+          "dependencies": "Dependency relationship mapping"
+        },
+        "hint": "💡 System Tip: Access SwarmDesk from the project view",
+        "tabTip": "After workspace initialization, press TAB to switch between dashboard and 3D environment"
+      },
+      "complete": {
+        "title": "System Initialization Complete",
+        "description": "Your Cyan Lab workspace is ready. Begin your research and development.",
+        "nextStepsTitle": "Next Protocol Steps:",
+        "nextSteps": {
+          "createProject": "Initialize your first project",
+          "addTodos": "Add tasks to your project",
+          "tryAI": "Engage AI assistant",
+          "checkSwarmDesk": "Explore 3D Holographic Workspace"
+        },
+        "footer": "💡 You can replay this initialization sequence anytime from Settings"
+      }
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "entering": "🎮 Entering Research Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Project Data...",
+        "title": "🧪 Initializing SwarmDesk Research Laboratory...",
+        "subtitle": "Preparing Scientific Protocol Analysis."
+      },
+      "navigation": {
+        "controls": "🎮 Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      },
+      "error": {
+        "title": "❌ SwarmDesk Laboratory Breach",
+        "subtitle": "Check research console for experimental details",
+        "initializationFailed": "SwarmDesk laboratory initialization failed"
+      },
+      "controls": {
+        "instructions": "🧪 SwarmDesk Active | WASD: Specimen Movement | E: Protocol Interaction | F4-F7: Conjure Panels | Space: Experiment Mode"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎮 Welcome to SwarmDesk",
+        "subtitle": "Interactive Project Management Interface",
+        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
+        "gettingStarted": "Getting Started:",
+        "quickActions": [
+          "📝 View and manage your project tasks",
+          "🎯 Create new tasks and set priorities",
+          "📊 Review project statistics and progress",
+          "⚙️ Configure project settings and preferences",
+          "🔗 Connect to external tools and services"
+        ],
+        "features": {
+          "title": "🎯 Laboratory Features:",
+          "draggable": "📱 Draggable analysis panels with station docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk laboratory observations",
+          "docking": "🧲 Magnetic docking zones (perimeter edges & corners)",
+          "shortcuts": "⌨️ Protocol shortcuts for precise access",
+          "integration": "🎮 Full SwarmDesk 3D laboratory environment integration"
+        },
+        "actions": {
+          "createProject": "📋 Initialize Research Panel",
+          "createAgent": "🤖 Deploy Researcher Panel"
+        }
+      },
+      "shortcuts": {
+        "title": "⌨️ Keyboard Shortcuts",
+        "subtitle": "Quick Controls Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Navigation",
+            "commands": [
+              "WASD: Move camera around the environment",
+              "Mouse Drag: Look around and rotate view",
+              "Scroll: Zoom in and out",
+              "ESC: Return to main dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Panel Controls",
+            "commands": [
+              "F4: Open Task Management Panel",
+              "F5: Open Activity Log Panel",
+              "F6: Open Chat Panel",
+              "F7: Open Project Info Panel"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Actions",
+            "commands": [
+              "E: Interact with selected object",
+              "Space: Quick action",
+              "M: Open main menu",
+              "R: Refresh data"
+            ]
+          }
+        },
+        "f3": "F3 - Toggle Laboratory Welcome Portal",
+        "f4": "F4 - Toggle Project Hypothesis Portal",
+        "f5": "F5 - Toggle Researcher Actions",
+        "f6": "F6 - Toggle Laboratory Tools",
+        "f7": "F7 - Toggle Analytics Extraction Portal",
+        "f8": "F8 - Toggle WebLLM Intelligence Portal",
+        "f9": "F9 - Toggle MQTT Data Monitor",
+        "f10": "F10 - Minimize All Laboratory Portals",
+        "f11": "F11 - Purge All Portals",
+        "esc": "ESC - Cancel current laboratory operation",
+        "drag": "Drag portals - Click and analyze portal headers",
+        "dock": "Dock portals - Drag near perimeter edges to anchor"
+      },
+      "mcp": {
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "System Integration Hub",
+        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "features": [
+          "🔧 Tool Integration Framework",
+          "📊 Automated Data Collection",
+          "🎯 Task Management Integration",
+          "⚙️ Workflow Automation",
+          "🔐 Secure Communication"
+        ],
+        "gettingStarted": "Setup Instructions:",
+        "deploymentSteps": [
+          "Configure authentication settings",
+          "Connect to desired services",
+          "Set up automation rules",
+          "Test connections and workflows"
+        ],
+        "tools": {
+          "title": "🛠️ Available MCP Laboratory Tools",
+          "notAuthenticated": "Please authenticate into the laboratory to access MCP tools.",
+          "authRequired": "Protocol authentication required to connect to MCP apparatus",
+          "connecting": "No laboratory tools available. Connecting to apparatus...",
+          "serverStatus": "Apparatus Status: {{status}}",
+          "retryConnection": "🔄 Retry Data Connection",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Research Command Log",
+          "noHistory": "No experimental history found."
+        },
+        "debug": {
+          "title": "🐛 Laboratory Debug Information",
+          "authentication": "Authentication: {{status}}",
+          "user": "Researcher: {{user}}",
+          "authMode": "Protocol Mode: {{mode}}",
+          "mcpServer": "MCP Apparatus: {{status}}",
+          "activeTools": "Active Laboratory Tools: {{count}}",
+          "lastPing": "Last Data Ping: {{time}}",
+          "apiService": "API Apparatus: {{status}}",
+          "authContext": "Auth Protocol Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Protocol Auth"
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Research Overview",
+          "activeProjects": "Active Experiments: 5",
+          "pendingTasks": "Pending Protocols: 23",
+          "completedToday": "Validated Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Experiments",
+            "addTask": "➕ Add New Protocol Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Protocol Task Methodology",
+          "inProgress": "🧪 Dashboard Integration - Under Scientific Investigation",
+          "pending": "🔧 MCP Tool Enhancement - Awaiting Parameter Alignment",
+          "actions": {
+            "addTodo": "➕ Add Protocol Task"
+          }
+        },
+        "files": {
+          "title": "📁 Research Archives",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse Research Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Researcher Data Communication",
+          "agentReady": "Researcher: Ready to assist with your laboratory experiments!",
+          "userQuery": "You: Help me with the floating analysis panels",
+          "agentResponse": "Researcher: The floating panel methodology is precise! You can drag panels anywhere and dock them to perimeter edges.",
+          "placeholder": "Input your research parameters..."
+        },
+        "commands": {
+          "title": "⚡ Researcher Data Commands",
+          "searchProjects": "🔍 Search Research Experiments",
+          "listTodos": "📋 List Protocol Tasks",
+          "deployProject": "🚀 Deploy Research Experiment",
+          "generateReport": "📊 Generate Analysis Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Laboratory Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Begin Data Exchange",
+            "executeCommand": "⚡ Execute Protocol Command"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Laboratory Agent Capabilities",
+          "projectManagement": "✅ Experiment Management",
+          "codeAnalysis": "✅ Precision Code Analysis",
+          "mcpIntegration": "✅ MCP Laboratory Tool Integration",
+          "communication": "✅ Real-time Data Communication"
+        }
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Laboratory System Metrics",
+          "cpuUsage": "Lab CPU Usage: 42%",
+          "memory": "System Memory: 68%",
+          "activePanels": "Active Portals: {{count}}",
+          "uptime": "Laboratory Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Laboratory Activity",
+          "panelCreated": "🏷️ Portal created: Project Management",
+          "swarmDeskInteraction": "🎮 SwarmDesk protocol interaction: Workstation selected",
+          "mcpToolExecuted": "🔧 MCP laboratory tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 Analysis Insights",
+          "mostUsedPanel": "Most used portal: Project Management",
+          "peakActivity": "Peak laboratory activity: 14:00-15:00",
+          "efficiencyScore": "Laboratory efficiency score: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Intelligence Models",
+          "currentModel": "Current Intelligence: {{model}}",
+          "loadModel": "Load Research Model"
+        },
+        "compatibility": {
+          "title": "✅ Laboratory Browser Compatibility",
+          "checking": "🔄 Checking laboratory compatibility...",
+          "checkCompatibility": "🔍 Check System Compatibility"
+        },
+        "status": {
+          "title": "⚡ WebLLM Laboratory Status",
+          "initialized": "System Initialized: {{status}}",
+          "currentModel": "Current Intelligence: {{model}}",
+          "loading": "System Loading: {{status}}",
+          "inferencing": "System Inferencing: {{status}}",
+          "queueLength": "Protocol Queue Length: {{length}}",
+          "loadedModels": "Loaded Intelligence Models: {{count}}",
+          "mode": "Protocol Mode: {{mode}}",
+          "initialize": "🚀 Initialize WebLLM Laboratory"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Laboratory Settings",
+          "agentModelAssignment": "Laboratory Agent Model Assignment:",
+          "useGlobal": "Use Global Intelligence Model",
+          "perAgent": "Per-Agent Intelligence Models",
+          "temperature": "Calibrated Temperature:",
+          "maxTokens": "Max Analysis Tokens:",
+          "saveSettings": "💾 Commit Laboratory Settings",
+          "resetDefaults": "🔄 Reset to Protocol Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Laboratory Live Logs",
+          "noMessages": "No data packets received yet...",
+          "waitingTraffic": "Waiting for MQTT data traffic on port 4140",
+          "reconnect": "🔄 Reconnect Data Link",
+          "messages": "Data Packets: {{count}}",
+          "lastMessage": "Last Packet: {{time}}",
+          "clearLogs": "🗑️ Clear Data Logs",
+          "export": "💾 Export Data Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Data Connection Status",
+          "status": "Laboratory Status: {{status}}",
+          "broker": "Data Broker: {{broker}}",
+          "clientId": "Client Laboratory ID: swarmdesk_{{id}}",
+          "messagesReceived": "Data Packets Received: {{count}}",
+          "lastActivity": "Last Laboratory Activity: {{time}}",
+          "subscriptions": "📡 Data Subscriptions:",
+          "connect": "🔄 Connect Data Link",
+          "disconnect": "🔌 Disconnect Data Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Laboratory Settings",
+          "brokerAddress": "Data Broker Address:",
+          "subscribeTopics": "Subscribe to Data Topics:",
+          "autoReconnect": "Auto-reconnect on data disconnect",
+          "showTimestamps": "Show precise timestamps",
+          "saveSettings": "💾 Commit Laboratory Settings",
+          "resetDefaults": "🔄 Reset to Protocol Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "title": "📂 Project Information",
+      "subtitle": "Project Management Hub",
+      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Project Dashboard",
+          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "features": [
+            "📈 Project progress tracking and analytics",
+            "🎯 Task management and prioritization",
+            "🤖 AI-powered insights and recommendations",
+            "🔗 Integration with external tools",
+            "📊 Real-time collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Integration Platform",
+          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "features": [
+            "🔧 Multi-platform connectivity",
+            "⚙️ Automated workflow processing",
+            "📊 Real-time data synchronization",
+            "🔐 Secure communication protocols",
+            "🎯 Centralized task coordination"
+          ]
+        }
+      },
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk",
+        "description": "3D interactive laboratory command interface - the laboratory command interface for the Madness Interactive research ecosystem",
+        "features": [
+          "🎮 3D interactive laboratory environment",
+          "🤖 Direct researcher data communication",
+          "📊 Real-time laboratory system monitoring",
+          "🎪 Experiment mode protocol activation"
+        ],
+        "status": "🔥 Active Laboratory Development",
+        "visibility": "public research repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Todo Inventory laboratory management system - Monitor Research Agents with precision, and calibrate their parameters during experimental phases",
+        "features": [
+          "📋 Protocol task tracking",
+          "🏷️ Precision data categorization",
+          "📈 Analytics research dashboard",
+          "🔄 Cross-system data integration"
+        ],
+        "status": "🚀 Active Laboratory Development (private research repo)",
+        "visibility": "private research lab"
+      },
+      "swarmonomicon": {
+        "title": "🐝 Swarmonomicon",
+        "description": "AI agent swarm coordination laboratory system - the definitive protocol for researcher orchestration and collective analytical intelligence",
+        "features": [
+          "🤖 Researcher data orchestration",
+          "💬 Communication research protocols",
+          "🎮 Interactive laboratory interfaces",
+          "🧠 Collective analytical intelligence"
+        ],
+        "status": "✨ modularly protocol functional",
+        "visibility": "public research repository"
+      }
+    },
+    "errors": {
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error",
+      "initializationFailed": "SwarmDesk laboratory scripts failed to load within protocol timeout",
+      "sceneInitFailed": "❌ Laboratory scene initialization failed:",
+      "panelSystemFailed": "❌ Failed to create laboratory panel system:",
+      "panelSystemMissing": "⚠️ FloatingPanelSystem not protocol available",
+      "controlsInitFailed": "Failed to initialize protocol standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js research scene:"
+    },
+    "status": {
+      "initializing": "⚙️ Initializing System...",
+      "loading": "📊 Loading Configuration...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features",
+      "initialized": "✅ SwarmDesk laboratory tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk laboratory scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk laboratory scripts loading timeout",
+      "containerNotReady": "⚠️ Research container not ready yet",
+      "panelSystemExists": "🏷️ Laboratory panel system already exists, ensuring proper state",
+      "panelSystemMissing": "⚠️ Laboratory panel system missing handleKeyboard, reinitializing...",
+      "panelSystemCreated": "✅ Laboratory panel system created successfully"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "menu": {
+    "replayTutorial": "Replay Tutorial",
+    "documentation": "Documentation",
+    "userManagement": "User Management",
+    "github": "GitHub",
+    "logout": "Logout"
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} pending",
+      "completedTasks": "{{count}} completed"
+    },
+    "loading": "🎪 Loading {{projectId}} Environment...",
+    "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Project",
+    "workstation": {
+      "todoHint": "📝 Click to manage project todos",
+      "projectHint": "🎪 Click to view project details"
+    },
+    "statsPanel": {
+      "title": "📊 Project Stats",
+      "totalTasks": "Total Tasks",
+      "pending": "Pending",
+      "completed": "Completed"
+    },
+    "reviewTab": {
+      "title": "Review Queue",
+      "approveButton": "Approve",
+      "requestChanges": "Request Changes",
+      "returnToProgress": "Return to Progress",
+      "emptyState": "No items in review"
+    }
+  },
+  "umlData": {
+    "title": "Code Visualizations",
+    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload UML File",
+      "reading": "Reading file",
+      "success": "Successfully uploaded {{name}} with {{classes}} classes"
+    },
+    "errors": {
+      "loadFailed": "Failed to load UML datasets",
+      "uploadFailed": "Failed to upload UML file",
+      "deleteFailed": "Failed to delete UML data"
+    },
+    "delete": {
+      "confirmTitle": "Delete Code Visualization?",
+      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "success": "Successfully deleted {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in SwarmDesk..."
+    },
+    "source": {
+      "personal": "Personal",
+      "shared": "Shared"
+    },
+    "instructions": {
+      "title": "How to use:",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON file using the button above"
+    },
+    "storage": {
+      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "limit": "10 files per user (10MB each)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Source",
+      "classes": "Classes",
+      "packages": "Packages",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in SwarmDesk",
+      "delete": "Delete"
+    },
+    "empty": "No code visualizations yet",
+    "empty.hint": "Upload a UML file to see your code in 3D"
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users",
+      "analytics": "Analytics",
+      "featureFlags": "Feature Flags",
+      "systemLogs": "System Logs"
+    },
+    "overview": {
+      "title": "Lab Control Overview",
+      "loading": "Scanning laboratory telemetry...",
+      "refresh": "Refresh diagnostics",
+      "fallback": "(displaying synthetic data for calibration)",
+      "totalUsers": "Total Nodes",
+      "totalUsersSubtitle": "All registered terminal users",
+      "activeUsers": "Active (7d)",
+      "activeUsersSubtitle": "Nodes active this cycle",
+      "premiumUsers": "Premium Nodes",
+      "premiumUsersSubtitle": "Upgraded access protocols",
+      "errors": "Errors (24h)",
+      "errorsSubtitle": "System anomalies today",
+      "tierDistribution": "Access Tier Distribution",
+      "tier": {
+        "free": "Free",
+        "pro": "Pro",
+        "premium": "Premium",
+        "admin": "Admin"
+      },
+      "productivity": "Productivity Metrics",
+      "totalTodos": "Total Tasks",
+      "completedTodos": "Completed",
+      "completionRate": "Completion Rate"
+    },
+    "analytics": {
+      "title": "Advanced Diagnostics",
+      "loading": "Loading diagnostic protocols...",
+      "comingSoon": "Diagnostics Module Under Calibration",
+      "description": "Advanced data visualization arrays and analytical instruments are currently being calibrated. Return soon for detailed insights into user behavior, system performance, and laboratory productivity metrics.",
+      "timeframe": {
+        "day": "Last 24 Hours",
+        "week": "Last 7 Days",
+        "month": "Last 30 Days",
+        "year": "Last 12 Months"
+      },
+      "futureHint": "Upcoming modules: Custom date ranges, CSV export, real-time data streams, cohort analysis, and predictive modeling powered by quantum analytics!",
+      "charts": {
+        "userGrowth": "Node Growth Trends",
+        "userGrowthDesc": "Track new terminal registrations over time",
+        "activityHeatmap": "Activity Heatmap",
+        "activityHeatmapDesc": "Visualize user activity patterns by hour and day",
+        "featureUsage": "Module Usage Distribution",
+        "featureUsageDesc": "Which system modules are most utilized?",
+        "performance": "System Performance Metrics",
+        "performanceDesc": "API response latency and error frequencies"
+      }
+    },
+    "logs": {
+      "title": "System Logs",
+      "loading": "Scanning digital log archives...",
+      "refresh": "Refresh log stream",
+      "fallback": "(displaying synthetic data for calibration)",
+      "autoRefresh": "Auto-refresh (30s)",
+      "showing": "Displaying",
+      "entries": "entries",
+      "empty": "No log entries detected - all systems nominal!",
+      "columns": {
+        "timestamp": "Timestamp",
+        "level": "Level",
+        "message": "Message",
+        "user": "User",
+        "endpoint": "Endpoint"
+      },
+      "severity": {
+        "error": "ERROR",
+        "warning": "WARNING",
+        "info": "INFO"
+      }
+    },
+    "featureFlags": {
+      "title": "Feature Protocols",
+      "loading": "Loading protocol configurations...",
+      "refresh": "Refresh protocols",
+      "fallback": "(displaying synthetic data for calibration)",
+      "lastUpdated": "Last synced",
+      "unsavedChanges": "You have unsaved protocol changes. These will propagate to all terminal users when applied!",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Syncing...",
+      "confirmSave": "Yes, Apply Protocol Changes",
+      "tiers": {
+        "free": "Free Tier",
+        "pro": "Pro Tier",
+        "premium": "Premium Tier",
+        "admin": "Admin Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Tasks",
+        "chat_interface": "Chat Interface",
+        "theme_selector": "Theme Selector",
+        "export_todos": "Export Tasks",
+        "advanced_search": "Advanced Scan",
+        "unlimited_todos": "Unlimited Tasks",
+        "mindmap_view": "Neural Map View",
+        "custom_themes": "Custom Themes",
+        "api_access": "API Access",
+        "priority_support": "Priority Support",
+        "swarmdesk_3d": "SwarmDesk 3D",
+        "collaborative_editing": "Collaborative Editing",
+        "ai_copilot": "AI Copilot",
+        "admin_panel": "Admin Panel",
+        "user_management": "User Management",
+        "feature_flags": "Feature Protocols",
+        "system_logs": "System Logs",
+        "analytics": "Analytics",
+        "debug_mode": "Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Protocol Changes",
+        "message": "Are you sure you want to apply these protocol changes? This will immediately affect all terminal users across the network. Feature protocols control access to core system modules.",
+        "warning": "Tip: Test changes in a staging environment first. Disabling critical protocols may disrupt user workflows."
+      }
+    },
+    "users": {
+      "title": "User Node Management",
+      "loading": "Scanning registered terminal nodes...",
+      "refresh": "Refresh user array",
+      "fallback": "(displaying synthetic data for calibration)",
+      "searchPlaceholder": "Search by email or identifier...",
+      "showing": "Displaying",
+      "users": "nodes",
+      "filtered": "filtered from",
+      "empty": "No user nodes registered yet",
+      "noResults": "No nodes match your scan parameters",
+      "adminBadge": "ADMIN",
+      "edit": {
+        "title": "Edit User Node",
+        "email": "Email",
+        "tier": "Tier",
+        "isAdmin": "Grant Admin Access",
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Syncing..."
+      },
+      "columns": {
+        "email": "Email",
+        "tier": "Tier",
+        "status": "Status",
+        "lastLogin": "Last Login",
+        "todos": "Tasks",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Admin Access Modification",
+        "grantMessage": "You are about to grant admin privileges to this terminal node. This will provide full access to the admin panel, including user management, feature protocols, and system logs.",
+        "revokeMessage": "You are about to revoke admin privileges from this terminal node. They will lose access to all admin modules.",
+        "cancel": "Cancel",
+        "confirm": "Yes, Confirm",
+        "saving": "Syncing..."
+      }
+    },
+    "common": {
+      "loading": "Processing...",
+      "error": "System anomaly detected",
+      "refresh": "Refresh",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "app": {
+    "titleShort": "Cyan Laboratory",
+    "titleLong": "Cyan Laboratory Terminal Interface"
+  },
+  "auth": {
+    "app": {
+      "title": "Cyan Laboratory"
+    },
+    "welcome": {
+      "message": "Welcome to the Cyan Laboratory Terminal!"
+    },
+    "buttons": {
+      "demoLogin": "Login as Demo Node",
+      "googleLogin": "Continue with Google"
+    },
+    "status": {
+      "loggingOut": "Terminating session..."
+    },
+    "errors": {
+      "demoLoginFailed": "Demo login protocol failed",
+      "authRequired": "Authentication required",
+      "configNotFound": "Authentication protocol not configured",
+      "tokenInvalid": "Access token has expired"
+    }
+  },
+  "demo": {
+    "label": "DEMO - Read Only"
+  },
+  "editableTodoCard": {
+    "confirmCancel": "You have unsaved modifications. Are you sure you want to cancel?",
+    "confirmDelete": "Are you sure you want to purge this task from the system?",
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    },
+    "errors": {
+      "descriptionRequired": "Task description is required for AI augmentation",
+      "aiEnhancementFailed": "AI augmentation failed: {{error}}",
+      "saveFailed": "Failed to sync changes to database"
+    },
+    "placeholders": {
+      "description": "Enter task directive...",
+      "clickToAdd": "Click to add directive...",
+      "enhancedDescription": "AI-augmented directive will render here...",
+      "notes": "Additional notes...",
+      "ticket": "Ticket reference..."
+    },
+    "labels": {
+      "enhancedDescription": "Augmented Description",
+      "aiEnhanced": "🧠 AI Augmented Description:",
+      "completionNotes": "✅ Completion Notes:",
+      "completed": "Completed",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "blocked": "Blocked",
+      "review": "Review",
+      "completed": "Completed",
+      "initial": "Initial",
+      "cancelled": "Cancelled"
+    },
+    "menu": {
+      "editTask": "Edit Task",
+      "deleteTask": "Purge Task"
+    },
+    "messages": {
+      "noEnhancedDescription": "No augmented description yet. Click the AI button to generate one."
+    }
+  },
+  "forms": {
+    "name": "Project Name",
+    "displayName": "Display Name",
+    "description": "Description",
+    "type": "Project Type",
+    "visibility": "Visibility",
+    "repository": "Repository",
+    "language": "Language",
+    "framework": "Framework",
+    "priority": "Priority",
+    "status": "Status",
+    "notes": "Notes",
+    "ticket": "Ticket"
+  },
+  "lessonsLearned": {
+    "title": "🔬 Research Log",
+    "refreshLessons": "Refresh Research Log",
+    "addLesson": "Log Finding",
+    "searchPlaceholder": "Scan findings, content, or tags...",
+    "languages": {
+      "allLanguages": "All Languages",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "python": "Python",
+      "rust": "Rust",
+      "go": "Go",
+      "general": "General"
+    },
+    "filters": {
+      "allLessons": "All Findings",
+      "bookmarked": "Bookmarked",
+      "recent": "Recent (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Findings",
+      "vaultEmpty": "Research Database is Empty!",
+      "noMatchSearch": "No findings match \"{{searchTerm}}\". Try adjusting your scan parameters.",
+      "noMatchFilters": "No findings match the current filters. Try broadening your scan criteria.",
+      "startDocumenting": "Start logging your discoveries! Every resolved anomaly and deployed module is a valuable data point."
+    },
+    "createFirstLesson": "Log Your First Finding",
+    "actions": {
+      "starred": "Starred",
+      "addStar": "Add Star"
+    },
+    "pagination": {
+      "showingRange": "Displaying {{start}}-{{end}} of {{total}} findings"
+    },
+    "dialog": {
+      "editTitle": "🔬 Edit Research Finding",
+      "addTitle": "🔬 Log New Finding",
+      "topicLabel": "Topic",
+      "lessonLabel": "Finding Details",
+      "languageLabel": "Language",
+      "tagsLabel": "Tags (comma separated)",
+      "tagsPlaceholder": "react, interface, diagnostics",
+      "databaseLabel": "Save to Database",
+      "personalDatabase": "👤 Personal Database",
+      "sharedDatabase": "🌐 Shared Database (swarmonomicon)",
+      "updateLesson": "Update Finding",
+      "createLesson": "Create Finding"
+    },
+    "failedToLoad": "Failed to load research log: {{error}}",
+    "confirmDelete": "Are you sure you want to purge this finding from the database?"
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Switch to Network Map",
+      "switchToSphere": "Switch to Sphere",
+      "chaos": "Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Drag to Reposition",
+      "dragging": "Repositioning!",
+      "touchAndDrag": "Touch & Drag",
+      "doubleTapBurst": "Double-tap for burst!",
+      "doubleTapPhysics": "Double-tap for physics!"
+    },
+    "filter": {
+      "title": "Project Filter",
+      "allProjects": "All Projects",
+      "projectCount": "{{selected}}/{{total}} Projects",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "selectProjects": "Select Projects",
+      "projectsSelected": "{{count}} projects selected",
+      "selectedProjects": "Selected Projects ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Static Mode",
+      "enableStaticMode": "Enable Static Mode",
+      "cleanUpEffects": "Clear Visual Effects"
+    },
+    "sequence": {
+      "hideSequence": "Hide Task Sequence",
+      "showSequence": "Show AI Task Sequence",
+      "analyzeSequences": "Analyze Sequences",
+      "stopAnimation": "Stop Animation",
+      "animateSequence": "Animate Sequence",
+      "shuffleSequence": "Shuffle Sequence Type"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ NEXUS CORE",
+      "centerWorkshop": "🧠 CONTROL HUB"
+    },
+    "modes": {
+      "dynamic": "⚡ Dynamic Mode",
+      "static": "📖 Static Mode"
+    },
+    "dialog": {
+      "createNode": "🧠 Create Network Node",
+      "nodeText": "Node Text"
+    },
+    "nodeInfo": {
+      "type": "Type",
+      "priority": "Priority",
+      "energy": "Energy"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Create Task",
+      "listTodos": "List Tasks",
+      "projectStatus": "Project Status",
+      "help": "Help",
+      "settings": "Settings",
+      "refreshData": "Refresh Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me create a new task",
+      "listTodos": "Display my current tasks",
+      "projectStatus": "Give me a status readout on my projects",
+      "help": "What protocols can you assist with?",
+      "settings": "Open settings terminal",
+      "refresh": "Refresh data arrays"
+    },
+    "header": {
+      "title": "Lab AI Terminal",
+      "statusListening": "Scanning input...",
+      "statusTyping": "Processing...",
+      "statusOnline": "Online"
+    },
+    "emptyState": {
+      "greeting": "Greetings! I am your Lab AI Terminal",
+      "description": "I can assist with task management, project navigation, and querying your workspace data."
+    },
+    "status": {
+      "thinking": "AI is processing query..."
+    },
+    "input": {
+      "placeholder": "Enter command..."
+    }
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 AI analysis complete! Check the augmented description.",
+    "todoMarkedForReview": "👁️ Task flagged for review successfully!",
+    "todoCompleted": "✅ Task completed successfully!",
+    "taskCreated": "🎉 Task node created successfully!",
+    "projectCreated": "🚀 Project initialized successfully!",
+    "aiConfigured": "✅ AI protocol configured successfully!",
+    "todoCreated": "🆕 New task node initialized in the grid.",
+    "settingsSaved": "⚙️ Console configurations synced.",
+    "exportCompleted": "📤 Sector data transmitted to external node.",
+    "importCompleted": "📥 External data stream absorbed into the buffer."
+  },
+  "panels": {
+    "todos": "📝 Tasks",
+    "logs": "📋 Logs",
+    "aiChat": "🤖 AI Terminal",
+    "create": "➕ Create",
+    "projects": "📂 Projects",
+    "mindMap": "🗺️ Neural Map",
+    "swarmDesk": "🎪 SwarmDesk",
+    "lessons": "🔬 Research Log",
+    "settings": "⚙️ Settings",
+    "insights": "📊 Insights",
+    "labMaintenance": "🧹 Defrag Sector"
+  },
+  "labMaintenance": {
+    "title": "System Defragmentation",
+    "tabs": {
+      "orphaned": "Orphan Nodes",
+      "completed": "Purged Stack",
+      "consolidate": "Registry Scan"
+    },
+    "selectAll": "Select All Nodes",
+    "clearSelection": "Flush",
+    "targetProject": "Route to sector...",
+    "reassign": "Reroute",
+    "reassignSelected": "Reroute orphan nodes to target sector",
+    "reopen": "Restore",
+    "reopenSelected": "Restore purged nodes back to active datastream",
+    "delete": "Purge",
+    "deleteSelected": "Hard purge selected nodes from registry",
+    "selectProjectFirst": "Target sector required",
+    "todosUpdated": "nodes processed",
+    "noOrphans": "No orphan nodes detected. All processes are sector-assigned.",
+    "noCompleted": "No purged entries found in the stack.",
+    "consolidateDescription": "Registry scan of system fragmentation and sector allocation.",
+    "orphanedProjectsLabel": "Decommissioned Sectors With Residual Nodes",
+    "quickStats": "System Diagnostics",
+    "orphaned": "Orphaned",
+    "completed": "Purged",
+    "deletedProjects": "Decommissioned",
+    "activeProjects": "Online Sectors"
+  },
+  "projectNavigator": {
+    "title": "🚀 PROJECT NAVIGATOR",
+    "subtitle": "Select your project node • Enter focused development environments",
+    "cacheStatus": "🏪 Cached data • Last synced: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main Swarmdesk • 1-9: Quick select",
+    "manageTooltip": {
+      "admin": "Manage Projects (Admin)",
+      "personal": "Manage Personal Projects"
+    },
+    "refreshTooltip": "Refresh Project Data",
+    "mainSwarmDeskTooltip": "Enter Main Swarmdesk",
+    "loading": {
+      "title": "🔍 Scanning Project Nodes...",
+      "subtitle": "Gathering task data and project metrics"
+    },
+    "stats": {
+      "pending": "pending",
+      "completed": "done"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent activity detected"
+    },
+    "enterButton": {
+      "selected": "⚡ SELECTED",
+      "enter": "🚀 ENTER",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
+      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
+      "relocateLabel": "Relocate todos to another project",
+      "selectDestination": "Select destination project",
+      "cancel": "Cancel",
+      "deleteButton": "Delete Project"
+    }
+  },
+  "projectTab": {
+    "title": "Project Configuration",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "configuration": "Configuration",
+      "technicalDetails": "Technical Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Application",
+      "mobile": "Mobile App",
+      "desktop": "Desktop Application",
+      "library": "Library/Package",
+      "api": "API/Service",
+      "general": "General Project"
+    },
+    "buttons": {
+      "creating": "Initializing...",
+      "demoMode": "Demo Mode",
+      "createProject": "INITIALIZE PROJECT"
+    }
+  },
+  "queuePane": {
+    "title": "Priority Queue",
+    "subtitle": "Arrange task nodes by execution priority",
+    "dragHint": "Drag cards to reorder priority matrix",
+    "searchPlaceholder": "Scan queue...",
+    "emptyState": "No tasks in queue",
+    "noSearchResults": "No nodes match your scan",
+    "reordering": "Syncing order...",
+    "allProjects": "All Projects",
+    "cardActions": {
+      "complete": "Complete",
+      "edit": "Edit",
+      "remove": "Remove from Queue"
+    },
+    "incoming": {
+      "title": "Incoming Nodes",
+      "addToTop": "Pin to Top",
+      "addToBottom": "Append to Queue"
+    },
+    "ordered": {
+      "title": "Ordered Queue"
+    },
+    "stats": {
+      "total": "Queued",
+      "high": "Urgent",
+      "incoming": "Incoming"
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "AI Task Augmentation",
+      "perform_geomancy": "Pattern Analysis",
+      "consolidate_similar": "Task Consolidation"
+    },
+    "descriptions": {
+      "enhance_description": "Use AI to augment task directives with improved clarity and additional diagnostic insights",
+      "perform_geomancy": "Scan patterns and relationships within your tasks and projects to identify optimization vectors",
+      "consolidate_similar": "Automatically detect and merge similar task nodes to reduce redundancy and improve array integrity"
+    },
+    "interface": {
+      "title": "🔧 Task Augmentation Tools",
+      "subtitle": "Use AI-powered tools to enhance your task management protocols",
+      "selectSpell": "Choose Augmentation Module",
+      "castSpell": "Execute Augmentation",
+      "cancelSpell": "Cancel",
+      "casting": "Processing Augmentation...",
+      "resultsTitle": "✨ Augmentation Results",
+      "historyTitle": "📜 Augmentation History",
+      "clearHistory": "Clear History",
+      "noHistory": "No augmentations have been applied",
+      "placeholder": "Select a module to augment your tasks..."
+    },
+    "effects": {
+      "particles": "Processing indicators active",
+      "energy": "System processing",
+      "casting": "Augmentation in progress",
+      "complete": "Augmentation completed successfully"
+    },
+    "results": {
+      "enhance": {
+        "success": "🧠 Task augmented with AI analysis!",
+        "improvement": "Augmentation applied to task directive",
+        "insights": "Key insights:",
+        "suggestions": "Recommendations:"
+      },
+      "geomancy": {
+        "success": "🔍 Patterns identified in your project matrix!",
+        "insights": "Analysis findings:",
+        "patterns": "Pattern analysis:",
+        "recommendations": "Recommendations:",
+        "analysis": "Analysis complete"
+      },
+      "consolidate": {
+        "success": "🔗 Similar task nodes consolidated successfully!",
+        "merged": "{{count}} tasks merged successfully",
+        "candidates": "Consolidation candidates:",
+        "preview": "Merge preview:",
+        "confirmation": "Proceed with consolidation?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Augmentation failed: {{error}}",
+      "noDescription": "Task directive is required for augmentation",
+      "rateLimited": "Augmentation rate limit reached. Cooldown: {{timeRemaining}}",
+      "aiError": "AI subsystem encountered an anomaly",
+      "networkError": "Network interface error",
+      "invalidSpell": "Unknown augmentation module requested",
+      "unauthorized": "Insufficient clearance for this augmentation"
+    },
+    "rateLimit": {
+      "enhance": "Augmentation cycles: {{used}}/{{limit}} remaining",
+      "geomancy": "Analysis cycles: {{used}}/{{limit}} remaining",
+      "consolidate": "Consolidation cycles: {{used}}/{{limit}} remaining",
+      "resetTime": "Cycle resets in: {{time}}",
+      "depleted": "Augmentation cycle limit reached temporarily"
+    },
+    "tooltip": {
+      "castSpell": "Execute AI augmentation (🔧)",
+      "enhanceDescription": "Augment with AI analysis (Ctrl+E)",
+      "performGeomancy": "Run pattern analysis (Ctrl+G)",
+      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
+      "spellHistory": "View augmentation history",
+      "clearHistory": "Clear augmentation history"
+    },
+    "keyboard": {
+      "shortcuts": "🔧 Keyboard Shortcuts:",
+      "enhance": "Ctrl+E - AI Augmentation",
+      "geomancy": "Ctrl+G - Pattern Analysis",
+      "consolidate": "Ctrl+C - Task Consolidation",
+      "cancel": "Esc - Cancel"
+    },
+    "history": {
+      "timestamp": "Timestamp:",
+      "spellType": "Augmentation type:",
+      "target": "Target task:",
+      "result": "Result:",
+      "success": "✅ Successful",
+      "failed": "❌ Failed",
+      "duration": "Duration:",
+      "empty": "No augmentations recorded"
+    },
+    "status": {
+      "idle": "Augmentation tools ready",
+      "casting": "Applying augmentation...",
+      "processing": "Processing data matrix...",
+      "complete": "Augmentation complete",
+      "failed": "Augmentation failed",
+      "cooldown": "System cooling down..."
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Loading task node..."
+    },
+    "header": {
+      "editTodo": "Edit Task",
+      "createNewTodo": "Create New Task"
+    },
+    "buttons": {
+      "backToDashboard": "Back to Dashboard"
+    },
+    "error": {
+      "todoNotFound": "Task node not found. It may have been purged or the ID is invalid."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Lab Mode - Full Edit Access"
+    },
+    "tips": {
+      "title": "💡 Edit Protocols:",
+      "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Cyan pulse for AI augmentation"
+    }
+  },
+  "todoManagement": {
+    "title": "📝 Task Management"
+  },
+  "todoTab": {
+    "project": {
+      "label": "Project",
+      "default": "Default"
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Map Background",
+      "description": "Set a custom background image for your War Room map",
+      "presets": "Presets",
+      "uploads": "Your Uploads",
+      "upload": "Upload",
+      "noUploads": "No custom backgrounds yet",
+      "opacity": "Opacity",
+      "fitMode": "Fit Mode",
+      "fitCover": "Cover",
+      "fitContain": "Contain",
+      "fitStretch": "Stretch",
+      "fitTile": "Tile",
+      "blendWithTerrain": "Blend with Terrain",
+      "remove": "Remove Background",
+      "active": "Active",
+      "uploadError": "Upload failed. Please try again.",
+      "fileTooLarge": "Image must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+    }
+  },
+  "insights": {
+    "loading": "Loading insights...",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "systemLogs": "System Logs"
+    }
+  },
+  "agentStates": {
+    "working": "Processing Data",
+    "traveling": "Relocating",
+    "idle": "Standby Mode",
+    "assigned": "Protocol Assigned"
+  },
+  "targetAgent": {
+    "user": "Lead Researcher",
+    "ai": "Autonomous Unit",
+    "system": "Mainframe",
+    "none": "Unassigned"
+  },
+  "accountPanel": {
+    "title": "User Node Registry",
+    "tabs": {
+      "profile": "Identity Profile",
+      "subscription": "Subscription Matrix",
+      "account": "Account Interface"
+    },
+    "subscriptionDisabled": "Subscription module offline",
+    "dangerZone": "Restricted Sector"
+  },
+  "billing": {
+    "title": "System Credits & Uplinks",
+    "subtitle": "Manage your connection to the central matrix",
+    "loginRequired": "Authentication required to access credit logs",
+    "goToLogin": "Log in to Matrix",
+    "currentPlan": "Active Access Level",
+    "perMonth": "/cycle",
+    "nextBillingDate": "Next credit refresh:",
+    "planFeatures": "UPLINK PRIVILEGES:",
+    "upgradeToPro": "ELEVATE TO ELITE OPERATOR",
+    "manageBilling": "Open Credit Interface",
+    "cancelSubscription": "Terminate Uplink",
+    "usageStats": "Sector Metrics",
+    "totalTodos": "Task Nodes",
+    "projects": "Sub-Networks",
+    "unlimited": "Boundless",
+    "upgradePrompt": "Elevate to Elite Operator for boundless task nodes, sub-networks, the War Room console, and full SwarmDesk access!",
+    "cancelSuccess": "Uplink terminated. Access persists until current cycle expiration.",
+    "status": {
+      "active": "ENCRYPTED",
+      "free": "GUEST",
+      "inactive": "OFFLINE"
+    },
+    "errors": {
+      "loadFailed": "Credit interface connection failed",
+      "cancelFailed": "Termination sequence aborted. Retry.",
+      "portalFailed": "Uplink gateway unresponsive."
+    },
+    "cancelDialog": {
+      "title": "Confirm Disconnect?",
+      "message": "Are you sure you want to terminate your elite uplink? Privileges persist until the end of the current cycle.",
+      "resubscribe": "You can re-establish the uplink at any time.",
+      "keep": "Maintain Connection",
+      "confirm": "Terminate"
+    }
+  },
+  "pricing": {
+    "title": "Uplink Levels",
+    "subtitle": "The guest path is limited. Elite Operator grants full control of the matrix.",
+    "backToDashboard": "Return to Console",
+    "currentPlan": "ACTIVE LEVEL",
+    "free": "Guest",
+    "perMonth": "/cycle",
+    "loginToUpgrade": "AUTHENTICATE TO ELEVATE",
+    "currentTier": "CURRENT LEVEL",
+    "upgrade": "ELEVATE",
+    "finePrint": "Disconnect anytime. Data remains in your local buffer.",
+    "errors": {
+      "loginRequired": "Identity verification required to elevate",
+      "checkoutFailed": "Elevation sequence failed. Try again."
+    }
+  },
+  "cancel": {
+    "title": "Uplink Severed",
+    "message": "Your elite uplink has been terminated. You can re-establish the link at any time. Your guest sector access remains active.",
+    "goToDashboard": "Return to Console",
+    "viewPlans": "View Uplink Levels"
+  },
+  "chronomancy": {
+    "loading": "Initializing temporal uplink... [STATUS: WAITING]",
+    "noVersions": "No temporal signatures detected in the local sector.",
+    "today": "Cycle: Current",
+    "yesterday": "Cycle: Previous",
+    "daysAgo": "{{days}} cycles ago",
+    "currentVersion": "Active Buffer",
+    "versionLabel": "Protocol {{version}}",
+    "versions": "iterations",
+    "gitCommit": "Neural commit hash",
+    "classesChange": "Logic block delta",
+    "linesChange": "Code segment delta",
+    "deleteVersion": "Purge protocol",
+    "deleteDialog": {
+      "title": "Purge Protocol?",
+      "message": "Permanently erase sequence v{{version}} from the mainframe? This cannot be restored.",
+      "cancel": "Abort",
+      "confirm": "Purge"
+    },
+    "compare": {
+      "selectTwo": "Cross-reference nodes (Select 2)",
+      "button": "Diff v{{from}} ⟷ v{{to}}"
+    },
+    "diff": {
+      "title": "Subsystem Delta: v{{from}} → v{{to}}",
+      "added": "Injected",
+      "removed": "Purged",
+      "modified": "Reconfigured",
+      "unchanged": "Static",
+      "complexity": "Node Density",
+      "lines": "Segments",
+      "noClassesAdded": "No logic blocks added",
+      "noClassesRemoved": "No logic blocks purged",
+      "noClassesModified": "No blocks reconfigured",
+      "methodsAdded": "Functions injected:",
+      "methodsRemoved": "Functions purged:",
+      "depsAdded": "External links established:",
+      "depsRemoved": "External links severed:",
+      "close": "Disconnect"
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "themeName": "templar-light",
+  "displayName": "Templar Light",
+  "description": "A light theme inspired by knights templar, with a clean white base and gold and red accents.",
+  "icon": "⚔️",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#c5b358",
+    "primaryButton": "#b89f46",
+    "secondary": "#a41e21",
+    "success": "#2e7d32",
+    "warning": "#e65100",
+    "error": "#c62828",
+    "background": {
+      "main": "linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%)",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.98)",
+        "selected": "rgba(255, 253, 231, 0.8)",
+        "hover": "rgba(255, 253, 231, 0.7)"
+      },
+      "header": "linear-gradient(135deg, #eeeeee 0%, #e0e0e0 100%)",
+      "paper": "rgba(255, 255, 255, 0.98)",
+      "topBar": "linear-gradient(90deg, #e0e0e0 0%, #bdbdbd 50%, #eeeeee 100%)",
+      "input": "rgba(255, 255, 255, 0.99)"
+    },
+    "text": {
+      "primary": "rgba(0, 0, 0, 0.87)",
+      "secondary": "rgba(0, 0, 0, 0.6)",
+      "tertiary": "rgba(0, 0, 0, 0.4)",
+      "muted": "rgba(0, 0, 0, 0.3)",
+      "contrast": "#ffffff",
+      "disabled": "rgba(0, 0, 0, 0.2)",
+      "success": "#1b5e20",
+      "warning": "#e65100",
+      "error": "#b71c1c",
+      "info": "#01579b",
+      "critical": "#b71c1c",
+      "high": "#a41e21",
+      "medium": "#c5b358",
+      "low": "#616161"
+    },
+    "border": {
+      "primary": "#c5b358",
+      "secondary": "#a41e21",
+      "subtle": "rgba(0, 0, 0, 0.12)",
+      "disabled": "rgba(0, 0, 0, 0.08)"
+    },
+    "dashboard": {
+      "stats": {
+        "total": {
+          "background": "linear-gradient(135deg, #c5b358 0%, #b89f46 100%)",
+          "color": "#ffffff"
+        },
+        "active": {
+          "background": "linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%)",
+          "color": "#ffffff"
+        },
+        "completed": {
+          "background": "linear-gradient(135deg, #616161 0%, #424242 100%)",
+          "color": "#ffffff"
+        },
+        "archived": {
+          "background": "linear-gradient(135deg, #9e9e9e 0%, #757575 100%)",
+          "color": "#ffffff"
+        }
+      },
+      "activity": {
+        "panel": {
+          "background": "rgba(250, 250, 250, 0.7)",
+          "border": "rgba(189, 189, 189, 0.4)"
+        },
+        "create": "#01579b",
+        "complete": "#2e7d32",
+        "delete": "#b71c1c",
+        "update": "#e65100",
+        "review": "#c5b358"
+      },
+      "completed": {
+        "panel": {
+          "background": "rgba(232, 245, 233, 0.4)",
+          "border": "rgba(46, 125, 50, 0.4)"
+        },
+        "highlight": {
+          "background": "rgba(232, 245, 233, 0.7)"
+        }
+      },
+      "button": {
+        "neutral": "#616161",
+        "neutralHover": "#424242",
+        "danger": "#a41e21",
+        "dangerHover": "#b71c1c"
+      }
+    },
+    "accent": {
+        "orange": "#e65100",
+        "deepOrange": "#bf360c",
+        "green": "#2e7d32",
+        "lightGreen": "#558b2f",
+        "amber": "#ff8f00",
+        "red": "#a41e21",
+        "deepRed": "#b71c1c",
+        "purple": "#6a1b9a",
+        "deepPurple": "#4a148c",
+        "cyan": "#006064",
+        "blue": "#01579b"
+    },
+    "state": {
+      "editing": {
+        "primary": "#c5b358",
+        "background": "rgba(255, 253, 231, 0.8)",
+        "backgroundMedium": "rgba(255, 253, 231, 1)",
+        "border": "rgba(197, 179, 88, 0.5)",
+        "shadow": "rgba(197, 179, 88, 0.1)"
+      },
+      "hover": {
+        "background": "rgba(0, 0, 0, 0.03)",
+        "overlay": "rgba(0, 0, 0, 0.02)"
+      },
+      "selected": {
+        "background": "rgba(197, 179, 88, 0.1)",
+        "border": "rgba(197, 179, 88, 0.6)"
+      },
+      "disabled": {
+        "background": "rgba(0, 0, 0, 0.05)",
+        "text": "rgba(0, 0, 0, 0.3)"
+      }
+    },
+    "effects": {
+      "magic": {
+        "primary": "#6a1b9a",
+        "glow": "rgba(106, 27, 154, 0.3)",
+        "background": "rgba(106, 27, 154, 0.1)",
+        "backgroundMedium": "rgba(106, 27, 154, 0.15)",
+        "trail": "rgba(106, 27, 154, 0.12)"
+      },
+      "energy": {
+        "primary": "#c5b358",
+        "glow": "rgba(197, 179, 88, 0.2)",
+        "background": "rgba(197, 179, 88, 0.1)",
+        "pulse": "rgba(197, 179, 88, 0.3)"
+      },
+      "debug": {
+        "mobile": "#2e7d32",
+        "desktop": "#e65100",
+        "mobileBackground": "rgba(46, 125, 50, 0.12)",
+        "desktopBackground": "rgba(230, 81, 0, 0.12)"
+      }
+    },
+    "tags": {
+      "default": {
+        "background": "rgba(197, 179, 88, 0.12)",
+        "border": "rgba(197, 179, 88, 0.2)",
+        "hover": "rgba(197, 179, 88, 0.18)"
+      },
+      "cached": {
+        "background": "rgba(46, 125, 50, 0.12)",
+        "border": "rgba(46, 125, 50, 0.3)",
+        "text": "#2e7d32"
+      },
+      "selected": {
+        "background": "rgba(197, 179, 88, 0.2)",
+        "border": "rgba(197, 179, 88, 0.6)"
+      }
+    },
+    "shadows": {
+      "light": "rgba(0, 0, 0, 0.08)",
+      "medium": "rgba(0, 0, 0, 0.1)",
+      "heavy": "rgba(0, 0, 0, 0.15)",
+      "overlay": "rgba(0, 0, 0, 0.3)",
+      "cardNormal": "rgba(0, .0, 0, 0.06)",
+      "cardHover": "rgba(0, 0, 0, 0.1)"
+    },
+    "overlays": {
+      "light": "rgba(0, 0, 0, 0.02)",
+      "medium": "rgba(0, 0, 0, 0.06)",
+      "dark": "rgba(0, 0, 0, 0.1)",
+      "darker": "rgba(0, 0, 0, 0.2)"
+    },
+    "status": {
+      "completed": {
+        "background": "rgba(46, 125, 50, 0.12)",
+        "border": "rgba(46, 125, 50, 0.3)",
+        "text": "#2e7d32"
+      },
+      "pending": {
+        "background": "rgba(255, 143, 0, 0.12)",
+        "border": "rgba(255, 143, 0, 0.3)",
+        "text": "#e65100"
+      },
+      "inProgress": {
+        "background": "rgba(1, 87, 155, 0.12)",
+        "border": "rgba(1, 87, 155, 0.3)",
+        "text": "#01579b"
+      },
+      "blocked": {
+        "background": "rgba(183, 28, 28, 0.12)",
+        "border": "rgba(183, 28, 28, 0.3)",
+        "text": "#b71c1c"
+      }
+    }
+  },
+  "threeJS": {
+    "colors": {
+      "primary": "0xc5b358",
+      "secondary": "0xa41e21",
+      "success": "0x2e7d32",
+      "warning": "0xe65100",
+      "error": "0xc62828",
+      "background": {
+        "main": "0xe0e0e0",
+        "card": "0xffffff",
+        "paper": "0xffffff"
+      },
+      "text": {
+        "primary": "0x000000",
+        "secondary": "0x424242"
+      },
+      "border": {
+        "primary": "0xc5b358",
+        "secondary": "0xa41e21",
+        "subtle": "0xbdbdbd"
+      }
+    },
+    "materials": {
+      "metalness": 0.1,
+      "roughness": 0.8,
+      "emissiveIntensity": 0
+    },
+    "lighting": {
+      "ambientIntensity": 1,
+      "directionalIntensity": 0.6,
+      "pointIntensity": 0.4
+    }
+  }
+}

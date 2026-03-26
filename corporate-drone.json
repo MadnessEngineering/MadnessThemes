@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Commence Strategic Initiative Deployment",
+    "subtitle": "Align configuration parameters to maximize cross-departmental synergy",
+    "buttons": {
+      "reset": "Revert All Strategic Inputs",
+      "create": "Deploy Initiative (Pending Executive Approval)",
+      "submit": "Execute Implementation Protocol",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "INTERN TRAINING SIMULATION",
+      "title": "Read-Only Evaluation Environment – Observation Phase",
+      "description": "📋 You are currently shadowing senior operators in evaluation mode. Initiative creation privileges are respectfully withheld until onboarding and synergy calibration are complete."
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Action Item Pipeline",
+    "lessons": "Knowledge Continuity Repository",
+    "project": "Initiative Configuration Suite",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "Strategic identifier required for initiative registration",
+    "nameLength": "Identifier must exceed two characters to ensure audit traceability",
+    "nameFormat": "Identifier may include only compliant alphanumeric and connector symbols (letters, numbers, hyphens, underscores)",
+    "displayNameRequired": "Public-facing designation required for stakeholder visibility",
+    "descriptionRequired": "Comprehensive initiative summary is mandatory for compliance alignment",
+    "descriptionLength": "Narrative must exceed 10 characters to satisfy documentation standards",
+    "topicRequired": "Knowledge continuity topic field cannot be left strategically vacant",
+    "topicTooLong": "Topic length must remain under 200 characters to maintain processing harmony",
+    "contentRequired": "Knowledge documentation requires substantive content input",
+    "contentTooLong": "Knowledge brief must remain under 5000 characters per regulatory optimization protocol",
+    "invalidLanguage": "Please select a valid technological dialect for implementation",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Commit Strategic Adjustments",
+    "cancel": "Abort Current Operation",
+    "close": "Conclude Active Session",
+    "edit": "Refine Active Configuration",
+    "delete": "Decommission Selected Asset",
+    "reset": "Reinitialize Parameters to Baseline",
+    "refresh": "Synchronize Data Feed",
+    "loading": "Processing request – please maintain productivity posture...",
+    "error": "⚠️ Unexpected optimization opportunity detected",
+    "success": "✅ Mission executed with exemplary compliance!",
+    "failed": "🚫 Initiative encountered resistance – please realign and retry",
+    "perPage": "entries per page (as per oversight committee standards)",
+    "refreshNow": "Recalibrate Data Feed",
+    "copyId": "Replicate Unique Task Identifier",
+    "show": "Reveal Associated Data Stream",
+    "copy": "Duplicate Operational Artifact",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Initiative Identifier",
+    "displayName": "Public-Facing Label",
+    "description": "Strategic Overview",
+    "type": "Initiative Classification",
+    "visibility": "Stakeholder Visibility Parameters",
+    "repository": "Version Control Endpoint",
+    "language": "Technological Dialect",
+    "framework": "Implementation Framework",
+    "priority": "Operational Urgency Tier",
+    "status": "Workflow Status Indicator",
+    "notes": "Ancillary Documentation",
+    "ticket": "Linked Oversight Reference"
+  },
+  "dashboard": {
+    "title": "📊 Executive Productivity Command Center",
+    "projectStats": {
+      "title": "📂 Portfolio Synergy Metrics",
+      "collection": "initiative repositories",
+      "totalProjects": "Total Strategic Initiatives",
+      "activeProjects": "Active Engagements",
+      "projectsWithCompleted": "Deliverables Achieved",
+      "avgTasksPerProject": "Average Action Items per Initiative"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Operational Priority Heatmap",
+      "pendingTasks": "Pending Action Items",
+      "inReview": "Under Review & Reflection",
+      "inProgress": "In Execution",
+      "blocked": "Escalation Required",
+      "completed": "Successfully Delivered Assets",
+      "highPriority": "Critical Response Tier",
+      "mediumPriority": "Standard Throughput Tier",
+      "lowPriority": "Deferred Alignment Tier"
+    },
+    "activityLog": {
+      "title": "📊 Performance Traceability Dashboard",
+      "collection": "operational_logs ledger",
+      "description": "Monitor all procedural modifications, optimizations, and synergy realignments",
+      "updates": "Strategic Revisions",
+      "creates": "Initiative Launches",
+      "deletes": "Asset Decommissions",
+      "completions": "Deliverable Closures",
+      "totalEntries": "Total Recorded Operations"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recently Finalized Deliverables"
+    },
+    "welcome": {
+      "message": "Welcome, Valued Associate, to the Madness Interactive Productivity Nexus!",
+      "description": "Your synergistic command environment is fully operational. Utilize navigation modules above to access task pipelines, collaboration nodes, initiative portfolios, and auxiliary efficiency utilities. Let’s optimize alignment before the next quarterly review!",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "📝 Action Item Pipeline",
+      "chatAssistant": "🤖 Conversational Productivity Liaison",
+      "activityLog": "📋 Operational Trace Reports",
+      "projects": "📂 Initiative Portfolio"
+    },
+    "filters": {
+      "allActivity": "All Synergistic Activity",
+      "todosCreated": "Action Items Onboarded",
+      "todosUpdated": "Action Items Pivoted",
+      "todosCompleted": "Deliverables Executed",
+      "todosDeleted": "Action Items Deprioritized",
+      "projectsCreated": "Pipelines Initiated",
+      "projectsUpdated": "Pipelines Realigned",
+      "projectsDeleted": "Pipelines Sunsetted"
+    },
+    "unifiedView": "Holistic Enterprise View",
+    "personalView": "Individual Contributor View",
+    "showingAllDatabases": "Leveraging cross-functional data silos.",
+    "showingPersonalOnly": "Isolating individual bandwidth metrics.",
+    "filteredByProject": "Drilling down into the project pipeline.",
+    "noLogsFound": "No synergistic activities detected in the current cycle.",
+    "tryChangingFilter": "Pivot your filters to surface actionable insights.",
+    "startCreatingTodos": "Proactively generate action items to move the needle.",
+    "failedToLoad": "Failed to load: {{error}}",
+    "changesMade": "Delta Analysis",
+    "completionNotes": "Post-Mortem Key Takeaways",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reverted {{operation}}",
+    "revertFailed": "Revert failed: {{error}}",
+    "revertDeleteNotSupported": "Sunsetting is irreversible at this juncture.",
+    "revertNotSupported": "Rolling back {{operation}} is outside our current core competencies.",
+    "confirmRevert": "Confirm Rollback Strategy",
+    "confirmRevertMessage": "Are you aligned on rolling back {{operation}} for {{description}}?",
+    "confirmRevertAction": "Execute Rollback",
+    "operationType": "Strategic Operation Type",
+    "taskDescription": "Deliverable Scope",
+    "descriptions": {
+      "projectCreated": "Initiated pipeline: {{projectName}}",
+      "projectUpdated": "Realigned pipeline: {{projectName}}",
+      "projectDeleted": "Sunsetted pipeline: {{projectName}}",
+      "projectModified": "Iterated on pipeline: {{projectName}}",
+      "unknownTask": "Unidentified synergistic activity"
+    },
+    "showingPageStats": "Surfacing dashboard {{currentPage}} of {{totalPages}} ({{totalCount}} key performance indicators)",
+    "autoRefreshingInterval": "Auto-syncing with the cloud every 30 seconds",
+    "stats": {
+      "totalProjects": "Total Pipelines",
+      "activeProjects": "In-Flight Pipelines",
+      "completedTodos": "Executed Deliverables",
+      "archivedProjects": "Sunsetted Pipelines"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "lessonsLearned": {
+    "title": "🎓 Organizational Knowledge Continuity Program",
+    "refreshLessons": "Re-Sync Knowledge Repository",
+    "addLesson": "Log a New Knowledge Insight",
+    "searchPlaceholder": "Search institutional wisdom, technical artifacts, or motivational buzzwords...",
+    "languages": {
+      "allLanguages": "All Inclusive",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "python": "Python",
+      "rust": "Rust",
+      "go": "Go",
+      "general": "General Strategics"
+    },
+    "filters": {
+      "allLessons": "All Internal Knowledge",
+      "bookmarked": "Flagged as Mission-Critical",
+      "recent": "Recent Additions (Past Fiscal Week)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Insights Detected",
+      "vaultEmpty": "🗃 Knowledge Vault Currently Depleted!",
+      "noMatchSearch": "No documentation aligns with \"{{searchTerm}}\". Try rephrasing for greater synergy.",
+      "noMatchFilters": "No records matched current filter parameters. Consider expanding your discovery criteria.",
+      "startDocumenting": "Begin recording your operational epiphanies! Every obstacle overcome fuels future efficiency initiatives."
+    },
+    "createFirstLesson": "Document Your First Strategic Insight",
+    "actions": {
+      "starred": "Flagged for Executive Review",
+      "addStar": "Prioritize This Knowledge"
+    },
+    "pagination": {
+      "showingRange": "Displaying entries {{start}}–{{end}} of {{total}} documented insights"
+    },
+    "dialog": {
+      "editTitle": "🎓 Refine Knowledge Entry",
+      "addTitle": "🎓 Submit New Knowledge Record",
+      "topicLabel": "Insight Topic",
+      "lessonLabel": "Core Knowledge Content",
+      "languageLabel": "Technical Domain",
+      "tagsLabel": "Strategic Tags (comma separated)",
+      "tagsPlaceholder": "efficiency, scalability, cross-functional synergy",
+      "databaseLabel": "Archival Location",
+      "personalDatabase": "👤 Personal Knowledge Depot",
+      "sharedDatabase": "🌐 Shared Organizational Repository (Swarmonomicon)",
+      "updateLesson": "Apply Revisions",
+      "createLesson": "Commit Entry"
+    },
+    "failedToLoad": "⚠️ Knowledge repository temporarily unreachable: {{error}}",
+    "confirmDelete": "Confirm permanent removal of this strategic knowledge artifact from the archives?"
+  },
+  "todoManagement": {
+    "title": "📝 Action Item Oversight System"
+  },
+  "app": {
+    "titleShort": "Madness Interactive",
+    "titleLong": "Madness Interactive Enterprise Productivity Interface"
+  },
+  "panels": {
+    "todos": "📝 Backlog",
+    "logs": "📋 Delivery KPIs",
+    "aiChat": "🤖 AI Assistant",
+    "create": "➕ New Initiative",
+    "projects": "📂 Project Portfolio",
+    "mindMap": "🗺️ Strategy Implementation",
+    "swarmDesk": "🎪 SwarmDesk",
+    "lessons": "🎓 SOPs",
+    "insights": "📊 Business Intelligence",
+    "settings": "⚙️ Policy Ops",
+    "labMaintenance": "🧹 Portfolio Cleanup"
+  },
+  "labMaintenance": {
+    "title": "Portfolio Maintenance",
+    "tabs": {
+      "orphaned": "Unassigned Items",
+      "completed": "Delivered Items",
+      "consolidate": "Portfolio Overview"
+    },
+    "selectAll": "Select All",
+    "clearSelection": "Clear",
+    "targetProject": "Reassign to initiative...",
+    "reassign": "Reassign",
+    "reassignSelected": "Reassign selected items to chosen initiative",
+    "reopen": "Reactivate",
+    "reopenSelected": "Reactivate delivered items back to backlog",
+    "delete": "Archive",
+    "deleteSelected": "Permanently archive selected items",
+    "selectProjectFirst": "Select a target initiative first",
+    "todosUpdated": "items processed",
+    "noOrphans": "No unassigned items. All deliverables are properly allocated.",
+    "noCompleted": "No delivered items found in the archive.",
+    "consolidateDescription": "Portfolio health metrics and resource allocation overview.",
+    "orphanedProjectsLabel": "Retired Initiatives With Remaining Deliverables",
+    "quickStats": "Executive Summary",
+    "orphaned": "Unassigned",
+    "completed": "Delivered",
+    "deletedProjects": "Retired",
+    "activeProjects": "Active"
+  },
+  "demo": {
+    "label": "DEMO - Evaluation Mode"
+  },
+  "menu": {
+    "documentation": "System Documentation",
+    "replayTutorial": "Restart Onboarding Process",
+    "userManagement": "Stakeholder Account Management",
+    "github": "Source Repository",
+    "logout": "Sign Out"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 AI insights generated! Review the enhanced analysis report.",
+    "todoMarkedForReview": "👁️ Task successfully flagged for review!",
+    "todoCompleted": "✅ Task completed successfully!",
+    "taskCreated": "🎉 New task added to backlog successfully!",
+    "projectCreated": "🚀 Project initialized successfully!",
+    "aiConfigured": "✅ AI assistant successfully deployed and integrated!",
+    "todoCreated": "📝 New task created.",
+    "settingsSaved": "⚙️ Settings saved.",
+    "exportCompleted": "📤 Export complete.",
+    "importCompleted": "📥 Import complete."
+  },
+  "projectNavigator": {
+    "title": "🚀 PROJECT PORTFOLIO DASHBOARD",
+    "subtitle": "Select operational domain • Access dedicated productivity environments",
+    "cacheStatus": "🏪 Cached data • Last updated: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh Data • M: Main Platform • 1-9: Quick access",
+    "manageTooltip": {
+      "admin": "Manage All Projects (Administrator Access)",
+      "personal": "Manage Personal Project Portfolio"
+    },
+    "refreshTooltip": "Refresh Project Data",
+    "mainSwarmDeskTooltip": "Access Main Platform",
+    "loading": {
+      "title": "🔍 Scanning Project Portfolio...",
+      "subtitle": "Retrieving task data and performance metrics"
+    },
+    "stats": {
+      "pending": "pending",
+      "completed": "delivered"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent project activity"
+    },
+    "enterButton": {
+      "selected": "⚡ ENVIRONMENT ACTIVE",
+      "enter": "🚀 ACCESS PROJECT",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Retire Initiative",
+      "confirm": "Are you sure you want to retire initiative \"{{projectName}}\"?",
+      "graveyardNote": "This will archive the initiative. You can restore it later if needed.",
+      "hasTodos": "This initiative has {{count}} task(s). Would you like to reassign them?",
+      "relocateLabel": "Reassign tasks to another initiative",
+      "selectDestination": "Select destination initiative",
+      "cancel": "Cancel",
+      "deleteButton": "Retire Initiative"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} pending",
+      "completedTasks": "{{count}} delivered"
+    },
+    "loading": "🎪 Initializing {{projectId}} Environment...",
+    "controls": "🎮 WASD: Navigate | Mouse Drag: View | ESC: Exit Project",
+    "workstation": {
+      "todoHint": "📝 Click to access task management",
+      "projectHint": "🎪 Click to view project details"
+    },
+    "statsPanel": {
+      "title": "📊 Project Metrics",
+      "totalTasks": "Total Tasks",
+      "pending": "Pending Items",
+      "completed": "Delivered"
+    },
+    "reviewTab": {
+      "title": "QA Pipeline",
+      "approveButton": "Sign Off",
+      "requestChanges": "Flag for Revision",
+      "returnToProgress": "Re-assign",
+      "emptyState": "Queue empty"
+    }
+  },
+  "projectTab": {
+    "title": "New Project Initiative",
+    "sections": {
+      "basicInfo": "Project Information",
+      "configuration": "Project Configuration",
+      "technicalDetails": "Technical Specifications (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Application",
+      "mobile": "Mobile Application",
+      "desktop": "Desktop Application",
+      "library": "Library/Package",
+      "api": "API/Service Platform",
+      "general": "General Project"
+    },
+    "buttons": {
+      "creating": "Processing...",
+      "demoMode": "Evaluation Mode",
+      "createProject": "DEPLOY PROJECT"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Initiatives",
+      "default": "Primary"
+    },
+    "sections": {
+      "metadata": "Micromiddle-management (Optional)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Tasks",
+      "pending": "Active Items",
+      "review": "Under Review",
+      "completed": "Delivered",
+      "in_progress": "Executing",
+      "blocked": "Escalated",
+      "all": "All Tasks",
+      "inProgress": "In Progress"
+    },
+    "sort": {
+      "newest": "Recent Additions",
+      "oldest": "Legacy Items",
+      "priority": "Priority Matrix",
+      "madness": "Random Optimization"
+    },
+    "search": {
+      "placeholder": "Search task inventory..."
+    },
+    "project": {
+      "label": "Initiative",
+      "allProjects": "All Initiatives ({{count}})",
+      "clearFilter": "Reset Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Display",
+      "perPage": "per page",
+      "all": "All Items",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Showing {{start}}–{{end}} of {{total}} task items",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by initiative: <strong>{{project}}</strong>",
+      "filteringByProjects": "Scoped to {{count}} initiative(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Tasks",
+      "workshopClear": "Pipeline is Clear!",
+      "noMatchingDescription": "No tasks match \"{{searchText}}\". Try refining your search parameters for optimal results.",
+      "workshopClearDescription": "No active tasks found. The productivity optimization system has achieved maximum efficiency — or all deliverables have been successfully processed."
+    },
+    "buttons": {
+      "refresh": "Refresh Data",
+      "export": "Export Dataset",
+      "saving": "Processing...",
+      "saveChanges": "Commit Changes",
+      "discard": "Discard Changes",
+      "complete": "Mark Complete",
+      "edit": "Modify Task",
+      "copyId": "Copy Task ID",
+      "copyJiraCmd": "Copy Jira Command",
+      "review": "Flag for Review",
+      "aiInsights": "AI Analysis"
+    },
+    "fullEdit": {
+      "modeTitle": "Full Configuration Mode - Enhanced Optimization Access"
+    },
+    "menu": {
+      "editTask": "Edit Task",
+      "copyId": "Copy Task ID",
+      "copyJiraCmd": "Copy Jira Command",
+      "deleteTask": "Remove Task"
+    },
+    "dialog": {
+      "completeTitle": "Complete Task: {{description}}",
+      "completeDescription": "Add optional completion notes about how this task was delivered (e.g., solution details, time invested, obstacles resolved, etc.).",
+      "completePlaceholder": "e.g., Successfully resolved CSS responsive issue by updating breakpoint configurations. Required 2 hours due to cross-browser compatibility testing.",
+      "cancel": "Cancel",
+      "completeTask": "Complete Task",
+      "exportTitle": "Export Task Dataset",
+      "exportDescription": "Preparing to export {{count}} task items from the operational database",
+      "exportFilename": "Export Filename",
+      "exportFilenameHelp": "The name of your exported file (extension will be added automatically)",
+      "exportFormat": "Export Format",
+      "exportButton": "Export Data",
+      "formatJSON": "JSON - Structured Data Format",
+      "formatJSONDesc": "Complete task data in structured JSON format for reimportation",
+      "formatCSV": "CSV - Spreadsheet Format",
+      "formatCSVDesc": "Spreadsheet-compatible format for analysis in external tools",
+      "formatMarkdown": "Markdown - Documentation Format",
+      "formatMarkdownDesc": "Human-readable documentation format for reports and review",
+      "formatHTML": "HTML - Web Report Format",
+      "formatHTMLDesc": "Professional styled report with embedded CSS for browser presentation",
+      "formatJira": "Jira/Slack Command Protocol",
+      "formatJiraDesc": "Ready-to-deploy Slack commands for automated Jira ticket creation workflow",
+      "formatVariant": "Format Variant",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard Format",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Data Fields",
+      "customizeFields": "Customize Field Names",
+      "renameFields": "Rename Export Fields",
+      "calculatedFields": "Calculated Metrics",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days since creation)",
+        "daysSinceUpdate": "Days since last update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete (days)"
+      },
+      "selectAll": "All Fields",
+      "selectNone": "Clear Selection",
+      "advancedFilters": "Advanced Filtering Options",
+      "dateRange": "Date Range",
+      "startDate": "From",
+      "endDate": "To",
+      "priorityFilter": "Priority Levels",
+      "statusFilter": "Status Filter"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "Task ID",
+      "description": "Task Description",
+      "project": "Initiative",
+      "priority": "Business Priority",
+      "status": "Delivery Status",
+      "target": "Assigned Agent",
+      "created": "Creation Date",
+      "updated": "Last Modified",
+      "metadata": "Task Metadata",
+      "source": "Data Source",
+      "notes": "Task Notes",
+      "ticket": "External Ticket ID",
+      "completed_at": "Completion Date",
+      "completed_by": "Completed By",
+      "completion_comment": "Completion Notes",
+      "duration": "Task Duration",
+      "duration_sec": "Duration (Seconds)",
+      "tags": "Task Tags",
+      "complexity": "Complexity Level",
+      "confidence": "Confidence Score",
+      "phase": "Delivery Phase",
+      "epic": "Epic Initiative",
+      "blockers": "Blocking Dependencies"
+    },
+    "validation": {
+      "descriptionRequired": "Task description cannot be empty.",
+      "descriptionTooLong": "Task description must be less than 500 characters.",
+      "invalidProject": "Please select a valid initiative from the available options."
+    },
+    "error": {
+      "failedToLoad": "Failed to load task data.",
+      "unknownError": "Unknown system error.",
+      "malfunctionMessage": "The Task Management System encountered an error. Please try refreshing the interface or check your network connection."
+    },
+    "placeholders": {
+      "setStatus": "Update task status...",
+      "editDescription": "Click to modify task specifications...",
+      "selectProject": "Select initiative...",
+      "setPriority": "Set business priority..."
+    },
+    "tooltip": {
+      "unsavedChanges": "Pending operational modifications require action."
+    },
+    "labels": {
+      "readOnly": "🔒 Read-Only Access",
+      "review": "UNDER REVIEW"
+    },
+    "aria": {
+      "todoActions": "Task management operations"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Loading task data from operational database..."
+    },
+    "header": {
+      "editTodo": "Modify Task Configuration",
+      "createNewTodo": "Delegate New Task"
+    },
+    "buttons": {
+      "backToDashboard": "Return to Executive Boardroom"
+    },
+    "error": {
+      "todoNotFound": "Task item not found in operational database. It may have been archived or the reference ID is invalid."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Advanced Configuration Mode - Full Administrative Access"
+    },
+    "tips": {
+      "title": "💡 Productivity Optimization Tips:",
+      "description": "• Click any field to edit specifications inline • Use the Edit function for comprehensive form access • ESC to abort modifications • Ctrl+Enter to commit changes • Purple indicator for AI-enhanced analysis"
+    }
+  },
+  "settings": {
+    "title": "⚙️ System Configuration",
+    "confirmReset": "Are you absolutely sure you want to revert to baseline corporate compliance? All unauthorized customizations will be palletized.",
+    "messages": {
+      "saveSuccess": "Configuration parameters successfully deployed!",
+      "saveError": "Failed to deploy system configuration changes"
+    },
+    "export": {
+      "starting": "Initiating data export process...",
+      "success": "Export operation completed! Generated {{todoCount}} task items, {{projectCount}} project initiatives, and system configurations.",
+      "error": "Export process failed due to system error: {{error}}"
+    },
+    "import": {
+      "starting": "Initiating data import process...",
+      "confirmDialog": "Import Process Preview:\n\n{{todoCount}} task items, {{projectCount}} project initiatives, {{settingsCount}} configuration modules\n\nOperational conflicts detected:\n{{conflicts}}\n\nProceed with import deployment?",
+      "success": "Import process completed! Successfully deployed {{importedCount}} data entries. {{skippedCount}} entries were bypassed due to conflicts.",
+      "error": "Import process failed due to system error: {{error}}",
+      "fileDialogError": "Failed to initialize file selection interface"
+    },
+    "tabs": {
+      "profile": "User Profile",
+      "database": "Data Repository",
+      "aiConfiguration": "AI Assistant Configuration",
+      "mcpSetup": "MCP Platform Setup",
+      "messaging": "Communication Roles",
+      "apiKeys": "API Security Keys",
+      "appearance": "Interface Configuration",
+      "mindMap": "Strategy Visualization",
+      "umlData": "Architecture Blueprints",
+      "privacy": "Data Privacy Settings",
+      "advanced": "Advanced System Settings",
+      "npcAgents": "Automated Personnel",
+      "swarmDesk": "SwarmDesk Controls"
+    },
+    "swarmdesk": {
+      "movementTitle": "Navigation Speed Optimization",
+      "movementDescription": "Configure optimal navigation velocity parameters for Orbital and FPS modes in the SwarmDesk productivity environment.",
+      "resetDefaults": "Restore Default Parameters",
+      "orbitalTitle": "Orbital Navigation Mode (O key)",
+      "orbitalDescription": "Optimizes camera velocity for orbital (free-fly) navigation workflows.",
+      "orbitalBaseSpeed": "Base Velocity",
+      "orbitalSprintMultiplier": "Acceleration Multiplier (Ctrl held)",
+      "fpsTitle": "First-Person Navigation Mode (F key)",
+      "fpsDescription": "Optimizes camera velocity for first-person navigation workflows.",
+      "fpsBaseSpeed": "Standard Velocity",
+      "fpsSprintSpeed": "Accelerated Velocity (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Communication Role Management",
+      "subtitle": "Configure authorized communication roles for optimized messaging workflows. Core roles can be archived but not deleted (they remain active in backend validation systems).",
+      "allowedRoles": "Authorized Roles",
+      "addRole": "Deploy New Role",
+      "editRole": "Modify Communication Role",
+      "infoMessage": "These communication roles will be deployed when creating messages. Each role can leverage a unique visual identifier for streamlined recognition. Core roles can be archived but not permanently removed (they remain compliant with backend validation protocols).",
+      "roleId": "Role Identifier",
+      "roleIdHelper": "Lowercase alphanumeric format with hyphens (e.g., 'assistant-v4', 'agent-primary')",
+      "roleIdDisabled": "Role identifier is immutable",
+      "displayLabel": "Display Name",
+      "displayLabelHelper": "User-facing name displayed in interface",
+      "emoji": "Visual Identifier",
+      "emojiHelper": "Single emoji character for efficient role recognition",
+      "coreRole": "Core Role",
+      "hidden": "Archived",
+      "showRole": "Activate role",
+      "hideRole": "Archive role",
+      "saveChanges": "Deploy Changes",
+      "cancel": "Cancel",
+      "npcConfig": "Workforce Unit Configuration",
+      "npcEnabled": "Deploy as SwarmDesk Workforce Unit",
+      "npcCount": "Headcount",
+      "npcCountHelper": "Choose how many identical workforce units should be staffed in SwarmDesk (0-5).",
+      "npcColor": "Badge Color",
+      "npcColorHelper": "Used for the unit glow and status directory marker.",
+      "npcRole": "Job Title",
+      "npcRoleHelper": "Displayed above the workforce unit in SwarmDesk.",
+      "npcPersonality": "Operating Profile",
+      "npcPersonalityHelper": "Controls the default communication posture for this unit.",
+      "npcPersonalities": {
+        "helpful_assistant": "Service Specialist",
+        "chaotic_genius": "Disruptive Innovator",
+        "methodical_precise": "Compliance Analyst",
+        "curious_explorer": "Market Researcher",
+        "zen_creative": "Brand Storyteller",
+        "welcoming_efficient": "Front Desk Coordinator",
+        "organized_visionary": "Program Director"
+      },
+      "duplicateRoleId": "A role with this identifier has already been provisioned.",
+      "duplicateAgentId": "An agent resource with this identifier already exists in the deployment."
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "umlData": {
+    "title": "📐 Architecture Blueprints",
+    "description": "Leverage UML data assets for 3D system architecture visualization in SwarmDesk platform",
+    "upload": {
+      "button": "Deploy Blueprint",
+      "reading": "Processing architecture data",
+      "success": "Successfully deployed {{name}} with {{classes}} architectural components"
+    },
+    "errors": {
+      "loadFailed": "Failed to retrieve blueprint inventory from repository",
+      "uploadFailed": "Failed to deploy architecture blueprint to system",
+      "deleteFailed": "Failed to archive blueprint asset"
+    },
+    "delete": {
+      "confirmTitle": "Archive Architecture Blueprint?",
+      "confirmMessage": "Are you sure you want to archive {{name}}? This operation cannot be reversed.",
+      "success": "Successfully archived {{name}} from active inventory"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Launching SwarmDesk platform..."
+    },
+    "source": {
+      "personal": "Personal Assets",
+      "shared": "Shared Resources"
+    },
+    "instructions": {
+      "title": "Deployment Instructions:",
+      "step1": "Install the architecture generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate system blueprint from codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Deploy the generated architecture data using the interface above"
+    },
+    "storage": {
+      "info": "Current inventory: {{count}} blueprint(s). Storage capacity: {{limit}}",
+      "limit": "10 blueprints per user (10MB maximum file size)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Data Source",
+      "classes": "Components",
+      "packages": "Modules",
+      "created": "Deployed",
+      "actions": "Operations"
+    },
+    "actions": {
+      "view": "Launch in SwarmDesk",
+      "delete": "Archive"
+    },
+    "empty": "No architecture blueprints in inventory",
+    "empty.hint": "Deploy a UML blueprint to visualize your system architecture in 3D"
+  },
+  "auth": {
+    "app": {
+      "title": "Madness Interactive Productivity Platform"
+    },
+    "welcome": {
+      "message": "Access your productivity optimization platform!"
+    },
+    "buttons": {
+      "demoLogin": "Access Evaluation Environment",
+      "googleLogin": "Continue with Enterprise SSO"
+    },
+    "status": {
+      "loggingOut": "Signing out of platform..."
+    },
+    "errors": {
+      "demoLoginFailed": "Evaluation environment access failed",
+      "authRequired": "Authentication required to access productivity platform",
+      "configNotFound": "Authentication system not configured",
+      "tokenInvalid": "Access credentials have expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "You have unsaved operational changes. Are you sure you want to abort this optimization process?",
+    "confirmDelete": "Are you sure you want to remove this task item from the system database?",
+    "sections": {
+      "metadata": "Micromiddle-management (Optional)"
+    },
+    "errors": {
+      "descriptionRequired": "Task description is required for AI-powered enhancement",
+      "aiEnhancementFailed": "AI enhancement process failed: {{error}}",
+      "saveFailed": "Failed to commit operational changes to database"
+    },
+    "placeholders": {
+      "description": "Enter task specification...",
+      "clickToAdd": "Click to define task requirements...",
+      "enhancedDescription": "AI-enhanced specifications will be generated here...",
+      "notes": "Additional operational notes...",
+      "ticket": "Reference ticket ID..."
+    },
+    "labels": {
+      "enhancedDescription": "AI-Enhanced Specifications",
+      "aiEnhanced": "🤖 AI-Enhanced Task Description:",
+      "completionNotes": "✅ Delivery Documentation:",
+      "completed": "Delivered",
+      "duration": "Time Investment"
+    },
+    "priority": {
+      "low": "Standard",
+      "medium": "Priority",
+      "high": "Critical",
+      "critical": "Mission-Critical"
+    },
+    "status": {
+      "pending": "In Queue",
+      "in_progress": "In Execution",
+      "blocked": "Escalation Required",
+      "review": "Under Review",
+      "completed": "Delivered",
+      "initial": "Initiated",
+      "cancelled": "Sunsetted"
+    },
+    "menu": {
+      "editTask": "Modify Task",
+      "deleteTask": "Remove Task"
+    },
+    "messages": {
+      "noEnhancedDescription": "No AI enhancements yet. Click the AI button to generate enhanced specifications for optimal productivity."
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Switch to Strategic Relationship Mapping",
+      "switchToSphere": "Return to Network Visualization",
+      "chaos": "🎯 Process Optimization"
+    },
+    "info": {
+      "nodeCount": "{{count}} Strategic Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Drag to Optimize Layout",
+      "dragging": "Optimizing!",
+      "touchAndDrag": "Touch & Optimize",
+      "doubleTapBurst": "Double-tap for efficiency burst!",
+      "doubleTapPhysics": "Double-tap for workflow optimization!"
+    },
+    "filter": {
+      "title": "Strategic Relationship Mapping",
+      "allProjects": "All Strategic Initiatives",
+      "projectCount": "{{selected}}/{{total}} Strategic Initiatives",
+      "selectAll": "Select All Portfolio Items",
+      "clearAll": "Clear Strategic Selection",
+      "selectProjects": "Choose Strategic Initiatives",
+      "projectsSelected": "{{count}} initiatives selected",
+      "selectedProjects": "Selected Initiatives ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Static Analysis Mode",
+      "enableStaticMode": "Enable Static Analysis Mode",
+      "cleanUpEffects": "Optimize Visual Analytics"
+    },
+    "sequence": {
+      "hideSequence": "Hide Workflow Visualization",
+      "showSequence": "Show AI Workflow Analytics",
+      "analyzeSequences": "Analyze Strategic Workflows",
+      "stopAnimation": "Stop Process Animation",
+      "animateSequence": "Animate Strategic Workflow",
+      "shuffleSequence": "Optimize Workflow Pattern"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} strategic nodes selected (Ctrl+Click to manage portfolio, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "📊 STRATEGIC COMMAND CENTER",
+      "centerWorkshop": "🏢 PRODUCTIVITY HUB"
+    },
+    "modes": {
+      "dynamic": "⚡ Dynamic Process Mode",
+      "static": "📋 Static Analysis Mode"
+    },
+    "dialog": {
+      "createNode": "📊 Deploy Strategic Node",
+      "nodeText": "Strategic Specification"
+    },
+    "nodeInfo": {
+      "type": "Resource Type",
+      "priority": "Business Priority",
+      "energy": "Performance Index"
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Strategic Backdrop",
+      "description": "Configure the operational background asset for maximum visual leverage",
+      "presets": "Approved Templates",
+      "uploads": "Custom Assets",
+      "upload": "Deploy Asset",
+      "noUploads": "No custom assets onboarded",
+      "opacity": "Transparency Index",
+      "fitMode": "Display Strategy",
+      "fitCover": "Full Coverage",
+      "fitContain": "Contained",
+      "fitStretch": "Optimized Stretch",
+      "fitTile": "Tiled Matrix",
+      "blendWithTerrain": "Synergize with Base Layer",
+      "remove": "Decommission Backdrop",
+      "active": "Deployed",
+      "uploadError": "Asset deployment failed. Escalate and retry.",
+      "fileTooLarge": "Asset exceeds 5MB compliance threshold",
+      "invalidType": "Only JPEG, PNG, and WebP formats are SOC2-compliant"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "entering": "🏢 Accessing Operational Domain...",
+        "initializing": "⚙️ Initializing Workforce Management System...",
+        "ready": "✅ Platform Ready for Productivity Optimization",
+        "connecting": "🔗 Establishing Enterprise Connections...",
+        "loadingProjects": "📊 Loading Project Portfolio Data...",
+        "title": "🏢 Provisioning SwarmDesk Corporate Domain...",
+        "subtitle": "Optimizing Workforce Deliverables!"
+      },
+      "navigation": {
+        "controls": "🎮 Strategic Navigation Commands",
+        "movement": "⌨️ WASD: Navigate Workspace | Mouse: Adjust View Angle",
+        "interaction": "🖱️ Click: Execute Action | E: Engage System | Space: Quick Deploy",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu Access"
+      },
+      "status": {
+        "connected": "🌐 Enterprise Network: CONNECTED",
+        "offline": "⚠️ Enterprise Network: OFFLINE - Operating in Local Mode",
+        "syncing": "🔄 Synchronizing Operational Data...",
+        "ready": "✅ Workforce Management Platform: OPERATIONAL"
+      },
+      "error": {
+        "title": "❌ SwarmDesk Infrastructure Redundancy Failure",
+        "subtitle": "Consult technical stakeholders for operational logs",
+        "initializationFailed": "SwarmDesk enterprise initialization non-compliant"
+      },
+      "controls": {
+        "instructions": "🏢 SwarmDesk Active | WASD: Strategic Movement | E: Protocol Interaction | F4-F7: Deploy Nodes | Space: Optimization Mode"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🏢 Welcome to SwarmDesk Productivity Platform",
+        "subtitle": "Enterprise-Grade Workforce Management Interface",
+        "description": "Welcome to the SwarmDesk Operational Environment! This strategic command interface enables comprehensive workforce management and resource allocation optimization. Navigate using standard business protocols to maximize operational efficiency.",
+        "gettingStarted": "Operational Deployment Guide:",
+        "quickActions": [
+          "📊 Monitor real-time productivity metrics and KPIs",
+          "🎯 Deploy strategic task assignments to team members",
+          "📈 Analyze performance data and resource utilization",
+          "⚙️ Configure automated workflow processes",
+          "🔗 Integrate with enterprise systems and platforms"
+        ],
+        "features": {
+          "title": "🎯 Core Deliverables:",
+          "draggable": "📱 Draggable interface nodes with executive docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk operational workflows",
+          "docking": "🧲 Magnetic docking zones (workspace perimeters & nodes)",
+          "shortcuts": "⌨️ Pipeline shortcuts for quick access",
+          "integration": "🎮 Full SwarmDesk 3D virtualized headquarters integration"
+        },
+        "actions": {
+          "createProject": "📋 Instantiate Project Vertical",
+          "createAgent": "🤖 Onboard Associate Interface"
+        }
+      },
+      "shortcuts": {
+        "title": "⌨️ Strategic Command Interface",
+        "subtitle": "Productivity Optimization Shortcuts",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Workspace Navigation",
+            "commands": [
+              "WASD: Strategic workspace movement",
+              "Mouse Drag: Adjust operational viewpoint",
+              "Scroll: Zoom operational interface",
+              "ESC: Return to executive dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Management Interface Panels",
+            "commands": [
+              "F4: Deploy Task Management Console",
+              "F5: Access Performance Analytics Dashboard",
+              "F6: Open Enterprise Communication Hub",
+              "F7: Launch Resource Planning Interface"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Strategic Actions",
+            "commands": [
+              "E: Execute selected operation",
+              "Space: Quick deployment protocol",
+              "M: Access main operational menu",
+              "R: Refresh operational data streams"
+            ]
+          }
+        },
+        "f3": "F3 - Toggle Executive Welcome Hub",
+        "f4": "F4 - Toggle Strategic Portfolio Hub",
+        "f5": "F5 - Toggle Associate Deliverables",
+        "f6": "F6 - Toggle Productivity Tooling",
+        "f7": "F7 - Toggle KPI Acquisition Portal",
+        "f8": "F8 - Toggle WebLLM Cognition Interface",
+        "f9": "F9 - Toggle MQTT Operational Monitor",
+        "f10": "F10 - Minimize All Project Nodes",
+        "f11": "F11 - Terminate All Active Nodes",
+        "esc": "ESC - Cancel current business protocol",
+        "drag": "Relocate nodes - Click and hold header elements",
+        "dock": "Dock nodes - Relocate near workspace boundaries to anchor"
+      },
+      "mcp": {
+        "title": "🔗 Enterprise Integration Platform",
+        "subtitle": "Strategic System Orchestration Hub",
+        "description": "Leverage the Model Context Protocol (MCP) for enterprise-grade system integration and automated workforce coordination. Deploy strategic connections to optimize business operations.",
+        "features": [
+          "🏢 Enterprise System Integration Framework",
+          "📊 Automated Performance Monitoring and Analytics",
+          "🎯 Strategic Resource Allocation and Task Distribution",
+          "⚙️ Workflow Automation and Process Optimization",
+          "🔐 Secure Inter-System Communication Protocols"
+        ],
+        "gettingStarted": "Strategic Deployment Steps:",
+        "deploymentSteps": [
+          "Configure enterprise authentication credentials",
+          "Establish secure system connections",
+          "Deploy automated monitoring protocols",
+          "Activate strategic workflow processes"
+        ],
+        "tools": {
+          "title": "🛠️ Available MCP Enterprise Tooling",
+          "notAuthenticated": "Please authenticate within the domain to access MCP tools.",
+          "authRequired": "Enterprise authentication required to connect to mainframe",
+          "connecting": "No system utilities available. Connecting to mainframe...",
+          "serverStatus": "Mainframe Status: {{status}}",
+          "retryConnection": "🔄 Retry Enterprise Handshake",
+          "connectedAs": "Authenticated as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Operational Audit Log",
+          "noHistory": "No operational history localized."
+        },
+        "debug": {
+          "title": "🐛 Technical Compliance Audit",
+          "authentication": "Authentication: {{status}}",
+          "user": "Stakeholder: {{user}}",
+          "authMode": "Governance Mode: {{mode}}",
+          "mcpServer": "MCP Core: {{status}}",
+          "activeTools": "Active System Utilities: {{count}}",
+          "lastPing": "Last Heartbeat Sync: {{time}}",
+          "apiService": "API Core Interface: {{status}}",
+          "authContext": "Auth Governance Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Domain Auth"
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Portfolio Overview",
+          "activeProjects": "Active Initiatives: 5",
+          "pendingTasks": "Pending Action Items: 23",
+          "completedToday": "Finalized Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Initiatives",
+            "addTask": "➕ Add New Deliverable"
+          }
+        },
+        "todos": {
+          "title": "✅ Deliverable Management",
+          "inProgress": "🏢 Dashboard Integration - Under Strategic Review",
+          "pending": "⚙️ MCP Tool Enhancement - Awaiting Stakeholder Buy-in",
+          "actions": {
+            "addTodo": "➕ Add Deliverable"
+          }
+        },
+        "files": {
+          "title": "📁 Enterprise Repositories",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse Document Repositories"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Stakeholder Synchronicity",
+          "agentReady": "Associate: Ready to leverage resources for your initiatives!",
+          "userQuery": "You: Help me with the floating interface nodes",
+          "agentResponse": "Associate: The node interface optimization is mission-critical! Relocate nodes across the domain and dock at perimeter boundaries.",
+          "placeholder": "Enter business requirements..."
+        },
+        "commands": {
+          "title": "⚡ Executive Directives",
+          "searchProjects": "🔍 Query Initiative Database",
+          "listTodos": "📋 Enumerate Action Items",
+          "deployProject": "🚀 Deploy Strategic Vertical",
+          "generateReport": "📊 Generate Executive Summary"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Operational Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Initiate Synergy Session",
+            "executeCommand": "⚡ Execute Strategic Directive"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Associate Core Competencies",
+          "projectManagement": "✅ Strategic Portfolio Management",
+          "codeAnalysis": "✅ Technical Solution Auditing",
+          "mcpIntegration": "✅ MCP Enterprise System Leveraging",
+          "communication": "✅ High-Bandwidth Stakeholder Alignment"
+        }
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Enterprise Performance Metrics",
+          "cpuUsage": "Processor Bandwidth Utilization: 42%",
+          "memory": "Volatile Resource Allocation: 68%",
+          "activePanels": "Active Nodes: {{count}}",
+          "uptime": "System Availability: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Operational Events",
+          "panelCreated": "🏷️ Node instantiated: Project Management",
+          "swarmDeskInteraction": "🏢 Operational event: Operational Node prioritized",
+          "mcpToolExecuted": "⚙️ Enterprise utility invoked: list_projects"
+        },
+        "insights": {
+          "title": "💡 Business Intelligence",
+          "mostUsedPanel": "Most utilized interface node: Project Management",
+          "peakActivity": "Peak operational load: 14:00-15:00",
+          "efficiencyScore": "Enterprise synergy rating: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Cognition Engines",
+          "currentModel": "Current Engine: {{model}}",
+          "loadModel": "Provision Cognition Engine"
+        },
+        "compatibility": {
+          "title": "✅ Browser Compliance Status",
+          "checking": "🔄 Auditing compliance metrics...",
+          "checkCompatibility": "🔍 Verify Browser Compliance"
+        },
+        "status": {
+          "title": "⚡ WebLLM Operational Status",
+          "initialized": "Engine Ready: {{status}}",
+          "currentModel": "Active Engine: {{model}}",
+          "loading": "Engine Provisioning: {{status}}",
+          "inferencing": "Real-time Processing: {{status}}",
+          "queueLength": "Request Pipeline Depth: {{length}}",
+          "loadedModels": "Provisioned Cognition Engines: {{count}}",
+          "mode": "Deployment Mode: {{mode}}",
+          "initialize": "🚀 Initialize Cognition Core"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Configuration",
+          "agentModelAssignment": "Associate Engine Allocation:",
+          "useGlobal": "Utilize Enterprise Cognition Core",
+          "perAgent": "Isolated Associate Engines",
+          "temperature": "Creativity Variance:",
+          "maxTokens": "Maximum Response Depth:",
+          "saveSettings": "💾 Commit Configuration",
+          "resetDefaults": "🔄 Revert to System Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Operational Data Streams",
+          "noMessages": "No data packets detected...",
+          "waitingTraffic": "Monitoring MQTT operational traffic on port 4140",
+          "reconnect": "🔄 Re-establish Data Link",
+          "messages": "Data Packets: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Purge Stream History",
+          "export": "💾 Export Operational Logs"
+        },
+        "status": {
+          "title": "🔌 MQTT Network Protocol Status",
+          "status": "Domain Status: {{status}}",
+          "broker": "Message Broker: {{broker}}",
+          "clientId": "Client Enterprise ID: swarmdesk_{{id}}",
+          "messagesReceived": "Packets Inbound: {{count}}",
+          "lastActivity": "Last System Event: {{time}}",
+          "subscriptions": "📡 Data Topic Subscriptions:",
+          "connect": "🔄 Establish Network Link",
+          "disconnect": "🔌 Terminate Network Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Protocol Configuration",
+          "brokerAddress": "Enterprise Broker Endpoint:",
+          "subscribeTopics": "Subscribe to Operational Topics:",
+          "autoReconnect": "Auto-reconnect on protocol termination",
+          "showTimestamps": "Include event timestamps",
+          "saveSettings": "💾 Commit Protocol Settings",
+          "resetDefaults": "🔄 Revert to Protocol Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "title": "📂 Strategic Project Portfolio",
+      "subtitle": "Enterprise Initiative Management Hub",
+      "description": "Comprehensive portfolio management for strategic business initiatives and operational excellence projects.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Strategic Dashboard Platform",
+          "description": "Enterprise-grade productivity optimization dashboard with integrated workforce management capabilities and strategic analytics.",
+          "features": [
+            "📈 Real-time productivity metrics and KPI tracking",
+            "🎯 Strategic task allocation and resource management",
+            "🤖 AI-powered productivity optimization insights",
+            "🔗 Seamless enterprise system integration",
+            "📊 Comprehensive performance analytics dashboard"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Enterprise Integration Hub",
+          "description": "Strategic communication and coordination platform enabling seamless enterprise system integration and automated workflow optimization.",
+          "features": [
+            "🏢 Multi-platform enterprise system connectivity",
+            "⚙️ Automated workflow process orchestration",
+            "📊 Real-time operational data synchronization",
+            "🔐 Secure inter-system communication protocols",
+            "🎯 Strategic resource allocation management"
+          ]
+        }
+      },
+      "swarmDesk": {
+        "title": "🏢 SwarmDesk",
+        "description": "3D enterprise-grade command console for the Madness Interactive operational ecosystem",
+        "features": [
+          "🎮 3D virtualized headquarters",
+          "🤖 Direct associate coordination",
+          "📊 Real-time enterprise auditing",
+          "🎪 Emergency protocol activation"
+        ],
+        "status": "🔥 Active Enterprise Deployment",
+        "visibility": "Public enterprise repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Strategic Inventory Management System - Coordinate with Associate workflows and optimize task deliverables in real-time",
+        "features": [
+          "📋 Deliverable tracking",
+          "🏷️ Intelligent resource tagging",
+          "📈 Executive analytics suite",
+          "🔄 Cross-platform enterprise integration"
+        ],
+        "status": "🚀 Active Enterprise Deployment (private repository)",
+        "visibility": "Restricted executive lab"
+      },
+      "swarmonomicon": {
+        "title": "🏢 Swarmonomicon",
+        "description": "AI associate coordination enterprise system - the definitive manual for associate orchestration and collective business intelligence",
+        "features": [
+          "🤖 Associate workflow orchestration",
+          "💬 Enterprise messaging protocols",
+          "🎮 Optimized business interfaces",
+          "🧠 Aggregate enterprise intelligence"
+        ],
+        "status": "✨ Modularly operational",
+        "visibility": "Public solution repository"
+      }
+    },
+    "errors": {
+      "connectionFailed": "❌ Enterprise Network Connection Failed",
+      "loadingError": "⚠️ Operational Data Loading Error",
+      "permissionDenied": "🔒 Access Credentials Insufficient - Contact System Administrator",
+      "systemUnavailable": "🚫 Strategic Platform Temporarily Unavailable",
+      "unknownError": "❓ Unknown System Error - IT Support Required",
+      "initializationFailed": "SwarmDesk enterprise scripts failed to load within operational timeout",
+      "sceneInitFailed": "❌ Workspace initialization failure:",
+      "panelSystemFailed": "❌ Failed to instantiate node system:",
+      "panelSystemMissing": "⚠️ Node System not compliant",
+      "controlsInitFailed": "Failed to initialize enterprise-standard controls:",
+      "basicSceneFailed": "❌ Failed to initialize baseline Three.js workspace:"
+    },
+    "status": {
+      "initializing": "⚙️ Initializing Strategic Platform...",
+      "loading": "📊 Loading Operational Configuration...",
+      "ready": "✅ Strategic Platform Operational",
+      "error": "❌ Platform Error - System Administrator Required",
+      "offline": "⚠️ Operating in Offline Mode - Limited Functionality",
+      "initialized": "✅ SwarmDesk operational tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk system scripts provisioned successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk system scripts provisioning timeout",
+      "containerNotReady": "⚠️ Enterprise container pending",
+      "panelSystemExists": "🏷️ Node system already localized, ensuring proper state",
+      "panelSystemMissing": "⚠️ Node system non-compliant with input protocols, reinitializing...",
+      "panelSystemCreated": "✅ Node system instantiated successfully"
+    },
+    "actions": {
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters",
+      "connect": "🔗 Establish Enterprise Connection",
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "AI productivity system is not configured. Please navigate to Settings → AI Configuration to deploy your intelligent automation platform.",
+      "noResponse": "Your request was received but system encountered processing limitations preventing optimal response generation. Please retry for improved productivity outcomes.",
+      "demoUserRestricted": "🚫 AI productivity assistant is not available for evaluation users. Please complete registration to unlock full intelligent automation capabilities."
+    },
+    "quickActions": {
+      "listPending": "Display pending task backlog",
+      "createHighPriority": "Deploy new critical priority task",
+      "summarizeProject": "Generate executive summary of {{project}} initiative",
+      "filterHighPriority": "Display critical priority tasks within current initiative"
+    },
+    "suggestedActions": {
+      "listPending": "View Backlog",
+      "newHighPrio": "New Critical",
+      "summarize": "Executive Summary"
+    },
+    "status": {
+      "typing": "Productivity assistant is processing"
+    },
+    "emptyState": {
+      "title": "Madness Interactive Productivity Assistant",
+      "demoMessage": "AI productivity assistant is not available for evaluation users. Complete registration to unlock intelligent automation capabilities!",
+      "description": "Your dedicated AI productivity optimization system for managing tasks, initiatives, and operational efficiency.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Productivity Assistant Not Configured",
+      "description": "To deploy your AI productivity system, please configure your intelligent automation provider in System Configuration.",
+      "configureButton": "Configure Intelligent Automation"
+    },
+    "header": {
+      "title": "AI Productivity Assistant",
+      "refreshTooltip": "Refresh operational context",
+      "settingsTooltip": "System Configuration"
+    },
+    "menu": {
+      "refreshContext": "Refresh Operational Context",
+      "aiSettings": "AI System Configuration (Go to Settings)",
+      "aiSettingsRedirect": "AI system configuration has been moved to Settings → AI Configuration"
+    },
+    "input": {
+      "placeholder": "Submit productivity optimization request...",
+      "demoPlaceholder": "AI productivity assistant is not available for evaluation users. Complete registration for full access!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Deploy Task",
+      "listTodos": "Task Inventory",
+      "projectStatus": "Initiative Status",
+      "help": "Support Documentation",
+      "settings": "System Config",
+      "refreshData": "Refresh Operational Data"
+    },
+    "actionMessages": {
+      "createTodo": "Assist with deploying a new operational task",
+      "listTodos": "Display my current task inventory",
+      "projectStatus": "Provide status update on my operational initiatives",
+      "help": "What productivity optimization assistance can you provide?",
+      "settings": "Access system configuration panel",
+      "refresh": "Refresh operational data metrics"
+    },
+    "header": {
+      "title": "AI Productivity Assistant",
+      "statusListening": "Processing audio input...",
+      "statusTyping": "Generating response...",
+      "statusOnline": "System Operational"
+    },
+    "emptyState": {
+      "greeting": "Welcome! I am your AI Productivity Assistant",
+      "description": "I can optimize your task management, navigate operational initiatives, and provide strategic insights about your productivity workspace."
+    },
+    "status": {
+      "thinking": "AI is processing optimization algorithms..."
+    },
+    "input": {
+      "placeholder": "Enter productivity optimization query..."
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "AI-Powered Task Optimization",
+      "perform_geomancy": "Strategic Analysis Engine",
+      "consolidate_similar": "Process Consolidation Protocol"
+    },
+    "descriptions": {
+      "enhance_description": "Deploy advanced AI algorithms to optimize task specifications with enhanced clarity and strategic insights for maximum operational efficiency",
+      "perform_geomancy": "Execute comprehensive analytical review of operational patterns and strategic relationships within your project portfolio",
+      "consolidate_similar": "Implement automated process consolidation to merge similar tasks through intelligent optimization algorithms"
+    },
+    "interface": {
+      "title": "🤖 AI Productivity Enhancement Suite",
+      "subtitle": "Deploy intelligent automation to optimize operational efficiency",
+      "selectSpell": "Select Optimization Protocol",
+      "castSpell": "Execute Protocol",
+      "cancelSpell": "Abort Process",
+      "casting": "Processing AI Enhancement...",
+      "resultsTitle": "📊 Optimization Results Report",
+      "historyTitle": "📋 Process Enhancement History",
+      "clearHistory": "Archive Historical Data",
+      "noHistory": "No enhancement protocols have been executed",
+      "placeholder": "The AI system awaits your operational specifications..."
+    },
+    "effects": {
+      "particles": "Data processing indicators active",
+      "energy": "System resources allocating",
+      "casting": "AI algorithms executing",
+      "complete": "Optimization process completed successfully"
+    },
+    "results": {
+      "enhance": {
+        "success": "🤖 Task optimized with AI-powered enhancement!",
+        "improvement": "Productivity enhancement applied to task specifications",
+        "insights": "Strategic insights generated:",
+        "suggestions": "Optimization recommendations deployed"
+      },
+      "geomancy": {
+        "success": "📊 Strategic patterns identified through analytical engine!",
+        "insights": "Business intelligence findings:",
+        "patterns": "Operational pattern analysis:",
+        "recommendations": "Strategic recommendations:",
+        "analysis": "Analytical process completed"
+      },
+      "consolidate": {
+        "success": "⚡ Similar tasks consolidated through process optimization!",
+        "merged": "{{count}} tasks merged through strategic consolidation",
+        "candidates": "Consolidation opportunities identified:",
+        "preview": "Process optimization preview:",
+        "confirmation": "Proceed with strategic consolidation?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Enhancement protocol failed: {{error}}",
+      "noDescription": "Task description required for AI optimization process",
+      "rateLimited": "System capacity limit reached. Enhancement resources recharge in: {{timeRemaining}}",
+      "aiError": "AI productivity system encountered processing limitations",
+      "networkError": "Enterprise network connectivity disruption",
+      "invalidSpell": "Unknown optimization protocol requested",
+      "unauthorized": "Insufficient system privileges for this enhancement protocol"
+    },
+    "rateLimit": {
+      "enhance": "Enhancement protocols: {{used}}/{{limit}} optimization cycles",
+      "geomancy": "Analysis engine: {{used}}/{{limit}} strategic consultations",
+      "consolidate": "Consolidation processes: {{used}}/{{limit}} efficiency optimizations",
+      "resetTime": "System resources refresh in: {{time}}",
+      "depleted": "Enhancement capacity temporarily at maximum utilization"
+    },
+    "tooltip": {
+      "castSpell": "Deploy AI enhancement protocol (🤖)",
+      "enhanceDescription": "Optimize with AI insights (Ctrl+E)",
+      "performGeomancy": "Execute strategic analysis (Ctrl+G)",
+      "consolidateSimilar": "Deploy consolidation protocol (Ctrl+C)",
+      "spellHistory": "View enhancement execution history",
+      "clearHistory": "Archive process enhancement records"
+    },
+    "keyboard": {
+      "shortcuts": "🤖 Productivity Shortcuts:",
+      "enhance": "Ctrl+E - AI Task Optimization",
+      "geomancy": "Ctrl+G - Strategic Analysis",
+      "consolidate": "Ctrl+C - Process Consolidation",
+      "cancel": "Esc - Abort Enhancement"
+    },
+    "history": {
+      "timestamp": "Process timestamp:",
+      "spellType": "Enhancement type:",
+      "target": "Target task:",
+      "result": "Optimization result:",
+      "success": "✅ Successfully Optimized",
+      "failed": "❌ Process Failed",
+      "duration": "Process duration:",
+      "empty": "No enhancement protocols recorded in operational history"
+    },
+    "status": {
+      "idle": "AI enhancement system ready",
+      "casting": "Executing optimization protocol...",
+      "processing": "AI algorithms processing data...",
+      "complete": "Enhancement protocol completed successfully",
+      "failed": "System error encountered during processing",
+      "cooldown": "System resources recharging..."
+    }
+  },
+  "activityLog": {
+    "title": "📋 Operational Performance Ledger",
+    "autoRefreshOn": "Auto-sync ENABLED",
+    "autoRefreshOff": "Auto-sync DISABLED",
+    "filters": {
+      "allActivity": "All Recorded Synergistic Activity",
+      "todosCreated": "Story Points Initiated",
+      "todosUpdated": "Story Points Realigned",
+      "todosCompleted": "Story Points Accomplished",
+      "todosDeleted": "Story Points Sunsetted",
+      "projectsCreated": "Initiatives Launched",
+      "projectsUpdated": "Initiatives Optimized",
+      "projectsDeleted": "Initiatives Archived for Historical Reference",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Pan-Organizational Perspective",
+    "personalView": "👤 Individual Performance View",
+    "showingAllDatabases": "Displaying aggregated intelligence from all operational repositories",
+    "showingPersonalOnly": "Displaying only personally accountable performance metrics",
+    "filteredByProject": "Filtered by strategic initiative:",
+    "noLogsFound": "No traceable activity detected - operational calm achieved",
+    "tryChangingFilter": "Consider realigning filter parameters to broaden visibility",
+    "startCreatingTodos": "Initiate new action items to populate performance metrics",
+    "failedToLoad": "Unable to retrieve operational telemetry: {{error}}",
+    "changesMade": "Documented Configuration Realignments:",
+    "completionNotes": "Closure Justification Notes:",
+    "revertOperation": "Reverse-Engineer {{operation}}",
+    "revertSuccess": "Successfully rolled back {{operation}} transaction",
+    "revertFailed": "Rollback procedure failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore deleted resource - recovery SLA exceeded",
+    "revertNotSupported": "Rollback protocol unavailable for {{operation}} action",
+    "confirmRevert": "Confirm Transaction Rollback",
+    "confirmRevertMessage": "Please confirm you wish to reverse this {{operation}} transaction for: {{description}}?",
+    "confirmRevertAction": "Execute Rollback",
+    "operationType": "Transaction Type",
+    "taskDescription": "Action Item Description",
+    "descriptions": {
+      "projectCreated": "Initiative \"{{projectName}}\" successfully onboarded to the synergy pipeline",
+      "projectUpdated": "Initiative \"{{projectName}}\" underwent a strategic recalibration",
+      "projectDeleted": "Initiative \"{{projectName}}\" respectfully retired to archival storage",
+      "projectModified": "Initiative \"{{projectName}}\" received configuration refinements",
+      "unknownTask": "Unclassified operational task logged without context"
+    },
+    "showingPageStats": "Displaying dossier {{currentPage}} of {{totalPages}} ({{totalCount}} total operational events)",
+    "autoRefreshingInterval": " • Auto-recalibrating every 30 seconds",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "insights": {
+    "loading": "Syncing business intelligence data...",
+    "tabs": {
+      "overview": "Executive Dashboard",
+      "analytics": "Business Intelligence Suite",
+      "systemLogs": "Operational Audit Trail"
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Executive Dashboard",
+      "users": "Stakeholder Management",
+      "analytics": "Business Intelligence",
+      "featureFlags": "Feature Rollout Controls",
+      "systemLogs": "Operational Audit Trail"
+    },
+    "overview": {
+      "title": "📊 Executive Command Center",
+      "loading": "Syncing enterprise data pipeline...",
+      "refresh": "Sync data sources",
+      "fallback": "(displaying simulated production metrics)",
+      "totalUsers": "Total Stakeholders",
+      "totalUsersSubtitle": "All registered users across platform",
+      "activeUsers": "Engaged Stakeholders (7-day window)",
+      "activeUsersSubtitle": "Users with active platform engagement",
+      "premiumUsers": "Enterprise License Holders",
+      "premiumUsersSubtitle": "Premium tier subscriptions",
+      "errors": "Critical Incidents (24h window)",
+      "errorsSubtitle": "System errors requiring attention",
+      "tierDistribution": "Subscription Tier Distribution",
+      "tier": {
+        "free": "Free Tier",
+        "pro": "Professional Tier",
+        "premium": "Enterprise Tier",
+        "admin": "Administrator"
+      },
+      "productivity": "Key Performance Indicators",
+      "totalTodos": "Total Work Items",
+      "completedTodos": "Completed Deliverables",
+      "completionRate": "Completion Rate (%)"
+    },
+    "analytics": {
+      "title": "📈 Business Intelligence Suite",
+      "loading": "Loading analytics infrastructure...",
+      "comingSoon": "📊 Advanced Analytics Platform Under Development",
+      "description": "Enterprise-grade analytics and business intelligence tools are currently in development. Coming soon: powerful insights into user engagement, platform performance, and productivity optimization metrics to drive data-informed decision-making.",
+      "timeframe": {
+        "day": "24-Hour Window",
+        "week": "7-Day Rolling Period",
+        "month": "30-Day Trailing Window",
+        "year": "12-Month Fiscal Period"
+      },
+      "futureHint": "💼 Planned enhancements: Custom date ranges, CSV export functionality, real-time dashboards, cohort analysis, predictive analytics, and AI-powered business intelligence to optimize operational efficiency!",
+      "charts": {
+        "userGrowth": "User Acquisition Trends",
+        "userGrowthDesc": "Track new user onboarding metrics over time",
+        "activityHeatmap": "Platform Engagement Heatmap",
+        "activityHeatmapDesc": "Visualize user activity patterns by time period",
+        "featureUsage": "Feature Adoption Distribution",
+        "featureUsageDesc": "Identify most-utilized platform capabilities",
+        "performance": "System Performance Metrics",
+        "performanceDesc": "API latency and error rate monitoring"
+      }
+    },
+    "logs": {
+      "title": "📋 Operational Audit Trail",
+      "loading": "Retrieving system logs from data warehouse...",
+      "refresh": "Refresh log stream",
+      "fallback": "(displaying simulated log data)",
+      "autoRefresh": "Live monitoring (30s refresh)",
+      "showing": "Displaying",
+      "entries": "log entries",
+      "empty": "✅ No incidents detected - all systems operational!",
+      "columns": {
+        "timestamp": "Timestamp",
+        "level": "Severity Level",
+        "message": "Event Description",
+        "user": "Stakeholder",
+        "endpoint": "API Endpoint"
+      },
+      "severity": {
+        "error": "CRITICAL ERROR",
+        "warning": "WARNING",
+        "info": "INFORMATIONAL"
+      }
+    },
+    "featureFlags": {
+      "title": "🚀 Feature Rollout Management",
+      "loading": "Loading feature deployment configuration...",
+      "refresh": "Sync feature flags",
+      "fallback": "(displaying simulated configuration data)",
+      "lastUpdated": "Configuration last modified",
+      "unsavedChanges": "⚠️ Unsaved configuration changes detected! Deploying changes will immediately affect all platform users across all subscription tiers!",
+      "save": "Deploy Configuration Changes",
+      "cancel": "Discard Changes",
+      "saving": "Deploying to production...",
+      "confirmSave": "Yes, Deploy to Production",
+      "tiers": {
+        "free": "Free Tier Features",
+        "pro": "Professional Tier Features",
+        "premium": "Enterprise Tier Features",
+        "admin": "Administrator Features"
+      },
+      "flags": {
+        "basic_todos": "Basic Task Management",
+        "chat_interface": "Interactive Chat Interface",
+        "theme_selector": "UI Theme Customization",
+        "export_todos": "Data Export Functionality",
+        "advanced_search": "Advanced Search Capabilities",
+        "unlimited_todos": "Unlimited Task Creation",
+        "mindmap_view": "Mind Map Visualization",
+        "custom_themes": "Custom Branding Options",
+        "api_access": "REST API Access",
+        "priority_support": "Priority Customer Support",
+        "swarmdesk_3d": "3D Workspace Environment",
+        "collaborative_editing": "Real-time Collaboration",
+        "ai_copilot": "AI-Powered Assistant",
+        "admin_panel": "Administration Console",
+        "user_management": "User Account Management",
+        "feature_flags": "Feature Toggle Controls",
+        "system_logs": "System Log Access",
+        "analytics": "Analytics Dashboard",
+        "debug_mode": "Debug Mode Tools"
+      },
+      "confirm": {
+        "title": "⚠️ Confirm Production Deployment",
+        "message": "You are about to deploy feature configuration changes to production! This will immediately impact all users across the platform. Feature flags control access to core platform functionality and business logic.",
+        "warning": "💼 Best practice: Validate changes in staging environment first. Disabling critical features may disrupt user workflows and negatively impact customer satisfaction metrics!"
+      }
+    },
+    "users": {
+      "title": "👥 Stakeholder Account Management",
+      "loading": "Syncing user database...",
+      "refresh": "Refresh stakeholder list",
+      "fallback": "(displaying simulated user data)",
+      "searchPlaceholder": "Search by email address or display name...",
+      "showing": "Displaying",
+      "users": "stakeholder accounts",
+      "filtered": "filtered from total of",
+      "empty": "No stakeholder accounts registered",
+      "noResults": "No accounts matching search criteria",
+      "adminBadge": "ADMINISTRATOR",
+      "edit": {
+        "title": "Modify Stakeholder Account",
+        "email": "Email Address",
+        "tier": "Subscription Tier",
+        "isAdmin": "Grant Administrator Privileges",
+        "cancel": "Cancel Operation",
+        "save": "Save Changes",
+        "saving": "Updating account records..."
+      },
+      "columns": {
+        "email": "Email Address",
+        "tier": "Subscription Tier",
+        "status": "Account Status",
+        "lastLogin": "Last Active",
+        "todos": "Work Items",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "⚠️ Confirm Administrator Privilege Modification",
+        "grantMessage": "You are about to grant administrator privileges to this stakeholder account. This will provide complete access to the administration console, including user management, feature deployment controls, and operational audit trails.",
+        "revokeMessage": "You are about to revoke administrator privileges from this stakeholder account. They will lose access to all administrative functions and system management tools.",
+        "cancel": "Cancel Operation",
+        "confirm": "Yes, Update Privileges",
+        "saving": "Processing authorization changes..."
+      }
+    },
+    "common": {
+      "loading": "Processing request...",
+      "error": "System error encountered",
+      "refresh": "Sync Data",
+      "save": "Deploy Changes",
+      "cancel": "Cancel Operation"
+    }
+  },
+  "queuePane": {
+    "title": "Strategic Priority Pipeline",
+    "subtitle": "Optimize task sequencing for maximum throughput efficiency",
+    "dragHint": "Leverage drag mechanics to realign priority hierarchy",
+    "searchPlaceholder": "Query pipeline assets...",
+    "emptyState": "Pipeline currently optimized with zero backlog",
+    "noSearchResults": "No deliverables match current search parameters",
+    "reordering": "Synchronizing priority matrix...",
+    "allProjects": "All Strategic Initiatives",
+    "cardActions": {
+      "complete": "Mark Deliverable Complete",
+      "edit": "Refine Action Item",
+      "remove": "Deprioritize from Pipeline"
+    },
+    "incoming": {
+      "title": "Intake Pipeline",
+      "addToTop": "Escalate to Top",
+      "addToBottom": "Append to Backlog"
+    },
+    "ordered": {
+      "title": "Strategic Pipeline"
+    },
+    "stats": {
+      "total": "Pipeline Items",
+      "high": "Mission-Critical",
+      "incoming": "Intake"
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(15, 23, 42, 0.6)",
+      "cardBorder": "rgba(59, 130, 246, 0.4)",
+      "cardText": "#e2e8f0",
+      "iconColor": "#22d3ee",
+      "chipBg": "#2563eb",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Onboarding Process",
+      "next": "Proceed to Next Step",
+      "back": "Return to Previous Step",
+      "getStarted": "Begin Productivity Suite"
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome Stakeholder",
+        "defaultName": "Team Member",
+        "description": "Inventorium is your enterprise-grade AI-powered task optimization and strategic project visualization platform.",
+        "subtitle": "Let's streamline your onboarding process to maximize your time-to-value."
+      },
+      "projects-overview": {
+        "title": "Strategic Initiatives",
+        "description": "Organize your work items into strategic initiatives for enhanced visibility and optimized resource allocation.",
+        "benefitsTitle": "Initiative Management Benefits:",
+        "benefits": {
+          "organize": "Consolidate related deliverables strategically",
+          "visualize": "Monitor progress through dashboards",
+          "track": "Track KPIs and milestone achievement",
+          "collaborate": "Enable cross-functional collaboration"
+        },
+        "hint": "💡 Best Practice: Align all work items to strategic initiatives"
+      },
+      "create-project": {
+        "title": "Initialize Your First Strategic Initiative",
+        "description": "Let's configure a strategic initiative to optimize your workflow management. Initiatives provide the organizational framework for consolidating related deliverables.",
+        "guideTitle": "Initiative Configuration Procedure:",
+        "step1": "Access the Resource Allocation Interface (+) located in the action zone",
+        "step2": "Navigate to the 'Project' configuration module within the deployment dialog",
+        "step3": "Input a unique initiative identifier (kebab-case convention, e.g., 'my-first-initiative')",
+        "step4": "Input display name and initiative charter documentation",
+        "hint": "Best Practice: Initiative identifiers must be unique and follow kebab-case naming conventions"
+      },
+      "add-todo": {
+        "title": "Deploy Work Item to Your Initiative",
+        "description": "Now let's deploy a work item to your strategic initiative. Work items are the actionable deliverables and tasks required for operational success.",
+        "guideTitle": "Work Item Deployment Procedure:",
+        "step1": "Access the Resource Allocation Interface (+) again",
+        "step2": "Navigate to the 'Todo' deployment module within the creation dialog",
+        "step3": "Input your work item deliverable description",
+        "step4": "Select your strategic initiative from the organizational dropdown",
+        "step5": "Assign priority classification and execute 'Deploy'",
+        "hint": "Best Practice: Work items can be deployed from any interface location using the (+) allocation tool"
+      },
+      "configure-ai": {
+        "title": "Deploy AI Productivity Assistant",
+        "description": "Maximize operational efficiency by integrating an AI provider such as Google Gemini or OpenAI into your workflow management system.",
+        "whyConfigureTitle": "Strategic Benefits of AI Integration:",
+        "benefits": {
+          "suggestions": "Auto-generate strategic action items and deliverables",
+          "enhance": "Optimize work item descriptions with intelligent insights",
+          "analyze": "Perform advanced analytics on initiative dependencies",
+          "insights": "Generate actionable productivity metrics and KPI recommendations"
+        },
+        "statusConfigured": "Status: ✅ AI assistant deployed and operational!",
+        "statusNotConfigured": "Status: ❌ AI assistant not yet provisioned",
+        "configureButton": "Deploy AI Assistant",
+        "skipButton": "Defer Deployment",
+        "helpText": "AI assistant can be configured at any time via Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "AI Productivity Assistant",
+        "description": "Leverage your AI productivity assistant to optimize task management, analyze workflows, and maximize operational efficiency.",
+        "examplesTitle": "Quick Deploy Actions:",
+        "quickActions": {
+          "createTodos": "Auto-generate work items from requirements",
+          "analyzeTasks": "Analyze workflow patterns",
+          "suggestions": "Receive optimization recommendations",
+          "insights": "Generate strategic insights"
+        },
+        "hint": "💡 Best Practice: Access the messaging interface to engage assistant"
+      },
+      "swarmdesk": {
+        "title": "3D Visualization Suite",
+        "description": "Explore your codebase architecture through the 3D visualization suite - an immersive analytics tool for code intelligence.",
+        "featuresTitle": "Visualization Suite Capabilities:",
+        "features": {
+          "codeViz": "Three-dimensional code architecture mapping",
+          "interactive": "Interactive dashboard navigation",
+          "architecture": "System architecture overview",
+          "dependencies": "Dependency relationship mapping"
+        },
+        "hint": "💡 Best Practice: Access visualization suite from initiative dashboard",
+        "tabTip": "After suite deployment completes, leverage the TAB key to seamlessly transition between dashboard and 3D workspace interfaces"
+      },
+      "complete": {
+        "title": "Onboarding Complete!",
+        "description": "Your platform deployment is complete. Begin leveraging Inventorium to optimize your productivity KPIs.",
+        "nextStepsTitle": "Recommended Action Items:",
+        "nextSteps": {
+          "createProject": "Initialize your first strategic initiative",
+          "addTodos": "Deploy work items to your initiative",
+          "tryAI": "Engage with AI productivity assistant",
+          "checkSwarmDesk": "Explore 3D visualization suite"
+        },
+        "footer": "💡 Configuration Note: Re-initiate this onboarding process anytime from System Preferences"
+      }
+    },
+    "complete": {
+      "message": "Onboarding finalized. You are now fully aligned with our corporate paradigms. Let's hit the ground running and touch base on actionable deliverables to maximize ROI."
+    }
+  },
+  "themeName": "corporate-drone",
+  "displayName": "Corporate Drone",
+  "description": "Business efficiency speak - optimize, leverage, synergize, and deploy",
+  "icon": "💼",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Post-Mortem Knowledge Base",
+    "addLesson": "Document Paradigm Shift",
+    "emptyState": {
+      "title": "No Learnings Captured",
+      "message": "We need to capture key takeaways to optimize future sprints.",
+      "action": "Document Core Learning"
+    },
+    "fields": {
+      "topic": "Strategic Pillar",
+      "language": "Technical Synergies",
+      "lessonLearned": "Actionable Insight",
+      "tags": "Categorization Vectors"
+    },
+    "actions": {
+      "edit": "Iterate",
+      "delete": "Deprioritize",
+      "save": "Commit to Cloud"
+    }
+  },
+  "mindmap": {
+    "title": "Strategic Synergy Map",
+    "emptyState": {
+      "title": "No Synergies Mapped",
+      "message": "Ideate to populate this high-level overview."
+    },
+    "controls": {
+      "zoomIn": "Deep Dive",
+      "zoomOut": "10,000-Foot View",
+      "resetView": "Realign Paradigm",
+      "centerView": "Focus on Core Competency"
+    }
+  },
+  "swarmdesk": {
+    "title": "Resource Allocation Matrix",
+    "emptyState": {
+      "title": "No Resources Deployed",
+      "message": "Leverage the matrix to deploy human capital."
+    },
+    "controls": {
+      "rotate": "Pivot Matrix",
+      "zoom": "Drill Down",
+      "pan": "Shift Paradigm",
+      "reset": "Reset Alignment"
+    }
+  },
+  "projectSelector": {
+    "title": "Pipeline Selector",
+    "placeholder": "Identify target pipeline...",
+    "noProjects": "No pipelines currently in flight.",
+    "createNew": "Initiate New Pipeline"
+  },
+  "errors": {
+    "generic": "We encountered a friction point pushing the envelope.",
+    "network": "Bandwidth constraints are impacting our synergy.",
+    "notFound": "The requested deliverable is not in our current pipeline.",
+    "unauthorized": "You lack the appropriate clearance level for this paradigm.",
+    "serverError": "Our backend infrastructure is currently experiencing sub-optimal performance.",
+    "server": "Server error. Our team has been notified.",
+    "timeout": "Request timed out. Please retry."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "PROCESSING...",
+        "subtitle": "Verifying payment transaction with payment processor"
+      },
+      "success": {
+        "title": "UPGRADE PROVISIONED",
+        "subtitle": "All systems operational. Your service tier has been elevated."
+      },
+      "error": {
+        "title": "TRANSACTION FAILED",
+        "subtitle": "The verification process encountered a system error."
+      },
+      "no_session": {
+        "title": "SESSION NOT FOUND",
+        "subtitle": "No checkout session detected. Navigate through proper channels."
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification pipeline...",
+      "connecting": "Establishing connection to payment processor...",
+      "session": "Transaction ID:",
+      "conduitStable": "Payment pipeline: CONFIRMED",
+      "tierUpgrade": "Service tier elevation:",
+      "unlocking": "Provisioning enterprise features...",
+      "allSystemsGo": "STATUS: FULLY OPERATIONAL",
+      "paymentStatus": "Transaction status:",
+      "paymentIncomplete": "ALERT: Transaction incomplete",
+      "error": "SYSTEM ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Fallback protocols initiated"
+    },
+    "tier": "SERVICE TIER",
+    "operator": "ACCOUNT HOLDER",
+    "enterLab": "PROCEED TO WORKSTATION",
+    "viewManifest": "VIEW INVOICE",
+    "errorRetry": "If your payment was processed, your upgrade will provision shortly.",
+    "checkBilling": "Check billing records for current status."
+  },
+  "confirmations": {
+    "delete": "Are you certain we should sunset this asset?",
+    "discard": "Shall we abandon these iterative changes?",
+    "archive": "Are we aligned on transitioning this to deep storage?"
+  },
+  "agentStates": {
+    "working": "Generating Value",
+    "traveling": "In Transit",
+    "idle": "Awaiting Action Items",
+    "assigned": "Allocated to Deliverable"
+  },
+  "targetAgent": {
+    "user": "Human Capital",
+    "ai": "Artificial Resource",
+    "system": "Core Infrastructure",
+    "none": "Unallocated"
+  },
+  "accountPanel": {
+    "title": "Employee Portal",
+    "tabs": {
+      "profile": "Personnel File",
+      "subscription": "Service Level Agreement",
+      "account": "Account Administration"
+    },
+    "subscriptionDisabled": "Subscription services are currently offline",
+    "dangerZone": "Compliance Zone"
+  },
+  "billing": {
+    "title": "Invoice & SLA Management",
+    "subtitle": "Manage your enterprise service agreement",
+    "loginRequired": "Please authenticate to access billing records",
+    "goToLogin": "Proceed to Authentication",
+    "currentPlan": "Active Service Tier",
+    "perMonth": "/billing cycle",
+    "nextBillingDate": "Next invoice date:",
+    "planFeatures": "SERVICE INCLUSIONS:",
+    "upgradeToPro": "UPGRADE SERVICE TIER",
+    "manageBilling": "Manage Invoice Portal",
+    "cancelSubscription": "Terminate Service Agreement",
+    "usageStats": "Resource Utilization",
+    "totalTodos": "Task Units",
+    "projects": "Workstreams",
+    "unlimited": "Unlimited",
+    "upgradePrompt": "Upgrade to Enterprise tier for unlimited task units, workstreams, War Room, and SwarmDesk access!",
+    "cancelSuccess": "Service agreement terminated. Access continues through current billing cycle.",
+    "status": {
+      "active": "ACTIVE",
+      "free": "BASIC",
+      "inactive": "SUSPENDED"
+    },
+    "errors": {
+      "loadFailed": "Failed to retrieve billing records",
+      "cancelFailed": "Termination request failed. Please retry or escalate to support.",
+      "portalFailed": "Unable to launch invoice portal. Please retry."
+    },
+    "cancelDialog": {
+      "title": "Terminate Service Agreement?",
+      "message": "Confirm termination of your enterprise service agreement. Enterprise features remain accessible through the current billing cycle.",
+      "resubscribe": "Service agreement can be reinstated at any time.",
+      "keep": "Retain Service Agreement",
+      "confirm": "Confirm Termination"
+    }
+  },
+  "pricing": {
+    "title": "Service Tiers",
+    "subtitle": "Basic delivers value. Enterprise removes all constraints.",
+    "backToDashboard": "Return to Workstation",
+    "currentPlan": "CURRENT TIER",
+    "free": "Basic",
+    "perMonth": "/billing cycle",
+    "loginToUpgrade": "AUTHENTICATE TO UPGRADE",
+    "currentTier": "CURRENT TIER",
+    "upgrade": "UPGRADE",
+    "finePrint": "Terminate anytime. No lock-in contracts. Your data remains your property.",
+    "errors": {
+      "loginRequired": "Please authenticate to upgrade your service tier",
+      "checkoutFailed": "Checkout process failed. Please retry."
+    }
+  },
+  "cancel": {
+    "title": "Service Agreement Terminated",
+    "message": "Your Basic tier remains fully operational. Service agreement can be reinstated at any time.",
+    "goToDashboard": "Return to Workstation",
+    "viewPlans": "Review Service Tiers"
+  },
+  "chronomancy": {
+    "loading": "Retrieving version audit trail...",
+    "noVersions": "No version records on file.",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{days}}d ago",
+    "currentVersion": "Current Release",
+    "versionLabel": "Release {{version}}",
+    "versions": "releases",
+    "gitCommit": "Change request ID",
+    "classesChange": "Module delta",
+    "linesChange": "LOC delta",
+    "deleteVersion": "Archive release",
+    "deleteDialog": {
+      "title": "Archive Release?",
+      "message": "Permanently remove release v{{version}} of {{project}}? This action is irreversible.",
+      "cancel": "Retain",
+      "confirm": "Archive"
+    },
+    "compare": {
+      "selectTwo": "Compare (select 2 releases)",
+      "button": "Compare release v{{from}} → v{{to}}"
+    },
+    "diff": {
+      "title": "Release Comparison: v{{from}} → v{{to}}",
+      "added": "Additions",
+      "removed": "Removals",
+      "modified": "Modifications",
+      "unchanged": "Unchanged",
+      "complexity": "Complexity Index",
+      "lines": "Line Count",
+      "noClassesAdded": "No modules added",
+      "noClassesRemoved": "No modules removed",
+      "noClassesModified": "No modules modified",
+      "methodsAdded": "Functions added:",
+      "methodsRemoved": "Functions removed:",
+      "depsAdded": "Dependencies added:",
+      "depsRemoved": "Dependencies removed:",
+      "close": "Close Report"
+    }
+  }
+}

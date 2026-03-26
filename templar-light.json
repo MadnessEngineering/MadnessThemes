@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Declare New Crusade",
+    "subtitle": "Establish a new holy mission within the Order's sacred registry",
+    "buttons": {
+      "reset": "Clear the Parchment",
+      "create": "Seal the Decree",
+      "submit": "Submit to the Council",
+      "cancel": "Withdraw"
+    },
+    "demoMode": {
+      "label": "PILGRIM MODE",
+      "title": "Pilgrim's Gallery - Observation Only",
+      "description": "⚔️ Thou art in pilgrim mode. Decree creation is restricted. Pledge thy oath to the Order for full access to the sacred registry."
+    },
+    "fields": {
+      "name": {
+        "label": "Crusade Name",
+        "placeholder": "Enter the name of the holy mission..."
+      },
+      "description": {
+        "label": "Mission Brief",
+        "placeholder": "Describe the objectives and scope of this crusade..."
+      }
+    },
+    "validation": {
+      "nameRequired": "The crusade must bear a name",
+      "nameLength": "The name must be between 3 and 100 characters",
+      "descriptionLength": "The brief must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Quests",
+    "lessons": "Chronicles",
+    "project": "Crusade",
+    "mindmap": "Battle Map",
+    "swarmdesk": "3D War Council",
+    "chat": "Order Oracle",
+    "sessions": "Vigil Sessions"
+  },
+  "validation": {
+    "nameRequired": "Project name is required",
+    "nameLength": "Name must be at least 2 characters",
+    "nameFormat": "Name can only contain letters, numbers, hyphens, and underscores",
+    "displayNameRequired": "Display name is required",
+    "descriptionRequired": "Project description is required",
+    "descriptionLength": "Description must be at least 10 characters",
+    "topicRequired": "Topic cannot be empty",
+    "topicTooLong": "Topic must be less than 200 characters",
+    "contentRequired": "Lesson content cannot be empty",
+    "contentTooLong": "Lesson must be less than 5000 characters",
+    "invalidLanguage": "Please select a valid language",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Inscribe in Codex",
+    "cancel": "Abandon",
+    "close": "Close the Gate",
+    "edit": "Amend",
+    "delete": "Strike from Record",
+    "reset": "Restore to Covenant",
+    "refresh": "Consult Oracle",
+    "loading": "Consulting the Codex...",
+    "error": "A darkness has disrupted the vigil",
+    "success": "The decree is sealed",
+    "failed": "The sacred rite has faltered",
+    "perPage": "per scroll",
+    "refreshNow": "Consult Oracle Now",
+    "copyId": "Copy Sigil",
+    "show": "Reveal",
+    "copy": "Transcribe",
+    "confirm": "Swear Oath",
+    "back": "Retreat",
+    "next": "Advance",
+    "previous": "Previous",
+    "search": "Search the Codex",
+    "filter": "Filter by Virtue",
+    "sort": "Order the Scrolls",
+    "clear": "Clear the Parchment",
+    "apply": "Invoke Decree",
+    "export": "Export Chronicles",
+    "import": "Import Scrolls",
+    "viewAll": "View All Scrolls",
+    "collapse": "Fold",
+    "expand": "Unfurl"
+  },
+  "forms": {
+    "name": "Project Name",
+    "displayName": "Display Name",
+    "description": "Description",
+    "type": "Project Type",
+    "visibility": "Visibility",
+    "repository": "Repository",
+    "language": "Language",
+    "framework": "Framework",
+    "priority": "Priority",
+    "status": "Status",
+    "notes": "Notes",
+    "ticket": "Ticket"
+  },
+  "dashboard": {
+    "title": "🏰 Order Command Chamber",
+    "projectStats": {
+      "title": "🛡️ Active Crusades",
+      "collection": "sacred chronicles",
+      "totalProjects": "Total Crusades",
+      "activeProjects": "Active Missions",
+      "projectsWithCompleted": "Completed Campaigns",
+      "avgTasksPerProject": "Avg Quests/Crusade"
+    },
+    "priorityBreakdown": {
+      "title": "⚔️ Quest Priority",
+      "pendingTasks": "Pending Quests",
+      "inReview": "Before the Council",
+      "inProgress": "On Campaign",
+      "blocked": "Hindered",
+      "completed": "Victorious",
+      "highPriority": "Critical Order",
+      "mediumPriority": "Standard Duty",
+      "lowPriority": "Routine Vigil"
+    },
+    "activityLog": {
+      "title": "📊 Todo Activity Log",
+      "collection": "todo_logs collection",
+      "description": "Track all changes and operations performed on todos",
+      "updates": "Updates",
+      "creates": "Creates",
+      "deletes": "Deletes",
+      "completions": "Completions",
+      "totalEntries": "Total Entries"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recently Completed"
+    },
+    "welcome": {
+      "message": "Welcome to the Order's Command Chamber. The Council convenes.",
+      "description": "The Order stands ready. Use the command controls to manage quests, crusades, and the sacred chronicles.",
+      "title": "Welcome, Knight"
+    },
+    "quickActions": {
+      "openTodos": "📜 Open Quests",
+      "chatAssistant": "🔮 Order Oracle",
+      "activityLog": "📋 Chronicle Log",
+      "projects": "🏰 Crusades"
+    },
+    "filters": {
+      "allActivity": "All Activity",
+      "todosCreated": "Tasks Created",
+      "todosUpdated": "Tasks Updated",
+      "todosCompleted": "Tasks Completed",
+      "todosDeleted": "Tasks Deleted",
+      "projectsCreated": "Projects Created",
+      "projectsUpdated": "Projects Updated",
+      "projectsDeleted": "Projects Deleted"
+    },
+    "unifiedView": "Unified View",
+    "personalView": "Personal View",
+    "showingAllDatabases": "Showing all databases",
+    "showingPersonalOnly": "Showing personal entries only",
+    "filteredByProject": "Filtered by project",
+    "noLogsFound": "No activity logs found",
+    "tryChangingFilter": "Try adjusting your filters",
+    "startCreatingTodos": "Create your first task to begin",
+    "failedToLoad": "Failed to load: {{error}}",
+    "changesMade": "Changes implemented",
+    "completionNotes": "Completion notes",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reverted {{operation}}",
+    "revertFailed": "Revert failed: {{error}}",
+    "revertDeleteNotSupported": "Reverting deletions is not supported",
+    "revertNotSupported": "Reverting {{operation}} is not supported",
+    "confirmRevert": "Confirm Revert",
+    "confirmRevertMessage": "Are you sure you want to revert {{operation}} on {{description}}?",
+    "confirmRevertAction": "Revert Change",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "descriptions": {
+      "projectCreated": "Project created: {{projectName}}",
+      "projectUpdated": "Project updated: {{projectName}}",
+      "projectDeleted": "Project deleted: {{projectName}}",
+      "projectModified": "Project modified: {{projectName}}",
+      "unknownTask": "Unknown task"
+    },
+    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} items)",
+    "autoRefreshingInterval": "Auto-refreshing every 30 seconds",
+    "stats": {
+      "totalProjects": "Total Projects",
+      "activeProjects": "Active Projects",
+      "completedTodos": "Completed Tasks",
+      "archivedProjects": "Archived Projects"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "📋 Activity Log",
+    "autoRefreshOn": "Auto-refresh ON",
+    "autoRefreshOff": "Auto-refresh OFF",
+    "filters": {
+      "allActivity": "All Activity",
+      "todosCreated": "Todos Created",
+      "todosUpdated": "Todos Updated",
+      "todosCompleted": "Todos Completed",
+      "todosDeleted": "Todos Deleted",
+      "projectsCreated": "Projects Created",
+      "projectsUpdated": "Projects Updated",
+      "projectsDeleted": "Projects Deleted",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Unified View",
+    "personalView": "👤 Personal View",
+    "showingAllDatabases": "Showing logs from all databases",
+    "showingPersonalOnly": "Showing only your personal logs",
+    "filteredByProject": "Filtered by project:",
+    "noLogsFound": "No activity logs found",
+    "tryChangingFilter": "Try changing the filter",
+    "startCreatingTodos": "Start creating todos to see activity",
+    "failedToLoad": "Failed to load activity logs: {{error}}",
+    "changesMade": "Changes made:",
+    "completionNotes": "Completion notes:",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reverted {{operation}} operation",
+    "revertFailed": "Failed to revert: {{error}}",
+    "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
+    "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "descriptions": {
+      "projectCreated": "Project \"{{projectName}}\" was created",
+      "projectUpdated": "Project \"{{projectName}}\" was updated",
+      "projectDeleted": "Project \"{{projectName}}\" was deleted",
+      "projectModified": "Project \"{{projectName}}\" was modified",
+      "unknownTask": "Unknown task"
+    },
+    "showingPageStats": "Showing page {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
+    "autoRefreshingInterval": " • Auto-refreshing every 30s",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "📜 Sacred Chronicles",
+    "refreshLessons": "Consult New Chronicles",
+    "addLesson": "Inscribe Chronicle",
+    "searchPlaceholder": "Search the sacred chronicles, codex entries, or sigils...",
+    "languages": {
+      "allLanguages": "All Languages",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "python": "Python",
+      "rust": "Rust",
+      "go": "Go",
+      "general": "General"
+    },
+    "filters": {
+      "allLessons": "All Lessons",
+      "bookmarked": "Bookmarked",
+      "recent": "Recent (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Chronicles",
+      "vaultEmpty": "The Great Codex Lies Empty",
+      "noMatchSearch": "No chronicles match \"{{searchTerm}}\". Seek with different terms.",
+      "noMatchFilters": "No chronicles found. Broaden thy search.",
+      "startDocumenting": "Begin inscribing the chronicles. Every quest completed and trial overcome deserves its place in the Great Codex."
+    },
+    "createFirstLesson": "Inscribe Thy First Chronicle",
+    "actions": {
+      "starred": "Starred",
+      "addStar": "Add Star"
+    },
+    "pagination": {
+      "showingRange": "Showing {{start}}-{{end}} of {{total}} lessons"
+    },
+    "dialog": {
+      "editTitle": "📜 Amend Chronicle",
+      "addTitle": "📜 Inscribe New Chronicle",
+      "topicLabel": "Topic",
+      "lessonLabel": "Lesson Learned",
+      "languageLabel": "Language",
+      "tagsLabel": "Tags (comma separated)",
+      "tagsPlaceholder": "react, ui, logging",
+      "databaseLabel": "Save to Database",
+      "personalDatabase": "👤 Personal Database",
+      "sharedDatabase": "🌐 Shared Database (swarmonomicon)",
+      "updateLesson": "Amend the Record",
+      "createLesson": "Inscribe in Codex"
+    },
+    "failedToLoad": "Failed to load lessons: {{error}}",
+    "confirmDelete": "Are you sure you want to delete this lesson?"
+  },
+  "todoManagement": {
+    "title": "⚔️ Quest Registry"
+  },
+  "app": {
+    "titleShort": "Madness Interactive",
+    "titleLong": "Madness Interactive Workshop"
+  },
+  "panels": {
+    "todos": "📝 Todos",
+    "logs": "📋 Logs",
+    "aiChat": "🤖 AI Chat",
+    "create": "➕ Create",
+    "projects": "📂 Projects",
+    "mindMap": "🗺️ Mind Map",
+    "swarmDesk": "🎪 SwarmDesk",
+    "lessons": "🎓 Lessons",
+    "insights": "📊 Insights",
+    "settings": "⚙️ Settings",
+    "labMaintenance": "🧹 Sanctum Purification"
+  },
+  "labMaintenance": {
+    "title": "Sanctum Purification Rites",
+    "tabs": {
+      "orphaned": "Forsaken Relics",
+      "completed": "Fulfilled Oaths",
+      "consolidate": "Order Overview"
+    },
+    "selectAll": "Gather All",
+    "clearSelection": "Release",
+    "targetProject": "Pledge to order...",
+    "reassign": "Rededicate",
+    "reassignSelected": "Rededicate forsaken relics to a sacred order",
+    "reopen": "Resurrect",
+    "reopenSelected": "Resurrect fulfilled oaths for renewed crusade",
+    "delete": "Purify",
+    "deleteSelected": "Purify selected relics from the covenant",
+    "selectProjectFirst": "Choose a sacred order first",
+    "todosUpdated": "relics blessed",
+    "noOrphans": "No forsaken relics. All sacred duties serve an active order.",
+    "noCompleted": "No fulfilled oaths found in the tome.",
+    "consolidateDescription": "Overview of sanctum purity and order readiness.",
+    "orphanedProjectsLabel": "Dissolved Orders With Remaining Relics",
+    "quickStats": "Sacred Report",
+    "orphaned": "Forsaken",
+    "completed": "Fulfilled",
+    "deletedProjects": "Dissolved Orders",
+    "activeProjects": "Active Orders"
+  },
+  "demo": {
+    "label": "DEMO - Read Only"
+  },
+  "menu": {
+    "documentation": "Documentation",
+    "replayTutorial": "Replay Tutorial",
+    "userManagement": "User Management",
+    "github": "GitHub",
+    "logout": "Logout"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "📜 The Oracle has spoken! Review the divine insights.",
+    "todoMarkedForReview": "⚔️ Quest submitted to the Council for review.",
+    "todoCompleted": "✝️ Quest complete. Victory is thine!",
+    "taskCreated": "🎉 Task created successfully!",
+    "projectCreated": "🏰 A new crusade has been declared.",
+    "aiConfigured": "✅ AI configured successfully!",
+    "todoCreated": "⚔️ A new quest has been inscribed in the codex.",
+    "settingsSaved": "🕯️ Sanctum calibrations blessed and preserved.",
+    "exportCompleted": "🕊️ Sacred records dispatched via carrier.",
+    "importCompleted": "📖 External scriptures absorbed into the archives."
+  },
+  "projectNavigator": {
+    "title": "⚔️ CRUSADE NAVIGATOR",
+    "subtitle": "Choose your project universe • Enter focused development environments",
+    "cacheStatus": "🏪 Cached data • Last loaded: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main Swarmdesk • 1-9: Quick select",
+    "manageTooltip": {
+      "admin": "Manage Projects (Admin)",
+      "personal": "Manage Personal Projects"
+    },
+    "refreshTooltip": "Refresh Project Data",
+    "mainSwarmDeskTooltip": "Enter Main Swarmdesk",
+    "loading": {
+      "title": "🔍 Scanning Project Universes...",
+      "subtitle": "Gathering todo data and project metrics"
+    },
+    "stats": {
+      "pending": "pending",
+      "completed": "done"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent activity"
+    },
+    "enterButton": {
+      "selected": "⚡ SELECTED",
+      "enter": "🚀 ENTER",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
+      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
+      "relocateLabel": "Relocate todos to another project",
+      "selectDestination": "Select destination project",
+      "cancel": "Cancel",
+      "deleteButton": "Delete Project"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} pending",
+      "completedTasks": "{{count}} completed"
+    },
+    "loading": "🎪 Loading {{projectId}} Environment...",
+    "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Project",
+    "workstation": {
+      "todoHint": "📝 Click to manage project todos",
+      "projectHint": "🎪 Click to view project details"
+    },
+    "statsPanel": {
+      "title": "Project Stats",
+      "totalTasks": "Total Tasks",
+      "pending": "Pending",
+      "completed": "Completed"
+    },
+    "reviewTab": {
+      "title": "Review Queue",
+      "approveButton": "Approve",
+      "requestChanges": "Request Changes",
+      "returnToProgress": "Return to Progress",
+      "emptyState": "No items in review"
+    }
+  },
+  "projectTab": {
+    "title": "Project Setup",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "configuration": "Configuration",
+      "technicalDetails": "Technical Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Application",
+      "mobile": "Mobile App",
+      "desktop": "Desktop Application",
+      "library": "Library/Package",
+      "api": "API/Service",
+      "general": "General Project"
+    },
+    "buttons": {
+      "creating": "Creating...",
+      "demoMode": "Demo Mode",
+      "createProject": "CREATE PROJECT"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Crusade",
+      "default": "General Duties"
+    },
+    "sections": {
+      "metadata": "Sacred Metadata (Optional Inscriptions)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Quests",
+      "pending": "Awaiting",
+      "review": "Before the Council",
+      "completed": "Victorious",
+      "all": "All Quests",
+      "inProgress": "On Campaign",
+      "blocked": "Hindered",
+      "in_progress": "In Progress"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "priority": "Priority Order",
+      "madness": "Random Order"
+    },
+    "search": {
+      "placeholder": "Search tasks..."
+    },
+    "project": {
+      "label": "Project",
+      "allProjects": "All Projects ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Show",
+      "perPage": "per page",
+      "all": "All",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Showing {{start}}-{{end}} of {{total}} todos",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by project: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Tasks",
+      "workshopClear": "No Tasks Found",
+      "noMatchingDescription": "No tasks match \"{{searchText}}\". Try adjusting your search or filters.",
+      "workshopClearDescription": "No tasks found. The workspace is clear and organized."
+    },
+    "buttons": {
+      "refresh": "Refresh",
+      "export": "Export",
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "discard": "Discard",
+      "complete": "Complete",
+      "edit": "Edit",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "review": "Review",
+      "aiInsights": "AI Insights"
+    },
+    "fullEdit": {
+      "modeTitle": "Full Edit Mode"
+    },
+    "menu": {
+      "editTask": "Edit Task",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "deleteTask": "Delete Task"
+    },
+    "dialog": {
+      "completeTitle": "Complete Todo: {{description}}",
+      "completeDescription": "Add an optional comment about how this task was completed (e.g., solution details, time taken, blockers resolved, etc.)",
+      "completePlaceholder": "e.g., Fixed CSS issue by updating the responsive breakpoints. Took 2 hours due to browser compatibility testing.",
+      "cancel": "Cancel",
+      "completeTask": "Complete Task",
+      "exportTitle": "Export Todos",
+      "exportDescription": "Exporting {{count}} todos",
+      "exportFilename": "Filename",
+      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
+      "exportFormat": "Format",
+      "exportButton": "Export",
+      "formatJSON": "JSON - Structured Data",
+      "formatJSONDesc": "Complete todo data in JSON format for reimport",
+      "formatCSV": "CSV - Spreadsheet",
+      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
+      "formatMarkdown": "Markdown - Documentation",
+      "formatMarkdownDesc": "Human-readable format for documentation",
+      "formatHTML": "HTML - Web Page",
+      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
+      "formatJira": "Jira/Slack Commands",
+      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatVariant": "Format Variant",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Fields",
+      "customizeFields": "Customize Field Names",
+      "renameFields": "Rename Fields",
+      "calculatedFields": "Calculated Fields",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days)",
+        "daysSinceUpdate": "Days since update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete"
+      },
+      "selectAll": "All",
+      "selectNone": "None",
+      "advancedFilters": "Advanced Filters",
+      "dateRange": "Date Range",
+      "startDate": "From",
+      "endDate": "To",
+      "priorityFilter": "Priority",
+      "statusFilter": "Status"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "ID",
+      "description": "Description",
+      "project": "Project",
+      "priority": "Priority",
+      "status": "Status",
+      "target": "Target",
+      "created": "Created",
+      "updated": "Updated",
+      "metadata": "Metadata",
+      "source": "Source",
+      "notes": "Notes",
+      "ticket": "Ticket",
+      "completed_at": "Completed At",
+      "completed_by": "Completed By",
+      "completion_comment": "Completion Comment",
+      "duration": "Duration",
+      "duration_sec": "Duration (seconds)",
+      "tags": "Tags",
+      "complexity": "Complexity",
+      "confidence": "Confidence",
+      "phase": "Phase",
+      "epic": "Epic",
+      "blockers": "Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Description cannot be empty",
+      "descriptionTooLong": "Description must be less than 500 characters",
+      "invalidProject": "Please select a valid project"
+    },
+    "error": {
+      "failedToLoad": "Failed to load todos",
+      "unknownError": "Unknown error",
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+    },
+    "placeholders": {
+      "setStatus": "Set status...",
+      "editDescription": "Click to edit todo description...",
+      "selectProject": "Select project...",
+      "setPriority": "Set priority..."
+    },
+    "tooltip": {
+      "unsavedChanges": "You have unsaved changes"
+    },
+    "labels": {
+      "readOnly": "🔒 Read-Only",
+      "review": "REVIEW"
+    },
+    "aria": {
+      "todoActions": "Todo actions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No quests found",
+      "createFirst": "Declare thy first quest to begin the crusade"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Loading todo..."
+    },
+    "header": {
+      "editTodo": "Edit Todo",
+      "createNewTodo": "Create New Todo"
+    },
+    "buttons": {
+      "backToDashboard": "Back to Dashboard"
+    },
+    "error": {
+      "todoNotFound": "Todo not found. It may have been deleted or the ID is incorrect."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Workshop Mode - Full Edit Access"
+    },
+    "tips": {
+      "title": "💡 Edit Tips:",
+      "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Purple sparkle for AI enhancement"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Order Configuration",
+    "confirmReset": "Art thou certain thou wishest to restore all configurations to their covenant defaults? This cannot be undone.",
+    "messages": {
+      "saveSuccess": "The Order's configurations have been inscribed",
+      "saveError": "Failed to inscribe configurations in the sacred registry"
+    },
+    "export": {
+      "starting": "Starting export...",
+      "success": "Export completed! Downloaded {{todoCount}} todos, {{projectCount}} projects, and settings.",
+      "error": "Export failed: {{error}}"
+    },
+    "import": {
+      "starting": "Starting import...",
+      "confirmDialog": "Import Preview:\n\n{{todoCount}} todos, {{projectCount}} projects, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
+      "success": "Import completed! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
+      "error": "Import failed: {{error}}",
+      "fileDialogError": "Failed to open file dialog"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "database": "Database",
+      "aiConfiguration": "AI Configuration",
+      "mcpSetup": "MCP Setup",
+      "messaging": "Messaging",
+      "apiKeys": "API Keys",
+      "appearance": "Appearance",
+      "mindMap": "Mind Map",
+      "umlData": "Code Visualizations",
+      "privacy": "Privacy",
+      "advanced": "Advanced",
+      "npcAgents": "NPC Agents",
+      "swarmDesk": "SwarmDesk"
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "A role with this ID already exists.",
+      "duplicateAgentId": "An agent with this ID already exists."
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "umlData": {
+    "title": "Code Visualizations",
+    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload UML File",
+      "reading": "Reading file",
+      "success": "Successfully uploaded {{name}} with {{classes}} classes"
+    },
+    "errors": {
+      "loadFailed": "Failed to load UML datasets",
+      "uploadFailed": "Failed to upload UML file",
+      "deleteFailed": "Failed to delete UML data"
+    },
+    "delete": {
+      "confirmTitle": "Delete Code Visualization?",
+      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "success": "Successfully deleted {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in SwarmDesk..."
+    },
+    "source": {
+      "personal": "Personal",
+      "shared": "Shared"
+    },
+    "instructions": {
+      "title": "How to use:",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON file using the button above"
+    },
+    "storage": {
+      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "limit": "10 files per user (10MB each)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Source",
+      "classes": "Classes",
+      "packages": "Packages",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in SwarmDesk",
+      "delete": "Delete"
+    },
+    "empty": "No code visualizations yet",
+    "empty.hint": "Upload a UML file to see your code in 3D"
+  },
+  "auth": {
+    "app": {
+      "title": "The Templar Order"
+    },
+    "welcome": {
+      "message": "Pledge thy oath and enter the sacred Order"
+    },
+    "buttons": {
+      "demoLogin": "Enter as Pilgrim",
+      "googleLogin": "Enter via Sacred Gateway"
+    },
+    "status": {
+      "loggingOut": "Departing the Order..."
+    },
+    "errors": {
+      "demoLoginFailed": "Demo login failed",
+      "authRequired": "Thou must pledge thy oath to access the Order's chambers",
+      "configNotFound": "The sacred gateway configuration is lost",
+      "tokenInvalid": "Access token has expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "You have unsaved changes. Are you sure you want to cancel?",
+    "confirmDelete": "Are you sure you want to delete this todo?",
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    },
+    "errors": {
+      "descriptionRequired": "Description is required for AI enhancement",
+      "aiEnhancementFailed": "AI enhancement failed: {{error}}",
+      "saveFailed": "Failed to save changes"
+    },
+    "placeholders": {
+      "description": "Enter todo description...",
+      "clickToAdd": "Click to add description...",
+      "enhancedDescription": "AI-enhanced description will appear here...",
+      "notes": "Additional notes...",
+      "ticket": "Ticket reference..."
+    },
+    "labels": {
+      "enhancedDescription": "Enhanced Description",
+      "aiEnhanced": "🧠 AI Enhanced Description:",
+      "completionNotes": "✅ Completion Notes:",
+      "completed": "Completed",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "blocked": "Blocked",
+      "review": "Review",
+      "completed": "Completed",
+      "initial": "Initial",
+      "cancelled": "Cancelled"
+    },
+    "menu": {
+      "editTask": "Edit Task",
+      "deleteTask": "Delete Task"
+    },
+    "messages": {
+      "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Switch to War Room",
+      "switchToSphere": "Switch to Sphere",
+      "chaos": "Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Drag to Move",
+      "dragging": "Dragging!",
+      "touchAndDrag": "Touch & Drag",
+      "doubleTapBurst": "Double-tap for burst!",
+      "doubleTapPhysics": "Double-tap for physics!"
+    },
+    "filter": {
+      "title": "Project Filter",
+      "allProjects": "All Projects",
+      "projectCount": "{{selected}}/{{total}} Projects",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "selectProjects": "Select Projects",
+      "projectsSelected": "{{count}} projects selected",
+      "selectedProjects": "Selected Projects ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Static Mode",
+      "enableStaticMode": "Enable Static Mode",
+      "cleanUpEffects": "Clean Up Visual Effects"
+    },
+    "sequence": {
+      "hideSequence": "Hide Task Sequence",
+      "showSequence": "Show AI Task Sequence",
+      "analyzeSequences": "Analyze Sequences",
+      "stopAnimation": "Stop Animation",
+      "animateSequence": "Animate Sequence",
+      "shuffleSequence": "Shuffle Sequence Type"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ TANGENTRON",
+      "centerWorkshop": "🧠 WORKSHOP"
+    },
+    "modes": {
+      "dynamic": "⚡ Dynamic Mode",
+      "static": "📖 Static Mode"
+    },
+    "dialog": {
+      "createNode": "🧠 Create Neural Node",
+      "nodeText": "Node Text"
+    },
+    "nodeInfo": {
+      "type": "Type",
+      "priority": "Priority",
+      "energy": "Energy"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "The Order's Oracle is silent. Visit Settings > Oracle Configuration to awaken the divine counsel.",
+      "noResponse": "Thy petition was received but the Oracle returned no answer. The divine forces were unclear. Petition again.",
+      "demoUserRestricted": "🚫 AI chat is not available for demo users. Please sign up for a free account to access AI assistance."
+    },
+    "quickActions": {
+      "listPending": "List my pending todos",
+      "createHighPriority": "Create a new high priority todo",
+      "summarizeProject": "Summarize the {{project}} project",
+      "filterHighPriority": "Show me high priority todos in this project"
+    },
+    "suggestedActions": {
+      "listPending": "List Pending",
+      "newHighPrio": "New High Prio",
+      "summarize": "Summarize"
+    },
+    "status": {
+      "typing": "Assistant is typing"
+    },
+    "emptyState": {
+      "title": "Madness Interactive Assistant",
+      "demoMessage": "AI chat is not available for demo users. Sign up for a free account to access AI assistance!",
+      "description": "Your personal AI to help manage tasks, projects, and more.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Assistant Not Configured",
+      "description": "To use the AI assistant, please configure your AI provider in the Settings.",
+      "configureButton": "Configure AI Provider"
+    },
+    "header": {
+      "title": "AI Assistant",
+      "refreshTooltip": "Refresh context",
+      "settingsTooltip": "Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Context",
+      "aiSettings": "AI Settings (Go to Settings)",
+      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+    },
+    "input": {
+      "placeholder": "Ask your assistant...",
+      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Create Todo",
+      "listTodos": "List Todos",
+      "projectStatus": "Project Status",
+      "help": "Help",
+      "settings": "Settings",
+      "refreshData": "Refresh Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me create a new todo",
+      "listTodos": "Show me my current todos",
+      "projectStatus": "Give me a status update on my projects",
+      "help": "What can you help me with?",
+      "settings": "Open settings panel",
+      "refresh": "Refresh my data"
+    },
+    "header": {
+      "title": "AI Assistant",
+      "statusListening": "Listening...",
+      "statusTyping": "Typing...",
+      "statusOnline": "Online"
+    },
+    "emptyState": {
+      "greeting": "Hi! I'm your AI Assistant",
+      "description": "I can help you manage todos, navigate projects, and answer questions about your workspace."
+    },
+    "status": {
+      "thinking": "AI is thinking..."
+    },
+    "input": {
+      "placeholder": "Type a message..."
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Battle Map",
+      "description": "Overlay a battle map or territory chart upon the War Council surface",
+      "presets": "Ancient Maps",
+      "uploads": "Thy Custom Maps",
+      "upload": "Submit Map",
+      "noUploads": "No custom backgrounds yet",
+      "opacity": "Opacity",
+      "fitMode": "Fit Mode",
+      "fitCover": "Cover",
+      "fitContain": "Contain",
+      "fitStretch": "Stretch",
+      "fitTile": "Tile",
+      "blendWithTerrain": "Blend with Terrain",
+      "remove": "Remove Background",
+      "active": "Active",
+      "uploadError": "Upload failed. Please try again.",
+      "fileTooLarge": "Image must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "entering": "🖥️ Entering System Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Project Data...",
+        "title": "🖥️ Initializing SwarmDesk Workspace...",
+        "subtitle": "Preparing System Interface"
+      },
+      "navigation": {
+        "controls": "⌨️ Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      },
+      "error": {
+        "title": "❌ SwarmDesk System Error",
+        "subtitle": "Check system console for technical details",
+        "initializationFailed": "SwarmDesk workspace initialization failed"
+      },
+      "controls": {
+        "instructions": "🖥️ SwarmDesk Active | WASD: Navigation | E: Primary Interaction | F4-F7: Open Panels | Space: Performance Mode"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🖥️ Welcome to SwarmDesk",
+        "subtitle": "Interactive Project Management Interface",
+        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
+        "gettingStarted": "Getting Started:",
+        "quickActions": [
+          "📝 View and manage your project tasks",
+          "🎯 Create new tasks and set priorities",
+          "📊 Review project statistics and progress",
+          "⚙️ Configure project settings and preferences",
+          "🔗 Connect to external tools and services"
+        ],
+        "features": {
+          "title": "🎯 System Features:",
+          "draggable": "📱 Draggable interface panels with system docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk workspace interactions",
+          "docking": "🧲 Magnetic docking zones (workspace edges & corners)",
+          "shortcuts": "⌨️ Keyboard shortcuts for quick access",
+          "integration": "🖥️ Full SwarmDesk 3D workspace environment integration"
+        },
+        "actions": {
+          "createProject": "📋 Open Project Panel",
+          "createAgent": "🤖 Open Agent Panel"
+        }
+      },
+      "shortcuts": {
+        "title": "⌨️ Keyboard Shortcuts",
+        "subtitle": "Quick Controls Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Navigation",
+            "commands": [
+              "WASD: Move camera around the environment",
+              "Mouse Drag: Look around and rotate view",
+              "Scroll: Zoom in and out",
+              "ESC: Return to main dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Panel Controls",
+            "commands": [
+              "F4: Open Task Management Panel",
+              "F5: Open Activity Log Panel",
+              "F6: Open Chat Panel",
+              "F7: Open Project Info Panel"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Actions",
+            "commands": [
+              "E: Interact with selected object",
+              "Space: Quick action",
+              "M: Open main menu",
+              "R: Refresh data"
+            ]
+          }
+        },
+        "f3": "F3 - Toggle Welcome Interface",
+        "f4": "F4 - Toggle Project Interface",
+        "f5": "F5 - Toggle Agent Actions",
+        "f6": "F6 - Toggle System Tools",
+        "f7": "F7 - Toggle Analytics Interface",
+        "f8": "F8 - Toggle WebLLM Interface",
+        "f9": "F9 - Toggle MQTT Monitor",
+        "f10": "F10 - Minimize All Interfaces",
+        "f11": "F11 - Close All Interfaces",
+        "esc": "ESC - Cancel current system operation",
+        "drag": "Drag panels - Click and interact with panel headers",
+        "dock": "Dock panels - Drag near workspace edges to anchor"
+      },
+      "mcp": {
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "System Integration Hub",
+        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "features": [
+          "🔧 Tool Integration Framework",
+          "📊 Automated Data Collection",
+          "🎯 Task Management Integration",
+          "⚙️ Workflow Automation",
+          "🔐 Secure Communication"
+        ],
+        "gettingStarted": "Setup Instructions:",
+        "deploymentSteps": [
+          "Configure authentication settings",
+          "Connect to desired services",
+          "Set up automation rules",
+          "Test connections and workflows"
+        ],
+        "tools": {
+          "title": "🛠️ Available MCP System Tools",
+          "notAuthenticated": "Please authenticate to the system to access MCP tools.",
+          "authRequired": "System authentication required to connect to MCP services",
+          "connecting": "No tools available. Connecting to system...",
+          "serverStatus": "System Status: {{status}}",
+          "retryConnection": "🔄 Retry System Connection",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 System Command History",
+          "noHistory": "No command history found."
+        },
+        "debug": {
+          "title": "🐛 System Debug Information",
+          "authentication": "Authentication: {{status}}",
+          "user": "User: {{user}}",
+          "authMode": "System Mode: {{mode}}",
+          "mcpServer": "MCP Server: {{status}}",
+          "activeTools": "Active System Tools: {{count}}",
+          "lastPing": "Last System Ping: {{time}}",
+          "apiService": "API Service: {{status}}",
+          "authContext": "Auth System Context: {{status}}",
+          "refreshAuth": "🔄 Refresh System Auth"
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Project Overview",
+          "activeProjects": "Active Projects: 5",
+          "pendingTasks": "Pending Tasks: 23",
+          "completedToday": "Completed Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Projects",
+            "addTask": "➕ Add New Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Task Management",
+          "inProgress": "🖥️ Dashboard Integration - In Progress",
+          "pending": "🔧 MCP Tool Enhancement - Pending",
+          "actions": {
+            "addTodo": "➕ Add Task"
+          }
+        },
+        "files": {
+          "title": "📁 System Files",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse File Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Agent Communication",
+          "agentReady": "Agent: Ready to assist with your workspace tasks.",
+          "userQuery": "You: Help me with the floating interface panels",
+          "agentResponse": "Agent: The floating panel system is highly flexible. You can drag panels anywhere and dock them to the workspace edges.",
+          "placeholder": "Type your message..."
+        },
+        "commands": {
+          "title": "⚡ Agent Commands",
+          "searchProjects": "🔍 Search Projects",
+          "listTodos": "📋 List Tasks",
+          "deployProject": "🚀 Deploy Project",
+          "generateReport": "📊 Generate Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} System Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Start Conversation",
+            "executeCommand": "⚡ Execute Command"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Agent Capabilities",
+          "projectManagement": "✅ Project Management",
+          "codeAnalysis": "✅ Code Analysis",
+          "mcpIntegration": "✅ MCP Tool Integration",
+          "communication": "✅ Real-time Communication"
+        }
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 System Performance Metrics",
+          "cpuUsage": "CPU Usage: 42%",
+          "memory": "System Memory: 68%",
+          "activePanels": "Active Panels: {{count}}",
+          "uptime": "System Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent System Activity",
+          "panelCreated": "🏷️ Panel created: Project Management",
+          "swarmDeskInteraction": "🖥️ SwarmDesk interaction: Workstation selected",
+          "mcpToolExecuted": "🔧 MCP tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 System Insights",
+          "mostUsedPanel": "Most used panel: Project Management",
+          "peakActivity": "Peak activity: 14:00-15:00",
+          "efficiencyScore": "Efficiency score: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available LLM Models",
+          "currentModel": "Current Model: {{model}}",
+          "loadModel": "Load Model"
+        },
+        "compatibility": {
+          "title": "✅ Browser Compatibility",
+          "checking": "🔄 Checking compatibility...",
+          "checkCompatibility": "🔍 Check Compatibility"
+        },
+        "status": {
+          "title": "⚡ WebLLM Status",
+          "initialized": "System Initialized: {{status}}",
+          "currentModel": "Current Model: {{model}}",
+          "loading": "Model Loading: {{status}}",
+          "inferencing": "Inference Status: {{status}}",
+          "queueLength": "Queue Length: {{length}}",
+          "loadedModels": "Loaded Models: {{count}}",
+          "mode": "Operating Mode: {{mode}}",
+          "initialize": "🚀 Initialize WebLLM"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Settings",
+          "agentModelAssignment": "Agent Model Assignment:",
+          "useGlobal": "Use Global Model",
+          "perAgent": "Per-Agent Models",
+          "temperature": "Temperature:",
+          "maxTokens": "Max Tokens:",
+          "saveSettings": "💾 Save Settings",
+          "resetDefaults": "🔄 Reset to Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Live Logs",
+          "noMessages": "No messages received yet...",
+          "waitingTraffic": "Waiting for MQTT traffic on port 4140",
+          "reconnect": "🔄 Reconnect Connection",
+          "messages": "Messages: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Clear Logs",
+          "export": "💾 Export Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Connection Status",
+          "status": "Connection Status: {{status}}",
+          "broker": "MQTT Broker: {{broker}}",
+          "clientId": "Client ID: swarmdesk_{{id}}",
+          "messagesReceived": "Messages Received: {{count}}",
+          "lastActivity": "Last Activity: {{time}}",
+          "subscriptions": "📡 Subscriptions:",
+          "connect": "🔄 Establish Connection",
+          "disconnect": "🔌 Terminate Connection"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Settings",
+          "brokerAddress": "Broker Address:",
+          "subscribeTopics": "Subscribe to Topics:",
+          "autoReconnect": "Auto-reconnect on disconnect",
+          "showTimestamps": "Show timestamps",
+          "saveSettings": "💾 Save Settings",
+          "resetDefaults": "🔄 Reset to Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "title": "📂 Project Information",
+      "subtitle": "Project Management Hub",
+      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Project Dashboard",
+          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "features": [
+            "📈 Project progress tracking and analytics",
+            "🎯 Task management and prioritization",
+            "🤖 AI-powered insights and recommendations",
+            "🔗 Integration with external tools",
+            "📊 Real-time collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Integration Platform",
+          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "features": [
+            "🔧 Multi-platform connectivity",
+            "⚙️ Automated workflow processing",
+            "📊 Real-time data synchronization",
+            "🔐 Secure communication protocols",
+            "🎯 Centralized task coordination"
+          ]
+        }
+      },
+      "swarmDesk": {
+        "title": "🖥️ SwarmDesk",
+        "description": "3D interactive agent command center - the interface for the Madness Interactive environment",
+        "features": [
+          "🖥️ 3D interactive workspace environment",
+          "🤖 Direct agent communication",
+          "📊 Real-time system monitoring",
+          "⚡ System performance optimization"
+        ],
+        "status": "🔥 Active Development",
+        "visibility": "public repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Todo Inventory management system - Keep up with Agents at speed, and edit their thoughts as they process and execute",
+        "features": [
+          "📋 Task tracking",
+          "🏷️ Smart categorization",
+          "📈 Analytics dashboard",
+          "🔄 Cross-system integration"
+        ],
+        "status": "🚀 Active Development (private repository)",
+        "visibility": "private environment"
+      },
+      "swarmonomicon": {
+        "title": "🐝 Swarmonomicon",
+        "description": "AI agent swarm coordination system for centralized orchestration and collective intelligence",
+        "features": [
+          "🤖 Agent orchestration",
+          "💬 Communication protocols",
+          "🖥️ Interactive interfaces",
+          "🧠 Collective intelligence"
+        ],
+        "status": "✨ modularly functional",
+        "visibility": "public repository"
+      }
+    },
+    "errors": {
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error",
+      "initializationFailed": "SwarmDesk system scripts failed to load within timeout",
+      "sceneInitFailed": "❌ Scene initialization failed:",
+      "panelSystemFailed": "❌ Failed to create panel system:",
+      "panelSystemMissing": "⚠️ FloatingPanelSystem not available",
+      "controlsInitFailed": "Failed to initialize standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js scene:"
+    },
+    "status": {
+      "initializing": "⚙️ Initializing System...",
+      "loading": "📊 Loading Configuration...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features",
+      "initialized": "✅ SwarmDesk tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk scripts loading timeout",
+      "containerNotReady": "⚠️ Container not ready yet",
+      "panelSystemExists": "🏷️ Panel system already exists, ensuring proper state",
+      "panelSystemMissing": "⚠️ Panel system missing handleKeyboard, reinitializing...",
+      "panelSystemCreated": "✅ Panel system created successfully"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "Sacred Enhancement Rite",
+      "perform_geomancy": "Divine Pattern Revelation",
+      "consolidate_similar": "Covenant Unification Rite"
+    },
+    "descriptions": {
+      "enhance_description": "Channel the Oracle's wisdom to enhance quest descriptions with greater clarity and divine purpose",
+      "perform_geomancy": "Reveal hidden patterns and sacred connections within thy crusade through divine analysis",
+      "consolidate_similar": "Unite and merge overlapping quests to strengthen the Order's focus"
+    },
+    "interface": {
+      "title": "🪄 Task Enhancement Tools",
+      "subtitle": "Use AI-powered tools to improve your task management",
+      "selectSpell": "Choose Enhancement Tool",
+      "castSpell": "Apply Enhancement",
+      "cancelSpell": "Cancel",
+      "casting": "Processing Enhancement...",
+      "resultsTitle": "✨ Enhancement Results",
+      "historyTitle": "📜 Enhancement History",
+      "clearHistory": "Clear History",
+      "noHistory": "No enhancements have been applied",
+      "placeholder": "Select a tool to enhance your tasks..."
+    },
+    "effects": {
+      "particles": "Processing indicators active",
+      "energy": "System processing",
+      "casting": "Enhancement in progress",
+      "complete": "Enhancement completed successfully"
+    },
+    "results": {
+      "enhance": {
+        "success": "🧠 Task enhanced with AI insights!",
+        "improvement": "Enhancement applied to task description",
+        "insights": "Key insights:",
+        "suggestions": "Recommendations:"
+      },
+      "geomancy": {
+        "success": "🔍 Patterns identified in your project!",
+        "insights": "Analysis findings:",
+        "patterns": "Pattern analysis:",
+        "recommendations": "Recommendations:",
+        "analysis": "Analysis completed"
+      },
+      "consolidate": {
+        "success": "🔗 Similar tasks consolidated successfully!",
+        "merged": "{{count}} tasks merged successfully",
+        "candidates": "Consolidation candidates:",
+        "preview": "Merge preview:",
+        "confirmation": "Proceed with consolidation?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Enhancement failed: {{error}}",
+      "noDescription": "Task description is required for enhancement",
+      "rateLimited": "Enhancement limit reached. Please wait: {{timeRemaining}}",
+      "aiError": "AI system encountered an error",
+      "networkError": "Network connection error",
+      "invalidSpell": "Unknown enhancement tool requested",
+      "unauthorized": "Insufficient permissions for this enhancement"
+    },
+    "rateLimit": {
+      "enhance": "Enhancement uses: {{used}}/{{limit}} remaining",
+      "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
+      "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
+      "resetTime": "Usage resets in: {{time}}",
+      "depleted": "Enhancement limit reached temporarily"
+    },
+    "tooltip": {
+      "castSpell": "Apply AI enhancement (🪄)",
+      "enhanceDescription": "Enhance with AI insights (Ctrl+E)",
+      "performGeomancy": "Analyze patterns (Ctrl+G)",
+      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
+      "spellHistory": "View enhancement history",
+      "clearHistory": "Clear enhancement history"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Keyboard Shortcuts:",
+      "enhance": "Ctrl+E - AI Enhancement",
+      "geomancy": "Ctrl+G - Pattern Analysis",
+      "consolidate": "Ctrl+C - Task Consolidation",
+      "cancel": "Esc - Cancel"
+    },
+    "history": {
+      "timestamp": "Timestamp:",
+      "spellType": "Enhancement type:",
+      "target": "Target task:",
+      "result": "Result:",
+      "success": "✅ Successful",
+      "failed": "❌ Failed",
+      "duration": "Duration:",
+      "empty": "No enhancements recorded"
+    },
+    "status": {
+      "idle": "Enhancement tools ready",
+      "casting": "Applying enhancement...",
+      "processing": "Processing data...",
+      "complete": "Enhancement completed",
+      "failed": "Enhancement failed",
+      "cooldown": "System cooling down..."
+    }
+  },
+  "insights": {
+    "loading": "Loading insights...",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "systemLogs": "System Logs"
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Overview",
+      "users": "Users",
+      "analytics": "Analytics",
+      "featureFlags": "Feature Flags",
+      "systemLogs": "System Logs"
+    },
+    "overview": {
+      "title": "Laboratory Overview",
+      "loading": "Analyzing laboratory data...",
+      "refresh": "Refresh statistics",
+      "fallback": "(showing mock data for development)",
+      "totalUsers": "Total Users",
+      "totalUsersSubtitle": "All registered users",
+      "activeUsers": "Active (7d)",
+      "activeUsersSubtitle": "Users active this week",
+      "premiumUsers": "Premium Users",
+      "premiumUsersSubtitle": "Paid subscriptions",
+      "errors": "Errors (24h)",
+      "errorsSubtitle": "System errors today",
+      "tierDistribution": "Tier Distribution",
+      "tier": {
+        "free": "Free",
+        "pro": "Pro",
+        "premium": "Premium",
+        "admin": "Admin"
+      },
+      "productivity": "Productivity Metrics",
+      "totalTodos": "Total Todos",
+      "completedTodos": "Completed",
+      "completionRate": "Completion Rate"
+    },
+    "analytics": {
+      "title": "Advanced Analytics",
+      "loading": "Loading experimental protocols...",
+      "comingSoon": "Analytics Laboratory Under Construction",
+      "description": "Advanced charts and data visualization apparatus are currently being calibrated. Check back soon for powerful insights into user behavior, system performance, and laboratory productivity metrics.",
+      "timeframe": {
+        "day": "Last 24 Hours",
+        "week": "Last 7 Days",
+        "month": "Last 30 Days",
+        "year": "Last 12 Months"
+      },
+      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of data science!",
+      "charts": {
+        "userGrowth": "User Growth Trends",
+        "userGrowthDesc": "Track new user registrations over time",
+        "activityHeatmap": "Activity Heatmap",
+        "activityHeatmapDesc": "Visualize user activity patterns by hour/day",
+        "featureUsage": "Feature Usage Distribution",
+        "featureUsageDesc": "Which features are most popular?",
+        "performance": "System Performance Metrics",
+        "performanceDesc": "API response times and error rates"
+      }
+    },
+    "logs": {
+      "title": "System Logs",
+      "loading": "Analyzing laboratory recordings...",
+      "refresh": "Refresh logs",
+      "fallback": "(showing mock data for development)",
+      "autoRefresh": "Auto-refresh (30s)",
+      "showing": "Showing",
+      "entries": "entries",
+      "empty": "No logs found - laboratory running smoothly!",
+      "columns": {
+        "timestamp": "Time",
+        "level": "Level",
+        "message": "Message",
+        "user": "User",
+        "endpoint": "Endpoint"
+      },
+      "severity": {
+        "error": "ERROR",
+        "warning": "WARNING",
+        "info": "INFO"
+      }
+    },
+    "featureFlags": {
+      "title": "Feature Flags",
+      "loading": "Loading experimental protocols...",
+      "refresh": "Refresh flags",
+      "fallback": "(showing mock data for development)",
+      "lastUpdated": "Last updated",
+      "unsavedChanges": "You have unsaved changes. These will affect all users when saved!",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "confirmSave": "Yes, Apply Changes",
+      "tiers": {
+        "free": "Free Tier",
+        "pro": "Pro Tier",
+        "premium": "Premium Tier",
+        "admin": "Admin Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Todos",
+        "chat_interface": "Chat Interface",
+        "theme_selector": "Theme Selector",
+        "export_todos": "Export Todos",
+        "advanced_search": "Advanced Search",
+        "unlimited_todos": "Unlimited Todos",
+        "mindmap_view": "Mind Map View",
+        "custom_themes": "Custom Themes",
+        "api_access": "API Access",
+        "priority_support": "Priority Support",
+        "swarmdesk_3d": "SwarmDesk 3D",
+        "collaborative_editing": "Collaborative Editing",
+        "ai_copilot": "AI Copilot",
+        "admin_panel": "Admin Panel",
+        "user_management": "User Management",
+        "feature_flags": "Feature Flags",
+        "system_logs": "System Logs",
+        "analytics": "Analytics",
+        "debug_mode": "Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Feature Flag Changes",
+        "message": "Are you sure you want to apply these changes? This will immediately affect all users across the platform. Feature flags control access to core functionality.",
+        "warning": "Tip: Test changes on a staging environment first. Disabling critical features may break user workflows."
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "loading": "Cataloging test subjects...",
+      "refresh": "Refresh user list",
+      "fallback": "(showing mock data for development)",
+      "searchPlaceholder": "Search by email or name...",
+      "showing": "Showing",
+      "users": "users",
+      "filtered": "filtered from",
+      "empty": "No users registered yet",
+      "noResults": "No users found matching your search",
+      "adminBadge": "ADMIN",
+      "edit": {
+        "title": "Edit User",
+        "email": "Email",
+        "tier": "Tier",
+        "isAdmin": "Grant Admin Access",
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "columns": {
+        "email": "Email",
+        "tier": "Tier",
+        "status": "Status",
+        "lastLogin": "Last Login",
+        "todos": "Todos",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Admin Access Change",
+        "grantMessage": "You are about to grant admin privileges to this user. This will give them full access to the admin panel, including user management, feature flags, and system logs.",
+        "revokeMessage": "You are about to revoke admin privileges from this user. They will lose access to all admin functionality.",
+        "cancel": "Cancel",
+        "confirm": "Yes, Confirm",
+        "saving": "Saving..."
+      }
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "refresh": "Refresh",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "queuePane": {
+    "title": "Priority Queue",
+    "subtitle": "Arrange your tasks in order of priority",
+    "dragHint": "Drag cards to reorder priority",
+    "searchPlaceholder": "Search queue...",
+    "emptyState": "No tasks in queue",
+    "noSearchResults": "No items match your search",
+    "reordering": "Saving order...",
+    "allProjects": "All Projects",
+    "cardActions": {
+      "complete": "Complete",
+      "edit": "Edit",
+      "remove": "Remove from Queue"
+    },
+    "incoming": {
+      "title": "Incoming",
+      "addToTop": "Add to Top",
+      "addToBottom": "Add to Bottom"
+    },
+    "ordered": {
+      "title": "Ordered Queue"
+    },
+    "stats": {
+      "total": "Queued",
+      "high": "Urgent",
+      "incoming": "Incoming"
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(20, 10, 0, 0.6)",
+      "cardBorder": "rgba(212, 175, 55, 0.5)",
+      "cardText": "#fef3c7",
+      "iconColor": "#d4af37",
+      "chipBg": "#92400e",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip the Initiation",
+      "next": "Proceed Further",
+      "back": "Return to Previous",
+      "getStarted": "Enter the Order"
+    },
+    "complete": {
+      "message": "Account setup is complete. You may now access your dashboard."
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome",
+        "defaultName": "User",
+        "description": "Inventorium is your AI-powered task management and project visualization platform.",
+        "subtitle": "Let's take a quick tour to help you get started."
+      },
+      "projects-overview": {
+        "title": "Projects",
+        "description": "Organize your todos into projects for better management and visualization.",
+        "benefitsTitle": "Project Benefits:",
+        "benefits": {
+          "organize": "Group related tasks together",
+          "visualize": "See progress at a glance",
+          "track": "Track milestones and deadlines",
+          "collaborate": "Share with team members"
+        },
+        "hint": "💡 Tip: Every todo can belong to a project"
+      },
+      "create-project": {
+        "title": "Create Your First Project",
+        "description": "Let's create a project to organize your work. Projects help you group related todos together.",
+        "guideTitle": "How to create a project:",
+        "step1": "Click the floating '+' button in the bottom right corner",
+        "step2": "Select the 'Project' tab in the dialog",
+        "step3": "Enter a unique project name (lowercase with hyphens, e.g., 'my-first-project')",
+        "step4": "Add a display name and description",
+        "hint": "Tip: Project names must be unique and use lowercase letters with hyphens"
+      },
+      "add-todo": {
+        "title": "Add Todo to Your Project",
+        "description": "Now let's add a todo to your project. Todos are the tasks and action items you need to complete.",
+        "guideTitle": "How to create a todo:",
+        "step1": "Click the floating '+' button again",
+        "step2": "Select the 'Todo' tab in the dialog",
+        "step3": "Enter your todo description",
+        "step4": "Select your project from the dropdown",
+        "step5": "Set priority and click 'Create'",
+        "hint": "Tip: You can create todos from anywhere in the app using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Configure Your AI Assistant",
+        "description": "Get the most out of Inventorium by connecting to an AI provider like Google Gemini or OpenAI.",
+        "whyConfigureTitle": "Why configure AI?",
+        "benefits": {
+          "suggestions": "Generate smart task suggestions",
+          "enhance": "Enhance todo descriptions with AI insights",
+          "analyze": "Analyze project patterns and dependencies",
+          "insights": "Get productivity insights and recommendations"
+        },
+        "statusConfigured": "Status: ✅ AI is configured and ready to use!",
+        "statusNotConfigured": "Status: ❌ AI is not configured yet",
+        "configureButton": "Configure AI Now",
+        "skipButton": "Skip for Now",
+        "helpText": "You can configure AI anytime from Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "AI Assistant",
+        "description": "Get help from your AI assistant to manage tasks, analyze projects, and boost productivity.",
+        "examplesTitle": "Quick Actions:",
+        "quickActions": {
+          "createTodos": "Create todos from text",
+          "analyzeTasks": "Analyze task patterns",
+          "suggestions": "Get smart suggestions",
+          "insights": "Project insights"
+        },
+        "hint": "💡 Tip: Click the chat icon to start a conversation"
+      },
+      "swarmdesk": {
+        "title": "3D Workspace",
+        "description": "Explore your codebase in 3D with SwarmDesk - an immersive visualization tool.",
+        "featuresTitle": "SwarmDesk Features:",
+        "features": {
+          "codeViz": "3D code visualization",
+          "interactive": "Interactive navigation",
+          "architecture": "Architecture overview",
+          "dependencies": "Dependency mapping"
+        },
+        "hint": "💡 Tip: Access SwarmDesk from the project view",
+        "tabTip": "After SwarmDesk loads, press TAB to jump back and forth between the dashboard and 3D workspace"
+      },
+      "complete": {
+        "title": "You're All Set!",
+        "description": "You're ready to start using Inventorium. Explore the features and make it your own.",
+        "nextStepsTitle": "Next Steps:",
+        "nextSteps": {
+          "createProject": "Create your first project",
+          "addTodos": "Add todos to your project",
+          "tryAI": "Try the AI assistant",
+          "checkSwarmDesk": "Explore SwarmDesk 3D"
+        },
+        "footer": "💡 You can replay this tutorial anytime from Settings"
+      }
+    }
+  },
+  "themeName": "templar-light",
+  "displayName": "Templar Order",
+  "description": "Knights Templar sacred order - quests, codices, crusades, and holy decrees",
+  "icon": "📝",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Lessons Learned",
+    "addLesson": "Add Lesson",
+    "emptyState": {
+      "title": "No Lessons Found",
+      "message": "Capture insights to improve future workflows.",
+      "action": "Add Your First Lesson"
+    },
+    "fields": {
+      "topic": "Topic",
+      "language": "Language/Category",
+      "lessonLearned": "Lesson Learned",
+      "tags": "Tags"
+    },
+    "actions": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save Changes"
+    }
+  },
+  "mindmap": {
+    "title": "Project Mindmap",
+    "emptyState": {
+      "title": "Empty Mindmap",
+      "message": "Add tasks and projects to visualize your workspace."
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "resetView": "Reset View",
+      "centerView": "Center View"
+    }
+  },
+  "swarmdesk": {
+    "title": "System Overview",
+    "emptyState": {
+      "title": "No Data Available",
+      "message": "Initialize components to view system status."
+    },
+    "controls": {
+      "rotate": "Rotate",
+      "zoom": "Zoom",
+      "pan": "Pan",
+      "reset": "Reset Camera"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Project",
+    "placeholder": "Search projects...",
+    "noProjects": "No projects available",
+    "createNew": "Create New Project"
+  },
+  "errors": {
+    "generic": "A darkness has disrupted the sacred vigil!",
+    "network": "The etheric messenger pigeon has fallen!",
+    "notFound": "This scroll cannot be found in the Codex.",
+    "unauthorized": "Thou lackest the authority to enter this sanctum.",
+    "serverError": "Internal server error.",
+    "server": "A disturbance in the heavens! The High Priests have been notified.",
+    "timeout": "The prayer went unanswered. Seek the divine again."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Art thou certain thou wishest to strike this from the sacred record?",
+    "discard": "Abandon these unsaved proclamations?",
+    "archive": "Seal this crusade in the reliquary?"
+  },
+  "agentStates": {
+    "working": "On crusade",
+    "traveling": "Riding to battle",
+    "idle": "Standing vigil",
+    "assigned": "Sworn to duty"
+  },
+  "targetAgent": {
+    "user": "User",
+    "ai": "Assistant",
+    "system": "System",
+    "none": "Unassigned"
+  },
+  "accountPanel": {
+    "title": "Knight's Dossier",
+    "tabs": {
+      "profile": "Knight's Record",
+      "subscription": "Order Vows",
+      "account": "Sanctum Access"
+    },
+    "subscriptionDisabled": "The Order's vow management is currently unavailable",
+    "dangerZone": "Forbidden Reliquary"
+  },
+  "billing": {
+    "title": "Chamber of Tithes",
+    "subtitle": "Manage your sacred contributions to the Order",
+    "loginRequired": "You must be consecrated to access the Chamber of Tithes",
+    "goToLogin": "Enter the Sanctum",
+    "currentPlan": "Active Vow",
+    "perMonth": "/lunar cycle",
+    "nextBillingDate": "Next tithe collection:",
+    "planFeatures": "VOW PRIVILEGES:",
+    "upgradeToPro": "ASCEND TO HOLY KNIGHT",
+    "manageBilling": "Consult the Ledger",
+    "cancelSubscription": "Renounce Vow",
+    "usageStats": "Order Metrics",
+    "totalTodos": "Active Quests",
+    "projects": "Fiefdoms",
+    "unlimited": "Infinite",
+    "upgradePrompt": "Ascend to Holy Knight for infinite quests, fiefdoms, the War Council, and the High Sanctum!",
+    "cancelSuccess": "Vow renounced. Your access remains until the current lunar cycle is complete.",
+    "status": {
+      "active": "FAITHFUL",
+      "free": "PILGRIM",
+      "inactive": "EXCOMMUNICATED"
+    },
+    "errors": {
+      "loadFailed": "The ledger remains sealed",
+      "cancelFailed": "The renunciation was rejected. Consult the High Priest.",
+      "portalFailed": "The Chamber door is barred. Try again."
+    },
+    "cancelDialog": {
+      "title": "Renounce Vow?",
+      "message": "Are you certain you wish to renounce your vow? Holy Knight privileges remain until the cycle ends.",
+      "resubscribe": "You may take the vow again at any time.",
+      "keep": "Uphold Vow",
+      "confirm": "Yes, Renounce"
+    }
+  },
+  "pricing": {
+    "title": "Order Tiers",
+    "subtitle": "The path of the Pilgrim is humble. The Holy Knight knows no bounds.",
+    "backToDashboard": "Return to Sanctum",
+    "currentPlan": "ACTIVE VOW",
+    "free": "Pilgrim",
+    "perMonth": "/lunar cycle",
+    "loginToUpgrade": "CONSECRATE TO ASCEND",
+    "currentTier": "ACTIVE VOW",
+    "upgrade": "ASCEND",
+    "finePrint": "Renounce at any time. No binding chains. Your deeds remain yours.",
+    "errors": {
+      "loginRequired": "You must be consecrated to ascend your vow",
+      "checkoutFailed": "The ritual of ascension faltered. Try again."
+    }
+  },
+  "cancel": {
+    "title": "Vow Renounced",
+    "message": "Go in peace. You may re-pledge your tithe at any time. Your Pilgrim quarters remain open.",
+    "goToDashboard": "Return to Sanctum",
+    "viewPlans": "View Order Tiers"
+  },
+  "chronomancy": {
+    "loading": "Reading the sacred chronicles...",
+    "noVersions": "No prior records found in the codex.",
+    "today": "Present Day",
+    "yesterday": "Previous Sun",
+    "daysAgo": "{{days}} suns ago",
+    "currentVersion": "Present Decree",
+    "versionLabel": "Decree {{version}}",
+    "versions": "decrees",
+    "gitCommit": "Sacred seal",
+    "classesChange": "Orders altered",
+    "linesChange": "Verses changed",
+    "deleteVersion": "Expunge decree",
+    "deleteDialog": {
+      "title": "Expunge Decree?",
+      "message": "Permanently strike Decree v{{version}} of {{project}} from the archives? This action is final.",
+      "cancel": "Keep",
+      "confirm": "Expunge"
+    },
+    "compare": {
+      "selectTwo": "Reconcile (select 2)",
+      "button": "Reconcile Decree v{{from}} → v{{to}}"
+    },
+    "diff": {
+      "title": "Reconciling Decree v{{from}} → v{{to}}",
+      "added": "Consecrated",
+      "removed": "Forsaken",
+      "modified": "Reformed",
+      "unchanged": "Eternal",
+      "complexity": "Burden",
+      "lines": "Verses",
+      "noClassesAdded": "No new orders consecrated",
+      "noClassesRemoved": "No orders forsaken",
+      "noClassesModified": "No orders reformed",
+      "methodsAdded": "Rituals added:",
+      "methodsRemoved": "Rituals removed:",
+      "depsAdded": "Alliances formed:",
+      "depsRemoved": "Alliances broken:",
+      "close": "Amen"
+    }
+  }
+}

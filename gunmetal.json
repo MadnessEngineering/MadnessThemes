@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Register New Mech",
+    "subtitle": "Deploy a new project to your hangar",
+    "buttons": {
+      "reset": "Abort Launch",
+      "create": "Launch Mech",
+      "submit": "Sortie",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "SIMULATOR MODE",
+      "title": "Simulation Environment - Read Only",
+      "description": "🎯 You're in simulator mode. Mobile suit deployment is disabled. Enlist as a pilot to access full hangar and launch your own missions."
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Mission Objectives",
+    "lessons": "Pilot's Log",
+    "project": "Mech",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "Project name is required",
+    "nameLength": "Name must be at least 2 characters",
+    "nameFormat": "Name can only contain letters, numbers, hyphens, and underscores",
+    "displayNameRequired": "Display name is required",
+    "descriptionRequired": "Project description is required",
+    "descriptionLength": "Description must be at least 10 characters",
+    "topicRequired": "Topic cannot be empty",
+    "topicTooLong": "Topic must be less than 200 characters",
+    "contentRequired": "Lesson content cannot be empty",
+    "contentTooLong": "Lesson must be less than 5000 characters",
+    "invalidLanguage": "Please select a valid language",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Lock-On",
+    "cancel": "RTB",
+    "close": "Dock",
+    "edit": "Reconfigure",
+    "delete": "Destroy",
+    "reset": "Reset Systems",
+    "refresh": "Rescan",
+    "loading": "Launching...",
+    "error": "System Critical",
+    "success": "Mission complete!",
+    "failed": "Sortie failed",
+    "perPage": "per sortie",
+    "refreshNow": "Rescan Now",
+    "copyId": "Copy Unit ID",
+    "show": "Display",
+    "copy": "Clone Unit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Project Name",
+    "displayName": "Display Name",
+    "description": "Description",
+    "type": "Project Type",
+    "visibility": "Visibility",
+    "repository": "Repository",
+    "language": "Language",
+    "framework": "Framework",
+    "priority": "Priority",
+    "status": "Status",
+    "notes": "Notes",
+    "ticket": "Ticket"
+  },
+  "dashboard": {
+    "title": "🎯 Hangar Bay",
+    "projectStats": {
+      "title": "⚙️ Mech Statistics",
+      "collection": "mech registry",
+      "totalProjects": "Total Units",
+      "activeProjects": "Active Sorties",
+      "projectsWithCompleted": "Missions Complete",
+      "avgTasksPerProject": "Avg Objectives/Unit"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Combat Priority",
+      "pendingTasks": "Standby Missions",
+      "inReview": "Debriefing",
+      "inProgress": "Engaged",
+      "blocked": "Pinned Down",
+      "completed": "Mission Success",
+      "highPriority": "Code Red",
+      "mediumPriority": "Combat Ready",
+      "lowPriority": "Patrol"
+    },
+    "activityLog": {
+      "title": "📊 Sortie Log",
+      "collection": "mission_logs registry",
+      "description": "Monitor all mech deployments and mission status",
+      "updates": "Reconfigurations",
+      "creates": "New Units",
+      "deletes": "Unit Destroyed",
+      "completions": "RTB Confirmed",
+      "totalEntries": "Total Logs"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recent Victories"
+    },
+    "welcome": {
+      "message": "Welcome to Hangar Bay! Your mech command center.",
+      "description": "All systems green and ready for launch! This hangar displays when no mechs are deployed. Use cockpit controls to access missions, comms, units, and pilot resources.",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "📝 Mission Board",
+      "chatAssistant": "🤖 AI Copilot",
+      "activityLog": "📋 Sortie Log",
+      "projects": "📂 Mechs"
+    },
+    "filters": {
+      "allActivity": "Full SitRep",
+      "todosCreated": "Targets Acquired",
+      "todosUpdated": "Intel Revised",
+      "todosCompleted": "Targets Eliminated",
+      "todosDeleted": "Missions Scrubbed",
+      "projectsCreated": "Campaigns Launched",
+      "projectsUpdated": "Campaigns Revised",
+      "projectsDeleted": "Campaigns Aborted"
+    },
+    "unifiedView": "Theater Command",
+    "personalView": "Barracks View",
+    "showingAllDatabases": "Monitoring All Theaters",
+    "showingPersonalOnly": "Scanning Local Barracks Only",
+    "filteredByProject": "Locked on Campaign",
+    "noLogsFound": "Radio silence. No intel found.",
+    "tryChangingFilter": "Adjust your recon parameters.",
+    "startCreatingTodos": "Issue orders to mobilize.",
+    "failedToLoad": "Recon failed: {{error}}",
+    "changesMade": "Tactical Adjustments",
+    "completionNotes": "After Action Report",
+    "revertOperation": "Countermand {{operation}}",
+    "revertSuccess": "Successfully countermanded {{operation}}",
+    "revertFailed": "Countermand failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot recover scrubbed ordnance.",
+    "revertNotSupported": "HQ denies countermand for {{operation}}.",
+    "confirmRevert": "Confirm Countermand",
+    "confirmRevertMessage": "Authorize countermand of {{operation}} for {{description}}?",
+    "confirmRevertAction": "Execute Countermand",
+    "operationType": "Directive",
+    "taskDescription": "Mission Specs",
+    "descriptions": {
+      "projectCreated": "Campaign mobilized: {{projectName}}",
+      "projectUpdated": "Campaign revised: {{projectName}}",
+      "projectDeleted": "Campaign aborted: {{projectName}}",
+      "projectModified": "Campaign altered: {{projectName}}",
+      "unknownTask": "Classified objective"
+    },
+    "showingPageStats": "Viewing sitrep {{currentPage}} of {{totalPages}} ({{totalCount}} logs)",
+    "autoRefreshingInterval": "Recon auto-refreshing every 30 seconds",
+    "stats": {
+      "totalProjects": "Arsenal Capacity",
+      "activeProjects": "Ops Underway",
+      "completedTodos": "Targets Neutralized",
+      "archivedProjects": "Mothballed Campaigns"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "📋 Sortie Log",
+    "autoRefreshOn": "Auto-scan ON",
+    "autoRefreshOff": "Auto-scan OFF",
+    "filters": {
+      "allActivity": "All Activity",
+      "todosCreated": "Missions Briefed",
+      "todosUpdated": "Missions Updated",
+      "todosCompleted": "Missions Complete",
+      "todosDeleted": "Missions Aborted",
+      "projectsCreated": "Units Deployed",
+      "projectsUpdated": "Units Modified",
+      "projectsDeleted": "Units Destroyed",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Fleet View",
+    "personalView": "👤 Pilot View",
+    "showingAllDatabases": "Showing logs from all mechs",
+    "showingPersonalOnly": "Showing only your pilot logs",
+    "filteredByProject": "Filtered by unit:",
+    "noLogsFound": "No sortie logs found",
+    "tryChangingFilter": "Try changing the filter",
+    "startCreatingTodos": "Launch your first mission to see activity",
+    "failedToLoad": "Failed to load sortie logs: {{error}}",
+    "changesMade": "Changes logged:",
+    "completionNotes": "Mission notes:",
+    "revertOperation": "Undo {{operation}}",
+    "revertSuccess": "Successfully reversed {{operation}} operation",
+    "revertFailed": "Revert operation failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore destroyed unit - mech lost",
+    "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "descriptions": {
+      "projectCreated": "Mech \"{{projectName}}\" was registered",
+      "projectUpdated": "Mech \"{{projectName}}\" was reconfigured",
+      "projectDeleted": "Mech \"{{projectName}}\" was destroyed",
+      "projectModified": "Mech \"{{projectName}}\" was modified",
+      "unknownTask": "Unknown mission"
+    },
+    "showingPageStats": "Showing page {{currentPage}} of {{totalPages}} ({{totalCount}} total sorties)",
+    "autoRefreshingInterval": " • Auto-scanning every 30s",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "🎓 Pilot's Training Data",
+    "refreshLessons": "Resync Data",
+    "addLesson": "Log Combat Data",
+    "searchPlaceholder": "Search combat data, tactics, or tags...",
+    "languages": {
+      "allLanguages": "All Languages",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "python": "Python",
+      "rust": "Rust",
+      "go": "Go",
+      "general": "General"
+    },
+    "filters": {
+      "allLessons": "All Lessons",
+      "bookmarked": "Bookmarked",
+      "recent": "Recent (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Combat Data",
+      "vaultEmpty": "Training Database Empty!",
+      "noMatchSearch": "No combat data matches \"{{searchTerm}}\". Try adjusting your search or filters.",
+      "noMatchFilters": "No training data found with current filters. Try broadening your criteria.",
+      "startDocumenting": "Start logging combat experience! Every mission completed and enemy defeated is valuable training data."
+    },
+    "createFirstLesson": "Log First Combat Experience",
+    "actions": {
+      "starred": "Starred",
+      "addStar": "Add Star"
+    },
+    "pagination": {
+      "showingRange": "Showing {{start}}-{{end}} of {{total}} lessons"
+    },
+    "dialog": {
+      "editTitle": "🎓 Edit Combat Data",
+      "addTitle": "🎓 Log New Combat Experience",
+      "topicLabel": "Combat Scenario",
+      "lessonLabel": "Tactical Analysis",
+      "languageLabel": "System Type",
+      "tagsLabel": "Combat Tags (comma separated)",
+      "tagsPlaceholder": "mobile-suit, beam-weapon, newtype",
+      "databaseLabel": "Save to Database",
+      "personalDatabase": "👤 Personal Log",
+      "sharedDatabase": "🌐 Fleet Database (swarmonomicon)",
+      "updateLesson": "Update Combat Data",
+      "createLesson": "Log Combat Data"
+    },
+    "failedToLoad": "Failed to load combat data: {{error}}",
+    "confirmDelete": "Are you sure you want to delete this combat log?"
+  },
+  "todoManagement": {
+    "title": "📝 Mission Command"
+  },
+  "app": {
+    "titleShort": "Madness Interactive",
+    "titleLong": "Mech Operations Center"
+  },
+  "panels": {
+    "todos": "📝 Missions",
+    "logs": "📋 Sortie Logs",
+    "aiChat": "🤖 AI Copilot",
+    "create": "➕ Deploy",
+    "projects": "📂 Mechs",
+    "mindMap": "🗺️ Tactical Map",
+    "swarmDesk": "🎪 SwarmDesk",
+    "lessons": "🎓 Combat Data",
+    "settings": "⚙️ Cockpit Config",
+    "insights": "📊 Insights",
+    "labMaintenance": "🧹 Field Cleanup"
+  },
+  "labMaintenance": {
+    "title": "Field Debrief & Cleanup",
+    "tabs": {
+      "orphaned": "Unassigned Assets",
+      "completed": "Decommissioned",
+      "consolidate": "Tactical Overview"
+    },
+    "selectAll": "Select All Assets",
+    "clearSelection": "Stand Down",
+    "targetProject": "Redeploy to sector...",
+    "reassign": "Redeploy",
+    "reassignSelected": "Redeploy unassigned assets to target sector",
+    "reopen": "Reactivate",
+    "reopenSelected": "Reactivate decommissioned assets for duty",
+    "delete": "Purge",
+    "deleteSelected": "Purge selected assets from the roster",
+    "selectProjectFirst": "Designate target sector first",
+    "todosUpdated": "assets processed",
+    "noOrphans": "No unassigned assets. All operatives are sector-deployed.",
+    "noCompleted": "No decommissioned assets found in the archive.",
+    "consolidateDescription": "Tactical overview of asset allocation and sector readiness.",
+    "orphanedProjectsLabel": "Disbanded Sectors With Remaining Assets",
+    "quickStats": "Situation Report",
+    "orphaned": "Unassigned",
+    "completed": "Decommissioned",
+    "deletedProjects": "Disbanded Sectors",
+    "activeProjects": "Active Sectors"
+  },
+  "demo": {
+    "label": "DEMO - Read Only"
+  },
+  "menu": {
+    "documentation": "Documentation",
+    "replayTutorial": "Replay Briefing",
+    "github": "GitHub",
+    "logout": "Logout",
+    "userManagement": "User Management"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 AI tactical analysis complete! Check enhanced mission brief.",
+    "todoMarkedForReview": "👁️ Mission marked for debriefing!",
+    "todoCompleted": "✅ Mission complete! RTB confirmed!",
+    "taskCreated": "🎉 New mission briefed successfully!",
+    "projectCreated": "🚀 Mobile suit registered to hangar!",
+    "aiConfigured": "✅ AI advisor deployed successfully!",
+    "todoCreated": "🎯 New objective identified and logged.",
+    "settingsSaved": "🛡️ Perimeter protocols updated.",
+    "exportCompleted": "📡 Tactical data extracted to external sector.",
+    "importCompleted": "📥 External intel integrated into database."
+  },
+  "projectNavigator": {
+    "title": "🚀 MOBILE SUIT SELECTOR",
+    "subtitle": "Choose your mech • Deploy to mission zones",
+    "cacheStatus": "🏪 Cached telemetry • Last sync: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Launch • R: Rescan • M: Main Hangar • 1-9: Quick deploy",
+    "manageTooltip": {
+      "admin": "Manage Fleet (Commander)",
+      "personal": "Manage Personal Units"
+    },
+    "refreshTooltip": "Rescan Mechs",
+    "mainSwarmDeskTooltip": "Return to Main Hangar",
+    "loading": {
+      "title": "🔍 Scanning Mech Bay...",
+      "subtitle": "Loading mission data and unit status"
+    },
+    "stats": {
+      "pending": "on standby",
+      "completed": "RTB"
+    },
+    "activity": {
+      "title": "Recent Sorties",
+      "noActivity": "No recent sortie activity"
+    },
+    "enterButton": {
+      "selected": "⚡ LOCKED ON",
+      "enter": "🚀 LAUNCH",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
+      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
+      "relocateLabel": "Relocate todos to another project",
+      "selectDestination": "Select destination project",
+      "cancel": "Cancel",
+      "deleteButton": "Delete Project"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} on standby",
+      "completedTasks": "{{count}} complete"
+    },
+    "loading": "🎪 Deploying to {{projectId}} Zone...",
+    "controls": "🎮 WASD: Pilot | Mouse Drag: Look | ESC: RTB",
+    "workstation": {
+      "todoHint": "📝 Click to view mission briefing",
+      "projectHint": "🎪 Click to view unit specs"
+    },
+    "statsPanel": {
+      "title": "📊 Unit Status",
+      "totalTasks": "Total Missions",
+      "pending": "Standby",
+      "completed": "Complete"
+    },
+    "reviewTab": {
+      "title": "Review Queue",
+      "approveButton": "Approve",
+      "requestChanges": "Request Changes",
+      "returnToProgress": "Return to Progress",
+      "emptyState": "No items in review"
+    }
+  },
+  "projectTab": {
+    "title": "Project Setup",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "configuration": "Configuration",
+      "technicalDetails": "Technical Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Application",
+      "mobile": "Mobile App",
+      "desktop": "Desktop Application",
+      "library": "Library/Package",
+      "api": "API/Service",
+      "general": "General Project"
+    },
+    "buttons": {
+      "creating": "Creating...",
+      "demoMode": "Demo Mode",
+      "createProject": "CREATE PROJECT"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Project",
+      "default": "Default"
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Missions",
+      "pending": "Standby",
+      "review": "Debriefing",
+      "completed": "Complete",
+      "all": "All Tasks",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "in_progress": "In Progress"
+    },
+    "sort": {
+      "newest": "Latest Briefing",
+      "oldest": "Oldest Briefing",
+      "priority": "Combat Priority",
+      "madness": "Random Sortie"
+    },
+    "search": {
+      "placeholder": "Search missions..."
+    },
+    "project": {
+      "label": "Mech",
+      "allProjects": "All Units ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Display",
+      "perPage": "per sortie",
+      "all": "All",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Showing {{start}}-{{end}} of {{total}} missions",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by unit: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Missions",
+      "workshopClear": "No Active Missions",
+      "noMatchingDescription": "No missions match \"{{searchText}}\". Try adjusting search parameters.",
+      "workshopClearDescription": "All quiet. No active missions. Mobile suits on standby."
+    },
+    "buttons": {
+      "refresh": "Rescan",
+      "export": "Export Data",
+      "saving": "Saving...",
+      "saveChanges": "Lock Changes",
+      "discard": "Abort",
+      "complete": "Mission Complete",
+      "edit": "Reconfigure",
+      "copyId": "Copy Mission ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "review": "Debrief",
+      "aiInsights": "AI Analysis"
+    },
+    "fullEdit": {
+      "modeTitle": "Full Edit Mode"
+    },
+    "menu": {
+      "editTask": "Modify Mission",
+      "copyId": "Copy Mission ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "deleteTask": "Abort Mission"
+    },
+    "dialog": {
+      "completeTitle": "Mission Complete: {{description}}",
+      "completeDescription": "Add mission debrief notes (e.g., tactics used, time deployed, obstacles neutralized, etc.)",
+      "completePlaceholder": "e.g., Target eliminated using beam rifle. 2 hour deployment. Minor armor damage from mech combat.",
+      "cancel": "Abort",
+      "completeTask": "Confirm RTB",
+      "exportTitle": "Export Mission Data",
+      "exportDescription": "Exporting {{count}} mission records",
+      "exportFilename": "Data File Name",
+      "exportFilenameHelp": "Combat data export filename (extension added automatically)",
+      "exportFormat": "Data Format",
+      "exportButton": "Export Data",
+      "formatJSON": "JSON - Structured Data",
+      "formatJSONDesc": "Complete todo data in JSON format for reimport",
+      "formatCSV": "CSV - Spreadsheet",
+      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
+      "formatMarkdown": "Markdown - Documentation",
+      "formatMarkdownDesc": "Human-readable format for documentation",
+      "formatHTML": "HTML - Web Page",
+      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
+      "formatJira": "Jira/Slack Commands",
+      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatVariant": "Format Variant",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Fields",
+      "customizeFields": "Customize Field Names",
+      "renameFields": "Rename Fields",
+      "calculatedFields": "Calculated Fields",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days)",
+        "daysSinceUpdate": "Days since update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete"
+      },
+      "selectAll": "All",
+      "selectNone": "None",
+      "advancedFilters": "Advanced Filters",
+      "dateRange": "Date Range",
+      "startDate": "From",
+      "endDate": "To",
+      "priorityFilter": "Priority",
+      "statusFilter": "Status"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "ID",
+      "description": "Description",
+      "project": "Project",
+      "priority": "Priority",
+      "status": "Status",
+      "target": "Target",
+      "created": "Created",
+      "updated": "Updated",
+      "metadata": "Metadata",
+      "source": "Source",
+      "notes": "Notes",
+      "ticket": "Ticket",
+      "completed_at": "Completed At",
+      "completed_by": "Completed By",
+      "completion_comment": "Completion Comment",
+      "duration": "Duration",
+      "duration_sec": "Duration (seconds)",
+      "tags": "Tags",
+      "complexity": "Complexity",
+      "confidence": "Confidence",
+      "phase": "Phase",
+      "epic": "Epic",
+      "blockers": "Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Mission brief cannot be empty",
+      "descriptionTooLong": "Mission brief must be less than 500 characters",
+      "invalidProject": "Please select a valid mech"
+    },
+    "error": {
+      "failedToLoad": "Failed to load mission data",
+      "unknownError": "System error",
+      "malfunctionMessage": "Mobile suit systems encountered critical error. Rescan or check network link."
+    },
+    "placeholders": {
+      "setStatus": "Set mission status...",
+      "editDescription": "Click to edit mission brief...",
+      "selectProject": "Select mech...",
+      "setPriority": "Set combat priority..."
+    },
+    "tooltip": {
+      "unsavedChanges": "Unsaved tactical data"
+    },
+    "labels": {
+      "readOnly": "🔒 Locked",
+      "review": "DEBRIEF"
+    },
+    "aria": {
+      "todoActions": "Todo actions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Loading mission data..."
+    },
+    "header": {
+      "editTodo": "Modify Mission",
+      "createNewTodo": "Create New Mission"
+    },
+    "buttons": {
+      "backToDashboard": "RTB to Hangar"
+    },
+    "error": {
+      "todoNotFound": "Mission not found. May have been aborted or ID is incorrect."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Hangar Mode - Full Configuration Access"
+    },
+    "tips": {
+      "title": "💡 Configuration Tips:",
+      "description": "• Click fields for quick edit • Full form via Edit • ESC to abort • Ctrl+Enter to lock • AI enhancement available"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Settings",
+    "confirmReset": "Are you sure you want to reset all settings to their default values? This action cannot be undone.",
+    "messages": {
+      "saveSuccess": "Settings saved successfully!",
+      "saveError": "Failed to save settings"
+    },
+    "export": {
+      "starting": "Starting export...",
+      "success": "Export completed! Downloaded {{todoCount}} todos, {{projectCount}} projects, and settings.",
+      "error": "Export failed: {{error}}"
+    },
+    "import": {
+      "starting": "Starting import...",
+      "confirmDialog": "Import Preview:\n\n{{todoCount}} todos, {{projectCount}} projects, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
+      "success": "Import completed! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
+      "error": "Import failed: {{error}}",
+      "fileDialogError": "Failed to open file dialog"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "database": "Database",
+      "aiConfiguration": "AI Configuration",
+      "mcpSetup": "MCP Setup",
+      "messaging": "Messaging",
+      "apiKeys": "API Keys",
+      "appearance": "Appearance",
+      "mindMap": "Mind Map",
+      "umlData": "Code Visualizations",
+      "privacy": "Privacy",
+      "advanced": "Advanced",
+      "npcAgents": "Tactical AI",
+      "swarmDesk": "SwarmDesk"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "A tactical role with this callsign is already assigned.",
+      "duplicateAgentId": "An operative with this callsign is already deployed."
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "umlData": {
+    "title": "Code Visualizations",
+    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload UML File",
+      "reading": "Reading file",
+      "success": "Successfully uploaded {{name}} with {{classes}} classes"
+    },
+    "errors": {
+      "loadFailed": "Failed to load UML datasets",
+      "uploadFailed": "Failed to upload UML file",
+      "deleteFailed": "Failed to delete UML data"
+    },
+    "delete": {
+      "confirmTitle": "Delete Code Visualization?",
+      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "success": "Successfully deleted {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in SwarmDesk..."
+    },
+    "source": {
+      "personal": "Personal",
+      "shared": "Shared"
+    },
+    "instructions": {
+      "title": "How to use:",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON file using the button above"
+    },
+    "storage": {
+      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "limit": "10 files per user (10MB each)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Source",
+      "classes": "Classes",
+      "packages": "Packages",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in SwarmDesk",
+      "delete": "Delete"
+    },
+    "empty": "No code visualizations yet",
+    "empty.hint": "Upload a UML file to see your code in 3D"
+  },
+  "auth": {
+    "app": {
+      "title": "Madness Interactive"
+    },
+    "welcome": {
+      "message": "Welcome to the Madness Interactive Workshop!"
+    },
+    "buttons": {
+      "demoLogin": "Login as Demo User",
+      "googleLogin": "Continue with Google"
+    },
+    "status": {
+      "loggingOut": "Logging out..."
+    },
+    "errors": {
+      "demoLoginFailed": "Demo login failed",
+      "authRequired": "Authentication required",
+      "configNotFound": "Authentication not configured",
+      "tokenInvalid": "Access token has expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "Unsaved tactical data. Abort changes?",
+    "confirmDelete": "Abort this mission permanently?",
+    "sections": {
+      "metadata": "Mission Metadata (Optional)"
+    },
+    "errors": {
+      "descriptionRequired": "Mission brief required for AI analysis",
+      "aiEnhancementFailed": "AI analysis failed: {{error}}",
+      "saveFailed": "Failed to lock changes"
+    },
+    "placeholders": {
+      "description": "Enter mission brief...",
+      "clickToAdd": "Click to add mission objectives...",
+      "enhancedDescription": "AI tactical analysis will appear here...",
+      "notes": "Combat notes...",
+      "ticket": "Mission ID reference..."
+    },
+    "labels": {
+      "enhancedDescription": "Tactical Analysis",
+      "aiEnhanced": "🧠 AI Tactical Analysis:",
+      "completionNotes": "✅ Mission Debrief:",
+      "completed": "Mission Complete",
+      "duration": "Deployment Time"
+    },
+    "priority": {
+      "low": "Patrol",
+      "medium": "Combat Ready",
+      "high": "Code Red",
+      "critical": "Emergency Sortie"
+    },
+    "status": {
+      "pending": "Standby",
+      "in_progress": "Engaged",
+      "blocked": "Pinned Down",
+      "review": "Debriefing",
+      "completed": "Complete",
+      "initial": "Briefed",
+      "cancelled": "Aborted"
+    },
+    "menu": {
+      "editTask": "Modify Mission",
+      "deleteTask": "Abort Mission"
+    },
+    "messages": {
+      "noEnhancedDescription": "No tactical analysis yet. Use AI to generate combat insights."
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Switch to War Room",
+      "switchToSphere": "Switch to Sphere",
+      "chaos": "Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Drag to Move",
+      "dragging": "Dragging!",
+      "touchAndDrag": "Touch & Drag",
+      "doubleTapBurst": "Double-tap for burst!",
+      "doubleTapPhysics": "Double-tap for physics!"
+    },
+    "filter": {
+      "title": "Project Filter",
+      "allProjects": "All Projects",
+      "projectCount": "{{selected}}/{{total}} Projects",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "selectProjects": "Select Projects",
+      "projectsSelected": "{{count}} projects selected",
+      "selectedProjects": "Selected Projects ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Static Mode",
+      "enableStaticMode": "Enable Static Mode",
+      "cleanUpEffects": "Clean Up Visual Effects"
+    },
+    "sequence": {
+      "hideSequence": "Hide Task Sequence",
+      "showSequence": "Show AI Task Sequence",
+      "analyzeSequences": "Analyze Sequences",
+      "stopAnimation": "Stop Animation",
+      "animateSequence": "Animate Sequence",
+      "shuffleSequence": "Shuffle Sequence Type"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ TANGENTRON",
+      "centerWorkshop": "🧠 WORKSHOP"
+    },
+    "modes": {
+      "dynamic": "⚡ Dynamic Mode",
+      "static": "📖 Static Mode"
+    },
+    "dialog": {
+      "createNode": "🧠 Create Neural Node",
+      "nodeText": "Node Text"
+    },
+    "nodeInfo": {
+      "type": "Type",
+      "priority": "Priority",
+      "energy": "Energy"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "AI Copilot offline. Configure in Cockpit Config → AI Configuration.",
+      "noResponse": "Copilot received transmission but couldn't generate proper response. Retry.",
+      "demoUserRestricted": "🚫 AI Copilot unavailable in simulator mode. Enlist as pilot to access AI assistance."
+    },
+    "quickActions": {
+      "listPending": "List standby missions",
+      "createHighPriority": "Create code red mission",
+      "summarizeProject": "Status report: {{project}} unit",
+      "filterHighPriority": "Show code red missions for this unit"
+    },
+    "suggestedActions": {
+      "listPending": "Mission List",
+      "newHighPrio": "Code Red",
+      "summarize": "Status Report"
+    },
+    "status": {
+      "typing": "Copilot analyzing"
+    },
+    "emptyState": {
+      "title": "AI Copilot System",
+      "demoMessage": "AI Copilot offline in simulator mode. Enlist as pilot for full AI assistance!",
+      "description": "Your AI tactical support system for mission planning and mech operations.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Copilot Offline",
+      "description": "Configure AI systems in Cockpit Config to enable copilot functionality.",
+      "configureButton": "Configure AI Systems"
+    },
+    "header": {
+      "title": "AI Copilot",
+      "refreshTooltip": "Resync tactical data",
+      "settingsTooltip": "Cockpit Config"
+    },
+    "menu": {
+      "refreshContext": "Resync Tactical Data",
+      "aiSettings": "AI Config (Cockpit Config)",
+      "aiSettingsRedirect": "AI configuration moved to Cockpit Config → AI Configuration"
+    },
+    "input": {
+      "placeholder": "Contact copilot...",
+      "demoPlaceholder": "AI Copilot offline in simulator mode. Enlist to access!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Create Todo",
+      "listTodos": "List Todos",
+      "projectStatus": "Project Status",
+      "help": "Help",
+      "settings": "Settings",
+      "refreshData": "Refresh Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me create a new todo",
+      "listTodos": "Show me my current todos",
+      "projectStatus": "Give me a status update on my projects",
+      "help": "What can you help me with?",
+      "settings": "Open settings panel",
+      "refresh": "Refresh my data"
+    },
+    "header": {
+      "title": "AI Assistant",
+      "statusListening": "Listening...",
+      "statusTyping": "Typing...",
+      "statusOnline": "Online"
+    },
+    "emptyState": {
+      "greeting": "Hi! I'm your AI Assistant",
+      "description": "I can help you manage todos, navigate projects, and answer questions about your workspace."
+    },
+    "status": {
+      "thinking": "AI is thinking..."
+    },
+    "input": {
+      "placeholder": "Type a message..."
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "entering": "🎮 Entering Combat Zone...",
+        "initializing": "⚙️ Initializing Mech Systems...",
+        "ready": "✅ All Systems Green",
+        "connecting": "🔗 Establishing Comm Link...",
+        "loadingProjects": "📊 Loading Unit Data...",
+        "title": "🚀 Deploying SwarmDesk Command Sector...",
+        "subtitle": "Preparing Tactical Operations!"
+      },
+      "navigation": {
+        "controls": "🎮 Pilot Controls",
+        "movement": "⌨️ WASD: Pilot Mech | Mouse: Target System",
+        "interaction": "🖱️ Click: Engage | E: Deploy Weapon | Space: Quick Maneuver",
+        "escape": "🚪 ESC: RTB to Hangar | M: Cockpit Menu"
+      },
+      "status": {
+        "connected": "🌐 Comm Link: STABLE",
+        "offline": "⚠️ Comm Link: OFFLINE - Local Systems Only",
+        "syncing": "🔄 Syncing Tactical Data...",
+        "ready": "✅ Mech: COMBAT READY"
+      },
+      "error": {
+        "title": "❌ SwarmDesk Structural Failure",
+        "subtitle": "Check tactical console for ops details",
+        "initializationFailed": "SwarmDesk sector deployment failed"
+      },
+      "controls": {
+        "instructions": "⚔️ SwarmDesk Active | WASD: Tactical Movement | E: Engage Interaction | F4-F7: Deploy Panels | Space: Combat Mode"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎮 Welcome to Combat Zone",
+        "subtitle": "Mech Command Interface",
+        "description": "Welcome to the combat zone! This is a 3D tactical interface for piloting mechs and managing missions. Use pilot controls to navigate and engage with mission objectives.",
+        "gettingStarted": "Pre-Flight Checklist:",
+        "quickActions": [
+          "📝 View and manage mission objectives",
+          "🎯 Brief new missions and set combat priorities",
+          "📊 Review unit statistics and sortie progress",
+          "⚙️ Configure mech systems and loadout",
+          "🔗 Establish comm links to support systems"
+        ],
+        "features": {
+          "title": "🎯 Tactical Specs:",
+          "draggable": "📱 Draggable tactical panels with magnetic docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk ops interactions",
+          "docking": "🧲 Magnetic docking zones (perimeter edges & corners)",
+          "shortcuts": "⌨️ Tactical shortcuts for rapid deployment",
+          "integration": "🎮 Full SwarmDesk 3D combat workspace integration"
+        },
+        "actions": {
+          "createProject": "📋 Deploy Mission Panel",
+          "createAgent": "🤖 Deploy Agent Panel"
+        }
+      },
+      "shortcuts": {
+        "title": "⌨️ Pilot Control Reference",
+        "subtitle": "Quick Commands",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Mech Controls",
+            "commands": [
+              "WASD: Pilot mech through combat zone",
+              "Mouse Drag: Target acquisition and view rotation",
+              "Scroll: Range adjustment",
+              "ESC: Emergency RTB to hangar"
+            ]
+          },
+          "panels": {
+            "title": "📊 Cockpit Displays",
+            "commands": [
+              "F4: Mission Management Display",
+              "F5: Sortie Log Display",
+              "F6: Comm Link Display",
+              "F7: Unit Info Display"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Combat Actions",
+            "commands": [
+              "E: Engage selected target",
+              "Space: Quick maneuver",
+              "M: Cockpit menu",
+              "R: Rescan area"
+            ]
+          }
+        },
+        "f3": "F3 - Toggle Command Welcome Portal",
+        "f4": "F4 - Toggle Mission Project Portal",
+        "f5": "F5 - Toggle Agent Actions",
+        "f6": "F6 - Toggle Tactical Tools",
+        "f7": "F7 - Toggle Intelligence Feed Portal",
+        "f8": "F8 - Toggle WebLLM Neural Processor",
+        "f9": "F9 - Toggle MQTT Comms Monitor",
+        "f10": "F10 - Minimize All Tactical HUDs",
+        "f11": "F11 - Scrub All HUDs",
+        "esc": "ESC - Cancel current tactical operation",
+        "drag": "Drag portals - Click and move interface headers",
+        "dock": "Dock portals - Drag near perimeter edges to anchor"
+      },
+      "mcp": {
+        "title": "🔗 Mobile Command Protocol",
+        "subtitle": "Fleet Integration Hub",
+        "description": "Mobile Command Protocol (MCP) enables tactical data links to external systems and fleet services for enhanced combat operations.",
+        "features": [
+          "🔧 Weapons Integration Framework",
+          "📊 Automated Telemetry Collection",
+          "🎯 Mission Coordination Integration",
+          "⚙️ Combat Automation Protocols",
+          "🔐 Encrypted Comm Links"
+        ],
+        "gettingStarted": "Deployment Checklist:",
+        "deploymentSteps": [
+          "Configure pilot authentication",
+          "Establish comm links to fleet services",
+          "Configure automated tactical protocols",
+          "Run combat systems diagnostics"
+        ],
+        "tools": {
+          "title": "🛠️ Available MCP Tactical Tools",
+          "notAuthenticated": "Please authenticate at the terminal to access MCP tools.",
+          "authRequired": "Command authentication required for MCP linkage",
+          "connecting": "No tactical tools available. Establishing link...",
+          "serverStatus": "Hub Status: {{status}}",
+          "retryConnection": "🔄 Re-establish Tactical Link",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Operations Log",
+          "noHistory": "No mission logs detected."
+        },
+        "debug": {
+          "title": "🐛 Tactical Debug Intel",
+          "authentication": "Authentication: {{status}}",
+          "user": "Operative: {{user}}",
+          "authMode": "Deployment Mode: {{mode}}",
+          "mcpServer": "MCP Hub: {{status}}",
+          "activeTools": "Active Tactical Tools: {{count}}",
+          "lastPing": "Last Comms Ping: {{time}}",
+          "apiService": "API Node: {{status}}",
+          "authContext": "Tactical Auth Context: {{status}}",
+          "refreshAuth": "🔄 Reset Authentication"
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Sector Overview",
+          "activeProjects": "Active Missions: 5",
+          "pendingTasks": "Pending Ops: 23",
+          "completedToday": "Completed Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Missions",
+            "addTask": "➕ Add New Mission Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Tactical Task Management",
+          "inProgress": "⚡ Dashboard Integration - Under Tactical Review",
+          "pending": "🔧 MCP Tool Enhancement - Awaiting Command Approval",
+          "actions": {
+            "addTodo": "➕ Add Op Task"
+          }
+        },
+        "files": {
+          "title": "📁 Mission Archives",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Access Intel Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Tactical Agent Comms",
+          "agentReady": "Agent: Prepared for mission support!",
+          "userQuery": "Command: Assist with tactical HUD deployment",
+          "agentResponse": "Agent: The HUD interface is operational. Drag modules to any sector or lock them to the perimeter.",
+          "placeholder": "Enter mission directives..."
+        },
+        "commands": {
+          "title": "⚡ Agent Directives",
+          "searchProjects": "🔍 Search Mission Sectors",
+          "listTodos": "📋 List Operational Tasks",
+          "deployProject": "🚀 Deploy Strategic Mission",
+          "generateReport": "📊 Generate Intel Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Command Link",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Begin Comms Link",
+            "executeCommand": "⚡ Execute Tactical Directive"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Strategic Agent Capabilities",
+          "projectManagement": "✅ Mission Resource Management",
+          "codeAnalysis": "✅ Tactical Logic Analysis",
+          "mcpIntegration": "✅ MCP System Integration",
+          "communication": "✅ Real-time Ops Comms"
+        }
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Sector Performance Metrics",
+          "cpuUsage": "Processor Load: 42%",
+          "memory": "Tactical Memory: 68%",
+          "activePanels": "Active Portals: {{count}}",
+          "uptime": "Ops Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Command Activity",
+          "panelCreated": "🏷️ Portal created: Project Management",
+          "swarmDeskInteraction": "🎮 SwarmDesk ops interaction: Command station engaged",
+          "mcpToolExecuted": "🔧 MCP tactical tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 Tactical Insights",
+          "mostUsedPanel": "Most used portal: Project Management",
+          "peakActivity": "Peak ops activity: 14:00-15:00",
+          "efficiencyScore": "Command efficiency rating: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Neural Models",
+          "currentModel": "Active Matrix: {{model}}",
+          "loadModel": "Initialize Neural Model"
+        },
+        "compatibility": {
+          "title": "✅ System Compatibility",
+          "checking": "🔍 Scanning system compatibility...",
+          "checkCompatibility": "🔍 Verify Hardware Link"
+        },
+        "status": {
+          "title": "⚡ WebLLM Neural Status",
+          "initialized": "Core Initialized: {{status}}",
+          "currentModel": "Active Neural Model: {{model}}",
+          "loading": "Model Loading: {{status}}",
+          "inferencing": "Neural Processing: {{status}}",
+          "queueLength": "Processing Queue: {{length}}",
+          "loadedModels": "Active Neural Matrixes: {{count}}",
+          "mode": "Ops Mode: {{mode}}",
+          "initialize": "🚀 Boot Neural Core"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Neural Settings",
+          "agentModelAssignment": "Neural Agent Assignment:",
+          "useGlobal": "Use Standard Neural Core",
+          "perAgent": "Dedicated Agent Matrixes",
+          "temperature": "Neural Variance:",
+          "maxTokens": "Buffer Capacity:",
+          "saveSettings": "💾 Secure Settings",
+          "resetDefaults": "🔄 Factory Reset"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Comms Logs",
+          "noMessages": "No traffic detected...",
+          "waitingTraffic": "Waiting for MQTT comms traffic on port 4140",
+          "reconnect": "🔄 Re-establish Comms Link",
+          "messages": "Traffic Packets: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Purge Comms Logs",
+          "export": "💾 Secure Logs Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Comms Status",
+          "status": "Ops Status: {{status}}",
+          "broker": "Relay Hub: {{broker}}",
+          "clientId": "Client ID: swarmdesk_{{id}}",
+          "messagesReceived": "Data Stream Count: {{count}}",
+          "lastActivity": "Last Comms Burst: {{time}}",
+          "subscriptions": "📡 Comms Channels:",
+          "connect": "🔄 Connect Comms Link",
+          "disconnect": "🔌 Disconnect Comms Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Comms Settings",
+          "brokerAddress": "Relay Hub Address:",
+          "subscribeTopics": "Monitor Comms Channels:",
+          "autoReconnect": "Auto-reconnect on comms loss",
+          "showTimestamps": "Show packet timestamps",
+          "saveSettings": "💾 Secure Comms Settings",
+          "resetDefaults": "🔄 Reset Comms Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "title": "📂 Mech Database",
+      "subtitle": "Unit Management Hub",
+      "description": "Comprehensive mech specifications and tactical data for organizing sorties and tracking combat effectiveness.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Hangar Operations",
+          "description": "Tactical command center for managing mechs, missions, and pilot coordination with integrated combat analytics.",
+          "features": [
+            "📈 Sortie progress tracking and analytics",
+            "🎯 Mission briefing and combat prioritization",
+            "🤖 AI-powered tactical recommendations",
+            "🔗 Fleet systems integration",
+            "📊 Real-time pilot collaboration"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Fleet Integration",
+          "description": "Communication and coordination platform linking mechs and fleet services for streamlined combat operations.",
+          "features": [
+            "🔧 Multi-unit connectivity",
+            "⚙️ Automated mission processing",
+            "📊 Real-time tactical data sync",
+            "🔐 Encrypted comm protocols",
+            "🎯 Centralized mission coordination"
+          ]
+        }
+      },
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk",
+        "description": "3D tactical command interface for the Madness Interactive operations ecosystem",
+        "features": [
+          "🎮 3D tactical command sector",
+          "🤖 Direct agent comms link",
+          "📊 Real-time ops system monitoring",
+          "🎪 Combat mode override"
+        ],
+        "status": "🔥 Active Ops Development",
+        "visibility": "public operations repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Operational Inventory management system - Coordinate Tactical Agents at speed, and modify directives during active missions",
+        "features": [
+          "📋 Mission task tracking",
+          "🏷️ Smart unit categorization",
+          "📈 Intelligence dashboard",
+          "🔄 Multi-system ops integration"
+        ],
+        "status": "🚀 Active Sector Development (secure repo)",
+        "visibility": "secure ops lab"
+      },
+      "swarmonomicon": {
+        "title": "📖 Swarmonomicon",
+        "description": "AI agent swarm coordination system - the central manual for digital agent orchestration and collective intelligence",
+        "features": [
+          "🤖 Agent swarm orchestration",
+          "💬 Comms link protocols",
+          "🎮 Tactical command interfaces",
+          "🧠 Collective neural intelligence"
+        ],
+        "status": "✨ modularly operational",
+        "visibility": "public operations repository"
+      }
+    },
+    "errors": {
+      "connectionFailed": "❌ Comm Link Failed",
+      "loadingError": "⚠️ Data Load Error",
+      "permissionDenied": "🔒 Clearance Denied",
+      "systemUnavailable": "🚫 Systems Offline",
+      "unknownError": "❓ Unknown System Error",
+      "initializationFailed": "SwarmDesk ops scripts failed to load within command timeout",
+      "sceneInitFailed": "❌ Sector initialization failed:",
+      "panelSystemFailed": "❌ HUD system deployment failed:",
+      "panelSystemMissing": "⚠️ HUD system not operational",
+      "controlsInitFailed": "Failed to initialize tactical standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js combat sector:"
+    },
+    "status": {
+      "initializing": "⚙️ Booting Mech Systems...",
+      "loading": "📊 Loading Combat Configuration...",
+      "ready": "✅ Combat Ready",
+      "error": "❌ System Critical",
+      "offline": "⚠️ Offline Mode - Limited Combat Capability",
+      "initialized": "✅ SwarmDesk ops tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk tactical scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk ops scripts timeout",
+      "containerNotReady": "⚠️ Command container not ready yet",
+      "panelSystemExists": "🏷️ HUD system active, verifying integrity",
+      "panelSystemMissing": "⚠️ HUD control failure, recalibrating...",
+      "panelSystemCreated": "✅ HUD interface deployed successfully"
+    },
+    "actions": {
+      "create": "🆕 Register New Unit",
+      "view": "👁️ View Specs",
+      "edit": "✏️ Modify Configuration",
+      "delete": "🗑️ Destroy Unit",
+      "refresh": "🔄 Rescan Data",
+      "connect": "🔗 Establish Comm Link",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "AI Tactical Analysis",
+      "perform_geomancy": "Combat Pattern Scan",
+      "consolidate_similar": "Mission Consolidation"
+    },
+    "descriptions": {
+      "enhance_description": "Deploy AI to analyze mission briefs with improved tactical clarity and combat insights",
+      "perform_geomancy": "Scan combat patterns and sortie relationships to identify tactical optimization opportunities",
+      "consolidate_similar": "Automatically identify and merge similar missions to reduce redundancy and streamline operations"
+    },
+    "interface": {
+      "title": "🪄 Tactical Enhancement Systems",
+      "subtitle": "Deploy AI-powered combat systems to optimize mission planning",
+      "selectSpell": "Select Tactical System",
+      "castSpell": "Deploy System",
+      "cancelSpell": "Abort",
+      "casting": "System Deploying...",
+      "resultsTitle": "✨ Tactical Analysis Results",
+      "historyTitle": "📜 System Deployment Log",
+      "clearHistory": "Purge Log",
+      "noHistory": "No tactical systems have been deployed",
+      "placeholder": "Select a system to enhance your missions..."
+    },
+    "effects": {
+      "particles": "Targeting system active",
+      "energy": "Combat systems processing",
+      "casting": "Tactical analysis in progress",
+      "complete": "System deployment complete"
+    },
+    "results": {
+      "enhance": {
+        "success": "🧠 Mission enhanced with AI tactical insights!",
+        "improvement": "Tactical analysis applied to mission brief",
+        "insights": "Combat insights:",
+        "suggestions": "Tactical recommendations:"
+      },
+      "geomancy": {
+        "success": "🔍 Combat patterns identified!",
+        "insights": "Tactical findings:",
+        "patterns": "Pattern scan results:",
+        "recommendations": "Strategic recommendations:",
+        "analysis": "Combat analysis complete"
+      },
+      "consolidate": {
+        "success": "🔗 Similar missions consolidated!",
+        "merged": "{{count}} missions merged successfully",
+        "candidates": "Consolidation targets:",
+        "preview": "Merge tactical preview:",
+        "confirmation": "Proceed with mission consolidation?"
+      }
+    },
+    "errors": {
+      "castingFailed": "System deployment failed: {{error}}",
+      "noDescription": "Mission brief required for tactical analysis",
+      "rateLimited": "System overheating. Cooldown time: {{timeRemaining}}",
+      "aiError": "AI copilot encountered critical error",
+      "networkError": "Comm link failure",
+      "invalidSpell": "Unknown tactical system requested",
+      "unauthorized": "Insufficient clearance for this system"
+    },
+    "rateLimit": {
+      "enhance": "Tactical analysis: {{used}}/{{limit}} remaining",
+      "geomancy": "Pattern scans: {{used}}/{{limit}} remaining",
+      "consolidate": "Consolidation ops: {{used}}/{{limit}} remaining",
+      "resetTime": "System reset in: {{time}}",
+      "depleted": "System overheated - cooldown in progress"
+    },
+    "tooltip": {
+      "castSpell": "Deploy tactical system (🪄)",
+      "enhanceDescription": "AI tactical analysis (Ctrl+E)",
+      "performGeomancy": "Combat pattern scan (Ctrl+G)",
+      "consolidateSimilar": "Mission consolidation (Ctrl+C)",
+      "spellHistory": "View deployment history",
+      "clearHistory": "Purge deployment log"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Tactical Commands:",
+      "enhance": "Ctrl+E - Tactical Analysis",
+      "geomancy": "Ctrl+G - Pattern Scan",
+      "consolidate": "Ctrl+C - Mission Merge",
+      "cancel": "Esc - Abort"
+    },
+    "history": {
+      "timestamp": "Deployment time:",
+      "spellType": "System type:",
+      "target": "Target mission:",
+      "result": "Result:",
+      "success": "✅ Success",
+      "failed": "❌ Failed",
+      "duration": "Duration:",
+      "empty": "No system deployments logged"
+    },
+    "status": {
+      "idle": "Tactical systems ready",
+      "casting": "Deploying system...",
+      "processing": "Processing tactical data...",
+      "complete": "System deployment complete",
+      "failed": "Deployment failed",
+      "cooldown": "Systems cooling down..."
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Command Overview",
+      "users": "Pilots",
+      "analytics": "Combat Analytics",
+      "featureFlags": "System Protocols",
+      "systemLogs": "Fleet Logs"
+    },
+    "overview": {
+      "title": "Fleet Command Overview",
+      "loading": "Scanning fleet data...",
+      "refresh": "Rescan statistics",
+      "fallback": "(showing simulator data for testing)",
+      "totalUsers": "Total Pilots",
+      "totalUsersSubtitle": "All registered pilots",
+      "activeUsers": "Active Pilots (7d)",
+      "activeUsersSubtitle": "Pilots on active duty this week",
+      "premiumUsers": "Elite Pilots",
+      "premiumUsersSubtitle": "Special forces clearance",
+      "errors": "System Errors (24h)",
+      "errorsSubtitle": "Critical failures today",
+      "tierDistribution": "Pilot Classification",
+      "tier": {
+        "free": "Recruit",
+        "pro": "Veteran",
+        "premium": "Ace Pilot",
+        "admin": "Commander"
+      },
+      "productivity": "Combat Efficiency",
+      "totalTodos": "Total Missions",
+      "completedTodos": "Missions Complete",
+      "completionRate": "Success Rate"
+    },
+    "analytics": {
+      "title": "Combat Analytics",
+      "loading": "Loading tactical data...",
+      "comingSoon": "Analytics Bay Under Construction",
+      "description": "Advanced tactical charts and combat visualization systems currently being calibrated. Check back soon for detailed insights into pilot performance, mech efficiency, and fleet combat metrics.",
+      "timeframe": {
+        "day": "Last 24 Hours",
+        "week": "Last 7 Days",
+        "month": "Last 30 Days",
+        "year": "Last 12 Months"
+      },
+      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of data science!",
+      "charts": {
+        "userGrowth": "User Growth Trends",
+        "userGrowthDesc": "Track new user registrations over time",
+        "activityHeatmap": "Activity Heatmap",
+        "activityHeatmapDesc": "Visualize user activity patterns by hour/day",
+        "featureUsage": "Feature Usage Distribution",
+        "featureUsageDesc": "Which features are most popular?",
+        "performance": "System Performance Metrics",
+        "performanceDesc": "API response times and error rates"
+      }
+    },
+    "logs": {
+      "title": "System Logs",
+      "loading": "Analyzing laboratory recordings...",
+      "refresh": "Refresh logs",
+      "fallback": "(showing mock data for development)",
+      "autoRefresh": "Auto-refresh (30s)",
+      "showing": "Showing",
+      "entries": "entries",
+      "empty": "No logs found - laboratory running smoothly!",
+      "columns": {
+        "timestamp": "Time",
+        "level": "Level",
+        "message": "Message",
+        "user": "User",
+        "endpoint": "Endpoint"
+      },
+      "severity": {
+        "error": "ERROR",
+        "warning": "WARNING",
+        "info": "INFO"
+      }
+    },
+    "featureFlags": {
+      "title": "Feature Flags",
+      "loading": "Loading experimental protocols...",
+      "refresh": "Refresh flags",
+      "fallback": "(showing mock data for development)",
+      "lastUpdated": "Last updated",
+      "unsavedChanges": "You have unsaved changes. These will affect all users when saved!",
+      "save": "Save Changes",
+      "cancel": "Cancel",
+      "saving": "Saving...",
+      "confirmSave": "Yes, Apply Changes",
+      "tiers": {
+        "free": "Free Tier",
+        "pro": "Pro Tier",
+        "premium": "Premium Tier",
+        "admin": "Admin Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Todos",
+        "chat_interface": "Chat Interface",
+        "theme_selector": "Theme Selector",
+        "export_todos": "Export Todos",
+        "advanced_search": "Advanced Search",
+        "unlimited_todos": "Unlimited Todos",
+        "mindmap_view": "Mind Map View",
+        "custom_themes": "Custom Themes",
+        "api_access": "API Access",
+        "priority_support": "Priority Support",
+        "swarmdesk_3d": "SwarmDesk 3D",
+        "collaborative_editing": "Collaborative Editing",
+        "ai_copilot": "AI Copilot",
+        "admin_panel": "Admin Panel",
+        "user_management": "User Management",
+        "feature_flags": "Feature Flags",
+        "system_logs": "System Logs",
+        "analytics": "Analytics",
+        "debug_mode": "Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Feature Flag Changes",
+        "message": "Are you sure you want to apply these changes? This will immediately affect all users across the platform. Feature flags control access to core functionality.",
+        "warning": "Tip: Test changes on a staging environment first. Disabling critical features may break user workflows."
+      }
+    },
+    "users": {
+      "title": "User Management",
+      "loading": "Cataloging test subjects...",
+      "refresh": "Refresh user list",
+      "fallback": "(showing mock data for development)",
+      "searchPlaceholder": "Search by email or name...",
+      "showing": "Showing",
+      "users": "users",
+      "filtered": "filtered from",
+      "empty": "No users registered yet",
+      "noResults": "No users found matching your search",
+      "adminBadge": "ADMIN",
+      "edit": {
+        "title": "Edit User",
+        "email": "Email",
+        "tier": "Tier",
+        "isAdmin": "Grant Admin Access",
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "columns": {
+        "email": "Email",
+        "tier": "Tier",
+        "status": "Status",
+        "lastLogin": "Last Login",
+        "todos": "Todos",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Admin Access Change",
+        "grantMessage": "You are about to grant admin privileges to this user. This will give them full access to the admin panel, including user management, feature flags, and system logs.",
+        "revokeMessage": "You are about to revoke admin privileges from this user. They will lose access to all admin functionality.",
+        "cancel": "Cancel",
+        "confirm": "Yes, Confirm",
+        "saving": "Saving..."
+      }
+    },
+    "common": {
+      "loading": "Loading...",
+      "error": "An error occurred",
+      "refresh": "Refresh",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "queuePane": {
+    "title": "Tactical Priority Queue",
+    "subtitle": "Arrange your mission objectives by combat priority",
+    "dragHint": "Drag mission cards to reorder the sortie priority",
+    "searchPlaceholder": "Search the mission queue...",
+    "emptyState": "No missions in queue - all units on standby",
+    "noSearchResults": "No missions match your tactical search parameters",
+    "reordering": "Recalibrating combat priority...",
+    "allProjects": "All Units",
+    "cardActions": {
+      "complete": "Mission Complete",
+      "edit": "Reconfigure",
+      "remove": "Remove from Queue"
+    },
+    "incoming": {
+      "title": "Incoming Sorties",
+      "addToTop": "Priority Deploy",
+      "addToBottom": "Queue for Sortie"
+    },
+    "ordered": {
+      "title": "Tactical Queue"
+    },
+    "stats": {
+      "total": "Queued Missions",
+      "high": "Code Red",
+      "incoming": "Incoming"
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(20, 20, 25, 0.7)",
+      "cardBorder": "rgba(148, 163, 184, 0.4)",
+      "cardText": "#cbd5e1",
+      "iconColor": "#94a3b8",
+      "chipBg": "#475569",
+      "chipText": "#e2e8f0"
+    },
+    "actions": {
+      "skip": "Skip Briefing",
+      "next": "Proceed",
+      "back": "Fall Back",
+      "getStarted": "Deploy"
+    },
+    "complete": {
+      "message": "Boot camp is over. Lock and load, commander. The grid awaits your orders."
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome to Hangar Bay",
+        "defaultName": "Pilot",
+        "description": "Inventorium is your AI-powered tactical management and battlefield visualization platform.",
+        "subtitle": "Commencing tactical briefing. Stand by for system check."
+      },
+      "projects-overview": {
+        "title": "Mech Operations",
+        "description": "Organize your mission objectives into mech units for optimized fleet management and tactical visualization.",
+        "benefitsTitle": "Hangar Protocol Benefits:",
+        "benefits": {
+          "organize": "Group related sorties together",
+          "visualize": "Monitor fleet status in real-time",
+          "track": "Track mission success rates",
+          "collaborate": "Coordinate with squadron"
+        },
+        "hint": "💡 Tactical Note: Every mission belongs to a unit"
+      },
+      "create-project": {
+        "title": "Register New Unit",
+        "description": "Let's register a new mobile suit to organize your operations. Units help you group related missions together.",
+        "guideTitle": "How to register a unit:",
+        "step1": "Engage the floating '+' button in the bottom right corner",
+        "step2": "Select the 'Mech Unit' tab in the interface",
+        "step3": "Enter a unique unit ID (lowercase with hyphens, e.g., 'rx-78-01')",
+        "step4": "Add a designation and technical specs",
+        "hint": "Tip: Unit IDs must be unique and use lowercase alphanumeric characters"
+      },
+      "add-todo": {
+        "title": "Add Mission Objective",
+        "description": "Now let's add a mission objective to your unit. These are the tactical goals for your sortie.",
+        "guideTitle": "How to create an objective:",
+        "step1": "Engage the floating '+' button again",
+        "step2": "Select the 'Mission' tab in the interface",
+        "step3": "Enter your mission parameters",
+        "step4": "Select your unit from the dropdown",
+        "step5": "Set combat priority and click 'Deploy'",
+        "hint": "Tip: You can deploy missions from any command terminal using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Deploy AI Tactical Advisor",
+        "description": "Enhance combat readiness by integrating an AI advisor such as Google Gemini or OpenAI.",
+        "whyConfigureTitle": "Tactical Advantages of AI Integration:",
+        "benefits": {
+          "suggestions": "Generate strategic mission recommendations",
+          "enhance": "Optimize objective parameters with intelligence",
+          "analyze": "Conduct unit dependency analysis",
+          "insights": "Extract operational efficiency metrics"
+        },
+        "statusConfigured": "Status: ✅ AI advisor deployed and combat-ready!",
+        "statusNotConfigured": "Status: ❌ AI advisor awaiting deployment",
+        "configureButton": "Deploy AI Advisor",
+        "skipButton": "Defer Deployment",
+        "helpText": "AI advisor can be deployed anytime via Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "AI Tactical Copilot",
+        "description": "Deploy your AI copilot to manage sorties, analyze combat data, and enhance mission efficiency.",
+        "examplesTitle": "Quick Deploy Actions:",
+        "quickActions": {
+          "createTodos": "Generate missions from intel",
+          "analyzeTasks": "Analyze combat patterns",
+          "suggestions": "Receive tactical advisories",
+          "insights": "Battlefield intelligence"
+        },
+        "hint": "💡 Tactical Note: Access cockpit interface to engage"
+      },
+      "swarmdesk": {
+        "title": "3D Combat Zone",
+        "description": "Explore your codebase in 3D tactical view - an immersive battlefield visualization tool.",
+        "featuresTitle": "Combat Zone Features:",
+        "features": {
+          "codeViz": "3D terrain mapping",
+          "interactive": "Interactive tactical navigation",
+          "architecture": "System architecture overview",
+          "dependencies": "Supply chain mapping"
+        },
+        "hint": "💡 Tactical Note: Access combat zone from unit dashboard",
+        "tabTip": "After system initialization, press TAB to toggle between cockpit and 3D view"
+      },
+      "complete": {
+        "title": "Systems Online!",
+        "description": "Your command station is fully operational. You are cleared for launch.",
+        "nextStepsTitle": "Mission Objectives:",
+        "nextSteps": {
+          "createProject": "Register your first mobile suit",
+          "addTodos": "Deploy mission objectives",
+          "tryAI": "Engage AI copilot",
+          "checkSwarmDesk": "Enter 3D Combat Zone"
+        },
+        "footer": "💡 You can replay this briefing anytime from Cockpit Config"
+      }
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Map Background",
+      "description": "Set a custom background image for your War Room map",
+      "presets": "Presets",
+      "uploads": "Your Uploads",
+      "upload": "Upload",
+      "noUploads": "No custom backgrounds yet",
+      "opacity": "Opacity",
+      "fitMode": "Fit Mode",
+      "fitCover": "Cover",
+      "fitContain": "Contain",
+      "fitStretch": "Stretch",
+      "fitTile": "Tile",
+      "blendWithTerrain": "Blend with Terrain",
+      "remove": "Remove Background",
+      "active": "Active",
+      "uploadError": "Upload failed. Please try again.",
+      "fileTooLarge": "Image must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+    }
+  },
+  "insights": {
+    "loading": "Loading insights...",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "systemLogs": "System Logs"
+    }
+  },
+  "themeName": "gunmetal",
+  "displayName": "Gunmetal Arsenal",
+  "description": "Military and industrial terminology - ops, recon, deploy, and command",
+  "icon": "🔫",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "After Action Reviews",
+    "addLesson": "File AAR",
+    "emptyState": {
+      "title": "No Intel Logged",
+      "message": "Get out there and gather some field data, soldier.",
+      "action": "Initiate Recon"
+    },
+    "fields": {
+      "topic": "Combat Zone",
+      "language": "Comms Protocol",
+      "lessonLearned": "Tactical Insight",
+      "tags": "Clearance Tags"
+    },
+    "actions": {
+      "edit": "Revise Intel",
+      "delete": "Expunge Record",
+      "save": "Secure Intel"
+    }
+  },
+  "mindmap": {
+    "title": "Tactical Grid",
+    "emptyState": {
+      "title": "Grid Offline",
+      "message": "Deploy assets to populate the tactical grid."
+    },
+    "controls": {
+      "zoomIn": "Magnify Vector",
+      "zoomOut": "Widen Sector",
+      "resetView": "Default Coordinates",
+      "centerView": "Lock on HQ"
+    }
+  },
+  "swarmdesk": {
+    "title": "Squad Radar",
+    "emptyState": {
+      "title": "Radar Clear",
+      "message": "No squad activity detected in this sector."
+    },
+    "controls": {
+      "rotate": "Adjust Pitch",
+      "zoom": "Magnify Optics",
+      "pan": "Sweep Sector",
+      "reset": "Zero Optics"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Theater",
+    "placeholder": "Search theaters...",
+    "noProjects": "No campaigns found in the arsenal.",
+    "createNew": "Mobilize New Campaign"
+  },
+  "errors": {
+    "generic": "FUBAR. Operation failed.",
+    "network": "Comms link severed. Check your connection.",
+    "notFound": "Target MIA. Coordinates invalid.",
+    "unauthorized": "Access denied. Insufficient clearance.",
+    "serverError": "Command HQ is offline. Await reinforcements.",
+    "server": "Comms failure! HQ has been notified of the system breach.",
+    "timeout": "Signal lost. Re-establishing connection to the grid."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Confirm asset destruction?",
+    "discard": "Abort current draft?",
+    "archive": "Mothball this campaign?"
+  },
+  "agentStates": {
+    "working": "Engaging Target",
+    "traveling": "Deploying",
+    "idle": "Standing By",
+    "assigned": "Orders Received"
+  },
+  "targetAgent": {
+    "user": "Commander",
+    "ai": "Drone Swarm",
+    "system": "Command Core",
+    "none": "Unassigned"
+  },
+  "accountPanel": {
+    "title": "Operative Dossier",
+    "tabs": {
+      "profile": "Personnel Record",
+      "subscription": "Service Contract",
+      "account": "Account Command"
+    },
+    "subscriptionDisabled": "Subscription deployment offline",
+    "dangerZone": "Restricted Zone"
+  },
+  "billing": {
+    "title": "Command & Supply Logistics",
+    "subtitle": "Manage mission logistics and field funding",
+    "loginRequired": "Secure credentials required for logistics access",
+    "goToLogin": "Secure Login",
+    "currentPlan": "Operational Clearance",
+    "perMonth": "/deployment cycle",
+    "nextBillingDate": "Next requisition date:",
+    "planFeatures": "CLEARANCE BENEFITS:",
+    "upgradeToPro": "AUTHORIZE COMMANDER CLEARANCE",
+    "manageBilling": "Open Logistics Portal",
+    "cancelSubscription": "Terminate Funding",
+    "usageStats": "Operational Metrics",
+    "totalTodos": "Active Objectives",
+    "projects": "Tactical Sectors",
+    "unlimited": "Unrestricted",
+    "upgradePrompt": "Authorize Commander Clearance for unrestricted objectives, sectors, War Room access, and SwarmDesk tactical support!",
+    "cancelSuccess": "Funding terminated. Clearance remains active until the current deployment cycle ends.",
+    "status": {
+      "active": "OPERATIONAL",
+      "free": "RECRUIT",
+      "inactive": "OFFLINE"
+    },
+    "errors": {
+      "loadFailed": "Logistics data retrieval failed",
+      "cancelFailed": "Termination sequence failed. Retry or contact HQ.",
+      "portalFailed": "Logistics portal connection timed out."
+    },
+    "cancelDialog": {
+      "title": "Terminate Funding?",
+      "message": "Are you sure you want to terminate funding? Commander privileges remain active until the end of the current cycle.",
+      "resubscribe": "You can re-establish funding at any time.",
+      "keep": "Maintain Operations",
+      "confirm": "Confirm Termination"
+    }
+  },
+  "pricing": {
+    "title": "Clearance Levels",
+    "subtitle": "Recruit level provides basic support. Commander level removes all field restrictions.",
+    "backToDashboard": "Return to Command",
+    "currentPlan": "CURRENT CLEARANCE",
+    "free": "Recruit",
+    "perMonth": "/deployment cycle",
+    "loginToUpgrade": "AUTH REQUIRED FOR ELEVATION",
+    "currentTier": "CURRENT LEVEL",
+    "upgrade": "ELEVATE",
+    "finePrint": "Terminate anytime. No long-term contracts. Your mission data remains secure.",
+    "errors": {
+      "loginRequired": "Secure authentication required for clearance elevation",
+      "checkoutFailed": "Logistics handshake failed. Retry."
+    }
+  },
+  "cancel": {
+    "title": "Funding Terminated",
+    "message": "Operations have been scaled back. You can re-establish funding at any time. Your basic field access remains active.",
+    "goToDashboard": "Return to Command",
+    "viewPlans": "Review Clearance Levels"
+  },
+  "chronomancy": {
+    "loading": "Retrieving mission archives...",
+    "noVersions": "No recorded mission history.",
+    "today": "Current Ops",
+    "yesterday": "Previous Ops",
+    "daysAgo": "{{days}}d prior",
+    "currentVersion": "Active Duty",
+    "versionLabel": "Archive v{{version}}",
+    "versions": "archives",
+    "gitCommit": "Deployment Hash",
+    "classesChange": "Tactical Units changed",
+    "linesChange": "Log entries changed",
+    "deleteVersion": "Expunge archive",
+    "deleteDialog": {
+      "title": "Expunge Archive?",
+      "message": "Permanently purge archive v{{version}} of {{project}}? This action is irreversible.",
+      "cancel": "Abort",
+      "confirm": "Expunge"
+    },
+    "compare": {
+      "selectTwo": "Select 2 for Recon",
+      "button": "Compare v{{from}} → v{{to}}"
+    },
+    "diff": {
+      "title": "Recon: v{{from}} → v{{to}}",
+      "added": "Deployed",
+      "removed": "Decommissioned",
+      "modified": "Modified",
+      "unchanged": "Maintained",
+      "complexity": "Risk Profile",
+      "lines": "Logs",
+      "noClassesAdded": "No units deployed",
+      "noClassesRemoved": "No units decommissioned",
+      "noClassesModified": "No units modified",
+      "methodsAdded": "Protocols deployed:",
+      "methodsRemoved": "Protocols decommissioned:",
+      "depsAdded": "Support units attached:",
+      "depsRemoved": "Support units detached:",
+      "close": "Dismiss"
+    }
+  }
+}

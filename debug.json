@@ -1,0 +1,2131 @@
+{
+  "createProject": {
+    "title": "createProject.title",
+    "subtitle": "createProject.subtitle",
+    "buttons": {
+      "reset": "createProject.buttons.reset",
+      "create": "createProject.buttons.create",
+      "submit": "createProject.buttons.submit",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "createProject.demoMode.label",
+      "title": "createProject.demoMode.title",
+      "description": "createProject.demoMode.description"
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "tabs.todos",
+    "lessons": "tabs.lessons",
+    "project": "tabs.project",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "validation.nameRequired",
+    "nameLength": "validation.nameLength",
+    "nameFormat": "validation.nameFormat",
+    "displayNameRequired": "validation.displayNameRequired",
+    "descriptionRequired": "validation.descriptionRequired",
+    "descriptionLength": "validation.descriptionLength",
+    "topicRequired": "validation.topicRequired",
+    "topicTooLong": "validation.topicTooLong",
+    "contentRequired": "validation.contentRequired",
+    "contentTooLong": "validation.contentTooLong",
+    "invalidLanguage": "validation.invalidLanguage",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "common.save",
+    "cancel": "common.cancel",
+    "close": "common.close",
+    "edit": "common.edit",
+    "delete": "common.delete",
+    "reset": "common.reset",
+    "loading": "common.loading",
+    "error": "common.error",
+    "success": "common.success",
+    "failed": "common.failed",
+    "perPage": "common.perPage",
+    "refreshNow": "common.refreshNow",
+    "copyId": "common.copyId",
+    "show": "common.show",
+    "copy": "common.copy",
+    "refresh": "Refresh",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "forms.name",
+    "displayName": "forms.displayName",
+    "description": "forms.description",
+    "type": "forms.type",
+    "visibility": "forms.visibility",
+    "repository": "forms.repository",
+    "language": "forms.language",
+    "framework": "forms.framework",
+    "priority": "forms.priority",
+    "status": "forms.status",
+    "notes": "forms.notes",
+    "ticket": "forms.ticket"
+  },
+  "dashboard": {
+    "title": "dashboard.title",
+    "projectStats": {
+      "title": "dashboard.projectStats.title",
+      "collection": "dashboard.projectStats.collection",
+      "totalProjects": "dashboard.projectStats.totalProjects",
+      "activeProjects": "dashboard.projectStats.activeProjects",
+      "projectsWithCompleted": "dashboard.projectStats.projectsWithCompleted",
+      "avgTasksPerProject": "dashboard.projectStats.avgTasksPerProject"
+    },
+    "priorityBreakdown": {
+      "title": "dashboard.priorityBreakdown.title",
+      "pendingTasks": "dashboard.priorityBreakdown.pendingTasks",
+      "inReview": "dashboard.priorityBreakdown.inReview",
+      "inProgress": "dashboard.priorityBreakdown.inProgress",
+      "blocked": "dashboard.priorityBreakdown.blocked",
+      "completed": "dashboard.priorityBreakdown.completed",
+      "highPriority": "dashboard.priorityBreakdown.highPriority",
+      "mediumPriority": "dashboard.priorityBreakdown.mediumPriority",
+      "lowPriority": "dashboard.priorityBreakdown.lowPriority"
+    },
+    "activityLog": {
+      "title": "dashboard.activityLog.title",
+      "collection": "dashboard.activityLog.collection",
+      "description": "dashboard.activityLog.description",
+      "updates": "dashboard.activityLog.updates",
+      "creates": "dashboard.activityLog.creates",
+      "deletes": "dashboard.activityLog.deletes",
+      "completions": "dashboard.activityLog.completions",
+      "totalEntries": "dashboard.activityLog.totalEntries"
+    },
+    "recentlyCompleted": {
+      "title": "dashboard.recentlyCompleted.title"
+    },
+    "welcome": {
+      "message": "dashboard.welcome.message",
+      "description": "dashboard.welcome.description",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "dashboard.quickActions.openTodos",
+      "chatAssistant": "dashboard.quickActions.chatAssistant",
+      "activityLog": "dashboard.quickActions.activityLog",
+      "projects": "dashboard.quickActions.projects"
+    },
+    "filters": {
+      "allActivity": "[dashboard.filters.allActivity] All Activity",
+      "todosCreated": "[dashboard.filters.todosCreated] Tasks Created",
+      "todosUpdated": "[dashboard.filters.todosUpdated] Tasks Updated",
+      "todosCompleted": "[dashboard.filters.todosCompleted] Tasks Completed",
+      "todosDeleted": "[dashboard.filters.todosDeleted] Tasks Deleted",
+      "projectsCreated": "[dashboard.filters.projectsCreated] Projects Created",
+      "projectsUpdated": "[dashboard.filters.projectsUpdated] Projects Updated",
+      "projectsDeleted": "[dashboard.filters.projectsDeleted] Projects Deleted"
+    },
+    "unifiedView": "🌐 [dashboard.unifiedView]",
+    "personalView": "👤 [dashboard.personalView]",
+    "showingAllDatabases": "[dashboard.showingAllDatabases] All databases",
+    "showingPersonalOnly": "[dashboard.showingPersonalOnly] Personal only",
+    "filteredByProject": "Filtered by strategic initiative:",
+    "noLogsFound": "📭 No traceable activity detected – operational calm achieved!",
+    "tryChangingFilter": "Consider realigning filter parameters to broaden visibility",
+    "startCreatingTodos": "Initiate new action items to populate performance metrics",
+    "failedToLoad": "⚠️ Unable to retrieve operational telemetry: {{error}}",
+    "changesMade": "Documented Configuration Realignments:",
+    "completionNotes": "Closure Justification Notes:",
+    "revertOperation": "Reverse-Engineer {{operation}}",
+    "revertSuccess": "Successfully rolled back {{operation}} transaction",
+    "revertFailed": "Rollback procedure failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore deleted resource - recovery SLA exceeded",
+    "revertNotSupported": "Rollback protocol unavailable for {{operation}} action",
+    "confirmRevert": "Confirm Transaction Rollback",
+    "confirmRevertMessage": "Please confirm you wish to reverse this {{operation}} transaction for: {{description}}?",
+    "confirmRevertAction": "Execute Rollback",
+    "operationType": "Transaction Type",
+    "taskDescription": "Action Item Description",
+    "descriptions": {
+      "projectCreated": "Initiative \"{{projectName}}\" successfully onboarded to the synergy pipeline",
+      "projectUpdated": "Initiative \"{{projectName}}\" underwent a strategic recalibration",
+      "projectDeleted": "Initiative \"{{projectName}}\" respectfully retired to archival storage",
+      "projectModified": "Initiative \"{{projectName}}\" received configuration refinements",
+      "unknownTask": "Unclassified operational task logged without context"
+    },
+    "showingPageStats": "Displaying dossier {{currentPage}} of {{totalPages}} ({{totalCount}} total operational events)",
+    "autoRefreshingInterval": " • Auto-recalibrating every 30 seconds",
+    "stats": {
+      "totalProjects": "Total Projects",
+      "activeProjects": "Active Research",
+      "completedTodos": "Completed Tasks",
+      "archivedProjects": "Archived Projects"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "activityLog.title",
+    "autoRefreshOn": "activityLog.autoRefreshOn",
+    "autoRefreshOff": "activityLog.autoRefreshOff",
+    "filters": {
+      "allActivity": "activityLog.filters.allActivity",
+      "todosCreated": "activityLog.filters.todosCreated",
+      "todosUpdated": "activityLog.filters.todosUpdated",
+      "todosCompleted": "activityLog.filters.todosCompleted",
+      "todosDeleted": "activityLog.filters.todosDeleted",
+      "projectsCreated": "activityLog.filters.projectsCreated",
+      "projectsUpdated": "activityLog.filters.projectsUpdated",
+      "projectsDeleted": "activityLog.filters.projectsDeleted",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "activityLog.unifiedView",
+    "personalView": "activityLog.personalView",
+    "showingAllDatabases": "activityLog.showingAllDatabases",
+    "showingPersonalOnly": "activityLog.showingPersonalOnly",
+    "filteredByProject": "activityLog.filteredByProject",
+    "noLogsFound": "activityLog.noLogsFound",
+    "tryChangingFilter": "activityLog.tryChangingFilter",
+    "startCreatingTodos": "activityLog.startCreatingTodos",
+    "failedToLoad": "activityLog.failedToLoad",
+    "changesMade": "activityLog.changesMade",
+    "completionNotes": "activityLog.completionNotes",
+    "revertOperation": "activityLog.revertOperation",
+    "revertSuccess": "activityLog.revertSuccess",
+    "revertFailed": "activityLog.revertFailed",
+    "revertDeleteNotSupported": "activityLog.revertDeleteNotSupported",
+    "revertNotSupported": "activityLog.revertNotSupported",
+    "descriptions": {
+      "projectCreated": "activityLog.descriptions.projectCreated",
+      "projectUpdated": "activityLog.descriptions.projectUpdated",
+      "projectDeleted": "activityLog.descriptions.projectDeleted",
+      "projectModified": "activityLog.descriptions.projectModified",
+      "unknownTask": "activityLog.descriptions.unknownTask"
+    },
+    "showingPageStats": "activityLog.showingPageStats",
+    "autoRefreshingInterval": "activityLog.autoRefreshingInterval",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "lessonsLearned.title",
+    "refreshLessons": "lessonsLearned.refreshLessons",
+    "addLesson": "lessonsLearned.addLesson",
+    "searchPlaceholder": "lessonsLearned.searchPlaceholder",
+    "languages": {
+      "allLanguages": "lessonsLearned.languages.allLanguages",
+      "javascript": "lessonsLearned.languages.javascript",
+      "typescript": "lessonsLearned.languages.typescript",
+      "python": "lessonsLearned.languages.python",
+      "rust": "lessonsLearned.languages.rust",
+      "go": "lessonsLearned.languages.go",
+      "general": "lessonsLearned.languages.general"
+    },
+    "filters": {
+      "allLessons": "lessonsLearned.filters.allLessons",
+      "bookmarked": "lessonsLearned.filters.bookmarked",
+      "recent": "lessonsLearned.filters.recent"
+    },
+    "emptyState": {
+      "noMatching": "lessonsLearned.emptyState.noMatching",
+      "vaultEmpty": "lessonsLearned.emptyState.vaultEmpty",
+      "noMatchSearch": "lessonsLearned.emptyState.noMatchSearch",
+      "noMatchFilters": "lessonsLearned.emptyState.noMatchFilters",
+      "startDocumenting": "lessonsLearned.emptyState.startDocumenting"
+    },
+    "createFirstLesson": "lessonsLearned.createFirstLesson",
+    "actions": {
+      "starred": "lessonsLearned.actions.starred",
+      "addStar": "lessonsLearned.actions.addStar"
+    },
+    "pagination": {
+      "showingRange": "lessonsLearned.pagination.showingRange"
+    },
+    "dialog": {
+      "editTitle": "lessonsLearned.dialog.editTitle",
+      "addTitle": "lessonsLearned.dialog.addTitle",
+      "topicLabel": "lessonsLearned.dialog.topicLabel",
+      "lessonLabel": "lessonsLearned.dialog.lessonLabel",
+      "languageLabel": "lessonsLearned.dialog.languageLabel",
+      "tagsLabel": "lessonsLearned.dialog.tagsLabel",
+      "tagsPlaceholder": "lessonsLearned.dialog.tagsPlaceholder",
+      "databaseLabel": "lessonsLearned.dialog.databaseLabel",
+      "personalDatabase": "lessonsLearned.dialog.personalDatabase",
+      "sharedDatabase": "lessonsLearned.dialog.sharedDatabase",
+      "updateLesson": "lessonsLearned.dialog.updateLesson",
+      "createLesson": "lessonsLearned.dialog.createLesson"
+    },
+    "failedToLoad": "lessonsLearned.failedToLoad",
+    "confirmDelete": "lessonsLearned.confirmDelete"
+  },
+  "todoManagement": {
+    "title": "todoManagement.title"
+  },
+  "app": {
+    "titleShort": "app.titleShort",
+    "titleLong": "app.titleLong"
+  },
+  "panels": {
+    "todos": "panels.todos",
+    "logs": "panels.logs",
+    "aiChat": "panels.aiChat",
+    "create": "panels.create",
+    "projects": "panels.projects",
+    "mindMap": "panels.mindMap",
+    "swarmDesk": "panels.swarmDesk",
+    "lessons": "panels.lessons",
+    "insights": "panels.insights",
+    "settings": "panels.settings",
+    "labMaintenance": "panels.labMaintenance"
+  },
+  "labMaintenance": {
+    "title": "labMaintenance.title",
+    "tabs": {
+      "orphaned": "labMaintenance.tabs.orphaned",
+      "completed": "labMaintenance.tabs.completed",
+      "consolidate": "labMaintenance.tabs.consolidate"
+    },
+    "selectAll": "labMaintenance.selectAll",
+    "clearSelection": "labMaintenance.clearSelection",
+    "targetProject": "labMaintenance.targetProject",
+    "reassign": "labMaintenance.reassign",
+    "reassignSelected": "labMaintenance.reassignSelected",
+    "reopen": "labMaintenance.reopen",
+    "reopenSelected": "labMaintenance.reopenSelected",
+    "delete": "labMaintenance.delete",
+    "deleteSelected": "labMaintenance.deleteSelected",
+    "selectProjectFirst": "labMaintenance.selectProjectFirst",
+    "todosUpdated": "labMaintenance.todosUpdated",
+    "noOrphans": "labMaintenance.noOrphans",
+    "noCompleted": "labMaintenance.noCompleted",
+    "consolidateDescription": "labMaintenance.consolidateDescription",
+    "orphanedProjectsLabel": "labMaintenance.orphanedProjectsLabel",
+    "quickStats": "labMaintenance.quickStats",
+    "orphaned": "labMaintenance.orphaned",
+    "completed": "labMaintenance.completed",
+    "deletedProjects": "labMaintenance.deletedProjects",
+    "activeProjects": "labMaintenance.activeProjects"
+  },
+  "demo": {
+    "label": "demo.label"
+  },
+  "menu": {
+    "documentation": "menu.documentation",
+    "replayTutorial": "menu.replayTutorial",
+    "userManagement": "menu.userManagement",
+    "github": "menu.github",
+    "logout": "menu.logout"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "notifications.aiInsightsGenerated",
+    "todoMarkedForReview": "notifications.todoMarkedForReview",
+    "todoCompleted": "notifications.todoCompleted",
+    "taskCreated": "notifications.taskCreated",
+    "projectCreated": "notifications.projectCreated",
+    "aiConfigured": "notifications.aiConfigured",
+    "todoCreated": "todoCreated",
+    "settingsSaved": "settingsSaved",
+    "exportCompleted": "exportCompleted",
+    "importCompleted": "importCompleted"
+  },
+  "projectNavigator": {
+    "title": "projectNavigator.title",
+    "subtitle": "projectNavigator.subtitle",
+    "cacheStatus": "projectNavigator.cacheStatus",
+    "keyboardShortcuts": "projectNavigator.keyboardShortcuts",
+    "manageTooltip": {
+      "admin": "projectNavigator.manageTooltip.admin",
+      "personal": "projectNavigator.manageTooltip.personal"
+    },
+    "refreshTooltip": "projectNavigator.refreshTooltip",
+    "mainSwarmDeskTooltip": "projectNavigator.mainSwarmDeskTooltip",
+    "loading": {
+      "title": "projectNavigator.loading.title",
+      "subtitle": "projectNavigator.loading.subtitle"
+    },
+    "stats": {
+      "pending": "projectNavigator.stats.pending",
+      "completed": "projectNavigator.stats.completed"
+    },
+    "activity": {
+      "title": "projectNavigator.activity.title",
+      "noActivity": "projectNavigator.activity.noActivity"
+    },
+    "enterButton": {
+      "selected": "projectNavigator.enterButton.selected",
+      "enter": "projectNavigator.enterButton.enter",
+      "helpText": "projectNavigator.enterButton.helpText"
+    },
+    "deleteDialog": {
+      "title": "projectNavigator.deleteDialog.title",
+      "confirm": "projectNavigator.deleteDialog.confirm",
+      "graveyardNote": "projectNavigator.deleteDialog.graveyardNote",
+      "hasTodos": "projectNavigator.deleteDialog.hasTodos",
+      "relocateLabel": "projectNavigator.deleteDialog.relocateLabel",
+      "selectDestination": "projectNavigator.deleteDialog.selectDestination",
+      "cancel": "projectNavigator.deleteDialog.cancel",
+      "deleteButton": "projectNavigator.deleteDialog.deleteButton"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "projectSwarmdesk.title",
+    "stats": {
+      "pendingTasks": "projectSwarmdesk.stats.pendingTasks",
+      "completedTasks": "projectSwarmdesk.stats.completedTasks"
+    },
+    "loading": "projectSwarmdesk.loading",
+    "controls": "projectSwarmdesk.controls",
+    "workstation": {
+      "todoHint": "projectSwarmdesk.workstation.todoHint",
+      "projectHint": "projectSwarmdesk.workstation.projectHint"
+    },
+    "statsPanel": {
+      "title": "projectSwarmdesk.statsPanel.title",
+      "totalTasks": "projectSwarmdesk.statsPanel.totalTasks",
+      "pending": "projectSwarmdesk.statsPanel.pending",
+      "completed": "projectSwarmdesk.statsPanel.completed"
+    },
+    "reviewTab": {
+      "title": "Review Queue",
+      "approveButton": "Approve",
+      "requestChanges": "Request Changes",
+      "returnToProgress": "Return to Progress",
+      "emptyState": "No items in review"
+    }
+  },
+  "projectTab": {
+    "title": "projectTab.title",
+    "sections": {
+      "basicInfo": "projectTab.sections.basicInfo",
+      "configuration": "projectTab.sections.configuration",
+      "technicalDetails": "projectTab.sections.technicalDetails"
+    },
+    "projectTypes": {
+      "web": "projectTab.projectTypes.web",
+      "mobile": "projectTab.projectTypes.mobile",
+      "desktop": "projectTab.projectTypes.desktop",
+      "library": "projectTab.projectTypes.library",
+      "api": "projectTab.projectTypes.api",
+      "general": "projectTab.projectTypes.general"
+    },
+    "buttons": {
+      "creating": "projectTab.buttons.creating",
+      "demoMode": "projectTab.buttons.demoMode",
+      "createProject": "projectTab.buttons.createProject"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "todoTab.project.label",
+      "default": "todoTab.project.default"
+    },
+    "sections": {
+      "metadata": "todoTab.sections.metadata"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "todoList.filters.allTasks",
+      "pending": "todoList.filters.pending",
+      "review": "todoList.filters.review",
+      "completed": "todoList.filters.completed",
+      "all": "All Tasks",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "in_progress": "In Progress"
+    },
+    "sort": {
+      "newest": "todoList.sort.newest",
+      "oldest": "todoList.sort.oldest",
+      "priority": "todoList.sort.priority",
+      "madness": "todoList.sort.madness"
+    },
+    "search": {
+      "placeholder": "todoList.search.placeholder"
+    },
+    "project": {
+      "label": "todoList.project.label",
+      "allProjects": "todoList.project.allProjects",
+      "clearFilter": "todoList.project.clearFilter",
+      "clearAll": "todoList.project.clearAll"
+    },
+    "pagination": {
+      "show": "todoList.pagination.show",
+      "perPage": "todoList.pagination.perPage",
+      "all": "todoList.pagination.all",
+      "results": "results"
+    },
+    "results": {
+      "showing": "todoList.results.showing",
+      "matching": "todoList.results.matching",
+      "filteringByProject": "todoList.results.filteringByProject",
+      "filteringByProjects": "todoList.results.filteringByProjects"
+    },
+    "empty": {
+      "noMatching": "todoList.empty.noMatching",
+      "workshopClear": "todoList.empty.workshopClear",
+      "noMatchingDescription": "todoList.empty.noMatchingDescription",
+      "workshopClearDescription": "todoList.empty.workshopClearDescription"
+    },
+    "buttons": {
+      "refresh": "todoList.buttons.refresh",
+      "export": "todoList.buttons.export",
+      "saving": "todoList.buttons.saving",
+      "saveChanges": "todoList.buttons.saveChanges",
+      "discard": "todoList.buttons.discard",
+      "complete": "todoList.buttons.complete",
+      "edit": "todoList.buttons.edit",
+      "copyId": "todoList.buttons.copyId",
+      "copyJiraCmd": "todoList.buttons.copyJiraCmd",
+      "review": "todoList.buttons.review",
+      "aiInsights": "todoList.buttons.aiInsights"
+    },
+    "fullEdit": {
+      "modeTitle": "todoList.fullEdit.modeTitle"
+    },
+    "menu": {
+      "editTask": "todoList.menu.editTask",
+      "copyId": "todoList.menu.copyId",
+      "copyJiraCmd": "todoList.menu.copyJiraCmd",
+      "deleteTask": "todoList.menu.deleteTask"
+    },
+    "dialog": {
+      "completeTitle": "todoList.dialog.completeTitle",
+      "completeDescription": "todoList.dialog.completeDescription",
+      "completePlaceholder": "todoList.dialog.completePlaceholder",
+      "cancel": "todoList.dialog.cancel",
+      "completeTask": "todoList.dialog.completeTask",
+      "exportTitle": "todoList.dialog.exportTitle",
+      "exportDescription": "todoList.dialog.exportDescription",
+      "exportFilename": "todoList.dialog.exportFilename",
+      "exportFilenameHelp": "todoList.dialog.exportFilenameHelp",
+      "exportFormat": "todoList.dialog.exportFormat",
+      "exportButton": "todoList.dialog.exportButton",
+      "formatJSON": "todoList.dialog.formatJSON",
+      "formatJSONDesc": "todoList.dialog.formatJSONDesc",
+      "formatCSV": "todoList.dialog.formatCSV",
+      "formatCSVDesc": "todoList.dialog.formatCSVDesc",
+      "formatMarkdown": "todoList.dialog.formatMarkdown",
+      "formatMarkdownDesc": "todoList.dialog.formatMarkdownDesc",
+      "formatHTML": "todoList.dialog.formatHTML",
+      "formatHTMLDesc": "todoList.dialog.formatHTMLDesc",
+      "formatJira": "todoList.dialog.formatJira",
+      "formatJiraDesc": "todoList.dialog.formatJiraDesc",
+      "formatVariant": "todoList.dialog.formatVariant",
+      "variantPretty": "todoList.dialog.variantPretty",
+      "variantMinified": "todoList.dialog.variantMinified",
+      "variantJSONL": "todoList.dialog.variantJSONL",
+      "variantStandard": "todoList.dialog.variantStandard",
+      "variantExcel": "todoList.dialog.variantExcel",
+      "variantTable": "todoList.dialog.variantTable",
+      "selectFields": "todoList.dialog.selectFields",
+      "customizeFields": "todoList.dialog.customizeFields",
+      "renameFields": "todoList.dialog.renameFields",
+      "calculatedFields": "todoList.dialog.calculatedFields",
+      "fieldName": "todoList.dialog.fieldName",
+      "addCalculatedField": "todoList.dialog.addCalculatedField",
+      "formula": {
+        "ageInDays": "todoList.dialog.formula.ageInDays",
+        "daysSinceUpdate": "todoList.dialog.formula.daysSinceUpdate",
+        "charCount": "todoList.dialog.formula.charCount",
+        "tokenEstimate": "todoList.dialog.formula.tokenEstimate",
+        "timeToComplete": "todoList.dialog.formula.timeToComplete"
+      },
+      "selectAll": "todoList.dialog.selectAll",
+      "selectNone": "todoList.dialog.selectNone",
+      "advancedFilters": "todoList.dialog.advancedFilters",
+      "dateRange": "todoList.dialog.dateRange",
+      "startDate": "todoList.dialog.startDate",
+      "endDate": "todoList.dialog.endDate",
+      "priorityFilter": "todoList.dialog.priorityFilter",
+      "statusFilter": "todoList.dialog.statusFilter"
+    },
+    "priority": {
+      "high": "todoList.priority.high",
+      "medium": "todoList.priority.medium",
+      "low": "todoList.priority.low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "todoList.status.pending",
+      "in_progress": "todoList.status.in_progress",
+      "completed": "todoList.status.completed",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "todoList.fields.id",
+      "description": "todoList.fields.description",
+      "project": "todoList.fields.project",
+      "priority": "todoList.fields.priority",
+      "status": "todoList.fields.status",
+      "target": "todoList.fields.target",
+      "created": "todoList.fields.created",
+      "updated": "todoList.fields.updated",
+      "metadata": "todoList.fields.metadata",
+      "source": "todoList.fields.source",
+      "notes": "todoList.fields.notes",
+      "ticket": "todoList.fields.ticket",
+      "completed_at": "todoList.fields.completed_at",
+      "completed_by": "todoList.fields.completed_by",
+      "completion_comment": "todoList.fields.completion_comment",
+      "duration": "todoList.fields.duration",
+      "duration_sec": "todoList.fields.duration_sec",
+      "tags": "todoList.fields.tags",
+      "complexity": "todoList.fields.complexity",
+      "confidence": "todoList.fields.confidence",
+      "phase": "todoList.fields.phase",
+      "epic": "todoList.fields.epic",
+      "blockers": "todoList.fields.blockers"
+    },
+    "validation": {
+      "descriptionRequired": "todoList.validation.descriptionRequired",
+      "descriptionTooLong": "todoList.validation.descriptionTooLong",
+      "invalidProject": "todoList.validation.invalidProject"
+    },
+    "error": {
+      "failedToLoad": "todoList.error.failedToLoad",
+      "unknownError": "todoList.error.unknownError",
+      "malfunctionMessage": "todoList.error.malfunctionMessage"
+    },
+    "placeholders": {
+      "setStatus": "todoList.placeholders.setStatus",
+      "editDescription": "todoList.placeholders.editDescription",
+      "selectProject": "todoList.placeholders.selectProject",
+      "setPriority": "todoList.placeholders.setPriority"
+    },
+    "tooltip": {
+      "unsavedChanges": "todoList.tooltip.unsavedChanges"
+    },
+    "labels": {
+      "readOnly": "todoList.labels.readOnly",
+      "review": "todoList.labels.review"
+    },
+    "aria": {
+      "todoActions": "todoList.aria.todoActions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "todoList.emptyState.noTasks",
+      "createFirst": "todoList.emptyState.createFirst"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "todoEdit.loading.text"
+    },
+    "header": {
+      "editTodo": "todoEdit.header.editTodo",
+      "createNewTodo": "todoEdit.header.createNewTodo"
+    },
+    "buttons": {
+      "backToDashboard": "todoEdit.buttons.backToDashboard"
+    },
+    "error": {
+      "todoNotFound": "todoEdit.error.todoNotFound"
+    },
+    "workshop": {
+      "modeTitle": "todoEdit.workshop.modeTitle"
+    },
+    "tips": {
+      "title": "todoEdit.tips.title",
+      "description": "todoEdit.tips.description"
+    }
+  },
+  "settings": {
+    "title": "settings.title",
+    "confirmReset": "settings.confirmReset",
+    "messages": {
+      "saveSuccess": "settings.messages.saveSuccess",
+      "saveError": "settings.messages.saveError"
+    },
+    "export": {
+      "starting": "settings.export.starting",
+      "success": "settings.export.success",
+      "error": "settings.export.error"
+    },
+    "import": {
+      "starting": "settings.import.starting",
+      "confirmDialog": "settings.import.confirmDialog",
+      "success": "settings.import.success",
+      "error": "settings.import.error",
+      "fileDialogError": "settings.import.fileDialogError"
+    },
+    "tabs": {
+      "profile": "settings.tabs.profile",
+      "database": "settings.tabs.database",
+      "aiConfiguration": "settings.tabs.aiConfiguration",
+      "mcpSetup": "settings.tabs.mcpSetup",
+      "apiKeys": "settings.tabs.apiKeys",
+      "appearance": "settings.tabs.appearance",
+      "mindMap": "settings.tabs.mindMap",
+      "privacy": "settings.tabs.privacy",
+      "advanced": "settings.tabs.advanced",
+      "npcAgents": "settings.tabs.npcAgents",
+      "swarmDesk": "settings.tabs.swarmDesk",
+      "messaging": "Messaging",
+      "umlData": "Code Visualizations"
+    },
+    "swarmdesk": {
+      "movementTitle": "settings.swarmdesk.movementTitle",
+      "movementDescription": "settings.swarmdesk.movementDescription",
+      "resetDefaults": "settings.swarmdesk.resetDefaults",
+      "orbitalTitle": "settings.swarmdesk.orbitalTitle",
+      "orbitalDescription": "settings.swarmdesk.orbitalDescription",
+      "orbitalBaseSpeed": "settings.swarmdesk.orbitalBaseSpeed",
+      "orbitalSprintMultiplier": "settings.swarmdesk.orbitalSprintMultiplier",
+      "fpsTitle": "settings.swarmdesk.fpsTitle",
+      "fpsDescription": "settings.swarmdesk.fpsDescription",
+      "fpsBaseSpeed": "settings.swarmdesk.fpsBaseSpeed",
+      "fpsSprintSpeed": "settings.swarmdesk.fpsSprintSpeed"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "settings.messaging.duplicateRoleId",
+      "duplicateAgentId": "settings.messaging.duplicateAgentId"
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "auth": {
+    "app": {
+      "title": "auth.app.title"
+    },
+    "welcome": {
+      "message": "auth.welcome.message"
+    },
+    "buttons": {
+      "demoLogin": "auth.buttons.demoLogin",
+      "googleLogin": "auth.buttons.googleLogin"
+    },
+    "status": {
+      "loggingOut": "auth.status.loggingOut"
+    },
+    "errors": {
+      "demoLoginFailed": "auth.errors.demoLoginFailed",
+      "authRequired": "auth.errors.authRequired",
+      "configNotFound": "auth.errors.configNotFound",
+      "tokenInvalid": "auth.errors.tokenInvalid"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "editableTodoCard.confirmCancel",
+    "confirmDelete": "editableTodoCard.confirmDelete",
+    "sections": {
+      "metadata": "editableTodoCard.sections.metadata"
+    },
+    "errors": {
+      "descriptionRequired": "editableTodoCard.errors.descriptionRequired",
+      "aiEnhancementFailed": "editableTodoCard.errors.aiEnhancementFailed",
+      "saveFailed": "editableTodoCard.errors.saveFailed"
+    },
+    "placeholders": {
+      "description": "editableTodoCard.placeholders.description",
+      "clickToAdd": "editableTodoCard.placeholders.clickToAdd",
+      "enhancedDescription": "editableTodoCard.placeholders.enhancedDescription",
+      "notes": "editableTodoCard.placeholders.notes",
+      "ticket": "editableTodoCard.placeholders.ticket"
+    },
+    "labels": {
+      "enhancedDescription": "editableTodoCard.labels.enhancedDescription",
+      "aiEnhanced": "editableTodoCard.labels.aiEnhanced",
+      "completionNotes": "editableTodoCard.labels.completionNotes",
+      "completed": "editableTodoCard.labels.completed",
+      "duration": "editableTodoCard.labels.duration"
+    },
+    "priority": {
+      "low": "editableTodoCard.priority.low",
+      "medium": "editableTodoCard.priority.medium",
+      "high": "editableTodoCard.priority.high",
+      "critical": "editableTodoCard.priority.critical"
+    },
+    "status": {
+      "pending": "editableTodoCard.status.pending",
+      "in_progress": "editableTodoCard.status.in_progress",
+      "blocked": "editableTodoCard.status.blocked",
+      "review": "editableTodoCard.status.review",
+      "completed": "editableTodoCard.status.completed",
+      "initial": "editableTodoCard.status.initial",
+      "cancelled": "editableTodoCard.status.cancelled"
+    },
+    "menu": {
+      "editTask": "editableTodoCard.menu.editTask",
+      "deleteTask": "editableTodoCard.menu.deleteTask"
+    },
+    "messages": {
+      "noEnhancedDescription": "editableTodoCard.messages.noEnhancedDescription"
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "mindMap.controls.switchToWorldMap",
+      "switchToSphere": "mindMap.controls.switchToSphere",
+      "chaos": "mindMap.controls.chaos"
+    },
+    "info": {
+      "nodeCount": "mindMap.info.nodeCount"
+    },
+    "instructions": {
+      "dragToMove": "mindMap.instructions.dragToMove",
+      "dragging": "mindMap.instructions.dragging",
+      "touchAndDrag": "mindMap.instructions.touchAndDrag",
+      "doubleTapBurst": "mindMap.instructions.doubleTapBurst",
+      "doubleTapPhysics": "mindMap.instructions.doubleTapPhysics"
+    },
+    "filter": {
+      "title": "mindMap.filter.title",
+      "allProjects": "mindMap.filter.allProjects",
+      "projectCount": "mindMap.filter.projectCount",
+      "selectAll": "mindMap.filter.selectAll",
+      "clearAll": "mindMap.filter.clearAll",
+      "selectProjects": "mindMap.filter.selectProjects",
+      "projectsSelected": "mindMap.filter.projectsSelected",
+      "selectedProjects": "mindMap.filter.selectedProjects"
+    },
+    "tooltips": {
+      "disableStaticMode": "mindMap.tooltips.disableStaticMode",
+      "enableStaticMode": "mindMap.tooltips.enableStaticMode",
+      "cleanUpEffects": "mindMap.tooltips.cleanUpEffects"
+    },
+    "sequence": {
+      "hideSequence": "mindMap.sequence.hideSequence",
+      "showSequence": "mindMap.sequence.showSequence",
+      "analyzeSequences": "mindMap.sequence.analyzeSequences",
+      "stopAnimation": "mindMap.sequence.stopAnimation",
+      "animateSequence": "mindMap.sequence.animateSequence",
+      "shuffleSequence": "mindMap.sequence.shuffleSequence"
+    },
+    "selection": {
+      "multipleNodes": "mindMap.selection.multipleNodes"
+    },
+    "nodes": {
+      "centerBrain": "mindMap.nodes.centerBrain",
+      "centerWorkshop": "mindMap.nodes.centerWorkshop"
+    },
+    "modes": {
+      "dynamic": "mindMap.modes.dynamic",
+      "static": "mindMap.modes.static"
+    },
+    "dialog": {
+      "createNode": "mindMap.dialog.createNode",
+      "nodeText": "mindMap.dialog.nodeText"
+    },
+    "nodeInfo": {
+      "type": "mindMap.nodeInfo.type",
+      "priority": "mindMap.nodeInfo.priority",
+      "energy": "mindMap.nodeInfo.energy"
+    }
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "warRoom.backgroundImage.title",
+      "description": "warRoom.backgroundImage.description",
+      "presets": "warRoom.backgroundImage.presets",
+      "uploads": "warRoom.backgroundImage.uploads",
+      "upload": "warRoom.backgroundImage.upload",
+      "noUploads": "warRoom.backgroundImage.noUploads",
+      "opacity": "warRoom.backgroundImage.opacity",
+      "fitMode": "warRoom.backgroundImage.fitMode",
+      "fitCover": "warRoom.backgroundImage.fitCover",
+      "fitContain": "warRoom.backgroundImage.fitContain",
+      "fitStretch": "warRoom.backgroundImage.fitStretch",
+      "fitTile": "warRoom.backgroundImage.fitTile",
+      "blendWithTerrain": "warRoom.backgroundImage.blendWithTerrain",
+      "remove": "warRoom.backgroundImage.remove",
+      "active": "warRoom.backgroundImage.active",
+      "uploadError": "warRoom.backgroundImage.uploadError",
+      "fileTooLarge": "warRoom.backgroundImage.fileTooLarge",
+      "invalidType": "warRoom.backgroundImage.invalidType"
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "title": "swarmDesk.ui.loading.title",
+        "subtitle": "swarmDesk.ui.loading.subtitle",
+        "entering": "🎮 Entering Game Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Project Data..."
+      },
+      "error": {
+        "title": "swarmDesk.ui.error.title",
+        "subtitle": "swarmDesk.ui.error.subtitle",
+        "initializationFailed": "swarmDesk.ui.error.initializationFailed"
+      },
+      "controls": {
+        "instructions": "swarmDesk.ui.controls.instructions"
+      },
+      "navigation": {
+        "controls": "🎮 Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "swarmDesk.panels.welcome.title",
+        "subtitle": "swarmDesk.panels.welcome.subtitle",
+        "features": {
+          "title": "swarmDesk.panels.welcome.features.title",
+          "draggable": "swarmDesk.panels.welcome.features.draggable",
+          "contextual": "swarmDesk.panels.welcome.features.contextual",
+          "docking": "swarmDesk.panels.welcome.features.docking",
+          "shortcuts": "swarmDesk.panels.welcome.features.shortcuts",
+          "integration": "swarmDesk.panels.welcome.features.integration"
+        },
+        "actions": {
+          "createProject": "swarmDesk.panels.welcome.actions.createProject",
+          "createAgent": "swarmDesk.panels.welcome.actions.createAgent"
+        },
+        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
+        "gettingStarted": "Getting Started:",
+        "quickActions": [
+          "📝 View and manage your project tasks",
+          "🎯 Create new tasks and set priorities",
+          "📊 Review project statistics and progress",
+          "⚙️ Configure project settings and preferences",
+          "🔗 Connect to external tools and services"
+        ]
+      },
+      "shortcuts": {
+        "title": "swarmDesk.panels.shortcuts.title",
+        "f3": "swarmDesk.panels.shortcuts.f3",
+        "f4": "swarmDesk.panels.shortcuts.f4",
+        "f5": "swarmDesk.panels.shortcuts.f5",
+        "f6": "swarmDesk.panels.shortcuts.f6",
+        "f7": "swarmDesk.panels.shortcuts.f7",
+        "f8": "swarmDesk.panels.shortcuts.f8",
+        "f9": "swarmDesk.panels.shortcuts.f9",
+        "f10": "swarmDesk.panels.shortcuts.f10",
+        "f11": "swarmDesk.panels.shortcuts.f11",
+        "esc": "swarmDesk.panels.shortcuts.esc",
+        "drag": "swarmDesk.panels.shortcuts.drag",
+        "dock": "swarmDesk.panels.shortcuts.dock",
+        "subtitle": "Quick Controls Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Navigation",
+            "commands": [
+              "WASD: Move camera around the environment",
+              "Mouse Drag: Look around and rotate view",
+              "Scroll: Zoom in and out",
+              "ESC: Return to main dashboard"
+            ]
+          },
+          "panels": {
+            "title": "📊 Panel Controls",
+            "commands": [
+              "F4: Open Task Management Panel",
+              "F5: Open Activity Log Panel",
+              "F6: Open Chat Panel",
+              "F7: Open Project Info Panel"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Actions",
+            "commands": [
+              "E: Interact with selected object",
+              "Space: Quick action",
+              "M: Open main menu",
+              "R: Refresh data"
+            ]
+          }
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "swarmDesk.panels.project.overview.title",
+          "activeProjects": "swarmDesk.panels.project.overview.activeProjects",
+          "pendingTasks": "swarmDesk.panels.project.overview.pendingTasks",
+          "completedToday": "swarmDesk.panels.project.overview.completedToday",
+          "actions": {
+            "viewAll": "swarmDesk.panels.project.overview.actions.viewAll",
+            "addTask": "swarmDesk.panels.project.overview.actions.addTask"
+          }
+        },
+        "todos": {
+          "title": "swarmDesk.panels.project.todos.title",
+          "inProgress": "swarmDesk.panels.project.todos.inProgress",
+          "pending": "swarmDesk.panels.project.todos.pending",
+          "actions": {
+            "addTodo": "swarmDesk.panels.project.todos.actions.addTodo"
+          }
+        },
+        "files": {
+          "title": "swarmDesk.panels.project.files.title",
+          "files": "swarmDesk.panels.project.files.files",
+          "actions": {
+            "browse": "swarmDesk.panels.project.files.actions.browse"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "swarmDesk.panels.agent.chat.title",
+          "agentReady": "swarmDesk.panels.agent.chat.agentReady",
+          "userQuery": "swarmDesk.panels.agent.chat.userQuery",
+          "agentResponse": "swarmDesk.panels.agent.chat.agentResponse",
+          "placeholder": "swarmDesk.panels.agent.chat.placeholder"
+        },
+        "commands": {
+          "title": "swarmDesk.panels.agent.commands.title",
+          "searchProjects": "swarmDesk.panels.agent.commands.searchProjects",
+          "listTodos": "swarmDesk.panels.agent.commands.listTodos",
+          "deployProject": "swarmDesk.panels.agent.commands.deployProject",
+          "generateReport": "swarmDesk.panels.agent.commands.generateReport"
+        },
+        "interface": {
+          "title": "swarmDesk.panels.agent.interface.title",
+          "role": "swarmDesk.panels.agent.interface.role",
+          "status": "swarmDesk.panels.agent.interface.status",
+          "actions": {
+            "startConversation": "swarmDesk.panels.agent.interface.actions.startConversation",
+            "executeCommand": "swarmDesk.panels.agent.interface.actions.executeCommand"
+          }
+        },
+        "capabilities": {
+          "title": "swarmDesk.panels.agent.capabilities.title",
+          "projectManagement": "swarmDesk.panels.agent.capabilities.projectManagement",
+          "codeAnalysis": "swarmDesk.panels.agent.capabilities.codeAnalysis",
+          "mcpIntegration": "swarmDesk.panels.agent.capabilities.mcpIntegration",
+          "communication": "swarmDesk.panels.agent.capabilities.communication"
+        }
+      },
+      "mcp": {
+        "tools": {
+          "title": "swarmDesk.panels.mcp.tools.title",
+          "notAuthenticated": "swarmDesk.panels.mcp.tools.notAuthenticated",
+          "authRequired": "swarmDesk.panels.mcp.tools.authRequired",
+          "connecting": "swarmDesk.panels.mcp.tools.connecting",
+          "serverStatus": "swarmDesk.panels.mcp.tools.serverStatus",
+          "retryConnection": "swarmDesk.panels.mcp.tools.retryConnection",
+          "connectedAs": "swarmDesk.panels.mcp.tools.connectedAs"
+        },
+        "history": {
+          "title": "swarmDesk.panels.mcp.history.title",
+          "noHistory": "swarmDesk.panels.mcp.history.noHistory"
+        },
+        "debug": {
+          "title": "swarmDesk.panels.mcp.debug.title",
+          "authentication": "swarmDesk.panels.mcp.debug.authentication",
+          "user": "swarmDesk.panels.mcp.debug.user",
+          "authMode": "swarmDesk.panels.mcp.debug.authMode",
+          "mcpServer": "swarmDesk.panels.mcp.debug.mcpServer",
+          "activeTools": "swarmDesk.panels.mcp.debug.activeTools",
+          "lastPing": "swarmDesk.panels.mcp.debug.lastPing",
+          "apiService": "swarmDesk.panels.mcp.debug.apiService",
+          "authContext": "swarmDesk.panels.mcp.debug.authContext",
+          "refreshAuth": "swarmDesk.panels.mcp.debug.refreshAuth"
+        },
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "System Integration Hub",
+        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "features": [
+          "🔧 Tool Integration Framework",
+          "📊 Automated Data Collection",
+          "🎯 Task Management Integration",
+          "⚙️ Workflow Automation",
+          "🔐 Secure Communication"
+        ],
+        "gettingStarted": "Setup Instructions:",
+        "deploymentSteps": [
+          "Configure authentication settings",
+          "Connect to desired services",
+          "Set up automation rules",
+          "Test connections and workflows"
+        ]
+      },
+      "analytics": {
+        "metrics": {
+          "title": "swarmDesk.panels.analytics.metrics.title",
+          "cpuUsage": "swarmDesk.panels.analytics.metrics.cpuUsage",
+          "memory": "swarmDesk.panels.analytics.metrics.memory",
+          "activePanels": "swarmDesk.panels.analytics.metrics.activePanels",
+          "uptime": "swarmDesk.panels.analytics.metrics.uptime"
+        },
+        "activity": {
+          "title": "swarmDesk.panels.analytics.activity.title",
+          "panelCreated": "swarmDesk.panels.analytics.activity.panelCreated",
+          "swarmDeskInteraction": "swarmDesk.panels.analytics.activity.swarmDeskInteraction",
+          "mcpToolExecuted": "swarmDesk.panels.analytics.activity.mcpToolExecuted"
+        },
+        "insights": {
+          "title": "swarmDesk.panels.analytics.insights.title",
+          "mostUsedPanel": "swarmDesk.panels.analytics.insights.mostUsedPanel",
+          "peakActivity": "swarmDesk.panels.analytics.insights.peakActivity",
+          "efficiencyScore": "swarmDesk.panels.analytics.insights.efficiencyScore"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "swarmDesk.panels.webllm.models.title",
+          "currentModel": "swarmDesk.panels.webllm.models.currentModel",
+          "loadModel": "swarmDesk.panels.webllm.models.loadModel"
+        },
+        "compatibility": {
+          "title": "swarmDesk.panels.webllm.compatibility.title",
+          "checking": "swarmDesk.panels.webllm.compatibility.checking",
+          "checkCompatibility": "swarmDesk.panels.webllm.compatibility.checkCompatibility"
+        },
+        "status": {
+          "title": "swarmDesk.panels.webllm.status.title",
+          "initialized": "swarmDesk.panels.webllm.status.initialized",
+          "currentModel": "swarmDesk.panels.webllm.status.currentModel",
+          "loading": "swarmDesk.panels.webllm.status.loading",
+          "inferencing": "swarmDesk.panels.webllm.status.inferencing",
+          "queueLength": "swarmDesk.panels.webllm.status.queueLength",
+          "loadedModels": "swarmDesk.panels.webllm.status.loadedModels",
+          "mode": "swarmDesk.panels.webllm.status.mode",
+          "initialize": "swarmDesk.panels.webllm.status.initialize"
+        },
+        "settings": {
+          "title": "swarmDesk.panels.webllm.settings.title",
+          "agentModelAssignment": "swarmDesk.panels.webllm.settings.agentModelAssignment",
+          "useGlobal": "swarmDesk.panels.webllm.settings.useGlobal",
+          "perAgent": "swarmDesk.panels.webllm.settings.perAgent",
+          "temperature": "swarmDesk.panels.webllm.settings.temperature",
+          "maxTokens": "swarmDesk.panels.webllm.settings.maxTokens",
+          "saveSettings": "swarmDesk.panels.webllm.settings.saveSettings",
+          "resetDefaults": "swarmDesk.panels.webllm.settings.resetDefaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "swarmDesk.panels.mqtt.logs.title",
+          "noMessages": "swarmDesk.panels.mqtt.logs.noMessages",
+          "waitingTraffic": "swarmDesk.panels.mqtt.logs.waitingTraffic",
+          "reconnect": "swarmDesk.panels.mqtt.logs.reconnect",
+          "messages": "swarmDesk.panels.mqtt.logs.messages",
+          "lastMessage": "swarmDesk.panels.mqtt.logs.lastMessage",
+          "clearLogs": "swarmDesk.panels.mqtt.logs.clearLogs",
+          "export": "swarmDesk.panels.mqtt.logs.export"
+        },
+        "status": {
+          "title": "swarmDesk.panels.mqtt.status.title",
+          "status": "swarmDesk.panels.mqtt.status.status",
+          "broker": "swarmDesk.panels.mqtt.status.broker",
+          "clientId": "swarmDesk.panels.mqtt.status.clientId",
+          "messagesReceived": "swarmDesk.panels.mqtt.status.messagesReceived",
+          "lastActivity": "swarmDesk.panels.mqtt.status.lastActivity",
+          "subscriptions": "swarmDesk.panels.mqtt.status.subscriptions",
+          "connect": "swarmDesk.panels.mqtt.status.connect",
+          "disconnect": "swarmDesk.panels.mqtt.status.disconnect"
+        },
+        "settings": {
+          "title": "swarmDesk.panels.mqtt.settings.title",
+          "brokerAddress": "swarmDesk.panels.mqtt.settings.brokerAddress",
+          "subscribeTopics": "swarmDesk.panels.mqtt.settings.subscribeTopics",
+          "autoReconnect": "swarmDesk.panels.mqtt.settings.autoReconnect",
+          "showTimestamps": "swarmDesk.panels.mqtt.settings.showTimestamps",
+          "saveSettings": "swarmDesk.panels.mqtt.settings.saveSettings",
+          "resetDefaults": "swarmDesk.panels.mqtt.settings.resetDefaults"
+        }
+      }
+    },
+    "projectData": {
+      "swarmDesk": {
+        "title": "swarmDesk.projectData.swarmDesk.title",
+        "description": "swarmDesk.projectData.swarmDesk.description",
+        "features": "swarmDesk.projectData.swarmDesk.features",
+        "status": "swarmDesk.projectData.swarmDesk.status",
+        "visibility": "swarmDesk.projectData.swarmDesk.visibility"
+      },
+      "inventorium": {
+        "title": "swarmDesk.projectData.inventorium.title",
+        "description": "swarmDesk.projectData.inventorium.description",
+        "features": "swarmDesk.projectData.inventorium.features",
+        "status": "swarmDesk.projectData.inventorium.status",
+        "visibility": "swarmDesk.projectData.inventorium.visibility"
+      },
+      "swarmonomicon": {
+        "title": "swarmDesk.projectData.swarmonomicon.title",
+        "description": "swarmDesk.projectData.swarmonomicon.description",
+        "features": "swarmDesk.projectData.swarmonomicon.features",
+        "status": "swarmDesk.projectData.swarmonomicon.status",
+        "visibility": "swarmDesk.projectData.swarmonomicon.visibility"
+      },
+      "title": "📂 Project Information",
+      "subtitle": "Project Management Hub",
+      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Project Dashboard",
+          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "features": [
+            "📈 Project progress tracking and analytics",
+            "🎯 Task management and prioritization",
+            "🤖 AI-powered insights and recommendations",
+            "🔗 Integration with external tools",
+            "📊 Real-time collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Integration Platform",
+          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "features": [
+            "🔧 Multi-platform connectivity",
+            "⚙️ Automated workflow processing",
+            "📊 Real-time data synchronization",
+            "🔐 Secure communication protocols",
+            "🎯 Centralized task coordination"
+          ]
+        }
+      }
+    },
+    "errors": {
+      "initializationFailed": "swarmDesk.errors.initializationFailed",
+      "sceneInitFailed": "swarmDesk.errors.sceneInitFailed",
+      "panelSystemFailed": "swarmDesk.errors.panelSystemFailed",
+      "panelSystemMissing": "swarmDesk.errors.panelSystemMissing",
+      "controlsInitFailed": "swarmDesk.errors.controlsInitFailed",
+      "basicSceneFailed": "swarmDesk.errors.basicSceneFailed",
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error"
+    },
+    "status": {
+      "loading": "swarmDesk.status.loading",
+      "initialized": "swarmDesk.status.initialized",
+      "scriptsLoaded": "swarmDesk.status.scriptsLoaded",
+      "scriptsTimeout": "swarmDesk.status.scriptsTimeout",
+      "containerNotReady": "swarmDesk.status.containerNotReady",
+      "panelSystemExists": "swarmDesk.status.panelSystemExists",
+      "panelSystemMissing": "swarmDesk.status.panelSystemMissing",
+      "panelSystemCreated": "swarmDesk.status.panelSystemCreated",
+      "initializing": "⚙️ Initializing System...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Delete Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "chatAssistant.errors.notConfigured",
+      "noResponse": "chatAssistant.errors.noResponse",
+      "demoUserRestricted": "chatAssistant.errors.demoUserRestricted"
+    },
+    "quickActions": {
+      "listPending": "chatAssistant.quickActions.listPending",
+      "createHighPriority": "chatAssistant.quickActions.createHighPriority",
+      "summarizeProject": "chatAssistant.quickActions.summarizeProject",
+      "filterHighPriority": "chatAssistant.quickActions.filterHighPriority"
+    },
+    "suggestedActions": {
+      "listPending": "chatAssistant.suggestedActions.listPending",
+      "newHighPrio": "chatAssistant.suggestedActions.newHighPrio",
+      "summarize": "chatAssistant.suggestedActions.summarize"
+    },
+    "status": {
+      "typing": "chatAssistant.status.typing"
+    },
+    "emptyState": {
+      "title": "chatAssistant.emptyState.title",
+      "demoMessage": "chatAssistant.emptyState.demoMessage",
+      "description": "chatAssistant.emptyState.description",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "chatAssistant.notConfigured.title",
+      "description": "chatAssistant.notConfigured.description",
+      "configureButton": "chatAssistant.notConfigured.configureButton"
+    },
+    "header": {
+      "title": "chatAssistant.header.title",
+      "refreshTooltip": "chatAssistant.header.refreshTooltip",
+      "settingsTooltip": "chatAssistant.header.settingsTooltip"
+    },
+    "menu": {
+      "refreshContext": "chatAssistant.menu.refreshContext",
+      "aiSettings": "chatAssistant.menu.aiSettings",
+      "aiSettingsRedirect": "chatAssistant.menu.aiSettingsRedirect"
+    },
+    "input": {
+      "placeholder": "chatAssistant.input.placeholder",
+      "demoPlaceholder": "chatAssistant.input.demoPlaceholder"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "mobileChatInterface.quickActions.createTodo",
+      "listTodos": "mobileChatInterface.quickActions.listTodos",
+      "projectStatus": "mobileChatInterface.quickActions.projectStatus",
+      "help": "mobileChatInterface.quickActions.help",
+      "settings": "mobileChatInterface.quickActions.settings",
+      "refreshData": "mobileChatInterface.quickActions.refreshData"
+    },
+    "actionMessages": {
+      "createTodo": "mobileChatInterface.actionMessages.createTodo",
+      "listTodos": "mobileChatInterface.actionMessages.listTodos",
+      "projectStatus": "mobileChatInterface.actionMessages.projectStatus",
+      "help": "mobileChatInterface.actionMessages.help",
+      "settings": "mobileChatInterface.actionMessages.settings",
+      "refresh": "mobileChatInterface.actionMessages.refresh"
+    },
+    "header": {
+      "title": "mobileChatInterface.header.title",
+      "statusListening": "mobileChatInterface.header.statusListening",
+      "statusTyping": "mobileChatInterface.header.statusTyping",
+      "statusOnline": "mobileChatInterface.header.statusOnline"
+    },
+    "emptyState": {
+      "greeting": "mobileChatInterface.emptyState.greeting",
+      "description": "mobileChatInterface.emptyState.description"
+    },
+    "status": {
+      "thinking": "mobileChatInterface.status.thinking"
+    },
+    "input": {
+      "placeholder": "mobileChatInterface.input.placeholder"
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "spells.names.enhance_description",
+      "perform_geomancy": "spells.names.perform_geomancy",
+      "consolidate_similar": "spells.names.consolidate_similar"
+    },
+    "descriptions": {
+      "enhance_description": "spells.descriptions.enhance_description",
+      "perform_geomancy": "spells.descriptions.perform_geomancy",
+      "consolidate_similar": "spells.descriptions.consolidate_similar"
+    },
+    "interface": {
+      "title": "spells.interface.title",
+      "subtitle": "spells.interface.subtitle",
+      "selectSpell": "spells.interface.selectSpell",
+      "castSpell": "spells.interface.castSpell",
+      "cancelSpell": "spells.interface.cancelSpell",
+      "casting": "spells.interface.casting",
+      "resultsTitle": "spells.interface.resultsTitle",
+      "historyTitle": "spells.interface.historyTitle",
+      "clearHistory": "spells.interface.clearHistory",
+      "noHistory": "spells.interface.noHistory",
+      "placeholder": "spells.interface.placeholder"
+    },
+    "effects": {
+      "particles": "spells.effects.particles",
+      "energy": "spells.effects.energy",
+      "casting": "spells.effects.casting",
+      "complete": "spells.effects.complete"
+    },
+    "results": {
+      "enhance": {
+        "success": "spells.results.enhance.success",
+        "improvement": "spells.results.enhance.improvement",
+        "insights": "spells.results.enhance.insights",
+        "suggestions": "spells.results.enhance.suggestions"
+      },
+      "geomancy": {
+        "success": "spells.results.geomancy.success",
+        "insights": "spells.results.geomancy.insights",
+        "patterns": "spells.results.geomancy.patterns",
+        "recommendations": "spells.results.geomancy.recommendations",
+        "analysis": "spells.results.geomancy.analysis"
+      },
+      "consolidate": {
+        "success": "spells.results.consolidate.success",
+        "merged": "spells.results.consolidate.merged",
+        "candidates": "spells.results.consolidate.candidates",
+        "preview": "spells.results.consolidate.preview",
+        "confirmation": "spells.results.consolidate.confirmation"
+      }
+    },
+    "errors": {
+      "castingFailed": "spells.errors.castingFailed",
+      "noDescription": "spells.errors.noDescription",
+      "rateLimited": "spells.errors.rateLimited",
+      "aiError": "spells.errors.aiError",
+      "networkError": "spells.errors.networkError",
+      "invalidSpell": "spells.errors.invalidSpell",
+      "unauthorized": "spells.errors.unauthorized"
+    },
+    "rateLimit": {
+      "enhance": "spells.rateLimit.enhance",
+      "geomancy": "spells.rateLimit.geomancy",
+      "consolidate": "spells.rateLimit.consolidate",
+      "resetTime": "spells.rateLimit.resetTime",
+      "depleted": "spells.rateLimit.depleted"
+    },
+    "tooltip": {
+      "castSpell": "spells.tooltip.castSpell",
+      "enhanceDescription": "spells.tooltip.enhanceDescription",
+      "performGeomancy": "spells.tooltip.performGeomancy",
+      "consolidateSimilar": "spells.tooltip.consolidateSimilar",
+      "spellHistory": "spells.tooltip.spellHistory",
+      "clearHistory": "spells.tooltip.clearHistory"
+    },
+    "keyboard": {
+      "shortcuts": "spells.keyboard.shortcuts",
+      "enhance": "spells.keyboard.enhance",
+      "geomancy": "spells.keyboard.geomancy",
+      "consolidate": "spells.keyboard.consolidate",
+      "cancel": "spells.keyboard.cancel"
+    },
+    "history": {
+      "timestamp": "spells.history.timestamp",
+      "spellType": "spells.history.spellType",
+      "target": "spells.history.target",
+      "result": "spells.history.result",
+      "success": "spells.history.success",
+      "failed": "spells.history.failed",
+      "duration": "spells.history.duration",
+      "empty": "spells.history.empty"
+    },
+    "status": {
+      "idle": "spells.status.idle",
+      "casting": "spells.status.casting",
+      "processing": "spells.status.processing",
+      "complete": "spells.status.complete",
+      "failed": "spells.status.failed",
+      "cooldown": "spells.status.cooldown"
+    }
+  },
+  "insights": {
+    "loading": "insights.loading",
+    "tabs": {
+      "overview": "insights.tabs.overview",
+      "analytics": "insights.tabs.analytics",
+      "systemLogs": "insights.tabs.systemLogs"
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "admin.tabs.overview",
+      "users": "admin.tabs.users",
+      "analytics": "admin.tabs.analytics",
+      "featureFlags": "admin.tabs.featureFlags",
+      "systemLogs": "admin.tabs.systemLogs"
+    },
+    "overview": {
+      "title": "admin.overview.title",
+      "loading": "admin.overview.loading",
+      "refresh": "admin.overview.refresh",
+      "fallback": "admin.overview.fallback",
+      "totalUsers": "admin.overview.totalUsers",
+      "totalUsersSubtitle": "admin.overview.totalUsersSubtitle",
+      "activeUsers": "admin.overview.activeUsers",
+      "activeUsersSubtitle": "admin.overview.activeUsersSubtitle",
+      "premiumUsers": "admin.overview.premiumUsers",
+      "premiumUsersSubtitle": "admin.overview.premiumUsersSubtitle",
+      "errors": "admin.overview.errors",
+      "errorsSubtitle": "admin.overview.errorsSubtitle",
+      "tierDistribution": "admin.overview.tierDistribution",
+      "tier": {
+        "free": "admin.overview.tier.free",
+        "pro": "admin.overview.tier.pro",
+        "premium": "admin.overview.tier.premium",
+        "admin": "admin.overview.tier.admin"
+      },
+      "productivity": "admin.overview.productivity",
+      "totalTodos": "admin.overview.totalTodos",
+      "completedTodos": "admin.overview.completedTodos",
+      "completionRate": "admin.overview.completionRate"
+    },
+    "analytics": {
+      "title": "admin.analytics.title",
+      "loading": "admin.analytics.loading",
+      "comingSoon": "admin.analytics.comingSoon",
+      "description": "admin.analytics.description",
+      "timeframe": {
+        "day": "admin.analytics.timeframe.day",
+        "week": "admin.analytics.timeframe.week",
+        "month": "admin.analytics.timeframe.month",
+        "year": "admin.analytics.timeframe.year"
+      },
+      "futureHint": "admin.analytics.futureHint",
+      "charts": {
+        "userGrowth": "admin.analytics.charts.userGrowth",
+        "userGrowthDesc": "admin.analytics.charts.userGrowthDesc",
+        "activityHeatmap": "admin.analytics.charts.activityHeatmap",
+        "activityHeatmapDesc": "admin.analytics.charts.activityHeatmapDesc",
+        "featureUsage": "admin.analytics.charts.featureUsage",
+        "featureUsageDesc": "admin.analytics.charts.featureUsageDesc",
+        "performance": "admin.analytics.charts.performance",
+        "performanceDesc": "admin.analytics.charts.performanceDesc"
+      }
+    },
+    "logs": {
+      "title": "admin.logs.title",
+      "loading": "admin.logs.loading",
+      "refresh": "admin.logs.refresh",
+      "fallback": "admin.logs.fallback",
+      "autoRefresh": "admin.logs.autoRefresh",
+      "showing": "admin.logs.showing",
+      "entries": "admin.logs.entries",
+      "empty": "admin.logs.empty",
+      "columns": {
+        "timestamp": "admin.logs.columns.timestamp",
+        "level": "admin.logs.columns.level",
+        "message": "admin.logs.columns.message",
+        "user": "admin.logs.columns.user",
+        "endpoint": "admin.logs.columns.endpoint"
+      },
+      "severity": {
+        "error": "admin.logs.severity.error",
+        "warning": "admin.logs.severity.warning",
+        "info": "admin.logs.severity.info"
+      }
+    },
+    "featureFlags": {
+      "title": "admin.featureFlags.title",
+      "loading": "admin.featureFlags.loading",
+      "refresh": "admin.featureFlags.refresh",
+      "fallback": "admin.featureFlags.fallback",
+      "lastUpdated": "admin.featureFlags.lastUpdated",
+      "unsavedChanges": "admin.featureFlags.unsavedChanges",
+      "save": "admin.featureFlags.save",
+      "cancel": "admin.featureFlags.cancel",
+      "saving": "admin.featureFlags.saving",
+      "confirmSave": "admin.featureFlags.confirmSave",
+      "tiers": {
+        "free": "admin.featureFlags.tiers.free",
+        "pro": "admin.featureFlags.tiers.pro",
+        "premium": "admin.featureFlags.tiers.premium",
+        "admin": "admin.featureFlags.tiers.admin"
+      },
+      "flags": {
+        "basic_todos": "admin.featureFlags.flags.basic_todos",
+        "chat_interface": "admin.featureFlags.flags.chat_interface",
+        "theme_selector": "admin.featureFlags.flags.theme_selector",
+        "export_todos": "admin.featureFlags.flags.export_todos",
+        "advanced_search": "admin.featureFlags.flags.advanced_search",
+        "unlimited_todos": "admin.featureFlags.flags.unlimited_todos",
+        "mindmap_view": "admin.featureFlags.flags.mindmap_view",
+        "custom_themes": "admin.featureFlags.flags.custom_themes",
+        "api_access": "admin.featureFlags.flags.api_access",
+        "priority_support": "admin.featureFlags.flags.priority_support",
+        "swarmdesk_3d": "admin.featureFlags.flags.swarmdesk_3d",
+        "collaborative_editing": "admin.featureFlags.flags.collaborative_editing",
+        "ai_copilot": "admin.featureFlags.flags.ai_copilot",
+        "admin_panel": "admin.featureFlags.flags.admin_panel",
+        "user_management": "admin.featureFlags.flags.user_management",
+        "feature_flags": "admin.featureFlags.flags.feature_flags",
+        "system_logs": "admin.featureFlags.flags.system_logs",
+        "analytics": "admin.featureFlags.flags.analytics",
+        "debug_mode": "admin.featureFlags.flags.debug_mode"
+      },
+      "confirm": {
+        "title": "admin.featureFlags.confirm.title",
+        "message": "admin.featureFlags.confirm.message",
+        "warning": "admin.featureFlags.confirm.warning"
+      }
+    },
+    "users": {
+      "title": "admin.users.title",
+      "loading": "admin.users.loading",
+      "refresh": "admin.users.refresh",
+      "fallback": "admin.users.fallback",
+      "searchPlaceholder": "admin.users.searchPlaceholder",
+      "showing": "admin.users.showing",
+      "users": "admin.users.users",
+      "filtered": "admin.users.filtered",
+      "empty": "admin.users.empty",
+      "noResults": "admin.users.noResults",
+      "adminBadge": "admin.users.adminBadge",
+      "edit": {
+        "title": "admin.users.edit.title",
+        "email": "admin.users.edit.email",
+        "tier": "admin.users.edit.tier",
+        "isAdmin": "admin.users.edit.isAdmin",
+        "cancel": "admin.users.edit.cancel",
+        "save": "admin.users.edit.save",
+        "saving": "admin.users.edit.saving"
+      },
+      "columns": {
+        "email": "admin.users.columns.email",
+        "tier": "admin.users.columns.tier",
+        "status": "admin.users.columns.status",
+        "lastLogin": "admin.users.columns.lastLogin",
+        "todos": "admin.users.columns.todos",
+        "actions": "admin.users.columns.actions"
+      },
+      "confirm": {
+        "title": "admin.users.confirm.title",
+        "grantMessage": "admin.users.confirm.grantMessage",
+        "revokeMessage": "admin.users.confirm.revokeMessage",
+        "cancel": "admin.users.confirm.cancel",
+        "confirm": "admin.users.confirm.confirm",
+        "saving": "admin.users.confirm.saving"
+      }
+    },
+    "common": {
+      "loading": "admin.common.loading",
+      "error": "admin.common.error",
+      "refresh": "admin.common.refresh",
+      "save": "admin.common.save",
+      "cancel": "admin.common.cancel"
+    }
+  },
+  "queuePane": {
+    "title": "queuePane.title",
+    "subtitle": "queuePane.subtitle",
+    "dragHint": "queuePane.dragHint",
+    "searchPlaceholder": "queuePane.searchPlaceholder",
+    "emptyState": "queuePane.emptyState",
+    "noSearchResults": "queuePane.noSearchResults",
+    "reordering": "queuePane.reordering",
+    "allProjects": "queuePane.allProjects",
+    "cardActions": {
+      "complete": "queuePane.cardActions.complete",
+      "edit": "queuePane.cardActions.edit",
+      "remove": "queuePane.cardActions.remove"
+    },
+    "incoming": {
+      "title": "queuePane.incoming.title",
+      "addToTop": "queuePane.incoming.addToTop",
+      "addToBottom": "queuePane.incoming.addToBottom"
+    },
+    "ordered": {
+      "title": "queuePane.ordered.title"
+    },
+    "stats": {
+      "total": "queuePane.stats.total",
+      "high": "queuePane.stats.high",
+      "incoming": "queuePane.stats.incoming"
+    }
+  },
+  "umlData": {
+    "title": "umlData.title",
+    "description": "umlData.description",
+    "upload": {
+      "button": "umlData.upload.button",
+      "reading": "umlData.upload.reading",
+      "success": "umlData.upload.success"
+    },
+    "errors": {
+      "loadFailed": "umlData.errors.loadFailed",
+      "uploadFailed": "umlData.errors.uploadFailed",
+      "deleteFailed": "umlData.errors.deleteFailed"
+    },
+    "delete": {
+      "confirmTitle": "umlData.delete.confirmTitle",
+      "confirmMessage": "umlData.delete.confirmMessage",
+      "success": "umlData.delete.success"
+    },
+    "viewSwarmDesk": {
+      "redirect": "umlData.viewSwarmDesk.redirect"
+    },
+    "source": {
+      "personal": "umlData.source.personal",
+      "shared": "umlData.source.shared"
+    },
+    "instructions": {
+      "title": "umlData.instructions.title",
+      "step1": "umlData.instructions.step1",
+      "step2": "umlData.instructions.step2",
+      "step3": "umlData.instructions.step3"
+    },
+    "storage": {
+      "info": "umlData.storage.info",
+      "limit": "umlData.storage.limit"
+    },
+    "table": {
+      "name": "umlData.table.name",
+      "source": "umlData.table.source",
+      "classes": "umlData.table.classes",
+      "packages": "umlData.table.packages",
+      "created": "umlData.table.created",
+      "actions": "umlData.table.actions"
+    },
+    "actions": {
+      "view": "umlData.actions.view",
+      "delete": "umlData.actions.delete"
+    },
+    "empty": "umlData.empty",
+    "empty.hint": "umlData.empty.hint"
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(0, 10, 0, 0.7)",
+      "cardBorder": "rgba(0, 255, 0, 0.4)",
+      "cardText": "#00ff00",
+      "iconColor": "#00ff00",
+      "chipBg": "#166534",
+      "chipText": "#00ff00"
+    },
+    "actions": {
+      "skip": "onboarding.actions.skip",
+      "next": "onboarding.actions.next",
+      "back": "onboarding.actions.back",
+      "getStarted": "onboarding.actions.getStarted"
+    },
+    "steps": {
+      "welcome": {
+        "title": "onboarding.steps.welcome.title",
+        "defaultName": "onboarding.steps.welcome.defaultName",
+        "description": "onboarding.steps.welcome.description",
+        "subtitle": "onboarding.steps.welcome.subtitle"
+      },
+      "projects-overview": {
+        "title": "onboarding.steps.projects-overview.title",
+        "description": "onboarding.steps.projects-overview.description",
+        "benefitsTitle": "onboarding.steps.projects-overview.benefitsTitle",
+        "benefits": {
+          "organize": "onboarding.steps.projects-overview.benefits.organize",
+          "visualize": "onboarding.steps.projects-overview.benefits.visualize",
+          "track": "onboarding.steps.projects-overview.benefits.track",
+          "collaborate": "onboarding.steps.projects-overview.benefits.collaborate"
+        },
+        "hint": "onboarding.steps.projects-overview.hint"
+      },
+      "create-project": {
+        "title": "onboarding.steps.create-project.title",
+        "description": "onboarding.steps.create-project.description",
+        "guideTitle": "onboarding.steps.create-project.guideTitle",
+        "step1": "onboarding.steps.create-project.step1",
+        "step2": "onboarding.steps.create-project.step2",
+        "step3": "onboarding.steps.create-project.step3",
+        "step4": "onboarding.steps.create-project.step4",
+        "hint": "onboarding.steps.create-project.hint"
+      },
+      "add-todo": {
+        "title": "onboarding.steps.add-todo.title",
+        "description": "onboarding.steps.add-todo.description",
+        "guideTitle": "onboarding.steps.add-todo.guideTitle",
+        "step1": "onboarding.steps.add-todo.step1",
+        "step2": "onboarding.steps.add-todo.step2",
+        "step3": "onboarding.steps.add-todo.step3",
+        "step4": "onboarding.steps.add-todo.step4",
+        "step5": "onboarding.steps.add-todo.step5",
+        "hint": "onboarding.steps.add-todo.hint"
+      },
+      "configure-ai": {
+        "title": "onboarding.steps.configure-ai.title",
+        "description": "onboarding.steps.configure-ai.description",
+        "whyConfigureTitle": "onboarding.steps.configure-ai.whyConfigureTitle",
+        "benefits": {
+          "suggestions": "onboarding.steps.configure-ai.benefits.suggestions",
+          "enhance": "onboarding.steps.configure-ai.benefits.enhance",
+          "analyze": "onboarding.steps.configure-ai.benefits.analyze",
+          "insights": "onboarding.steps.configure-ai.benefits.insights"
+        },
+        "statusConfigured": "onboarding.steps.configure-ai.statusConfigured",
+        "statusNotConfigured": "onboarding.steps.configure-ai.statusNotConfigured",
+        "configureButton": "onboarding.steps.configure-ai.configureButton",
+        "skipButton": "onboarding.steps.configure-ai.skipButton",
+        "helpText": "onboarding.steps.configure-ai.helpText"
+      },
+      "ai-assistant": {
+        "title": "onboarding.steps.ai-assistant.title",
+        "description": "onboarding.steps.ai-assistant.description",
+        "examplesTitle": "onboarding.steps.ai-assistant.examplesTitle",
+        "quickActions": {
+          "createTodos": "onboarding.steps.ai-assistant.quickActions.createTodos",
+          "analyzeTasks": "onboarding.steps.ai-assistant.quickActions.analyzeTasks",
+          "suggestions": "onboarding.steps.ai-assistant.quickActions.suggestions",
+          "insights": "onboarding.steps.ai-assistant.quickActions.insights"
+        },
+        "hint": "onboarding.steps.ai-assistant.hint"
+      },
+      "swarmdesk": {
+        "title": "onboarding.steps.swarmdesk.title",
+        "description": "onboarding.steps.swarmdesk.description",
+        "featuresTitle": "onboarding.steps.swarmdesk.featuresTitle",
+        "features": {
+          "codeViz": "onboarding.steps.swarmdesk.features.codeViz",
+          "interactive": "onboarding.steps.swarmdesk.features.interactive",
+          "architecture": "onboarding.steps.swarmdesk.features.architecture",
+          "dependencies": "onboarding.steps.swarmdesk.features.dependencies"
+        },
+        "hint": "onboarding.steps.swarmdesk.hint",
+        "tabTip": "onboarding.steps.swarmdesk.tabTip"
+      },
+      "complete": {
+        "title": "onboarding.steps.complete.title",
+        "description": "onboarding.steps.complete.description",
+        "nextStepsTitle": "onboarding.steps.complete.nextStepsTitle",
+        "nextSteps": {
+          "createProject": "onboarding.steps.complete.nextSteps.createProject",
+          "addTodos": "onboarding.steps.complete.nextSteps.addTodos",
+          "tryAI": "onboarding.steps.complete.nextSteps.tryAI",
+          "checkSwarmDesk": "onboarding.steps.complete.nextSteps.checkSwarmDesk"
+        },
+        "footer": "onboarding.steps.complete.footer"
+      }
+    },
+    "complete": {
+      "message": "[onboarding.complete.message] Setup complete, workspace ready."
+    }
+  },
+  "themeName": "debug",
+  "displayName": "Debug Mode",
+  "description": "Developer debug mode - shows key paths and variable names for troubleshooting",
+  "icon": "🐛",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Research Notes",
+    "addLesson": "Add Note",
+    "emptyState": {
+      "title": "No research notes yet",
+      "message": "Document your discoveries and insights",
+      "action": "Add Note"
+    },
+    "fields": {
+      "topic": "Topic",
+      "language": "Category",
+      "lessonLearned": "Research Note",
+      "tags": "Tags"
+    },
+    "actions": {
+      "edit": "Edit Note",
+      "delete": "Delete Note",
+      "save": "Save Note"
+    }
+  },
+  "mindmap": {
+    "title": "Mind Map",
+    "emptyState": {
+      "title": "No mind map data",
+      "message": "Create tasks and projects to visualize connections"
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "resetView": "Reset View",
+      "centerView": "Center View"
+    }
+  },
+  "swarmdesk": {
+    "title": "3D Laboratory",
+    "emptyState": {
+      "title": "3D Lab Loading",
+      "message": "Preparing your 3D workspace..."
+    },
+    "controls": {
+      "rotate": "Rotate View",
+      "zoom": "Zoom",
+      "pan": "Pan View",
+      "reset": "Reset Camera"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Project",
+    "placeholder": "Choose a laboratory project...",
+    "noProjects": "No projects available",
+    "createNew": "Create New Project"
+  },
+  "errors": {
+    "generic": "An error occurred",
+    "network": "Network connection error",
+    "notFound": "Resource not found",
+    "unauthorized": "Unauthorized access",
+    "serverError": "Server error occurred",
+    "server": "errors.server",
+    "timeout": "errors.timeout"
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "success.status.verifying.title",
+        "subtitle": "success.status.verifying.subtitle"
+      },
+      "success": {
+        "title": "success.status.success.title",
+        "subtitle": "success.status.success.subtitle"
+      },
+      "error": {
+        "title": "success.status.error.title",
+        "subtitle": "success.status.error.subtitle"
+      },
+      "no_session": {
+        "title": "success.status.no_session.title",
+        "subtitle": "success.status.no_session.subtitle"
+      }
+    },
+    "log": {
+      "initializing": "success.log.initializing",
+      "connecting": "success.log.connecting",
+      "session": "success.log.session",
+      "conduitStable": "success.log.conduitStable",
+      "tierUpgrade": "success.log.tierUpgrade",
+      "unlocking": "success.log.unlocking",
+      "allSystemsGo": "success.log.allSystemsGo",
+      "paymentStatus": "success.log.paymentStatus",
+      "paymentIncomplete": "success.log.paymentIncomplete",
+      "error": "success.log.error",
+      "verificationFailed": "success.log.verificationFailed",
+      "containment": "success.log.containment"
+    },
+    "tier": "success.tier",
+    "operator": "success.operator",
+    "enterLab": "success.enterLab",
+    "viewManifest": "success.viewManifest",
+    "errorRetry": "success.errorRetry",
+    "checkBilling": "success.checkBilling"
+  },
+  "confirmations": {
+    "delete": "Are you sure you want to delete this?",
+    "discard": "Discard unsaved changes?",
+    "archive": "Archive this item?"
+  },
+  "agentStates": {
+    "working": "agentStates.working",
+    "traveling": "agentStates.traveling",
+    "idle": "agentStates.idle",
+    "assigned": "agentStates.assigned"
+  },
+  "targetAgent": {
+    "user": "targetAgent.user",
+    "ai": "targetAgent.ai",
+    "system": "targetAgent.system",
+    "none": "targetAgent.none"
+  },
+  "accountPanel": {
+    "title": "accountPanel.title",
+    "tabs": {
+      "profile": "accountPanel.tabs.profile",
+      "subscription": "accountPanel.tabs.subscription",
+      "account": "accountPanel.tabs.account"
+    },
+    "subscriptionDisabled": "accountPanel.subscriptionDisabled",
+    "dangerZone": "accountPanel.dangerZone"
+  },
+  "billing": {
+    "title": "billing.title",
+    "subtitle": "billing.subtitle",
+    "loginRequired": "billing.loginRequired",
+    "goToLogin": "billing.goToLogin",
+    "currentPlan": "billing.currentPlan",
+    "perMonth": "billing.perMonth",
+    "nextBillingDate": "billing.nextBillingDate",
+    "planFeatures": "billing.planFeatures",
+    "upgradeToPro": "billing.upgradeToPro",
+    "manageBilling": "billing.manageBilling",
+    "cancelSubscription": "billing.cancelSubscription",
+    "usageStats": "billing.usageStats",
+    "totalTodos": "billing.totalTodos",
+    "projects": "billing.projects",
+    "unlimited": "billing.unlimited",
+    "upgradePrompt": "billing.upgradePrompt",
+    "cancelSuccess": "billing.cancelSuccess",
+    "status": {
+      "active": "billing.status.active",
+      "free": "billing.status.free",
+      "inactive": "billing.status.inactive"
+    },
+    "errors": {
+      "loadFailed": "billing.errors.loadFailed",
+      "cancelFailed": "billing.errors.cancelFailed",
+      "portalFailed": "billing.errors.portalFailed"
+    },
+    "cancelDialog": {
+      "title": "billing.cancelDialog.title",
+      "message": "billing.cancelDialog.message",
+      "resubscribe": "billing.cancelDialog.resubscribe",
+      "keep": "billing.cancelDialog.keep",
+      "confirm": "billing.cancelDialog.confirm"
+    }
+  },
+  "pricing": {
+    "title": "pricing.title",
+    "subtitle": "pricing.subtitle",
+    "backToDashboard": "pricing.backToDashboard",
+    "currentPlan": "pricing.currentPlan",
+    "free": "pricing.free",
+    "perMonth": "pricing.perMonth",
+    "loginToUpgrade": "pricing.loginToUpgrade",
+    "currentTier": "pricing.currentTier",
+    "upgrade": "pricing.upgrade",
+    "finePrint": "pricing.finePrint",
+    "errors": {
+      "loginRequired": "pricing.errors.loginRequired",
+      "checkoutFailed": "pricing.errors.checkoutFailed"
+    }
+  },
+  "cancel": {
+    "title": "cancel.title",
+    "message": "cancel.message",
+    "goToDashboard": "cancel.goToDashboard",
+    "viewPlans": "cancel.viewPlans"
+  },
+  "chronomancy": {
+    "loading": "chronomancy.loading",
+    "noVersions": "chronomancy.noVersions",
+    "today": "chronomancy.today",
+    "yesterday": "chronomancy.yesterday",
+    "daysAgo": "chronomancy.daysAgo",
+    "currentVersion": "chronomancy.currentVersion",
+    "versionLabel": "chronomancy.versionLabel",
+    "versions": "chronomancy.versions",
+    "gitCommit": "chronomancy.gitCommit",
+    "classesChange": "chronomancy.classesChange",
+    "linesChange": "chronomancy.linesChange",
+    "deleteVersion": "chronomancy.deleteVersion",
+    "deleteDialog": {
+      "title": "chronomancy.deleteDialog.title",
+      "message": "chronomancy.deleteDialog.message",
+      "cancel": "chronomancy.deleteDialog.cancel",
+      "confirm": "chronomancy.deleteDialog.confirm"
+    },
+    "compare": {
+      "selectTwo": "chronomancy.compare.selectTwo",
+      "button": "chronomancy.compare.button"
+    },
+    "diff": {
+      "title": "chronomancy.diff.title",
+      "added": "chronomancy.diff.added",
+      "removed": "chronomancy.diff.removed",
+      "modified": "chronomancy.diff.modified",
+      "unchanged": "chronomancy.diff.unchanged",
+      "complexity": "chronomancy.diff.complexity",
+      "lines": "chronomancy.diff.lines",
+      "noClassesAdded": "chronomancy.diff.noClassesAdded",
+      "noClassesRemoved": "chronomancy.diff.noClassesRemoved",
+      "noClassesModified": "chronomancy.diff.noClassesModified",
+      "methodsAdded": "chronomancy.diff.methodsAdded",
+      "methodsRemoved": "chronomancy.diff.methodsRemoved",
+      "depsAdded": "chronomancy.diff.depsAdded",
+      "depsRemoved": "chronomancy.diff.depsRemoved",
+      "close": "chronomancy.diff.close"
+    }
+  }
+}

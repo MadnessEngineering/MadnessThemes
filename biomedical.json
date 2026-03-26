@@ -1,0 +1,2151 @@
+{
+  "createProject": {
+    "title": "Initialize New Study",
+    "subtitle": "Configure a new research protocol in your lab workspace",
+    "buttons": {
+      "reset": "Reset Parameters",
+      "create": "Launch Study",
+      "submit": "Submit Protocol",
+      "cancel": "Cancel"
+    },
+    "demoMode": {
+      "label": "DEMO MODE",
+      "title": "Demo Lab - Read Only Access",
+      "description": "📖 You're in demo mode with read-only access. Protocol creation requires full lab credentials. Sign up to access complete lab features."
+    },
+    "fields": {
+      "name": {
+        "label": "Project Name",
+        "placeholder": "Enter project identifier..."
+      },
+      "description": {
+        "label": "Project Description",
+        "placeholder": "Describe your research objectives..."
+      }
+    },
+    "validation": {
+      "nameRequired": "Project name is required",
+      "nameLength": "Name must be between 3 and 100 characters",
+      "descriptionLength": "Description must be less than 500 characters"
+    }
+  },
+  "tabs": {
+    "todos": "Assays",
+    "lessons": "Lab Notes",
+    "project": "Study Protocol",
+    "mindmap": "Mind Map",
+    "swarmdesk": "3D Lab",
+    "chat": "Lab Assistant",
+    "sessions": "Lab Sessions"
+  },
+  "validation": {
+    "nameRequired": "Study identifier is required",
+    "nameLength": "Identifier must be at least 2 characters",
+    "nameFormat": "Identifier can only contain letters, numbers, hyphens, and underscores",
+    "displayNameRequired": "Display name is required",
+    "descriptionRequired": "Protocol description is required",
+    "descriptionLength": "Description must be at least 10 characters for proper documentation",
+    "topicRequired": "Research topic cannot be empty",
+    "topicTooLong": "Topic must be less than 200 characters",
+    "contentRequired": "Procedure content cannot be empty",
+    "contentTooLong": "Procedure must be less than 5000 characters",
+    "invalidLanguage": "Please select a valid language",
+    "required": "This field is required",
+    "minLength": "Minimum {min} characters required",
+    "maxLength": "Maximum {max} characters allowed",
+    "invalidFormat": "Invalid format",
+    "invalidEmail": "Invalid email address"
+  },
+  "common": {
+    "save": "Save Results",
+    "cancel": "Cancel",
+    "close": "Close",
+    "edit": "Modify",
+    "delete": "Archive",
+    "reset": "Reset",
+    "loading": "Processing...",
+    "error": "Error detected",
+    "success": "Success!",
+    "failed": "Operation failed",
+    "perPage": "per page",
+    "refreshNow": "Refresh Data",
+    "copyId": "Copy ID",
+    "show": "Display",
+    "copy": "Copy",
+    "refresh": "Refresh",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "clear": "Clear",
+    "apply": "Apply",
+    "export": "Export",
+    "import": "Import",
+    "viewAll": "View All",
+    "collapse": "Collapse",
+    "expand": "Expand"
+  },
+  "forms": {
+    "name": "Study Name",
+    "displayName": "Display Name",
+    "description": "Protocol Description",
+    "type": "Study Type",
+    "visibility": "Access Level",
+    "repository": "Repository",
+    "language": "Language",
+    "framework": "Framework",
+    "priority": "Priority",
+    "status": "Status",
+    "notes": "Lab Notes",
+    "ticket": "Reference ID"
+  },
+  "dashboard": {
+    "title": "📊 Lab Bench",
+    "projectStats": {
+      "title": "📂 Study Overview",
+      "collection": "studies database",
+      "totalProjects": "Total Studies",
+      "activeProjects": "Active Studies",
+      "projectsWithCompleted": "Studies with Results",
+      "avgTasksPerProject": "Avg Assays/Study"
+    },
+    "priorityBreakdown": {
+      "title": "🎯 Priority Analysis",
+      "pendingTasks": "Pending Assays",
+      "inReview": "Under Review",
+      "inProgress": "In Trial",
+      "blocked": "Contraindicated",
+      "completed": "Validated",
+      "highPriority": "High Priority",
+      "mediumPriority": "Medium Priority",
+      "lowPriority": "Low Priority"
+    },
+    "activityLog": {
+      "title": "📊 Activity Log",
+      "collection": "lab_logs database",
+      "description": "Track all modifications and operations performed on assays",
+      "updates": "Updates",
+      "creates": "New Entries",
+      "deletes": "Archived",
+      "completions": "Validated",
+      "totalEntries": "Total Entries"
+    },
+    "recentlyCompleted": {
+      "title": "✅ Recently Validated"
+    },
+    "welcome": {
+      "message": "Welcome to your Lab Workspace! Your research coordination center.",
+      "description": "Your lab bench is ready for work! This dashboard displays when no panels are active. Use the controls to access assays, data, studies, and more.",
+      "title": "Welcome to Your Lab"
+    },
+    "quickActions": {
+      "openTodos": "📝 View Assays",
+      "chatAssistant": "🤖 Lab Assistant",
+      "activityLog": "📋 Activity Log",
+      "projects": "📂 Studies"
+    },
+    "filters": {
+      "allActivity": "Complete Medical History",
+      "todosCreated": "Protocols Initiated",
+      "todosUpdated": "Treatment Plans Adjusted",
+      "todosCompleted": "Diagnoses Resolved",
+      "todosDeleted": "Invalidated Specimens",
+      "projectsCreated": "Clinical Trials Registered",
+      "projectsUpdated": "Trial Parameters Modified",
+      "projectsDeleted": "Trials Terminated"
+    },
+    "unifiedView": "Hospital-Wide Census",
+    "personalView": "Attending Physician Caseload",
+    "showingAllDatabases": "Displaying All Patient Records",
+    "showingPersonalOnly": "Displaying Assigned Ward Only",
+    "filteredByProject": "Filtered by Clinical Trial",
+    "noLogsFound": "No clinical events detected in the registry.",
+    "tryChangingFilter": "Try adjusting the diagnostic parameters.",
+    "startCreatingTodos": "Initiate a new treatment plan to begin gathering data.",
+    "failedToLoad": "Pathology report failed to load: {{error}}",
+    "changesMade": "Physiological Modifications",
+    "completionNotes": "Discharge Summary",
+    "revertOperation": "Reverse {{operation}}",
+    "revertSuccess": "Successfully reversed {{operation}}",
+    "revertFailed": "Reversal contraindicated: {{error}}",
+    "revertDeleteNotSupported": "Cannot resuscitate expunged medical records.",
+    "revertNotSupported": "Protocol {{operation}} cannot be reversed at this stage.",
+    "confirmRevert": "Confirm Procedure Reversal",
+    "confirmRevertMessage": "Are you certain you wish to reverse {{operation}} for {{description}}?",
+    "confirmRevertAction": "Execute Reversal",
+    "operationType": "Surgical Procedure",
+    "taskDescription": "Clinical Presentation",
+    "descriptions": {
+      "projectCreated": "Registered new clinical trial: {{projectName}}",
+      "projectUpdated": "Modified trial parameters: {{projectName}}",
+      "projectDeleted": "Terminated clinical trial: {{projectName}}",
+      "projectModified": "Updated trial data: {{projectName}}",
+      "unknownTask": "Unidentified biological anomaly"
+    },
+    "showingPageStats": "Displaying chart {{currentPage}} of {{totalPages}} ({{totalCount}} vital signs logged)",
+    "autoRefreshingInterval": "Vitals updating automatically every 30 seconds",
+    "stats": {
+      "totalProjects": "Total Clinical Trials",
+      "activeProjects": "Active Treatment Protocols",
+      "completedTodos": "Successful Prognoses",
+      "archivedProjects": "Archived Patient Files"
+    },
+    "recentActivity": "Recent Activity"
+  },
+  "activityLog": {
+    "title": "📋 Activity Log",
+    "autoRefreshOn": "Auto-refresh ON",
+    "autoRefreshOff": "Auto-refresh OFF",
+    "filters": {
+      "allActivity": "All Activity",
+      "todosCreated": "Assays Created",
+      "todosUpdated": "Assays Updated",
+      "todosCompleted": "Assays Validated",
+      "todosDeleted": "Assays Archived",
+      "projectsCreated": "Studies Created",
+      "projectsUpdated": "Studies Updated",
+      "projectsDeleted": "Studies Archived",
+      "all": "All Activity",
+      "create": "Created",
+      "update": "Updated",
+      "complete": "Completed",
+      "delete": "Deleted"
+    },
+    "unifiedView": "🌐 Unified View",
+    "personalView": "👤 Personal View",
+    "showingAllDatabases": "Showing logs from all databases",
+    "showingPersonalOnly": "Showing only your personal logs",
+    "filteredByProject": "Filtered by study:",
+    "noLogsFound": "No activity logs found",
+    "tryChangingFilter": "Try changing the filter",
+    "startCreatingTodos": "Start creating assays to see activity",
+    "failedToLoad": "Failed to load activity logs: {{error}}",
+    "changesMade": "Changes made:",
+    "completionNotes": "Validation notes:",
+    "revertOperation": "Revert {{operation}}",
+    "revertSuccess": "Successfully reversed {{operation}} procedure",
+    "revertFailed": "Reversal protocol failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot restore deleted specimen - sample is lost",
+    "revertNotSupported": "Reversal not supported for {{operation}} procedure",
+    "descriptions": {
+      "projectCreated": "Study \"{{projectName}}\" was created",
+      "projectUpdated": "Study \"{{projectName}}\" was updated",
+      "projectDeleted": "Study \"{{projectName}}\" was archived",
+      "projectModified": "Study \"{{projectName}}\" was modified",
+      "unknownTask": "Unknown assay"
+    },
+    "showingPageStats": "Showing page {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
+    "autoRefreshingInterval": " • Auto-refreshing every 30s",
+    "confirmRevert": "Confirm Revert Operation",
+    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
+    "confirmRevertAction": "Revert Operation",
+    "operationType": "Operation Type",
+    "taskDescription": "Task Description",
+    "emptyState": {
+      "title": "No activity yet",
+      "message": "Start working on tasks to see activity here"
+    },
+    "events": {
+      "created": "created",
+      "updated": "updated",
+      "completed": "completed",
+      "deleted": "deleted"
+    },
+    "ago": "ago",
+    "stats": {
+      "total": "Total Events",
+      "today": "Today",
+      "thisWeek": "This Week"
+    }
+  },
+  "lessonsLearned": {
+    "title": "🎓 Lab Notes",
+    "refreshLessons": "Refresh Notes",
+    "addLesson": "Add Note",
+    "searchPlaceholder": "Search notes, procedures, or tags...",
+    "languages": {
+      "allLanguages": "All Languages",
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "python": "Python",
+      "rust": "Rust",
+      "go": "Go",
+      "general": "General"
+    },
+    "filters": {
+      "allLessons": "All Notes",
+      "bookmarked": "Bookmarked",
+      "recent": "Recent (7 days)"
+    },
+    "emptyState": {
+      "noMatching": "No Matching Notes",
+      "vaultEmpty": "Lab Notebook is Empty!",
+      "noMatchSearch": "No notes match \"{{searchTerm}}\". Try adjusting your search or filters.",
+      "noMatchFilters": "No notes found with current filters. Try broadening your criteria.",
+      "startDocumenting": "Start documenting your findings! Every experiment and result is worth recording."
+    },
+    "createFirstLesson": "Create Your First Lab Note",
+    "actions": {
+      "starred": "Starred",
+      "addStar": "Add Star"
+    },
+    "pagination": {
+      "showingRange": "Showing {{start}}-{{end}} of {{total}} notes"
+    },
+    "dialog": {
+      "editTitle": "🎓 Edit Lab Note",
+      "addTitle": "🎓 Add New Lab Note",
+      "topicLabel": "Topic",
+      "lessonLabel": "Procedure Learned",
+      "languageLabel": "Language",
+      "tagsLabel": "Tags (comma separated)",
+      "tagsPlaceholder": "assay, protocol, analysis",
+      "databaseLabel": "Save to Database",
+      "personalDatabase": "👤 Personal Lab Notebook",
+      "sharedDatabase": "🌐 Shared Lab Database",
+      "updateLesson": "Update Note",
+      "createLesson": "Create Note"
+    },
+    "failedToLoad": "Failed to load notes: {{error}}",
+    "confirmDelete": "Are you sure you want to delete this lab note?"
+  },
+  "todoManagement": {
+    "title": "📝 Assay Management"
+  },
+  "app": {
+    "titleShort": "Lab Workspace",
+    "titleLong": "Biomedical Lab Workspace"
+  },
+  "panels": {
+    "todos": "📝 Assays",
+    "logs": "📋 Logs",
+    "aiChat": "🤖 Lab Assistant",
+    "create": "➕ Create",
+    "projects": "📂 Studies",
+    "mindMap": "🗺️ Mind Map",
+    "swarmDesk": "🎪 SwarmDesk",
+    "lessons": "🎓 Lab Notes",
+    "settings": "⚙️ Settings",
+    "insights": "📊 Insights",
+    "labMaintenance": "🧹 Specimen Triage"
+  },
+  "labMaintenance": {
+    "title": "Specimen Triage Bay",
+    "tabs": {
+      "orphaned": "Uncatalogued",
+      "completed": "Archived Protocols",
+      "consolidate": "Clinical Overview"
+    },
+    "selectAll": "Select All Specimens",
+    "clearSelection": "Clear",
+    "targetProject": "Transfer to protocol...",
+    "reassign": "Transfer",
+    "reassignSelected": "Transfer selected specimens to designated protocol",
+    "reopen": "Reactivate",
+    "reopenSelected": "Reactivate archived specimens for further analysis",
+    "delete": "Dispose",
+    "deleteSelected": "Dispose of selected specimens per protocol",
+    "selectProjectFirst": "Select a destination protocol first",
+    "todosUpdated": "specimens processed",
+    "noOrphans": "No uncatalogued specimens. All samples are properly assigned to active protocols.",
+    "noCompleted": "No archived specimens found in the repository.",
+    "consolidateDescription": "Clinical overview of specimen containment and protocol health metrics.",
+    "orphanedProjectsLabel": "Terminated Protocols With Remaining Specimens",
+    "quickStats": "Diagnostic Summary",
+    "orphaned": "Uncatalogued",
+    "completed": "Archived",
+    "deletedProjects": "Terminated Protocols",
+    "activeProjects": "Active Protocols"
+  },
+  "demo": {
+    "label": "DEMO - Read Only"
+  },
+  "menu": {
+    "documentation": "Documentation",
+    "github": "GitHub",
+    "logout": "Logout",
+    "replayTutorial": "Replay Tutorial",
+    "userManagement": "User Management"
+  },
+  "notifications": {
+    "aiInsightsGenerated": "🧠 AI analysis generated! Check the enhanced description.",
+    "todoMarkedForReview": "👁️ Assay marked for review successfully!",
+    "todoCompleted": "✅ Assay validated successfully!",
+    "taskCreated": "🎉 Assay created successfully!",
+    "projectCreated": "🚀 Study created successfully!",
+    "aiConfigured": "✅ AI assistant calibrated successfully!",
+    "todoCreated": "🔬 New specimen logged for analysis.",
+    "settingsSaved": "⚙️ Laboratory calibrations synchronized.",
+    "exportCompleted": "📤 Biological data transmitted to external repository.",
+    "importCompleted": "📥 External samples integrated into laboratory workflow."
+  },
+  "projectNavigator": {
+    "title": "🚀 STUDY NAVIGATOR",
+    "subtitle": "Choose your research study • Access focused lab environments",
+    "cacheStatus": "🏪 Cached data • Last loaded: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main View • 1-9: Quick select",
+    "manageTooltip": {
+      "admin": "Manage Studies (Admin)",
+      "personal": "Manage Personal Studies"
+    },
+    "refreshTooltip": "Refresh Study Data",
+    "mainSwarmDeskTooltip": "Enter Main View",
+    "loading": {
+      "title": "🔍 Loading Study Data...",
+      "subtitle": "Gathering assay data and study metrics"
+    },
+    "stats": {
+      "pending": "pending",
+      "completed": "validated"
+    },
+    "activity": {
+      "title": "Recent Activity",
+      "noActivity": "No recent activity"
+    },
+    "enterButton": {
+      "selected": "⚡ SELECTED",
+      "enter": "🚀 ENTER",
+      "helpText": "Press Enter or #{{{number}}}"
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
+      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
+      "relocateLabel": "Relocate todos to another project",
+      "selectDestination": "Select destination project",
+      "cancel": "Cancel",
+      "deleteButton": "Delete Project"
+    }
+  },
+  "projectSwarmdesk": {
+    "title": "🎪 {{projectName}}",
+    "stats": {
+      "pendingTasks": "{{count}} pending",
+      "completedTasks": "{{count}} validated"
+    },
+    "loading": "🎪 Loading {{projectId}} Environment...",
+    "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Study",
+    "workstation": {
+      "todoHint": "📝 Click to manage study assays",
+      "projectHint": "🎪 Click to view study details"
+    },
+    "statsPanel": {
+      "title": "📊 Study Stats",
+      "totalTasks": "Total Assays",
+      "pending": "Pending",
+      "completed": "Validated"
+    },
+    "reviewTab": {
+      "title": "Review Queue",
+      "approveButton": "Approve",
+      "requestChanges": "Request Changes",
+      "returnToProgress": "Return to Progress",
+      "emptyState": "No items in review"
+    }
+  },
+  "projectTab": {
+    "title": "Study Setup",
+    "sections": {
+      "basicInfo": "Basic Information",
+      "configuration": "Configuration",
+      "technicalDetails": "Technical Details (Optional)"
+    },
+    "projectTypes": {
+      "web": "Web Application",
+      "mobile": "Mobile App",
+      "desktop": "Desktop Application",
+      "library": "Library/Package",
+      "api": "API/Service",
+      "general": "General Study"
+    },
+    "buttons": {
+      "creating": "Creating...",
+      "demoMode": "Demo Mode",
+      "createProject": "CREATE STUDY"
+    }
+  },
+  "todoTab": {
+    "project": {
+      "label": "Study",
+      "default": "Default"
+    },
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    }
+  },
+  "todoList": {
+    "filters": {
+      "allTasks": "All Assays",
+      "pending": "Pending",
+      "review": "Review",
+      "completed": "Validated",
+      "all": "All Tasks",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "in_progress": "In Progress"
+    },
+    "sort": {
+      "newest": "Newest First",
+      "oldest": "Oldest First",
+      "priority": "Priority Order",
+      "madness": "Random Order"
+    },
+    "search": {
+      "placeholder": "Search assays..."
+    },
+    "project": {
+      "label": "Study",
+      "allProjects": "All Studies ({{count}})",
+      "clearFilter": "Clear Filter",
+      "clearAll": "Clear all"
+    },
+    "pagination": {
+      "show": "Show",
+      "perPage": "per page",
+      "all": "All",
+      "results": "results"
+    },
+    "results": {
+      "showing": "Showing {{start}}-{{end}} of {{total}} assays",
+      "matching": " matching \"{{searchText}}\"",
+      "filteringByProject": "Filtering by study: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtering by {{count}} project(s)"
+    },
+    "empty": {
+      "noMatching": "No Matching Assays",
+      "workshopClear": "No Assays Found",
+      "noMatchingDescription": "No assays match \"{{searchText}}\". Try adjusting your search or filters.",
+      "workshopClearDescription": "No assays found. The lab bench is clear and organized."
+    },
+    "buttons": {
+      "refresh": "Refresh",
+      "export": "Export",
+      "saving": "Saving...",
+      "saveChanges": "Save Changes",
+      "discard": "Discard",
+      "complete": "Validate",
+      "edit": "Edit",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "review": "Review",
+      "aiInsights": "AI Analysis"
+    },
+    "fullEdit": {
+      "modeTitle": "Full Protocol Editor"
+    },
+    "menu": {
+      "editTask": "Edit Assay",
+      "copyId": "Copy ID",
+      "copyJiraCmd": "Copy Jira Cmd",
+      "deleteTask": "Archive Assay"
+    },
+    "dialog": {
+      "completeTitle": "Validate Assay: {{description}}",
+      "completeDescription": "Add optional notes about validation results (e.g., outcomes, time taken, issues resolved, etc.)",
+      "completePlaceholder": "e.g., Validated successfully with all controls passing. Took 2 hours due to calibration requirements.",
+      "cancel": "Cancel",
+      "completeTask": "Validate Assay",
+      "exportTitle": "Export Assays",
+      "exportDescription": "Exporting {{count}} assays",
+      "exportFilename": "Filename",
+      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
+      "exportFormat": "Format",
+      "exportButton": "Export",
+      "formatJSON": "JSON - Structured Data",
+      "formatJSONDesc": "Complete assay data in JSON format for reimport",
+      "formatCSV": "CSV - Spreadsheet",
+      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
+      "formatMarkdown": "Markdown - Documentation",
+      "formatMarkdownDesc": "Human-readable format for documentation",
+      "formatHTML": "HTML - Web Page",
+      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
+      "formatJira": "Jira/Slack Commands",
+      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatVariant": "Format Variant",
+      "variantPretty": "Pretty (Readable)",
+      "variantMinified": "Minified (Compact)",
+      "variantJSONL": "JSON Lines (Stream)",
+      "variantStandard": "Standard",
+      "variantExcel": "Excel-Optimized",
+      "variantTable": "Table View",
+      "selectFields": "Select Fields",
+      "customizeFields": "Customize Field Names",
+      "renameFields": "Rename Fields",
+      "calculatedFields": "Calculated Fields",
+      "fieldName": "Field Name",
+      "addCalculatedField": "Add Calculated Field",
+      "formula": {
+        "ageInDays": "Age (days)",
+        "daysSinceUpdate": "Days since update",
+        "charCount": "Character count",
+        "tokenEstimate": "Token estimate",
+        "timeToComplete": "Time to complete"
+      },
+      "selectAll": "All",
+      "selectNone": "None",
+      "advancedFilters": "Advanced Filters",
+      "dateRange": "Date Range",
+      "startDate": "From",
+      "endDate": "To",
+      "priorityFilter": "Priority",
+      "statusFilter": "Status"
+    },
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Progress",
+      "completed": "Validated",
+      "initial": "Initial",
+      "blocked": "Blocked"
+    },
+    "fields": {
+      "id": "ID",
+      "description": "Description",
+      "project": "Study",
+      "priority": "Priority",
+      "status": "Status",
+      "target": "Target",
+      "created": "Created",
+      "updated": "Updated",
+      "metadata": "Metadata",
+      "source": "Source",
+      "notes": "Notes",
+      "ticket": "Ticket",
+      "completed_at": "Completed At",
+      "completed_by": "Completed By",
+      "completion_comment": "Completion Comment",
+      "duration": "Duration",
+      "duration_sec": "Duration (seconds)",
+      "tags": "Tags",
+      "complexity": "Complexity",
+      "confidence": "Confidence",
+      "phase": "Phase",
+      "epic": "Epic",
+      "blockers": "Blockers"
+    },
+    "validation": {
+      "descriptionRequired": "Description cannot be empty",
+      "descriptionTooLong": "Description must be less than 500 characters",
+      "invalidProject": "Please select a valid study"
+    },
+    "error": {
+      "failedToLoad": "Failed to load assays",
+      "unknownError": "Unknown error",
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+    },
+    "placeholders": {
+      "setStatus": "Set status...",
+      "editDescription": "Click to edit assay description...",
+      "selectProject": "Select study...",
+      "setPriority": "Set priority..."
+    },
+    "tooltip": {
+      "unsavedChanges": "You have unsaved changes"
+    },
+    "labels": {
+      "readOnly": "🔒 Read-Only",
+      "review": "REVIEW"
+    },
+    "aria": {
+      "todoActions": "Assay actions"
+    },
+    "title": "Laboratory Tasks",
+    "addTodo": "Add Task",
+    "emptyState": {
+      "title": "No tasks yet",
+      "message": "Create your first laboratory task to get started",
+      "action": "Create Task",
+      "noTasks": "No tasks found",
+      "createFirst": "Create your first task to get started"
+    },
+    "actions": {
+      "markComplete": "Mark Complete",
+      "markPending": "Mark Pending",
+      "edit": "Edit Task",
+      "delete": "Delete Task"
+    }
+  },
+  "todoEdit": {
+    "loading": {
+      "text": "Loading assay..."
+    },
+    "header": {
+      "editTodo": "Edit Assay",
+      "createNewTodo": "Create New Assay"
+    },
+    "buttons": {
+      "backToDashboard": "Back to Lab Bench"
+    },
+    "error": {
+      "todoNotFound": "Assay not found. It may have been archived or the ID is incorrect."
+    },
+    "workshop": {
+      "modeTitle": "🔧 Edit Mode - Full Access"
+    },
+    "tips": {
+      "title": "💡 Edit Tips:",
+      "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Purple sparkle for AI analysis"
+    }
+  },
+  "settings": {
+    "title": "⚙️ Settings",
+    "confirmReset": "Are you sure you want to reset all settings to default values? This action cannot be undone.",
+    "messages": {
+      "saveSuccess": "Settings saved successfully!",
+      "saveError": "Failed to save settings"
+    },
+    "export": {
+      "starting": "Starting export...",
+      "success": "Export completed! Downloaded {{todoCount}} assays, {{projectCount}} studies, and settings.",
+      "error": "Export failed: {{error}}"
+    },
+    "import": {
+      "starting": "Starting import...",
+      "confirmDialog": "Import Preview:\n\n{{todoCount}} assays, {{projectCount}} studies, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
+      "success": "Import completed! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
+      "error": "Import failed: {{error}}",
+      "fileDialogError": "Failed to open file dialog"
+    },
+    "tabs": {
+      "profile": "Profile",
+      "database": "Database",
+      "aiConfiguration": "AI Configuration",
+      "mcpSetup": "MCP Setup",
+      "apiKeys": "API Keys",
+      "appearance": "Appearance",
+      "mindMap": "Mind Map",
+      "privacy": "Privacy",
+      "advanced": "Advanced",
+      "messaging": "Messaging",
+      "umlData": "Code Visualizations",
+      "npcAgents": "Research Assistants",
+      "swarmDesk": "SwarmDesk"
+    },
+    "swarmdesk": {
+      "movementTitle": "Movement Speed Controls",
+      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Defaults",
+      "orbitalTitle": "Orbital Mode (O key)",
+      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalBaseSpeed": "Base Speed",
+      "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
+      "fpsTitle": "FPS Mode (F key)",
+      "fpsDescription": "Controls camera movement when using first-person navigation.",
+      "fpsBaseSpeed": "Walk Speed",
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+    },
+    "messaging": {
+      "title": "Message Roles Configuration",
+      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "allowedRoles": "Allowed Roles",
+      "addRole": "Add Role",
+      "editRole": "Edit Message Role",
+      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "roleId": "Role ID",
+      "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
+      "roleIdDisabled": "Role ID cannot be changed",
+      "displayLabel": "Display Label",
+      "displayLabelHelper": "Human-readable name shown in UI",
+      "emoji": "Emoji",
+      "emojiHelper": "Single emoji character for visual identification",
+      "coreRole": "Core Role",
+      "hidden": "Hidden",
+      "showRole": "Show role",
+      "hideRole": "Hide role",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcEnabled": "Spawn as SwarmDesk NPC",
+      "npcCount": "NPC Count",
+      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcColor": "NPC Color",
+      "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
+      "npcRole": "NPC Role Title",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcPersonality": "NPC Personality",
+      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalities": {
+        "helpful_assistant": "Helpful Assistant",
+        "chaotic_genius": "Chaotic Genius",
+        "methodical_precise": "Methodical & Precise",
+        "curious_explorer": "Curious Explorer",
+        "zen_creative": "Zen Creative",
+        "welcoming_efficient": "Welcoming & Efficient",
+        "organized_visionary": "Organized Visionary"
+      },
+      "duplicateRoleId": "A diagnostic protocol with this ID is already registered.",
+      "duplicateAgentId": "A clinical specimen with this ID is already logged."
+    },
+    "theme": {
+      "title": "Theme",
+      "colorTheme": "Color Theme",
+      "textTheme": "Text Style",
+      "description": "Customize your laboratory appearance"
+    },
+    "account": {
+      "title": "Account",
+      "profile": "Profile Settings",
+      "preferences": "Preferences"
+    }
+  },
+  "auth": {
+    "app": {
+      "title": "Lab Workspace"
+    },
+    "welcome": {
+      "message": "Welcome to your Lab Workspace!"
+    },
+    "buttons": {
+      "demoLogin": "Login as Demo User",
+      "googleLogin": "Continue with Google"
+    },
+    "status": {
+      "loggingOut": "Logging out..."
+    },
+    "errors": {
+      "demoLoginFailed": "Demo login failed",
+      "authRequired": "Authentication required",
+      "configNotFound": "Authentication not configured",
+      "tokenInvalid": "Access token has expired"
+    }
+  },
+  "editableTodoCard": {
+    "confirmCancel": "You have unsaved changes. Are you sure you want to cancel?",
+    "confirmDelete": "Are you sure you want to archive this assay?",
+    "sections": {
+      "metadata": "Metadata (Optional)"
+    },
+    "errors": {
+      "descriptionRequired": "Description is required for AI analysis",
+      "aiEnhancementFailed": "AI analysis failed: {{error}}",
+      "saveFailed": "Failed to save changes"
+    },
+    "placeholders": {
+      "description": "Enter assay description...",
+      "clickToAdd": "Click to add description...",
+      "enhancedDescription": "AI-analyzed description will appear here...",
+      "notes": "Additional notes...",
+      "ticket": "Ticket reference..."
+    },
+    "labels": {
+      "enhancedDescription": "Enhanced Description",
+      "aiEnhanced": "🧠 AI Analyzed Description:",
+      "completionNotes": "✅ Validation Notes:",
+      "completed": "Validated",
+      "duration": "Duration"
+    },
+    "priority": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High",
+      "critical": "Critical"
+    },
+    "status": {
+      "pending": "Pending",
+      "in_progress": "In Trial",
+      "blocked": "Contraindicated",
+      "review": "Review",
+      "completed": "Validated",
+      "initial": "Initialized",
+      "cancelled": "Terminated"
+    },
+    "menu": {
+      "editTask": "Edit Assay",
+      "deleteTask": "Archive Assay"
+    },
+    "messages": {
+      "noEnhancedDescription": "No analyzed description yet. Click the AI button to generate one."
+    }
+  },
+  "mindMap": {
+    "controls": {
+      "switchToWorldMap": "Switch to Lab Overview",
+      "switchToSphere": "Switch to Sphere",
+      "chaos": "Chaos"
+    },
+    "info": {
+      "nodeCount": "{{count}} Nodes"
+    },
+    "instructions": {
+      "dragToMove": "Drag to Move",
+      "dragging": "Dragging!",
+      "touchAndDrag": "Touch & Drag",
+      "doubleTapBurst": "Double-tap for burst!",
+      "doubleTapPhysics": "Double-tap for physics!"
+    },
+    "filter": {
+      "title": "Study Filter",
+      "allProjects": "All Studies",
+      "projectCount": "{{selected}}/{{total}} Studies",
+      "selectAll": "Select All",
+      "clearAll": "Clear All",
+      "selectProjects": "Select Studies",
+      "projectsSelected": "{{count}} studies selected",
+      "selectedProjects": "Selected Studies ({{count}})"
+    },
+    "tooltips": {
+      "disableStaticMode": "Disable Static Mode",
+      "enableStaticMode": "Enable Static Mode",
+      "cleanUpEffects": "Clean Up Visual Effects"
+    },
+    "sequence": {
+      "hideSequence": "Hide Assay Sequence",
+      "showSequence": "Show AI Assay Sequence",
+      "analyzeSequences": "Analyze Sequences",
+      "stopAnimation": "Stop Animation",
+      "animateSequence": "Animate Sequence",
+      "shuffleSequence": "Shuffle Sequence Type"
+    },
+    "selection": {
+      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+    },
+    "nodes": {
+      "centerBrain": "⚡ LAB CORE",
+      "centerWorkshop": "🧠 LAB BENCH"
+    },
+    "modes": {
+      "dynamic": "⚡ Dynamic Mode",
+      "static": "📖 Static Mode"
+    },
+    "dialog": {
+      "createNode": "🧠 Create Node",
+      "nodeText": "Node Text"
+    },
+    "nodeInfo": {
+      "type": "Type",
+      "priority": "Priority",
+      "energy": "Energy"
+    }
+  },
+  "chatAssistant": {
+    "errors": {
+      "notConfigured": "AI provider is not configured. Please go to Settings → AI Configuration to set up your AI provider.",
+      "noResponse": "I received your message but couldn't generate a proper response. Please try again.",
+      "demoUserRestricted": "🚫 AI chat is not available for demo users. Please sign up for a free account to access AI assistance."
+    },
+    "quickActions": {
+      "listPending": "List my pending assays",
+      "createHighPriority": "Create a new high priority assay",
+      "summarizeProject": "Summarize the {{project}} study",
+      "filterHighPriority": "Show me high priority assays in this study"
+    },
+    "suggestedActions": {
+      "listPending": "List Pending",
+      "newHighPrio": "New High Prio",
+      "summarize": "Summarize"
+    },
+    "status": {
+      "typing": "Assistant is typing"
+    },
+    "emptyState": {
+      "title": "Lab Assistant",
+      "demoMessage": "AI chat is not available for demo users. Sign up for a free account to access AI assistance!",
+      "description": "Your personal AI to help manage assays, studies, and more.",
+      "suggestions": [
+        "Search research notes",
+        "List active tasks",
+        "Create new project",
+        "Generate experiment report"
+      ]
+    },
+    "notConfigured": {
+      "title": "AI Assistant Not Configured",
+      "description": "To use the AI assistant, please configure your AI provider in the Settings.",
+      "configureButton": "Configure AI Provider"
+    },
+    "header": {
+      "title": "Lab Assistant",
+      "refreshTooltip": "Refresh context",
+      "settingsTooltip": "Settings"
+    },
+    "menu": {
+      "refreshContext": "Refresh Context",
+      "aiSettings": "AI Settings (Go to Settings)",
+      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+    },
+    "input": {
+      "placeholder": "Ask your lab assistant...",
+      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
+    },
+    "title": "Lab Assistant",
+    "placeholder": "Ask your lab assistant...",
+    "send": "Send",
+    "thinking": "Processing...",
+    "suggestions": {
+      "searchLessons": "Search research notes",
+      "listTodos": "List active tasks",
+      "createProject": "Create new project",
+      "summarize": "Generate summary"
+    }
+  },
+  "mobileChatInterface": {
+    "quickActions": {
+      "createTodo": "Create Assay",
+      "listTodos": "List Assays",
+      "projectStatus": "Study Status",
+      "help": "Help",
+      "settings": "Settings",
+      "refreshData": "Refresh Data"
+    },
+    "actionMessages": {
+      "createTodo": "Help me create a new assay",
+      "listTodos": "Show me my current assays",
+      "projectStatus": "Give me a status update on my studies",
+      "help": "What can you help me with?",
+      "settings": "Open settings panel",
+      "refresh": "Refresh my data"
+    },
+    "header": {
+      "title": "Lab Assistant",
+      "statusListening": "Listening...",
+      "statusTyping": "Typing...",
+      "statusOnline": "Online"
+    },
+    "emptyState": {
+      "greeting": "Hi! I'm your Lab Assistant",
+      "description": "I can help you manage assays, navigate studies, and answer questions about your workspace."
+    },
+    "status": {
+      "thinking": "AI is thinking..."
+    },
+    "input": {
+      "placeholder": "Type a message..."
+    }
+  },
+  "swarmDesk": {
+    "ui": {
+      "loading": {
+        "entering": "🎮 Entering Clinical Environment...",
+        "initializing": "⚙️ Initializing SwarmDesk...",
+        "ready": "✅ System Ready",
+        "connecting": "🔗 Connecting to Services...",
+        "loadingProjects": "📊 Loading Study Data...",
+        "title": "🎪 Cultivating SwarmDesk Clinical Environment...",
+        "subtitle": "Preparing the Biomedical Protocols!"
+      },
+      "navigation": {
+        "controls": "🎮 Navigation Controls",
+        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
+        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Lab Bench | M: Menu"
+      },
+      "status": {
+        "connected": "🌐 Network: CONNECTED",
+        "offline": "⚠️ Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Data...",
+        "ready": "✅ SwarmDesk: READY"
+      },
+      "error": {
+        "title": "❌ SwarmDesk Protocol Failure",
+        "subtitle": "Check diagnostic console for clinical details",
+        "initializationFailed": "SwarmDesk clinical initialization failed"
+      },
+      "controls": {
+        "instructions": "🎪 SwarmDesk Active | WASD: Specimen Movement | E: Clinical Interaction | F4-F7: Conjure Panels | Space: Pathology Mode"
+      }
+    },
+    "panels": {
+      "welcome": {
+        "title": "🎮 Welcome to SwarmDesk",
+        "subtitle": "Interactive Research Management Interface",
+        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your studies and assays. Use the navigation controls to move around and interact with the various elements.",
+        "gettingStarted": "Getting Started:",
+        "quickActions": [
+          "📝 View and manage your study assays",
+          "🎯 Create new assays and set priorities",
+          "📊 Review study statistics and progress",
+          "⚙️ Configure study settings and preferences",
+          "🔗 Connect to external tools and services"
+        ],
+        "features": {
+          "title": "🎯 Clinical Features:",
+          "draggable": "📱 Draggable diagnostic panels with incubator docking",
+          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk clinical interactions",
+          "docking": "🧲 Magnetic docking zones (surgical edges & corners)",
+          "shortcuts": "⌨️ Protocol shortcuts for quick access",
+          "integration": "🎮 Full SwarmDesk 3D lab workspace integration"
+        },
+        "actions": {
+          "createProject": "📋 Manifest Protocol Panel",
+          "createAgent": "🤖 Summon Specimen Panel"
+        }
+      },
+      "shortcuts": {
+        "title": "⌨️ Keyboard Shortcuts",
+        "subtitle": "Quick Controls Reference",
+        "categories": {
+          "navigation": {
+            "title": "🧭 Navigation",
+            "commands": [
+              "WASD: Move camera around the environment",
+              "Mouse Drag: Look around and rotate view",
+              "Scroll: Zoom in and out",
+              "ESC: Return to main lab bench"
+            ]
+          },
+          "panels": {
+            "title": "📊 Panel Controls",
+            "commands": [
+              "F4: Open Assay Management Panel",
+              "F5: Open Activity Log Panel",
+              "F6: Open Chat Panel",
+              "F7: Open Study Info Panel"
+            ]
+          },
+          "actions": {
+            "title": "⚡ Actions",
+            "commands": [
+              "E: Interact with selected object",
+              "Space: Quick action",
+              "M: Open main menu",
+              "R: Refresh data"
+            ]
+          }
+        },
+        "f3": "F3 - Toggle Clinical Welcome Portal",
+        "f4": "F4 - Toggle Study Protocol Portal",
+        "f5": "F5 - Toggle Specimen Actions",
+        "f6": "F6 - Toggle Diagnostic Tools",
+        "f7": "F7 - Toggle Analytics Results Portal",
+        "f8": "F8 - Toggle WebLLM Consciousness Portal",
+        "f9": "F9 - Toggle MQTT Vital Signs Monitor",
+        "f10": "F10 - Minimize All Clinical Portals",
+        "f11": "F11 - Drop All Portals",
+        "esc": "ESC - Cancel current clinical operation",
+        "drag": "Drag portals - Click and manipulate portal headers",
+        "dock": "Dock portals - Drag near surgical edges to anchor"
+      },
+      "mcp": {
+        "title": "🔗 Model Context Protocol",
+        "subtitle": "System Integration Hub",
+        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "features": [
+          "🔧 Tool Integration Framework",
+          "📊 Automated Data Collection",
+          "🎯 Assay Management Integration",
+          "⚙️ Workflow Automation",
+          "🔐 Secure Communication"
+        ],
+        "gettingStarted": "Setup Instructions:",
+        "deploymentSteps": [
+          "Configure authentication settings",
+          "Connect to desired services",
+          "Set up automation rules",
+          "Test connections and workflows"
+        ],
+        "tools": {
+          "title": "🛠️ Available MCP Diagnostic Tools",
+          "notAuthenticated": "Please scrub into the lab to access MCP tools.",
+          "authRequired": "Clinical authentication required to connect to MCP apparatus",
+          "connecting": "No diagnostic tools available. Connecting to apparatus...",
+          "serverStatus": "Apparatus Status: {{status}}",
+          "retryConnection": "🔄 Retry Diagnostic Connection",
+          "connectedAs": "Connected as: {{username}}"
+        },
+        "history": {
+          "title": "📜 Clinical Protocol Chronicle",
+          "noHistory": "No pathology history found."
+        },
+        "debug": {
+          "title": "🐛 Pathology Debug Information",
+          "authentication": "Authentication: {{status}}",
+          "user": "Specimen: {{user}}",
+          "authMode": "Clinical Mode: {{mode}}",
+          "mcpServer": "MCP Apparatus: {{status}}",
+          "activeTools": "Active Diagnostic Tools: {{count}}",
+          "lastPing": "Last Vital Ping: {{time}}",
+          "apiService": "API Apparatus: {{status}}",
+          "authContext": "Auth Clinical Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Lab Auth"
+        }
+      },
+      "project": {
+        "overview": {
+          "title": "📊 Study Overview",
+          "activeProjects": "Active Protocols: 5",
+          "pendingTasks": "Pending Assays: 23",
+          "completedToday": "Diagnosed Today: 7",
+          "actions": {
+            "viewAll": "📋 View All Protocols",
+            "addTask": "➕ Add New Assay Task"
+          }
+        },
+        "todos": {
+          "title": "✅ Assay Task Protocol",
+          "inProgress": "🎪 Dashboard Integration - Under Clinical Investigation",
+          "pending": "🔧 MCP Tool Enhancement - Awaiting Clinical Alignment",
+          "actions": {
+            "addTodo": "➕ Add Assay Task"
+          }
+        },
+        "files": {
+          "title": "📁 Pathology Archives",
+          "files": [
+            "📄 dashboard-integrated.html",
+            "📄 floating-panels-dashboard.html",
+            "📄 floating-panel-system.js",
+            "📄 swarmdesk-dashboard-hooks.js"
+          ],
+          "actions": {
+            "browse": "📂 Browse Pathology Archives"
+          }
+        }
+      },
+      "agent": {
+        "chat": {
+          "title": "💬 Specimen Diagnostic Communication",
+          "agentReady": "Specimen: Ready to assist with your clinical studies!",
+          "userQuery": "You: Help me with the floating diagnostic panels",
+          "agentResponse": "Specimen: The floating panel protocol is clinical! You can drag panels anywhere and dock them to surgical edges.",
+          "placeholder": "Type your clinical notes..."
+        },
+        "commands": {
+          "title": "⚡ Specimen Diagnostic Commands",
+          "searchProjects": "🔍 Search Clinical Protocols",
+          "listTodos": "📋 List Assay Tasks",
+          "deployProject": "🚀 Deploy Clinical Protocol",
+          "generateReport": "📊 Generate Pathology Report"
+        },
+        "interface": {
+          "title": "💬 {{agentName}} Clinical Interface",
+          "role": "Role: {{role}}",
+          "status": "Status: {{status}}",
+          "actions": {
+            "startConversation": "💬 Begin Diagnostic Conversation",
+            "executeCommand": "⚡ Execute Clinical Command"
+          }
+        },
+        "capabilities": {
+          "title": "⚡ Clinical Agent Capabilities",
+          "projectManagement": "✅ Protocol Management",
+          "codeAnalysis": "✅ Pathology Analysis",
+          "mcpIntegration": "✅ MCP Diagnostic Tool Integration",
+          "communication": "✅ Real-time Diagnostic Communication"
+        }
+      },
+      "analytics": {
+        "metrics": {
+          "title": "📈 Clinical System Metrics",
+          "cpuUsage": "Vital CPU Usage: 42%",
+          "memory": "Clinical Memory: 68%",
+          "activePanels": "Active Portals: {{count}}",
+          "uptime": "Clinical Uptime: 2h 15m"
+        },
+        "activity": {
+          "title": "🚀 Recent Clinical Activity",
+          "panelCreated": "🏷️ Portal created: Project Management",
+          "swarmDeskInteraction": "🎮 SwarmDesk clinical interaction: Workstation selected",
+          "mcpToolExecuted": "🔧 MCP diagnostic tool executed: list_projects"
+        },
+        "insights": {
+          "title": "💡 Prognosis Insights",
+          "mostUsedPanel": "Most used portal: Project Management",
+          "peakActivity": "Peak clinical activity: 14:00-15:00",
+          "efficiencyScore": "Clinical efficiency score: 87%"
+        }
+      },
+      "webllm": {
+        "models": {
+          "title": "🧠 Available Consciousness Models",
+          "currentModel": "Current Consciousness: {{model}}",
+          "loadModel": "Load Diagnostic Model"
+        },
+        "compatibility": {
+          "title": "✅ Clinical Browser Compatibility",
+          "checking": "🔄 Checking diagnostic compatibility...",
+          "checkCompatibility": "🔍 Check Diagnostic Compatibility"
+        },
+        "status": {
+          "title": "⚡ WebLLM Clinical Status",
+          "initialized": "Diagnosis Initialized: {{status}}",
+          "currentModel": "Current Consciousness: {{model}}",
+          "loading": "Specimen Loading: {{status}}",
+          "inferencing": "Pathology Inferencing: {{status}}",
+          "queueLength": "Clinical Queue Length: {{length}}",
+          "loadedModels": "Loaded Consciousness Models: {{count}}",
+          "mode": "Clinical Mode: {{mode}}",
+          "initialize": "🚀 Initialize WebLLM Protocol"
+        },
+        "settings": {
+          "title": "⚙️ WebLLM Clinical Settings",
+          "agentModelAssignment": "Clinical Agent Model Assignment:",
+          "useGlobal": "Use Global Consciousness Model",
+          "perAgent": "Per-Agent Consciousness Models",
+          "temperature": "Vital Temperature:",
+          "maxTokens": "Max Clinical Tokens:",
+          "saveSettings": "💾 Stash Clinical Settings",
+          "resetDefaults": "🔄 Reset to Clinical Defaults"
+        }
+      },
+      "mqtt": {
+        "logs": {
+          "title": "📋 MQTT Vital Sign Live Logs",
+          "noMessages": "No vital messages received yet...",
+          "waitingTraffic": "Waiting for MQTT clinical traffic on port 4140",
+          "reconnect": "🔄 Reconnect Vital Link",
+          "messages": "Vital Messages: {{count}}",
+          "lastMessage": "Last: {{time}}",
+          "clearLogs": "🗑️ Clear Vital Logs",
+          "export": "💾 Export Pathology Archive"
+        },
+        "status": {
+          "title": "🔌 MQTT Vital Connection Status",
+          "status": "Clinical Status: {{status}}",
+          "broker": "Vital Broker: {{broker}}",
+          "clientId": "Client Clinical ID: swarmdesk_{{id}}",
+          "messagesReceived": "Vital Messages Received: {{count}}",
+          "lastActivity": "Last Clinical Activity: {{time}}",
+          "subscriptions": "📡 Vital Subscriptions:",
+          "connect": "🔄 Connect Vital Link",
+          "disconnect": "🔌 Disconnect Vital Link"
+        },
+        "settings": {
+          "title": "⚙️ MQTT Clinical Settings",
+          "brokerAddress": "Vital Broker Address:",
+          "subscribeTopics": "Subscribe to Vital Topics:",
+          "autoReconnect": "Auto-reconnect on vital disconnect",
+          "showTimestamps": "Show vital timestamps",
+          "saveSettings": "💾 Stash Clinical Settings",
+          "resetDefaults": "🔄 Reset to Clinical Defaults"
+        }
+      }
+    },
+    "projectData": {
+      "title": "📂 Study Information",
+      "subtitle": "Study Management Hub",
+      "description": "Comprehensive study information and management tools for organizing your work and tracking progress.",
+      "projectReadmes": {
+        "inventorium": {
+          "title": "📊 Inventorium - Lab Dashboard",
+          "description": "Interactive dashboard for managing studies, assays, and team collaboration with integrated tools and analytics.",
+          "features": [
+            "📈 Study progress tracking and analytics",
+            "🎯 Assay management and prioritization",
+            "🤖 AI-powered insights and recommendations",
+            "🔗 Integration with external tools",
+            "📊 Real-time collaboration features"
+          ]
+        },
+        "omnispindle": {
+          "title": "🔗 Omnispindle - Integration Platform",
+          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "features": [
+            "🔧 Multi-platform connectivity",
+            "⚙️ Automated workflow processing",
+            "📊 Real-time data synchronization",
+            "🔐 Secure communication protocols",
+            "🎯 Centralized assay coordination"
+          ]
+        }
+      },
+      "swarmDesk": {
+        "title": "🎮 SwarmDesk",
+        "description": "3D interactive agent command center - the clinical diagnostic control lab for the Madness Interactive biomedical ecosystem",
+        "features": [
+          "🎮 3D interactive clinical environment",
+          "🤖 Direct specimen diagnostic communication",
+          "📊 Real-time vital system monitoring",
+          "🎪 Pathology mode clinical activation"
+        ],
+        "status": "🔥 Active Clinical Development",
+        "visibility": "public pathology repository"
+      },
+      "inventorium": {
+        "title": "📦 Inventorium",
+        "description": "Todo Inventory clinical management system - Keep up with Specimen Agents at speed, and edit their diagnoses as they operate and research",
+        "features": [
+          "📋 Assay task tracking",
+          "🏷️ Smart diagnostic categorization",
+          "📈 Analytics clinical dashboard",
+          "🔄 Cross-system protocol integration"
+        ],
+        "status": "🚀 Active Clinical Development (private pathology repo)",
+        "visibility": "private clinical lab"
+      },
+      "swarmonomicon": {
+        "title": "🐝 Swarmonomicon",
+        "description": "AI agent swarm coordination clinical system - the medical journal of digital specimen orchestration and collective diagnostic intelligence",
+        "features": [
+          "🤖 Specimen diagnostic orchestration",
+          "💬 Communication pathology protocols",
+          "🎮 Interactive clinical interfaces",
+          "🧠 Collective diagnostic intelligence"
+        ],
+        "status": "✨ modularly clinically functional",
+        "visibility": "public pathology repository"
+      }
+    },
+    "errors": {
+      "connectionFailed": "❌ Connection Failed",
+      "loadingError": "⚠️ Loading Error",
+      "permissionDenied": "🔒 Access Denied",
+      "systemUnavailable": "🚫 System Unavailable",
+      "unknownError": "❓ Unknown Error",
+      "initializationFailed": "SwarmDesk clinical scripts failed to load within vital timeout",
+      "sceneInitFailed": "❌ Clinical scene initialization failed:",
+      "panelSystemFailed": "❌ Failed to create diagnostic panel system:",
+      "panelSystemMissing": "⚠️ FloatingPanelSystem not clinically available",
+      "controlsInitFailed": "Failed to initialize clinical standardized controls:",
+      "basicSceneFailed": "❌ Failed to initialize basic Three.js clinical scene:"
+    },
+    "status": {
+      "initializing": "⚙️ Initializing System...",
+      "loading": "📊 Loading Configuration...",
+      "ready": "✅ System Ready",
+      "error": "❌ System Error",
+      "offline": "⚠️ Offline Mode - Limited Features",
+      "initialized": "✅ SwarmDesk clinical tab initialized successfully",
+      "scriptsLoaded": "✅ SwarmDesk clinical scripts loaded successfully",
+      "scriptsTimeout": "⚠️ SwarmDesk clinical scripts loading timeout",
+      "containerNotReady": "⚠️ Diagnostic container not ready yet",
+      "panelSystemExists": "🏷️ Diagnostic panel system already exists, ensuring proper state",
+      "panelSystemMissing": "⚠️ Diagnostic panel system missing handleKeyboard, reinitializing...",
+      "panelSystemCreated": "✅ Diagnostic panel system created successfully"
+    },
+    "actions": {
+      "create": "🆕 Create New",
+      "view": "👁️ View Details",
+      "edit": "✏️ Edit Item",
+      "delete": "🗑️ Archive Item",
+      "refresh": "🔄 Refresh Data",
+      "connect": "🔗 Connect Service",
+      "deploy": "🚀 Deploy Strategic Initiative",
+      "monitor": "📊 Monitor Performance Metrics",
+      "optimize": "⚡ Optimize Resource Allocation",
+      "analyze": "📈 Generate Strategic Analysis",
+      "configure": "⚙️ Configure System Parameters"
+    }
+  },
+  "spells": {
+    "names": {
+      "enhance_description": "AI Assay Analysis",
+      "perform_geomancy": "Pattern Analysis",
+      "consolidate_similar": "Assay Consolidation"
+    },
+    "descriptions": {
+      "enhance_description": "Use AI to analyze assay descriptions with improved clarity and additional insights for better understanding",
+      "perform_geomancy": "Analyze patterns and relationships within your assays and studies to identify optimization opportunities",
+      "consolidate_similar": "Automatically identify and merge similar assays to reduce duplication and improve organization"
+    },
+    "interface": {
+      "title": "🪄 Assay Analysis Tools",
+      "subtitle": "Use AI-powered tools to improve your assay management",
+      "selectSpell": "Choose Analysis Tool",
+      "castSpell": "Apply Analysis",
+      "cancelSpell": "Cancel",
+      "casting": "Processing Analysis...",
+      "resultsTitle": "✨ Analysis Results",
+      "historyTitle": "📜 Analysis History",
+      "clearHistory": "Clear History",
+      "noHistory": "No analyses have been performed",
+      "placeholder": "Select a tool to analyze your assays..."
+    },
+    "effects": {
+      "particles": "Processing indicators active",
+      "energy": "System processing",
+      "casting": "Analysis in progress",
+      "complete": "Analysis completed successfully"
+    },
+    "results": {
+      "enhance": {
+        "success": "🧠 Assay analyzed with AI insights!",
+        "improvement": "Analysis applied to assay description",
+        "insights": "Key insights:",
+        "suggestions": "Recommendations:"
+      },
+      "geomancy": {
+        "success": "🔍 Patterns identified in your study!",
+        "insights": "Analysis findings:",
+        "patterns": "Pattern analysis:",
+        "recommendations": "Recommendations:",
+        "analysis": "Analysis completed"
+      },
+      "consolidate": {
+        "success": "🔗 Similar assays consolidated successfully!",
+        "merged": "{{count}} assays merged successfully",
+        "candidates": "Consolidation candidates:",
+        "preview": "Merge preview:",
+        "confirmation": "Proceed with consolidation?"
+      }
+    },
+    "errors": {
+      "castingFailed": "Analysis failed: {{error}}",
+      "noDescription": "Assay description is required for analysis",
+      "rateLimited": "Analysis limit reached. Please wait: {{timeRemaining}}",
+      "aiError": "AI system encountered an error",
+      "networkError": "Network connection error",
+      "invalidSpell": "Unknown analysis tool requested",
+      "unauthorized": "Insufficient permissions for this analysis"
+    },
+    "rateLimit": {
+      "enhance": "Analysis uses: {{used}}/{{limit}} remaining",
+      "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
+      "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
+      "resetTime": "Usage resets in: {{time}}",
+      "depleted": "Analysis limit reached temporarily"
+    },
+    "tooltip": {
+      "castSpell": "Apply AI analysis (🪄)",
+      "enhanceDescription": "Analyze with AI insights (Ctrl+E)",
+      "performGeomancy": "Analyze patterns (Ctrl+G)",
+      "consolidateSimilar": "Consolidate similar assays (Ctrl+C)",
+      "spellHistory": "View analysis history",
+      "clearHistory": "Clear analysis history"
+    },
+    "keyboard": {
+      "shortcuts": "🪄 Keyboard Shortcuts:",
+      "enhance": "Ctrl+E - AI Analysis",
+      "geomancy": "Ctrl+G - Pattern Analysis",
+      "consolidate": "Ctrl+C - Assay Consolidation",
+      "cancel": "Esc - Cancel"
+    },
+    "history": {
+      "timestamp": "Timestamp:",
+      "spellType": "Analysis type:",
+      "target": "Target assay:",
+      "result": "Result:",
+      "success": "✅ Successful",
+      "failed": "❌ Failed",
+      "duration": "Duration:",
+      "empty": "No analyses recorded"
+    },
+    "status": {
+      "idle": "Analysis tools ready",
+      "casting": "Applying analysis...",
+      "processing": "Processing data...",
+      "complete": "Analysis completed",
+      "failed": "Analysis failed",
+      "cooldown": "System cooling down..."
+    }
+  },
+  "onboarding": {
+    "colors": {
+      "cardBg": "rgba(0, 30, 30, 0.6)",
+      "cardBorder": "rgba(20, 184, 166, 0.5)",
+      "cardText": "#ccfbf1",
+      "iconColor": "#2dd4bf",
+      "chipBg": "#0d9488",
+      "chipText": "#ffffff"
+    },
+    "actions": {
+      "skip": "Skip Orientation Protocol",
+      "next": "Proceed to Next Step",
+      "back": "Return to Previous Step",
+      "getStarted": "Begin Analysis"
+    },
+    "complete": {
+      "message": "Clinical orientation complete. You are now cleared for rounds."
+    },
+    "steps": {
+      "welcome": {
+        "title": "Welcome to the Lab",
+        "defaultName": "Researcher",
+        "description": "Inventorium is your AI-powered research management and data visualization platform.",
+        "subtitle": "Let's run through the calibration protocol to help you get started."
+      },
+      "projects-overview": {
+        "title": "Research Studies",
+        "description": "Organize your analysis tasks into research studies for better protocol management and data visualization.",
+        "benefitsTitle": "Study Management Benefits:",
+        "benefits": {
+          "organize": "Group related analyses together",
+          "visualize": "Monitor progress in real-time",
+          "track": "Track milestones and deadlines",
+          "collaborate": "Share protocols with research team"
+        },
+        "hint": "💡 Protocol Tip: Every analysis can belong to a research study"
+      },
+      "create-project": {
+        "title": "Initialize First Study",
+        "description": "Let's initialize a new study to organize your research. Studies help you group related assays together.",
+        "guideTitle": "How to initialize a study:",
+        "step1": "Click the floating '+' button in the bottom right corner",
+        "step2": "Select the 'Study Protocol' tab in the dialog",
+        "step3": "Enter a unique study ID (lowercase with hyphens, e.g., 'protocol-alpha-01')",
+        "step4": "Add a display name and research abstract",
+        "hint": "Tip: Study IDs must be unique and use lowercase letters with hyphens"
+      },
+      "add-todo": {
+        "title": "Add Assay to Study",
+        "description": "Now let's add an assay to your study. These are the experimental tasks you need to validate.",
+        "guideTitle": "How to create an assay:",
+        "step1": "Click the floating '+' button again",
+        "step2": "Select the 'Assay' tab in the dialog",
+        "step3": "Enter your assay description",
+        "step4": "Select your study from the dropdown",
+        "step5": "Set priority level and click 'Initialize'",
+        "hint": "Tip: You can initiate assays from any workstation module using the '+' button"
+      },
+      "configure-ai": {
+        "title": "Configure AI Analysis Assistant",
+        "description": "Enhance your research workflow by integrating an AI provider like Google Gemini or OpenAI.",
+        "whyConfigureTitle": "Clinical Benefits of AI Integration:",
+        "benefits": {
+          "suggestions": "Generate protocol recommendations",
+          "enhance": "Optimize assay descriptions with data insights",
+          "analyze": "Identify correlations in study dependencies",
+          "insights": "Extract actionable research metrics"
+        },
+        "statusConfigured": "Status: ✅ AI assistant calibrated and validated!",
+        "statusNotConfigured": "Status: ❌ AI assistant requires calibration",
+        "configureButton": "Calibrate AI Assistant",
+        "skipButton": "Defer Calibration",
+        "helpText": "AI assistant can be calibrated anytime via Settings → AI Configuration"
+      },
+      "ai-assistant": {
+        "title": "AI Research Assistant",
+        "description": "Leverage your AI assistant to manage protocols, analyze data patterns, and enhance research productivity.",
+        "examplesTitle": "Quick Protocol Actions:",
+        "quickActions": {
+          "createTodos": "Generate tasks from protocols",
+          "analyzeTasks": "Analyze workflow patterns",
+          "suggestions": "Get protocol suggestions",
+          "insights": "Research insights"
+        },
+        "hint": "💡 Protocol Tip: Access the assistant interface to begin"
+      },
+      "swarmdesk": {
+        "title": "3D Analysis Workspace",
+        "description": "Explore your codebase in 3D with SwarmDesk - an immersive data visualization tool.",
+        "featuresTitle": "Workspace Features:",
+        "features": {
+          "codeViz": "3D code structure mapping",
+          "interactive": "Interactive data navigation",
+          "architecture": "System architecture analysis",
+          "dependencies": "Dependency relationship mapping"
+        },
+        "hint": "💡 Protocol Tip: Access workspace from study dashboard",
+        "tabTip": "After workspace initialization, press TAB to switch between control panel and 3D analysis environment"
+      },
+      "complete": {
+        "title": "Calibration Complete!",
+        "description": "Your research workstation is ready. Begin exploring and conducting your analyses.",
+        "nextStepsTitle": "Next Protocol Steps:",
+        "nextSteps": {
+          "createProject": "Initialize your first study",
+          "addTodos": "Add assays to your study",
+          "tryAI": "Engage AI research assistant",
+          "checkSwarmDesk": "Explore 3D Analysis Workspace"
+        },
+        "footer": "💡 You can replay this protocol anytime from System Settings"
+      }
+    }
+  },
+  "admin": {
+    "tabs": {
+      "overview": "Lab Overview",
+      "users": "Lab Personnel",
+      "analytics": "Clinical Analytics",
+      "featureFlags": "Protocol Flags",
+      "systemLogs": "Diagnostic Logs"
+    },
+    "overview": {
+      "title": "Clinical Overview",
+      "loading": "Analyzing specimen data...",
+      "refresh": "Refresh vitals",
+      "fallback": "(showing mock clinical data for development)",
+      "totalUsers": "Total Personnel",
+      "totalUsersSubtitle": "All registered lab staff",
+      "activeUsers": "Active Researchers (7d)",
+      "activeUsersSubtitle": "Personnel active this week",
+      "premiumUsers": "Senior Researchers",
+      "premiumUsersSubtitle": "Premium lab subscriptions",
+      "errors": "Diagnostic Errors (24h)",
+      "errorsSubtitle": "System anomalies today",
+      "tierDistribution": "Personnel Classification",
+      "tier": {
+        "free": "Intern",
+        "pro": "Researcher",
+        "premium": "Senior Researcher",
+        "admin": "Lab Director"
+      },
+      "productivity": "Productivity Vitals",
+      "totalTodos": "Total Assays",
+      "completedTodos": "Validated Assays",
+      "completionRate": "Validation Rate"
+    },
+    "analytics": {
+      "title": "Clinical Analytics Suite",
+      "loading": "Loading diagnostic protocols...",
+      "comingSoon": "Analytics Lab Under Calibration",
+      "description": "Advanced clinical charts and diagnostic visualization instruments are currently being calibrated. Check back soon for powerful insights into personnel activity, system performance, and laboratory productivity metrics.",
+      "timeframe": {
+        "day": "Last 24 Hours",
+        "week": "Last 7 Days",
+        "month": "Last 30 Days",
+        "year": "Last 12 Months"
+      },
+      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time monitoring, cohort analysis, and predictive diagnostics powered by cellular intelligence!",
+      "charts": {
+        "userGrowth": "Personnel Growth Trends",
+        "userGrowthDesc": "Track new researcher registrations over time",
+        "activityHeatmap": "Lab Activity Heatmap",
+        "activityHeatmapDesc": "Visualize researcher activity patterns by hour/day",
+        "featureUsage": "Instrument Usage Distribution",
+        "featureUsageDesc": "Which lab instruments are most utilized?",
+        "performance": "System Diagnostic Metrics",
+        "performanceDesc": "API response times and error rates"
+      }
+    },
+    "logs": {
+      "title": "Diagnostic Logs",
+      "loading": "Analyzing lab recordings...",
+      "refresh": "Refresh logs",
+      "fallback": "(showing mock diagnostic data for development)",
+      "autoRefresh": "Auto-refresh (30s)",
+      "showing": "Showing",
+      "entries": "entries",
+      "empty": "No anomalies detected - lab running within parameters!",
+      "columns": {
+        "timestamp": "Timestamp",
+        "level": "Severity",
+        "message": "Diagnostic Message",
+        "user": "Researcher",
+        "endpoint": "Endpoint"
+      },
+      "severity": {
+        "error": "CRITICAL",
+        "warning": "CAUTION",
+        "info": "NOMINAL"
+      }
+    },
+    "featureFlags": {
+      "title": "Protocol Flags",
+      "loading": "Loading experimental protocols...",
+      "refresh": "Refresh protocols",
+      "fallback": "(showing mock protocol data for development)",
+      "lastUpdated": "Last reviewed",
+      "unsavedChanges": "You have unsaved protocol changes. These will affect all personnel when applied!",
+      "save": "Apply Protocol Changes",
+      "cancel": "Cancel",
+      "saving": "Applying...",
+      "confirmSave": "Yes, Apply Protocol Changes",
+      "tiers": {
+        "free": "Intern Tier",
+        "pro": "Researcher Tier",
+        "premium": "Senior Tier",
+        "admin": "Director Tier"
+      },
+      "flags": {
+        "basic_todos": "Basic Assays",
+        "chat_interface": "Lab Chat Interface",
+        "theme_selector": "Theme Selector",
+        "export_todos": "Export Assay Data",
+        "advanced_search": "Advanced Specimen Search",
+        "unlimited_todos": "Unlimited Assays",
+        "mindmap_view": "Cellular Map View",
+        "custom_themes": "Custom Lab Themes",
+        "api_access": "API Access",
+        "priority_support": "Priority Lab Support",
+        "swarmdesk_3d": "SwarmDesk 3D Lab",
+        "collaborative_editing": "Collaborative Research",
+        "ai_copilot": "AI Lab Assistant",
+        "admin_panel": "Director Panel",
+        "user_management": "Personnel Management",
+        "feature_flags": "Protocol Flags",
+        "system_logs": "Diagnostic Logs",
+        "analytics": "Clinical Analytics",
+        "debug_mode": "Debug Mode"
+      },
+      "confirm": {
+        "title": "Confirm Protocol Flag Changes",
+        "message": "Are you sure you want to apply these protocol changes? This will immediately affect all lab personnel across the platform. Protocol flags control access to core lab functionality.",
+        "warning": "Tip: Test changes in a staging environment first. Disabling critical protocols may disrupt research workflows."
+      }
+    },
+    "users": {
+      "title": "Personnel Management",
+      "loading": "Cataloging lab personnel...",
+      "refresh": "Refresh personnel list",
+      "fallback": "(showing mock personnel data for development)",
+      "searchPlaceholder": "Search by email or researcher name...",
+      "showing": "Showing",
+      "users": "personnel",
+      "filtered": "filtered from",
+      "empty": "No personnel registered yet",
+      "noResults": "No personnel found matching your search",
+      "adminBadge": "DIRECTOR",
+      "edit": {
+        "title": "Edit Personnel Record",
+        "email": "Email",
+        "tier": "Classification",
+        "isAdmin": "Grant Lab Director Access",
+        "cancel": "Cancel",
+        "save": "Save",
+        "saving": "Saving..."
+      },
+      "columns": {
+        "email": "Email",
+        "tier": "Classification",
+        "status": "Status",
+        "lastLogin": "Last Access",
+        "todos": "Assays",
+        "actions": "Actions"
+      },
+      "confirm": {
+        "title": "Confirm Director Access Change",
+        "grantMessage": "You are about to grant lab director privileges to this researcher. This will give them full access to the director panel, including personnel management, protocol flags, and diagnostic logs.",
+        "revokeMessage": "You are about to revoke lab director privileges from this researcher. They will lose access to all director functionality.",
+        "cancel": "Cancel",
+        "confirm": "Yes, Confirm",
+        "saving": "Saving..."
+      }
+    },
+    "common": {
+      "loading": "Processing...",
+      "error": "Diagnostic error detected",
+      "refresh": "Refresh",
+      "save": "Save",
+      "cancel": "Cancel"
+    }
+  },
+  "queuePane": {
+    "title": "Specimen Priority Queue",
+    "subtitle": "Triage your assays by clinical urgency and protocol order",
+    "dragHint": "Drag specimen cards to reorder the triage priority",
+    "searchPlaceholder": "Search the specimen queue...",
+    "emptyState": "No specimens in queue - lab bench is clear",
+    "noSearchResults": "No specimens match your diagnostic search",
+    "reordering": "Recalibrating triage order...",
+    "allProjects": "All Studies",
+    "cardActions": {
+      "complete": "Validate",
+      "edit": "Modify",
+      "remove": "Remove from Queue"
+    },
+    "incoming": {
+      "title": "Intake Specimens",
+      "addToTop": "STAT to Top",
+      "addToBottom": "Queue for Processing"
+    },
+    "ordered": {
+      "title": "Triage Queue"
+    },
+    "stats": {
+      "total": "Queued Specimens",
+      "high": "Critical Priority",
+      "incoming": "Intake"
+    }
+  },
+  "umlData": {
+    "title": "Code Visualizations",
+    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "upload": {
+      "button": "Upload UML File",
+      "reading": "Reading file",
+      "success": "Successfully uploaded {{name}} with {{classes}} classes"
+    },
+    "errors": {
+      "loadFailed": "Failed to load UML datasets",
+      "uploadFailed": "Failed to upload UML file",
+      "deleteFailed": "Failed to delete UML data"
+    },
+    "delete": {
+      "confirmTitle": "Delete Code Visualization?",
+      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
+      "success": "Successfully deleted {{name}}"
+    },
+    "viewSwarmDesk": {
+      "redirect": "Opening in SwarmDesk..."
+    },
+    "source": {
+      "personal": "Personal",
+      "shared": "Shared"
+    },
+    "instructions": {
+      "title": "How to use:",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
+      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON file using the button above"
+    },
+    "storage": {
+      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "limit": "10 files per user (10MB each)"
+    },
+    "table": {
+      "name": "Project Name",
+      "source": "Source",
+      "classes": "Classes",
+      "packages": "Packages",
+      "created": "Created",
+      "actions": "Actions"
+    },
+    "actions": {
+      "view": "View in SwarmDesk",
+      "delete": "Delete"
+    },
+    "empty": "No code visualizations yet",
+    "empty.hint": "Upload a UML file to see your code in 3D"
+  },
+  "warRoom": {
+    "backgroundImage": {
+      "title": "Map Background",
+      "description": "Set a custom background image for your War Room map",
+      "presets": "Presets",
+      "uploads": "Your Uploads",
+      "upload": "Upload",
+      "noUploads": "No custom backgrounds yet",
+      "opacity": "Opacity",
+      "fitMode": "Fit Mode",
+      "fitCover": "Cover",
+      "fitContain": "Contain",
+      "fitStretch": "Stretch",
+      "fitTile": "Tile",
+      "blendWithTerrain": "Blend with Terrain",
+      "remove": "Remove Background",
+      "active": "Active",
+      "uploadError": "Upload failed. Please try again.",
+      "fileTooLarge": "Image must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+    }
+  },
+  "insights": {
+    "loading": "Loading insights...",
+    "tabs": {
+      "overview": "Overview",
+      "analytics": "Analytics",
+      "systemLogs": "System Logs"
+    }
+  },
+  "themeName": "biomedical",
+  "displayName": "Biomedical Lab",
+  "description": "Clinical and medical science terminology - specimens, diagnoses, and lab protocols",
+  "icon": "🧬",
+  "version": "1.0.0",
+  "lessons": {
+    "title": "Case Studies & Pathology",
+    "addLesson": "Document Clinical Finding",
+    "emptyState": {
+      "title": "No Pathologies Logged",
+      "message": "The lab results are clean. Document a new anomaly to begin your case study.",
+      "action": "Record Diagnosis"
+    },
+    "fields": {
+      "topic": "Symptom Cluster",
+      "language": "Biological Vector",
+      "lessonLearned": "Post-Mortem Conclusion",
+      "tags": "Diagnostic Markers"
+    },
+    "actions": {
+      "edit": "Revise Chart",
+      "delete": "Expunge Record",
+      "save": "Log to Patient File"
+    }
+  },
+  "mindmap": {
+    "title": "Neural Pathway Map",
+    "emptyState": {
+      "title": "Cortical Flatline",
+      "message": "No synaptic connections detected in the current cortex."
+    },
+    "controls": {
+      "zoomIn": "Increase Magnification",
+      "zoomOut": "Decrease Magnification",
+      "resetView": "Standard Calibration",
+      "centerView": "Focus on Nucleus"
+    }
+  },
+  "swarmdesk": {
+    "title": "Microscope View",
+    "emptyState": {
+      "title": "Sterile Field",
+      "message": "No active specimens currently on the lab bench."
+    },
+    "controls": {
+      "rotate": "Adjust Centrifuge",
+      "zoom": "Adjust Lens",
+      "pan": "Move Slide",
+      "reset": "Recalibrate Optic"
+    }
+  },
+  "projectSelector": {
+    "title": "Select Clinical Trial",
+    "placeholder": "Search Patient Cohort...",
+    "noProjects": "No active trials found in the registry.",
+    "createNew": "Initiate New Trial"
+  },
+  "errors": {
+    "generic": "Systemic biohazard detected in the workflow.",
+    "network": "Telemetry connection to life support severed.",
+    "notFound": "Specimen not found in the morgue or active wards.",
+    "unauthorized": "HIPAA Violation: Unauthorized access to medical records.",
+    "serverError": "Critical failure in hospital mainframe systems.",
+    "server": "System pathology detected! Internal diagnostics have been alerted.",
+    "timeout": "Protocol timeout. The laboratory network failed to respond in time."
+  },
+  "success": {
+    "status": {
+      "verifying": {
+        "title": "VERIFYING...",
+        "subtitle": "Verifying payment with Stripe"
+      },
+      "success": {
+        "title": "UPGRADE COMPLETE",
+        "subtitle": "All systems nominal. Your account has been upgraded."
+      },
+      "error": {
+        "title": "VERIFICATION FAILED",
+        "subtitle": "The verification process encountered an error."
+      },
+      "no_session": {
+        "title": "MISSING SESSION",
+        "subtitle": "No checkout session detected. Did you navigate here directly?"
+      }
+    },
+    "log": {
+      "initializing": "Initializing payment verification...",
+      "connecting": "Connecting to Stripe...",
+      "session": "Session:",
+      "conduitStable": "Payment confirmed: STABLE",
+      "tierUpgrade": "Tier upgrade:",
+      "unlocking": "Unlocking upgraded features...",
+      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "paymentStatus": "Payment status:",
+      "paymentIncomplete": "WARNING: Payment incomplete",
+      "error": "ERROR:",
+      "verificationFailed": "Verification failed",
+      "containment": "Error protocols engaged"
+    },
+    "tier": "TIER",
+    "operator": "ACCOUNT",
+    "enterLab": "GO TO DASHBOARD",
+    "viewManifest": "VIEW BILLING",
+    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "checkBilling": "Check billing for current status."
+  },
+  "confirmations": {
+    "delete": "Confirm Biohazard Disposal?",
+    "discard": "Discard Contaminated Sample?",
+    "archive": "Transfer to Medical Archives?"
+  },
+  "agentStates": {
+    "working": "In Surgery",
+    "traveling": "En Route to Ward",
+    "idle": "On Call",
+    "assigned": "Assigned to Patient"
+  },
+  "targetAgent": {
+    "user": "Attending Physician",
+    "ai": "Diagnostic AI",
+    "system": "Hospital Mainframe",
+    "none": "Unassigned"
+  },
+  "accountPanel": {
+    "title": "Patient Registry",
+    "tabs": {
+      "profile": "Specimen Profile",
+      "subscription": "Treatment Subscriptions",
+      "account": "Account Clearance"
+    },
+    "subscriptionDisabled": "Subscription protocol currently inactive",
+    "dangerZone": "Restricted Laboratory"
+  },
+  "billing": {
+    "title": "Grants & Institutional Funding",
+    "subtitle": "Manage your laboratory allocation protocols",
+    "loginRequired": "Authentication required to access the grant ledger",
+    "goToLogin": "Authenticate Identity",
+    "currentPlan": "Current Funding Tier",
+    "perMonth": "/funding cycle",
+    "nextBillingDate": "Next grant renewal:",
+    "planFeatures": "ALLOCATION BENEFITS:",
+    "upgradeToPro": "ELEVATE TO PRINCIPAL INVESTIGATOR",
+    "manageBilling": "Modify Funding Protocol",
+    "cancelSubscription": "Terminate Grant",
+    "usageStats": "Laboratory Utilization",
+    "totalTodos": "Active Protocols",
+    "projects": "Research Facilities",
+    "unlimited": "Sustained",
+    "upgradePrompt": "Elevate to Principal Investigator for sustained protocols, facilities, the War Room diagnostic center, and the SwarmDesk terminal!",
+    "cancelSuccess": "Grant terminated. Laboratory access persists until the current funding cycle expires.",
+    "status": {
+      "active": "FUNDED",
+      "free": "FELLOWSHIP",
+      "inactive": "DEFUNDED"
+    },
+    "errors": {
+      "loadFailed": "The grant ledger failed to initialize",
+      "cancelFailed": "Grant termination protocol failed. Retry or contact administration.",
+      "portalFailed": "Funding portal connection timed out."
+    },
+    "cancelDialog": {
+      "title": "Terminate Grant?",
+      "message": "Are you certain you wish to terminate funding? Principal Investigator status remains active until the cycle ends.",
+      "resubscribe": "You may re-apply for funding at any time.",
+      "keep": "Maintain Grant",
+      "confirm": "Terminate"
+    }
+  },
+  "pricing": {
+    "title": "Funding Tiers",
+    "subtitle": "The fellowship serves for basic research. Principal Investigator status removes all constraints.",
+    "backToDashboard": "Return to Laboratory",
+    "currentPlan": "CURRENT ALLOCATION",
+    "free": "Fellowship",
+    "perMonth": "/funding cycle",
+    "loginToUpgrade": "AUTHENTICATE TO ELEVATE STATUS",
+    "currentTier": "CURRENT ALLOCATION",
+    "upgrade": "ELEVATE",
+    "finePrint": "Terminate anytime. No binding clinical trials. Your research remains yours regardless.",
+    "errors": {
+      "loginRequired": "Authenticate to elevate your funding status",
+      "checkoutFailed": "The elevation protocol encountered a critical error."
+    }
+  },
+  "cancel": {
+    "title": "Grant Terminated",
+    "message": "Funding has been withdrawn. You may re-apply at any time. Your basic fellowship laboratory remains operational.",
+    "goToDashboard": "Return to Laboratory",
+    "viewPlans": "View Funding Tiers"
+  },
+  "chronomancy": {
+    "loading": "Retrieving archival clinical records...",
+    "noVersions": "No historical records found for this specimen.",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "daysAgo": "{{days}}d ago",
+    "currentVersion": "Active Baseline",
+    "versionLabel": "Protocol Rev. {{version}}",
+    "versions": "revisions",
+    "gitCommit": "Registry ID",
+    "classesChange": "Structural deltas",
+    "linesChange": "Content deltas",
+    "deleteVersion": "Purge record",
+    "deleteDialog": {
+      "title": "Purge Clinical Record?",
+      "message": "Permanently expunge Rev. {{version}} of {{project}}? Data recovery is impossible once sanitized.",
+      "cancel": "Abort",
+      "confirm": "Sanitize"
+    },
+    "compare": {
+      "selectTwo": "Cross-reference (select 2)",
+      "button": "Diff Rev. {{from}} → Rev. {{to}}"
+    },
+    "diff": {
+      "title": "Clinical Delta: Rev. {{from}} → Rev. {{to}}",
+      "added": "Synthesized",
+      "removed": "Excised",
+      "modified": "Mutated",
+      "unchanged": "Stable",
+      "complexity": "Coefficient",
+      "lines": "Indices",
+      "noClassesAdded": "No structural additions detected",
+      "noClassesRemoved": "No structural excisions detected",
+      "noClassesModified": "No structural mutations detected",
+      "methodsAdded": "Functions synthesized:",
+      "methodsRemoved": "Functions excised:",
+      "depsAdded": "External reagents added:",
+      "depsRemoved": "External reagents removed:",
+      "close": "Dismiss"
+    }
+  }
+}
