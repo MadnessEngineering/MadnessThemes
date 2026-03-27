@@ -3,7 +3,7 @@
   "displayName": "Mad Laboratory",
   "description": "Mystical purple and toxic green - for the true mad scientist aesthetic",
   "icon": "🧪",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "colors": {
     "primary": "#9c27b0",
     "primaryButton": "#7b1fa2",
@@ -14,9 +14,9 @@
     "background": {
       "main": "linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)",
       "card": {
-        "normal": "rgba(10, 10, 10, 0.9)",
-        "selected": "rgba(20, 10, 25, 0.95)",
-        "hover": "rgba(20, 10, 25, 0.95)"
+        "normal": "rgba(22, 12, 35, 0.92)",
+        "selected": "rgba(35, 15, 50, 0.95)",
+        "hover": "rgba(30, 14, 45, 0.93)"
       },
       "header": "linear-gradient(135deg, #1a0a2e 0%, #16103e 100%)",
       "paper": "rgba(20, 10, 30, 0.9)",
@@ -39,7 +39,7 @@
     "border": {
       "primary": "#9c27b0",
       "secondary": "#00ff88",
-      "subtle": "rgba(156, 39, 176, 0.2)"
+      "subtle": "rgba(156, 39, 176, 0.28)"
     },
     "dashboard": {
       "stats": {
@@ -81,8 +81,8 @@
         }
       },
       "button": {
-        "neutral": "rgba(156, 39, 176, 0.2)",
-        "neutralHover": "rgba(156, 39, 176, 0.3)",
+        "neutral": "rgba(156, 39, 176, 0.3)",
+        "neutralHover": "rgba(156, 39, 176, 0.45)",
         "danger": "#d32f2f",
         "dangerHover": "#b71c1c"
       }
@@ -110,15 +110,15 @@
       },
       "hover": {
         "background": "rgba(255, 170, 0, 0.1)",
-        "overlay": "rgba(255, 255, 255, 0.02)"
+        "overlay": "rgba(255, 255, 255, 0.06)"
       },
       "selected": {
         "background": "rgba(255, 170, 0, 0.2)",
         "border": "rgba(255, 170, 0, 0.65)"
       },
       "disabled": {
-        "background": "rgba(255, 255, 255, 0.02)",
-        "text": "rgba(156, 39, 176, 0.3)"
+        "background": "rgba(255, 255, 255, 0.05)",
+        "text": "rgba(180, 120, 200, 0.5)"
       }
     },
     "effects": {
@@ -159,18 +159,18 @@
       }
     },
     "shadows": {
-      "light": "rgba(0, 0, 0, 0.2)",
-      "medium": "rgba(0, 0, 0, 0.6)",
-      "heavy": "rgba(0, 0, 0, 0.7)",
-      "overlay": "rgba(0, 0, 0, 0.9)",
-      "cardNormal": "rgba(156, 39, 176, 0.3)",
-      "cardHover": "rgba(156, 39, 176, 0.6)"
+      "light": "rgba(0, 0, 0, 0.15)",
+      "medium": "rgba(0, 0, 0, 0.3)",
+      "heavy": "rgba(0, 0, 0, 0.5)",
+      "overlay": "rgba(0, 0, 0, 0.85)",
+      "cardNormal": "rgba(156, 39, 176, 0.2)",
+      "cardHover": "rgba(156, 39, 176, 0.4)"
     },
     "overlays": {
       "light": "rgba(255, 255, 255, 0.1)",
       "medium": "rgba(255, 255, 255, 0.12)",
-      "dark": "rgba(0, 0, 0, 0.6)",
-      "darker": "rgba(0, 0, 0, 0.85)"
+      "dark": "rgba(0, 0, 0, 0.45)",
+      "darker": "rgba(0, 0, 0, 0.72)"
     },
     "status": {
       "completed": {
