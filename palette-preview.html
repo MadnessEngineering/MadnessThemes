@@ -344,10 +344,119 @@
 
   .hidden { display: none !important; }
 
+  /* === SUGGEST VIEW === */
+  .suggest-container { max-width: 650px; margin: 0 auto; }
+  .suggest-field { margin-bottom: 16px; }
+  .suggest-field label {
+    display: block;
+    font-size: 0.82em;
+    color: rgba(255,255,255,0.6);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .suggest-field select,
+  .suggest-field input[type="text"],
+  .suggest-field textarea {
+    width: 100%;
+    background: rgba(255,255,255,0.08);
+    color: #e0e0e0;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    font-family: inherit;
+  }
+  .suggest-field select:hover,
+  .suggest-field input:hover,
+  .suggest-field textarea:hover { border-color: rgba(255,255,255,0.3); }
+  .suggest-field select:focus,
+  .suggest-field input:focus,
+  .suggest-field textarea:focus { outline: none; border-color: #00ffff; }
+  .suggest-field textarea { resize: vertical; min-height: 60px; }
+  .suggest-color-group {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .suggest-color-group input[type="color"] {
+    width: 48px;
+    height: 38px;
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+    padding: 2px;
+  }
+  .suggest-color-group input[type="text"] { flex: 1; }
+  .suggest-preview {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+    padding: 12px;
+    background: rgba(255,255,255,0.03);
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .suggest-preview-swatch {
+    width: 60px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgba(255,255,255,0.2);
+  }
+  .suggest-preview-arrow { font-size: 1.4em; opacity: 0.4; }
+  .suggest-preview-label { font-size: 0.78em; opacity: 0.5; text-align: center; }
+  .suggest-btn {
+    background: rgba(0,255,255,0.12);
+    border: 1px solid rgba(0,255,255,0.4);
+    color: #00ffff;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: inherit;
+    width: 100%;
+  }
+  .suggest-btn:hover { background: rgba(0,255,255,0.2); border-color: #00ffff; }
+  .suggest-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+  .suggest-info {
+    font-size: 0.8em;
+    opacity: 0.4;
+    text-align: center;
+    margin-top: 14px;
+  }
+
+  /* Swatch clickability */
+  .swatch-row { cursor: pointer; transition: background 0.15s; border-radius: 4px; padding: 2px 4px; margin: 2px -4px; }
+  .swatch-row:hover { background: rgba(255,255,255,0.06); }
+  .diff-item { cursor: pointer; transition: background 0.15s; }
+  .diff-item:hover { background: rgba(255,255,255,0.06) !important; }
+
+  /* Toast */
+  .toast {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 24px;
+    border-radius: 8px;
+    background: rgba(15,15,25,0.95);
+    color: #e0e0e0;
+    font-size: 0.9em;
+    z-index: 200;
+    transition: opacity 0.3s;
+    backdrop-filter: blur(10px);
+  }
+  .toast.success { border: 1px solid #00ffff; }
+  .toast.error { border: 1px solid #ff6b35; }
+
   @media (max-width: 900px) {
     .compare-grid, .preview-grid { grid-template-columns: 1fr; }
     .header { flex-direction: column; align-items: flex-start; }
     .view-tabs { margin-left: 0; }
+    .suggest-container { padding: 0 10px; }
   }
 </style>
 </head>
@@ -366,6 +475,7 @@
     <button class="view-tab" data-view="swatches">Swatches</button>
     <button class="view-tab" data-view="preview">UI Preview</button>
     <button class="view-tab" data-view="diff">Diff</button>
+    <button class="view-tab" data-view="suggest">Suggest</button>
   </div>
 </div>
 
@@ -378,7 +488,10 @@
   <div id="view-preview" class="hidden"></div>
   <!-- Diff View -->
   <div id="view-diff" class="hidden"></div>
+  <!-- Suggest View -->
+  <div id="view-suggest" class="hidden"></div>
 </div>
+<div id="toast" class="toast hidden"></div>
 
 <script>
 // ============================================================
@@ -448,7 +561,8 @@ selRight.value = 'mad-laboratory';
 // ============================================================
 let currentView = 'gallery';
 const viewTabs = document.querySelectorAll('.view-tab');
-const views = { gallery: 'view-gallery', swatches: 'view-swatches', preview: 'view-preview', diff: 'view-diff' };
+const views = { gallery: 'view-gallery', swatches: 'view-swatches', preview: 'view-preview', diff: 'view-diff', suggest: 'view-suggest' };
+let suggestPrefill = { theme: '', path: '', currentValue: '' };
 
 viewTabs.forEach(tab => {
   tab.addEventListener('click', () => {
@@ -554,7 +668,7 @@ function renderSwatches() {
         const otherFlat = theme === left ? rightFlat : leftFlat;
         const differs = otherFlat[p] !== val;
         if (val && isColor(val)) {
-          html += `<div class="swatch-row ${differs ? 'diff' : ''}">
+          html += `<div class="swatch-row ${differs ? 'diff' : ''}" onclick="prefillSuggest('${label}','${p}','${val.replace(/'/g,"\\'")}')">
             ${renderSwatch(val)}
             <span class="swatch-label">${p.split('.').slice(1).join('.')}</span>
             <span class="swatch-value">${val.length > 40 ? val.substring(0,40)+'...' : val}</span>
@@ -713,7 +827,7 @@ function renderDiff() {
 
     html += '<div class="diff-grid">';
     items.forEach(item => {
-      html += `<div class="diff-item ${item.changed ? 'changed' : ''}">
+      html += `<div class="diff-item ${item.changed ? 'changed' : ''}" onclick="prefillSuggest('${rightKey}','${item.path}','${(item.right||'').replace(/'/g,"\\'")}')">
         <div class="diff-path">${item.path}</div>
         <div class="diff-compare">
           <div class="diff-swatch-block">
@@ -751,12 +865,175 @@ function renderDiff() {
   });
 }
 
+// ============================================================
+// SUGGEST VIEW
+// ============================================================
+function prefillSuggest(theme, path, currentValue) {
+  suggestPrefill = { theme, path, currentValue };
+  document.querySelector('[data-view="suggest"]').click();
+}
+
+function renderSuggest() {
+  const el = document.getElementById('view-suggest');
+  const selectedTheme = suggestPrefill.theme || themeKeys[0];
+  const flat = flattenColors(THEMES[selectedTheme].colors);
+  const colorPaths = Object.entries(flat).filter(([,v]) => isColor(v)).map(([k,v]) => ({ path: k, value: v }));
+
+  el.innerHTML = `
+    <div class="suggest-container">
+      <h2 style="margin-bottom:4px;">Suggest a Tweak</h2>
+      <p style="font-size:0.85em; opacity:0.5; margin-bottom:20px;">Pick a color, propose a change. No login needed.</p>
+
+      <div class="suggest-field">
+        <label>Theme</label>
+        <select id="suggest-theme">
+          ${themeKeys.map(k => `<option value="${k}" ${k===selectedTheme?'selected':''}>${THEMES[k].icon} ${THEMES[k].displayName}</option>`).join('')}
+        </select>
+      </div>
+
+      <div class="suggest-field">
+        <label>Color Path</label>
+        <select id="suggest-path">
+          ${colorPaths.map(cp => `<option value="${cp.path}" ${cp.path===suggestPrefill.path?'selected':''}>${cp.path}</option>`).join('')}
+        </select>
+      </div>
+
+      <div class="suggest-preview" id="suggest-preview-area">
+        <div>
+          <div class="suggest-preview-swatch" id="suggest-current-swatch"></div>
+          <div class="suggest-preview-label">current</div>
+        </div>
+        <div class="suggest-preview-arrow">&rarr;</div>
+        <div>
+          <div class="suggest-preview-swatch" id="suggest-new-swatch" style="background:#888;"></div>
+          <div class="suggest-preview-label">proposed</div>
+        </div>
+      </div>
+
+      <div class="suggest-field">
+        <label>Suggested Color</label>
+        <div class="suggest-color-group">
+          <input type="color" id="suggest-picker" value="#00ffff">
+          <input type="text" id="suggest-value" placeholder="#00ffff or rgba(...)">
+        </div>
+      </div>
+
+      <div class="suggest-field">
+        <label>Comment (optional)</label>
+        <textarea id="suggest-comment" maxlength="500" placeholder="Why this color? What does it improve?"></textarea>
+      </div>
+
+      <button class="suggest-btn" id="suggest-submit">Submit Suggestion</button>
+      <div class="suggest-info">Anonymous. No account required. Rate limited to prevent spam.</div>
+    </div>
+  `;
+
+  // Wire up events
+  const themeSelect = document.getElementById('suggest-theme');
+  const pathSelect = document.getElementById('suggest-path');
+  const picker = document.getElementById('suggest-picker');
+  const valueInput = document.getElementById('suggest-value');
+  const currentSwatch = document.getElementById('suggest-current-swatch');
+  const newSwatch = document.getElementById('suggest-new-swatch');
+  const submitBtn = document.getElementById('suggest-submit');
+
+  function updateCurrentSwatch() {
+    const t = THEMES[themeSelect.value];
+    const f = flattenColors(t.colors);
+    const val = f[pathSelect.value];
+    currentSwatch.style.background = val || '#333';
+  }
+
+  function repopulatePaths() {
+    const t = THEMES[themeSelect.value];
+    const f = flattenColors(t.colors);
+    const paths = Object.entries(f).filter(([,v]) => isColor(v));
+    pathSelect.innerHTML = paths.map(([k]) => `<option value="${k}">${k}</option>`).join('');
+    updateCurrentSwatch();
+  }
+
+  themeSelect.addEventListener('change', repopulatePaths);
+  pathSelect.addEventListener('change', updateCurrentSwatch);
+
+  picker.addEventListener('input', () => {
+    valueInput.value = picker.value;
+    newSwatch.style.background = picker.value;
+  });
+
+  valueInput.addEventListener('input', () => {
+    newSwatch.style.background = valueInput.value || '#888';
+    if (/^#[0-9a-fA-F]{6}$/.test(valueInput.value)) {
+      picker.value = valueInput.value;
+    }
+  });
+
+  submitBtn.addEventListener('click', async () => {
+    const suggestedValue = valueInput.value.trim();
+    if (!suggestedValue) { showToast('Enter a suggested color value', 'error'); return; }
+
+    const t = THEMES[themeSelect.value];
+    const f = flattenColors(t.colors);
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+
+    try {
+      const resp = await fetch('/api/theme-suggestions', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          themeName: themeSelect.value,
+          colorPath: pathSelect.value,
+          currentValue: f[pathSelect.value] || '',
+          suggestedValue,
+          comment: document.getElementById('suggest-comment').value.trim()
+        })
+      });
+      const data = await resp.json();
+      if (resp.status === 201) {
+        showToast(data.message || 'Suggestion received!', 'success');
+        valueInput.value = '';
+        document.getElementById('suggest-comment').value = '';
+        newSwatch.style.background = '#888';
+      } else if (resp.status === 429) {
+        showToast('Too many suggestions -- wait a moment and try again', 'error');
+      } else {
+        showToast(data.message || 'Something went wrong', 'error');
+      }
+    } catch (err) {
+      showToast('Network error -- is the server running?', 'error');
+    }
+    submitBtn.disabled = false;
+    submitBtn.textContent = 'Submit Suggestion';
+  });
+
+  // Apply prefill
+  updateCurrentSwatch();
+  if (suggestPrefill.currentValue) {
+    valueInput.value = suggestPrefill.currentValue;
+    newSwatch.style.background = suggestPrefill.currentValue;
+    if (/^#[0-9a-fA-F]{6}$/.test(suggestPrefill.currentValue)) {
+      picker.value = suggestPrefill.currentValue;
+    }
+  }
+  // Clear prefill after use
+  suggestPrefill = { theme: '', path: '', currentValue: '' };
+}
+
+function showToast(message, type) {
+  const toast = document.getElementById('toast');
+  toast.textContent = message;
+  toast.className = `toast ${type}`;
+  setTimeout(() => { toast.className = 'toast hidden'; }, 3500);
+}
+
 function render() {
   switch (currentView) {
     case 'gallery': renderGallery(); break;
     case 'swatches': renderSwatches(); break;
     case 'preview': renderPreview(); break;
     case 'diff': renderDiff(); break;
+    case 'suggest': renderSuggest(); break;
   }
 }
 
