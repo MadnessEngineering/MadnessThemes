@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inventorium Theme Laboratory</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: #0a0a0a;
+    color: #e0e0e0;
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(90deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+    padding: 20px 30px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .header h1 {
+    font-size: 1.4em;
+    background: linear-gradient(90deg, #00ffff, #ff6b35);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+  }
+  .controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .controls label {
+    font-size: 0.85em;
+    color: rgba(255,255,255,0.6);
+  }
+  .controls select {
+    background: rgba(255,255,255,0.08);
+    color: #e0e0e0;
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  .controls select:hover { border-color: rgba(255,255,255,0.3); }
+  .view-tabs {
+    display: flex;
+    gap: 4px;
+    margin-left: auto;
+  }
+  .view-tab {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    color: rgba(255,255,255,0.6);
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85em;
+    transition: all 0.2s;
+  }
+  .view-tab:hover { background: rgba(255,255,255,0.1); color: #fff; }
+  .view-tab.active { background: rgba(0,255,255,0.15); border-color: #00ffff; color: #00ffff; }
+
+  .container { padding: 20px 30px; max-width: 1800px; margin: 0 auto; }
+
+  /* === SWATCHES VIEW === */
+  .compare-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .theme-column {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .theme-column-header {
+    padding: 14px 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  .theme-column-header .icon { font-size: 1.4em; }
+  .theme-column-header .desc {
+    font-size: 0.75em;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-left: auto;
+  }
+  .section-group {
+    padding: 10px 18px 18px;
+  }
+  .section-title {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 14px 0 8px;
+    opacity: 0.5;
+  }
+  .swatch-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 0;
+    font-size: 0.82em;
+  }
+  .swatch {
+    width: 32px;
+    height: 22px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.15);
+    flex-shrink: 0;
+  }
+  .swatch-label {
+    flex: 1;
+    opacity: 0.7;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.85em;
+  }
+  .swatch-value {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.8em;
+    opacity: 0.5;
+  }
+  .swatch-row.diff .swatch { border: 2px solid #ffaa00; box-shadow: 0 0 6px rgba(255,170,0,0.4); }
+  .swatch-row.diff .swatch-label { opacity: 1; color: #ffaa00; }
+
+  /* === UI PREVIEW VIEW === */
+  .preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .preview-panel {
+    border-radius: 12px;
+    overflow: hidden;
+    min-height: 600px;
+  }
+  .preview-topbar {
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 0.95em;
+  }
+  .preview-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+  .preview-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+  }
+  .preview-stat {
+    padding: 12px 10px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+  .preview-stat .num { font-size: 1.6em; display: block; margin-bottom: 2px; }
+  .preview-card {
+    border-radius: 8px;
+    padding: 14px;
+    border: 1px solid transparent;
+  }
+  .preview-card-title { font-weight: 600; margin-bottom: 6px; }
+  .preview-card-text { font-size: 0.85em; opacity: 0.8; }
+  .preview-tags { display: flex; gap: 6px; margin-top: 8px; flex-wrap: wrap; }
+  .preview-tag {
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 0.75em;
+    border: 1px solid transparent;
+  }
+  .preview-status-list { display: flex; flex-direction: column; gap: 6px; }
+  .preview-status-badge {
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8em;
+    border: 1px solid transparent;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .preview-status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .preview-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+  .preview-btn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.82em;
+    font-weight: 500;
+    border: none;
+    cursor: default;
+  }
+  .preview-input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.85em;
+    border: 1px solid transparent;
+    background: transparent;
+    width: 100%;
+  }
+
+  /* === DIFF VIEW === */
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 12px;
+  }
+  .diff-item {
+    border-radius: 8px;
+    padding: 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.08);
+  }
+  .diff-item.changed {
+    border-color: rgba(255,170,0,0.4);
+    background: rgba(255,170,0,0.05);
+  }
+  .diff-path {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.78em;
+    opacity: 0.6;
+    margin-bottom: 8px;
+    word-break: break-all;
+  }
+  .diff-compare {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .diff-swatch-block {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+  }
+  .diff-swatch {
+    width: 40px;
+    height: 28px;
+    border-radius: 4px;
+    border: 1px solid rgba(255,255,255,0.15);
+  }
+  .diff-val {
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.75em;
+    opacity: 0.7;
+    word-break: break-all;
+  }
+  .diff-arrow {
+    font-size: 1.2em;
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+  .diff-same { opacity: 0.3; }
+
+  /* === GALLERY VIEW === */
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+  }
+  .gallery-card {
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .gallery-card:hover { transform: translateY(-3px); }
+  .gallery-card-header {
+    padding: 14px 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .gallery-card-body { padding: 12px 16px; }
+  .gallery-palette {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  .gallery-swatch {
+    flex: 1;
+    height: 32px;
+    border-radius: 4px;
+  }
+  .gallery-desc {
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+  .gallery-stats-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4px;
+    margin-top: 10px;
+  }
+  .gallery-mini-stat {
+    padding: 6px 4px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.65em;
+    font-weight: 600;
+  }
+
+  /* Filter bar */
+  .filter-bar {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .filter-chip {
+    padding: 4px 12px;
+    border-radius: 14px;
+    font-size: 0.8em;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    cursor: pointer;
+    color: rgba(255,255,255,0.6);
+    transition: all 0.2s;
+  }
+  .filter-chip:hover { background: rgba(255,255,255,0.1); }
+  .filter-chip.active { background: rgba(0,255,255,0.15); border-color: #00ffff; color: #00ffff; }
+
+  .hidden { display: none !important; }
+
+  @media (max-width: 900px) {
+    .compare-grid, .preview-grid { grid-template-columns: 1fr; }
+    .header { flex-direction: column; align-items: flex-start; }
+    .view-tabs { margin-left: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Inventorium Theme Laboratory</h1>
+  <div class="controls">
+    <label>Left:</label>
+    <select id="theme-left"></select>
+    <label>Right:</label>
+    <select id="theme-right"></select>
+  </div>
+  <div class="view-tabs">
+    <button class="view-tab active" data-view="gallery">Gallery</button>
+    <button class="view-tab" data-view="swatches">Swatches</button>
+    <button class="view-tab" data-view="preview">UI Preview</button>
+    <button class="view-tab" data-view="diff">Diff</button>
+  </div>
+</div>
+
+<div class="container">
+  <!-- Gallery View -->
+  <div id="view-gallery"></div>
+  <!-- Swatches View -->
+  <div id="view-swatches" class="hidden"></div>
+  <!-- Preview View -->
+  <div id="view-preview" class="hidden"></div>
+  <!-- Diff View -->
+  <div id="view-diff" class="hidden"></div>
+</div>
+
+<script>
+// ============================================================
+// ALL THEME DATA EMBEDDED
+// ============================================================
+const THEMES = {
+"standard": {"themeName":"standard","displayName":"Standard Laboratory","description":"Classic Inventorium color scheme - cyan and orange with dark backgrounds","icon":"📝","version":"1.0.0","colors":{"primary":"#00ffff","primaryButton":"#0088cc","secondary":"#ff6b35","success":"#4caf50","warning":"#ff9800","error":"#f44336","background":{"main":"linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)","card":{"normal":"rgba(10, 10, 10, 0.9)","selected":"rgba(15, 15, 15, 0.95)","hover":"rgba(15, 15, 15, 0.95)"},"header":"linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)","paper":"rgba(20, 20, 30, 0.9)","topBar":"linear-gradient(90deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%)"},"text":{"primary":"rgba(255, 255, 255, 0.9)","secondary":"rgba(255, 255, 255, 0.85)","tertiary":"rgba(255, 255, 255, 0.65)","muted":"rgba(255, 255, 255, 0.6)","success":"#66bb6a","warning":"#ffa726","error":"#ef5350","info":"#29b6f6","critical":"#ff1744","high":"#ff6f00","medium":"#ffb300","low":"#8d6e63"},"border":{"primary":"#00ffff","secondary":"#ff6b35","subtle":"rgba(255, 255, 255, 0.1)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #1976d2 0%, #1565c0 100%)","color":"#FFFFFF"},"active":{"background":"linear-gradient(135deg, #43a047 0%, #2e7d32 100%)","color":"#FFFFFF"},"completed":{"background":"linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%)","color":"#FFFFFF"},"archived":{"background":"linear-gradient(135deg, #f44336 0%, #d32f2f 100%)","color":"#FFFFFF"}},"activity":{"panel":{"background":"rgba(63, 81, 181, 0.1)","border":"rgba(63, 81, 181, 0.2)"},"create":"#2196f3","complete":"#4caf50","delete":"#f44336","update":"#ff9800","review":"#9c27b0"},"completed":{"panel":{"background":"rgba(67, 160, 71, 0.1)","border":"rgba(67, 160, 71, 0.2)"},"highlight":{"background":"rgba(67, 160, 71, 0.1)"}},"button":{"neutral":"#f1f1f1","neutralHover":"#e0e0e0","danger":"#ff5722","dangerHover":"#e65100"}},"accent":{"orange":"#ff5722","deepOrange":"#ff5722","green":"#4caf50","lightGreen":"#66bb6a","amber":"#ff9800","red":"#f44336","deepRed":"#e65100","purple":"#9c27b0","deepPurple":"#7b1fa2","cyan":"#00d4ff","blue":"#2196f3"},"state":{"editing":{"primary":"#ff5722","background":"rgba(255, 87, 34, 0.1)","backgroundMedium":"rgba(255, 87, 34, 0.15)","border":"rgba(255, 87, 34, 0.3)","shadow":"rgba(255, 87, 34, 0.15)"},"hover":{"background":"rgba(255, 87, 34, 0.1)","overlay":"rgba(0, 0, 0, 0.1)"},"selected":{"background":"rgba(255, 87, 34, 0.2)","border":"rgba(255, 87, 34, 0.65)"},"disabled":{"background":"rgba(0, 0, 0, 0.1)","text":"rgba(255, 255, 255, 0.3)"}},"effects":{"magic":{"primary":"#c06bff","glow":"rgba(192, 107, 255, 0.3)","background":"rgba(156, 39, 176, 0.1)","backgroundMedium":"rgba(156, 39, 176, 0.2)","trail":"rgba(192, 107, 255, 0.15)"},"energy":{"primary":"#00d4ff","glow":"rgba(0, 212, 255, 0.2)","background":"rgba(0, 212, 255, 0.1)","pulse":"rgba(0, 212, 255, 0.6)"},"debug":{"mobile":"#00ff00","desktop":"#ffa500","mobileBackground":"rgba(0, 255, 0, 0.2)","desktopBackground":"rgba(255, 165, 0, 0.2)"}},"tags":{"default":{"background":"rgba(255, 87, 34, 0.15)","border":"rgba(255, 87, 34, 0.2)","hover":"rgba(255, 87, 34, 0.25)"},"cached":{"background":"rgba(76, 175, 80, 0.2)","border":"rgba(76, 175, 80, 0.6)","text":"#4caf50"},"selected":{"background":"rgba(255, 87, 34, 0.3)","border":"rgba(255, 87, 34, 0.7)"}},"shadows":{"light":"rgba(0, 0, 0, 0.1)","medium":"rgba(0, 0, 0, 0.2)","heavy":"rgba(0, 0, 0, 0.65)","overlay":"rgba(0, 0, 0, 0.9)","cardNormal":"rgba(0, 0, 0, 0.1)","cardHover":"rgba(0, 0, 0, 0.15)"},"overlays":{"light":"rgba(255, 255, 255, 0.1)","medium":"rgba(255, 255, 255, 0.1)","dark":"rgba(0, 0, 0, 0.3)","darker":"rgba(0, 0, 0, 0.7)"},"status":{"completed":{"background":"rgba(76, 175, 80, 0.2)","border":"rgba(76, 175, 80, 0.6)","text":"#4caf50"},"pending":{"background":"rgba(255, 193, 7, 0.2)","border":"rgba(255, 193, 7, 0.6)","text":"#ffc107"},"inProgress":{"background":"rgba(0, 212, 255, 0.2)","border":"rgba(0, 212, 255, 0.6)","text":"#00d4ff"},"blocked":{"background":"rgba(244, 67, 54, 0.2)","border":"rgba(244, 67, 54, 0.6)","text":"#f44336"}}}},
+"mad-laboratory": {"themeName":"mad-laboratory","displayName":"Mad Laboratory","description":"Mystical purple and toxic green - for the true mad scientist aesthetic","icon":"🧪","version":"1.0.0","colors":{"primary":"#9c27b0","primaryButton":"#7b1fa2","secondary":"#00ff88","success":"#76ff03","warning":"#ffaa00","error":"#d32f2f","background":{"main":"linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)","card":{"normal":"rgba(10, 10, 10, 0.9)","selected":"rgba(20, 10, 25, 0.95)","hover":"rgba(20, 10, 25, 0.95)"},"header":"linear-gradient(135deg, #1a0a2e 0%, #16103e 100%)","paper":"rgba(20, 10, 30, 0.9)","topBar":"linear-gradient(90deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)"},"text":{"primary":"rgba(255, 255, 255, 0.9)","secondary":"rgba(200, 255, 200, 0.85)","tertiary":"rgba(255, 255, 255, 0.65)","muted":"rgba(255, 255, 255, 0.6)","success":"#66bb6a","warning":"#ffa726","error":"#ef5350","info":"#29b6f6","critical":"#ff1744","high":"#ff6f00","medium":"#ffb300","low":"#8d6e63"},"border":{"primary":"#9c27b0","secondary":"#00ff88","subtle":"rgba(156, 39, 176, 0.2)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #7b1fa2 0%, #6a1b9a 100%)","color":"#FFFFFF"},"active":{"background":"linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)","color":"#1a0a2e"},"completed":{"background":"linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%)","color":"#FFFFFF"},"archived":{"background":"linear-gradient(135deg, #d32f2f 0%, #b71c1c 100%)","color":"#FFFFFF"}},"activity":{"panel":{"background":"rgba(156, 39, 176, 0.1)","border":"rgba(156, 39, 176, 0.3)"},"create":"#9c27b0","complete":"#76ff03","delete":"#d32f2f","update":"#ffaa00","review":"#7b1fa2"},"completed":{"panel":{"background":"rgba(0, 255, 136, 0.1)","border":"rgba(0, 255, 136, 0.2)"},"highlight":{"background":"rgba(0, 255, 136, 0.1)"}},"button":{"neutral":"rgba(156, 39, 176, 0.2)","neutralHover":"rgba(156, 39, 176, 0.3)","danger":"#d32f2f","dangerHover":"#b71c1c"}},"accent":{"orange":"#ffaa00","deepOrange":"#ff8800","green":"#76ff03","lightGreen":"#00ff88","amber":"#ffbb33","red":"#d32f2f","deepRed":"#b71c1c","purple":"#9c27b0","deepPurple":"#7b1fa2","cyan":"#00ff88","blue":"#29b6f6"},"state":{"editing":{"primary":"#ffaa00","background":"rgba(255, 170, 0, 0.1)","backgroundMedium":"rgba(255, 170, 0, 0.2)","border":"rgba(255, 170, 0, 0.6)","shadow":"rgba(255, 170, 0, 0.3)"},"hover":{"background":"rgba(255, 170, 0, 0.1)","overlay":"rgba(255, 255, 255, 0.02)"},"selected":{"background":"rgba(255, 170, 0, 0.2)","border":"rgba(255, 170, 0, 0.65)"},"disabled":{"background":"rgba(255, 255, 255, 0.02)","text":"rgba(156, 39, 176, 0.3)"}},"effects":{"magic":{"primary":"#9c27b0","glow":"rgba(156, 39, 176, 0.6)","background":"rgba(156, 39, 176, 0.15)","backgroundMedium":"rgba(156, 39, 176, 0.25)","trail":"rgba(156, 39, 176, 0.2)"},"energy":{"primary":"#00ff88","glow":"rgba(0, 255, 136, 0.6)","background":"rgba(0, 255, 136, 0.15)","pulse":"rgba(0, 255, 136, 0.65)"},"debug":{"mobile":"#76ff03","desktop":"#ffaa00","mobileBackground":"rgba(118, 255, 3, 0.2)","desktopBackground":"rgba(255, 170, 0, 0.2)"}},"tags":{"default":{"background":"rgba(255, 170, 0, 0.2)","border":"rgba(255, 170, 0, 0.6)","hover":"rgba(255, 170, 0, 0.3)"},"cached":{"background":"rgba(0, 255, 136, 0.2)","border":"rgba(0, 255, 136, 0.65)","text":"#00ff88"},"selected":{"background":"rgba(255, 170, 0, 0.3)","border":"rgba(255, 170, 0, 0.7)"}},"shadows":{"light":"rgba(0, 0, 0, 0.2)","medium":"rgba(0, 0, 0, 0.6)","heavy":"rgba(0, 0, 0, 0.7)","overlay":"rgba(0, 0, 0, 0.9)","cardNormal":"rgba(156, 39, 176, 0.3)","cardHover":"rgba(156, 39, 176, 0.6)"},"overlays":{"light":"rgba(255, 255, 255, 0.1)","medium":"rgba(255, 255, 255, 0.12)","dark":"rgba(0, 0, 0, 0.6)","darker":"rgba(0, 0, 0, 0.85)"},"status":{"completed":{"background":"rgba(0, 255, 136, 0.15)","border":"rgba(0, 255, 136, 0.6)","text":"#00ff88"},"pending":{"background":"rgba(255, 187, 51, 0.15)","border":"rgba(255, 187, 51, 0.6)","text":"#ffbb33"},"inProgress":{"background":"rgba(41, 182, 246, 0.15)","border":"rgba(41, 182, 246, 0.6)","text":"#29b6f6"},"blocked":{"background":"rgba(211, 47, 47, 0.15)","border":"rgba(211, 47, 47, 0.6)","text":"#d32f2f"}}}},
+"cyan-lab": {"themeName":"cyan-lab","displayName":"Cyan Laboratory","description":"A softer, more muted light theme with cyan accents","icon":"🧪","version":"1.1.0","colors":{"primary":"#0097a7","primaryButton":"#00838f","secondary":"#f57c00","success":"#388e3c","warning":"#f57c00","error":"#d32f2f","background":{"main":"linear-gradient(135deg, #e0e0e0 0%, #cfd8dc 100%)","card":{"normal":"rgba(245, 245, 245, 0.98)","selected":"rgba(179, 229, 252, 0.8)","hover":"rgba(179, 229, 252, 0.7)"},"header":"linear-gradient(135deg, #b0bec5 0%, #90a4ae 100%)","paper":"rgba(245, 245, 245, 0.98)","topBar":"linear-gradient(90deg, #546e7a 0%, #607d8b 50%, #78909c 100%)"},"text":{"primary":"rgba(38, 50, 56, 0.95)","secondary":"rgba(69, 90, 100, 0.9)","tertiary":"rgba(96, 125, 139, 0.85)","muted":"rgba(144, 164, 174, 0.75)","success":"#2e7d32","warning":"#e65100","error":"#c62828","info":"#0277bd","critical":"#b71c1c","high":"#d84315","medium":"#f57c00","low":"#546e7a"},"border":{"primary":"#0097a7","secondary":"#f57c00","subtle":"rgba(0, 0, 0, 0.12)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #0288d1 0%, #0277bd 100%)","color":"#ffffff"},"active":{"background":"linear-gradient(135deg, #43a047 0%, #388e3c 100%)","color":"#ffffff"},"completed":{"background":"linear-gradient(135deg, #546e7a 0%, #455a64 100%)","color":"#ffffff"},"archived":{"background":"linear-gradient(135deg, #90a4ae 0%, #78909c 100%)","color":"#ffffff"}},"activity":{"panel":{"background":"rgba(224, 224, 224, 0.7)","border":"rgba(144, 164, 174, 0.4)"},"create":"#0277bd","complete":"#388e3c","delete":"#d32f2f","update":"#f57c00","review":"#0288d1"},"completed":{"panel":{"background":"rgba(200, 230, 201, 0.4)","border":"rgba(67, 160, 71, 0.4)"},"highlight":{"background":"rgba(200, 230, 201, 0.7)"}},"button":{"neutral":"#616161","neutralHover":"#424242","danger":"#e53935","dangerHover":"#c62828"}},"accent":{"orange":"#f57c00","deepOrange":"#e65100","green":"#388e3c","lightGreen":"#43a047","amber":"#fbc02d","red":"#d32f2f","deepRed":"#c62828","purple":"#7b1fa2","deepPurple":"#6a1b9a","cyan":"#0097a7","blue":"#0288d1"},"state":{"editing":{"primary":"#f57c00","background":"rgba(245, 124, 0, 0.08)","backgroundMedium":"rgba(245, 124, 0, 0.15)","border":"rgba(245, 124, 0, 0.5)","shadow":"rgba(245, 124, 0, 0.1)"},"hover":{"background":"rgba(0, 0, 0, 0.03)","overlay":"rgba(0, 0, 0, 0.02)"},"selected":{"background":"rgba(0, 145, 167, 0.1)","border":"rgba(0, 145, 167, 0.6)"},"disabled":{"background":"rgba(0, 0, 0, 0.05)","text":"rgba(144, 164, 174, 0.7)"}},"effects":{"magic":{"primary":"#7b1fa2","glow":"rgba(123, 31, 162, 0.3)","background":"rgba(123, 31, 162, 0.1)","backgroundMedium":"rgba(123, 31, 162, 0.15)","trail":"rgba(123, 31, 162, 0.12)"},"energy":{"primary":"#0097a7","glow":"rgba(0, 151, 167, 0.2)","background":"rgba(0, 151, 167, 0.1)","pulse":"rgba(0, 151, 167, 0.3)"},"debug":{"mobile":"#388e3c","desktop":"#f57c00","mobileBackground":"rgba(56, 142, 60, 0.12)","desktopBackground":"rgba(245, 124, 0, 0.12)"}},"tags":{"default":{"background":"rgba(245, 124, 0, 0.12)","border":"rgba(245, 124, 0, 0.2)","hover":"rgba(245, 124, 0, 0.18)"},"cached":{"background":"rgba(56, 142, 60, 0.12)","border":"rgba(56, 142, 60, 0.3)","text":"#388e3c"},"selected":{"background":"rgba(245, 124, 0, 0.2)","border":"rgba(245, 124, 0, 0.6)"}},"shadows":{"light":"rgba(0, 0, 0, 0.08)","medium":"rgba(0, 0, 0, 0.1)","heavy":"rgba(0, 0, 0, 0.15)","overlay":"rgba(0, 0, 0, 0.3)","cardNormal":"rgba(0, 0, 0, 0.06)","cardHover":"rgba(0, 0, 0, 0.1)"},"overlays":{"light":"rgba(0, 0, 0, 0.02)","medium":"rgba(0, 0, 0, 0.06)","dark":"rgba(0, 0, 0, 0.1)","darker":"rgba(0, 0, 0, 0.2)"},"status":{"completed":{"background":"rgba(56, 142, 60, 0.12)","border":"rgba(56, 142, 60, 0.3)","text":"#388e3c"},"pending":{"background":"rgba(251, 192, 45, 0.12)","border":"rgba(251, 192, 45, 0.3)","text":"#f57f17"},"inProgress":{"background":"rgba(2, 136, 209, 0.12)","border":"rgba(2, 136, 209, 0.3)","text":"#0288d1"},"blocked":{"background":"rgba(211, 47, 47, 0.12)","border":"rgba(211, 47, 47, 0.3)","text":"#d32f2f"}}}},
+"gunmetal": {"themeName":"gunmetal","displayName":"Gunmetal Arsenal","description":"Sleek industrial theme with gunmetal grays, steel blues, and polished metal accents","icon":"🔫","version":"1.0.0","colors":{"primary":"#78909c","primaryButton":"#546e7a","secondary":"#90a4ae","success":"#66bb6a","warning":"#ffb74d","error":"#ef5350","background":{"main":"linear-gradient(135deg, #263238 0%, #37474f 50%, #455a64 100%)","card":{"normal":"rgba(38, 50, 56, 0.95)","selected":"rgba(55, 71, 79, 0.98)","hover":"rgba(69, 90, 100, 0.9)"},"header":"linear-gradient(135deg, #263238 0%, #37474f 100%)","paper":"rgba(55, 71, 79, 0.92)","topBar":"linear-gradient(90deg, #263238 0%, #37474f 50%, #455a64 100%)"},"text":{"primary":"rgba(236, 239, 241, 0.95)","secondary":"rgba(207, 216, 220, 0.9)","tertiary":"rgba(176, 190, 197, 0.75)","muted":"rgba(144, 164, 174, 0.65)","success":"#81c784","warning":"#ffb74d","error":"#ef5350","info":"#4fc3f7","critical":"#f44336","high":"#ff6f00","medium":"#ffa726","low":"#78909c"},"border":{"primary":"#78909c","secondary":"#90a4ae","subtle":"rgba(176, 190, 197, 0.15)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #546e7a 0%, #455a64 100%)","color":"#eceff1"},"active":{"background":"linear-gradient(135deg, #66bb6a 0%, #43a047 100%)","color":"#ffffff"},"completed":{"background":"linear-gradient(135deg, #78909c 0%, #607d8b 100%)","color":"#eceff1"},"archived":{"background":"linear-gradient(135deg, #546e7a 0%, #37474f 100%)","color":"#b0bec5"}},"activity":{"panel":{"background":"rgba(69, 90, 100, 0.1)","border":"rgba(120, 144, 156, 0.3)"},"create":"#4fc3f7","complete":"#66bb6a","delete":"#ef5350","update":"#ffb74d","review":"#90a4ae"},"completed":{"panel":{"background":"rgba(102, 187, 106, 0.1)","border":"rgba(102, 187, 106, 0.25)"},"highlight":{"background":"rgba(102, 187, 106, 0.12)"}},"button":{"neutral":"#cfd8dc","neutralHover":"#b0bec5","danger":"#ef5350","dangerHover":"#e53935"}},"accent":{"orange":"#ffb74d","deepOrange":"#ff9100","green":"#66bb6a","lightGreen":"#81c784","amber":"#ffa726","red":"#ef5350","deepRed":"#e53935","purple":"#ab47bc","deepPurple":"#8e24aa","cyan":"#4fc3f7","blue":"#64b5f6"},"state":{"editing":{"primary":"#ffb74d","background":"rgba(255, 183, 77, 0.1)","backgroundMedium":"rgba(255, 183, 77, 0.18)","border":"rgba(255, 183, 77, 0.6)","shadow":"rgba(255, 183, 77, 0.2)"},"hover":{"background":"rgba(255, 183, 77, 0.12)","overlay":"rgba(255, 255, 255, 0.02)"},"selected":{"background":"rgba(255, 183, 77, 0.25)","border":"rgba(255, 183, 77, 0.7)"},"disabled":{"background":"rgba(255, 255, 255, 0.02)","text":"rgba(120, 144, 156, 0.3)"}},"effects":{"magic":{"primary":"#ab47bc","glow":"rgba(171, 71, 188, 0.35)","background":"rgba(171, 71, 188, 0.12)","backgroundMedium":"rgba(171, 71, 188, 0.22)","trail":"rgba(171, 71, 188, 0.18)"},"energy":{"primary":"#4fc3f7","glow":"rgba(79, 195, 247, 0.25)","background":"rgba(79, 195, 247, 0.12)","pulse":"rgba(79, 195, 247, 0.6)"},"debug":{"mobile":"#66bb6a","desktop":"#ffb74d","mobileBackground":"rgba(102, 187, 106, 0.15)","desktopBackground":"rgba(255, 183, 77, 0.15)"}},"tags":{"default":{"background":"rgba(255, 183, 77, 0.15)","border":"rgba(255, 183, 77, 0.25)","hover":"rgba(255, 183, 77, 0.28)"},"cached":{"background":"rgba(102, 187, 106, 0.18)","border":"rgba(102, 187, 106, 0.6)","text":"#66bb6a"},"selected":{"background":"rgba(255, 183, 77, 0.32)","border":"rgba(255, 183, 77, 0.75)"}},"shadows":{"light":"rgba(0, 0, 0, 0.15)","medium":"rgba(0, 0, 0, 0.25)","heavy":"rgba(0, 0, 0, 0.65)","overlay":"rgba(0, 0, 0, 0.9)","cardNormal":"rgba(0, 0, 0, 0.2)","cardHover":"rgba(0, 0, 0, 0.3)"},"overlays":{"light":"rgba(255, 255, 255, 0.1)","medium":"rgba(255, 255, 255, 0.12)","dark":"rgba(0, 0, 0, 0.3)","darker":"rgba(0, 0, 0, 0.7)"},"status":{"completed":{"background":"rgba(102, 187, 106, 0.18)","border":"rgba(102, 187, 106, 0.6)","text":"#66bb6a"},"pending":{"background":"rgba(255, 193, 7, 0.18)","border":"rgba(255, 193, 7, 0.6)","text":"#ffb74d"},"inProgress":{"background":"rgba(79, 195, 247, 0.18)","border":"rgba(79, 195, 247, 0.6)","text":"#4fc3f7"},"blocked":{"background":"rgba(239, 83, 80, 0.18)","border":"rgba(239, 83, 80, 0.6)","text":"#ef5350"}}}},
+"labops": {"themeName":"labops","displayName":"LabOps","description":"Elemental Machines light theme: softer teal-blue primary, muted surfaces, scientific precision","icon":"🔬","version":"1.2.0","colors":{"primary":"#13B5D8","primaryButton":"#13B5D8","secondary":"#11A4D4","success":"#1BB860","warning":"#F5C127","error":"#EB4C4C","background":{"main":"linear-gradient(135deg, #E9EEF3 0%, #D7DEE8 100%)","card":{"normal":"rgba(255, 255, 255, 0.98)","selected":"rgba(236, 242, 248, 0.95)","hover":"rgba(236, 242, 248, 0.88)"},"header":"linear-gradient(135deg, #D7DEE8 0%, #C5CED9 100%)","paper":"rgba(255, 255, 255, 0.98)","topBar":"linear-gradient(90deg, #0A7A97 0%, #086B80 100%)"},"text":{"primary":"#1C1C1E","secondary":"#2F3D4A","tertiary":"#4E5D6C","muted":"#6B7C8B","success":"#158A4B","warning":"#B87700","error":"#C93535","info":"#0E7FA0","critical":"#C93535","high":"#B87700","medium":"#0F8FB3","low":"#546371"},"border":{"primary":"#13B5D8","secondary":"#11A4D4","subtle":"rgba(17, 35, 52, 0.16)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #13B5D8 0%, #11A4D4 100%)","color":"#FFFFFF"},"active":{"background":"linear-gradient(135deg, #1BB860 0%, #16A356 100%)","color":"#FFFFFF"},"completed":{"background":"linear-gradient(135deg, #11A4D4 0%, #0E93BF 100%)","color":"#FFFFFF"},"archived":{"background":"linear-gradient(135deg, #EB4C4C 0%, #D84343 100%)","color":"#FFFFFF"}},"activity":{"panel":{"background":"rgba(19, 181, 216, 0.1)","border":"rgba(19, 181, 216, 0.22)"},"create":"#13B5D8","complete":"#1BB860","delete":"#EB4C4C","update":"#F5C127","review":"#11A4D4"},"completed":{"panel":{"background":"rgba(27, 184, 96, 0.1)","border":"rgba(27, 184, 96, 0.22)"},"highlight":{"background":"rgba(27, 184, 96, 0.15)"}},"button":{"neutral":"#E7ECF2","neutralHover":"#DCE3EA","danger":"#EB4C4C","dangerHover":"#D84343"}},"accent":{"orange":"#F5831F","deepOrange":"#E67316","green":"#1BB860","lightGreen":"#38C977","amber":"#F5C127","red":"#EB4C4C","deepRed":"#D84343","purple":"#A855F7","deepPurple":"#9333EA","cyan":"#13B5D8","blue":"#11A4D4"},"state":{"editing":{"primary":"#F5831F","background":"rgba(245, 131, 31, 0.08)","backgroundMedium":"rgba(245, 131, 31, 0.15)","border":"rgba(245, 131, 31, 0.5)","shadow":"rgba(245, 131, 31, 0.15)"},"hover":{"background":"rgba(0, 0, 0, 0.03)","overlay":"rgba(0, 0, 0, 0.02)"},"selected":{"background":"rgba(19, 181, 216, 0.15)","border":"rgba(19, 181, 216, 0.6)"},"disabled":{"background":"rgba(0, 0, 0, 0.03)","text":"rgba(28, 28, 30, 0.4)"}},"effects":{"magic":{"primary":"#A855F7","glow":"rgba(168, 85, 247, 0.35)","background":"rgba(168, 85, 247, 0.12)","backgroundMedium":"rgba(168, 85, 247, 0.22)","trail":"rgba(168, 85, 247, 0.18)"},"energy":{"primary":"#13B5D8","glow":"rgba(19, 181, 216, 0.25)","background":"rgba(19, 181, 216, 0.12)","pulse":"rgba(19, 181, 216, 0.6)"},"debug":{"mobile":"#1BB860","desktop":"#F5C127","mobileBackground":"rgba(27, 184, 96, 0.15)","desktopBackground":"rgba(245, 193, 39, 0.15)"}},"tags":{"default":{"background":"rgba(245, 131, 31, 0.15)","border":"rgba(245, 131, 31, 0.25)","hover":"rgba(245, 131, 31, 0.28)"},"cached":{"background":"rgba(27, 184, 96, 0.18)","border":"rgba(27, 184, 96, 0.6)","text":"#158A4B"},"selected":{"background":"rgba(245, 131, 31, 0.32)","border":"rgba(245, 131, 31, 0.75)"}},"shadows":{"light":"rgba(0, 0, 0, 0.08)","medium":"rgba(0, 0, 0, 0.14)","heavy":"rgba(0, 0, 0, 0.22)","overlay":"rgba(0, 0, 0, 0.35)","cardNormal":"rgba(0, 0, 0, 0.08)","cardHover":"rgba(0, 0, 0, 0.14)"},"overlays":{"light":"rgba(0, 0, 0, 0.02)","medium":"rgba(0, 0, 0, 0.06)","dark":"rgba(0, 0, 0, 0.1)","darker":"rgba(0, 0, 0, 0.2)"},"status":{"completed":{"background":"rgba(27, 184, 96, 0.18)","border":"rgba(27, 184, 96, 0.6)","text":"#158A4B"},"pending":{"background":"rgba(245, 193, 39, 0.14)","border":"rgba(245, 193, 39, 0.42)","text":"#B87700"},"inProgress":{"background":"rgba(19, 181, 216, 0.14)","border":"rgba(19, 181, 216, 0.42)","text":"#0F8FB3"},"blocked":{"background":"rgba(235, 76, 76, 0.14)","border":"rgba(235, 76, 76, 0.42)","text":"#C93535"}}}},
+"debug": {"themeName":"debug","displayName":"Debug Mode","description":"High contrast hot pink and lime - for visual debugging and testing","icon":"🐛","version":"1.0.0","colors":{"primary":"#ff00ff","primaryButton":"#cc00cc","secondary":"#00ff00","success":"#00ffff","warning":"#ffff00","error":"#ff0000","background":{"main":"linear-gradient(135deg, #000000 0%, #111111 50%, #222222 100%)","card":{"normal":"rgba(0, 0, 0, 0.95)","selected":"rgba(30, 0, 30, 0.98)","hover":"rgba(30, 0, 30, 0.98)"},"header":"linear-gradient(135deg, #111111 0%, #222222 100%)","paper":"rgba(10, 10, 10, 0.95)","topBar":"linear-gradient(90deg, #000000 0%, #ff00ff 50%, #00ff00 100%)"},"text":{"primary":"rgba(255, 255, 255, 1)","secondary":"rgba(0, 255, 255, 0.9)","tertiary":"rgba(255, 255, 0, 0.85)","muted":"rgba(255, 255, 255, 0.65)","success":"#66bb6a","warning":"#ffa726","error":"#ef5350","info":"#29b6f6","critical":"#ff1744","high":"#ff6f00","medium":"#ffb300","low":"#8d6e63"},"border":{"primary":"#ff00ff","secondary":"#00ff00","subtle":"rgba(255, 0, 255, 0.3)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #ff00ff 0%, #cc00cc 100%)","color":"#000000"},"active":{"background":"linear-gradient(135deg, #00ff00 0%, #00cc00 100%)","color":"#000000"},"completed":{"background":"linear-gradient(135deg, #00ffff 0%, #00cccc 100%)","color":"#000000"},"archived":{"background":"linear-gradient(135deg, #ff0000 0%, #cc0000 100%)","color":"#FFFFFF"}},"activity":{"panel":{"background":"rgba(255, 0, 255, 0.1)","border":"rgba(255, 0, 255, 0.6)"},"create":"#ff00ff","complete":"#00ff00","delete":"#ff0000","update":"#ffff00","review":"#00ffff"},"completed":{"panel":{"background":"rgba(0, 255, 0, 0.1)","border":"rgba(0, 255, 0, 0.3)"},"highlight":{"background":"rgba(0, 255, 0, 0.15)"}},"button":{"neutral":"rgba(255, 0, 255, 0.2)","neutralHover":"rgba(255, 0, 255, 0.6)","danger":"#ff0000","dangerHover":"#cc0000"}},"accent":{"orange":"#ffff00","deepOrange":"#ffaa00","green":"#00ff00","lightGreen":"#00ff88","amber":"#ffff00","red":"#ff0000","deepRed":"#cc0000","purple":"#ff00ff","deepPurple":"#cc00cc","cyan":"#00ffff","blue":"#0088ff"},"state":{"editing":{"primary":"#ffff00","background":"rgba(255, 255, 0, 0.15)","backgroundMedium":"rgba(255, 255, 0, 0.25)","border":"rgba(255, 255, 0, 0.65)","shadow":"rgba(255, 255, 0, 0.6)"},"hover":{"background":"rgba(255, 255, 0, 0.15)","overlay":"rgba(0, 0, 0, 0.1)"},"selected":{"background":"rgba(255, 255, 0, 0.25)","border":"rgba(255, 255, 0, 0.85)"},"disabled":{"background":"rgba(0, 0, 0, 0.2)","text":"rgba(255, 255, 255, 0.2)"}},"effects":{"magic":{"primary":"#ff00ff","glow":"rgba(255, 0, 255, 0.65)","background":"rgba(255, 0, 255, 0.2)","backgroundMedium":"rgba(255, 0, 255, 0.3)","trail":"rgba(255, 0, 255, 0.25)"},"energy":{"primary":"#00ffff","glow":"rgba(0, 255, 255, 0.65)","background":"rgba(0, 255, 255, 0.2)","pulse":"rgba(0, 255, 255, 0.7)"},"debug":{"mobile":"#00ff00","desktop":"#ffff00","mobileBackground":"rgba(0, 255, 0, 0.2)","desktopBackground":"rgba(255, 255, 0, 0.2)"}},"tags":{"default":{"background":"rgba(255, 255, 0, 0.2)","border":"rgba(255, 255, 0, 0.6)","hover":"rgba(255, 255, 0, 0.35)"},"cached":{"background":"rgba(0, 255, 0, 0.2)","border":"rgba(0, 255, 0, 0.65)","text":"#00ff00"},"selected":{"background":"rgba(255, 255, 0, 0.3)","border":"rgba(255, 255, 0, 0.85)"}},"shadows":{"light":"rgba(0, 0, 0, 0.2)","medium":"rgba(0, 0, 0, 0.6)","heavy":"rgba(0, 0, 0, 0.7)","overlay":"rgba(0, 0, 0, 0.9)","cardNormal":"rgba(255, 0, 255, 0.2)","cardHover":"rgba(255, 0, 255, 0.3)"},"overlays":{"light":"rgba(255, 255, 255, 0.1)","medium":"rgba(255, 255, 255, 0.15)","dark":"rgba(0, 0, 0, 0.6)","darker":"rgba(0, 0, 0, 0.85)"},"status":{"completed":{"background":"rgba(0, 255, 0, 0.15)","border":"rgba(0, 255, 0, 0.6)","text":"#00ff00"},"pending":{"background":"rgba(255, 255, 0, 0.15)","border":"rgba(255, 255, 0, 0.6)","text":"#ffff00"},"inProgress":{"background":"rgba(0, 255, 255, 0.15)","border":"rgba(0, 255, 255, 0.6)","text":"#00ffff"},"blocked":{"background":"rgba(255, 0, 0, 0.15)","border":"rgba(255, 0, 0, 0.6)","text":"#ff0000"}}}},
+"corporate-clean": {"themeName":"corporate-clean","displayName":"Corporate Clean","description":"Professional blue and gray - maximum productivity efficiency","icon":"💼","version":"1.0.0","colors":{"primary":"#2196f3","primaryButton":"#1976d2","secondary":"#607d8b","success":"#4caf50","warning":"#ff9800","error":"#f44336","background":{"main":"linear-gradient(135deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)","card":{"normal":"rgba(15, 15, 20, 0.9)","selected":"rgba(20, 20, 30, 0.95)","hover":"rgba(20, 20, 30, 0.95)"},"header":"linear-gradient(135deg, #1a1a28 0%, #1e2535 100%)","paper":"rgba(20, 25, 35, 0.9)","topBar":"linear-gradient(90deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)"},"text":{"primary":"rgba(255, 255, 255, 0.9)","secondary":"rgba(200, 220, 240, 0.85)","tertiary":"rgba(255, 255, 255, 0.65)","muted":"rgba(255, 255, 255, 0.6)","success":"#66bb6a","warning":"#ffa726","error":"#ef5350","info":"#29b6f6","critical":"#ff1744","high":"#ff6f00","medium":"#ffb300","low":"#8d6e63"},"border":{"primary":"#2196f3","secondary":"#607d8b","subtle":"rgba(33, 150, 243, 0.15)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #2196f3 0%, #1976d2 100%)","color":"#FFFFFF"},"active":{"background":"linear-gradient(135deg, #4caf50 0%, #388e3c 100%)","color":"#FFFFFF"},"completed":{"background":"linear-gradient(135deg, #607d8b 0%, #455a64 100%)","color":"#FFFFFF"},"archived":{"background":"linear-gradient(135deg, #f44336 0%, #d32f2f 100%)","color":"#FFFFFF"}},"activity":{"panel":{"background":"rgba(33, 150, 243, 0.1)","border":"rgba(33, 150, 243, 0.2)"},"create":"#2196f3","complete":"#4caf50","delete":"#f44336","update":"#ff9800","review":"#607d8b"},"completed":{"panel":{"background":"rgba(76, 175, 80, 0.1)","border":"rgba(76, 175, 80, 0.2)"},"highlight":{"background":"rgba(76, 175, 80, 0.1)"}},"button":{"neutral":"rgba(96, 125, 139, 0.2)","neutralHover":"rgba(96, 125, 139, 0.3)","danger":"#f44336","dangerHover":"#d32f2f"}},"accent":{"orange":"#ff9800","deepOrange":"#f57c00","green":"#4caf50","lightGreen":"#66bb6a","amber":"#fbc02d","red":"#f44336","deepRed":"#d32f2f","purple":"#9c27b0","deepPurple":"#7b1fa2","cyan":"#0097a7","blue":"#2196f3"},"state":{"editing":{"primary":"#ff9800","background":"rgba(255, 152, 0, 0.1)","backgroundMedium":"rgba(255, 152, 0, 0.18)","border":"rgba(255, 152, 0, 0.6)","shadow":"rgba(255, 152, 0, 0.15)"},"hover":{"background":"rgba(255, 152, 0, 0.1)","overlay":"rgba(255, 255, 255, 0.02)"},"selected":{"background":"rgba(255, 152, 0, 0.15)","border":"rgba(255, 152, 0, 0.65)"},"disabled":{"background":"rgba(255, 255, 255, 0.02)","text":"rgba(96, 125, 139, 0.3)"}},"effects":{"magic":{"primary":"#9c27b0","glow":"rgba(156, 39, 176, 0.3)","background":"rgba(156, 39, 176, 0.1)","backgroundMedium":"rgba(156, 39, 176, 0.15)","trail":"rgba(156, 39, 176, 0.12)"},"energy":{"primary":"#2196f3","glow":"rgba(33, 150, 243, 0.2)","background":"rgba(33, 150, 243, 0.1)","pulse":"rgba(33, 150, 243, 0.35)"},"debug":{"mobile":"#4caf50","desktop":"#ff9800","mobileBackground":"rgba(76, 175, 80, 0.12)","desktopBackground":"rgba(255, 152, 0, 0.12)"}},"tags":{"default":{"background":"rgba(255, 152, 0, 0.12)","border":"rgba(255, 152, 0, 0.2)","hover":"rgba(255, 152, 0, 0.18)"},"cached":{"background":"rgba(76, 175, 80, 0.12)","border":"rgba(76, 175, 80, 0.3)","text":"#4caf50"},"selected":{"background":"rgba(255, 152, 0, 0.2)","border":"rgba(255, 152, 0, 0.6)"}},"shadows":{"light":"rgba(0, 0, 0, 0.1)","medium":"rgba(0, 0, 0, 0.2)","heavy":"rgba(0, 0, 0, 0.6)","overlay":"rgba(0, 0, 0, 0.85)","cardNormal":"rgba(0, 0, 0, 0.15)","cardHover":"rgba(0, 0, 0, 0.25)"},"overlays":{"light":"rgba(255, 255, 255, 0.1)","medium":"rgba(255, 255, 255, 0.1)","dark":"rgba(0, 0, 0, 0.25)","darker":"rgba(0, 0, 0, 0.65)"},"status":{"completed":{"background":"rgba(76, 175, 80, 0.12)","border":"rgba(76, 175, 80, 0.3)","text":"#4caf50"},"pending":{"background":"rgba(251, 192, 45, 0.12)","border":"rgba(251, 192, 45, 0.3)","text":"#ff9800"},"inProgress":{"background":"rgba(33, 150, 243, 0.12)","border":"rgba(33, 150, 243, 0.3)","text":"#2196f3"},"blocked":{"background":"rgba(244, 67, 54, 0.12)","border":"rgba(244, 67, 54, 0.3)","text":"#f44336"}}}},
+"templar-light": {"themeName":"templar-light","displayName":"Templar Light","description":"A light theme inspired by knights templar, with gold and red accents","icon":"⚔️","version":"1.0.0","colors":{"primary":"#c5b358","primaryButton":"#b89f46","secondary":"#a41e21","success":"#2e7d32","warning":"#e65100","error":"#c62828","background":{"main":"linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%)","card":{"normal":"rgba(255, 255, 255, 0.98)","selected":"rgba(255, 253, 231, 0.8)","hover":"rgba(255, 253, 231, 0.7)"},"header":"linear-gradient(135deg, #eeeeee 0%, #e0e0e0 100%)","paper":"rgba(255, 255, 255, 0.98)","topBar":"linear-gradient(90deg, #e0e0e0 0%, #bdbdbd 50%, #eeeeee 100%)"},"text":{"primary":"rgba(0, 0, 0, 0.87)","secondary":"rgba(0, 0, 0, 0.6)","tertiary":"rgba(0, 0, 0, 0.4)","muted":"rgba(0, 0, 0, 0.3)","success":"#1b5e20","warning":"#e65100","error":"#b71c1c","info":"#01579b","critical":"#b71c1c","high":"#a41e21","medium":"#c5b358","low":"#616161"},"border":{"primary":"#c5b358","secondary":"#a41e21","subtle":"rgba(0, 0, 0, 0.12)"},"dashboard":{"stats":{"total":{"background":"linear-gradient(135deg, #c5b358 0%, #b89f46 100%)","color":"#ffffff"},"active":{"background":"linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%)","color":"#ffffff"},"completed":{"background":"linear-gradient(135deg, #616161 0%, #424242 100%)","color":"#ffffff"},"archived":{"background":"linear-gradient(135deg, #9e9e9e 0%, #757575 100%)","color":"#ffffff"}},"activity":{"panel":{"background":"rgba(250, 250, 250, 0.7)","border":"rgba(189, 189, 189, 0.4)"},"create":"#01579b","complete":"#2e7d32","delete":"#b71c1c","update":"#e65100","review":"#c5b358"},"completed":{"panel":{"background":"rgba(232, 245, 233, 0.4)","border":"rgba(46, 125, 50, 0.4)"},"highlight":{"background":"rgba(232, 245, 233, 0.7)"}},"button":{"neutral":"#616161","neutralHover":"#424242","danger":"#a41e21","dangerHover":"#b71c1c"}},"accent":{"orange":"#e65100","deepOrange":"#bf360c","green":"#2e7d32","lightGreen":"#558b2f","amber":"#ff8f00","red":"#a41e21","deepRed":"#b71c1c","purple":"#6a1b9a","deepPurple":"#4a148c","cyan":"#006064","blue":"#01579b"},"state":{"editing":{"primary":"#c5b358","background":"rgba(255, 253, 231, 0.8)","backgroundMedium":"rgba(255, 253, 231, 1)","border":"rgba(197, 179, 88, 0.5)","shadow":"rgba(197, 179, 88, 0.1)"},"hover":{"background":"rgba(0, 0, 0, 0.03)","overlay":"rgba(0, 0, 0, 0.02)"},"selected":{"background":"rgba(197, 179, 88, 0.1)","border":"rgba(197, 179, 88, 0.6)"},"disabled":{"background":"rgba(0, 0, 0, 0.05)","text":"rgba(0, 0, 0, 0.3)"}},"effects":{"magic":{"primary":"#6a1b9a","glow":"rgba(106, 27, 154, 0.3)","background":"rgba(106, 27, 154, 0.1)","backgroundMedium":"rgba(106, 27, 154, 0.15)","trail":"rgba(106, 27, 154, 0.12)"},"energy":{"primary":"#c5b358","glow":"rgba(197, 179, 88, 0.2)","background":"rgba(197, 179, 88, 0.1)","pulse":"rgba(197, 179, 88, 0.3)"},"debug":{"mobile":"#2e7d32","desktop":"#e65100","mobileBackground":"rgba(46, 125, 50, 0.12)","desktopBackground":"rgba(230, 81, 0, 0.12)"}},"tags":{"default":{"background":"rgba(197, 179, 88, 0.12)","border":"rgba(197, 179, 88, 0.2)","hover":"rgba(197, 179, 88, 0.18)"},"cached":{"background":"rgba(46, 125, 50, 0.12)","border":"rgba(46, 125, 50, 0.3)","text":"#2e7d32"},"selected":{"background":"rgba(197, 179, 88, 0.2)","border":"rgba(197, 179, 88, 0.6)"}},"shadows":{"light":"rgba(0, 0, 0, 0.08)","medium":"rgba(0, 0, 0, 0.1)","heavy":"rgba(0, 0, 0, 0.15)","overlay":"rgba(0, 0, 0, 0.3)","cardNormal":"rgba(0, 0, 0, 0.06)","cardHover":"rgba(0, 0, 0, 0.1)"},"overlays":{"light":"rgba(0, 0, 0, 0.02)","medium":"rgba(0, 0, 0, 0.06)","dark":"rgba(0, 0, 0, 0.1)","darker":"rgba(0, 0, 0, 0.2)"},"status":{"completed":{"background":"rgba(46, 125, 50, 0.12)","border":"rgba(46, 125, 50, 0.3)","text":"#2e7d32"},"pending":{"background":"rgba(255, 143, 0, 0.12)","border":"rgba(255, 143, 0, 0.3)","text":"#e65100"},"inProgress":{"background":"rgba(1, 87, 155, 0.12)","border":"rgba(1, 87, 155, 0.3)","text":"#01579b"},"blocked":{"background":"rgba(183, 28, 28, 0.12)","border":"rgba(183, 28, 28, 0.3)","text":"#b71c1c"}}}}
+};
+
+// ============================================================
+// UTILITY FUNCTIONS
+// ============================================================
+const themeKeys = Object.keys(THEMES);
+
+function flattenColors(obj, prefix = '') {
+  const result = {};
+  for (const [key, val] of Object.entries(obj)) {
+    const path = prefix ? `${prefix}.${key}` : key;
+    if (val && typeof val === 'object' && !Array.isArray(val)) {
+      Object.assign(result, flattenColors(val, path));
+    } else {
+      result[path] = val;
+    }
+  }
+  return result;
+}
+
+function isColor(val) {
+  if (typeof val !== 'string') return false;
+  return val.startsWith('#') || val.startsWith('rgb') || val.startsWith('linear-gradient') || val.startsWith('hsl');
+}
+
+function renderSwatch(color) {
+  return `<div class="swatch" style="background: ${color}"></div>`;
+}
+
+function isDark(theme) {
+  const bg = theme.colors?.background?.main || '';
+  return bg.includes('#0') || bg.includes('#1') || bg.includes('#2') || bg.includes('#000');
+}
+
+// ============================================================
+// POPULATE SELECTS
+// ============================================================
+const selLeft = document.getElementById('theme-left');
+const selRight = document.getElementById('theme-right');
+
+themeKeys.forEach(k => {
+  const t = THEMES[k];
+  const opt1 = new Option(`${t.icon} ${t.displayName}`, k);
+  const opt2 = new Option(`${t.icon} ${t.displayName}`, k);
+  selLeft.add(opt1);
+  selRight.add(opt2);
+});
+selLeft.value = 'standard';
+selRight.value = 'mad-laboratory';
+
+// ============================================================
+// VIEW SWITCHING
+// ============================================================
+let currentView = 'gallery';
+const viewTabs = document.querySelectorAll('.view-tab');
+const views = { gallery: 'view-gallery', swatches: 'view-swatches', preview: 'view-preview', diff: 'view-diff' };
+
+viewTabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    viewTabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentView = tab.dataset.view;
+    Object.values(views).forEach(id => document.getElementById(id).classList.add('hidden'));
+    document.getElementById(views[currentView]).classList.remove('hidden');
+    render();
+  });
+});
+
+selLeft.addEventListener('change', render);
+selRight.addEventListener('change', render);
+
+// ============================================================
+// RENDER FUNCTIONS
+// ============================================================
+
+function renderGallery() {
+  const el = document.getElementById('view-gallery');
+  let html = '<div class="gallery-grid">';
+  themeKeys.forEach(k => {
+    const t = THEMES[k];
+    const c = t.colors;
+    const dark = isDark(t);
+    const bgStyle = c.background.main;
+    const textColor = dark ? '#e0e0e0' : '#333';
+    html += `
+      <div class="gallery-card" style="background: ${bgStyle}; border: 1px solid ${c.border.primary}; box-shadow: 0 4px 20px ${c.shadows?.medium || 'rgba(0,0,0,0.2)'};" onclick="selectTheme('${k}')">
+        <div class="gallery-card-header" style="background: ${c.background.header}; color: ${dark ? '#fff' : '#333'}; border-bottom: 1px solid ${c.border.subtle};">
+          <span>${t.icon}</span> ${t.displayName}
+          <span style="margin-left:auto; font-size:0.7em; opacity:0.5;">v${t.version}</span>
+        </div>
+        <div class="gallery-card-body">
+          <div class="gallery-palette">
+            <div class="gallery-swatch" style="background: ${c.primary}; border-radius: 4px 0 0 4px;"></div>
+            <div class="gallery-swatch" style="background: ${c.secondary}"></div>
+            <div class="gallery-swatch" style="background: ${c.success}"></div>
+            <div class="gallery-swatch" style="background: ${c.warning}"></div>
+            <div class="gallery-swatch" style="background: ${c.error}; border-radius: 0 4px 4px 0;"></div>
+          </div>
+          <div class="gallery-desc" style="color: ${textColor};">${t.description}</div>
+          <div class="gallery-stats-row">
+            ${['total','active','completed','archived'].map(s => `
+              <div class="gallery-mini-stat" style="background: ${c.dashboard.stats[s].background}; color: ${c.dashboard.stats[s].color};">
+                ${s}
+              </div>
+            `).join('')}
+          </div>
+          <div style="display:flex; gap:4px; margin-top:8px;">
+            ${['completed','pending','inProgress','blocked'].map(s => `
+              <span style="flex:1; padding:4px; border-radius:4px; font-size:0.65em; text-align:center; background:${c.status[s].background}; border:1px solid ${c.status[s].border}; color:${c.status[s].text};">
+                ${s}
+              </span>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+  });
+  html += '</div>';
+  el.innerHTML = html;
+}
+
+function selectTheme(k) {
+  selRight.value = k;
+  document.querySelector('[data-view="preview"]').click();
+}
+
+function renderSwatches() {
+  const el = document.getElementById('view-swatches');
+  const leftKey = selLeft.value;
+  const rightKey = selRight.value;
+  const left = THEMES[leftKey];
+  const right = THEMES[rightKey];
+  const leftFlat = flattenColors(left.colors);
+  const rightFlat = flattenColors(right.colors);
+  const allPaths = [...new Set([...Object.keys(leftFlat), ...Object.keys(rightFlat)])].sort();
+
+  // Group by top-level section
+  const sections = {};
+  allPaths.forEach(p => {
+    const section = p.split('.')[0];
+    if (!sections[section]) sections[section] = [];
+    sections[section].push(p);
+  });
+
+  function renderColumn(theme, flat, label) {
+    const dark = isDark(theme);
+    const bg = dark ? 'rgba(10,10,10,0.95)' : 'rgba(240,240,240,0.95)';
+    const text = dark ? '#e0e0e0' : '#333';
+    let html = `<div class="theme-column" style="background:${bg}; color:${text}; border:1px solid ${theme.colors.border.primary};">`;
+    html += `<div class="theme-column-header" style="background:${theme.colors.background.header}; color:${dark?'#fff':'#333'}; border-bottom:1px solid ${theme.colors.border.subtle};">
+      <span class="icon">${theme.icon}</span> ${theme.displayName}
+      <span class="desc">${theme.description}</span>
+    </div>`;
+    html += '<div class="section-group">';
+    for (const [section, paths] of Object.entries(sections)) {
+      html += `<div class="section-title">${section}</div>`;
+      paths.forEach(p => {
+        const val = flat[p];
+        const otherFlat = theme === left ? rightFlat : leftFlat;
+        const differs = otherFlat[p] !== val;
+        if (val && isColor(val)) {
+          html += `<div class="swatch-row ${differs ? 'diff' : ''}">
+            ${renderSwatch(val)}
+            <span class="swatch-label">${p.split('.').slice(1).join('.')}</span>
+            <span class="swatch-value">${val.length > 40 ? val.substring(0,40)+'...' : val}</span>
+          </div>`;
+        }
+      });
+    }
+    html += '</div></div>';
+    return html;
+  }
+
+  el.innerHTML = `<div class="compare-grid">
+    ${renderColumn(left, leftFlat, leftKey)}
+    ${renderColumn(right, rightFlat, rightKey)}
+  </div>`;
+}
+
+function renderPreview() {
+  const el = document.getElementById('view-preview');
+  const leftKey = selLeft.value;
+  const rightKey = selRight.value;
+
+  function buildPreview(theme) {
+    const c = theme.colors;
+    const dark = isDark(theme);
+    const bg = dark ? 'rgba(10,10,10,0.95)' : 'rgba(240,240,240,0.95)';
+    const mainText = dark ? '#e0e0e0' : '#333';
+
+    return `
+    <div class="preview-panel" style="background:${bg}; border:1px solid ${c.border.primary};">
+      <div class="preview-topbar" style="background:${c.background.topBar}; color:#fff; border-bottom:1px solid ${c.border.subtle};">
+        ${theme.icon} ${theme.displayName}
+      </div>
+      <div class="preview-body" style="color:${mainText};">
+        <!-- Stats Row -->
+        <div class="preview-stats">
+          ${['total','active','completed','archived'].map(s => `
+            <div class="preview-stat" style="background:${c.dashboard.stats[s].background}; color:${c.dashboard.stats[s].color};">
+              <span class="num">${{total:42, active:12, completed:28, archived:2}[s]}</span>
+              ${s}
+            </div>
+          `).join('')}
+        </div>
+
+        <!-- Card -->
+        <div class="preview-card" style="background:${c.background.card.normal}; border-color:${c.border.subtle};">
+          <div class="preview-card-title" style="color:${c.text?.primary || mainText};">Sample Todo Item</div>
+          <div class="preview-card-text" style="color:${c.text?.secondary || mainText};">Integrate the new flux capacitor module with the existing temporal array</div>
+          <div class="preview-tags">
+            <span class="preview-tag" style="background:${c.tags.default.background}; border-color:${c.tags.default.border}; color:${c.text?.primary || mainText};">backend</span>
+            <span class="preview-tag" style="background:${c.tags.cached.background}; border-color:${c.tags.cached.border}; color:${c.tags.cached.text};">cached</span>
+            <span class="preview-tag" style="background:${c.tags.selected.background}; border-color:${c.tags.selected.border}; color:${c.text?.primary || mainText};">selected</span>
+          </div>
+        </div>
+
+        <!-- Selected card -->
+        <div class="preview-card" style="background:${c.background.card.selected}; border-color:${c.state.selected.border}; border-width:1px; border-style:solid;">
+          <div class="preview-card-title" style="color:${c.state.editing.primary};">Editing: Deploy Phase 3</div>
+          <div class="preview-card-text" style="color:${c.text?.secondary || mainText};">Currently selected item with editing state active</div>
+        </div>
+
+        <!-- Status badges -->
+        <div class="preview-status-list" style="display:grid; grid-template-columns: 1fr 1fr; gap:6px;">
+          ${['completed','pending','inProgress','blocked'].map(s => `
+            <div class="preview-status-badge" style="background:${c.status[s].background}; border-color:${c.status[s].border}; color:${c.status[s].text};">
+              <span class="preview-status-dot" style="background:${c.status[s].text};"></span>
+              ${s}
+            </div>
+          `).join('')}
+        </div>
+
+        <!-- Buttons -->
+        <div class="preview-buttons">
+          <div class="preview-btn" style="background:${c.primaryButton}; color:#fff;">Primary</div>
+          <div class="preview-btn" style="background:${c.dashboard.button.neutral}; color:${dark?'#fff':'#333'};">Neutral</div>
+          <div class="preview-btn" style="background:${c.dashboard.button.danger}; color:#fff;">Danger</div>
+          <div class="preview-btn" style="background:${c.state.disabled.background}; color:${c.state.disabled.text};">Disabled</div>
+        </div>
+
+        <!-- Input -->
+        <div class="preview-input" style="background:${c.background.paper}; border-color:${c.border.subtle}; color:${c.text?.primary || mainText};">
+          Type something here...
+        </div>
+
+        <!-- Activity panel -->
+        <div style="background:${c.dashboard.activity.panel.background}; border:1px solid ${c.dashboard.activity.panel.border}; border-radius:8px; padding:10px;">
+          <div style="font-size:0.8em; margin-bottom:6px; opacity:0.7;">Recent Activity</div>
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <span style="color:${c.dashboard.activity.create}; font-size:0.8em;">+ Created</span>
+            <span style="color:${c.dashboard.activity.complete}; font-size:0.8em;">✓ Completed</span>
+            <span style="color:${c.dashboard.activity.update}; font-size:0.8em;">↻ Updated</span>
+            <span style="color:${c.dashboard.activity.delete}; font-size:0.8em;">✕ Deleted</span>
+          </div>
+        </div>
+
+        <!-- Effects preview -->
+        <div style="display:flex; gap:8px;">
+          <div style="flex:1; padding:10px; border-radius:8px; background:${c.effects.magic.background}; border:1px solid ${c.effects.magic.primary}; text-align:center;">
+            <div style="color:${c.effects.magic.primary}; font-size:0.85em;">Magic</div>
+            <div style="width:20px;height:20px;border-radius:50%;margin:6px auto;background:${c.effects.magic.primary};box-shadow:0 0 12px ${c.effects.magic.glow};"></div>
+          </div>
+          <div style="flex:1; padding:10px; border-radius:8px; background:${c.effects.energy.background}; border:1px solid ${c.effects.energy.primary}; text-align:center;">
+            <div style="color:${c.effects.energy.primary}; font-size:0.85em;">Energy</div>
+            <div style="width:20px;height:20px;border-radius:50%;margin:6px auto;background:${c.effects.energy.primary};box-shadow:0 0 12px ${c.effects.energy.glow};"></div>
+          </div>
+        </div>
+
+        <!-- Accent palette -->
+        <div style="display:flex; gap:3px; flex-wrap:wrap;">
+          ${Object.entries(c.accent).map(([name, color]) => `
+            <div title="accent.${name}: ${color}" style="width:28px;height:20px;border-radius:3px;background:${color};border:1px solid rgba(128,128,128,0.3);"></div>
+          `).join('')}
+        </div>
+      </div>
+    </div>`;
+  }
+
+  el.innerHTML = `<div class="preview-grid">
+    ${buildPreview(THEMES[selLeft.value])}
+    ${buildPreview(THEMES[selRight.value])}
+  </div>`;
+}
+
+function renderDiff() {
+  const el = document.getElementById('view-diff');
+  const leftKey = selLeft.value;
+  const rightKey = selRight.value;
+  const left = THEMES[leftKey];
+  const right = THEMES[rightKey];
+  const leftFlat = flattenColors(left.colors);
+  const rightFlat = flattenColors(right.colors);
+  const allPaths = [...new Set([...Object.keys(leftFlat), ...Object.keys(rightFlat)])].sort();
+
+  // Filter controls
+  let filterMode = 'changed'; // 'all' | 'changed' | 'same'
+
+  function buildDiff(mode) {
+    let items = allPaths.map(p => {
+      const lv = leftFlat[p];
+      const rv = rightFlat[p];
+      const changed = lv !== rv;
+      return { path: p, left: lv, right: rv, changed };
+    });
+
+    if (mode === 'changed') items = items.filter(i => i.changed);
+    if (mode === 'same') items = items.filter(i => !i.changed);
+
+    const changedCount = allPaths.filter(p => leftFlat[p] !== rightFlat[p]).length;
+    const sameCount = allPaths.length - changedCount;
+
+    let html = `<div class="filter-bar">
+      <span class="filter-chip ${mode==='all'?'active':''}" data-filter="all">All (${allPaths.length})</span>
+      <span class="filter-chip ${mode==='changed'?'active':''}" data-filter="changed">Changed (${changedCount})</span>
+      <span class="filter-chip ${mode==='same'?'active':''}" data-filter="same">Same (${sameCount})</span>
+    </div>`;
+
+    html += '<div class="diff-grid">';
+    items.forEach(item => {
+      html += `<div class="diff-item ${item.changed ? 'changed' : ''}">
+        <div class="diff-path">${item.path}</div>
+        <div class="diff-compare">
+          <div class="diff-swatch-block">
+            ${item.left && isColor(item.left) ? `<div class="diff-swatch" style="background:${item.left}"></div>` : ''}
+            <div class="diff-val">${item.left ? (item.left.length > 30 ? item.left.substring(0,30)+'...' : item.left) : '<em>missing</em>'}</div>
+          </div>
+          <div class="diff-arrow">${item.changed ? '→' : '='}</div>
+          <div class="diff-swatch-block">
+            ${item.right && isColor(item.right) ? `<div class="diff-swatch" style="background:${item.right}"></div>` : ''}
+            <div class="diff-val">${item.right ? (item.right.length > 30 ? item.right.substring(0,30)+'...' : item.right) : '<em>missing</em>'}</div>
+          </div>
+        </div>
+      </div>`;
+    });
+    html += '</div>';
+    return html;
+  }
+
+  el.innerHTML = buildDiff(filterMode);
+
+  // Wire up filter chips
+  el.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      filterMode = chip.dataset.filter;
+      el.innerHTML = buildDiff(filterMode);
+      // Re-wire after re-render
+      el.querySelectorAll('.filter-chip').forEach(c2 => {
+        c2.addEventListener('click', () => {
+          filterMode = c2.dataset.filter;
+          el.innerHTML = buildDiff(filterMode);
+          renderDiff(); // recursive re-wire
+        });
+      });
+    });
+  });
+}
+
+function render() {
+  switch (currentView) {
+    case 'gallery': renderGallery(); break;
+    case 'swatches': renderSwatches(); break;
+    case 'preview': renderPreview(); break;
+    case 'diff': renderDiff(); break;
+  }
+}
+
+// Initial render
+render();
+</script>
+</body>
+</html>
