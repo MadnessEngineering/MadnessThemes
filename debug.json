@@ -393,6 +393,7 @@
     "replayTutorial": "menu.replayTutorial",
     "userManagement": "menu.userManagement",
     "github": "menu.github",
+    "themeGallery": "menu.themeGallery",
     "logout": "menu.logout"
   },
   "notifications": {

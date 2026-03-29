@@ -391,6 +391,7 @@
   "menu": {
     "documentation": "Mining Manuals",
     "github": "Ore Archive",
+    "themeGallery": "Stone & Ore Palette",
     "logout": "Exit Mine",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management"

@@ -391,6 +391,7 @@
   "menu": {
     "documentation": "Documentation",
     "github": "GitHub",
+    "themeGallery": "Specimen Palette",
     "logout": "Logout",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management"
