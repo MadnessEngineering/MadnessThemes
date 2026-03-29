@@ -271,7 +271,8 @@
     "tabs": {
       "orphaned": "Unassigned Items",
       "completed": "Delivered Items",
-      "consolidate": "Portfolio Overview"
+      "consolidate": "Portfolio Overview",
+      "duplicates": "Redundancies"
     },
     "selectAll": "Select All",
     "clearSelection": "Clear",
@@ -292,7 +293,31 @@
     "orphaned": "Unassigned",
     "completed": "Delivered",
     "deletedProjects": "Retired",
-    "activeProjects": "Active"
+    "activeProjects": "Active",
+    "duplicates": {
+      "title": "Synergistic Redundancy Audit",
+      "description": "Identify and consolidate non-performant overlapping action items to maximize stakeholder value.",
+      "threshold": "Redundancy Index",
+      "scan": "Audit",
+      "scanning": "Processing deliverables...",
+      "noResults": "Zero redundancies identified at current metrics. Adjust sensitivity parameters.",
+      "groupsFound": "clusters",
+      "potentialDuplicates": "action items",
+      "analyzeAI": "Deploy AI Analytics",
+      "analyzing": "Leveraging AI insights...",
+      "aiComplete": "Analytics finalized. Review optimized workflows below.",
+      "aiUnavailable": "AI analytics service currently undergoing maintenance.",
+      "recommendations": "Strategic Recommendations",
+      "keep": "Retain",
+      "merge": "Consolidate",
+      "deleteLabel": "Terminate",
+      "suggestedDescription": "Optimized",
+      "reasoning": "Business Justification",
+      "apply": "Execute",
+      "applyAll": "Execute All",
+      "applied": "Optimization successfully implemented.",
+      "selectGroupsFirst": "Select target clusters for analytical processing."
+    }
   },
   "demo": {
     "label": "DEMO - Evaluation Mode"

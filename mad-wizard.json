@@ -337,7 +337,8 @@
     "tabs": {
       "orphaned": "Lost Specimens",
       "completed": "Archived Results",
-      "consolidate": "Lab Overview"
+      "consolidate": "Lab Overview",
+      "duplicates": "Spectral Echoes"
     },
     "selectAll": "Collect All",
     "clearSelection": "Release",
@@ -358,7 +359,31 @@
     "orphaned": "Lost",
     "completed": "Archived",
     "deletedProjects": "Abandoned",
-    "activeProjects": "Active"
+    "activeProjects": "Active",
+    "duplicates": {
+      "title": "Doppelganger Detection",
+      "description": "Locate and fuse overlapping manifestations across the arcane planes.",
+      "threshold": "Harmonic Resonance",
+      "scan": "Divine",
+      "scanning": "Scrying the aether...",
+      "noResults": "No echoes detected in these frequencies. Adjust the scrying glass.",
+      "groupsFound": "confluxes",
+      "potentialDuplicates": "specimens",
+      "analyzeAI": "Consult the Oracle",
+      "analyzing": "The Oracle deliberates...",
+      "aiComplete": "The Oracle has spoken! Observe the prophesied paths.",
+      "aiUnavailable": "The Oracle's vision is clouded at this hour.",
+      "recommendations": "Oracle's Decrees",
+      "keep": "Preserve",
+      "merge": "Conjoin",
+      "deleteLabel": "Banish",
+      "suggestedDescription": "Transmuted",
+      "reasoning": "Arcane Rationale",
+      "apply": "Enact",
+      "applyAll": "Enact All Conjurations",
+      "applied": "The spell has been successfully cast.",
+      "selectGroupsFirst": "Designate the specimens for the Oracle's scrutiny."
+    }
   },
   "demo": {
     "label": "DEMO - Observatory Mode"

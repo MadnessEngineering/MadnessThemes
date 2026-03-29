@@ -1,7 +1,7 @@
 {
   "themeName": "labops",
   "displayName": "LabOps",
-  "description": "Elemental Machines light theme: softer teal-blue primary, muted surfaces, scientific precision.",
+  "description": "LabOps light theme: softer teal-blue primary, muted surfaces, scientific precision.",
   "icon": "🔬",
   "version": "1.2.0",
   "colors": {

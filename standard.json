@@ -337,7 +337,8 @@
     "tabs": {
       "orphaned": "Orphaned",
       "completed": "Completed",
-      "consolidate": "Overview"
+      "consolidate": "Overview",
+      "duplicates": "Duplicates"
     },
     "selectAll": "Select All",
     "clearSelection": "Clear",
@@ -358,7 +359,31 @@
     "orphaned": "Orphaned",
     "completed": "Completed",
     "deletedProjects": "Deleted Projects",
-    "activeProjects": "Active Projects"
+    "activeProjects": "Active Projects",
+    "duplicates": {
+      "title": "Similar Todo Detection",
+      "description": "Find and consolidate near-duplicate todos across projects.",
+      "threshold": "Similarity",
+      "scan": "Scan",
+      "scanning": "Scanning...",
+      "noResults": "No similar todos found at this threshold. Try lowering the sensitivity.",
+      "groupsFound": "groups",
+      "potentialDuplicates": "todos",
+      "analyzeAI": "Analyze with AI",
+      "analyzing": "Analyzing...",
+      "aiComplete": "AI analysis complete! Review recommendations below.",
+      "aiUnavailable": "AI analysis is temporarily unavailable.",
+      "recommendations": "AI Recommendations",
+      "keep": "Keep",
+      "merge": "Merge",
+      "deleteLabel": "Remove",
+      "suggestedDescription": "Suggested",
+      "reasoning": "Reasoning",
+      "apply": "Apply",
+      "applyAll": "Apply All",
+      "applied": "Recommendation applied successfully",
+      "selectGroupsFirst": "Select todos from groups to analyze"
+    }
   },
   "demo": {
     "label": "DEMO - Read Only"

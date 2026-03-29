@@ -337,7 +337,8 @@
     "tabs": {
       "orphaned": "labMaintenance.tabs.orphaned",
       "completed": "labMaintenance.tabs.completed",
-      "consolidate": "labMaintenance.tabs.consolidate"
+      "consolidate": "labMaintenance.tabs.consolidate",
+      "duplicates": "labMaintenance.tabs.duplicates"
     },
     "selectAll": "labMaintenance.selectAll",
     "clearSelection": "labMaintenance.clearSelection",
@@ -358,7 +359,31 @@
     "orphaned": "labMaintenance.orphaned",
     "completed": "labMaintenance.completed",
     "deletedProjects": "labMaintenance.deletedProjects",
-    "activeProjects": "labMaintenance.activeProjects"
+    "activeProjects": "labMaintenance.activeProjects",
+    "duplicates": {
+      "title": "labMaintenance.duplicates.title",
+      "description": "labMaintenance.duplicates.description",
+      "threshold": "labMaintenance.duplicates.threshold",
+      "scan": "labMaintenance.duplicates.scan",
+      "scanning": "labMaintenance.duplicates.scanning",
+      "noResults": "labMaintenance.duplicates.noResults",
+      "groupsFound": "labMaintenance.duplicates.groupsFound",
+      "potentialDuplicates": "labMaintenance.duplicates.potentialDuplicates",
+      "analyzeAI": "labMaintenance.duplicates.analyzeAI",
+      "analyzing": "labMaintenance.duplicates.analyzing",
+      "aiComplete": "labMaintenance.duplicates.aiComplete",
+      "aiUnavailable": "labMaintenance.duplicates.aiUnavailable",
+      "recommendations": "labMaintenance.duplicates.recommendations",
+      "keep": "labMaintenance.duplicates.keep",
+      "merge": "labMaintenance.duplicates.merge",
+      "deleteLabel": "labMaintenance.duplicates.deleteLabel",
+      "suggestedDescription": "labMaintenance.duplicates.suggestedDescription",
+      "reasoning": "labMaintenance.duplicates.reasoning",
+      "apply": "labMaintenance.duplicates.apply",
+      "applyAll": "labMaintenance.duplicates.applyAll",
+      "applied": "labMaintenance.duplicates.applied",
+      "selectGroupsFirst": "labMaintenance.duplicates.selectGroupsFirst"
+    }
   },
   "demo": {
     "label": "demo.label"
