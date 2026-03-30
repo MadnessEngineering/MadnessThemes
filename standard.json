@@ -1885,7 +1885,8 @@
         "step3": "Enter your todo description",
         "step4": "Select your project from the dropdown",
         "step5": "Set priority and click 'Create'",
-        "hint": "Tip: You can create todos from anywhere in the app using the '+' button"
+        "hint": "Tip: You can create todos from anywhere in the app using the '+' button",
+        "aiAlternative": "You can also create todos by chatting with the AI assistant — just say what you need!"
       },
       "configure-ai": {
         "title": "Configure Your AI Assistant",
@@ -1905,7 +1906,7 @@
       },
       "ai-assistant": {
         "title": "AI Assistant",
-        "description": "Get help from your AI assistant to manage tasks, analyze projects, and boost productivity.",
+        "description": "Your AI assistant can directly manage your todos, search lessons, and analyze projects — all through natural language conversation.",
         "examplesTitle": "Quick Actions:",
         "quickActions": {
           "createTodos": "Create todos from text",
@@ -1913,7 +1914,18 @@
           "suggestions": "Get smart suggestions",
           "insights": "Project insights"
         },
-        "hint": "💡 Tip: Click the chat icon to start a conversation"
+        "examplePromptsTitle": "Try saying:",
+        "examplePrompts": {
+          "listTodos": "List my todos",
+          "addTodo": "Add a todo: Review the onboarding flow",
+          "completeTodo": "Mark my deploy task as complete",
+          "searchLessons": "Search lessons about authentication",
+          "projectTodos": "Show todos for project inventorium"
+        },
+        "chatMockUser": "List my high priority todos",
+        "chatMockAI": "Found 3 high priority todos: 1) Fix login bug (inventorium) 2) Deploy backend update (omnispindle) 3) Review PR #42 (inventorium)",
+        "powerTip": "The AI assistant can create, update, search, and complete todos just by asking in natural language — no menus needed!",
+        "hint": "Click the chat icon in the bottom corner to start a conversation"
       },
       "swarmdesk": {
         "title": "3D Workspace",

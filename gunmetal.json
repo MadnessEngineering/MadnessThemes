@@ -1855,7 +1855,8 @@
         "step3": "Enter your mission parameters",
         "step4": "Select your unit from the dropdown",
         "step5": "Set combat priority and click 'Deploy'",
-        "hint": "Tip: You can deploy missions from any command terminal using the '+' button"
+        "hint": "Tip: You can deploy missions from any command terminal using the '+' button",
+        "aiAlternative": "Draft mission objectives through the AI copilot — state your tactical requirements."
       },
       "configure-ai": {
         "title": "Deploy AI Tactical Advisor",
@@ -1875,7 +1876,7 @@
       },
       "ai-assistant": {
         "title": "AI Tactical Copilot",
-        "description": "Deploy your AI copilot to manage sorties, analyze combat data, and enhance mission efficiency.",
+        "description": "Deploy your AI copilot to manage sorties, analyze combat data, and track mission objectives through tactical comms.",
         "examplesTitle": "Quick Deploy Actions:",
         "quickActions": {
           "createTodos": "Generate missions from intel",
@@ -1883,7 +1884,18 @@
           "suggestions": "Receive tactical advisories",
           "insights": "Battlefield intelligence"
         },
-        "hint": "💡 Tactical Note: Access cockpit interface to engage"
+        "hint": "💡 Tactical Note: Access cockpit interface to engage",
+        "examplePromptsTitle": "Tactical Comms Examples:",
+        "examplePrompts": {
+          "listTodos": "Report current mission objectives",
+          "addTodo": "Add objective: Secure the perimeter",
+          "completeTodo": "Confirm sortie success on the extraction task",
+          "searchLessons": "Search intel for breach tactics",
+          "projectTodos": "Show objectives for operation steel-rain"
+        },
+        "chatMockUser": "Status on high priority objectives",
+        "chatMockAI": "3 Priority Objectives active: 1) Neutralize threat (sector-7) 2) Repair comms array (base-alpha) 3) Review intel #42 (intel-dept)",
+        "powerTip": "Your AI copilot handles objective tracking and intel analysis — maintain tactical superiority with natural language commands."
       },
       "swarmdesk": {
         "title": "3D Combat Zone",

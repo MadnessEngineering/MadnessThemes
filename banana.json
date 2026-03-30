@@ -1609,7 +1609,8 @@
         "step3": "Scratch your task description",
         "step4": "Select your tree from the dropdown",
         "step5": "Set urgency and click 'Plant'",
-        "hint": "Tip: You can plant tasks from anywhere in the jungle using the '+' button"
+        "hint": "Tip: You can plant tasks from anywhere in the jungle using the '+' button",
+        "aiAlternative": "You can also toss new bananas into the bunch by chatting with the monkey AI — just say what you're craving!"
       },
       "configure-ai": {
         "title": "Train Your Banana AI Helper",
@@ -1629,7 +1630,7 @@
       },
       "ai-assistant": {
         "title": "Banana AI Helper",
-        "description": "Get help from your banana AI to manage fruit, analyze jungle patterns, and boost monkey productivity.",
+        "description": "Your monkey AI can swing through your bananas, search for shiny lessons, and keep an eye on the whole jungle!",
         "examplesTitle": "Quick Banana Actions:",
         "quickActions": {
           "createTodos": "Create banana tasks from peels",
@@ -1637,7 +1638,18 @@
           "suggestions": "Get banana suggestions",
           "insights": "Jungle insights"
         },
-        "hint": "🍌 Jungle Wisdom: Click the chat banana to start swinging"
+        "hint": "🍌 Jungle Wisdom: Click the chat banana to start swinging",
+        "examplePromptsTitle": "Try hooting:",
+        "examplePrompts": {
+          "listTodos": "Show me my bananas",
+          "addTodo": "Add a banana: Clean the big vine",
+          "completeTodo": "I finished the coconut harvest!",
+          "searchLessons": "Where's the guide for climbing tall trees?",
+          "projectTodos": "Show bananas for jungle-party"
+        },
+        "chatMockUser": "Show my ripest bananas",
+        "chatMockAI": "Found 3 ripe bananas: 1) Fix the leaky waterfall (jungle-party) 2) Find more mangoes (fruit-hunt) 3) Nap in the sun (daily-monkey)",
+        "powerTip": "The monkey AI can peel, stack, and find your bananas just by listening — no need to swing through menus!"
       },
       "swarmdesk": {
         "title": "3D Banana Jungle",

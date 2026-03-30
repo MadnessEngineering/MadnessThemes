@@ -1882,7 +1882,8 @@
         "step3": "Inscribe your experimental protocol description",
         "step4": "Select your research venue from the aetheric dropdown",
         "step5": "Assign urgency classification and invoke 'Manifest'",
-        "hint": "Arcane Note: Protocols can be manifested from any console location using the (+) apparatus"
+        "hint": "Arcane Note: Protocols can be manifested from any console location using the (+) apparatus",
+        "aiAlternative": "You may also conjure experiments by communing with your AI familiar — simply speak your intent!"
       },
       "configure-ai": {
         "title": "Summon Your Mystical AI Familiar",
@@ -1902,7 +1903,7 @@
       },
       "ai-assistant": {
         "title": "Mystical AI Apparatus",
-        "description": "Summon your AI familiar to assist with experimental orchestration, analyze research patterns, and amplify your mad science productivity.",
+        "description": "Your AI familiar can directly manipulate experiments, divine through archived knowledge, and analyze research endeavors — all through natural incantation.",
         "examplesTitle": "Rapid Invocations:",
         "quickActions": {
           "createTodos": "Manifest experiments from raw thoughts",
@@ -1910,7 +1911,18 @@
           "suggestions": "Receive prophetic guidance",
           "insights": "Peer into project destinies"
         },
-        "hint": "⚡ Laboratory Wisdom: Invoke the mystical chat rune to begin communion"
+        "examplePromptsTitle": "Speak these incantations:",
+        "examplePrompts": {
+          "listTodos": "Reveal my experiments",
+          "addTodo": "Inscribe a new protocol: Review the summoning circle",
+          "completeTodo": "Mark my deployment ritual as complete",
+          "searchLessons": "Search the grimoire for authentication lore",
+          "projectTodos": "Show experiments for the inventorium venue"
+        },
+        "chatMockUser": "Reveal my most urgent experiments",
+        "chatMockAI": "I have divined 3 critical protocols: 1) Repair the portal incantation (inventorium) 2) Deploy the aetheric update (omnispindle) 3) Review arcane scroll #42 (inventorium)",
+        "powerTip": "Your AI familiar can conjure, transmute, seek, and complete experiments through mere spoken intent — no apparatus menus required!",
+        "hint": "Invoke the mystical chat rune in the corner to begin communion"
       },
       "swarmdesk": {
         "title": "3D Apparatus Chamber",

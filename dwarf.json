@@ -1609,7 +1609,8 @@
         "step3": "Carve yer task instructions",
         "step4": "Select yer quarry from the dropdown",
         "step5": "Set urgency level and click 'Dig'",
-        "hint": "Tip: Ye can order excavations from any tunnel using the '+' button"
+        "hint": "Tip: Ye can order excavations from any tunnel using the '+' button",
+        "aiAlternative": "Carve new mining tasks by speakin' to the clan counselor — just tell 'em what needs diggin'!"
       },
       "configure-ai": {
         "title": "Bind Yer Forge Familiar",
@@ -1629,7 +1630,7 @@
       },
       "ai-assistant": {
         "title": "Ask the Forge Familiar",
-        "description": "Get counsel to manage digs, read ore patterns, and keep the clan movin' fast.",
+        "description": "Yer AI counselor can manage yer digs, read ore patterns, and keep the whole clan movin' fast through plain talkin'.",
         "examplesTitle": "Quick Carvings:",
         "quickActions": {
           "createTodos": "Carve tasks from blueprints",
@@ -1637,7 +1638,18 @@
           "suggestions": "Get mining suggestions",
           "insights": "Shaft insights"
         },
-        "hint": "⛏️ Miner's Wisdom: Click the forge interface to start smithing"
+        "hint": "⛏️ Miner's Wisdom: Click the forge interface to start smithing",
+        "examplePromptsTitle": "Try bellowin':",
+        "examplePrompts": {
+          "listTodos": "Show me the diggin' tasks",
+          "addTodo": "Carve a task: Mine the deep vein",
+          "completeTodo": "The quarry is finally cleared out!",
+          "searchLessons": "Find the secrets of forgework",
+          "projectTodos": "Show tasks for the mountain-fortress"
+        },
+        "chatMockUser": "What needs the most hammerin'?",
+        "chatMockAI": "Found 3 heavy tasks: 1) Fix the broken bridge (mountain-fortress) 2) Smelt the iron ore (smithy) 3) Check the booze stockpiles (tavern)",
+        "powerTip": "The clan counselor can carve, sort, and find yer work just by listenin' — no need to faff about with menus!"
       },
       "swarmdesk": {
         "title": "3D Mine Network",

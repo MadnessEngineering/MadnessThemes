@@ -773,7 +773,8 @@
         "step3": "Enter your task directive",
         "step4": "Select your project from the dropdown",
         "step5": "Set priority level and click 'Execute'",
-        "hint": "Tip: You can generate tasks from any system module using the '+' button"
+        "hint": "Tip: You can generate tasks from any system module using the '+' button",
+        "aiAlternative": "Create protocol directives via AI interface — simply input your system requirements."
       },
       "configure-ai": {
         "title": "Initialize AI Protocol Assistant",
@@ -793,7 +794,7 @@
       },
       "ai-assistant": {
         "title": "AI Research Assistant",
-        "description": "Leverage the AI assistant to manage protocols, analyze data patterns, and optimize productivity.",
+        "description": "Leverage the AI module to manage protocols, analyze data patterns, and execute system directives via natural language.",
         "examplesTitle": "Quick Actions:",
         "quickActions": {
           "createTodos": "Generate tasks from data",
@@ -801,7 +802,18 @@
           "suggestions": "Get system suggestions",
           "insights": "Project insights"
         },
-        "hint": "💡 System Tip: Click the chat interface to initiate communication"
+        "hint": "💡 System Tip: Click the chat interface to initiate communication",
+        "examplePromptsTitle": "System Command Examples:",
+        "examplePrompts": {
+          "listTodos": "List active protocols",
+          "addTodo": "Initialize protocol: Optimize data throughput",
+          "completeTodo": "Execute completion on the node update directive",
+          "searchLessons": "Search system modules for encryption logic",
+          "projectTodos": "Display directives for project cyan-core"
+        },
+        "chatMockUser": "Query high priority directives",
+        "chatMockAI": "3 Priority Directives located: 1) Patch security exploit (cyan-core) 2) Sync remote nodes (distributed-mesh) 3) Review logs (core-api)",
+        "powerTip": "The AI module automates protocol management and data analysis — maximize system efficiency through direct interface commands."
       },
       "swarmdesk": {
         "title": "3D Holographic Workspace",

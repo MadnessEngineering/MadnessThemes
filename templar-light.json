@@ -1885,7 +1885,8 @@
         "step3": "Enter your todo description",
         "step4": "Select your project from the dropdown",
         "step5": "Set priority and click 'Create'",
-        "hint": "Tip: You can create todos from anywhere in the app using the '+' button"
+        "hint": "Tip: You can create todos from anywhere in the app using the '+' button",
+        "aiAlternative": "You may also record your noble duties by speaking with the Order's scribe — simply state your sworn task."
       },
       "configure-ai": {
         "title": "Configure Your AI Assistant",
@@ -1905,7 +1906,7 @@
       },
       "ai-assistant": {
         "title": "AI Assistant",
-        "description": "Get help from your AI assistant to manage tasks, analyze projects, and boost productivity.",
+        "description": "Your AI scribe shall manage your holy quests, seek wisdom from the archives, and watch over your sacred duties through humble speech.",
         "examplesTitle": "Quick Actions:",
         "quickActions": {
           "createTodos": "Create todos from text",
@@ -1913,7 +1914,18 @@
           "suggestions": "Get smart suggestions",
           "insights": "Project insights"
         },
-        "hint": "💡 Tip: Click the chat icon to start a conversation"
+        "hint": "💡 Tip: Click the chat icon to start a conversation",
+        "examplePromptsTitle": "Try saying:",
+        "examplePrompts": {
+          "listTodos": "List my sacred duties",
+          "addTodo": "Record a duty: Guard the cathedral gates",
+          "completeTodo": "I have fulfilled my quest for the Order",
+          "searchLessons": "Seek wisdom on the ancient vows",
+          "projectTodos": "Show duties for the Grand Crusade"
+        },
+        "chatMockUser": "Show my most honorable quests",
+        "chatMockAI": "3 Honorable Quests found: 1) Restore the fallen shrine (Crusade) 2) Bless the new recruits (Training) 3) Review the sacred scrolls (Archives)",
+        "powerTip": "The Order's scribe can record, organize, and recall your duties through simple speech — focusing your spirit on the quest, not the menus."
       },
       "swarmdesk": {
         "title": "3D Workspace",

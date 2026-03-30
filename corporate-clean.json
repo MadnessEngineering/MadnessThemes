@@ -1885,7 +1885,8 @@
         "step3": "Enter your todo description",
         "step4": "Select your project from the dropdown",
         "step5": "Set priority and click 'Create'",
-        "hint": "Tip: You can create todos from anywhere in the app using the '+' button"
+        "hint": "Tip: You can create todos from anywhere in the app using the '+' button",
+        "aiAlternative": "You can also streamline your workflow by chatting with the AI assistant — just outline your next action item!"
       },
       "configure-ai": {
         "title": "Configure Your AI Assistant",
@@ -1905,7 +1906,7 @@
       },
       "ai-assistant": {
         "title": "AI Assistant",
-        "description": "Get help from your AI assistant to manage tasks, analyze projects, and boost productivity.",
+        "description": "Your AI assistant seamlessly manages your task list, retrieves project insights, and provides high-level analysis via natural conversation.",
         "examplesTitle": "Quick Actions:",
         "quickActions": {
           "createTodos": "Create todos from text",
@@ -1913,7 +1914,18 @@
           "suggestions": "Get smart suggestions",
           "insights": "Project insights"
         },
-        "hint": "💡 Tip: Click the chat icon to start a conversation"
+        "hint": "💡 Tip: Click the chat icon to start a conversation",
+        "examplePromptsTitle": "Try asking:",
+        "examplePrompts": {
+          "listTodos": "Show my current action items",
+          "addTodo": "Create a task: Update the quarterly roadmap",
+          "completeTodo": "I've finished the stakeholder presentation",
+          "searchLessons": "Find resources on professional development",
+          "projectTodos": "Show deliverables for project launch-pad"
+        },
+        "chatMockUser": "What are my high-priority goals?",
+        "chatMockAI": "Found 3 priority items: 1) Resolve client feedback (launch-pad) 2) Prepare budget review (ops) 3) Finalize project scope (launch-pad)",
+        "powerTip": "The AI assistant manages your entire professional workflow through natural language — maximizing your productivity without the menus."
       },
       "swarmdesk": {
         "title": "3D Workspace",

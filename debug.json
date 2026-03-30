@@ -1862,7 +1862,8 @@
         "step3": "onboarding.steps.add-todo.step3",
         "step4": "onboarding.steps.add-todo.step4",
         "step5": "onboarding.steps.add-todo.step5",
-        "hint": "onboarding.steps.add-todo.hint"
+        "hint": "onboarding.steps.add-todo.hint",
+        "aiAlternative": "onboarding.steps.add-todo.aiAlternative"
       },
       "configure-ai": {
         "title": "onboarding.steps.configure-ai.title",
@@ -1890,7 +1891,18 @@
           "suggestions": "onboarding.steps.ai-assistant.quickActions.suggestions",
           "insights": "onboarding.steps.ai-assistant.quickActions.insights"
         },
-        "hint": "onboarding.steps.ai-assistant.hint"
+        "hint": "onboarding.steps.ai-assistant.hint",
+        "examplePromptsTitle": "onboarding.steps.ai-assistant.examplePromptsTitle",
+        "examplePrompts": {
+          "listTodos": "onboarding.steps.ai-assistant.examplePrompts.listTodos",
+          "addTodo": "onboarding.steps.ai-assistant.examplePrompts.addTodo",
+          "completeTodo": "onboarding.steps.ai-assistant.examplePrompts.completeTodo",
+          "searchLessons": "onboarding.steps.ai-assistant.examplePrompts.searchLessons",
+          "projectTodos": "onboarding.steps.ai-assistant.examplePrompts.projectTodos"
+        },
+        "chatMockUser": "onboarding.steps.ai-assistant.chatMockUser",
+        "chatMockAI": "onboarding.steps.ai-assistant.chatMockAI",
+        "powerTip": "onboarding.steps.ai-assistant.powerTip"
       },
       "swarmdesk": {
         "title": "onboarding.steps.swarmdesk.title",

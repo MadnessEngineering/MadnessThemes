@@ -1609,7 +1609,8 @@
         "step3": "Enter your assay description",
         "step4": "Select your study from the dropdown",
         "step5": "Set priority level and click 'Initialize'",
-        "hint": "Tip: You can initiate assays from any workstation module using the '+' button"
+        "hint": "Tip: You can initiate assays from any workstation module using the '+' button",
+        "aiAlternative": "Generate assay directives via the AI workstation — simply describe the study requirements."
       },
       "configure-ai": {
         "title": "Configure AI Analysis Assistant",
@@ -1629,7 +1630,7 @@
       },
       "ai-assistant": {
         "title": "AI Research Assistant",
-        "description": "Leverage your AI assistant to manage protocols, analyze data patterns, and enhance research productivity.",
+        "description": "Leverage your AI assistant to manage protocols, analyze specimen data, and validate study objectives through precise communication.",
         "examplesTitle": "Quick Protocol Actions:",
         "quickActions": {
           "createTodos": "Generate tasks from protocols",
@@ -1637,7 +1638,18 @@
           "suggestions": "Get protocol suggestions",
           "insights": "Research insights"
         },
-        "hint": "💡 Protocol Tip: Access the assistant interface to begin"
+        "hint": "💡 Protocol Tip: Access the assistant interface to begin",
+        "examplePromptsTitle": "Clinical Query Examples:",
+        "examplePrompts": {
+          "listTodos": "List pending assays",
+          "addTodo": "Initialize assay: Test sample stability",
+          "completeTodo": "Validate completion of the centrifuge protocol",
+          "searchLessons": "Search documentation for PCR optimization",
+          "projectTodos": "Show study tasks for project genomic-seq"
+        },
+        "chatMockUser": "List critical study objectives",
+        "chatMockAI": "3 Critical Objectives identified: 1) Recalibrate freezer (sample-storage) 2) Finalize lab report (study-A) 3) Review peer findings (research-hub)",
+        "powerTip": "The AI workstation automates protocol tracking and data validation — enhance research productivity through natural language interaction."
       },
       "swarmdesk": {
         "title": "3D Analysis Workspace",

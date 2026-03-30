@@ -1882,7 +1882,8 @@
         "step3": "Input your work item deliverable description",
         "step4": "Select your strategic initiative from the organizational dropdown",
         "step5": "Assign priority classification and execute 'Deploy'",
-        "hint": "Best Practice: Work items can be deployed from any interface location using the (+) allocation tool"
+        "hint": "Best Practice: Work items can be deployed from any interface location using the (+) allocation tool",
+        "aiAlternative": "Alternatively, deploy work items via the AI assistant — simply communicate your requirements in natural language!"
       },
       "configure-ai": {
         "title": "Deploy AI Productivity Assistant",
@@ -1902,7 +1903,7 @@
       },
       "ai-assistant": {
         "title": "AI Productivity Assistant",
-        "description": "Leverage your AI productivity assistant to optimize task management, analyze workflows, and maximize operational efficiency.",
+        "description": "Your AI assistant can directly manage work items, query knowledge bases, and analyze initiatives — all through natural language directives.",
         "examplesTitle": "Quick Deploy Actions:",
         "quickActions": {
           "createTodos": "Auto-generate work items from requirements",
@@ -1910,7 +1911,18 @@
           "suggestions": "Receive optimization recommendations",
           "insights": "Generate strategic insights"
         },
-        "hint": "💡 Best Practice: Access the messaging interface to engage assistant"
+        "examplePromptsTitle": "Sample directives:",
+        "examplePrompts": {
+          "listTodos": "Surface my action items",
+          "addTodo": "Create work item: Review the onboarding pipeline",
+          "completeTodo": "Close out my deployment deliverable",
+          "searchLessons": "Query knowledge base for authentication protocols",
+          "projectTodos": "Pull up work items for the inventorium initiative"
+        },
+        "chatMockUser": "Surface my high-priority deliverables",
+        "chatMockAI": "Retrieved 3 priority-1 action items: 1) Resolve login bottleneck (inventorium) 2) Deploy backend optimization (omnispindle) 3) Review change request #42 (inventorium)",
+        "powerTip": "The AI assistant can create, update, query, and close work items through natural language directives — zero menu navigation required!",
+        "hint": "Access the messaging interface in the corner to engage your assistant"
       },
       "swarmdesk": {
         "title": "3D Visualization Suite",
