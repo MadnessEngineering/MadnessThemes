@@ -278,10 +278,10 @@
     "filters": {
       "allLessons": "All Jungle Discoveries",
       "bookmarked": "Starred Bananas",
-      "recent": "Recent Findings (7 days)"
+      "recent": "Recent droppings (7)"
     },
     "emptyState": {
-      "noMatching": "No Matching Jungle Discoveries",
+      "noMatching": "No Matching Discoveries",
       "vaultEmpty": "Knowledge Tree is Empty!",
       "noMatchSearch": "No discoveries match \"{{searchTerm}}\". Try adjusting your jungle search parameters.",
       "noMatchFilters": "No discoveries found with current tree filters. Try broadening your foraging criteria.",
@@ -305,7 +305,7 @@
       "tagsPlaceholder": "climbing, swinging, jungle",
       "databaseLabel": "Archive Location",
       "personalDatabase": "👤 Personal Tree Archive",
-      "sharedDatabase": "🌐 Shared Jungle Compendium (swarmonomicon)",
+      "sharedDatabase": "🌐 Swarm Compendium",
       "updateLesson": "Update Discovery",
       "createLesson": "Stash Discovery"
     },
@@ -317,7 +317,7 @@
   },
   "app": {
     "titleShort": "Jungle Lab",
-    "titleLong": "Madness Interactive Jungle Laboratory"
+    "titleLong": "Jungle Laboratory"
   },
   "panels": {
     "todos": "📝 Swing Tasks",
@@ -1613,9 +1613,9 @@
         "aiAlternative": "You can also toss new bananas into the bunch by chatting with the monkey AI — just say what you're craving!"
       },
       "configure-ai": {
-        "title": "Train Your Banana AI Helper",
-        "description": "Get more bananas by connecting to a smart helper like Google Gemini or OpenAI.",
-        "whyConfigureTitle": "Why train an AI helper?",
+        "title": "Train Your Banana Helper",
+        "description": "Get more bananas by connecting to a jungle spirit like Google Gemini or OpenAI.",
+        "whyConfigureTitle": "Why summon a jungle spirit?",
         "benefits": {
           "suggestions": "Generate smart banana gathering plans",
           "enhance": "Make your banana descriptions juicier",
@@ -1629,8 +1629,8 @@
         "helpText": "You can train your AI helper anytime from Settings → AI Configuration"
       },
       "ai-assistant": {
-        "title": "Banana AI Helper",
-        "description": "Your monkey AI can swing through your bananas, search for shiny lessons, and keep an eye on the whole jungle!",
+        "title": "Banana Helper",
+        "description": "This monkey can swing through your bananas, search for shiny lessons, and keep an eye on the whole jungle!",
         "examplesTitle": "Quick Banana Actions:",
         "quickActions": {
           "createTodos": "Create banana tasks from peels",
@@ -1649,10 +1649,10 @@
         },
         "chatMockUser": "Show my ripest bananas",
         "chatMockAI": "Found 3 ripe bananas: 1) Fix the leaky waterfall (jungle-party) 2) Find more mangoes (fruit-hunt) 3) Nap in the sun (daily-monkey)",
-        "powerTip": "The monkey AI can peel, stack, and find your bananas just by listening — no need to swing through menus!"
+        "powerTip": "This monkey can peel, stack, and find your bananas just by listening — no need to swing through menus!"
       },
       "swarmdesk": {
-        "title": "3D Banana Jungle",
+        "title": "SwarmDesk",
         "description": "Explore your codebase in 3D banana vision - an immersive fruit visualization tool.",
         "featuresTitle": "Banana Jungle Features:",
         "features": {
@@ -1666,13 +1666,13 @@
       },
       "complete": {
         "title": "You're All Peeled!",
-        "description": "You're ready to start using the banana jungle. Explore the fruit and make it your own.",
+        "description": "You're ready to start exploring the jungle. Peel the Mental Banana.",
         "nextStepsTitle": "Next Banana Bunches:",
         "nextSteps": {
           "createProject": "Plant your first tree",
           "addTodos": "Add bananas to your tree",
-          "tryAI": "Try the banana AI",
-          "checkSwarmDesk": "Explore SwarmDesk 3D"
+          "tryAI": "Consult the Temple elders",
+          "checkSwarmDesk": "Explore SwarmDesk"
         },
         "footer": "🍌 You can replay this banana tour anytime from the Fruit Stand"
       }
@@ -1687,14 +1687,14 @@
       "systemLogs": "Canopy Logs"
     },
     "overview": {
-      "title": "Banana Grove Overview",
+      "title": "Banana Grove",
       "loading": "Scanning the canopy...",
-      "refresh": "Shake the data tree",
+      "refresh": "Shake the tree",
       "fallback": "(showing mock banana data for development)",
       "totalUsers": "Total Troop Members",
       "totalUsersSubtitle": "All registered primates",
-      "activeUsers": "Active Swingers (7d)",
       "activeUsersSubtitle": "Primates active this banana week",
+      "activeUsers": "Active Swingers (7d)",
       "premiumUsers": "Golden Banana Members",
       "premiumUsersSubtitle": "Premium grove subscriptions",
       "errors": "Tree Snaps (24h)",
@@ -1706,8 +1706,8 @@
         "premium": "Alpha Ape",
         "admin": "Jungle Elder"
       },
-      "productivity": "Harvest Metrics",
-      "totalTodos": "Total Swing Tasks",
+      "productivity": "Harvest Pile",
+      "totalTodos": "Tasks in swing",
       "completedTodos": "Bananas Harvested",
       "completionRate": "Harvest Rate"
     },
@@ -1717,10 +1717,10 @@
       "comingSoon": "Analytics Canopy Under Construction",
       "description": "Advanced banana charts and jungle visualization apparatus are currently being calibrated. Check back soon for powerful insights into troop behavior, canopy performance, and harvest productivity metrics.",
       "timeframe": {
-        "day": "Last 24 Banana Hours",
-        "week": "Last 7 Banana Days",
-        "month": "Last 30 Banana Days",
-        "year": "Last 12 Banana Months"
+        "day": "Last 24 Bananas",
+        "week": "Last 7 bunches",
+        "month": "Last 30 Bunches",
+        "year": "Last 12 Barrels"
       },
       "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of banana science!",
       "charts": {
@@ -1760,9 +1760,9 @@
       "title": "Jungle Protocols",
       "loading": "Loading banana protocols...",
       "refresh": "Refresh protocols",
-      "fallback": "(showing mock banana data for development)",
+      "fallback": "(showing mock bananas for development)",
       "lastUpdated": "Last harvested",
-      "unsavedChanges": "You have unsaved jungle changes. These will affect all primates when stashed!",
+      "unsavedChanges": "You have unsaved jungle changes.",
       "save": "Stash Changes",
       "cancel": "Drop Banana",
       "saving": "Stashing...",
@@ -2078,7 +2078,7 @@
     "none": "Stray Monkey"
   },
   "accountPanel": {
-    "title": "My Monkey Business",
+    "title": "Monkey Business",
     "tabs": {
       "profile": "Peeled Profile",
       "subscription": "Banana Subscriptions",
