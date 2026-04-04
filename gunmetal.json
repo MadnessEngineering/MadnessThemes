@@ -1840,11 +1840,13 @@
         "title": "Register New Unit",
         "description": "Let's register a new mobile suit to organize your operations. Units help you group related missions together.",
         "guideTitle": "How to register a unit:",
-        "step1": "Engage the floating '+' button in the bottom right corner",
-        "step2": "Select the 'Mech Unit' tab in the interface",
-        "step3": "Enter a unique unit ID (lowercase with hyphens, e.g., 'rx-78-01')",
-        "step4": "Add a designation and technical specs",
-        "hint": "Tip: Unit IDs must be unique and use lowercase alphanumeric characters"
+        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
+        "step2": "Select the 'Project' tab",
+        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
+        "step4": "Add a Display Name (human-friendly) and a Project Description",
+        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
+        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
+        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
       },
       "add-todo": {
         "title": "Add Mission Objective",

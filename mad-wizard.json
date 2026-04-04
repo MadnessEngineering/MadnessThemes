@@ -1867,11 +1867,13 @@
         "title": "Manifest Your First Research Venue",
         "description": "Let us establish a research venue to organize your experimental endeavors. Venues provide the mystical framework for clustering related protocols.",
         "guideTitle": "Venue Manifestation Procedure:",
-        "step1": "Deploy the creation apparatus (+) rune in the lower portal of your console",
-        "step2": "Select the 'Research Venue' chamber within the manifestation dialog",
-        "step3": "Inscribe a unique venue designation (lowercase rune-separators, e.g., 'my-first-venue')",
-        "step4": "Add a mystical display name and experimental charter description",
-        "hint": "Arcane Note: Venue designations must be unique and utilize lowercase with rune-separators"
+        "step1": "Evoke the CREATE spell from the top navigation, or the '+' sigil in the bottom right corner",
+        "step2": "Select the 'Project' tab in your grimoire",
+        "step3": "Inscribe a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
+        "step4": "Add a Display Name (mortal-friendly) and a Project Description",
+        "hint": "Project Name is your true name identifier — use lowercase letters and hyphens. Display Name is your title.",
+        "step5": "Attune the arcane configuration: Project Type, Visibility, and Active status",
+        "step6": "Optionally etch Technical Details (repo URL, language, framework), then cast 'CREATE PROJECT'"
       },
       "add-todo": {
         "title": "Add Experiment to Your Venue",

@@ -1867,11 +1867,13 @@
         "title": "Initialize Your First Strategic Initiative",
         "description": "Let's configure a strategic initiative to optimize your workflow management. Initiatives provide the organizational framework for consolidating related deliverables.",
         "guideTitle": "Initiative Configuration Procedure:",
-        "step1": "Access the Resource Allocation Interface (+) located in the action zone",
-        "step2": "Navigate to the 'Project' configuration module within the deployment dialog",
-        "step3": "Input a unique initiative identifier (kebab-case convention, e.g., 'my-first-initiative')",
-        "step4": "Input display name and initiative charter documentation",
-        "hint": "Best Practice: Initiative identifiers must be unique and follow kebab-case naming conventions"
+        "step1": "Click CREATE in the top navigation bar, or the '+' action item in the bottom right quadrant",
+        "step2": "Select the 'Project' intake tab",
+        "step3": "Input the project identifier token (lowercase with hyphens, e.g., 'synergy-initiative')",
+        "step4": "Provide a client-facing Display Name and executive summary Description",
+        "hint": "Project identifier is for internal tracking — use lowercase letters and hyphens. Display Name is for stakeholder visibility.",
+        "step5": "Optimize visibility settings, project type, and operational status in the Configuration module",
+        "step6": "Optionally attach Technical Details (repo URL, language, framework), then execute 'CREATE PROJECT'"
       },
       "add-todo": {
         "title": "Deploy Work Item to Your Initiative",

@@ -758,11 +758,13 @@
         "title": "Initialize New Project",
         "description": "Let's initialize a project to organize your research. Projects help you group related tasks together.",
         "guideTitle": "How to initialize a project:",
-        "step1": "Click the floating '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab in the interface",
-        "step3": "Enter a unique project ID (lowercase with hyphens, e.g., 'cyber-protocol-01')",
-        "step4": "Add a display name and technical description",
-        "hint": "Tip: Project IDs must be unique and use lowercase letters with hyphens"
+        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
+        "step2": "Select the 'Project' tab",
+        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
+        "step4": "Add a Display Name (human-friendly) and a Project Description",
+        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
+        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
+        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
       },
       "add-todo": {
         "title": "Add Task to Protocol",
