@@ -1831,29 +1831,10 @@
         "description": "onboarding.steps.welcome.description",
         "subtitle": "onboarding.steps.welcome.subtitle"
       },
-      "projects-overview": {
-        "title": "onboarding.steps.projects-overview.title",
-        "description": "onboarding.steps.projects-overview.description",
-        "benefitsTitle": "onboarding.steps.projects-overview.benefitsTitle",
-        "benefits": {
-          "organize": "onboarding.steps.projects-overview.benefits.organize",
-          "visualize": "onboarding.steps.projects-overview.benefits.visualize",
-          "track": "onboarding.steps.projects-overview.benefits.track",
-          "collaborate": "onboarding.steps.projects-overview.benefits.collaborate"
-        },
-        "hint": "onboarding.steps.projects-overview.hint"
-      },
       "create-project": {
         "title": "onboarding.steps.create-project.title",
         "description": "onboarding.steps.create-project.description",
-        "guideTitle": "onboarding.steps.create-project.guideTitle",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "onboarding.steps.create-project.skipHint"
       },
       "add-todo": {
         "title": "onboarding.steps.add-todo.title",

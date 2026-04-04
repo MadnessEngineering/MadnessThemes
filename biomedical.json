@@ -1578,29 +1578,10 @@
         "description": "Inventorium is your AI-powered research management and data visualization platform.",
         "subtitle": "Let's run through the calibration protocol to help you get started."
       },
-      "projects-overview": {
-        "title": "Research Studies",
-        "description": "Organize your analysis tasks into research studies for better protocol management and data visualization.",
-        "benefitsTitle": "Study Management Benefits:",
-        "benefits": {
-          "organize": "Group related analyses together",
-          "visualize": "Monitor progress in real-time",
-          "track": "Track milestones and deadlines",
-          "collaborate": "Share protocols with research team"
-        },
-        "hint": "💡 Protocol Tip: Every analysis can belong to a research study"
-      },
       "create-project": {
         "title": "Initialize First Study",
         "description": "Let's initialize a new study to organize your research. Studies help you group related assays together.",
-        "guideTitle": "How to initialize a study:",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "You can skip this and initialize a study later from the Create menu"
       },
       "add-todo": {
         "title": "Add Assay to Study",

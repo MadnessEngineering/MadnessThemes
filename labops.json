@@ -1854,29 +1854,10 @@
         "description": "Inventorium is your AI-powered task management and project visualization platform.",
         "subtitle": "Let's take a quick tour to help you get started."
       },
-      "projects-overview": {
-        "title": "Projects",
-        "description": "Organize your todos into projects for better management and visualization.",
-        "benefitsTitle": "Project Benefits:",
-        "benefits": {
-          "organize": "Group related tasks together",
-          "visualize": "See progress at a glance",
-          "track": "Track milestones and deadlines",
-          "collaborate": "Share with team members"
-        },
-        "hint": "💡 Tip: Every todo can belong to a project"
-      },
       "create-project": {
         "title": "Create Your First Project",
         "description": "Let's create a project to organize your work. Projects help you group related todos together.",
-        "guideTitle": "How to create a project:",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "You can skip this and create a project later from the Create menu"
       },
       "add-todo": {
         "title": "Add Todo to Your Project",

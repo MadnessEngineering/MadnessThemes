@@ -1578,29 +1578,10 @@
         "description": "Inventorium is your primate-powered task management and project visualization platform.",
         "subtitle": "Let's swing through the vines to help you get started."
       },
-      "projects-overview": {
-        "title": "Banana Stands",
-        "description": "Organize your banana tasks into stands for better jungle management and fruit visualization.",
-        "benefitsTitle": "Banana Stand Benefits:",
-        "benefits": {
-          "organize": "Bundle related bananas together",
-          "visualize": "See ripeness at a glance",
-          "track": "Track harvest milestones",
-          "collaborate": "Share bunches with the troop"
-        },
-        "hint": "🍌 Jungle Wisdom: Every banana can belong to a stand"
-      },
       "create-project": {
         "title": "Plant Your First Tree",
         "description": "Let's plant a tree project to organize your forage. Trees help you group related bananas together.",
-        "guideTitle": "How to plant a tree:",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "You can skip this and plant a banana stand later from the Create menu"
       },
       "add-todo": {
         "title": "Add Banana to Your Tree",

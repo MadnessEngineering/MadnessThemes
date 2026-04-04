@@ -1851,29 +1851,10 @@
         "description": "Inventorium is your enterprise-grade AI-powered task optimization and strategic project visualization platform.",
         "subtitle": "Let's streamline your onboarding process to maximize your time-to-value."
       },
-      "projects-overview": {
-        "title": "Strategic Initiatives",
-        "description": "Organize your work items into strategic initiatives for enhanced visibility and optimized resource allocation.",
-        "benefitsTitle": "Initiative Management Benefits:",
-        "benefits": {
-          "organize": "Consolidate related deliverables strategically",
-          "visualize": "Monitor progress through dashboards",
-          "track": "Track KPIs and milestone achievement",
-          "collaborate": "Enable cross-functional collaboration"
-        },
-        "hint": "💡 Best Practice: Align all work items to strategic initiatives"
-      },
       "create-project": {
         "title": "Initialize Your First Strategic Initiative",
         "description": "Let's configure a strategic initiative to optimize your workflow management. Initiatives provide the organizational framework for consolidating related deliverables.",
-        "guideTitle": "Initiative Configuration Procedure:",
-        "step1": "Click CREATE in the top navigation bar, or the '+' action item in the bottom right quadrant",
-        "step2": "Select the 'Project' intake tab",
-        "step3": "Input the project identifier token (lowercase with hyphens, e.g., 'synergy-initiative')",
-        "step4": "Provide a client-facing Display Name and executive summary Description",
-        "hint": "Project identifier is for internal tracking — use lowercase letters and hyphens. Display Name is for stakeholder visibility.",
-        "step5": "Optimize visibility settings, project type, and operational status in the Configuration module",
-        "step6": "Optionally attach Technical Details (repo URL, language, framework), then execute 'CREATE PROJECT'"
+        "skipHint": "You may defer this step and create an initiative later from the Create menu"
       },
       "add-todo": {
         "title": "Deploy Work Item to Your Initiative",

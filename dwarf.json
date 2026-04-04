@@ -1578,29 +1578,10 @@
         "description": "Inventorium be yer rune-guided mining hall — task ledgers, quarry charts, and mountain views all in one.",
         "subtitle": "Let's delve through the tunnels to help ye get started."
       },
-      "projects-overview": {
-        "title": "Mine Shafts",
-        "description": "Organize yer excavation tasks into shafts for better ore management and vein visualization.",
-        "benefitsTitle": "Mine Shaft Benefits:",
-        "benefits": {
-          "organize": "Bundle related ore deposits together",
-          "visualize": "See mineral richness at a glance",
-          "track": "Track extraction milestones",
-          "collaborate": "Share findings with the clan"
-        },
-        "hint": "⛏️ Miner's Wisdom: Every task can belong to a mine shaft"
-      },
       "create-project": {
         "title": "Forge New Quarry",
         "description": "Let's establish a new quarry to organize yer mining. Quarries help ye group related excavations together.",
-        "guideTitle": "How to claim a quarry:",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "Ye can skip this and claim a quarry later from the Create menu"
       },
       "add-todo": {
         "title": "Carve Mining Task",

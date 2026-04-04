@@ -1824,29 +1824,10 @@
         "description": "Inventorium is your AI-powered tactical management and battlefield visualization platform.",
         "subtitle": "Commencing tactical briefing. Stand by for system check."
       },
-      "projects-overview": {
-        "title": "Mech Operations",
-        "description": "Organize your mission objectives into mech units for optimized fleet management and tactical visualization.",
-        "benefitsTitle": "Hangar Protocol Benefits:",
-        "benefits": {
-          "organize": "Group related sorties together",
-          "visualize": "Monitor fleet status in real-time",
-          "track": "Track mission success rates",
-          "collaborate": "Coordinate with squadron"
-        },
-        "hint": "💡 Tactical Note: Every mission belongs to a unit"
-      },
       "create-project": {
         "title": "Register New Unit",
         "description": "Let's register a new mobile suit to organize your operations. Units help you group related missions together.",
-        "guideTitle": "How to register a unit:",
-        "step1": "Click CREATE in the top navigation, or the '+' button in the bottom right corner",
-        "step2": "Select the 'Project' tab",
-        "step3": "Enter a unique Project Name (used as identifier — lowercase with hyphens, e.g., 'my-first-project')",
-        "step4": "Add a Display Name (human-friendly) and a Project Description",
-        "hint": "Project Name is the unique identifier — use lowercase letters and hyphens. Display Name is what users see.",
-        "step5": "Configure Project Type, Visibility, and Active status in the Configuration section",
-        "step6": "Optionally add Technical Details (repo URL, language, framework), then click 'CREATE PROJECT'"
+        "skipHint": "You can skip this and register a unit later from the Create menu"
       },
       "add-todo": {
         "title": "Add Mission Objective",
