@@ -850,8 +850,8 @@
     },
     "instructions": {
       "title": "Ritual Instructions:",
-      "step1": "Summon the blueprint generator: npm install -g @madnessengineering/uml-generator",
-      "step2": "Extract mystical patterns from your project: uml-generator /path/to/experiment -o project-uml.json",
+      "step1": "Summon the blueprint generator: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Extract mystical patterns from your project: cartogomancy /path/to/experiment -o project-uml.json",
       "step3": "Inscribe the generated arcane schema using the apparatus above"
     },
     "storage": {

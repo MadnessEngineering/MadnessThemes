@@ -784,8 +784,8 @@
     },
     "instructions": {
       "title": "Deployment Instructions:",
-      "step1": "Install the architecture generator: npm install -g @madnessengineering/uml-generator",
-      "step2": "Generate system blueprint from codebase: uml-generator /path/to/project -o project-uml.json",
+      "step1": "Install the architecture generator: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Generate system blueprint from codebase: cartogomancy /path/to/project -o project-uml.json",
       "step3": "Deploy the generated architecture data using the interface above"
     },
     "storage": {

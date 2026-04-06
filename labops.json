@@ -850,8 +850,8 @@
     },
     "instructions": {
       "title": "How to use:",
-      "step1": "Install the UML generator: npm install -g @madnessengineering/uml-generator",
-      "step2": "Generate UML from your codebase: uml-generator /path/to/project -o project-uml.json",
+      "step1": "Install the UML generator: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Generate UML from your codebase: cartogomancy /path/to/project -o project-uml.json",
       "step3": "Upload the generated JSON file using the button above"
     },
     "storage": {

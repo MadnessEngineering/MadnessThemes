@@ -1884,8 +1884,8 @@
     },
     "instructions": {
       "title": "How to forge blueprints:",
-      "step1": "Install the blueprint forge: npm install -g @madnessengineering/uml-generator",
-      "step2": "Generate blueprints from yer codebase: uml-generator /path/to/project -o project-uml.json",
+      "step1": "Install the blueprint forge: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Generate blueprints from yer codebase: cartogomancy /path/to/project -o project-uml.json",
       "step3": "Upload the generated scroll using the button above"
     },
     "storage": {
