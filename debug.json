@@ -393,7 +393,9 @@
       "noCachedTags": "cache.empty",
       "clear": "clear()",
       "applyToSelected": "bulk_tag({count})",
-      "selectTodosFirst": "error: select_nodes_first"
+      "selectTodosFirst": "error: select_nodes_first",
+      "aiSuggest": "ai.suggest_tags()",
+      "aiSuggesting": "ai.running..."
     }
   },
   "demo": {

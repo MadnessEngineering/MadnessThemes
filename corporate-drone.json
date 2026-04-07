@@ -327,7 +327,9 @@
       "noCachedTags": "No assets in repository",
       "clear": "Discard",
       "applyToSelected": "Deploy to {count} assets",
-      "selectTodosFirst": "Identify assets first"
+      "selectTodosFirst": "Identify assets first",
+      "aiSuggest": "Auto-Categorize",
+      "aiSuggesting": "Processing..."
     }
   },
   "demo": {

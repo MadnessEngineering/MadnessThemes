@@ -393,7 +393,9 @@
       "noCachedTags": "The grimoire is empty",
       "clear": "Banish",
       "applyToSelected": "Inscribe upon {count} specimens",
-      "selectTodosFirst": "Bind specimens first"
+      "selectTodosFirst": "Bind specimens first",
+      "aiSuggest": "Divination Sigils",
+      "aiSuggesting": "Divining..."
     }
   },
   "demo": {

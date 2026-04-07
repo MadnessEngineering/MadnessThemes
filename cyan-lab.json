@@ -1802,7 +1802,9 @@
       "noCachedTags": "Registry is clear",
       "clear": "Reset",
       "applyToSelected": "Inject into {count} nodes",
-      "selectTodosFirst": "Target nodes first"
+      "selectTodosFirst": "Target nodes first",
+      "aiSuggest": "Neural Suggestion",
+      "aiSuggesting": "Calculating..."
     }
   },
   "projectNavigator": {

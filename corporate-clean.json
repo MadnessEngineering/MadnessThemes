@@ -393,7 +393,9 @@
       "noCachedTags": "No tags found",
       "clear": "Clear",
       "applyToSelected": "Update {count} entries",
-      "selectTodosFirst": "Select entries first"
+      "selectTodosFirst": "Select entries first",
+      "aiSuggest": "Smart Suggestions",
+      "aiSuggesting": "Generating..."
     }
   },
   "demo": {

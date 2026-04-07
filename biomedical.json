@@ -393,7 +393,9 @@
       "noCachedTags": "No markers identified",
       "clear": "Wash",
       "applyToSelected": "Tag {count} specimens",
-      "selectTodosFirst": "Isolate specimens first"
+      "selectTodosFirst": "Isolate specimens first",
+      "aiSuggest": "Sequence Analysis",
+      "aiSuggesting": "Analyzing..."
     }
   },
   "demo": {

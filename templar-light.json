@@ -393,7 +393,9 @@
       "noCachedTags": "No seals available",
       "clear": "Expiate",
       "applyToSelected": "Anoint {count} souls",
-      "selectTodosFirst": "Choose souls first"
+      "selectTodosFirst": "Choose souls first",
+      "aiSuggest": "Divine Insight",
+      "aiSuggesting": "Seeking guidance..."
     }
   },
   "demo": {

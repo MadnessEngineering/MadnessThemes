@@ -393,7 +393,9 @@
       "noCachedTags": "No cached tags available",
       "clear": "Clear",
       "applyToSelected": "Apply to {count} selected",
-      "selectTodosFirst": "Select todos first"
+      "selectTodosFirst": "Select todos first",
+      "aiSuggest": "AI Suggest Tags",
+      "aiSuggesting": "Suggesting..."
     }
   },
   "demo": {

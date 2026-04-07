@@ -393,7 +393,9 @@
       "noCachedTags": "Armory empty",
       "clear": "Eject",
       "applyToSelected": "Mark {count} targets",
-      "selectTodosFirst": "Lock targets first"
+      "selectTodosFirst": "Lock targets first",
+      "aiSuggest": "Tactical Analysis",
+      "aiSuggesting": "Targeting..."
     }
   },
   "demo": {

@@ -393,7 +393,9 @@
       "noCachedTags": "No bananas today",
       "clear": "Peel",
       "applyToSelected": "Stick to {count} bananas",
-      "selectTodosFirst": "Grab some bananas first"
+      "selectTodosFirst": "Grab some bananas first",
+      "aiSuggest": "Monkey Brain Suggest",
+      "aiSuggesting": "Monkey thinking..."
     }
   },
   "demo": {

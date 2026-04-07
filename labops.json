@@ -393,7 +393,9 @@
       "noCachedTags": "No tags in inventory",
       "clear": "Purge",
       "applyToSelected": "Apply to {count} assets",
-      "selectTodosFirst": "Identify assets first"
+      "selectTodosFirst": "Identify assets first",
+      "aiSuggest": "Inventory Intelligence",
+      "aiSuggesting": "Optimizing..."
     }
   },
   "demo": {

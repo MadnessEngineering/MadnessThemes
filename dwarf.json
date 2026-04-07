@@ -393,7 +393,9 @@
       "noCachedTags": "No runes in the vault",
       "clear": "Smelt",
       "applyToSelected": "Forge onto {count} rocks",
-      "selectTodosFirst": "Mine the rocks first"
+      "selectTodosFirst": "Mine the rocks first",
+      "aiSuggest": "Rune Guidance",
+      "aiSuggesting": "Consulting the stone..."
     }
   },
   "demo": {
