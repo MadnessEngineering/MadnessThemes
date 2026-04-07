@@ -1627,7 +1627,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No enhancements recorded"
+      "empty": "No enhancements recorded",
+      "justNow": "In this holy hour",
+      "minutesAgo": "{{count}} prayers ago",
+      "hoursAgo": "{{count}} vigils ago",
+      "daysAgo": "{{count}} pilgrimages ago",
+      "filter": "Purify",
+      "filters": {
+        "all": "The Whole Order",
+        "successful": "Blessed",
+        "failed": "Corrupted"
+      },
+      "sort": {
+        "default": "Grace",
+        "newest": "New Light",
+        "oldest": "Ancient Scripture",
+        "byType": "Holy School"
+      },
+      "titleGlobal": "Chronicle of Deeds",
+      "titleTodo": "Sacred Duties",
+      "loading": "Meditating...",
+      "noHistory": "The altar is bare.",
+      "noMatchingHistory": "No such truth was found.",
+      "castSuccessfully": "Blessing received.",
+      "castFailed": "The light faded.",
+      "showing": "Witnessing",
+      "totalCasts": "Total Miracles"
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -1636,6 +1661,18 @@
       "complete": "Enhancement completed",
       "failed": "Enhancement failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "Divine Revelation"
+    },
+    "perform_geomancy": {
+      "name": "Hallowed Ground"
+    },
+    "consolidate_similar": {
+      "name": "Sacred Union"
+    },
+    "suggest_tags": {
+      "name": "Virtue Naming"
     }
   },
   "insights": {

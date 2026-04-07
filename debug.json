@@ -1557,7 +1557,32 @@
       "success": "spells.history.success",
       "failed": "spells.history.failed",
       "duration": "spells.history.duration",
-      "empty": "spells.history.empty"
+      "empty": "spells.history.empty",
+      "justNow": "spells.history.justNow",
+      "minutesAgo": "spells.history.minutesAgo ({{count}})",
+      "hoursAgo": "spells.history.hoursAgo ({{count}})",
+      "daysAgo": "spells.history.daysAgo ({{count}})",
+      "filter": "spells.history.filter",
+      "filters": {
+        "all": "spells.history.filters.all",
+        "successful": "spells.history.filters.successful",
+        "failed": "spells.history.filters.failed"
+      },
+      "sort": {
+        "default": "spells.history.sort",
+        "newest": "spells.history.sort.newest",
+        "oldest": "spells.history.sort.oldest",
+        "byType": "spells.history.sort.byType"
+      },
+      "titleGlobal": "spells.history.titleGlobal",
+      "titleTodo": "spells.history.titleTodo",
+      "loading": "spells.history.loading",
+      "noHistory": "spells.history.noHistory",
+      "noMatchingHistory": "spells.history.noMatchingHistory",
+      "castSuccessfully": "spells.history.castSuccessfully",
+      "castFailed": "spells.history.castFailed",
+      "showing": "spells.history.showing",
+      "totalCasts": "spells.history.totalCasts"
     },
     "status": {
       "idle": "spells.status.idle",
@@ -1566,6 +1591,18 @@
       "complete": "spells.status.complete",
       "failed": "spells.status.failed",
       "cooldown": "spells.status.cooldown"
+    },
+    "enhance_description": {
+      "name": "spells.enhance_description.name"
+    },
+    "perform_geomancy": {
+      "name": "spells.perform_geomancy.name"
+    },
+    "consolidate_similar": {
+      "name": "spells.consolidate_similar.name"
+    },
+    "suggest_tags": {
+      "name": "spells.suggest_tags.name"
     }
   },
   "insights": {

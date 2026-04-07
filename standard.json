@@ -1627,7 +1627,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No enhancements recorded"
+      "empty": "No enhancements recorded",
+      "justNow": "just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago",
+      "filter": "Filter",
+      "filters": {
+        "all": "All",
+        "successful": "Successful",
+        "failed": "Failed"
+      },
+      "sort": {
+        "default": "Sort by",
+        "newest": "Newest First",
+        "oldest": "Oldest First",
+        "byType": "By Type"
+      },
+      "titleGlobal": "AI Request Log",
+      "titleTodo": "Task Enhancement History",
+      "loading": "Loading history...",
+      "noHistory": "No AI requests recorded",
+      "noMatchingHistory": "No matching entries found",
+      "castSuccessfully": "Applied successfully",
+      "castFailed": "Application failed",
+      "showing": "Showing",
+      "totalCasts": "Total requests"
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -1636,6 +1661,18 @@
       "complete": "Enhancement completed",
       "failed": "Enhancement failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "AI Task Enhancement"
+    },
+    "perform_geomancy": {
+      "name": "Pattern Analysis"
+    },
+    "consolidate_similar": {
+      "name": "Task Consolidation"
+    },
+    "suggest_tags": {
+      "name": "Tag Suggestions"
     }
   },
   "insights": {

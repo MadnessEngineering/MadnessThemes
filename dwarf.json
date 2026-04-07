@@ -1555,7 +1555,32 @@
       "success": "✨ Ore Successful",
       "failed": "❌ Ritual Failed",
       "duration": "Ritual duration:",
-      "empty": "No ore rituals recorded in the mining chronicles"
+      "empty": "No ore rituals recorded in the mining chronicles",
+      "justNow": "By my beard!",
+      "minutesAgo": "{{count}} strikes ago",
+      "hoursAgo": "{{count}} shifts ago",
+      "daysAgo": "{{count}} moons ago",
+      "filter": "Sift Ore",
+      "filters": {
+        "all": "The Whole Vein",
+        "successful": "Pure Gold",
+        "failed": "Slag"
+      },
+      "sort": {
+        "default": "Depth",
+        "newest": "Freshly Dug",
+        "oldest": "Old Mine Wings",
+        "byType": "Mineral Type"
+      },
+      "titleGlobal": "Book of Grudges",
+      "titleTodo": "Forge List",
+      "loading": "Digging...",
+      "noHistory": "Empty cavern.",
+      "noMatchingHistory": "Just rock here, kinsman.",
+      "castSuccessfully": "Forged in fire!",
+      "castFailed": "Hammer broke.",
+      "showing": "Gazing",
+      "totalCasts": "Total Ingots"
     },
     "status": {
       "idle": "Ore energies at rest",
@@ -1564,6 +1589,18 @@
       "complete": "Ritual successfully extracted",
       "failed": "Mining interference detected",
       "cooldown": "Recovering ore energies..."
+    },
+    "enhance_description": {
+      "name": "Polishing Gems"
+    },
+    "perform_geomancy": {
+      "name": "Vein Tracking"
+    },
+    "consolidate_similar": {
+      "name": "Smelting Down"
+    },
+    "suggest_tags": {
+      "name": "Rune Carving"
     }
   },
   "onboarding": {

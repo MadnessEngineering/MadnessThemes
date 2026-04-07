@@ -1555,7 +1555,32 @@
       "success": "✨ Banana Successful",
       "failed": "❌ Ritual Failed",
       "duration": "Ritual duration:",
-      "empty": "No banana rituals recorded in the jungle chronicles"
+      "empty": "No banana rituals recorded in the jungle chronicles",
+      "justNow": "A split second ago",
+      "minutesAgo": "{{count}} bananas ago",
+      "hoursAgo": "{{count}} bunches ago",
+      "daysAgo": "{{count}} harvests ago",
+      "filter": "Peel",
+      "filters": {
+        "all": "Whole Bunch",
+        "successful": "Ripe",
+        "failed": "Bruised"
+      },
+      "sort": {
+        "default": "Ripeness",
+        "newest": "Yellowest",
+        "oldest": "Brownest",
+        "byType": "Fruit Class"
+      },
+      "titleGlobal": "The Big Banana Book",
+      "titleTodo": "Daily Potassium",
+      "loading": "Ripening...",
+      "noHistory": "No bananas here.",
+      "noMatchingHistory": "Slip! Nothing found.",
+      "castSuccessfully": "Bananified!",
+      "castFailed": "Slipped on a peel.",
+      "showing": "Munching",
+      "totalCasts": "Total Peels"
     },
     "status": {
       "idle": "Banana energies at rest",
@@ -1564,6 +1589,18 @@
       "complete": "Ritual successfully harvested",
       "failed": "Jungle interference detected",
       "cooldown": "Recovering banana energies..."
+    },
+    "enhance_description": {
+      "name": "Extra Yellow"
+    },
+    "perform_geomancy": {
+      "name": "Jungle Navigation"
+    },
+    "consolidate_similar": {
+      "name": "Bunch Bonding"
+    },
+    "suggest_tags": {
+      "name": "Sticker Placement"
     }
   },
   "onboarding": {

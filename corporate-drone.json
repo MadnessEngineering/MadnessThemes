@@ -1561,7 +1561,32 @@
       "success": "✅ Successfully Optimized",
       "failed": "❌ Process Failed",
       "duration": "Process duration:",
-      "empty": "No enhancement protocols recorded in operational history"
+      "empty": "No enhancement protocols recorded in operational history",
+      "justNow": "Real-time",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago",
+      "filter": "KPI Filter",
+      "filters": {
+        "all": "Full Portfolio",
+        "successful": "Optimized",
+        "failed": "Non-compliant"
+      },
+      "sort": {
+        "default": "Hierarchy",
+        "newest": "Fresh Deliverables",
+        "oldest": "Legacy Assets",
+        "byType": "Silo Category"
+      },
+      "titleGlobal": "Operational Log",
+      "titleTodo": "Action Item Audit",
+      "loading": "Syncing with cloud...",
+      "noHistory": "No data points recorded.",
+      "noMatchingHistory": "Search yielded no ROI.",
+      "castSuccessfully": "Deployment validated.",
+      "castFailed": "Systemic failure detected.",
+      "showing": "Visualizing",
+      "totalCasts": "Total Implementations"
     },
     "status": {
       "idle": "AI enhancement system ready",
@@ -1570,6 +1595,18 @@
       "complete": "Enhancement protocol completed successfully",
       "failed": "System error encountered during processing",
       "cooldown": "System resources recharging..."
+    },
+    "enhance_description": {
+      "name": "Value-Add Optimization"
+    },
+    "perform_geomancy": {
+      "name": "Vertical Integration"
+    },
+    "consolidate_similar": {
+      "name": "Synergistic Consolidation"
+    },
+    "suggest_tags": {
+      "name": "Metadata Categorization"
     }
   },
   "activityLog": {

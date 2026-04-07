@@ -1986,7 +1986,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No augmentations recorded"
+      "empty": "No augmentations recorded",
+      "justNow": "0s",
+      "minutesAgo": "{{count}}m",
+      "hoursAgo": "{{count}}h",
+      "daysAgo": "{{count}}d",
+      "filter": "grep",
+      "filters": {
+        "all": "*",
+        "successful": "200_OK",
+        "failed": "500_ERR"
+      },
+      "sort": {
+        "default": "order",
+        "newest": "head",
+        "oldest": "tail",
+        "byType": "type"
+      },
+      "titleGlobal": "history.log",
+      "titleTodo": "tasks.db",
+      "loading": "mounting...",
+      "noHistory": "EOF",
+      "noMatchingHistory": "404_NOT_FOUND",
+      "castSuccessfully": "EXEC_SUCCESS",
+      "castFailed": "SEGFAULT",
+      "showing": "view",
+      "totalCasts": "count"
     },
     "status": {
       "idle": "Augmentation tools ready",
@@ -1995,6 +2020,18 @@
       "complete": "Augmentation complete",
       "failed": "Augmentation failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "reformat_text"
+    },
+    "perform_geomancy": {
+      "name": "map_network"
+    },
+    "consolidate_similar": {
+      "name": "dedupe"
+    },
+    "suggest_tags": {
+      "name": "label_data"
     }
   },
   "todoEdit": {

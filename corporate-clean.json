@@ -1627,7 +1627,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No enhancements recorded"
+      "empty": "No enhancements recorded",
+      "justNow": "Just now",
+      "minutesAgo": "{{count}} minutes ago",
+      "hoursAgo": "{{count}} hours ago",
+      "daysAgo": "{{count}} days ago",
+      "filter": "Filter",
+      "filters": {
+        "all": "All Items",
+        "successful": "Completed",
+        "failed": "Failed"
+      },
+      "sort": {
+        "default": "Sort By",
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "byType": "By Type"
+      },
+      "titleGlobal": "Activity History",
+      "titleTodo": "Task History",
+      "loading": "Loading history...",
+      "noHistory": "No history found.",
+      "noMatchingHistory": "No matching items.",
+      "castSuccessfully": "Action successful.",
+      "castFailed": "Action failed.",
+      "showing": "Showing",
+      "totalCasts": "Total actions"
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -1636,6 +1661,18 @@
       "complete": "Enhancement completed",
       "failed": "Enhancement failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "Refine Description"
+    },
+    "perform_geomancy": {
+      "name": "Layout Analysis"
+    },
+    "consolidate_similar": {
+      "name": "Group Similar"
+    },
+    "suggest_tags": {
+      "name": "Identify Tags"
     }
   },
   "insights": {

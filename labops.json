@@ -1627,7 +1627,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No enhancements recorded"
+      "empty": "No enhancements recorded",
+      "justNow": "Current",
+      "minutesAgo": "{{count}} mins elapsed",
+      "hoursAgo": "{{count}} hrs elapsed",
+      "daysAgo": "{{count}} days elapsed",
+      "filter": "Isolate",
+      "filters": {
+        "all": "Full Inventory",
+        "successful": "Validated",
+        "failed": "Invalid"
+      },
+      "sort": {
+        "default": "Sequence",
+        "newest": "Recent Run",
+        "oldest": "Archive Data",
+        "byType": "Protocol Type"
+      },
+      "titleGlobal": "Operational Log",
+      "titleTodo": "Standard Procedures",
+      "loading": "Initializing...",
+      "noHistory": "No data logs available.",
+      "noMatchingHistory": "No results in range.",
+      "castSuccessfully": "Protocol executed.",
+      "castFailed": "Execution error.",
+      "showing": "Displaying",
+      "totalCasts": "Total Runs"
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -1636,6 +1661,18 @@
       "complete": "Enhancement completed",
       "failed": "Enhancement failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "Abstract Refinement"
+    },
+    "perform_geomancy": {
+      "name": "LIMS Integration"
+    },
+    "consolidate_similar": {
+      "name": "Sample Batching"
+    },
+    "suggest_tags": {
+      "name": "Asset Tagging"
     }
   },
   "insights": {

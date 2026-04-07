@@ -1555,7 +1555,32 @@
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No analyses recorded"
+      "empty": "No analyses recorded",
+      "justNow": "Immediate post-op",
+      "minutesAgo": "T+{{count}} minutes",
+      "hoursAgo": "T+{{count}} hours",
+      "daysAgo": "T+{{count}} days",
+      "filter": "Screening",
+      "filters": {
+        "all": "All Specimens",
+        "successful": "Stable",
+        "failed": "Critical"
+      },
+      "sort": {
+        "default": "Priority",
+        "newest": "Recent Vitals",
+        "oldest": "Historical Baseline",
+        "byType": "Assay Category"
+      },
+      "titleGlobal": "Patient Record",
+      "titleTodo": "Treatment Plan",
+      "loading": "Analyzing sample...",
+      "noHistory": "No clinical data found.",
+      "noMatchingHistory": "Negative result for query.",
+      "castSuccessfully": "Procedure complete.",
+      "castFailed": "Adverse reaction detected.",
+      "showing": "Monitoring",
+      "totalCasts": "Total Interventions"
     },
     "status": {
       "idle": "Analysis tools ready",
@@ -1564,6 +1589,18 @@
       "complete": "Analysis completed",
       "failed": "Analysis failed",
       "cooldown": "System cooling down..."
+    },
+    "enhance_description": {
+      "name": "Clinical Interpretation"
+    },
+    "perform_geomancy": {
+      "name": "Molecular Docking"
+    },
+    "consolidate_similar": {
+      "name": "Serum Pooling"
+    },
+    "suggest_tags": {
+      "name": "Marker Identification"
     }
   },
   "onboarding": {

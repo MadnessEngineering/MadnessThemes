@@ -1605,7 +1605,32 @@
       "success": "✅ Success",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No system deployments logged"
+      "empty": "No system deployments logged",
+      "justNow": "Actual",
+      "minutesAgo": "M+{{count}}",
+      "hoursAgo": "H+{{count}}",
+      "daysAgo": "D+{{count}}",
+      "filter": "Triage",
+      "filters": {
+        "all": "Full Roster",
+        "successful": "Confirmed",
+        "failed": "MIA"
+      },
+      "sort": {
+        "default": "Rank",
+        "newest": "Intel",
+        "oldest": "Archives",
+        "byType": "Class"
+      },
+      "titleGlobal": "After Action Report",
+      "titleTodo": "Mission Brief",
+      "loading": "Scanning sector...",
+      "noHistory": "Negative contact.",
+      "noMatchingHistory": "Target not found in sector.",
+      "castSuccessfully": "Mission accomplished.",
+      "castFailed": "Operation compromised.",
+      "showing": "Visualizing",
+      "totalCasts": "Total Sorties"
     },
     "status": {
       "idle": "Tactical systems ready",
@@ -1614,6 +1639,18 @@
       "complete": "System deployment complete",
       "failed": "Deployment failed",
       "cooldown": "Systems cooling down..."
+    },
+    "enhance_description": {
+      "name": "Tactical Overhaul"
+    },
+    "perform_geomancy": {
+      "name": "Grid Mapping"
+    },
+    "consolidate_similar": {
+      "name": "Squad Merging"
+    },
+    "suggest_tags": {
+      "name": "Designation Labeling"
     }
   },
   "admin": {
