@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Asset Tags:",
+      "fromCache": "from inventory",
+      "cachedStale": "stale record",
+      "refreshCache": "Re-inventory",
+      "staged": "assets marked",
+      "noCachedTags": "No tags in inventory",
+      "clear": "Purge",
+      "applyToSelected": "Apply to {count} assets",
+      "selectTodosFirst": "Identify assets first"
     }
   },
   "demo": {

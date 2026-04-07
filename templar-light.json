@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Holy Seals:",
+      "fromCache": "from archives",
+      "cachedStale": "ancient script",
+      "refreshCache": "Bless the seals",
+      "staged": "decrees ready",
+      "noCachedTags": "No seals available",
+      "clear": "Expiate",
+      "applyToSelected": "Anoint {count} souls",
+      "selectTodosFirst": "Choose souls first"
     }
   },
   "demo": {

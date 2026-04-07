@@ -383,6 +383,17 @@
       "applyAll": "labMaintenance.duplicates.applyAll",
       "applied": "labMaintenance.duplicates.applied",
       "selectGroupsFirst": "labMaintenance.duplicates.selectGroupsFirst"
+    },
+    "quickTags": {
+      "title": "tags.quick:",
+      "fromCache": "cache.hit",
+      "cachedStale": "cache.stale",
+      "refreshCache": "cache.invalidate()",
+      "staged": "tags.staged",
+      "noCachedTags": "cache.empty",
+      "clear": "clear()",
+      "applyToSelected": "bulk_tag({count})",
+      "selectTodosFirst": "error: select_nodes_first"
     }
   },
   "demo": {

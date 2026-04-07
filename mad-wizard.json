@@ -383,6 +383,17 @@
       "applyAll": "Enact All Conjurations",
       "applied": "The spell has been successfully cast.",
       "selectGroupsFirst": "Designate the specimens for the Oracle's scrutiny."
+    },
+    "quickTags": {
+      "title": "Arcane Sigils:",
+      "fromCache": "from the grimoire",
+      "cachedStale": "faded essence",
+      "refreshCache": "Recite tag ritual",
+      "staged": "reagents prepared",
+      "noCachedTags": "The grimoire is empty",
+      "clear": "Banish",
+      "applyToSelected": "Inscribe upon {count} specimens",
+      "selectTodosFirst": "Bind specimens first"
     }
   },
   "demo": {

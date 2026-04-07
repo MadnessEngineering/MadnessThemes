@@ -1792,6 +1792,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "System Tags:",
+      "fromCache": "from local stack",
+      "cachedStale": "stale registry",
+      "refreshCache": "Sync registry",
+      "staged": "nodes staged",
+      "noCachedTags": "Registry is clear",
+      "clear": "Reset",
+      "applyToSelected": "Inject into {count} nodes",
+      "selectTodosFirst": "Target nodes first"
     }
   },
   "projectNavigator": {

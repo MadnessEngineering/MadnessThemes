@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Quick Bunches:",
+      "fromCache": "from the tree",
+      "cachedStale": "getting brown",
+      "refreshCache": "Pick fresh tags",
+      "staged": "in the basket",
+      "noCachedTags": "No bananas today",
+      "clear": "Peel",
+      "applyToSelected": "Stick to {count} bananas",
+      "selectTodosFirst": "Grab some bananas first"
     }
   },
   "demo": {

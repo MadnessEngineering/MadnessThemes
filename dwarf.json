@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Quick Runes:",
+      "fromCache": "from the vault",
+      "cachedStale": "dusty runes",
+      "refreshCache": "Polish the runes",
+      "staged": "ore ready",
+      "noCachedTags": "No runes in the vault",
+      "clear": "Smelt",
+      "applyToSelected": "Forge onto {count} rocks",
+      "selectTodosFirst": "Mine the rocks first"
     }
   },
   "demo": {

@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Rapid Markers:",
+      "fromCache": "from database",
+      "cachedStale": "degraded sample",
+      "refreshCache": "Rescan library",
+      "staged": "vials prepared",
+      "noCachedTags": "No markers identified",
+      "clear": "Wash",
+      "applyToSelected": "Tag {count} specimens",
+      "selectTodosFirst": "Isolate specimens first"
     }
   },
   "demo": {

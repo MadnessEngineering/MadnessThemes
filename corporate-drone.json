@@ -317,6 +317,17 @@
       "applyAll": "Execute All",
       "applied": "Optimization successfully implemented.",
       "selectGroupsFirst": "Select target clusters for analytical processing."
+    },
+    "quickTags": {
+      "title": "Quick Labels:",
+      "fromCache": "from repository",
+      "cachedStale": "pending deployment",
+      "refreshCache": "Sync with HQ",
+      "staged": "staged for review",
+      "noCachedTags": "No assets in repository",
+      "clear": "Discard",
+      "applyToSelected": "Deploy to {count} assets",
+      "selectTodosFirst": "Identify assets first"
     }
   },
   "demo": {

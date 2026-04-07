@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Quick Tags:",
+      "fromCache": "from cache",
+      "cachedStale": "cached (stale)",
+      "refreshCache": "Refresh tag cache",
+      "staged": "staged",
+      "noCachedTags": "No cached tags available",
+      "clear": "Clear",
+      "applyToSelected": "Apply to {count} selected",
+      "selectTodosFirst": "Select todos first"
     }
   },
   "demo": {

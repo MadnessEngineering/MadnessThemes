@@ -383,6 +383,17 @@
       "applyAll": "Apply All",
       "applied": "Recommendation applied successfully",
       "selectGroupsFirst": "Select todos from groups to analyze"
+    },
+    "quickTags": {
+      "title": "Loadout Tags:",
+      "fromCache": "from armory",
+      "cachedStale": "needs reload",
+      "refreshCache": "Restock armory",
+      "staged": "rounds chambered",
+      "noCachedTags": "Armory empty",
+      "clear": "Eject",
+      "applyToSelected": "Mark {count} targets",
+      "selectTodosFirst": "Lock targets first"
     }
   },
   "demo": {
