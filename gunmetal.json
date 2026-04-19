@@ -447,7 +447,7 @@
     "enterButton": {
       "selected": "⚡ LOCKED ON",
       "enter": "🚀 LAUNCH",
-      "helpText": "Press Enter or #{{{number}}}"
+      "helpText": "Press Enter or #{{number}}"
     },
     "deleteDialog": {
       "title": "Delete Project",

@@ -447,7 +447,7 @@
     "enterButton": {
       "selected": "⚡ PORTAL ACTIVE",
       "enter": "🚀 ENTER REALM",
-      "helpText": "Press Enter or #{{{number}}}"
+      "helpText": "Press Enter or #{{number}}"
     },
     "deleteDialog": {
       "title": "Banish Apparatus",

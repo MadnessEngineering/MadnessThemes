@@ -381,7 +381,7 @@
     "enterButton": {
       "selected": "⚡ ENVIRONMENT ACTIVE",
       "enter": "🚀 ACCESS PROJECT",
-      "helpText": "Press Enter or #{{{number}}}"
+      "helpText": "Press Enter or #{{number}}"
     },
     "deleteDialog": {
       "title": "Retire Initiative",
