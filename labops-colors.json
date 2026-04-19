@@ -197,6 +197,10 @@
         "border": "rgba(235, 76, 76, 0.42)",
         "text": "#C93535"
       }
+    },
+    "chat": {
+      "userBubble": "#01579b",
+      "userBubbleText": "#ffffff"
     }
   },
   "threeJS": {
