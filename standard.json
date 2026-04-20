@@ -735,6 +735,35 @@
       "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Purple sparkle for AI enhancement"
     }
   },
+  "todoDetail": {
+    "untitled": "Untitled Todo",
+    "tabs": {
+      "overview": "Overview",
+      "history": "History",
+      "spells": "Spells",
+      "related": "Related",
+      "sessions": "Sessions",
+      "coordinates": "Coordinates"
+    },
+    "spells": {
+      "empty": "No spells have been cast on this todo yet.",
+      "hint": "Use the AI chat to enhance descriptions or perform analysis.",
+      "undo": "Undo spell"
+    },
+    "related": {
+      "empty": "No related todos found in this project.",
+      "count": "{{count}} related todos"
+    },
+    "sessions": {
+      "empty": "No sessions linked to this todo.",
+      "hint": "Link sessions via the AI chat.",
+      "count": "{{count}} linked sessions"
+    },
+    "coordinates": {
+      "empty": "No coordinates assigned to this todo.",
+      "hint": "Cast a geomancy spell to assign spatial coordinates."
+    }
+  },
   "settings": {
     "title": "⚙️ Settings",
     "confirmReset": "Are you sure you want to reset all settings to their default values? This action cannot be undone.",

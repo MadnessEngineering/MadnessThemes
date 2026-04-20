@@ -735,6 +735,35 @@
       "description": "• Channel intentions into any field to modify • Use the Edit apparatus for complete form • ESC to abandon ritual • Ctrl+Enter to archive findings • Purple sparkle for ethereal enhancement"
     }
   },
+  "todoDetail": {
+    "untitled": "Unnamed Specimen",
+    "tabs": {
+      "overview": "Specimen Overview",
+      "history": "Modification Chronicle",
+      "spells": "Spell Archive",
+      "related": "Related Specimens",
+      "sessions": "Session Genealogy",
+      "coordinates": "Geomancy Map"
+    },
+    "spells": {
+      "empty": "No incantations have been cast upon this specimen yet.",
+      "hint": "Channel the AI familiar to enhance descriptions or perform geomancy rituals.",
+      "undo": "Reverse incantation"
+    },
+    "related": {
+      "empty": "No kindred specimens found in this laboratory wing.",
+      "count": "{{count}} kindred specimens discovered"
+    },
+    "sessions": {
+      "empty": "No ritual sessions bound to this specimen.",
+      "hint": "Bind sessions through the AI familiar: 'link session to this specimen'",
+      "count": "{{count}} bound ritual sessions"
+    },
+    "coordinates": {
+      "empty": "No geomantic coordinates divined for this specimen.",
+      "hint": "Cast a geomancy ritual to divine spatial coordinates."
+    }
+  },
   "settings": {
     "title": "⚙️ Apparatus Configuration",
     "confirmReset": "Are you certain you wish to reset all mystical apparatus configurations to their original state? This transmutation cannot be undone.",

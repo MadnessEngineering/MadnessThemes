@@ -669,6 +669,35 @@
       "description": "• Click any field to edit specifications inline • Use the Edit function for comprehensive form access • ESC to abort modifications • Ctrl+Enter to commit changes • Purple indicator for AI-enhanced analysis"
     }
   },
+  "todoDetail": {
+    "untitled": "Untitled Action Item",
+    "tabs": {
+      "overview": "Executive Summary",
+      "history": "Audit Trail",
+      "spells": "AI Operations",
+      "related": "Cross-References",
+      "sessions": "Session Lineage",
+      "coordinates": "Spatial Analytics"
+    },
+    "spells": {
+      "empty": "No AI operations have been executed on this action item.",
+      "hint": "Leverage the AI assistant to optimize descriptions or generate analytics.",
+      "undo": "Revert operation"
+    },
+    "related": {
+      "empty": "No cross-referenced action items found in this portfolio.",
+      "count": "{{count}} cross-referenced items"
+    },
+    "sessions": {
+      "empty": "No sessions associated with this action item.",
+      "hint": "Associate sessions via the AI interface for full traceability.",
+      "count": "{{count}} associated sessions"
+    },
+    "coordinates": {
+      "empty": "No spatial analytics generated for this action item.",
+      "hint": "Deploy spatial analysis to generate coordinate mapping."
+    }
+  },
   "settings": {
     "title": "⚙️ System Configuration",
     "confirmReset": "Are you absolutely sure you want to revert to baseline corporate compliance? All unauthorized customizations will be palletized.",

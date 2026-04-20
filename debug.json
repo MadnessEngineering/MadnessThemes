@@ -735,6 +735,35 @@
       "description": "todoEdit.tips.description"
     }
   },
+  "todoDetail": {
+    "untitled": "todoDetail.untitled",
+    "tabs": {
+      "overview": "todoDetail.tabs.overview",
+      "history": "todoDetail.tabs.history",
+      "spells": "todoDetail.tabs.spells",
+      "related": "todoDetail.tabs.related",
+      "sessions": "todoDetail.tabs.sessions",
+      "coordinates": "todoDetail.tabs.coordinates"
+    },
+    "spells": {
+      "empty": "todoDetail.spells.empty",
+      "hint": "todoDetail.spells.hint",
+      "undo": "todoDetail.spells.undo"
+    },
+    "related": {
+      "empty": "todoDetail.related.empty",
+      "count": "todoDetail.related.count"
+    },
+    "sessions": {
+      "empty": "todoDetail.sessions.empty",
+      "hint": "todoDetail.sessions.hint",
+      "count": "todoDetail.sessions.count"
+    },
+    "coordinates": {
+      "empty": "todoDetail.coordinates.empty",
+      "hint": "todoDetail.coordinates.hint"
+    }
+  },
   "settings": {
     "title": "settings.title",
     "confirmReset": "settings.confirmReset",
