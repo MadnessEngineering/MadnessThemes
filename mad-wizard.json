@@ -1537,16 +1537,16 @@
       "listTodos": "List Research Tasks",
       "projectStatus": "Apparatus Status",
       "help": "Mystical Guidance",
-      "settings": "Laboratory Config",
-      "refreshData": "Refresh Mystical Data"
+      "prioritize": "Prioritize Experiments",
+      "summarize": "Summarize Apparatus"
     },
     "actionMessages": {
       "createTodo": "Help me archive a new mystical experiment",
       "listTodos": "Reveal my current research tasks",
       "projectStatus": "Divine the status of my mystical apparatus",
       "help": "What mystical guidance can you provide?",
-      "settings": "Open laboratory configuration panel",
-      "refresh": "Refresh mystical experimental data"
+      "prioritize": "Which experiments should I prioritize in my laboratory today?",
+      "summarize": "Conjure a summary of my current mystical project"
     },
     "header": {
       "title": "AI Laboratory Assistant",

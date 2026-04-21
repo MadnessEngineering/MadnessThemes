@@ -1471,16 +1471,16 @@
       "listTodos": "Task Inventory",
       "projectStatus": "Initiative Status",
       "help": "Support Documentation",
-      "settings": "System Config",
-      "refreshData": "Refresh Operational Data"
+      "prioritize": "Prioritize Tasks",
+      "summarize": "Executive Summary"
     },
     "actionMessages": {
       "createTodo": "Assist with deploying a new operational task",
       "listTodos": "Display my current task inventory",
       "projectStatus": "Provide status update on my operational initiatives",
       "help": "What productivity optimization assistance can you provide?",
-      "settings": "Access system configuration panel",
-      "refresh": "Refresh operational data metrics"
+      "prioritize": "Which tasks should I prioritize to maximize operational efficiency today?",
+      "summarize": "Generate an executive summary of my current project initiatives"
     },
     "header": {
       "title": "AI Productivity Assistant",

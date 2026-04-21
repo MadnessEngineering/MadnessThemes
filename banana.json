@@ -1436,16 +1436,16 @@
       "listTodos": "List Swing Tasks",
       "projectStatus": "Apparatus Status",
       "help": "Jungle Guidance",
-      "settings": "Tree Config",
-      "refreshData": "Refresh Banana Data"
+      "prioritize": "Prioritize Fruits",
+      "summarize": "Bunch Summary"
     },
     "actionMessages": {
       "createTodo": "Help me plant a new jungle task",
       "listTodos": "Reveal my current swing tasks",
       "projectStatus": "Forage the status of my jungle apparatus",
       "help": "What jungle guidance can you provide?",
-      "settings": "Open tree configuration panel",
-      "refresh": "Refresh banana data"
+      "prioritize": "Which tasks should I peel back and prioritize today?",
+      "summarize": "Give me a summary of my current project bunch"
     },
     "header": {
       "title": "AI Jungle Assistant",

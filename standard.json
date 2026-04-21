@@ -1111,16 +1111,16 @@
       "listTodos": "List Todos",
       "projectStatus": "Project Status",
       "help": "Help",
-      "settings": "Settings",
-      "refreshData": "Refresh Data"
+      "prioritize": "Prioritize",
+      "summarize": "Summarize"
     },
     "actionMessages": {
       "createTodo": "Help me create a new todo",
       "listTodos": "Show me my current todos",
       "projectStatus": "Give me a status update on my projects",
       "help": "What can you help me with?",
-      "settings": "Open settings panel",
-      "refresh": "Refresh my data"
+      "prioritize": "What should I prioritize working on today?",
+      "summarize": "Give me a quick summary of my current project"
     },
     "header": {
       "title": "AI Assistant",

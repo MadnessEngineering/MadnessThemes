@@ -1688,16 +1688,16 @@
       "listTodos": "List Tasks",
       "projectStatus": "Project Status",
       "help": "Help",
-      "settings": "Settings",
-      "refreshData": "Refresh Data"
+      "prioritize": "Prioritize Tasks",
+      "summarize": "Summarize Lab"
     },
     "actionMessages": {
       "createTodo": "Help me create a new task",
       "listTodos": "Display my current tasks",
       "projectStatus": "Give me a status readout on my projects",
       "help": "What protocols can you assist with?",
-      "settings": "Open settings terminal",
-      "refresh": "Refresh data arrays"
+      "prioritize": "Which tasks should I prioritize in my lab today?",
+      "summarize": "Generate a summary of my current lab project"
     },
     "header": {
       "title": "Lab AI Terminal",

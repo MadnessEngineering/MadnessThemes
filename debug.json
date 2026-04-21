@@ -1467,16 +1467,16 @@
       "listTodos": "mobileChatInterface.quickActions.listTodos",
       "projectStatus": "mobileChatInterface.quickActions.projectStatus",
       "help": "mobileChatInterface.quickActions.help",
-      "settings": "mobileChatInterface.quickActions.settings",
-      "refreshData": "mobileChatInterface.quickActions.refreshData"
+      "prioritize": "mobileChatInterface.quickActions.prioritize",
+      "summarize": "mobileChatInterface.quickActions.summarize"
     },
     "actionMessages": {
       "createTodo": "mobileChatInterface.actionMessages.createTodo",
       "listTodos": "mobileChatInterface.actionMessages.listTodos",
       "projectStatus": "mobileChatInterface.actionMessages.projectStatus",
       "help": "mobileChatInterface.actionMessages.help",
-      "settings": "mobileChatInterface.actionMessages.settings",
-      "refresh": "mobileChatInterface.actionMessages.refresh"
+      "prioritize": "mobileChatInterface.actionMessages.prioritize",
+      "summarize": "mobileChatInterface.actionMessages.summarize"
     },
     "header": {
       "title": "mobileChatInterface.header.title",

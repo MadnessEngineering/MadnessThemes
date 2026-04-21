@@ -1436,16 +1436,16 @@
       "listTodos": "List Mining Tasks",
       "projectStatus": "Apparatus Status",
       "help": "Mining Guidance",
-      "settings": "Mining Config",
-      "refreshData": "Refresh Ore Data"
+      "prioritize": "Prioritize Ore",
+      "summarize": "Mine Summary"
     },
     "actionMessages": {
       "createTodo": "Help me carve a new mining task",
       "listTodos": "Reveal me current mining tasks",
       "projectStatus": "Survey the status of me mining apparatus",
       "help": "What mining guidance can ye provide?",
-      "settings": "Open mining configuration panel",
-      "refresh": "Refresh ore data"
+      "prioritize": "Which tasks should I dig into and prioritize today?",
+      "summarize": "Give me a summary of my current mining project"
     },
     "header": {
       "title": "Forge Familiar",
