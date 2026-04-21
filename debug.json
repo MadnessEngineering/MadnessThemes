@@ -2176,6 +2176,9 @@
     "currentTier": "pricing.currentTier",
     "upgrade": "pricing.upgrade",
     "finePrint": "pricing.finePrint",
+    "complimentary": "pricing.complimentary",
+    "complimentaryBannerTitle": "pricing.complimentaryBannerTitle",
+    "complimentaryBannerBody": "pricing.complimentaryBannerBody",
     "errors": {
       "loginRequired": "pricing.errors.loginRequired",
       "checkoutFailed": "pricing.errors.checkoutFailed"

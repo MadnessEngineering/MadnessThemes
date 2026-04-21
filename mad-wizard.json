@@ -2196,6 +2196,9 @@
     "currentTier": "CURRENT TIER",
     "upgrade": "ASCEND",
     "finePrint": "Revoke anytime. No binding contracts. Your research remains yours regardless.",
+    "complimentary": "Bestowed",
+    "complimentaryBannerTitle": "Complimentary patronage bestowed.",
+    "complimentaryBannerBody": "Your allied affiliation grants full Grand Patron access — no tribute required.",
     "errors": {
       "loginRequired": "Present your credentials to ascend your patronage",
       "checkoutFailed": "The ascension ritual faltered. Attempt again."

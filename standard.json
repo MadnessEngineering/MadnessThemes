@@ -2196,6 +2196,9 @@
     "currentTier": "CURRENT TIER",
     "upgrade": "UPGRADE",
     "finePrint": "Cancel anytime. No contracts. Your data stays yours either way.",
+    "complimentary": "Complimentary",
+    "complimentaryBannerTitle": "Complimentary Pro access active.",
+    "complimentaryBannerBody": "Your account includes full Pro access — no payment required.",
     "errors": {
       "loginRequired": "Please log in to upgrade your subscription",
       "checkoutFailed": "Failed to start checkout. Please try again."

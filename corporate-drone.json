@@ -2196,6 +2196,9 @@
     "currentTier": "CURRENT TIER",
     "upgrade": "UPGRADE",
     "finePrint": "Terminate anytime. No lock-in contracts. Your data remains your property.",
+    "complimentary": "Provisioned",
+    "complimentaryBannerTitle": "Complimentary enterprise access provisioned.",
+    "complimentaryBannerBody": "Your partner account includes full enterprise access — no billing required.",
     "errors": {
       "loginRequired": "Please authenticate to upgrade your service tier",
       "checkoutFailed": "Checkout process failed. Please retry."
