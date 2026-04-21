@@ -3,7 +3,7 @@
   "displayName": "LabOps",
   "description": "LabOps light theme: softer teal-blue primary, muted surfaces, scientific precision.",
   "icon": "🔬",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "colors": {
     "primary": "#13B5D8",
     "primaryButton": "#13B5D8",
@@ -12,16 +12,16 @@
     "warning": "#F5C127",
     "error": "#EB4C4C",
     "background": {
-      "main": "linear-gradient(135deg, #E9EEF3 0%, #D7DEE8 100%)",
+      "main": "linear-gradient(135deg, #F4F8FC 0%, #E3EBF4 100%)",
       "card": {
-        "normal": "rgba(255, 255, 255, 0.98)",
-        "selected": "rgba(236, 242, 248, 0.95)",
-        "hover": "rgba(236, 242, 248, 0.88)"
+        "normal": "rgba(255, 255, 255, 0.99)",
+        "selected": "rgba(245, 249, 253, 0.98)",
+        "hover": "rgba(248, 251, 254, 0.95)"
       },
-      "header": "linear-gradient(135deg, #D7DEE8 0%, #C5CED9 100%)",
-      "paper": "rgba(255, 255, 255, 0.98)",
-      "topBar": "linear-gradient(90deg, #0A7A97 0%, #086B80 100%)",
-      "input": "rgba(255, 255, 255, 0.99)"
+      "header": "linear-gradient(135deg, #EEF4F8 0%, #DDE7F0 100%)",
+      "paper": "rgba(255, 255, 255, 0.99)",
+      "topBar": "linear-gradient(90deg, #1598B8 0%, #0F89A8 100%)",
+      "input": "rgba(255, 255, 255, 1)"
     },
     "text": {
       "primary": "#1C1C1E",
@@ -42,8 +42,8 @@
     "border": {
       "primary": "#13B5D8",
       "secondary": "#11A4D4",
-      "subtle": "rgba(17, 35, 52, 0.16)",
-      "disabled": "rgba(17, 35, 52, 0.1)"
+      "subtle": "rgba(17, 35, 52, 0.12)",
+      "disabled": "rgba(17, 35, 52, 0.08)"
     },
     "dashboard": {
       "stats": {
@@ -66,8 +66,8 @@
       },
       "activity": {
         "panel": {
-          "background": "rgba(19, 181, 216, 0.1)",
-          "border": "rgba(19, 181, 216, 0.22)"
+          "background": "rgba(19, 181, 216, 0.14)",
+          "border": "rgba(19, 181, 216, 0.26)"
         },
         "create": "#13B5D8",
         "complete": "#1BB860",
@@ -77,16 +77,16 @@
       },
       "completed": {
         "panel": {
-          "background": "rgba(27, 184, 96, 0.1)",
-          "border": "rgba(27, 184, 96, 0.22)"
+          "background": "rgba(27, 184, 96, 0.12)",
+          "border": "rgba(27, 184, 96, 0.24)"
         },
         "highlight": {
-          "background": "rgba(27, 184, 96, 0.15)"
+          "background": "rgba(27, 184, 96, 0.18)"
         }
       },
       "button": {
-        "neutral": "#E7ECF2",
-        "neutralHover": "#DCE3EA",
+        "neutral": "#F1F5FA",
+        "neutralHover": "#E6EEF7",
         "danger": "#EB4C4C",
         "dangerHover": "#D84343"
       }
@@ -113,16 +113,16 @@
         "shadow": "rgba(245, 131, 31, 0.15)"
       },
       "hover": {
-        "background": "rgba(0, 0, 0, 0.03)",
-        "overlay": "rgba(0, 0, 0, 0.02)"
+        "background": "rgba(19, 181, 216, 0.05)",
+        "overlay": "rgba(255, 255, 255, 0.32)"
       },
       "selected": {
-        "background": "rgba(19, 181, 216, 0.15)",
-        "border": "rgba(19, 181, 216, 0.6)"
+        "background": "rgba(19, 181, 216, 0.18)",
+        "border": "rgba(19, 181, 216, 0.55)"
       },
       "disabled": {
-        "background": "rgba(0, 0, 0, 0.03)",
-        "text": "rgba(28, 28, 30, 0.4)"
+        "background": "rgba(17, 35, 52, 0.04)",
+        "text": "rgba(28, 28, 30, 0.35)"
       }
     },
     "effects": {
@@ -163,18 +163,18 @@
       }
     },
     "shadows": {
-      "light": "rgba(0, 0, 0, 0.08)",
-      "medium": "rgba(0, 0, 0, 0.14)",
-      "heavy": "rgba(0, 0, 0, 0.22)",
-      "overlay": "rgba(0, 0, 0, 0.35)",
-      "cardNormal": "rgba(0, 0, 0, 0.08)",
-      "cardHover": "rgba(0, 0, 0, 0.14)"
+      "light": "rgba(0, 0, 0, 0.06)",
+      "medium": "rgba(0, 0, 0, 0.12)",
+      "heavy": "rgba(0, 0, 0, 0.18)",
+      "overlay": "rgba(0, 0, 0, 0.28)",
+      "cardNormal": "rgba(0, 0, 0, 0.06)",
+      "cardHover": "rgba(0, 0, 0, 0.12)"
     },
     "overlays": {
-      "light": "rgba(0, 0, 0, 0.02)",
-      "medium": "rgba(0, 0, 0, 0.06)",
-      "dark": "rgba(0, 0, 0, 0.1)",
-      "darker": "rgba(0, 0, 0, 0.2)"
+      "light": "rgba(0, 0, 0, 0.015)",
+      "medium": "rgba(0, 0, 0, 0.04)",
+      "dark": "rgba(0, 0, 0, 0.08)",
+      "darker": "rgba(0, 0, 0, 0.14)"
     },
     "status": {
       "completed": {
@@ -211,7 +211,7 @@
       "warning": "0xB87700",
       "error": "0xC93535",
       "background": {
-        "main": "0xE9EEF3",
+        "main": "0xF4F8FC",
         "card": "0xFFFFFF",
         "paper": "0xFFFFFF"
       },
@@ -222,7 +222,7 @@
       "border": {
         "primary": "0x13B5D8",
         "secondary": "0x11A4D4",
-        "subtle": "0xB8C4D1"
+        "subtle": "0xCAD6E1"
       }
     },
     "materials": {
