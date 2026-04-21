@@ -3,7 +3,7 @@
   "displayName": "LabOps",
   "description": "LabOps light theme: softer teal-blue primary, muted surfaces, scientific precision.",
   "icon": "🔬",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "colors": {
     "primary": "#13B5D8",
     "primaryButton": "#13B5D8",
@@ -12,16 +12,16 @@
     "warning": "#F5C127",
     "error": "#EB4C4C",
     "background": {
-      "main": "linear-gradient(135deg, #F4F8FC 0%, #E3EBF4 100%)",
+      "main": "linear-gradient(135deg, #EDF3F8 0%, #DEE6EF 100%)",
       "card": {
-        "normal": "rgba(255, 255, 255, 0.99)",
-        "selected": "rgba(245, 249, 253, 0.98)",
-        "hover": "rgba(248, 251, 254, 0.95)"
+        "normal": "rgba(246, 249, 252, 0.98)",
+        "selected": "rgba(238, 244, 249, 0.97)",
+        "hover": "rgba(242, 247, 251, 0.94)"
       },
-      "header": "linear-gradient(135deg, #EEF4F8 0%, #DDE7F0 100%)",
-      "paper": "rgba(255, 255, 255, 0.99)",
-      "topBar": "linear-gradient(90deg, #1598B8 0%, #0F89A8 100%)",
-      "input": "rgba(255, 255, 255, 1)"
+      "header": "linear-gradient(135deg, #E6EEF5 0%, #D6E0EA 100%)",
+      "paper": "rgba(246, 249, 252, 0.98)",
+      "topBar": "linear-gradient(90deg, #1188A6 0%, #0D7B96 100%)",
+      "input": "rgba(250, 252, 254, 0.99)"
     },
     "text": {
       "primary": "#1C1C1E",
@@ -42,8 +42,8 @@
     "border": {
       "primary": "#13B5D8",
       "secondary": "#11A4D4",
-      "subtle": "rgba(17, 35, 52, 0.12)",
-      "disabled": "rgba(17, 35, 52, 0.08)"
+      "subtle": "rgba(17, 35, 52, 0.14)",
+      "disabled": "rgba(17, 35, 52, 0.09)"
     },
     "dashboard": {
       "stats": {
@@ -66,8 +66,8 @@
       },
       "activity": {
         "panel": {
-          "background": "rgba(19, 181, 216, 0.14)",
-          "border": "rgba(19, 181, 216, 0.26)"
+          "background": "rgba(19, 181, 216, 0.12)",
+          "border": "rgba(19, 181, 216, 0.24)"
         },
         "create": "#13B5D8",
         "complete": "#1BB860",
@@ -81,12 +81,12 @@
           "border": "rgba(27, 184, 96, 0.24)"
         },
         "highlight": {
-          "background": "rgba(27, 184, 96, 0.18)"
+          "background": "rgba(27, 184, 96, 0.16)"
         }
       },
       "button": {
-        "neutral": "#F1F5FA",
-        "neutralHover": "#E6EEF7",
+        "neutral": "#E8EFF6",
+        "neutralHover": "#DDE7F1",
         "danger": "#EB4C4C",
         "dangerHover": "#D84343"
       }
@@ -113,11 +113,11 @@
         "shadow": "rgba(245, 131, 31, 0.15)"
       },
       "hover": {
-        "background": "rgba(19, 181, 216, 0.05)",
-        "overlay": "rgba(255, 255, 255, 0.32)"
+        "background": "rgba(19, 181, 216, 0.04)",
+        "overlay": "rgba(255, 255, 255, 0.22)"
       },
       "selected": {
-        "background": "rgba(19, 181, 216, 0.18)",
+        "background": "rgba(19, 181, 216, 0.14)",
         "border": "rgba(19, 181, 216, 0.55)"
       },
       "disabled": {
@@ -163,16 +163,16 @@
       }
     },
     "shadows": {
-      "light": "rgba(0, 0, 0, 0.06)",
-      "medium": "rgba(0, 0, 0, 0.12)",
+      "light": "rgba(0, 0, 0, 0.07)",
+      "medium": "rgba(0, 0, 0, 0.13)",
       "heavy": "rgba(0, 0, 0, 0.18)",
       "overlay": "rgba(0, 0, 0, 0.28)",
-      "cardNormal": "rgba(0, 0, 0, 0.06)",
-      "cardHover": "rgba(0, 0, 0, 0.12)"
+      "cardNormal": "rgba(0, 0, 0, 0.07)",
+      "cardHover": "rgba(0, 0, 0, 0.13)"
     },
     "overlays": {
-      "light": "rgba(0, 0, 0, 0.015)",
-      "medium": "rgba(0, 0, 0, 0.04)",
+      "light": "rgba(0, 0, 0, 0.018)",
+      "medium": "rgba(0, 0, 0, 0.045)",
       "dark": "rgba(0, 0, 0, 0.08)",
       "darker": "rgba(0, 0, 0, 0.14)"
     },
@@ -211,9 +211,9 @@
       "warning": "0xB87700",
       "error": "0xC93535",
       "background": {
-        "main": "0xF4F8FC",
-        "card": "0xFFFFFF",
-        "paper": "0xFFFFFF"
+        "main": "0xEDF3F8",
+        "card": "0xF6F9FC",
+        "paper": "0xF6F9FC"
       },
       "text": {
         "primary": "0x1C1C1E",
@@ -222,7 +222,7 @@
       "border": {
         "primary": "0x13B5D8",
         "secondary": "0x11A4D4",
-        "subtle": "0xCAD6E1"
+        "subtle": "0xC1CDD9"
       }
     },
     "materials": {
