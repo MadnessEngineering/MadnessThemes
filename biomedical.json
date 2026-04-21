@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT ALLOCATION",
     "upgrade": "ELEVATE",
     "finePrint": "Terminate anytime. No binding clinical trials. Your research remains yours regardless.",
+    "complimentary": "Research Grant",
+    "complimentaryBannerTitle": "Principal Investigator status authorized.",
+    "complimentaryBannerBody": "Your allocation includes full Laboratory access — research funding cycle complete.",
     "errors": {
       "loginRequired": "Authenticate to elevate your funding status",
       "checkoutFailed": "The elevation protocol encountered a critical error."

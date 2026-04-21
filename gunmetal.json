@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT LEVEL",
     "upgrade": "ELEVATE",
     "finePrint": "Terminate anytime. No long-term contracts. Your mission data remains secure.",
+    "complimentary": "Tactical Provision",
+    "complimentaryBannerTitle": "Commander clearance verified.",
+    "complimentaryBannerBody": "Full mission data deployment active — logistics handshake bypassed.",
     "errors": {
       "loginRequired": "Secure authentication required for clearance elevation",
       "checkoutFailed": "Logistics handshake failed. Retry."

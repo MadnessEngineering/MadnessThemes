@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT LEVEL",
     "upgrade": "ELEVATE",
     "finePrint": "Disconnect anytime. Data remains in your local buffer.",
+    "complimentary": "Access Bypass",
+    "complimentaryBannerTitle": "Elite Operator console active.",
+    "complimentaryBannerBody": "Matrix link established with full buffer access — identity verification bypassed.",
     "errors": {
       "loginRequired": "Identity verification required to elevate",
       "checkoutFailed": "Elevation sequence failed. Try again."

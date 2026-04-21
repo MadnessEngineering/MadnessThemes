@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT PLAN",
     "upgrade": "UPGRADE",
     "finePrint": "No long-term commitments. Cancel anytime.",
+    "complimentary": "Complimentary",
+    "complimentaryBannerTitle": "Complimentary Pro access active.",
+    "complimentaryBannerBody": "Your account includes full Pro access — no payment required.",
     "errors": {
       "loginRequired": "Please sign in to upgrade your plan",
       "checkoutFailed": "We couldn't complete the upgrade. Please try again."

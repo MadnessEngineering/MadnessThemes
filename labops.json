@@ -2167,6 +2167,9 @@
     "currentTier": "ACTIVE TIER",
     "upgrade": "EXPAND SCOPE",
     "finePrint": "Terminate at any time. No binding contracts. Research data remains proprietary.",
+    "complimentary": "Operational Scope",
+    "complimentaryBannerTitle": "Full Scope access initialized.",
+    "complimentaryBannerBody": "Facility provisioning complete for research data — proprietary cycle waived.",
     "errors": {
       "loginRequired": "Authentication required to expand provisioning scope",
       "checkoutFailed": "Provisioning handshake failed. Re-attempt."

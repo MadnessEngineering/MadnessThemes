@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT RIGHT",
     "upgrade": "ASCEND",
     "finePrint": "Leave anytime. No blood oaths. Your ore remains yours.",
+    "complimentary": "Mountain Boon",
+    "complimentaryBannerTitle": "Mountain King's seal granted.",
+    "complimentaryBannerBody": "Your ascend into the deeps is cleared — no ore required for this vault.",
     "errors": {
       "loginRequired": "Present your seal to ascend your rights",
       "checkoutFailed": "The tribute failed to reach the vault. Try again."

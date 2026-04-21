@@ -2167,6 +2167,9 @@
     "currentTier": "ACTIVE VOW",
     "upgrade": "ASCEND",
     "finePrint": "Renounce at any time. No binding chains. Your deeds remain yours.",
+    "complimentary": "Divine Grace",
+    "complimentaryBannerTitle": "Holy Knight's vow accepted.",
+    "complimentaryBannerBody": "Your deeds have earned the Sanctum's blessing — no ritual required for this lunar cycle.",
     "errors": {
       "loginRequired": "You must be consecrated to ascend your vow",
       "checkoutFailed": "The ritual of ascension faltered. Try again."

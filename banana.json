@@ -2167,6 +2167,9 @@
     "currentTier": "CURRENT BRANCH",
     "upgrade": "CLIMB",
     "finePrint": "Drop anytime. No sticky vines. Your bananas stay yours.",
+    "complimentary": "Banana Boon",
+    "complimentaryBannerTitle": "Silverback status gifted!",
+    "complimentaryBannerBody": "Your climb to the treetops is free — full fruit access granted for this banana moon.",
     "errors": {
       "loginRequired": "Show your badge to climb to Silverback",
       "checkoutFailed": "The fruit fell off the tree. Try again."
