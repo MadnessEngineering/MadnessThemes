@@ -330,7 +330,8 @@
     "lessons": "🎓 Jungle Notes",
     "settings": "⚙️ Tree Config",
     "insights": "📊 Insights",
-    "labMaintenance": "🧹 Jungle Cleanup"
+    "labMaintenance": "🧹 Jungle Cleanup",
+    "workshop": "🔧 Banana Workshop"
   },
   "labMaintenance": {
     "title": "Jungle Cleanup Crew",

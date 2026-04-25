@@ -330,7 +330,8 @@
     "lessons": "🎓 Lessons",
     "insights": "📊 Insights",
     "settings": "⚙️ Settings",
-    "labMaintenance": "🧹 Workspace Cleanup"
+    "labMaintenance": "🧹 Workspace Cleanup",
+    "workshop": "🔧 Workshop"
   },
   "labMaintenance": {
     "title": "Workspace Cleanup",

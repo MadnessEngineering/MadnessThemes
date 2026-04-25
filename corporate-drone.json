@@ -264,7 +264,8 @@
     "lessons": "🎓 SOPs",
     "insights": "📊 Business Intelligence",
     "settings": "⚙️ Policy Ops",
-    "labMaintenance": "🧹 Portfolio Cleanup"
+    "labMaintenance": "🧹 Portfolio Cleanup",
+    "workshop": "🔧 Optimization Lab"
   },
   "labMaintenance": {
     "title": "Portfolio Maintenance",

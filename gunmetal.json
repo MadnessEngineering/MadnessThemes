@@ -330,7 +330,8 @@
     "lessons": "🎓 Combat Data",
     "settings": "⚙️ Cockpit Config",
     "insights": "📊 Insights",
-    "labMaintenance": "🧹 Field Cleanup"
+    "labMaintenance": "🧹 Field Cleanup",
+    "workshop": "🔧 Maintenance Bay"
   },
   "labMaintenance": {
     "title": "Field Debrief & Cleanup",

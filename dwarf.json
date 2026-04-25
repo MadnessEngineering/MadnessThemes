@@ -330,7 +330,8 @@
     "lessons": "🎓 Stonecraft",
     "settings": "⚙️ Forge",
     "insights": "📊 Insights",
-    "labMaintenance": "🧹 Mine Cleanup"
+    "labMaintenance": "🧹 Mine Cleanup",
+    "workshop": "🔧 Great Smithy"
   },
   "labMaintenance": {
     "title": "Mine Shaft Maintenance",

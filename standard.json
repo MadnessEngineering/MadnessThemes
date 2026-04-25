@@ -330,7 +330,8 @@
     "lessons": "🎓 Lessons",
     "insights": "📊 Insights",
     "settings": "⚙️ Settings",
-    "labMaintenance": "🧹 Maintenance"
+    "labMaintenance": "🧹 Maintenance",
+    "workshop": "🔧 Workshop"
   },
   "labMaintenance": {
     "title": "Lab Maintenance",

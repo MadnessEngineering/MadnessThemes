@@ -1739,7 +1739,8 @@
     "lessons": "🔬 Research Log",
     "settings": "⚙️ Settings",
     "insights": "📊 Insights",
-    "labMaintenance": "🧹 Defrag Sector"
+    "labMaintenance": "🧹 Defrag Sector",
+    "workshop": "🔧 Synthesis Sector"
   },
   "labMaintenance": {
     "title": "System Defragmentation",

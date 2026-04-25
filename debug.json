@@ -330,7 +330,8 @@
     "lessons": "panels.lessons",
     "insights": "panels.insights",
     "settings": "panels.settings",
-    "labMaintenance": "panels.labMaintenance"
+    "labMaintenance": "panels.labMaintenance",
+    "workshop": "panels.workshop"
   },
   "labMaintenance": {
     "title": "labMaintenance.title",

@@ -330,7 +330,8 @@
     "lessons": "🎓 Lab Notes",
     "settings": "⚙️ Settings",
     "insights": "📊 Insights",
-    "labMaintenance": "🧹 Specimen Triage"
+    "labMaintenance": "🧹 Specimen Triage",
+    "workshop": "🔧 Bio-Engineering Lab"
   },
   "labMaintenance": {
     "title": "Specimen Triage Bay",

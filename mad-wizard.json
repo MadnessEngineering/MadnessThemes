@@ -330,7 +330,8 @@
     "lessons": "🎓 Research Notes",
     "insights": "📊 Laboratory Readings",
     "settings": "⚙️ Apparatus Config",
-    "labMaintenance": "🧹 Workshop Cleanup"
+    "labMaintenance": "🧹 Workshop Cleanup",
+    "workshop": "🔧 Arcane Workshop"
   },
   "labMaintenance": {
     "title": "Workshop Maintenance Bay",
