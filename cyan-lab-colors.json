@@ -1,54 +1,54 @@
 {
   "themeName": "cyan-lab",
   "displayName": "Cyan Laboratory",
-  "description": "A softer, more muted light theme with cyan accents, designed for comfortable extended use.",
+  "description": "Cyan Laboratory dark theme: deep teal-black surfaces, vivid cyan accents, orange highlights.",
   "icon": "🧪",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "colors": {
-    "primary": "#0097a7",
-    "primaryButton": "#00838f",
+    "primary": "#00BCD4",
+    "primaryButton": "#00ACC1",
     "secondary": "#f57c00",
-    "success": "#388e3c",
-    "warning": "#f57c00",
-    "error": "#d32f2f",
+    "success": "#43a047",
+    "warning": "#fbc02d",
+    "error": "#e53935",
     "background": {
-      "main": "linear-gradient(135deg, #e0e0e0 0%, #cfd8dc 100%)",
+      "main": "linear-gradient(135deg, #0D2B2E 0%, #071F22 100%)",
       "card": {
-        "normal": "rgba(245, 245, 245, 0.98)",
-        "selected": "rgba(179, 229, 252, 0.8)",
-        "hover": "rgba(179, 229, 252, 0.7)"
+        "normal": "rgba(13, 45, 50, 0.95)",
+        "selected": "rgba(8, 38, 43, 0.97)",
+        "hover": "rgba(11, 42, 47, 0.94)"
       },
-      "header": "linear-gradient(135deg, #b0bec5 0%, #90a4ae 100%)",
-      "paper": "rgba(245, 245, 245, 0.98)",
-      "topBar": "linear-gradient(90deg, #546e7a 0%, #607d8b 50%, #78909c 100%)",
-      "input": "rgba(245, 245, 245, 0.99)"
+      "header": "linear-gradient(135deg, #0A2428 0%, #061A1E 100%)",
+      "paper": "rgba(13, 45, 50, 0.95)",
+      "topBar": "linear-gradient(90deg, #00565A 0%, #00787F 100%)",
+      "input": "rgba(18, 55, 60, 0.99)"
     },
     "text": {
-      "primary": "rgba(38, 50, 56, 0.95)",
-      "secondary": "rgba(69, 90, 100, 0.9)",
-      "tertiary": "rgba(96, 125, 139, 0.85)",
-      "muted": "rgba(144, 164, 174, 0.75)",
-      "contrast": "#ffffff",
-      "disabled": "rgba(176, 190, 197, 0.65)",
-      "success": "#2e7d32",
-      "warning": "#e65100",
-      "error": "#c62828",
-      "info": "#0277bd",
-      "critical": "#b71c1c",
-      "high": "#d84315",
-      "medium": "#f57c00",
-      "low": "#546e7a"
+      "primary": "#E0F7FA",
+      "secondary": "#B2EBF2",
+      "tertiary": "#80DEEA",
+      "muted": "#4DD0E1",
+      "contrast": "#FFFFFF",
+      "disabled": "rgba(224, 247, 250, 0.38)",
+      "success": "#69F0AE",
+      "warning": "#FFB74D",
+      "error": "#FF5252",
+      "info": "#00BCD4",
+      "critical": "#FF5252",
+      "high": "#FFB74D",
+      "medium": "#00BCD4",
+      "low": "#4DD0E1"
     },
     "border": {
-      "primary": "#0097a7",
+      "primary": "#00BCD4",
       "secondary": "#f57c00",
-      "subtle": "rgba(0, 0, 0, 0.12)",
-      "disabled": "rgba(0, 0, 0, 0.08)"
+      "subtle": "rgba(0, 188, 212, 0.22)",
+      "disabled": "rgba(0, 188, 212, 0.08)"
     },
     "dashboard": {
       "stats": {
         "total": {
-          "background": "linear-gradient(135deg, #0288d1 0%, #0277bd 100%)",
+          "background": "linear-gradient(135deg, #00BCD4 0%, #00ACC1 100%)",
           "color": "#ffffff"
         },
         "active": {
@@ -56,37 +56,37 @@
           "color": "#ffffff"
         },
         "completed": {
-          "background": "linear-gradient(135deg, #546e7a 0%, #455a64 100%)",
+          "background": "linear-gradient(135deg, #00838F 0%, #006064 100%)",
           "color": "#ffffff"
         },
         "archived": {
-          "background": "linear-gradient(135deg, #90a4ae 0%, #78909c 100%)",
+          "background": "linear-gradient(135deg, #e53935 0%, #c62828 100%)",
           "color": "#ffffff"
         }
       },
       "activity": {
         "panel": {
-          "background": "rgba(224, 224, 224, 0.7)",
-          "border": "rgba(144, 164, 174, 0.4)"
+          "background": "rgba(0, 188, 212, 0.10)",
+          "border": "rgba(0, 188, 212, 0.25)"
         },
-        "create": "#0277bd",
-        "complete": "#388e3c",
-        "delete": "#d32f2f",
+        "create": "#00BCD4",
+        "complete": "#43a047",
+        "delete": "#e53935",
         "update": "#f57c00",
-        "review": "#0288d1"
+        "review": "#00ACC1"
       },
       "completed": {
         "panel": {
-          "background": "rgba(200, 230, 201, 0.4)",
-          "border": "rgba(67, 160, 71, 0.4)"
+          "background": "rgba(67, 160, 71, 0.12)",
+          "border": "rgba(67, 160, 71, 0.28)"
         },
         "highlight": {
-          "background": "rgba(200, 230, 201, 0.7)"
+          "background": "rgba(67, 160, 71, 0.15)"
         }
       },
       "button": {
-        "neutral": "#616161",
-        "neutralHover": "#424242",
+        "neutral": "rgba(13, 45, 50, 0.95)",
+        "neutralHover": "rgba(18, 55, 60, 0.95)",
         "danger": "#e53935",
         "dangerHover": "#c62828"
       }
@@ -94,146 +94,146 @@
     "accent": {
       "orange": "#f57c00",
       "deepOrange": "#e65100",
-      "green": "#388e3c",
-      "lightGreen": "#43a047",
+      "green": "#43a047",
+      "lightGreen": "#66bb6a",
       "amber": "#fbc02d",
-      "red": "#d32f2f",
+      "red": "#e53935",
       "deepRed": "#c62828",
-      "purple": "#7b1fa2",
-      "deepPurple": "#6a1b9a",
-      "cyan": "#0097a7",
+      "purple": "#9c27b0",
+      "deepPurple": "#7b1fa2",
+      "cyan": "#00BCD4",
       "blue": "#0288d1"
     },
     "state": {
       "editing": {
         "primary": "#f57c00",
-        "background": "rgba(245, 124, 0, 0.08)",
-        "backgroundMedium": "rgba(245, 124, 0, 0.15)",
-        "border": "rgba(245, 124, 0, 0.5)",
-        "shadow": "rgba(245, 124, 0, 0.1)"
+        "background": "rgba(245, 124, 0, 0.12)",
+        "backgroundMedium": "rgba(245, 124, 0, 0.20)",
+        "border": "rgba(245, 124, 0, 0.55)",
+        "shadow": "rgba(245, 124, 0, 0.18)"
       },
       "hover": {
-        "background": "rgba(0, 0, 0, 0.03)",
-        "overlay": "rgba(0, 0, 0, 0.02)"
+        "background": "rgba(0, 188, 212, 0.10)",
+        "overlay": "rgba(255, 255, 255, 0.06)"
       },
       "selected": {
-        "background": "rgba(0, 145, 167, 0.1)",
-        "border": "rgba(0, 145, 167, 0.6)"
+        "background": "rgba(0, 188, 212, 0.20)",
+        "border": "rgba(0, 188, 212, 0.65)"
       },
       "disabled": {
-        "background": "rgba(0, 0, 0, 0.05)",
-        "text": "rgba(144, 164, 174, 0.7)"
+        "background": "rgba(255, 255, 255, 0.04)",
+        "text": "rgba(224, 247, 250, 0.35)"
       }
     },
     "effects": {
       "magic": {
-        "primary": "#7b1fa2",
-        "glow": "rgba(123, 31, 162, 0.3)",
-        "background": "rgba(123, 31, 162, 0.1)",
-        "backgroundMedium": "rgba(123, 31, 162, 0.15)",
-        "trail": "rgba(123, 31, 162, 0.12)"
+        "primary": "#9c27b0",
+        "glow": "rgba(156, 39, 176, 0.40)",
+        "background": "rgba(156, 39, 176, 0.15)",
+        "backgroundMedium": "rgba(156, 39, 176, 0.25)",
+        "trail": "rgba(156, 39, 176, 0.20)"
       },
       "energy": {
-        "primary": "#0097a7",
-        "glow": "rgba(0, 151, 167, 0.2)",
-        "background": "rgba(0, 151, 167, 0.1)",
-        "pulse": "rgba(0, 151, 167, 0.3)"
+        "primary": "#00BCD4",
+        "glow": "rgba(0, 188, 212, 0.40)",
+        "background": "rgba(0, 188, 212, 0.15)",
+        "pulse": "rgba(0, 188, 212, 0.70)"
       },
       "debug": {
-        "mobile": "#388e3c",
+        "mobile": "#43a047",
         "desktop": "#f57c00",
-        "mobileBackground": "rgba(56, 142, 60, 0.12)",
-        "desktopBackground": "rgba(245, 124, 0, 0.12)"
+        "mobileBackground": "rgba(67, 160, 71, 0.18)",
+        "desktopBackground": "rgba(245, 124, 0, 0.18)"
       }
     },
     "tags": {
       "default": {
-        "background": "rgba(245, 124, 0, 0.12)",
-        "border": "rgba(245, 124, 0, 0.2)",
-        "hover": "rgba(245, 124, 0, 0.18)"
+        "background": "rgba(245, 124, 0, 0.18)",
+        "border": "rgba(245, 124, 0, 0.35)",
+        "hover": "rgba(245, 124, 0, 0.30)"
       },
       "cached": {
-        "background": "rgba(56, 142, 60, 0.12)",
-        "border": "rgba(56, 142, 60, 0.3)",
-        "text": "#388e3c"
+        "background": "rgba(67, 160, 71, 0.18)",
+        "border": "rgba(67, 160, 71, 0.50)",
+        "text": "#69F0AE"
       },
       "selected": {
-        "background": "rgba(245, 124, 0, 0.2)",
-        "border": "rgba(245, 124, 0, 0.6)"
+        "background": "rgba(245, 124, 0, 0.32)",
+        "border": "rgba(245, 124, 0, 0.78)"
       }
     },
     "shadows": {
-      "light": "rgba(0, 0, 0, 0.08)",
-      "medium": "rgba(0, 0, 0, 0.1)",
-      "heavy": "rgba(0, 0, 0, 0.15)",
-      "overlay": "rgba(0, 0, 0, 0.3)",
-      "cardNormal": "rgba(0, 0, 0, 0.06)",
-      "cardHover": "rgba(0, 0, 0, 0.1)"
+      "light": "rgba(0, 0, 0, 0.25)",
+      "medium": "rgba(0, 0, 0, 0.40)",
+      "heavy": "rgba(0, 0, 0, 0.55)",
+      "overlay": "rgba(0, 0, 0, 0.65)",
+      "cardNormal": "rgba(0, 0, 0, 0.32)",
+      "cardHover": "rgba(0, 0, 0, 0.50)"
     },
     "overlays": {
-      "light": "rgba(0, 0, 0, 0.02)",
-      "medium": "rgba(0, 0, 0, 0.06)",
-      "dark": "rgba(0, 0, 0, 0.1)",
-      "darker": "rgba(0, 0, 0, 0.2)"
+      "light": "rgba(255, 255, 255, 0.03)",
+      "medium": "rgba(255, 255, 255, 0.06)",
+      "dark": "rgba(0, 0, 0, 0.18)",
+      "darker": "rgba(0, 0, 0, 0.30)"
     },
     "status": {
       "completed": {
-        "background": "rgba(56, 142, 60, 0.12)",
-        "border": "rgba(56, 142, 60, 0.3)",
-        "text": "#388e3c"
+        "background": "rgba(67, 160, 71, 0.18)",
+        "border": "rgba(67, 160, 71, 0.50)",
+        "text": "#69F0AE"
       },
       "pending": {
-        "background": "rgba(251, 192, 45, 0.12)",
-        "border": "rgba(251, 192, 45, 0.3)",
-        "text": "#f57f17"
+        "background": "rgba(251, 192, 45, 0.15)",
+        "border": "rgba(251, 192, 45, 0.45)",
+        "text": "#FFB74D"
       },
       "inProgress": {
-        "background": "rgba(2, 136, 209, 0.12)",
-        "border": "rgba(2, 136, 209, 0.3)",
-        "text": "#0288d1"
+        "background": "rgba(0, 188, 212, 0.15)",
+        "border": "rgba(0, 188, 212, 0.45)",
+        "text": "#00BCD4"
       },
       "blocked": {
-        "background": "rgba(211, 47, 47, 0.12)",
-        "border": "rgba(211, 47, 47, 0.3)",
-        "text": "#d32f2f"
+        "background": "rgba(229, 57, 53, 0.15)",
+        "border": "rgba(229, 57, 53, 0.45)",
+        "text": "#FF5252"
       }
     },
     "chat": {
-      "userBubble": "#e65100",
+      "userBubble": "#00565A",
       "userBubbleText": "#ffffff"
     }
   },
   "threeJS": {
     "colors": {
-      "primary": "0x0097a7",
+      "primary": "0x00BCD4",
       "secondary": "0xf57c00",
-      "success": "0x388e3c",
-      "warning": "0xf57c00",
-      "error": "0xd32f2f",
+      "success": "0x43a047",
+      "warning": "0xfbc02d",
+      "error": "0xe53935",
       "background": {
-        "main": "0xeceff1",
-        "card": "0xf5f5f5",
-        "paper": "0xf5f5f5"
+        "main": "0x0D2B2E",
+        "card": "0x0D2D32",
+        "paper": "0x0D2D32"
       },
       "text": {
-        "primary": "0x263238",
-        "secondary": "0x455a64"
+        "primary": "0xE0F7FA",
+        "secondary": "0xB2EBF2"
       },
       "border": {
-        "primary": "0x0097a7",
+        "primary": "0x00BCD4",
         "secondary": "0xf57c00",
-        "subtle": "0xb0bec5"
+        "subtle": "0x1A4A50"
       }
     },
     "materials": {
-      "metalness": 0.1,
-      "roughness": 0.7,
-      "emissiveIntensity": 0
+      "metalness": 0.25,
+      "roughness": 0.60,
+      "emissiveIntensity": 0.08
     },
     "lighting": {
-      "ambientIntensity": 0.9,
-      "directionalIntensity": 0.5,
-      "pointIntensity": 0.3
+      "ambientIntensity": 0.70,
+      "directionalIntensity": 0.80,
+      "pointIntensity": 0.70
     }
   }
 }
