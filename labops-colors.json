@@ -3,7 +3,7 @@
   "displayName": "LabOps",
   "description": "LabOps light theme: softer teal-blue primary, muted surfaces, scientific precision.",
   "icon": "🔬",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "colors": {
     "primary": "#13B5D8",
     "primaryButton": "#13B5D8",
@@ -12,16 +12,16 @@
     "warning": "#F5C127",
     "error": "#EB4C4C",
     "background": {
-      "main": "linear-gradient(135deg, #EDF3F8 0%, #DEE6EF 100%)",
+      "main": "linear-gradient(135deg, #B8CCDC 0%, #A2BDCE 100%)",
       "card": {
-        "normal": "rgba(246, 249, 252, 0.98)",
-        "selected": "rgba(238, 244, 249, 0.97)",
-        "hover": "rgba(242, 247, 251, 0.94)"
+        "normal": "rgba(175, 200, 222, 0.95)",
+        "selected": "rgba(158, 188, 213, 0.97)",
+        "hover": "rgba(166, 194, 218, 0.94)"
       },
-      "header": "linear-gradient(135deg, #E6EEF5 0%, #D6E0EA 100%)",
-      "paper": "rgba(246, 249, 252, 0.98)",
+      "header": "linear-gradient(135deg, #A8BDD0 0%, #90ABBE 100%)",
+      "paper": "rgba(175, 200, 222, 0.95)",
       "topBar": "linear-gradient(90deg, #1188A6 0%, #0D7B96 100%)",
-      "input": "rgba(250, 252, 254, 0.99)"
+      "input": "rgba(195, 215, 232, 0.99)"
     },
     "text": {
       "primary": "#1C1C1E",
@@ -42,8 +42,8 @@
     "border": {
       "primary": "#13B5D8",
       "secondary": "#11A4D4",
-      "subtle": "rgba(17, 35, 52, 0.14)",
-      "disabled": "rgba(17, 35, 52, 0.09)"
+      "subtle": "rgba(17, 35, 52, 0.28)",
+      "disabled": "rgba(17, 35, 52, 0.14)"
     },
     "dashboard": {
       "stats": {
@@ -163,12 +163,12 @@
       }
     },
     "shadows": {
-      "light": "rgba(0, 0, 0, 0.07)",
-      "medium": "rgba(0, 0, 0, 0.13)",
-      "heavy": "rgba(0, 0, 0, 0.18)",
-      "overlay": "rgba(0, 0, 0, 0.28)",
-      "cardNormal": "rgba(0, 0, 0, 0.07)",
-      "cardHover": "rgba(0, 0, 0, 0.13)"
+      "light": "rgba(0, 0, 0, 0.12)",
+      "medium": "rgba(0, 0, 0, 0.20)",
+      "heavy": "rgba(0, 0, 0, 0.28)",
+      "overlay": "rgba(0, 0, 0, 0.38)",
+      "cardNormal": "rgba(0, 0, 0, 0.14)",
+      "cardHover": "rgba(0, 0, 0, 0.24)"
     },
     "overlays": {
       "light": "rgba(0, 0, 0, 0.018)",
@@ -211,9 +211,9 @@
       "warning": "0xB87700",
       "error": "0xC93535",
       "background": {
-        "main": "0xEDF3F8",
-        "card": "0xF6F9FC",
-        "paper": "0xF6F9FC"
+        "main": "0xB8CCDC",
+        "card": "0xAFC8DE",
+        "paper": "0xAFC8DE"
       },
       "text": {
         "primary": "0x1C1C1E",
