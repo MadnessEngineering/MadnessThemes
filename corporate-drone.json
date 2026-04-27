@@ -373,7 +373,7 @@
     },
     "stats": {
       "pending": "pending",
-      "completed": "delivered"
+      "review": "in review"
     },
     "activity": {
       "title": "Recent Activity",

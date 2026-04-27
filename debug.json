@@ -439,7 +439,7 @@
     },
     "stats": {
       "pending": "projectNavigator.stats.pending",
-      "completed": "projectNavigator.stats.completed"
+      "review": "projectNavigator.stats.review"
     },
     "activity": {
       "title": "projectNavigator.activity.title",

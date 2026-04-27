@@ -439,7 +439,7 @@
     },
     "stats": {
       "pending": "active",
-      "completed": "archived"
+      "review": "pending review"
     },
     "activity": {
       "title": "Recent Discoveries",

@@ -1825,7 +1825,7 @@
     },
     "stats": {
       "pending": "pending",
-      "completed": "done"
+      "review": "review"
     },
     "activity": {
       "title": "Recent Activity",

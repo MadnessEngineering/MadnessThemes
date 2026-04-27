@@ -439,7 +439,7 @@
     },
     "stats": {
       "pending": "on standby",
-      "completed": "RTB"
+      "review": "debrief"
     },
     "activity": {
       "title": "Recent Sorties",
