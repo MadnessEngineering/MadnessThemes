@@ -1463,6 +1463,9 @@
     },
     "input": {
       "placeholder": "Carve yer ore query..."
+    },
+    "menu": {
+      "clearChat": "Clear Mine Logs"
     }
   },
   "spells": {

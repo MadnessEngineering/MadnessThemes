@@ -1494,6 +1494,9 @@
     },
     "input": {
       "placeholder": "mobileChatInterface.input.placeholder"
+    },
+    "menu": {
+      "clearChat": "mobileChatInterface.menu.clearChat"
     }
   },
   "spells": {

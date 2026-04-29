@@ -1714,6 +1714,9 @@
     },
     "input": {
       "placeholder": "Enter command..."
+    },
+    "menu": {
+      "clearChat": "Flush Chat Buffer"
     }
   },
   "notifications": {

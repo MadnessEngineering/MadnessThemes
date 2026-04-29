@@ -1498,6 +1498,9 @@
     },
     "input": {
       "placeholder": "Enter productivity optimization query..."
+    },
+    "menu": {
+      "clearChat": "Reset Chat Session"
     }
   },
   "spells": {

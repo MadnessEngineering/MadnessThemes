@@ -1463,6 +1463,9 @@
     },
     "input": {
       "placeholder": "Scratch your banana query..."
+    },
+    "menu": {
+      "clearChat": "Peel Away Chat"
     }
   },
   "spells": {

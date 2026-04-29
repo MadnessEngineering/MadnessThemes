@@ -1564,6 +1564,9 @@
     },
     "input": {
       "placeholder": "Inscribe your mystical query..."
+    },
+    "menu": {
+      "clearChat": "Purge Mystical Memory"
     }
   },
   "spells": {
