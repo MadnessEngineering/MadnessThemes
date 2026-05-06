@@ -331,7 +331,8 @@
     "insights": "📊 Insights",
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Workspace Cleanup",
-    "workshop": "🔧 Workshop"
+    "workshop": "🔧 Workshop",
+    "chatAudit": "📊 Audit"
   },
   "labMaintenance": {
     "title": "Workspace Cleanup",
@@ -2254,5 +2255,25 @@
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
     }
+  },
+  "chatAudit": {
+    "title": "Chat Flow Audit",
+    "subtitle": "Review interaction metrics and tool execution details",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

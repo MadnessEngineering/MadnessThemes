@@ -331,7 +331,8 @@
     "insights": "📊 Insights",
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Facility Audit",
-    "workshop": "🔧 Operations Workshop"
+    "workshop": "🔧 Operations Workshop",
+    "chatAudit": "📊 Audit"
   },
   "labMaintenance": {
     "title": "Facility Maintenance Audit",
@@ -2254,5 +2255,25 @@
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
     }
+  },
+  "chatAudit": {
+    "title": "Operations Signal Audit",
+    "subtitle": "Monitor pipeline stages and tool execution metrics",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

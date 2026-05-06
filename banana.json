@@ -331,7 +331,8 @@
     "settings": "⚙️ Tree Config",
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Jungle Cleanup",
-    "workshop": "🔧 Banana Workshop"
+    "workshop": "🔧 Banana Workshop",
+    "chatAudit": "🍌 Audit"
   },
   "labMaintenance": {
     "title": "Jungle Cleanup Crew",
@@ -2254,5 +2255,25 @@
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
     }
+  },
+  "chatAudit": {
+    "title": "Banana Signal Audit",
+    "subtitle": "Peel back the layers of each chat interaction",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

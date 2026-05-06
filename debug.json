@@ -331,7 +331,8 @@
     "insights": "panels.insights",
     "settings": "panels.settings",
     "labMaintenance": "panels.labMaintenance",
-    "workshop": "panels.workshop"
+    "workshop": "panels.workshop",
+    "chatAudit": "panels.chatAudit"
   },
   "labMaintenance": {
     "title": "labMaintenance.title",
@@ -2234,5 +2235,25 @@
       "depsRemoved": "chronomancy.diff.depsRemoved",
       "close": "chronomancy.diff.close"
     }
+  },
+  "chatAudit": {
+    "title": "chatAudit.title",
+    "subtitle": "chatAudit.subtitle",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

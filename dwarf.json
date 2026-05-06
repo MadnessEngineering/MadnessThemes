@@ -331,7 +331,8 @@
     "settings": "⚙️ Forge",
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Mine Cleanup",
-    "workshop": "🔧 Great Smithy"
+    "workshop": "🔧 Great Smithy",
+    "chatAudit": "⛏️ Audit"
   },
   "labMaintenance": {
     "title": "Mine Shaft Maintenance",
@@ -2254,5 +2255,25 @@
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
     }
+  },
+  "chatAudit": {
+    "title": "Mine Shaft Signal Audit",
+    "subtitle": "Inspect ore processing pipelines and tool forge traces",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

@@ -332,7 +332,8 @@
     "inventory": "🗄️ Arcane Inventory",
     "settings": "⚙️ Apparatus Config",
     "labMaintenance": "🧹 Workshop Cleanup",
-    "workshop": "🔧 Arcane Workshop"
+    "workshop": "🔧 Arcane Workshop",
+    "chatAudit": "🔮 Arcane Audit"
   },
   "labMaintenance": {
     "title": "Workshop Maintenance Bay",
@@ -795,6 +796,7 @@
       "appearance": "Visual Apparatus",
       "mindMap": "Knowledge Visualization",
       "umlData": "Arcane Code Blueprints",
+      "hooks": "Automation Runes",
       "privacy": "Research Privacy",
       "advanced": "Advanced Mystical Controls",
       "npcAgents": "Ethereal Familiars",
@@ -2255,5 +2257,25 @@
       "depsRemoved": "Bindings severed:",
       "close": "Seal the Rift"
     }
+  },
+  "chatAudit": {
+    "title": "Arcane Signal Audit",
+    "subtitle": "Examine incantation pipelines and conjuration traces for each mystical exchange",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }

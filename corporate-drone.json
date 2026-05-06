@@ -265,7 +265,8 @@
     "insights": "📊 Business Intelligence",
     "settings": "⚙️ Policy Ops",
     "labMaintenance": "🧹 Portfolio Cleanup",
-    "workshop": "🔧 Optimization Lab"
+    "workshop": "🔧 Optimization Lab",
+    "chatAudit": "📊 Audit"
   },
   "labMaintenance": {
     "title": "Portfolio Maintenance",
@@ -2254,5 +2255,25 @@
       "depsRemoved": "Dependencies removed:",
       "close": "Close Report"
     }
+  },
+  "chatAudit": {
+    "title": "Communication Efficiency Audit",
+    "subtitle": "Review throughput metrics and process execution for each AI interaction",
+    "tabs": {
+      "summary": "Summary",
+      "toolCalls": "Tool Calls",
+      "pipeline": "Pipeline"
+    },
+    "filters": {
+      "allProviders": "All Providers",
+      "allStatus": "All Status"
+    },
+    "stats": {
+      "requests": "requests",
+      "success": "success",
+      "avgLatency": "avg latency"
+    },
+    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "total": "total"
   }
 }
