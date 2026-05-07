@@ -2325,6 +2325,9 @@
     "notificationTitle": "Notification Title",
     "notificationBody": "Notification Body",
     "agentType": "Agent Type",
-    "agentWarning": "This action will invoke an autonomous AI agent."
+    "agentWarning": "This action will invoke an autonomous AI agent.",
+    "eventFeedTitle": "Event Activity",
+    "eventFeedLoading": "Loading events...",
+    "eventFeedEmpty": "No events yet. Events appear here when triggers fire."
   }
 }

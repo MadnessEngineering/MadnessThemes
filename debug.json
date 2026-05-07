@@ -2303,6 +2303,9 @@
     "notificationTitle": "automationRecipes.notificationTitle",
     "notificationBody": "automationRecipes.notificationBody",
     "agentType": "automationRecipes.agentType",
-    "agentWarning": "automationRecipes.agentWarning"
+    "agentWarning": "automationRecipes.agentWarning",
+    "eventFeedTitle": "automationRecipes.eventFeedTitle",
+    "eventFeedLoading": "automationRecipes.eventFeedLoading",
+    "eventFeedEmpty": "automationRecipes.eventFeedEmpty"
   }
 }

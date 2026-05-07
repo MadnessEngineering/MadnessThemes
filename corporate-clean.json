@@ -2323,6 +2323,9 @@
     "notificationTitle": "Notification Title",
     "notificationBody": "Notification Message",
     "agentType": "Agent Type",
-    "agentWarning": "This action involves an autonomous AI agent."
+    "agentWarning": "This action involves an autonomous AI agent.",
+    "eventFeedTitle": "Event Log",
+    "eventFeedLoading": "Loading activity...",
+    "eventFeedEmpty": "No recent events. Triggers have not fired yet."
   }
 }

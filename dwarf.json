@@ -2322,7 +2322,10 @@
     "customHeaders": "Vault Seals",
     "notificationTitle": "Bellows Shout",
     "notificationBody": "Forge Message",
-    "agentType": "Forge Golem",
-    "agentWarning": "Warning: This action awakens a tireless forge golem."
+    "agentType": "Golem Class",
+    "agentWarning": "Warning: This action awakens a tireless forge golem.",
+    "eventFeedTitle": "Forge Ledger",
+    "eventFeedLoading": "Consulting the stone tablets...",
+    "eventFeedEmpty": "The forge is silent. No events have been hammered out."
   }
 }

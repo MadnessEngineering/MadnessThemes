@@ -2324,7 +2324,10 @@
     "customHeaders": "Ancient Seals",
     "notificationTitle": "Whisper Title",
     "notificationBody": "Whisper Message",
-    "agentType": "Spirit Type",
-    "agentWarning": "This ritual summons an autonomous spirit to act on your behalf."
+    "agentType": "Agent Type",
+    "agentWarning": "This ritual summons an autonomous spirit to act on your behalf.",
+    "eventFeedTitle": "Arcane Flux Monitor",
+    "eventFeedLoading": "Consulting the ether...",
+    "eventFeedEmpty": "The ether is calm. No events have manifested."
   }
 }

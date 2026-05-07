@@ -2323,6 +2323,9 @@
     "notificationTitle": "Alert Subject Line",
     "notificationBody": "Actionable Insight Content",
     "agentType": "Autonomous Workforce Unit",
-    "agentWarning": "Warning: This action delegates authority to an uncompensated AI entity."
+    "agentWarning": "Warning: This action delegates authority to an uncompensated AI entity.",
+    "eventFeedTitle": "Activity Feed",
+    "eventFeedLoading": "Retrieving activity metrics...",
+    "eventFeedEmpty": "No activity logged. Triggers have not been activated."
   }
 }

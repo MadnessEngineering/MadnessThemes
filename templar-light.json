@@ -2323,6 +2323,9 @@
     "notificationTitle": "Divine Herald Subject",
     "notificationBody": "Sacred Proclamation",
     "agentType": "Celestial Servant",
-    "agentWarning": "Warning: This action summons an autonomous celestial servant."
+    "agentWarning": "Warning: This action summons an autonomous celestial servant.",
+    "eventFeedTitle": "Chronicle of Events",
+    "eventFeedLoading": "Consulting the chronicle...",
+    "eventFeedEmpty": "The chronicle is bare. No events have been recorded."
   }
 }

@@ -2323,6 +2323,9 @@
     "notificationTitle": "Terminal Notification",
     "notificationBody": "System Message",
     "agentType": "Autonomous Unit",
-    "agentWarning": "Warning: Invoking autonomous neural agent."
+    "agentWarning": "Warning: Invoking autonomous neural agent.",
+    "eventFeedTitle": "Signal Feed",
+    "eventFeedLoading": "Scanning for signals...",
+    "eventFeedEmpty": "No signals detected. Triggers awaiting activation."
   }
 }

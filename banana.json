@@ -2322,7 +2322,10 @@
     "customHeaders": "Monkey Seals",
     "notificationTitle": "Ooh Ooh Title",
     "notificationBody": "Ahh Ahh Message",
-    "agentType": "Monkey Type",
-    "agentWarning": "Warning: This action summons an autonomous primate."
+    "agentType": "Agent Type",
+    "agentWarning": "Warning: This action summons an autonomous primate.",
+    "eventFeedTitle": "Bunch Activity",
+    "eventFeedLoading": "Peeling back the data...",
+    "eventFeedEmpty": "No peels dropped yet. Await the fruit of your triggers."
   }
 }
