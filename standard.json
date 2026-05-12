@@ -2263,12 +2263,17 @@
     "subtitle": "Inspect pipeline stages, tool calls, and context for each chat request",
     "tabs": {
       "summary": "Summary",
+      "messages": "Messages",
       "toolCalls": "Tool Calls",
       "pipeline": "Pipeline"
     },
     "filters": {
+      "provider": "Provider",
+      "status": "Status",
       "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "allStatus": "All Status",
+      "success": "Success",
+      "error": "Error"
     },
     "stats": {
       "requests": "requests",

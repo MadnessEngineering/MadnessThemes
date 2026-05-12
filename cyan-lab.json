@@ -2260,21 +2260,26 @@
     "title": "Neural Signal Audit",
     "subtitle": "Trace neural pipeline stages and synthetic tool invocations",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Matrix",
+      "messages": "Neural Streams",
+      "toolCalls": "Interface Hooks",
+      "pipeline": "Signal Loop"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Node",
+      "status": "Sync State",
+      "allProviders": "All Grids",
+      "allStatus": "All Layers",
+      "success": "Uplinked",
+      "error": "Glitch"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "pings",
+      "success": "decodes",
+      "avgLatency": "latency"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "Static on the line. Transmit data to begin stream audit.",
+    "total": "buffer"
   },
   "automationRecipes": {
     "title": "Automation Sequences",

@@ -2260,21 +2260,26 @@
     "title": "Operations Signal Audit",
     "subtitle": "Monitor pipeline stages and tool execution metrics",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Telemetry",
+      "messages": "Event Logs",
+      "toolCalls": "Runtime Triggers",
+      "pipeline": "Execution Stack"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Endpoint",
+      "status": "Health Check",
+      "allProviders": "All Instances",
+      "allStatus": "All Clusters",
+      "success": "Healthy",
+      "error": "Degraded"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "invocations",
+      "success": "resolved",
+      "avgLatency": "response time"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "Pipeline idle. Trigger a request to populate metrics.",
+    "total": "aggregate"
   },
   "automationRecipes": {
     "title": "Automated Workflows",

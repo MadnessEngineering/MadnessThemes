@@ -2260,21 +2260,26 @@
     "title": "Banana Signal Audit",
     "subtitle": "Peel back the layers of each chat interaction",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Bunch View",
+      "messages": "Monkey Chatter",
+      "toolCalls": "Peel Actions",
+      "pipeline": "Vine Path"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Tree Source",
+      "status": "Ripeness",
+      "allProviders": "All Jungles",
+      "allStatus": "All Bananas",
+      "success": "RIPE",
+      "error": "ROTTEN"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "swings",
+      "success": "peels",
+      "avgLatency": "swing speed"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "No bananas here. Toss a message to start the feast.",
+    "total": "pile"
   },
   "automationRecipes": {
     "title": "Peeling Automation",

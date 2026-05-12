@@ -2260,21 +2260,26 @@
     "title": "Tactical Comms Audit",
     "subtitle": "Review signal pipelines and operational tool deployment",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Briefing",
+      "messages": "Radio Traffic",
+      "toolCalls": "Ordnance Deployment",
+      "pipeline": "Kill Chain"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Operator",
+      "status": "Mission Status",
+      "allProviders": "All Units",
+      "allStatus": "All Sectors",
+      "success": "Confirmed",
+      "error": "Misfire"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "rounds",
+      "success": "hits",
+      "avgLatency": "reacquisition"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "Zero contact. Engage target to log tactical data.",
+    "total": "inventory"
   },
   "automationRecipes": {
     "title": "Automated Sorties",

@@ -2260,20 +2260,25 @@
     "title": "Chat Flow Audit",
     "subtitle": "Review interaction metrics and tool execution details",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Dashboard",
+      "messages": "Communications",
+      "toolCalls": "Operations",
+      "pipeline": "Process Flow"
     },
     "filters": {
+      "provider": "Service Provider",
+      "status": "Operational Status",
       "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "allStatus": "All Statuses",
+      "success": "Resolved",
+      "error": "Exception"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "transactions",
+      "success": "completed",
+      "avgLatency": "processing time"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
+    "noData": "No activity records found. Initiate a request to generate audit logs.",
     "total": "total"
   },
   "automationRecipes": {

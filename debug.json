@@ -2240,21 +2240,26 @@
     "title": "chatAudit.title",
     "subtitle": "chatAudit.subtitle",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "chatAudit.tabs.summary",
+      "messages": "chatAudit.tabs.messages",
+      "toolCalls": "chatAudit.tabs.toolCalls",
+      "pipeline": "chatAudit.tabs.pipeline"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "chatAudit.filters.provider",
+      "status": "chatAudit.filters.status",
+      "allProviders": "chatAudit.filters.allProviders",
+      "allStatus": "chatAudit.filters.allStatus",
+      "success": "chatAudit.filters.success",
+      "error": "chatAudit.filters.error"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "chatAudit.stats.requests",
+      "success": "chatAudit.stats.success",
+      "avgLatency": "chatAudit.stats.avgLatency"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "chatAudit.noData",
+    "total": "chatAudit.total"
   },
   "automationRecipes": {
     "title": "automationRecipes.title",

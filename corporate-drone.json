@@ -2260,21 +2260,26 @@
     "title": "Communication Efficiency Audit",
     "subtitle": "Review throughput metrics and process execution for each AI interaction",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Executive Summary",
+      "messages": "Stakeholder Comms",
+      "toolCalls": "Action Items",
+      "pipeline": "Workflow Funnel"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Vendor",
+      "status": "KPI Status",
+      "allProviders": "All Vendors",
+      "allStatus": "All Deliverables",
+      "success": "On Track",
+      "error": "Bottleneck"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "touchpoints",
+      "success": "conversions",
+      "avgLatency": "cycle time"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "No metrics reported. Initiate a touchpoint to populate the dashboard.",
+    "total": "aggregate"
   },
   "automationRecipes": {
     "title": "Process Optimization Protocols",

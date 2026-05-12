@@ -2260,21 +2260,26 @@
     "title": "Mine Shaft Signal Audit",
     "subtitle": "Inspect ore processing pipelines and tool forge traces",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Ore Scan",
+      "messages": "Mine Echoes",
+      "toolCalls": "Hammer Strikes",
+      "pipeline": "Lava Flow"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Vein Type",
+      "status": "Rock Stability",
+      "allProviders": "All Mines",
+      "allStatus": "Every Depth",
+      "success": "Struck Gold",
+      "error": "Cave-in"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "digs",
+      "success": "yield",
+      "avgLatency": "swing rate"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "The mine is silent. Start digging to find the ore.",
+    "total": "haul"
   },
   "automationRecipes": {
     "title": "Forge Mechanisms",

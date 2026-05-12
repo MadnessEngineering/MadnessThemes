@@ -2260,21 +2260,26 @@
     "title": "Sacred Scroll Audit",
     "subtitle": "Review consecrated pipelines and divine tool invocations",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Testament",
+      "messages": "Prayers & Hymns",
+      "toolCalls": "Divine Interventions",
+      "pipeline": "Sacred Path"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Apostle",
+      "status": "Spiritual State",
+      "allProviders": "All Cathedrals",
+      "allStatus": "All Blessings",
+      "success": "Blessed",
+      "error": "Sacrilege"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "devotions",
+      "success": "miracles",
+      "avgLatency": "grace period"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "The temple is empty. Whisper a prayer to reveal the light.",
+    "total": "congregation"
   },
   "automationRecipes": {
     "title": "Sacred Automations",

@@ -2262,21 +2262,26 @@
     "title": "Arcane Signal Audit",
     "subtitle": "Examine incantation pipelines and conjuration traces for each mystical exchange",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Scroll of Overview",
+      "messages": "Echoes of Spirits",
+      "toolCalls": "Ritual Components",
+      "pipeline": "Leyline Path"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Source of Power",
+      "status": "Sign of Fate",
+      "allProviders": "All Sources",
+      "allStatus": "Any Omen",
+      "success": "Manifested",
+      "error": "Backfire"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "incantations",
+      "success": "mastered",
+      "avgLatency": "casting speed"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "The scrolls are blank. Utter a command to scribe the flow.",
+    "total": "summation"
   },
   "automationRecipes": {
     "title": "Automation Rituals",

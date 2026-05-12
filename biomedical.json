@@ -2260,21 +2260,26 @@
     "title": "Diagnostic Signal Audit",
     "subtitle": "Analyze clinical pipeline stages and procedure traces",
     "tabs": {
-      "summary": "Summary",
-      "toolCalls": "Tool Calls",
-      "pipeline": "Pipeline"
+      "summary": "Vitals",
+      "messages": "Subject History",
+      "toolCalls": "Assay Procedures",
+      "pipeline": "Metabolic Pathway"
     },
     "filters": {
-      "allProviders": "All Providers",
-      "allStatus": "All Status"
+      "provider": "Lab Unit",
+      "status": "Clinical Sign",
+      "allProviders": "All Clinics",
+      "allStatus": "All Panels",
+      "success": "Negative/Stable",
+      "error": "Anomalous"
     },
     "stats": {
-      "requests": "requests",
-      "success": "success",
-      "avgLatency": "avg latency"
+      "requests": "samples",
+      "success": "reactive",
+      "avgLatency": "incubation"
     },
-    "noData": "No audit logs yet. Send a chat message to generate data.",
-    "total": "total"
+    "noData": "No diagnostic data. Process a sample to begin analysis.",
+    "total": "assay count"
   },
   "automationRecipes": {
     "title": "Automated Protocols",
