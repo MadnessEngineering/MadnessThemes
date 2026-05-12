@@ -2484,12 +2484,10 @@
     "eventFeedEmpty": "No recent events. Triggers have not fired yet.",
     "tagNormalization": {
       "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "description": "Execute post-hoc normalization across all initiative tags — standardizes formatting, reconciles retired aliases with canonical labels, and eliminates redundancies.",
+      "runNow": "Execute Now",
+      "running": "Normalizing Tags...",
+      "lastRun": "Last audit"
     }
   },
   "constellation": {

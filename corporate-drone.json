@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Retrieving activity metrics...",
     "eventFeedEmpty": "No activity logged. Triggers have not been activated.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Standardize deprecated tags to canonical forms across all items for data consistency.",
-      "runNow": "Execute",
-      "running": "Processing...",
-      "lastRun": "Last Execution",
-      "scanned": "Items Scanned",
-      "modified": "Items Updated"
+      "title": "Tag Compliance Audit",
+      "description": "Execute tag normalization across all task records — enforces naming conventions, resolves deprecated labels, removes redundancies.",
+      "runNow": "Execute Audit",
+      "running": "Processing compliance...",
+      "lastRun": "Last audit"
     }
   },
   "constellation": {

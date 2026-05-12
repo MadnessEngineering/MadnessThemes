@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Consulting the stone tablets...",
     "eventFeedEmpty": "The forge is silent. No events have been hammered out.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "title": "Rune Refinement",
+      "description": "Scrub the soot off yer carved runes — fixes the chisel marks, maps old ore names to the proper veins, and clears out the rubble.",
+      "runNow": "Refine Runes",
+      "running": "Polishing the gems...",
+      "lastRun": "Last shift's refinement"
     }
   },
   "constellation": {

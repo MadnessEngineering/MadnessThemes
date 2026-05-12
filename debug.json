@@ -2463,13 +2463,11 @@
     "eventFeedLoading": "automationRecipes.eventFeedLoading",
     "eventFeedEmpty": "automationRecipes.eventFeedEmpty",
     "tagNormalization": {
-      "title": "[tagNormalization.title]",
-      "description": "[tagNormalization.description]",
-      "runNow": "[tagNormalization.runNow]",
-      "running": "[tagNormalization.running]",
-      "lastRun": "[tagNormalization.lastRun]",
-      "scanned": "[tagNormalization.scanned]",
-      "modified": "[tagNormalization.modified]"
+      "title": "automationRecipes.tagNormalization.title",
+      "description": "automationRecipes.tagNormalization.description",
+      "runNow": "automationRecipes.tagNormalization.runNow",
+      "running": "automationRecipes.tagNormalization.running",
+      "lastRun": "automationRecipes.tagNormalization.lastRun"
     }
   },
   "constellation": {

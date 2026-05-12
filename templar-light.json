@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Consulting the chronicle...",
     "eventFeedEmpty": "The chronicle is bare. No events have been recorded.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "title": "Sacred Sigil Alignment",
+      "description": "Perform a rite of alignment upon all sacred sigils — standardizes the script, maps forgotten titles to canonical virtues, and purges the redundant.",
+      "runNow": "Align Sigils",
+      "running": "Communing with the Oracle...",
+      "lastRun": "Last holy alignment"
     }
   },
   "constellation": {

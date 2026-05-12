@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Peeling back the data...",
     "eventFeedEmpty": "No peels dropped yet. Await the fruit of your triggers.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "title": "Peel Straightening",
+      "description": "Clean up all those messy vine tags — fixes monkey typos, points old fruit to the fresh bunch, and tosses the double bananas.",
+      "runNow": "Straighten Now!",
+      "running": "Squashing the mushy ones...",
+      "lastRun": "Last harvest cleanup"
     }
   },
   "constellation": {

@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Consulting the ether...",
     "eventFeedEmpty": "The ether is calm. No events have manifested.",
     "tagNormalization": {
-      "title": "Tag Transmutation",
-      "description": "Transmute retired tags into canonical forms across all specimens. Executes the arcane retired-to-canonical mapping ritual.",
-      "runNow": "Transmute Now",
-      "running": "Transmuting...",
-      "lastRun": "Last Transmutation",
-      "scanned": "Specimens Scanned",
-      "modified": "Specimens Altered"
+      "title": "Rune Purification Ritual",
+      "description": "Purify all arcane rune-tags — transmutes retired sigils to canonical glyphs, enforces lowercase incantation, and banishes duplicates.",
+      "runNow": "Invoke Ritual",
+      "running": "Purifying runes...",
+      "lastRun": "Last invocation"
     }
   },
   "constellation": {

@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Pulling event data...",
     "eventFeedEmpty": "No events yet. Stand by for trigger activations.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "title": "Arsenal Indexing",
+      "description": "Perform deep normalization on all objective tags — standardizes casing, re-maps retired unit designations, and clears redundancies.",
+      "runNow": "Start Indexing",
+      "running": "Re-indexing Arsenal...",
+      "lastRun": "Last inventory scan"
     }
   },
   "constellation": {

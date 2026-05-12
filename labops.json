@@ -2483,13 +2483,11 @@
     "eventFeedLoading": "Fetching events...",
     "eventFeedEmpty": "No events logged. Waiting for triggers to fire.",
     "tagNormalization": {
-      "title": "Tag Normalization",
-      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
-      "runNow": "Run Now",
-      "running": "Normalizing...",
-      "lastRun": "Last Run",
-      "scanned": "Scanned",
-      "modified": "Modified"
+      "title": "Signal Normalization",
+      "description": "Execute post-hoc normalization on all protocol tags — standardizes casing, maps retired callsigns to canonical tags, and purges duplicates.",
+      "runNow": "Initiate Normalization",
+      "running": "Standardizing Signals...",
+      "lastRun": "Last operational cycle"
     }
   },
   "constellation": {
