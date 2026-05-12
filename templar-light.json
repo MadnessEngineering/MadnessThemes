@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Chronicle of Events",
     "eventFeedLoading": "Consulting the chronicle...",
     "eventFeedEmpty": "The chronicle is bare. No events have been recorded."
+  },
+  "constellation": {
+    "searchPlaceholder": "Seek within the sacred order…",
+    "loading": "Inscribing the sacred order…",
+    "inspectHint": "Double-click to consult the codex",
+    "navHint": "Select · Magnify · Traverse",
+    "contextMenu": {
+      "openDetails": "Consult the Codex",
+      "focusView": "Focus the Relic",
+      "openInSwarmDesk": "Dispatch to SwarmDesk",
+      "copyPath": "Copy the Inscription",
+      "pinNode": "Consecrate Node",
+      "unpinNode": "Desecrate Node",
+      "filterToPackage": "Filter by Chapter"
+    },
+    "controls": {
+      "zoomIn": "Magnify the Manuscript",
+      "zoomOut": "Diminish the Manuscript",
+      "recenter": "Return to the Altar",
+      "fullscreen": "Expand the Cathedral",
+      "exitFullscreen": "Collapse the Cathedral"
+    },
+    "viewModeTooltip": "Sacred Order Constellation"
   }
 }

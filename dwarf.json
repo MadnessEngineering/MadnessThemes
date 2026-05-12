@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Forge Ledger",
     "eventFeedLoading": "Consulting the stone tablets...",
     "eventFeedEmpty": "The forge is silent. No events have been hammered out."
+  },
+  "constellation": {
+    "searchPlaceholder": "Prospect the ore veins…",
+    "loading": "Hewing the tunnel network…",
+    "inspectHint": "Double-click to assay the ore",
+    "navHint": "Strike · Bore · Traverse",
+    "contextMenu": {
+      "openDetails": "Inspect the Vein",
+      "focusView": "Focus the Shaft",
+      "openInSwarmDesk": "Send to SwarmDesk",
+      "copyPath": "Copy the Seam",
+      "pinNode": "Wedge Node",
+      "unpinNode": "Unwedge Node",
+      "filterToPackage": "Filter by Seam"
+    },
+    "controls": {
+      "zoomIn": "Bore Deeper",
+      "zoomOut": "Pull Back",
+      "recenter": "Return to Shaft Head",
+      "fullscreen": "Expand the Mine",
+      "exitFullscreen": "Collapse the Mine"
+    },
+    "viewModeTooltip": "Ore Vein Constellation"
   }
 }

@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Event Log",
     "eventFeedLoading": "Loading activity...",
     "eventFeedEmpty": "No recent events. Triggers have not fired yet."
+  },
+  "constellation": {
+    "searchPlaceholder": "Search dependencies…",
+    "loading": "Loading dependency view…",
+    "inspectHint": "Double-click to view details",
+    "navHint": "Click · Scroll · Drag",
+    "contextMenu": {
+      "openDetails": "View Details",
+      "focusView": "Focus View",
+      "openInSwarmDesk": "Open in SwarmDesk",
+      "copyPath": "Copy Path",
+      "pinNode": "Pin Item",
+      "unpinNode": "Unpin Item",
+      "filterToPackage": "Filter by Package"
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "recenter": "Recenter",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
+    },
+    "viewModeTooltip": "Dependency Constellation"
   }
 }

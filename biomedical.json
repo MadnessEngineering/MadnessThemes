@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Event Log",
     "eventFeedLoading": "Retrieving event data...",
     "eventFeedEmpty": "No events recorded. Await trigger activation."
+  },
+  "constellation": {
+    "searchPlaceholder": "Query specimen catalog…",
+    "loading": "Initializing specimen network…",
+    "inspectHint": "Double-click to examine specimen",
+    "navHint": "Select · Magnify · Navigate",
+    "contextMenu": {
+      "openDetails": "View Specimen Report",
+      "focusView": "Isolate Specimen",
+      "openInSwarmDesk": "Transfer to SwarmDesk",
+      "copyPath": "Copy Specimen Path",
+      "pinNode": "Secure Specimen",
+      "unpinNode": "Release Specimen",
+      "filterToPackage": "Filter by Protocol"
+    },
+    "controls": {
+      "zoomIn": "Magnify",
+      "zoomOut": "Reduce",
+      "recenter": "Recalibrate",
+      "fullscreen": "Expand Field",
+      "exitFullscreen": "Collapse Field"
+    },
+    "viewModeTooltip": "Specimen Dependency Network"
   }
 }

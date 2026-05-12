@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Event Feed",
     "eventFeedLoading": "Pulling event data...",
     "eventFeedEmpty": "No events yet. Stand by for trigger activations."
+  },
+  "constellation": {
+    "searchPlaceholder": "Scan asset network…",
+    "loading": "Initializing asset grid…",
+    "inspectHint": "Double-click to interrogate asset",
+    "navHint": "Lock · Zoom · Navigate",
+    "contextMenu": {
+      "openDetails": "Asset Intel",
+      "focusView": "Lock Target",
+      "openInSwarmDesk": "Deploy to SwarmDesk",
+      "copyPath": "Copy Coordinates",
+      "pinNode": "Secure Asset",
+      "unpinNode": "Release Asset",
+      "filterToPackage": "Filter by Unit"
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "recenter": "Recenter Grid",
+      "fullscreen": "Full Tactical View",
+      "exitFullscreen": "Collapse View"
+    },
+    "viewModeTooltip": "Asset Dependency Grid"
   }
 }

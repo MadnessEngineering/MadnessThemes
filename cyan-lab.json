@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Signal Feed",
     "eventFeedLoading": "Scanning for signals...",
     "eventFeedEmpty": "No signals detected. Triggers awaiting activation."
+  },
+  "constellation": {
+    "searchPlaceholder": "Query node network…",
+    "loading": "Bootstrapping node graph…",
+    "inspectHint": "Double-click to probe node",
+    "navHint": "Select · Zoom · Navigate",
+    "contextMenu": {
+      "openDetails": "Inspect Node",
+      "focusView": "Focus Node",
+      "openInSwarmDesk": "Link to SwarmDesk",
+      "copyPath": "Copy Node Path",
+      "pinNode": "Lock Node",
+      "unpinNode": "Unlock Node",
+      "filterToPackage": "Filter by Cluster"
+    },
+    "controls": {
+      "zoomIn": "Zoom+",
+      "zoomOut": "Zoom−",
+      "recenter": "Reset View",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
+    },
+    "viewModeTooltip": "Node Dependency Graph"
   }
 }

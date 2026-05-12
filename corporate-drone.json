@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Activity Feed",
     "eventFeedLoading": "Retrieving activity metrics...",
     "eventFeedEmpty": "No activity logged. Triggers have not been activated."
+  },
+  "constellation": {
+    "searchPlaceholder": "Search dependency matrix…",
+    "loading": "Initializing dependency matrix…",
+    "inspectHint": "Double-click to access asset profile",
+    "navHint": "Select · Zoom · Navigate",
+    "contextMenu": {
+      "openDetails": "View Asset Details",
+      "focusView": "Focus Asset",
+      "openInSwarmDesk": "Deploy to SwarmDesk",
+      "copyPath": "Copy Asset Path",
+      "pinNode": "Flag Asset",
+      "unpinNode": "Unflag Asset",
+      "filterToPackage": "Filter by Business Unit"
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "recenter": "Recenter Dashboard",
+      "fullscreen": "Full View",
+      "exitFullscreen": "Exit Full View"
+    },
+    "viewModeTooltip": "Dependency Matrix"
   }
 }

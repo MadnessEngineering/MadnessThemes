@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Bunch Activity",
     "eventFeedLoading": "Peeling back the data...",
     "eventFeedEmpty": "No peels dropped yet. Await the fruit of your triggers."
+  },
+  "constellation": {
+    "searchPlaceholder": "Sniff out the bunches…",
+    "loading": "Peeling back the jungle…",
+    "inspectHint": "Double-click to sniff the banana",
+    "navHint": "Grab · Swing · Scamper",
+    "contextMenu": {
+      "openDetails": "Peel for Details",
+      "focusView": "Focus the Bunch",
+      "openInSwarmDesk": "Fling to SwarmDesk",
+      "copyPath": "Copy the Peel",
+      "pinNode": "Hang Node",
+      "unpinNode": "Drop Node",
+      "filterToPackage": "Filter by Bunch"
+    },
+    "controls": {
+      "zoomIn": "Zoom In (Ooh Ooh)",
+      "zoomOut": "Zoom Out (Aah Aah)",
+      "recenter": "Back to the Tree",
+      "fullscreen": "Big Banana View",
+      "exitFullscreen": "Small Banana View"
+    },
+    "viewModeTooltip": "Banana Vine Tangle"
   }
 }

@@ -2334,5 +2334,28 @@
     "eventFeedTitle": "Arcane Flux Monitor",
     "eventFeedLoading": "Consulting the ether...",
     "eventFeedEmpty": "The ether is calm. No events have manifested."
+  },
+  "constellation": {
+    "searchPlaceholder": "Scry the arcane web…",
+    "loading": "Weaving the astral web…",
+    "inspectHint": "Double-click to peer into the aether",
+    "navHint": "Commune · Scry · Traverse",
+    "contextMenu": {
+      "openDetails": "Peer into the Void",
+      "focusView": "Bind to Focus",
+      "openInSwarmDesk": "Summon in SwarmDesk",
+      "copyPath": "Transcribe the Sigil",
+      "pinNode": "Anchor the Mote",
+      "unpinNode": "Release the Mote",
+      "filterToPackage": "Filter by Coven"
+    },
+    "controls": {
+      "zoomIn": "Magnify the Lens",
+      "zoomOut": "Shrink the Lens",
+      "recenter": "Return to Origin",
+      "fullscreen": "Expand to the Cosmos",
+      "exitFullscreen": "Collapse the Vision"
+    },
+    "viewModeTooltip": "Astral Dependency Web"
   }
 }

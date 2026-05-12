@@ -2334,5 +2334,28 @@
     "eventFeedTitle": "Event Activity",
     "eventFeedLoading": "Loading events...",
     "eventFeedEmpty": "No events yet. Events appear here when triggers fire."
+  },
+  "constellation": {
+    "searchPlaceholder": "Search constellation…",
+    "loading": "Initializing constellation…",
+    "inspectHint": "Double-click to inspect",
+    "navHint": "Click to focus · Scroll to zoom · Drag to pan",
+    "contextMenu": {
+      "openDetails": "Open Details",
+      "focusView": "Focus View",
+      "openInSwarmDesk": "Open in SwarmDesk",
+      "copyPath": "Copy Path",
+      "pinNode": "Pin Node",
+      "unpinNode": "Unpin Node",
+      "filterToPackage": "Filter to Package"
+    },
+    "controls": {
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "recenter": "Recenter",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit fullscreen"
+    },
+    "viewModeTooltip": "Dependency Constellation"
   }
 }

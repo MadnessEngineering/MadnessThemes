@@ -2312,5 +2312,28 @@
     "eventFeedTitle": "automationRecipes.eventFeedTitle",
     "eventFeedLoading": "automationRecipes.eventFeedLoading",
     "eventFeedEmpty": "automationRecipes.eventFeedEmpty"
+  },
+  "constellation": {
+    "searchPlaceholder": "constellation.searchPlaceholder",
+    "loading": "constellation.loading",
+    "inspectHint": "constellation.inspectHint",
+    "navHint": "constellation.navHint",
+    "contextMenu": {
+      "openDetails": "constellation.contextMenu.openDetails",
+      "focusView": "constellation.contextMenu.focusView",
+      "openInSwarmDesk": "constellation.contextMenu.openInSwarmDesk",
+      "copyPath": "constellation.contextMenu.copyPath",
+      "pinNode": "constellation.contextMenu.pinNode",
+      "unpinNode": "constellation.contextMenu.unpinNode",
+      "filterToPackage": "constellation.contextMenu.filterToPackage"
+    },
+    "controls": {
+      "zoomIn": "constellation.controls.zoomIn",
+      "zoomOut": "constellation.controls.zoomOut",
+      "recenter": "constellation.controls.recenter",
+      "fullscreen": "constellation.controls.fullscreen",
+      "exitFullscreen": "constellation.controls.exitFullscreen"
+    },
+    "viewModeTooltip": "constellation.viewModeTooltip"
   }
 }

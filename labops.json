@@ -2332,5 +2332,28 @@
     "eventFeedTitle": "Event Monitor",
     "eventFeedLoading": "Fetching events...",
     "eventFeedEmpty": "No events logged. Waiting for triggers to fire."
+  },
+  "constellation": {
+    "searchPlaceholder": "Search lab network…",
+    "loading": "Mapping lab network…",
+    "inspectHint": "Double-click to inspect module",
+    "navHint": "Select · Zoom · Pan",
+    "contextMenu": {
+      "openDetails": "Module Details",
+      "focusView": "Focus Module",
+      "openInSwarmDesk": "Open in SwarmDesk",
+      "copyPath": "Copy Module Path",
+      "pinNode": "Pin Module",
+      "unpinNode": "Unpin Module",
+      "filterToPackage": "Filter by Lab"
+    },
+    "controls": {
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "recenter": "Recenter",
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
+    },
+    "viewModeTooltip": "Lab Dependency Network"
   }
 }
