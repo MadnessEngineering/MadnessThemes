@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: This action deploys an autonomous combat AI.",
     "eventFeedTitle": "Event Feed",
     "eventFeedLoading": "Pulling event data...",
-    "eventFeedEmpty": "No events yet. Stand by for trigger activations."
+    "eventFeedEmpty": "No events yet. Stand by for trigger activations.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Scan asset network…",

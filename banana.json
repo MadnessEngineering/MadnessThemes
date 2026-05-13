@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: This action summons an autonomous primate.",
     "eventFeedTitle": "Bunch Activity",
     "eventFeedLoading": "Peeling back the data...",
-    "eventFeedEmpty": "No peels dropped yet. Await the fruit of your triggers."
+    "eventFeedEmpty": "No peels dropped yet. Await the fruit of your triggers.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Sniff out the bunches…",

@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: This action summons an autonomous celestial servant.",
     "eventFeedTitle": "Chronicle of Events",
     "eventFeedLoading": "Consulting the chronicle...",
-    "eventFeedEmpty": "The chronicle is bare. No events have been recorded."
+    "eventFeedEmpty": "The chronicle is bare. No events have been recorded.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Seek within the sacred order…",

@@ -2331,7 +2331,16 @@
     "agentWarning": "This action involves an autonomous AI agent.",
     "eventFeedTitle": "Event Log",
     "eventFeedLoading": "Loading activity...",
-    "eventFeedEmpty": "No recent events. Triggers have not fired yet."
+    "eventFeedEmpty": "No recent events. Triggers have not fired yet.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Search dependencies…",

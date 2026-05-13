@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: This action utilizes an autonomous processing unit.",
     "eventFeedTitle": "Event Log",
     "eventFeedLoading": "Retrieving event data...",
-    "eventFeedEmpty": "No events recorded. Await trigger activation."
+    "eventFeedEmpty": "No events recorded. Await trigger activation.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Query specimen catalog…",

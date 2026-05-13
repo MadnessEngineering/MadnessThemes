@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: Invoking autonomous analytic unit.",
     "eventFeedTitle": "Event Monitor",
     "eventFeedLoading": "Fetching events...",
-    "eventFeedEmpty": "No events logged. Waiting for triggers to fire."
+    "eventFeedEmpty": "No events logged. Waiting for triggers to fire.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Merge retired tags into canonical forms across all todos. Runs the retired-to-canonical mapping and deduplicates.",
+      "runNow": "Run Now",
+      "running": "Normalizing...",
+      "lastRun": "Last Run",
+      "scanned": "Scanned",
+      "modified": "Modified"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Search lab network…",

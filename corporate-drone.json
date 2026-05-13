@@ -2331,7 +2331,16 @@
     "agentWarning": "Warning: This action delegates authority to an uncompensated AI entity.",
     "eventFeedTitle": "Activity Feed",
     "eventFeedLoading": "Retrieving activity metrics...",
-    "eventFeedEmpty": "No activity logged. Triggers have not been activated."
+    "eventFeedEmpty": "No activity logged. Triggers have not been activated.",
+    "tagNormalization": {
+      "title": "Tag Normalization",
+      "description": "Standardize deprecated tags to canonical forms across all items for data consistency.",
+      "runNow": "Execute",
+      "running": "Processing...",
+      "lastRun": "Last Execution",
+      "scanned": "Items Scanned",
+      "modified": "Items Updated"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Search dependency matrix…",

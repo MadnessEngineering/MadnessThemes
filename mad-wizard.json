@@ -2333,7 +2333,16 @@
     "agentWarning": "This ritual summons an autonomous spirit to act on your behalf.",
     "eventFeedTitle": "Arcane Flux Monitor",
     "eventFeedLoading": "Consulting the ether...",
-    "eventFeedEmpty": "The ether is calm. No events have manifested."
+    "eventFeedEmpty": "The ether is calm. No events have manifested.",
+    "tagNormalization": {
+      "title": "Tag Transmutation",
+      "description": "Transmute retired tags into canonical forms across all specimens. Executes the arcane retired-to-canonical mapping ritual.",
+      "runNow": "Transmute Now",
+      "running": "Transmuting...",
+      "lastRun": "Last Transmutation",
+      "scanned": "Specimens Scanned",
+      "modified": "Specimens Altered"
+    }
   },
   "constellation": {
     "searchPlaceholder": "Scry the arcane web…",

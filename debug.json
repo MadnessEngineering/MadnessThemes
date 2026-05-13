@@ -2311,7 +2311,16 @@
     "agentWarning": "automationRecipes.agentWarning",
     "eventFeedTitle": "automationRecipes.eventFeedTitle",
     "eventFeedLoading": "automationRecipes.eventFeedLoading",
-    "eventFeedEmpty": "automationRecipes.eventFeedEmpty"
+    "eventFeedEmpty": "automationRecipes.eventFeedEmpty",
+    "tagNormalization": {
+      "title": "[tagNormalization.title]",
+      "description": "[tagNormalization.description]",
+      "runNow": "[tagNormalization.runNow]",
+      "running": "[tagNormalization.running]",
+      "lastRun": "[tagNormalization.lastRun]",
+      "scanned": "[tagNormalization.scanned]",
+      "modified": "[tagNormalization.modified]"
+    }
   },
   "constellation": {
     "searchPlaceholder": "constellation.searchPlaceholder",
