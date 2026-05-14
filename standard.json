@@ -906,6 +906,9 @@
     },
     "table": {
       "name": "Project Name",
+      "linkedProject": "Linked Project",
+      "version": "Version",
+      "lastUpdated": "Last Updated",
       "source": "Source",
       "classes": "Classes",
       "packages": "Packages",

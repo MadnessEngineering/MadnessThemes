@@ -838,6 +838,9 @@
     },
     "table": {
       "name": "Project Name",
+      "linkedProject": "Associated Initiative",
+      "version": "Release",
+      "lastUpdated": "Last Synchronized",
       "source": "Data Source",
       "classes": "Components",
       "packages": "Modules",

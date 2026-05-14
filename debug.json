@@ -1880,6 +1880,9 @@
     },
     "table": {
       "name": "umlData.table.name",
+      "linkedProject": "umlData.table.linkedProject",
+      "version": "umlData.table.version",
+      "lastUpdated": "umlData.table.lastUpdated",
       "source": "umlData.table.source",
       "classes": "umlData.table.classes",
       "packages": "umlData.table.packages",

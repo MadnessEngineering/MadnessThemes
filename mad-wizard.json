@@ -906,6 +906,9 @@
     },
     "table": {
       "name": "Experiment Name",
+      "linkedProject": "Tethered Experiment",
+      "version": "Iteration",
+      "lastUpdated": "Last Transmuted",
       "source": "Archive Source",
       "classes": "Arcane Structures",
       "packages": "Pattern Collections",

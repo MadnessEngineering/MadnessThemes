@@ -1949,6 +1949,9 @@
     },
     "table": {
       "name": "Blueprint Name",
+      "linkedProject": "Linked Project",
+      "version": "Version",
+      "lastUpdated": "Last Updated",
       "source": "Mine Source",
       "classes": "Ore Structures",
       "packages": "Tunnel Packages",
