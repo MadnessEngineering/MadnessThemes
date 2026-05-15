@@ -100,7 +100,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Lab Notes",
-    "ticket": "Reference ID"
+    "ticket": "Reference ID",
+    "project": "Study"
   },
   "dashboard": {
     "title": "📊 Lab Bench",
@@ -996,7 +997,8 @@
       "summarize": "Summarize"
     },
     "status": {
-      "typing": "Assistant is typing"
+      "typing": "Assistant is typing",
+      "loadingHistory": "Retrieving patient records..."
     },
     "emptyState": {
       "title": "Lab Assistant",

@@ -100,7 +100,8 @@
     "priority": "Operational Urgency Tier",
     "status": "Workflow Status Indicator",
     "notes": "Ancillary Documentation",
-    "ticket": "Linked Oversight Reference"
+    "ticket": "Linked Oversight Reference",
+    "project": "Initiative"
   },
   "dashboard": {
     "title": "📊 Executive Productivity Command Center",
@@ -1438,7 +1439,8 @@
       "summarize": "Executive Summary"
     },
     "status": {
-      "typing": "Productivity assistant is processing"
+      "typing": "Productivity assistant is processing",
+      "loadingHistory": "Retrieving conversation records..."
     },
     "emptyState": {
       "title": "Madness Interactive Productivity Assistant",

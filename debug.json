@@ -100,7 +100,8 @@
     "priority": "forms.priority",
     "status": "forms.status",
     "notes": "forms.notes",
-    "ticket": "forms.ticket"
+    "ticket": "forms.ticket",
+    "project": "forms.project"
   },
   "dashboard": {
     "title": "dashboard.title",
@@ -1431,7 +1432,8 @@
       "summarize": "chatAssistant.suggestedActions.summarize"
     },
     "status": {
-      "typing": "chatAssistant.status.typing"
+      "typing": "chatAssistant.status.typing",
+      "loadingHistory": "chatAssistant.status.loadingHistory"
     },
     "emptyState": {
       "title": "chatAssistant.emptyState.title",

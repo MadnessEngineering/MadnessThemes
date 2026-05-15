@@ -100,7 +100,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Notes",
-    "ticket": "Ticket"
+    "ticket": "Ticket",
+    "project": "Procedure"
   },
   "dashboard": {
     "title": "🔬 Lab Operations Center",
@@ -1049,7 +1050,8 @@
       "summarize": "Summarize"
     },
     "status": {
-      "typing": "Assistant is typing"
+      "typing": "Assistant is typing",
+      "loadingHistory": "Loading operation logs..."
     },
     "emptyState": {
       "title": "Madness Interactive Assistant",

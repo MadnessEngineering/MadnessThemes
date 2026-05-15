@@ -100,7 +100,8 @@
     "priority": "Dig Urgency",
     "status": "Excavation Phase",
     "notes": "Stonecraft Annotations",
-    "ticket": "Claim Reference"
+    "ticket": "Claim Reference",
+    "project": "Mine Shaft"
   },
   "dashboard": {
     "title": "📊 Underground Command Hall",
@@ -1400,7 +1401,8 @@
       "summarize": "Survey Essence"
     },
     "status": {
-      "typing": "Mining consultation be processing"
+      "typing": "Mining consultation be processing",
+      "loadingHistory": "Unearthing old stone tablets..."
     },
     "emptyState": {
       "title": "Mining Hall Forge Familiar",

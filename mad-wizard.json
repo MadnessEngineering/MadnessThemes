@@ -100,7 +100,8 @@
     "priority": "Ritual Urgency",
     "status": "Research Phase",
     "notes": "Arcane Annotations",
-    "ticket": "Mystical Reference"
+    "ticket": "Mystical Reference",
+    "project": "Experiment"
   },
   "dashboard": {
     "title": "📊 Workshop Command Central",
@@ -1505,7 +1506,8 @@
       "summarize": "Divine Essence"
     },
     "status": {
-      "typing": "Mystical consultation is channeling"
+      "typing": "Mystical consultation is channeling",
+      "loadingHistory": "Summoning past incantations..."
     },
     "emptyState": {
       "title": "Madness Interactive Laboratory Assistant",

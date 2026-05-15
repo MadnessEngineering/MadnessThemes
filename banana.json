@@ -100,7 +100,8 @@
     "priority": "Swing Urgency",
     "status": "Climbing Phase",
     "notes": "Grooming Annotations",
-    "ticket": "Vine Reference"
+    "ticket": "Vine Reference",
+    "project": "Tree Branch"
   },
   "dashboard": {
     "title": "📊 Jungle Command Tree",
@@ -1400,7 +1401,8 @@
       "summarize": "Forage Essence"
     },
     "status": {
-      "typing": "Jungle consultation is swinging"
+      "typing": "Jungle consultation is swinging",
+      "loadingHistory": "Gathering old banana peels..."
     },
     "emptyState": {
       "title": "Madness Interactive Jungle Assistant",

@@ -471,7 +471,8 @@
       "summarize": "Summarize"
     },
     "status": {
-      "typing": "Assistant is typing"
+      "typing": "Assistant is typing",
+      "loadingHistory": "Downloading neural logs..."
     },
     "notConfigured": {
       "title": "AI Assistant Not Configured",
@@ -1573,7 +1574,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Notes",
-    "ticket": "Ticket"
+    "ticket": "Ticket",
+    "project": "Protocol"
   },
   "lessonsLearned": {
     "title": "🔬 Research Log",

@@ -100,7 +100,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Notes",
-    "ticket": "Ticket"
+    "ticket": "Ticket",
+    "project": "Project"
   },
   "dashboard": {
     "title": "📊 Dashboard",
@@ -1079,7 +1080,8 @@
       "summarize": "Summarize"
     },
     "status": {
-      "typing": "Assistant is typing"
+      "typing": "Assistant is typing",
+      "loadingHistory": "Loading chat history..."
     },
     "emptyState": {
       "title": "Madness Interactive Assistant",

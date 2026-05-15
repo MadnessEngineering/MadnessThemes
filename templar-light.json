@@ -100,7 +100,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Notes",
-    "ticket": "Ticket"
+    "ticket": "Ticket",
+    "project": "Crusade"
   },
   "dashboard": {
     "title": "🏰 Order Command Chamber",
@@ -1049,7 +1050,8 @@
       "summarize": "Summarize"
     },
     "status": {
-      "typing": "Assistant is typing"
+      "typing": "Assistant is typing",
+      "loadingHistory": "Unrolling ancient scrolls..."
     },
     "emptyState": {
       "title": "Madness Interactive Assistant",

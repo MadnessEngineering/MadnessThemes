@@ -100,7 +100,8 @@
     "priority": "Priority",
     "status": "Status",
     "notes": "Notes",
-    "ticket": "Ticket"
+    "ticket": "Ticket",
+    "project": "Operation"
   },
   "dashboard": {
     "title": "🎯 Hangar Bay",
@@ -1049,7 +1050,8 @@
       "summarize": "Status Report"
     },
     "status": {
-      "typing": "Copilot analyzing"
+      "typing": "Copilot analyzing",
+      "loadingHistory": "Decrypting comms archive..."
     },
     "emptyState": {
       "title": "AI Copilot System",
