@@ -420,7 +420,8 @@
     "userManagement": "Test Subject Registry",
     "github": "Source Archive",
     "themeGallery": "Arcane Palette",
-    "logout": "Exit Laboratory"
+    "logout": "Exit Laboratory",
+    "support": "Contact the Oracle"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Mystical insights channeled! Review the enhanced research notes.",
@@ -811,7 +812,8 @@
       "privacy": "Research Privacy",
       "advanced": "Advanced Mystical Controls",
       "npcAgents": "Ethereal Familiars",
-      "swarmDesk": "Velocity Calibration Chamber"
+      "swarmDesk": "Velocity Calibration Chamber",
+      "support": "Oracle"
     },
     "swarmdesk": {
       "movementTitle": "Ethereal Drift Calibration",
@@ -2205,6 +2207,24 @@
       "resubscribe": "You may re-pledge your patronage at any time.",
       "keep": "Maintain Patronage",
       "confirm": "Yes, Revoke"
+    }
+  },
+  "support": {
+    "title": "Contact the Oracle",
+    "subtitle": "Seeking guidance? Send a scroll or reach us via mystical resonance at",
+    "category": "Sphere of Inquiry",
+    "subject": "Incantation Title",
+    "message": "The Vision",
+    "send": "Cast Message",
+    "emailDirect": "Direct Resonance",
+    "submitSuccess": "Your vision has been cast. The Oracle shall respond when the stars align.",
+    "submitFallback": "The mystical connection failed. A physical scroll has been prepared.",
+    "categories": {
+      "billing": "Gold Coins",
+      "account": "Essence",
+      "bug": "Curse Report",
+      "feature": "New Spell Request",
+      "other": "Miscellaneous"
     }
   },
   "pricing": {

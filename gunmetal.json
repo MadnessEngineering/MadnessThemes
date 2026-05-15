@@ -420,7 +420,8 @@
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Logout",
-    "userManagement": "User Management"
+    "userManagement": "User Management",
+    "support": "Comms Link"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI tactical analysis complete! Check enhanced mission brief.",
@@ -781,7 +782,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "Tactical AI",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Comms"
     },
     "messaging": {
       "title": "Message Roles Configuration",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You can re-establish funding at any time.",
       "keep": "Maintain Operations",
       "confirm": "Confirm Termination"
+    }
+  },
+  "support": {
+    "title": "Command Support",
+    "subtitle": "Equipment failure? Radio it in or contact HQ at",
+    "category": "Division",
+    "subject": "Intel",
+    "message": "Briefing",
+    "send": "Transmit",
+    "emailDirect": "Secure Line",
+    "submitSuccess": "Transmission received. Stand by for orders.",
+    "submitFallback": "Jamming detected. Use secondary communication methods.",
+    "categories": {
+      "billing": "Logistics",
+      "account": "Service Record",
+      "bug": "Malfunction",
+      "feature": "Req Form",
+      "other": "Misc"
     }
   },
   "pricing": {

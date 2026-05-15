@@ -354,7 +354,8 @@
     "userManagement": "Stakeholder Account Management",
     "github": "Source Repository",
     "themeGallery": "Brand Assets Portal",
-    "logout": "Sign Out"
+    "logout": "Sign Out",
+    "support": "Escalate Ticket"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI insights generated! Review the enhanced analysis report.",
@@ -744,7 +745,8 @@
       "privacy": "Data Privacy Settings",
       "advanced": "Advanced System Settings",
       "npcAgents": "Automated Personnel",
-      "swarmDesk": "SwarmDesk Controls"
+      "swarmDesk": "SwarmDesk Controls",
+      "support": "Escalation"
     },
     "swarmdesk": {
       "movementTitle": "Navigation Speed Optimization",
@@ -2204,6 +2206,24 @@
       "resubscribe": "Service agreement can be reinstated at any time.",
       "keep": "Retain Service Agreement",
       "confirm": "Confirm Termination"
+    }
+  },
+  "support": {
+    "title": "Stakeholder Support",
+    "subtitle": "Need alignment? Open a ticket or leverage direct communication via",
+    "category": "Business Unit",
+    "subject": "Action Item",
+    "message": "Executive Summary",
+    "send": "Submit Deliverable",
+    "emailDirect": "Direct Synergy",
+    "submitSuccess": "Ticket submitted. We will circle back within the next business cycle.",
+    "submitFallback": "Network disruption detected. Please utilize legacy email protocols.",
+    "categories": {
+      "billing": "Accounts Payable",
+      "account": "Internal ID",
+      "bug": "Process Inefficiency",
+      "feature": "Scalability Request",
+      "other": "Out of Scope"
     }
   },
   "pricing": {

@@ -420,7 +420,8 @@
     "userManagement": "User Management",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
-    "logout": "Logout"
+    "logout": "Logout",
+    "support": "Operations Support"
   },
   "notifications": {
     "aiInsightsGenerated": "🧪 Lab analysis complete. Review enhanced protocol notes.",
@@ -781,7 +782,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Ops Help"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "Provisioning may be re-established at any time.",
       "keep": "Maintain Allocation",
       "confirm": "Confirm Termination"
+    }
+  },
+  "support": {
+    "title": "Lab Operations",
+    "subtitle": "Process bottleneck? Contact ops or email the coordinator at",
+    "category": "Department",
+    "subject": "Incident",
+    "message": "Description",
+    "send": "Submit Ticket",
+    "emailDirect": "Direct Line",
+    "submitSuccess": "Ticket logged. Assigned to technician.",
+    "submitFallback": "System offline. Please use manual contact.",
+    "categories": {
+      "billing": "Procurement",
+      "account": "Staff ID",
+      "bug": "SOP Deviation",
+      "feature": "Workflow Opt",
+      "other": "Note"
     }
   },
   "pricing": {

@@ -420,7 +420,8 @@
     "themeGallery": "Banana Wardrobe",
     "logout": "Exit Tree",
     "replayTutorial": "Replay Tutorial",
-    "userManagement": "User Management"
+    "userManagement": "User Management",
+    "support": "Call the Big Banana"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Primate insights harvested! Review the enhanced jungle notes.",
@@ -781,7 +782,8 @@
       "messaging": "Messaging",
       "umlData": "Code Visualizations",
       "npcAgents": "Primate Personas",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Help-nana"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You can start harvesting again anytime.",
       "keep": "Keep the Bananas",
       "confirm": "Yes, Stop"
+    }
+  },
+  "support": {
+    "title": "Banana Support",
+    "subtitle": "Feeling slippery? Peel us a message or find us at",
+    "category": "Bunch",
+    "subject": "Topic-nana",
+    "message": "The Whole Peel",
+    "send": "Ship the Fruit",
+    "emailDirect": "Direct Squeeze",
+    "submitSuccess": "Sent! We're go-go-go for bananas!",
+    "submitFallback": "The bunch fell over. Try the backup vine.",
+    "categories": {
+      "billing": "Banana Coins",
+      "account": "Peel ID",
+      "bug": "Bruised Fruit",
+      "feature": "New Flavor",
+      "other": "Sticker"
     }
   },
   "pricing": {

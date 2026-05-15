@@ -420,7 +420,8 @@
     "userManagement": "User Management",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
-    "logout": "Logout"
+    "logout": "Logout",
+    "support": "Help Center"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI insights generated. Review the enhanced description.",
@@ -781,7 +782,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Help"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You can resubscribe at any time.",
       "keep": "Keep Plan",
       "confirm": "Confirm Cancellation"
+    }
+  },
+  "support": {
+    "title": "Customer Support",
+    "subtitle": "Need assistance? Contact our team or reach us at",
+    "category": "Category",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send",
+    "emailDirect": "Email Us",
+    "submitSuccess": "Your message has been sent successfully.",
+    "submitFallback": "Something went wrong. Please email us directly.",
+    "categories": {
+      "billing": "Billing",
+      "account": "Account",
+      "bug": "Bug Report",
+      "feature": "Feature Request",
+      "other": "General"
     }
   },
   "pricing": {

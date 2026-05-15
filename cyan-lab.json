@@ -583,7 +583,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Personnel",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Uplink"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1237,7 +1238,8 @@
     "userManagement": "User Management",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
-    "logout": "Logout"
+    "logout": "Logout",
+    "support": "Uplink Support"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You can re-establish the uplink at any time.",
       "keep": "Maintain Connection",
       "confirm": "Terminate"
+    }
+  },
+  "support": {
+    "title": "Neural Support",
+    "subtitle": "Glitching? Ping the grid or packet-burst us at",
+    "category": "Subsystem",
+    "subject": "Header",
+    "message": "Payload",
+    "send": "Initiate Burst",
+    "emailDirect": "Direct Link",
+    "submitSuccess": "Data packet received. Stay in the loop.",
+    "submitFallback": "Signal noise too high. Use legacy protocols.",
+    "categories": {
+      "billing": "Credits",
+      "account": "Neural Link",
+      "bug": "Glitch",
+      "feature": "Mod Request",
+      "other": "Static"
     }
   },
   "pricing": {

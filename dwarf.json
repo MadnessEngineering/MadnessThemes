@@ -420,7 +420,8 @@
     "themeGallery": "Stone & Ore Palette",
     "logout": "Exit Mine",
     "replayTutorial": "Replay Tutorial",
-    "userManagement": "User Management"
+    "userManagement": "User Management",
+    "support": "Call the Overseer"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Stonecraft insights unearthed! Review the enhanced mining notes.",
@@ -781,7 +782,8 @@
       "messaging": "Messaging",
       "umlData": "Code Visualizations",
       "npcAgents": "Clan Kin",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Overseer"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You may return to the mountain at any time.",
       "keep": "Stay in the Clan",
       "confirm": "Yes, Relinquish"
+    }
+  },
+  "support": {
+    "title": "Forge Support",
+    "subtitle": "Broken tool? Send word to the deeps or shout at",
+    "category": "Vein",
+    "subject": "Ore Type",
+    "message": "The Grudge",
+    "send": "Strike the Anvil",
+    "emailDirect": "Direct Shout",
+    "submitSuccess": "Message hammered in. We'll get to it when the ale runs out.",
+    "submitFallback": "Cave-in on the comms line. Use the backup pigeon.",
+    "categories": {
+      "billing": "Treasury",
+      "account": "Clan ID",
+      "bug": "Cave-in",
+      "feature": "Better Pickaxe",
+      "other": "Dirt"
     }
   },
   "pricing": {

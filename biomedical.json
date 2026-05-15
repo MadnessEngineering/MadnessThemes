@@ -420,7 +420,8 @@
     "themeGallery": "Specimen Palette",
     "logout": "Logout",
     "replayTutorial": "Replay Tutorial",
-    "userManagement": "User Management"
+    "userManagement": "User Management",
+    "support": "Consult Principal Investigator"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI analysis generated! Check the enhanced description.",
@@ -781,7 +782,8 @@
       "messaging": "Messaging",
       "umlData": "Code Visualizations",
       "npcAgents": "Research Assistants",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Consultation"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You may re-apply for funding at any time.",
       "keep": "Maintain Grant",
       "confirm": "Terminate"
+    }
+  },
+  "support": {
+    "title": "Technical Support",
+    "subtitle": "Protocol issues? Submit a report or contact the lab directly at",
+    "category": "Specialization",
+    "subject": "Hypothesis/Issue",
+    "message": "Observation Data",
+    "send": "Submit Protocol",
+    "emailDirect": "Direct Contact",
+    "submitSuccess": "Data submitted. The ethics board will review and respond shortly.",
+    "submitFallback": "LIMS connection error. Manual record opened.",
+    "categories": {
+      "billing": "Grant Funding",
+      "account": "Subject ID",
+      "bug": "Anomaly Report",
+      "feature": "Equipment Request",
+      "other": "Variable"
     }
   },
   "pricing": {

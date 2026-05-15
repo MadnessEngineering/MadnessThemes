@@ -420,7 +420,8 @@
     "userManagement": "User Management",
     "github": "GitHub",
     "themeGallery": "Sacred Vestments",
-    "logout": "Logout"
+    "logout": "Logout",
+    "support": "Seek the High Priest"
   },
   "notifications": {
     "aiInsightsGenerated": "📜 The Oracle has spoken! Review the divine insights.",
@@ -781,7 +782,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Sanctuary"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2175,6 +2177,24 @@
       "resubscribe": "You may take the vow again at any time.",
       "keep": "Uphold Vow",
       "confirm": "Yes, Renounce"
+    }
+  },
+  "support": {
+    "title": "Order Support",
+    "subtitle": "Faith wavering? Send a messenger or find us at",
+    "category": "Order",
+    "subject": "Petition",
+    "message": "Testimony",
+    "send": "Deliver Petition",
+    "emailDirect": "Direct Prayer",
+    "submitSuccess": "Your petition has been received by the High Priest.",
+    "submitFallback": "The messenger was intercepted. Use the backup pigeon.",
+    "categories": {
+      "billing": "Tithe",
+      "account": "Oath",
+      "bug": "Heresy",
+      "feature": "Blessing Request",
+      "other": "Alms"
     }
   },
   "pricing": {

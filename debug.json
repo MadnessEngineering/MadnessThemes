@@ -420,7 +420,8 @@
     "userManagement": "menu.userManagement",
     "github": "menu.github",
     "themeGallery": "menu.themeGallery",
-    "logout": "menu.logout"
+    "logout": "menu.logout",
+    "support": "menu.support"
   },
   "notifications": {
     "aiInsightsGenerated": "notifications.aiInsightsGenerated",
@@ -810,7 +811,8 @@
       "npcAgents": "settings.tabs.npcAgents",
       "swarmDesk": "settings.tabs.swarmDesk",
       "messaging": "Messaging",
-      "umlData": "Code Visualizations"
+      "umlData": "Code Visualizations",
+      "support": "settings.tabs.support"
     },
     "swarmdesk": {
       "movementTitle": "settings.swarmdesk.movementTitle",
@@ -2184,6 +2186,24 @@
       "resubscribe": "billing.cancelDialog.resubscribe",
       "keep": "billing.cancelDialog.keep",
       "confirm": "billing.cancelDialog.confirm"
+    }
+  },
+  "support": {
+    "title": "support.title",
+    "subtitle": "support.subtitle",
+    "category": "support.category",
+    "subject": "support.subject",
+    "message": "support.message",
+    "send": "support.send",
+    "emailDirect": "support.emailDirect",
+    "submitSuccess": "support.submitSuccess",
+    "submitFallback": "support.submitFallback",
+    "categories": {
+      "billing": "support.categories.billing",
+      "account": "support.categories.account",
+      "bug": "support.categories.bug",
+      "feature": "support.categories.feature",
+      "other": "support.categories.other"
     }
   },
   "pricing": {
