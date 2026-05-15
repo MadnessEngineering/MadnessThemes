@@ -704,7 +704,8 @@
     },
     "labels": {
       "readOnly": "🔒 Read-Only",
-      "review": "REVIEW"
+      "review": "REVIEW",
+      "notes": "Notes"
     },
     "aria": {
       "todoActions": "Todo actions"

@@ -704,7 +704,8 @@
     },
     "labels": {
       "readOnly": "🔒 Stone Reader Mode",
-      "review": "PEER SURVEY"
+      "review": "PEER SURVEY",
+      "notes": "Runic Scrawlings"
     },
     "aria": {
       "todoActions": "Mining task ore actions"

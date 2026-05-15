@@ -704,7 +704,8 @@
     },
     "labels": {
       "readOnly": "🔒 Observatory Mode",
-      "review": "PEER REVIEW"
+      "review": "PEER REVIEW",
+      "notes": "Arcane Notes"
     },
     "aria": {
       "todoActions": "Research task mystical actions"

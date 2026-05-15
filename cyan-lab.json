@@ -359,7 +359,8 @@
     },
     "labels": {
       "readOnly": "🔒 Read-Only",
-      "review": "REVIEW"
+      "review": "REVIEW",
+      "notes": "Data Logs"
     },
     "aria": {
       "todoActions": "Todo actions"

@@ -638,7 +638,8 @@
     },
     "labels": {
       "readOnly": "🔒 Read-Only Access",
-      "review": "UNDER REVIEW"
+      "review": "UNDER REVIEW",
+      "notes": "Documentation"
     },
     "aria": {
       "todoActions": "Task management operations"

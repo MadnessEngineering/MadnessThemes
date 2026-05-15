@@ -704,7 +704,8 @@
     },
     "labels": {
       "readOnly": "🔒 Locked",
-      "review": "DEBRIEF"
+      "review": "DEBRIEF",
+      "notes": "Field Notes"
     },
     "aria": {
       "todoActions": "Todo actions"

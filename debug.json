@@ -704,7 +704,8 @@
     },
     "labels": {
       "readOnly": "todoList.labels.readOnly",
-      "review": "todoList.labels.review"
+      "review": "todoList.labels.review",
+      "notes": "todoList.labels.notes"
     },
     "aria": {
       "todoActions": "todoList.aria.todoActions"
