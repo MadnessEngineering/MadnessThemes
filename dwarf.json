@@ -332,7 +332,17 @@
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Mine Cleanup",
     "workshop": "🔧 Great Smithy",
-    "chatAudit": "⛏️ Audit"
+    "chatAudit": "⛏️ Audit",
+    "dashboard": "🏠 Mine Overview",
+    "account": "👤 Dwarf Ledger",
+    "queue": "📥 Ore Queue",
+    "inventory": "🗄️ Supply Cavern"
+  },
+  "mobileNavigation": {
+    "goBack": "Retreat to Previous Tunnel",
+    "toggleExtended": "Open the Deep Map",
+    "startVoice": "Sound the Horn",
+    "stopVoice": "Silence the Mountain"
   },
   "labMaintenance": {
     "title": "Mine Shaft Maintenance",

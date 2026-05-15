@@ -332,7 +332,17 @@
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Workspace Cleanup",
     "workshop": "🔧 Workshop",
-    "chatAudit": "📊 Audit"
+    "chatAudit": "📊 Audit",
+    "dashboard": "🏠 Dashboard Overview",
+    "account": "👤 User Profile",
+    "queue": "📥 Processing Queue",
+    "inventory": "🗄️ Asset Inventory"
+  },
+  "mobileNavigation": {
+    "goBack": "Go Back",
+    "toggleExtended": "Toggle Navigation",
+    "startVoice": "Start Voice Interface",
+    "stopVoice": "Stop Voice Interface"
   },
   "labMaintenance": {
     "title": "Workspace Cleanup",

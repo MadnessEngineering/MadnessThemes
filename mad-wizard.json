@@ -333,7 +333,16 @@
     "settings": "⚙️ Apparatus Config",
     "labMaintenance": "🧹 Workshop Cleanup",
     "workshop": "🔧 Arcane Workshop",
-    "chatAudit": "🔮 Arcane Audit"
+    "chatAudit": "🔮 Arcane Audit",
+    "dashboard": "🏠 Sanctum Overview",
+    "account": "👤 Wizard Profile",
+    "queue": "📥 Pending Rituals"
+  },
+  "mobileNavigation": {
+    "goBack": "Retreat to previous chamber",
+    "toggleExtended": "Reveal hidden passages",
+    "startVoice": "Activate voice incantation",
+    "stopVoice": "Silence the incantation"
   },
   "labMaintenance": {
     "title": "Workshop Maintenance Bay",

@@ -332,7 +332,17 @@
     "settings": "panels.settings",
     "labMaintenance": "panels.labMaintenance",
     "workshop": "panels.workshop",
-    "chatAudit": "panels.chatAudit"
+    "chatAudit": "panels.chatAudit",
+    "dashboard": "panels.dashboard",
+    "account": "panels.account",
+    "queue": "panels.queue",
+    "inventory": "panels.inventory"
+  },
+  "mobileNavigation": {
+    "goBack": "mobileNavigation.goBack",
+    "toggleExtended": "mobileNavigation.toggleExtended",
+    "startVoice": "mobileNavigation.startVoice",
+    "stopVoice": "mobileNavigation.stopVoice"
   },
   "labMaintenance": {
     "title": "labMaintenance.title",

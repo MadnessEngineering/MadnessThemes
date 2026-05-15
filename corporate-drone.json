@@ -266,7 +266,17 @@
     "settings": "⚙️ Policy Ops",
     "labMaintenance": "🧹 Portfolio Cleanup",
     "workshop": "🔧 Optimization Lab",
-    "chatAudit": "📊 Audit"
+    "chatAudit": "📊 Audit",
+    "dashboard": "🏠 Executive Summary",
+    "account": "👤 User Profile",
+    "queue": "📥 Pending Approvals",
+    "inventory": "🗄️ Asset Registry"
+  },
+  "mobileNavigation": {
+    "goBack": "Return to previous view",
+    "toggleExtended": "Show additional options",
+    "startVoice": "Enable voice input",
+    "stopVoice": "Disable voice input"
   },
   "labMaintenance": {
     "title": "Portfolio Maintenance",

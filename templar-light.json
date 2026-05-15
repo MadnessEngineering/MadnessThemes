@@ -332,7 +332,17 @@
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Sanctum Purification",
     "workshop": "🔧 Sacred Workshop",
-    "chatAudit": "📜 Audit"
+    "chatAudit": "📜 Audit",
+    "dashboard": "🏠 Grand Hall",
+    "account": "👤 Pilgrim Profile",
+    "queue": "📥 Blessing Queue",
+    "inventory": "🗄️ Relic Vault"
+  },
+  "mobileNavigation": {
+    "goBack": "Return to Sanctuary",
+    "toggleExtended": "Unroll Scroll",
+    "startVoice": "Begin Prayer",
+    "stopVoice": "End Prayer"
   },
   "labMaintenance": {
     "title": "Sanctum Purification Rites",

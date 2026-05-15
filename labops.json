@@ -332,7 +332,17 @@
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Facility Audit",
     "workshop": "🔧 Operations Workshop",
-    "chatAudit": "📊 Audit"
+    "chatAudit": "📊 Audit",
+    "dashboard": "🏠 Operations Dashboard",
+    "account": "👤 Operator Profile",
+    "queue": "📥 Processing Queue",
+    "inventory": "🗄️ Equipment Registry"
+  },
+  "mobileNavigation": {
+    "goBack": "Return to Station",
+    "toggleExtended": "Expand Ops View",
+    "startVoice": "Open Audio Link",
+    "stopVoice": "Close Audio Link"
   },
   "labMaintenance": {
     "title": "Facility Maintenance Audit",

@@ -1747,7 +1747,17 @@
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Defrag Sector",
     "workshop": "🔧 Synthesis Sector",
-    "chatAudit": "📡 Audit"
+    "chatAudit": "📡 Audit",
+    "dashboard": "🏠 Neural Hub",
+    "account": "👤 User Interface",
+    "queue": "📥 Processing Stack",
+    "inventory": "🗄️ Data Vault"
+  },
+  "mobileNavigation": {
+    "goBack": "Rewind Protocol",
+    "toggleExtended": "Expand Grid",
+    "startVoice": "Initialize Voice Link",
+    "stopVoice": "Kill Voice Link"
   },
   "labMaintenance": {
     "title": "System Defragmentation",

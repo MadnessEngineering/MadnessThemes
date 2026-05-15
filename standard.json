@@ -333,7 +333,16 @@
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Maintenance",
     "workshop": "🔧 Workshop",
-    "chatAudit": "📊 Audit"
+    "chatAudit": "📊 Audit",
+    "dashboard": "🏠 Dashboard",
+    "account": "👤 Account",
+    "queue": "📥 Queue"
+  },
+  "mobileNavigation": {
+    "goBack": "Go back",
+    "toggleExtended": "Toggle extended navigation",
+    "startVoice": "Start voice chat",
+    "stopVoice": "Stop voice chat"
   },
   "labMaintenance": {
     "title": "Lab Maintenance",

@@ -332,7 +332,17 @@
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Field Cleanup",
     "workshop": "🔧 Maintenance Bay",
-    "chatAudit": "🎯 Audit"
+    "chatAudit": "🎯 Audit",
+    "dashboard": "🏠 Command Center",
+    "account": "👤 Operator Profile",
+    "queue": "📥 Mission Queue",
+    "inventory": "🗄️ Arsenal"
+  },
+  "mobileNavigation": {
+    "goBack": "Fall Back",
+    "toggleExtended": "Toggle Tactical View",
+    "startVoice": "Open Comms",
+    "stopVoice": "Radio Silence"
   },
   "labMaintenance": {
     "title": "Field Debrief & Cleanup",

@@ -332,7 +332,17 @@
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Specimen Triage",
     "workshop": "🔧 Bio-Engineering Lab",
-    "chatAudit": "🔬 Audit"
+    "chatAudit": "🔬 Audit",
+    "dashboard": "🏠 Diagnostic Overview",
+    "account": "👤 Researcher Profile",
+    "queue": "📥 Sample Queue",
+    "inventory": "🗄️ Specimen Registry"
+  },
+  "mobileNavigation": {
+    "goBack": "Return to Previous Phase",
+    "toggleExtended": "Expand Protocol View",
+    "startVoice": "Initiate Bio-Link",
+    "stopVoice": "Terminate Bio-Link"
   },
   "labMaintenance": {
     "title": "Specimen Triage Bay",

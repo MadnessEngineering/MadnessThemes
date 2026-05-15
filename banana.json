@@ -332,7 +332,17 @@
     "insights": "📊 Insights",
     "labMaintenance": "🧹 Jungle Cleanup",
     "workshop": "🔧 Banana Workshop",
-    "chatAudit": "🍌 Audit"
+    "chatAudit": "🍌 Audit",
+    "dashboard": "🏠 Canopy Overview",
+    "account": "👤 Monkey Profile",
+    "queue": "📥 Banana Queue",
+    "inventory": "🗄️ Jungle Stash"
+  },
+  "mobileNavigation": {
+    "goBack": "Swing Back",
+    "toggleExtended": "Expand the Canopy",
+    "startVoice": "Call the Troop",
+    "stopVoice": "End the Call"
   },
   "labMaintenance": {
     "title": "Jungle Cleanup Crew",
