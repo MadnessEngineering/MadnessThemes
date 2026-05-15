@@ -418,6 +418,7 @@
     "documentation": "Documentation",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management",
+    "support": "Contact Support",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Logout"
@@ -811,7 +812,8 @@
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
-      "swarmDesk": "SwarmDesk"
+      "swarmDesk": "SwarmDesk",
+      "support": "Support"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2205,6 +2207,24 @@
       "resubscribe": "You can resubscribe at any time.",
       "keep": "Keep Subscription",
       "confirm": "Yes, Cancel"
+    }
+  },
+  "support": {
+    "title": "Contact Support",
+    "subtitle": "Need help? Send us a message or email directly at",
+    "category": "Category",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send Message",
+    "emailDirect": "Email Directly",
+    "submitSuccess": "Your message has been sent. We'll get back to you soon.",
+    "submitFallback": "Could not reach the server. A draft email has been opened for you.",
+    "categories": {
+      "billing": "Billing",
+      "account": "Account",
+      "bug": "Bug Report",
+      "feature": "Feature Request",
+      "other": "Other"
     }
   },
   "pricing": {
