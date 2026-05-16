@@ -772,7 +772,7 @@
     },
     "tabs": {
       "profile": "Profile",
-      "database": "Database",
+      "data": "Database",
       "aiConfiguration": "AI Configuration",
       "mcpSetup": "MCP Setup",
       "messaging": "Messaging",

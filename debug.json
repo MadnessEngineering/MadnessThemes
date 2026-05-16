@@ -801,7 +801,7 @@
     },
     "tabs": {
       "profile": "settings.tabs.profile",
-      "database": "settings.tabs.database",
+      "data": "settings.tabs.database",
       "aiConfiguration": "settings.tabs.aiConfiguration",
       "mcpSetup": "settings.tabs.mcpSetup",
       "apiKeys": "settings.tabs.apiKeys",

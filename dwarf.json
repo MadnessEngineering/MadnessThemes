@@ -772,7 +772,7 @@
     },
     "tabs": {
       "profile": "Miner Profile",
-      "database": "Ore Repository",
+      "data": "Ore Repository",
       "aiConfiguration": "Forge Familiar Setup",
       "mcpSetup": "MCP Toolbench Setup",
       "apiKeys": "Forge Access Keys",

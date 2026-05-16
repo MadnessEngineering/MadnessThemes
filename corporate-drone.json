@@ -735,7 +735,7 @@
     },
     "tabs": {
       "profile": "User Profile",
-      "database": "Data Repository",
+      "data": "Data Repository",
       "aiConfiguration": "AI Assistant Configuration",
       "mcpSetup": "MCP Platform Setup",
       "messaging": "Communication Roles",

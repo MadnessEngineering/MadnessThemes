@@ -772,7 +772,7 @@
     },
     "tabs": {
       "profile": "Ape Profile",
-      "database": "Banana Repository",
+      "data": "Banana Repository",
       "aiConfiguration": "AI Assistant Configuration",
       "mcpSetup": "MCP Apparatus Setup",
       "apiKeys": "Tree Access Keys",
