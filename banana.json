@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Peel Away"
   },
   "forms": {
     "name": "Branch Name",
@@ -2160,11 +2161,14 @@
     "projects": "Banana Groves",
     "unlimited": "Infinite Bunches",
     "upgradePrompt": "Ascend to Silverback for infinite foraging, groves, the War Tree, and the MonkeyDesk canopy!",
+    "paymentFailed": "The banana tree shook but no fruit fell! Check your payment bunch before the monkeys lose access.",
+    "fixPayment": "Fix Bunch",
     "cancelSuccess": "Harvest stopped. Your jungle access stays until the current moon sets.",
     "status": {
       "active": "RIPENING",
       "free": "CHIMP",
-      "inactive": "MUSH"
+      "inactive": "MUSH",
+      "past_due": "BUNCH OVERDUE"
     },
     "errors": {
       "loadFailed": "The banana stash is stuck in the mud",

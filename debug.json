@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "common.dismiss"
   },
   "forms": {
     "name": "forms.name",
@@ -2169,11 +2170,14 @@
     "projects": "billing.projects",
     "unlimited": "billing.unlimited",
     "upgradePrompt": "billing.upgradePrompt",
+    "paymentFailed": "billing.paymentFailed",
+    "fixPayment": "billing.fixPayment",
     "cancelSuccess": "billing.cancelSuccess",
     "status": {
       "active": "billing.status.active",
       "free": "billing.status.free",
-      "inactive": "billing.status.inactive"
+      "inactive": "billing.status.inactive",
+      "past_due": "billing.status.past_due"
     },
     "errors": {
       "loadFailed": "billing.errors.loadFailed",

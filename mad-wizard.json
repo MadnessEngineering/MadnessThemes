@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Banish"
   },
   "forms": {
     "name": "Experiment Code Name",
@@ -2190,11 +2191,14 @@
     "projects": "Research Domains",
     "unlimited": "Boundless",
     "upgradePrompt": "Ascend to Grand Patron for boundless experiments, domains, War Chamber, and the SwarmDesk sanctum!",
+    "paymentFailed": "The tribute ritual has faltered! Replenish your arcane coffers lest your Grand Patron privileges dissolve.",
+    "fixPayment": "Restore Tribute",
     "cancelSuccess": "Patronage revoked. Your laboratory access persists until the current lunar cycle concludes.",
     "status": {
       "active": "EMPOWERED",
       "free": "APPRENTICE",
-      "inactive": "DORMANT"
+      "inactive": "DORMANT",
+      "past_due": "TRIBUTE OVERDUE"
     },
     "errors": {
       "loadFailed": "The arcane ledger refused to materialize",

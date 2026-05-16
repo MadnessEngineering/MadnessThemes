@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Dismiss"
   },
   "forms": {
     "name": "Project Name",
@@ -2160,11 +2161,14 @@
     "projects": "Projects",
     "unlimited": "Unlimited",
     "upgradePrompt": "Upgrade to Professional for unlimited tasks, more projects, and priority support!",
+    "paymentFailed": "Your payment could not be processed. Please update your payment method to maintain your subscription.",
+    "fixPayment": "Update Payment",
     "cancelSuccess": "Your subscription has been cancelled. You will still have access to professional features until your current period ends.",
     "status": {
       "active": "ACTIVE",
       "free": "STANDARD",
-      "inactive": "INACTIVE"
+      "inactive": "INACTIVE",
+      "past_due": "PAST DUE"
     },
     "errors": {
       "loadFailed": "We couldn't load your billing information",

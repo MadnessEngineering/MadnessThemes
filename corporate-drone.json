@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Acknowledge"
   },
   "forms": {
     "name": "Initiative Identifier",
@@ -2189,11 +2190,14 @@
     "projects": "Workstreams",
     "unlimited": "Unlimited",
     "upgradePrompt": "Upgrade to Enterprise tier for unlimited task units, workstreams, War Room, and SwarmDesk access!",
+    "paymentFailed": "Payment processing failed. Update your billing instrument to maintain service continuity.",
+    "fixPayment": "Update Billing",
     "cancelSuccess": "Service agreement terminated. Access continues through current billing cycle.",
     "status": {
       "active": "ACTIVE",
       "free": "BASIC",
-      "inactive": "SUSPENDED"
+      "inactive": "SUSPENDED",
+      "past_due": "PAYMENT OVERDUE"
     },
     "errors": {
       "loadFailed": "Failed to retrieve billing records",

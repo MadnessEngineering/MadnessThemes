@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Dismiss"
   },
   "forms": {
     "name": "Project Name",
@@ -2190,11 +2191,14 @@
     "projects": "Projects",
     "unlimited": "Unlimited",
     "upgradePrompt": "Upgrade to Pro for unlimited todos, projects, War Room, and SwarmDesk!",
+    "paymentFailed": "Your last payment failed. Update your payment method to keep your Madness Pass active.",
+    "fixPayment": "Update Payment",
     "cancelSuccess": "Subscription canceled successfully. You will retain access until the end of your billing period.",
     "status": {
       "active": "ACTIVE",
       "free": "FREE",
-      "inactive": "INACTIVE"
+      "inactive": "INACTIVE",
+      "past_due": "PAST DUE"
     },
     "errors": {
       "loadFailed": "Failed to load subscription details",

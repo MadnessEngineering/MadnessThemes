@@ -2160,11 +2160,14 @@
     "projects": "Sub-Networks",
     "unlimited": "Boundless",
     "upgradePrompt": "Elevate to Elite Operator for boundless task nodes, sub-networks, the War Room console, and full SwarmDesk access!",
+    "paymentFailed": "Payment sync failed. Update payment vector to maintain uplink access.",
+    "fixPayment": "Resync Payment",
     "cancelSuccess": "Uplink terminated. Access persists until current cycle expiration.",
     "status": {
       "active": "ENCRYPTED",
       "free": "GUEST",
-      "inactive": "OFFLINE"
+      "inactive": "OFFLINE",
+      "past_due": "SYNC OVERDUE"
     },
     "errors": {
       "loadFailed": "Credit interface connection failed",

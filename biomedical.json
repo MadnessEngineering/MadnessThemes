@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Discard"
   },
   "forms": {
     "name": "Study Name",
@@ -2160,11 +2161,14 @@
     "projects": "Research Facilities",
     "unlimited": "Sustained",
     "upgradePrompt": "Elevate to Principal Investigator for sustained protocols, facilities, the War Room diagnostic center, and the SwarmDesk terminal!",
+    "paymentFailed": "Payment assay failed. Update your funding instrument to maintain laboratory clearance.",
+    "fixPayment": "Update Funding",
     "cancelSuccess": "Grant terminated. Laboratory access persists until the current funding cycle expires.",
     "status": {
       "active": "FUNDED",
       "free": "FELLOWSHIP",
-      "inactive": "DEFUNDED"
+      "inactive": "DEFUNDED",
+      "past_due": "FUNDING LAPSED"
     },
     "errors": {
       "loadFailed": "The grant ledger failed to initialize",

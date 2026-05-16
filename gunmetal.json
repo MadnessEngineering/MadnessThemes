@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Dismiss"
   },
   "forms": {
     "name": "Project Name",
@@ -2160,11 +2161,14 @@
     "projects": "Tactical Sectors",
     "unlimited": "Unrestricted",
     "upgradePrompt": "Authorize Commander Clearance for unrestricted objectives, sectors, War Room access, and SwarmDesk tactical support!",
+    "paymentFailed": "Payment authorization failed. Update payment credentials to maintain operational clearance.",
+    "fixPayment": "Update Credentials",
     "cancelSuccess": "Funding terminated. Clearance remains active until the current deployment cycle ends.",
     "status": {
       "active": "OPERATIONAL",
       "free": "RECRUIT",
-      "inactive": "OFFLINE"
+      "inactive": "OFFLINE",
+      "past_due": "CLEARANCE LAPSED"
     },
     "errors": {
       "loadFailed": "Logistics data retrieval failed",

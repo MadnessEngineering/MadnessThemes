@@ -86,7 +86,8 @@
     "import": "Import",
     "viewAll": "View All",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Shoo"
   },
   "forms": {
     "name": "Quarry Claim Name",
@@ -2160,11 +2161,14 @@
     "projects": "Mining Sectors",
     "unlimited": "Bottomless",
     "upgradePrompt": "Ascend to Mountain King for bottomless tasks, sectors, the War Room, and the inner Sanctum!",
+    "paymentFailed": "The gold shipment didnae arrive! Update yer payment ore or the tunnels close.",
+    "fixPayment": "Send Gold",
     "cancelSuccess": "Rights relinquished. Your access to the tunnels persists until the current moon fades.",
     "status": {
       "active": "STRIKING GOLD",
       "free": "QUARRY HAND",
-      "inactive": "DORMANT MINE"
+      "inactive": "DORMANT MINE",
+      "past_due": "GOLD OVERDUE"
     },
     "errors": {
       "loadFailed": "The ledger is buried under a cave-in",

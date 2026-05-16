@@ -86,7 +86,8 @@
     "import": "Import Scrolls",
     "viewAll": "View All Scrolls",
     "collapse": "Fold",
-    "expand": "Unfurl"
+    "expand": "Unfurl",
+    "dismiss": "Dismiss"
   },
   "forms": {
     "name": "Project Name",
@@ -2160,11 +2161,14 @@
     "projects": "Fiefdoms",
     "unlimited": "Infinite",
     "upgradePrompt": "Ascend to Holy Knight for infinite quests, fiefdoms, the War Council, and the High Sanctum!",
+    "paymentFailed": "The tithe has faltered! Replenish thy coffers lest the Order revoke thy privileges.",
+    "fixPayment": "Restore Tithe",
     "cancelSuccess": "Vow renounced. Your access remains until the current lunar cycle is complete.",
     "status": {
       "active": "FAITHFUL",
       "free": "PILGRIM",
-      "inactive": "EXCOMMUNICATED"
+      "inactive": "EXCOMMUNICATED",
+      "past_due": "TITHE OVERDUE"
     },
     "errors": {
       "loadFailed": "The ledger remains sealed",

@@ -86,7 +86,8 @@
     "import": "Import Dataset",
     "viewAll": "View Full Dataset",
     "collapse": "Collapse",
-    "expand": "Expand"
+    "expand": "Expand",
+    "dismiss": "Dismiss"
   },
   "forms": {
     "name": "Project Name",
@@ -2160,11 +2161,14 @@
     "projects": "Research Domains",
     "unlimited": "Unrestricted",
     "upgradePrompt": "Expand to full facility scope for unrestricted protocols, domains, the War Chamber, and the SwarmDesk interface!",
+    "paymentFailed": "Payment provisioning failed. Update billing configuration to maintain facility access.",
+    "fixPayment": "Update Billing",
     "cancelSuccess": "Provisioning terminated. Facility access persists until the current cycle concludes.",
     "status": {
       "active": "OPERATIONAL",
       "free": "STANDARD",
-      "inactive": "DECOMMISSIONED"
+      "inactive": "DECOMMISSIONED",
+      "past_due": "PROVISION OVERDUE"
     },
     "errors": {
       "loadFailed": "The resource registry failed to respond",
