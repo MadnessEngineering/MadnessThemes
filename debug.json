@@ -2384,5 +2384,13 @@
       "exitFullscreen": "constellation.controls.exitFullscreen"
     },
     "viewModeTooltip": "constellation.viewModeTooltip"
+  },
+  "tier": {
+    "pro": "tier.pro",
+    "proTooltip": "tier.proTooltip",
+    "admin": "tier.admin",
+    "adminTooltip": "tier.adminTooltip",
+    "premium": "tier.premium",
+    "premiumTooltip": "tier.premiumTooltip"
   }
 }

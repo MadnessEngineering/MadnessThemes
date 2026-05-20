@@ -2404,5 +2404,13 @@
       "exitFullscreen": "Exit Full View"
     },
     "viewModeTooltip": "Dependency Matrix"
+  },
+  "tier": {
+    "pro": "PREMIUM TIER",
+    "proTooltip": "Tier 1 personnel with enhanced performance metrics",
+    "admin": "C-SUITE",
+    "adminTooltip": "Top-level management with unrestricted governance over all protocols",
+    "premium": "EXECUTIVE",
+    "premiumTooltip": "High-yield contributor with priority access to strategic resources"
   }
 }

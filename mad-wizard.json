@@ -2405,5 +2405,13 @@
       "exitFullscreen": "Collapse the Vision"
     },
     "viewModeTooltip": "Astral Dependency Web"
+  },
+  "tier": {
+    "pro": "ADEPT",
+    "proTooltip": "An apprentice who has mastered the foundational sigils",
+    "admin": "ARCHMAGE",
+    "adminTooltip": "The master of the tower with absolute authority over all spells",
+    "premium": "ARTIFICER",
+    "premiumTooltip": "An elite scholar with access to the most rare and volatile reagents"
   }
 }
