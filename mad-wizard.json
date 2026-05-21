@@ -2265,6 +2265,8 @@
       "inactive": "DORMANT",
       "past_due": "TRIBUTE OVERDUE"
     },
+    "complimentaryTitle": "Complimentary patronage bestowed",
+    "complimentaryBody": "— no tribute required.",
     "errors": {
       "loadFailed": "The arcane ledger refused to materialize",
       "cancelFailed": "The revocation ritual failed. Attempt again or summon support.",

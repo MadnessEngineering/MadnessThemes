@@ -2235,6 +2235,8 @@
       "inactive": "EXCOMMUNICATED",
       "past_due": "TITHE OVERDUE"
     },
+    "complimentaryTitle": "Divine grace bestowed",
+    "complimentaryBody": "— no tithe necessary.",
     "errors": {
       "loadFailed": "The ledger remains sealed",
       "cancelFailed": "The renunciation was rejected. Consult the High Priest.",

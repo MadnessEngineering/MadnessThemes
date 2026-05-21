@@ -2235,6 +2235,8 @@
       "inactive": "INACTIVE",
       "past_due": "PAST DUE"
     },
+    "complimentaryTitle": "Complimentary access enabled",
+    "complimentaryBody": "— no charges apply.",
     "errors": {
       "loadFailed": "We couldn't load your billing information",
       "cancelFailed": "The cancellation request failed. Please try again or contact us.",

@@ -2264,6 +2264,8 @@
       "inactive": "SUSPENDED",
       "past_due": "PAYMENT OVERDUE"
     },
+    "complimentaryTitle": "Executive access granted",
+    "complimentaryBody": "— zero-cost allocation.",
     "errors": {
       "loadFailed": "Failed to retrieve billing records",
       "cancelFailed": "Termination request failed. Please retry or escalate to support.",

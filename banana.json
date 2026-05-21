@@ -2235,6 +2235,8 @@
       "inactive": "MUSH",
       "past_due": "BUNCH OVERDUE"
     },
+    "complimentaryTitle": "Complimentary Banana Bunch active",
+    "complimentaryBody": "— no peel required.",
     "errors": {
       "loadFailed": "The banana stash is stuck in the mud",
       "cancelFailed": "The harvest won't stop! Call the head monkey.",

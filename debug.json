@@ -2244,6 +2244,8 @@
       "inactive": "billing.status.inactive",
       "past_due": "billing.status.past_due"
     },
+    "complimentaryTitle": "DEBUG: Complimentary access active",
+    "complimentaryBody": "— [BILLING_BYPASS_ENABLED]",
     "errors": {
       "loadFailed": "billing.errors.loadFailed",
       "cancelFailed": "billing.errors.cancelFailed",

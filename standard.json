@@ -2265,6 +2265,8 @@
       "inactive": "INACTIVE",
       "past_due": "PAST DUE"
     },
+    "complimentaryTitle": "Complimentary Pro access active",
+    "complimentaryBody": "— no billing required.",
     "errors": {
       "loadFailed": "Failed to load subscription details",
       "cancelFailed": "Failed to cancel subscription. Please try again or contact support.",

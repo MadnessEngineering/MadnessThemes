@@ -2234,6 +2234,8 @@
       "inactive": "OFFLINE",
       "past_due": "SYNC OVERDUE"
     },
+    "complimentaryTitle": "System override active",
+    "complimentaryBody": "— no credits required.",
     "errors": {
       "loadFailed": "Credit interface connection failed",
       "cancelFailed": "Termination sequence aborted. Retry.",

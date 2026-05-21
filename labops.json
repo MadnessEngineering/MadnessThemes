@@ -2235,6 +2235,8 @@
       "inactive": "DECOMMISSIONED",
       "past_due": "PROVISION OVERDUE"
     },
+    "complimentaryTitle": "Operational exemption active",
+    "complimentaryBody": "— procurement bypass.",
     "errors": {
       "loadFailed": "The resource registry failed to respond",
       "cancelFailed": "Termination protocol failed. Re-attempt or contact systems support.",

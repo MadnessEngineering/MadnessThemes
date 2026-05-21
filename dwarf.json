@@ -2235,6 +2235,8 @@
       "inactive": "DORMANT MINE",
       "past_due": "GOLD OVERDUE"
     },
+    "complimentaryTitle": "King's favor granted",
+    "complimentaryBody": "— no gold needed.",
     "errors": {
       "loadFailed": "The ledger is buried under a cave-in",
       "cancelFailed": "The elders refuse your request to leave the clan.",

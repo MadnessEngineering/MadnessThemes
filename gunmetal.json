@@ -2235,6 +2235,8 @@
       "inactive": "OFFLINE",
       "past_due": "CLEARANCE LAPSED"
     },
+    "complimentaryTitle": "High Command authorization active",
+    "complimentaryBody": "— logistics bypass active.",
     "errors": {
       "loadFailed": "Logistics data retrieval failed",
       "cancelFailed": "Termination sequence failed. Retry or contact HQ.",

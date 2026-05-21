@@ -2235,6 +2235,8 @@
       "inactive": "DEFUNDED",
       "past_due": "FUNDING LAPSED"
     },
+    "complimentaryTitle": "Grant-funded access authorized",
+    "complimentaryBody": "— internal funding active.",
     "errors": {
       "loadFailed": "The grant ledger failed to initialize",
       "cancelFailed": "Grant termination protocol failed. Retry or contact administration.",
