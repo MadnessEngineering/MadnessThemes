@@ -1968,7 +1968,11 @@
         "candidates": "Consolidation candidates:",
         "preview": "Merge preview:",
         "confirmation": "Proceed with consolidation?"
-      }
+      },
+      "title": "Spell Results",
+      "latest": "Latest",
+      "noResults": "No results yet. Cast a spell to see results here.",
+      "summary": "{{count}} spell results shown"
     },
     "errors": {
       "castingFailed": "Augmentation failed: {{error}}",
@@ -2034,7 +2038,8 @@
       "castSuccessfully": "EXEC_SUCCESS",
       "castFailed": "SEGFAULT",
       "showing": "view",
-      "totalCasts": "count"
+      "totalCasts": "count",
+      "toggle": "Toggle spell history"
     },
     "status": {
       "idle": "Augmentation tools ready",
@@ -2042,19 +2047,79 @@
       "processing": "Processing data matrix...",
       "complete": "Augmentation complete",
       "failed": "Augmentation failed",
-      "cooldown": "System cooling down..."
+      "cooldown": "System cooling down...",
+      "success": "Success"
     },
     "enhance_description": {
-      "name": "reformat_text"
+      "name": "reformat_text",
+      "description": "Use AI to enhance and clarify this task description",
+      "button": "Enhance Description",
+      "casting": "Enhancing description..."
     },
     "perform_geomancy": {
-      "name": "map_network"
+      "name": "map_network",
+      "description": "Analyze patterns and relationships for this task",
+      "button": "Analyze Patterns",
+      "casting": "Analyzing patterns..."
     },
     "consolidate_similar": {
-      "name": "dedupe"
+      "name": "dedupe",
+      "description": "Find and merge similar tasks to reduce duplication",
+      "button": "Find Similar",
+      "casting": "Searching for similar tasks..."
     },
     "suggest_tags": {
       "name": "label_data"
+    },
+    "system": {
+      "title": "Spell System"
+    },
+    "accessDenied": {
+      "title": "Access Denied",
+      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+    },
+    "noTodoSelected": "No todo selected",
+    "availableSpells": "Available Spells",
+    "keyboardShortcut": "Keyboard Shortcut",
+    "estimatedTime": "Estimated Time",
+    "tip": {
+      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+    },
+    "meta": {
+      "maxPerHour": "Max casts per hour",
+      "lastCast": "Last cast"
+    },
+    "result": {
+      "confidence": "Confidence"
+    },
+    "error": {
+      "unknown": "An unknown error occurred"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Enhanced Description",
+        "before": "Before",
+        "after": "After",
+        "improvements": "Improvements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Insights",
+        "relatedProjects": "Related Projects"
+      },
+      "insights": {
+        "complexity": "Complexity",
+        "duration": "Estimated Duration",
+        "risks": "Risk Factors"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Found {{count}} similar tasks",
+      "result": {
+        "consolidated": "Consolidated Description",
+        "suggestions": "Merge Suggestions"
+      }
     }
   },
   "todoEdit": {

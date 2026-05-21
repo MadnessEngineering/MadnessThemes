@@ -1588,7 +1588,11 @@
         "candidates": "Consolidation targets:",
         "preview": "Merge tactical preview:",
         "confirmation": "Proceed with mission consolidation?"
-      }
+      },
+      "title": "Spell Results",
+      "latest": "Latest",
+      "noResults": "No results yet. Cast a spell to see results here.",
+      "summary": "{{count}} spell results shown"
     },
     "errors": {
       "castingFailed": "System deployment failed: {{error}}",
@@ -1654,7 +1658,8 @@
       "castSuccessfully": "Mission accomplished.",
       "castFailed": "Operation compromised.",
       "showing": "Visualizing",
-      "totalCasts": "Total Sorties"
+      "totalCasts": "Total Sorties",
+      "toggle": "Toggle spell history"
     },
     "status": {
       "idle": "Tactical systems ready",
@@ -1662,19 +1667,79 @@
       "processing": "Processing tactical data...",
       "complete": "System deployment complete",
       "failed": "Deployment failed",
-      "cooldown": "Systems cooling down..."
+      "cooldown": "Systems cooling down...",
+      "success": "Success"
     },
     "enhance_description": {
-      "name": "Tactical Overhaul"
+      "name": "Tactical Overhaul",
+      "description": "Use AI to enhance and clarify this task description",
+      "button": "Enhance Description",
+      "casting": "Enhancing description..."
     },
     "perform_geomancy": {
-      "name": "Grid Mapping"
+      "name": "Grid Mapping",
+      "description": "Analyze patterns and relationships for this task",
+      "button": "Analyze Patterns",
+      "casting": "Analyzing patterns..."
     },
     "consolidate_similar": {
-      "name": "Squad Merging"
+      "name": "Squad Merging",
+      "description": "Find and merge similar tasks to reduce duplication",
+      "button": "Find Similar",
+      "casting": "Searching for similar tasks..."
     },
     "suggest_tags": {
       "name": "Designation Labeling"
+    },
+    "system": {
+      "title": "Spell System"
+    },
+    "accessDenied": {
+      "title": "Access Denied",
+      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+    },
+    "noTodoSelected": "No todo selected",
+    "availableSpells": "Available Spells",
+    "keyboardShortcut": "Keyboard Shortcut",
+    "estimatedTime": "Estimated Time",
+    "tip": {
+      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+    },
+    "meta": {
+      "maxPerHour": "Max casts per hour",
+      "lastCast": "Last cast"
+    },
+    "result": {
+      "confidence": "Confidence"
+    },
+    "error": {
+      "unknown": "An unknown error occurred"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Enhanced Description",
+        "before": "Before",
+        "after": "After",
+        "improvements": "Improvements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Insights",
+        "relatedProjects": "Related Projects"
+      },
+      "insights": {
+        "complexity": "Complexity",
+        "duration": "Estimated Duration",
+        "risks": "Risk Factors"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Found {{count}} similar tasks",
+      "result": {
+        "consolidated": "Consolidated Description",
+        "suggestions": "Merge Suggestions"
+      }
     }
   },
   "admin": {

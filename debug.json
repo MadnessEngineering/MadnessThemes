@@ -1566,7 +1566,11 @@
         "candidates": "spells.results.consolidate.candidates",
         "preview": "spells.results.consolidate.preview",
         "confirmation": "spells.results.consolidate.confirmation"
-      }
+      },
+      "title": "[DEBUG] spells.results.title",
+      "latest": "[DEBUG] latest",
+      "noResults": "[DEBUG] resultsToShow.length===0",
+      "summary": "[DEBUG] {{count}} results rendered"
     },
     "errors": {
       "castingFailed": "spells.errors.castingFailed",
@@ -1632,7 +1636,8 @@
       "castSuccessfully": "spells.history.castSuccessfully",
       "castFailed": "spells.history.castFailed",
       "showing": "spells.history.showing",
-      "totalCasts": "spells.history.totalCasts"
+      "totalCasts": "spells.history.totalCasts",
+      "toggle": "[DEBUG] spells.history.toggle"
     },
     "status": {
       "idle": "spells.status.idle",
@@ -1640,19 +1645,79 @@
       "processing": "spells.status.processing",
       "complete": "spells.status.complete",
       "failed": "spells.status.failed",
-      "cooldown": "spells.status.cooldown"
+      "cooldown": "spells.status.cooldown",
+      "success": "[DEBUG] status=success"
     },
     "enhance_description": {
-      "name": "spells.enhance_description.name"
+      "name": "spells.enhance_description.name",
+      "description": "[DEBUG] enhance_description.description — AI enhancement spell",
+      "button": "[DEBUG] enhance_description.button",
+      "casting": "[DEBUG] enhance_description.casting — isActive=true"
     },
     "perform_geomancy": {
-      "name": "spells.perform_geomancy.name"
+      "name": "spells.perform_geomancy.name",
+      "description": "[DEBUG] perform_geomancy.description — pattern analysis spell",
+      "button": "[DEBUG] perform_geomancy.button",
+      "casting": "[DEBUG] perform_geomancy.casting — isActive=true"
     },
     "consolidate_similar": {
-      "name": "spells.consolidate_similar.name"
+      "name": "spells.consolidate_similar.name",
+      "description": "[DEBUG] consolidate_similar.description — merge spell",
+      "button": "[DEBUG] consolidate_similar.button",
+      "casting": "[DEBUG] consolidate_similar.casting — isActive=true"
     },
     "suggest_tags": {
       "name": "spells.suggest_tags.name"
+    },
+    "system": {
+      "title": "[DEBUG] spells.system.title"
+    },
+    "accessDenied": {
+      "title": "[DEBUG] spells.accessDenied.title",
+      "description": "[DEBUG] spells.accessDenied.description — auth check failed, userCanCastSpells=false"
+    },
+    "noTodoSelected": "[DEBUG] spells.noTodoSelected — todo prop is null/undefined",
+    "availableSpells": "[DEBUG] spells.availableSpells — AVAILABLE_SPELLS keys",
+    "keyboardShortcut": "[DEBUG] spells.keyboardShortcut",
+    "estimatedTime": "[DEBUG] spells.estimatedTime",
+    "tip": {
+      "castMultiple": "[DEBUG] spells.tip.castMultiple — multi-cast hint"
+    },
+    "meta": {
+      "maxPerHour": "[DEBUG] spell.maxCastsPerHour",
+      "lastCast": "[DEBUG] result.castAt"
+    },
+    "result": {
+      "confidence": "[DEBUG] confidence_score"
+    },
+    "error": {
+      "unknown": "[DEBUG] spells.error.unknown — catch-all error"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "[DEBUG] enhanceDescription.result.title",
+        "before": "[DEBUG] original_description",
+        "after": "[DEBUG] enhanced_description",
+        "improvements": "[DEBUG] improvements[]"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "[DEBUG] insights[]",
+        "relatedProjects": "[DEBUG] related_projects[]"
+      },
+      "insights": {
+        "complexity": "[DEBUG] complexity_score",
+        "duration": "[DEBUG] estimated_duration",
+        "risks": "[DEBUG] risk_factors[]"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "[DEBUG] similar_todos.length={{count}}",
+      "result": {
+        "consolidated": "[DEBUG] consolidated_description",
+        "suggestions": "[DEBUG] merge_suggestions[]"
+      }
     }
   },
   "insights": {

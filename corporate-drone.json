@@ -1573,7 +1573,11 @@
         "candidates": "Consolidation opportunities identified:",
         "preview": "Process optimization preview:",
         "confirmation": "Proceed with strategic consolidation?"
-      }
+      },
+      "title": "Optimization Outcomes",
+      "latest": "Most Recent",
+      "noResults": "No outcomes generated yet. Deploy an optimization to populate this dashboard.",
+      "summary": "{{count}} optimization outcomes tracked"
     },
     "errors": {
       "castingFailed": "Enhancement protocol failed: {{error}}",
@@ -1639,7 +1643,8 @@
       "castSuccessfully": "Deployment validated.",
       "castFailed": "Systemic failure detected.",
       "showing": "Visualizing",
-      "totalCasts": "Total Implementations"
+      "totalCasts": "Total Implementations",
+      "toggle": "Toggle activity log"
     },
     "status": {
       "idle": "AI enhancement system ready",
@@ -1647,19 +1652,79 @@
       "processing": "AI algorithms processing data...",
       "complete": "Enhancement protocol completed successfully",
       "failed": "System error encountered during processing",
-      "cooldown": "System resources recharging..."
+      "cooldown": "System resources recharging...",
+      "success": "Delivered"
     },
     "enhance_description": {
-      "name": "Value-Add Optimization"
+      "name": "Value-Add Optimization",
+      "description": "Leverage AI to optimize this action item for clarity and stakeholder alignment",
+      "button": "Optimize Description",
+      "casting": "Optimizing deliverable..."
     },
     "perform_geomancy": {
-      "name": "Vertical Integration"
+      "name": "Vertical Integration",
+      "description": "Analyze cross-functional patterns and dependency chains",
+      "button": "Run Analytics",
+      "casting": "Generating actionable insights..."
     },
     "consolidate_similar": {
-      "name": "Synergistic Consolidation"
+      "name": "Synergistic Consolidation",
+      "description": "Identify and merge redundant action items to streamline workflows",
+      "button": "Find Redundancies",
+      "casting": "Scanning for synergies..."
     },
     "suggest_tags": {
       "name": "Metadata Categorization"
+    },
+    "system": {
+      "title": "Productivity Optimization Suite"
+    },
+    "accessDenied": {
+      "title": "Access Restricted",
+      "description": "Your access tier does not include this optimization module. Please authenticate or contact your administrator."
+    },
+    "noTodoSelected": "No action item selected",
+    "availableSpells": "Available Optimizations",
+    "keyboardShortcut": "Quick-Access Binding",
+    "estimatedTime": "Projected Turnaround",
+    "tip": {
+      "castMultiple": "Leverage multiple optimizations on the same deliverable for maximum synergy"
+    },
+    "meta": {
+      "maxPerHour": "Throughput cap per cycle",
+      "lastCast": "Last deployment"
+    },
+    "result": {
+      "confidence": "Confidence Index"
+    },
+    "error": {
+      "unknown": "An unspecified process failure occurred"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Optimized Deliverable",
+        "before": "Pre-Optimization",
+        "after": "Post-Optimization",
+        "improvements": "Value-Add Improvements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Actionable Insights",
+        "relatedProjects": "Cross-Functional Dependencies"
+      },
+      "insights": {
+        "complexity": "Complexity Score",
+        "duration": "Resource Allocation Estimate",
+        "risks": "Risk Indicators"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Identified {{count}} redundant action items",
+      "result": {
+        "consolidated": "Consolidated Deliverable",
+        "suggestions": "Streamlining Recommendations"
+      }
     }
   },
   "activityLog": {

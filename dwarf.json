@@ -1535,7 +1535,11 @@
         "candidates": "Convergence candidates identified:",
         "preview": "Forging preview:",
         "confirmation": "Proceed with ore convergence?"
-      }
+      },
+      "title": "Forge Output",
+      "latest": "Fresh from Anvil",
+      "noResults": "Forge cold. Strike a rune to see results here.",
+      "summary": "{{count}} forgings complete"
     },
     "errors": {
       "castingFailed": "Ore ritual failed: {{error}}",
@@ -1601,7 +1605,8 @@
       "castSuccessfully": "Forged in fire!",
       "castFailed": "Hammer broke.",
       "showing": "Gazing",
-      "totalCasts": "Total Ingots"
+      "totalCasts": "Total Ingots",
+      "toggle": "Unroll forge ledger"
     },
     "status": {
       "idle": "Ore energies at rest",
@@ -1609,19 +1614,79 @@
       "processing": "Ore computation in progress...",
       "complete": "Ritual successfully extracted",
       "failed": "Mining interference detected",
-      "cooldown": "Recovering ore energies..."
+      "cooldown": "Recovering ore energies...",
+      "success": "Masterwork"
     },
     "enhance_description": {
-      "name": "Polishing Gems"
+      "name": "Polishing Gems",
+      "description": "Heat the ore in the AI crucible to refine this task inscription",
+      "button": "Smelt Description",
+      "casting": "Heating the crucible..."
     },
     "perform_geomancy": {
-      "name": "Vein Tracking"
+      "name": "Vein Tracking",
+      "description": "Read the stone veins to divine patterns in this task",
+      "button": "Read the Veins",
+      "casting": "Dowsing for ore patterns..."
     },
     "consolidate_similar": {
-      "name": "Smelting Down"
+      "name": "Smelting Down",
+      "description": "Combine duplicate ore samples into a single refined ingot",
+      "button": "Prospect for Duplicates",
+      "casting": "Mining for similar veins..."
     },
     "suggest_tags": {
       "name": "Rune Carving"
+    },
+    "system": {
+      "title": "Runeforge Enchantment Hall"
+    },
+    "accessDenied": {
+      "title": "Sealed Vault",
+      "description": "Ye lack the rune-key to enter this forge chamber. Present yer credentials or earn higher rank, ya nugget."
+    },
+    "noTodoSelected": "No ore selected for smelting",
+    "availableSpells": "Ready Runes",
+    "keyboardShortcut": "Hammer Stroke",
+    "estimatedTime": "Forge Time",
+    "tip": {
+      "castMultiple": "Strike multiple runes on the same ore for a masterwork alloy"
+    },
+    "meta": {
+      "maxPerHour": "Max strikes per shift",
+      "lastCast": "Last forging"
+    },
+    "result": {
+      "confidence": "Ore Purity"
+    },
+    "error": {
+      "unknown": "The forge sputtered — unknown fault in the bellows"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Reforged Inscription",
+        "before": "Raw Ore",
+        "after": "Smelted Ingot",
+        "improvements": "Forge Improvements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Vein Readings",
+        "relatedProjects": "Connected Mineshafts"
+      },
+      "insights": {
+        "complexity": "Rock Hardness",
+        "duration": "Excavation Estimate",
+        "risks": "Cave-In Hazards"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Struck {{count}} similar veins",
+      "result": {
+        "consolidated": "Consolidated Ore Deposit",
+        "suggestions": "Merger Proposals from the Mining Guild"
+      }
     }
   },
   "onboarding": {

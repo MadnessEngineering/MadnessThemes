@@ -1640,7 +1640,11 @@
         "candidates": "Convergence candidates identified:",
         "preview": "Transmutation preview:",
         "confirmation": "Proceed with mystical convergence?"
-      }
+      },
+      "title": "Arcane Manifestations",
+      "latest": "Recent Visions",
+      "noResults": "The crystal ball is clear. Cast an incantation to manifest results here.",
+      "summary": "{{count}} ethereal manifestations observed"
     },
     "errors": {
       "castingFailed": "Mystical ritual failed: {{error}}",
@@ -1706,7 +1710,8 @@
       "castSuccessfully": "Incantation bound successfully!",
       "castFailed": "The spell recoiled!",
       "showing": "Observing",
-      "totalCasts": "Total Rituals"
+      "totalCasts": "Total Rituals",
+      "toggle": "Unveil Ritual Chronicle"
     },
     "status": {
       "idle": "Mystical energies at rest",
@@ -1714,19 +1719,79 @@
       "processing": "Mystical computation in progress...",
       "complete": "Ritual successfully manifested",
       "failed": "Mystical interference detected",
-      "cooldown": "Recovering mystical energies..."
+      "cooldown": "Recovering mystical energies...",
+      "success": "Perfect Manifestation"
     },
     "enhance_description": {
-      "name": "Arcane Clarification"
+      "name": "Arcane Clarification",
+      "description": "Channel the AI familiar to polish these research notes with mystical clarity",
+      "button": "Refine Documentation",
+      "casting": "Brewing documentation elixir..."
     },
     "perform_geomancy": {
-      "name": "Ley Line Alignment"
+      "name": "Ley Line Alignment",
+      "description": "Divine hidden patterns and ley lines within this experiment",
+      "button": "Divine Patterns",
+      "casting": "Tracing ethereal ley lines..."
     },
     "consolidate_similar": {
-      "name": "Alchemical Fusion"
+      "name": "Alchemical Fusion",
+      "description": "Fuse overlapping research specimens into a singular truth",
+      "button": "Find Echoed Essences",
+      "casting": "Synthesizing research conflux..."
     },
     "suggest_tags": {
       "name": "Sigil Divination"
+    },
+    "system": {
+      "title": "Arcane Incantation Nexus"
+    },
+    "accessDenied": {
+      "title": "Warded Portal",
+      "description": "Thy mystical essence is insufficient to breach these wards. Authenticate thy grimoire or ascend in rank."
+    },
+    "noTodoSelected": "No specimen bound for scrying",
+    "availableSpells": "Manifestable Incantations",
+    "keyboardShortcut": "Mystic Gesture",
+    "estimatedTime": "Temporal Convergence",
+    "tip": {
+      "castMultiple": "Binding multiple incantations upon a single specimen may reveal deeper forbidden truths."
+    },
+    "meta": {
+      "maxPerHour": "Maximum Channeling Capacity",
+      "lastCast": "Most Recent Manifestation"
+    },
+    "result": {
+      "confidence": "Mystical Certainty"
+    },
+    "error": {
+      "unknown": "An unforeseen ethereal backlash has occurred"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Manifested Refinement",
+        "before": "Original Inscription",
+        "after": "Refined Incantation",
+        "improvements": "Alchemical Advancements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Ethereal Epiphanies",
+        "relatedProjects": "Kindred Laboratory Apparatus"
+      },
+      "insights": {
+        "complexity": "Arcane Volatility",
+        "duration": "Temporal Distortion",
+        "risks": "Ethereal Hazards"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Discovered {{count}} echoed specimens",
+      "result": {
+        "consolidated": "Crystallized Conflux",
+        "suggestions": "Oracle's Fusion Edicts"
+      }
     }
   },
   "insights": {

@@ -1591,6 +1591,30 @@
     }
   },
   "spells": {
+    "system": {
+      "title": "Spell System"
+    },
+    "accessDenied": {
+      "title": "Access Denied",
+      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+    },
+    "noTodoSelected": "No todo selected",
+    "availableSpells": "Available Spells",
+    "keyboardShortcut": "Keyboard Shortcut",
+    "estimatedTime": "Estimated Time",
+    "tip": {
+      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+    },
+    "meta": {
+      "maxPerHour": "Max casts per hour",
+      "lastCast": "Last cast"
+    },
+    "result": {
+      "confidence": "Confidence"
+    },
+    "error": {
+      "unknown": "An unknown error occurred"
+    },
     "names": {
       "enhance_description": "AI Task Enhancement",
       "perform_geomancy": "Pattern Analysis",
@@ -1621,6 +1645,10 @@
       "complete": "Enhancement completed successfully"
     },
     "results": {
+      "title": "Spell Results",
+      "latest": "Latest",
+      "noResults": "No results yet. Cast a spell to see results here.",
+      "summary": "{{count}} spell results shown",
       "enhance": {
         "success": "🧠 Task enhanced with AI insights!",
         "improvement": "Enhancement applied to task description",
@@ -1674,6 +1702,7 @@
       "cancel": "Esc - Cancel"
     },
     "history": {
+      "toggle": "Toggle spell history",
       "timestamp": "Timestamp:",
       "spellType": "Enhancement type:",
       "target": "Target task:",
@@ -1714,19 +1743,55 @@
       "processing": "Processing data...",
       "complete": "Enhancement completed",
       "failed": "Enhancement failed",
-      "cooldown": "System cooling down..."
+      "cooldown": "System cooling down...",
+      "success": "Success"
     },
     "enhance_description": {
-      "name": "AI Task Enhancement"
+      "name": "AI Task Enhancement",
+      "description": "Use AI to enhance and clarify this task description",
+      "button": "Enhance Description",
+      "casting": "Enhancing description..."
     },
     "perform_geomancy": {
-      "name": "Pattern Analysis"
+      "name": "Pattern Analysis",
+      "description": "Analyze patterns and relationships for this task",
+      "button": "Analyze Patterns",
+      "casting": "Analyzing patterns..."
     },
     "consolidate_similar": {
-      "name": "Task Consolidation"
+      "name": "Task Consolidation",
+      "description": "Find and merge similar tasks to reduce duplication",
+      "button": "Find Similar",
+      "casting": "Searching for similar tasks..."
     },
     "suggest_tags": {
       "name": "Tag Suggestions"
+    },
+    "enhanceDescription": {
+      "result": {
+        "title": "Enhanced Description",
+        "before": "Before",
+        "after": "After",
+        "improvements": "Improvements"
+      }
+    },
+    "performGeomancy": {
+      "result": {
+        "insights": "Insights",
+        "relatedProjects": "Related Projects"
+      },
+      "insights": {
+        "complexity": "Complexity",
+        "duration": "Estimated Duration",
+        "risks": "Risk Factors"
+      }
+    },
+    "consolidateSimilar": {
+      "found": "Found {{count}} similar tasks",
+      "result": {
+        "consolidated": "Consolidated Description",
+        "suggestions": "Merge Suggestions"
+      }
     }
   },
   "insights": {
