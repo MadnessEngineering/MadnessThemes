@@ -588,7 +588,8 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
-      "openInWarp": "Open in Warp"
+      "openInWarp": "Open in Warp",
+      "addToQueue": "Add to Queue"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -814,6 +815,7 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Open in Warp",
+      "addToQueue": "Add to Queue",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text prepended when clicking Copy ID. Useful for Claude Code or other AI integrations.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"
@@ -2015,6 +2017,12 @@
       "total": "Queued",
       "high": "Urgent",
       "incoming": "Incoming"
+    },
+    "clearQueue": "Clear Queue",
+    "clearConfirm": {
+      "title": "Clear Queue?",
+      "message": "This will remove {{count}} item(s) from the ordered queue. They will move back to Incoming.",
+      "confirm": "Clear All"
     }
   },
   "onboarding": {
