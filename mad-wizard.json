@@ -801,6 +801,17 @@
       "error": "Manifestation failed due to mystical interference: {{error}}",
       "fileDialogError": "Failed to open mystical file portal"
     },
+    "todoToolbar": {
+      "title": "Grimoire Action Glyphs",
+      "subtitle": "Select which arcane glyphs adorn thy specimen scrolls. Hidden enchantments remain accessible via the secret invocation menu.",
+      "complete": "Banish to Void",
+      "edit": "Modify Experiment",
+      "copyId": "Copy Research ID",
+      "copyJiraCommand": "Cast Jira Incantation",
+      "share": "Transmit Specimen",
+      "review": "Peer Review",
+      "aiInsights": "Divination"
+    },
     "tabs": {
       "profile": "Laboratory Profile",
       "data": "Mystical Repository",

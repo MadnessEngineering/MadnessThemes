@@ -772,6 +772,17 @@
       "error": "Planting failed due to tree collapse: {{error}}",
       "fileDialogError": "Failed to open banana file portal"
     },
+    "todoToolbar": {
+      "title": "Banana Button Bunch",
+      "subtitle": "Pick which banana buttons hang from your todo bunch. Hidden bananas are still in the peel menu.",
+      "complete": "Peel",
+      "edit": "Slice",
+      "copyId": "Copy Stem ID",
+      "copyJiraCommand": "Banana Boat Command",
+      "share": "Pass the Bunch",
+      "review": "Check Ripeness",
+      "aiInsights": "Tropical Wisdom"
+    },
     "tabs": {
       "profile": "Ape Profile",
       "data": "Banana Repository",

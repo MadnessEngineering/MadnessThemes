@@ -735,6 +735,17 @@
       "error": "Import process failed due to system error: {{error}}",
       "fileDialogError": "Failed to initialize file selection interface"
     },
+    "todoToolbar": {
+      "title": "Action Item Controls",
+      "subtitle": "Configure which productivity actions display on task cards. Low-priority actions are optimized into the contextual menu.",
+      "complete": "Mark as Fulfilled",
+      "edit": "Modify Deliverable",
+      "copyId": "Duplicate Asset UID",
+      "copyJiraCommand": "Sync to Workflow",
+      "share": "Distribute Update",
+      "review": "Audit Status",
+      "aiInsights": "Synergy Analytics"
+    },
     "tabs": {
       "profile": "User Profile",
       "data": "Data Repository",

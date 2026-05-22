@@ -801,6 +801,17 @@
       "error": "settings.import.error",
       "fileDialogError": "settings.import.fileDialogError"
     },
+    "todoToolbar": {
+      "title": "settings.todoToolbar.title",
+      "subtitle": "settings.todoToolbar.subtitle",
+      "complete": "settings.todoToolbar.complete",
+      "edit": "settings.todoToolbar.edit",
+      "copyId": "settings.todoToolbar.copyId",
+      "copyJiraCommand": "settings.todoToolbar.copyJiraCommand",
+      "share": "settings.todoToolbar.share",
+      "review": "settings.todoToolbar.review",
+      "aiInsights": "settings.todoToolbar.aiInsights"
+    },
     "tabs": {
       "profile": "settings.tabs.profile",
       "data": "settings.tabs.database",

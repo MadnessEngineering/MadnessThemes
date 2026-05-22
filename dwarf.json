@@ -772,6 +772,17 @@
       "error": "Manifestation failed due to cave collapse: {{error}}",
       "fileDialogError": "Failed to open ore file portal"
     },
+    "todoToolbar": {
+      "title": "Pickaxe Tool Belt",
+      "subtitle": "Choose which mining tools hang from yer task belt. Other gear stays in the rucksack menu.",
+      "complete": "Smelt It",
+      "edit": "Reforge",
+      "copyId": "Mine ID",
+      "copyJiraCommand": "Forge Command",
+      "share": "Toss to Kin",
+      "review": "Inspect Ore",
+      "aiInsights": "Ancient Wisdom"
+    },
     "tabs": {
       "profile": "Miner Profile",
       "data": "Ore Repository",

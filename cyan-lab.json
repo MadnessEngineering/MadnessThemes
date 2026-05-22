@@ -572,6 +572,17 @@
       "error": "Import failed: {{error}}",
       "fileDialogError": "Failed to open file dialog"
     },
+    "todoToolbar": {
+      "title": "Lab Action Controls",
+      "subtitle": "Configure which controls appear on task specimens. Secondary modules are docked in the context menu.",
+      "complete": "Finalize Scan",
+      "edit": "Calibrate",
+      "copyId": "Copy Vector ID",
+      "copyJiraCommand": "Execute Terminal Sync",
+      "share": "Broadcast Signal",
+      "review": "Data Validation",
+      "aiInsights": "Neural Analysis"
+    },
     "tabs": {
       "profile": "Profile",
       "data": "Database",
