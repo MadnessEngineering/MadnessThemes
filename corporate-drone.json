@@ -522,7 +522,8 @@
       "share": "Share Action Item",
       "review": "Flag for Review",
       "aiInsights": "AI Analysis",
-      "openInWarp": "Initialize Warp Synergy"
+      "openInWarp": "Initialize Warp Synergy",
+      "addToQueue": "Initialize Queue Synergy"
     },
     "fullEdit": {
       "modeTitle": "Full Configuration Mode - Enhanced Optimization Access"
@@ -748,6 +749,7 @@
       "review": "Audit Status",
       "aiInsights": "Synergy Analytics",
       "openInWarp": "Initialize Warp Synergy",
+      "addToQueue": "Initialize Queue Synergy",
       "copyIdPrefix": "Asset UID Deliverable Prefix",
       "copyIdPrefixHint": "Standardized boilerplate to prepend for seamless integration with AI-driven synergy platforms.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will optimize as 'run get_todo on abc123...'"
@@ -2014,6 +2016,12 @@
       "total": "Pipeline Items",
       "high": "Mission-Critical",
       "incoming": "Intake"
+    },
+    "clearQueue": "Flush Pipeline",
+    "clearConfirm": {
+      "title": "Flush Strategic Pipeline?",
+      "message": "This will deprioritize {{count}} deliverable(s) from the pipeline. They will return to the Intake queue.",
+      "confirm": "Execute Flush"
     }
   },
   "onboarding": {

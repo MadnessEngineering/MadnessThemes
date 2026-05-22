@@ -588,7 +588,8 @@
       "share": "Transmit Specimen",
       "review": "Peer Review",
       "aiInsights": "Divination",
-      "openInWarp": "Summon Warp Portal"
+      "openInWarp": "Summon Warp Portal",
+      "addToQueue": "Summon to Alchemical Queue"
     },
     "fullEdit": {
       "modeTitle": "🔧 Workshop Mode - Full Edit Access"
@@ -814,6 +815,7 @@
       "review": "Peer Review",
       "aiInsights": "Divination",
       "openInWarp": "Summon Warp Portal",
+      "addToQueue": "Summon to Alchemical Queue",
       "copyIdPrefix": "Sigil Prefix Incantation",
       "copyIdPrefixHint": "Ancient text to be spoken before the research ID. Ideal for summoning Claude or other digital familiars.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will conjure 'run get_todo on abc123...'"
@@ -2015,6 +2017,12 @@
       "total": "Queued Experiments",
       "high": "Urgent Research",
       "incoming": "Uncharted"
+    },
+    "clearQueue": "Purge the Queue",
+    "clearConfirm": {
+      "title": "Purge All Experiments?",
+      "message": "This will banish {{count}} specimen(s) from the ritual queue. They shall return to the Uncharted pile.",
+      "confirm": "Purge All"
     }
   },
   "onboarding": {

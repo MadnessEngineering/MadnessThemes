@@ -588,7 +588,8 @@
       "share": "Share",
       "review": "Debrief",
       "aiInsights": "AI Analysis",
-      "openInWarp": "Deploy to Warp"
+      "openInWarp": "Deploy to Warp",
+      "addToQueue": "Queue for Ops"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -785,6 +786,7 @@
       "review": "AAR (After Action Review)",
       "aiInsights": "Tactical Intel",
       "openInWarp": "Deploy to Warp",
+      "addToQueue": "Queue for Ops",
       "copyIdPrefix": "Serial Number Header",
       "copyIdPrefixHint": "Pre-defined tactical prefix for serial numbers. Required for automated AI intel processing.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will relay as 'run get_todo on abc123...'"

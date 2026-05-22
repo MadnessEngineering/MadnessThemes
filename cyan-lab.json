@@ -253,7 +253,8 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
-      "openInWarp": "Jack into Warp"
+      "openInWarp": "Jack into Warp",
+      "addToQueue": "Queue for Processing"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -585,6 +586,7 @@
       "review": "Data Validation",
       "aiInsights": "Neural Analysis",
       "openInWarp": "Jack into Warp",
+      "addToQueue": "Queue for Processing",
       "copyIdPrefix": "Vector Header Prefix",
       "copyIdPrefixHint": "Inject a string before the ID for clean neural-link integration.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will uplink as 'run get_todo on abc123...'"

@@ -588,7 +588,8 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
-      "openInWarp": "Launch in Warp"
+      "openInWarp": "Launch in Warp",
+      "addToQueue": "Add to Queue"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -785,6 +786,7 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Launch in Warp",
+      "addToQueue": "Add to Queue",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text to prepend when copying IDs for use with AI assistants and external tools.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"

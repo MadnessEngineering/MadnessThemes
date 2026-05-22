@@ -588,7 +588,8 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
-      "openInWarp": "Execute Warp Sequence"
+      "openInWarp": "Execute Warp Sequence",
+      "addToQueue": "Add to Ops Queue"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -785,6 +786,7 @@
       "review": "QA Review",
       "aiInsights": "Operational Insights",
       "openInWarp": "Execute Warp Sequence",
+      "addToQueue": "Add to Ops Queue",
       "copyIdPrefix": "Sample ID Prefix",
       "copyIdPrefixHint": "Operational prefix for sample IDs to streamline integration with AI lab assistants.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will process as 'run get_todo on abc123...'"

@@ -588,7 +588,8 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
-      "openInWarp": "Anoint Warp Gateway"
+      "openInWarp": "Anoint Warp Gateway",
+      "addToQueue": "Enlist in Order"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -785,6 +786,7 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Anoint Warp Gateway",
+      "addToQueue": "Enlist in Order",
       "copyIdPrefix": "Sigil Prefix",
       "copyIdPrefixHint": "Sacred text to prepend when copying a Sigil. Blessed for use with the Order Oracle.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will transcribe as 'run get_todo on abc123...'"

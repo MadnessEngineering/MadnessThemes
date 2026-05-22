@@ -588,7 +588,8 @@
       "share": "Share Banana Peel",
       "review": "Peer Grooming",
       "aiInsights": "Primate Insights",
-      "openInWarp": "Peel into Warp"
+      "openInWarp": "Peel into Warp",
+      "addToQueue": "Bunch It"
     },
     "fullEdit": {
       "modeTitle": "🍌 Alpha Ape Mode - Full Jungle Access"
@@ -785,6 +786,7 @@
       "review": "Check Ripeness",
       "aiInsights": "Tropical Wisdom",
       "openInWarp": "Peel into Warp",
+      "addToQueue": "Bunch It",
       "copyIdPrefix": "Stem Peel Prefix",
       "copyIdPrefixHint": "Add some fruit flavoring before the ID. Handy for the AI monkeys in the canopy.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will ripen as 'run get_todo on abc123...'"

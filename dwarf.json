@@ -588,7 +588,8 @@
       "share": "Share Ore Report",
       "review": "Peer Survey",
       "aiInsights": "Stonecraft Insights",
-      "openInWarp": "Delve into Warp"
+      "openInWarp": "Delve into Warp",
+      "addToQueue": "Load into Cart"
     },
     "fullEdit": {
       "modeTitle": "⛏️ Master Forge Mode - Full Excavation Access"
@@ -785,6 +786,7 @@
       "review": "Inspect Ore",
       "aiInsights": "Ancient Wisdom",
       "openInWarp": "Delve into Warp",
+      "addToQueue": "Load into Cart",
       "copyIdPrefix": "Ore Tag Prefix",
       "copyIdPrefixHint": "Hammer some text onto the ID before ye mine it. Good for talkin' to the metal-thinkers.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will forge as 'run get_todo on abc123...'"

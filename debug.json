@@ -588,7 +588,8 @@
       "share": "todoList.buttons.share",
       "review": "todoList.buttons.review",
       "aiInsights": "todoList.buttons.aiInsights",
-      "openInWarp": "todoList.buttons.openInWarp"
+      "openInWarp": "todoList.buttons.openInWarp",
+      "addToQueue": "todoList.buttons.addToQueue"
     },
     "fullEdit": {
       "modeTitle": "todoList.fullEdit.modeTitle"
@@ -814,6 +815,7 @@
       "review": "settings.todoToolbar.review",
       "aiInsights": "settings.todoToolbar.aiInsights",
       "openInWarp": "settings.todoToolbar.openInWarp",
+      "addToQueue": "settings.todoToolbar.addToQueue",
       "copyIdPrefix": "settings.todoToolbar.copyIdPrefix",
       "copyIdPrefixHint": "settings.todoToolbar.copyIdPrefixHint",
       "copyIdPrefixExample": "settings.todoToolbar.copyIdPrefixExample"
@@ -1941,6 +1943,12 @@
       "total": "queuePane.stats.total",
       "high": "queuePane.stats.high",
       "incoming": "queuePane.stats.incoming"
+    },
+    "clearQueue": "queuePane.clearQueue",
+    "clearConfirm": {
+      "title": "queuePane.clearConfirm.title",
+      "message": "queuePane.clearConfirm.message",
+      "confirm": "queuePane.clearConfirm.confirm"
     }
   },
   "umlData": {

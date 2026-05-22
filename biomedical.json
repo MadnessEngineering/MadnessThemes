@@ -588,7 +588,8 @@
       "share": "Share Sample",
       "review": "Review",
       "aiInsights": "AI Analysis",
-      "openInWarp": "Initialize Warp Protocol"
+      "openInWarp": "Initialize Warp Protocol",
+      "addToQueue": "Queue Specimen"
     },
     "fullEdit": {
       "modeTitle": "Full Protocol Editor"
@@ -785,6 +786,7 @@
       "review": "Pathology Review",
       "aiInsights": "Diagnostic Insights",
       "openInWarp": "Initialize Warp Protocol",
+      "addToQueue": "Queue Specimen",
       "copyIdPrefix": "Accession Protocol Prefix",
       "copyIdPrefixHint": "Standard prefix for accession IDs to maintain clinical compatibility with AI diagnostic systems.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will sequence as 'run get_todo on abc123...'"
