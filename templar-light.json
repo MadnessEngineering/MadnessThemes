@@ -2533,5 +2533,37 @@
       "notes_update": "Scripture Update",
       "status_change": "State of Grace"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Herald",
+    "experience": "Faith",
+    "completions": "Prayers",
+    "streak": "Devotion",
+    "totalExp": "Total Grace",
+    "rarity": {
+      "common": "Novice",
+      "uncommon": "Squire",
+      "rare": "Knight",
+      "epic": "Paladin",
+      "legendary": "Saint"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "High Crusader",
+        "tooltip": "Served the light with unwavering loyalty"
+      },
+      "streak_master": {
+        "label": "Eternal Flame",
+        "tooltip": "Kept the vigil without a moments rest"
+      },
+      "polyglot": {
+        "label": "Universal Light",
+        "tooltip": "Spreads the word to all corners of the world"
+      },
+      "speed_demon": {
+        "label": "Divine Swiftness",
+        "tooltip": "Acts with the speed of a falling star"
+      }
+    }
   }
 }

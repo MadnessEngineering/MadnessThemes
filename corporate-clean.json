@@ -2533,5 +2533,37 @@
       "notes_update": "Append Details",
       "status_change": "Update Lifecycle"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Professional",
+    "experience": "Expertise",
+    "completions": "Finished Tasks",
+    "streak": "Consistency",
+    "totalExp": "Total Proficiency",
+    "rarity": {
+      "common": "Entry",
+      "uncommon": "Intermediate",
+      "rare": "Advanced",
+      "epic": "Expert",
+      "legendary": "Principal"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Senior Contributor",
+        "tooltip": "Proven track record of dependable performance"
+      },
+      "streak_master": {
+        "label": "Daily Driver",
+        "tooltip": "Maintained a consistent work rhythm"
+      },
+      "polyglot": {
+        "label": "Subject Specialist",
+        "tooltip": "Proficient across multiple operational areas"
+      },
+      "speed_demon": {
+        "label": "Productivity Lead",
+        "tooltip": "Consistently completes deliverables ahead of schedule"
+      }
+    }
   }
 }

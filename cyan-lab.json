@@ -2532,5 +2532,37 @@
       "notes_update": "Update Log",
       "status_change": "State Shift"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Construct",
+    "experience": "Uplink Data",
+    "completions": "Nodes Synced",
+    "streak": "Buffer Uptime",
+    "totalExp": "Total Bandwidth",
+    "rarity": {
+      "common": "Alpha",
+      "uncommon": "Beta",
+      "rare": "Gamma",
+      "epic": "Delta",
+      "legendary": "Omega"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Root User",
+        "tooltip": "Optimized execution cycles across long-term operations"
+      },
+      "streak_master": {
+        "label": "Synchronized Pulse",
+        "tooltip": "Maintained 100% daily packet delivery"
+      },
+      "polyglot": {
+        "label": "Inter-Grid Link",
+        "tooltip": "Interfaces with non-native protocols seamlessly"
+      },
+      "speed_demon": {
+        "label": "Overclocked",
+        "tooltip": "Executes subroutines before the clock cycle completes"
+      }
+    }
   }
 }

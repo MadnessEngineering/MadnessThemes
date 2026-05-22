@@ -2541,5 +2541,37 @@
       "notes_update": "Update Roadmap",
       "status_change": "Workflow Pivot"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Stakeholder",
+    "experience": "Synergy",
+    "completions": "Deliverables",
+    "streak": "KPI Momentum",
+    "totalExp": "Aggregated Value",
+    "rarity": {
+      "common": "Junior",
+      "uncommon": "Associate",
+      "rare": "Senior",
+      "epic": "VP",
+      "legendary": "C-Suite"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Legacy Employee",
+        "tooltip": "High retention with consistent output quality"
+      },
+      "streak_master": {
+        "label": "Quarterly All-Star",
+        "tooltip": "Maintained an optimal daily touchpoint streak"
+      },
+      "polyglot": {
+        "label": "Cross-Functional Ninja",
+        "tooltip": "Leverages assets across siloed departments"
+      },
+      "speed_demon": {
+        "label": "Efficiency Catalyst",
+        "tooltip": "Accelerates workflows to hit aggressive deadlines"
+      }
+    }
   }
 }

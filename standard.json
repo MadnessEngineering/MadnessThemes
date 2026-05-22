@@ -2542,5 +2542,37 @@
       "notes_update": "Notes Update",
       "status_change": "Status Change"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Agent",
+    "experience": "Experience",
+    "completions": "Completions",
+    "streak": "Streak",
+    "totalExp": "Total EXP",
+    "rarity": {
+      "common": "Common",
+      "uncommon": "Uncommon",
+      "rare": "Rare",
+      "epic": "Epic",
+      "legendary": "Legendary"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Veteran",
+        "tooltip": "Completed many tasks with consistent quality"
+      },
+      "streak_master": {
+        "label": "Streak Master",
+        "tooltip": "Maintained an impressive daily completion streak"
+      },
+      "polyglot": {
+        "label": "Polyglot",
+        "tooltip": "Works across multiple projects and domains"
+      },
+      "speed_demon": {
+        "label": "Speed Demon",
+        "tooltip": "Completes tasks with exceptional speed"
+      }
+    }
   }
 }

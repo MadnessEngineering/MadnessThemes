@@ -2533,5 +2533,37 @@
       "notes_update": "Stone Tablets",
       "status_change": "Melt Phase"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Smithy",
+    "experience": "Ore Mined",
+    "completions": "Iron Forged",
+    "streak": "Stoke the Forge",
+    "totalExp": "Total Mithril",
+    "rarity": {
+      "common": "Stone",
+      "uncommon": "Iron",
+      "rare": "Gold",
+      "epic": "Gem",
+      "legendary": "Diamond"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Master Mason",
+        "tooltip": "Carved many stones with a steady hand"
+      },
+      "streak_master": {
+        "label": "Deep Delver",
+        "tooltip": "Kept the pickaxe swinging day after day"
+      },
+      "polyglot": {
+        "label": "Mountain King",
+        "tooltip": "Known in every hall from the peaks to the roots"
+      },
+      "speed_demon": {
+        "label": "Lava Leaper",
+        "tooltip": "Moves faster than a spark in the wind"
+      }
+    }
   }
 }

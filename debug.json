@@ -2521,5 +2521,37 @@
       "notes_update": "aiInsights.suggestion.notes_update",
       "status_change": "aiInsights.suggestion.status_change"
     }
+  },
+  "agentStats": {
+    "defaultRole": "agentStats.defaultRole",
+    "experience": "agentStats.experience",
+    "completions": "agentStats.completions",
+    "streak": "agentStats.streak",
+    "totalExp": "agentStats.totalExp",
+    "rarity": {
+      "common": "agentStats.rarity.common",
+      "uncommon": "agentStats.rarity.uncommon",
+      "rare": "agentStats.rarity.rare",
+      "epic": "agentStats.rarity.epic",
+      "legendary": "agentStats.rarity.legendary"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "agentStats.enchantments.veteran.label",
+        "tooltip": "agentStats.enchantments.veteran.tooltip"
+      },
+      "streak_master": {
+        "label": "agentStats.enchantments.streak_master.label",
+        "tooltip": "agentStats.enchantments.streak_master.tooltip"
+      },
+      "polyglot": {
+        "label": "agentStats.enchantments.polyglot.label",
+        "tooltip": "agentStats.enchantments.polyglot.tooltip"
+      },
+      "speed_demon": {
+        "label": "agentStats.enchantments.speed_demon.label",
+        "tooltip": "agentStats.enchantments.speed_demon.tooltip"
+      }
+    }
   }
 }

@@ -2533,5 +2533,37 @@
       "notes_update": "Bruise Notes",
       "status_change": "Color Change"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Primate",
+    "experience": "Peels",
+    "completions": "Bunches",
+    "streak": "Swing Streak",
+    "totalExp": "Total Potassium",
+    "rarity": {
+      "common": "Green",
+      "uncommon": "Yellow",
+      "rare": "Spotted",
+      "epic": "Brown",
+      "legendary": "Golden"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Silverback",
+        "tooltip": "Finished many hunts with top-tier grooming"
+      },
+      "streak_master": {
+        "label": "Vine Swinger",
+        "tooltip": "Kept the rhythm going from tree to tree"
+      },
+      "polyglot": {
+        "label": "Jungle Explorer",
+        "tooltip": "Knows every corner of the tropical canopy"
+      },
+      "speed_demon": {
+        "label": "Slippery Chimp",
+        "tooltip": "Finishes the banana before the peel hits the ground"
+      }
+    }
   }
 }

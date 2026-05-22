@@ -2533,5 +2533,37 @@
       "notes_update": "Update SITREP",
       "status_change": "Status Code"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Operator",
+    "experience": "Intel",
+    "completions": "Missions",
+    "streak": "Deployment",
+    "totalExp": "Total Ordnance",
+    "rarity": {
+      "common": "Recruit",
+      "uncommon": "Grunt",
+      "rare": "Spec-Ops",
+      "epic": "Commander",
+      "legendary": "General"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Field Tested",
+        "tooltip": "High mission success rate under sustained pressure"
+      },
+      "streak_master": {
+        "label": "Unbroken Line",
+        "tooltip": "Zero days absent from the front line"
+      },
+      "polyglot": {
+        "label": "Joint Task Force",
+        "tooltip": "Coordinates strikes across all theaters of war"
+      },
+      "speed_demon": {
+        "label": "Rapid Response",
+        "tooltip": "Neutralizes objectives with lethal efficiency"
+      }
+    }
   }
 }

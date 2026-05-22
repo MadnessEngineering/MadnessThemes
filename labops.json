@@ -2533,5 +2533,37 @@
       "notes_update": "Log Entry",
       "status_change": "Stage Update"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Resource",
+    "experience": "Runtime",
+    "completions": "Deploys",
+    "streak": "Uptime",
+    "totalExp": "Total Throughput",
+    "rarity": {
+      "common": "Dev",
+      "uncommon": "QA",
+      "rare": "Staging",
+      "epic": "Prod",
+      "legendary": "Enterprise"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Stable Build",
+        "tooltip": "Low failure rate across high-volume deployments"
+      },
+      "streak_master": {
+        "label": "CI/CD Master",
+        "tooltip": "Maintained an unbroken automation pipeline"
+      },
+      "polyglot": {
+        "label": "Multi-Cloud",
+        "tooltip": "Manages clusters across heterogeneous environments"
+      },
+      "speed_demon": {
+        "label": "Hotfix",
+        "tooltip": "Resolves critical bottlenecks in record time"
+      }
+    }
   }
 }

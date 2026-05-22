@@ -2533,5 +2533,37 @@
       "notes_update": "Update Lab Book",
       "status_change": "Reaction Stage"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Specimen",
+    "experience": "Data Points",
+    "completions": "Assays",
+    "streak": "Incubation",
+    "totalExp": "Total Biomass",
+    "rarity": {
+      "common": "Trace",
+      "uncommon": "Detected",
+      "rare": "Quantified",
+      "epic": "Isolated",
+      "legendary": "Purified"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Validated Model",
+        "tooltip": "Consistent results across extensive trials"
+      },
+      "streak_master": {
+        "label": "Cellular Rhythm",
+        "tooltip": "Maintained continuous culture viability"
+      },
+      "polyglot": {
+        "label": "Multimodal Analysis",
+        "tooltip": "Operates across diverse biological domains"
+      },
+      "speed_demon": {
+        "label": "Rapid Sequencer",
+        "tooltip": "Processes samples with sub-millisecond latency"
+      }
+    }
   }
 }

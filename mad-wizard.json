@@ -2542,5 +2542,37 @@
       "notes_update": "Scroll Update",
       "status_change": "Phase Shift"
     }
+  },
+  "agentStats": {
+    "defaultRole": "Apprentice",
+    "experience": "Arcane Knowledge",
+    "completions": "Rituals Finished",
+    "streak": "Lunar Alignment",
+    "totalExp": "Total Mana",
+    "rarity": {
+      "common": "Mundane",
+      "uncommon": "Curious",
+      "rare": "Arcane",
+      "epic": "Mythic",
+      "legendary": "Ancient"
+    },
+    "enchantments": {
+      "veteran": {
+        "label": "Grand Magus",
+        "tooltip": "Performed countless transmutations with precision"
+      },
+      "streak_master": {
+        "label": "Celestial Synchronizer",
+        "tooltip": "Kept the ritual fires burning without fail"
+      },
+      "polyglot": {
+        "label": "Astral Voyager",
+        "tooltip": "Mastered spells across divergent planes"
+      },
+      "speed_demon": {
+        "label": "Chronomancer",
+        "tooltip": "Bends time to finish scrolls in a blink"
+      }
+    }
   }
 }
