@@ -434,7 +434,9 @@
     "todoCreated": "⛏️ A new task has been hammered into the stone.",
     "settingsSaved": "⚙️ Forge calibrations locked in.",
     "exportCompleted": "📤 Ore shipments sent to the surface.",
-    "importCompleted": "📥 Surface supplies hauled into the deeps."
+    "importCompleted": "📥 Surface supplies hauled into the deeps.",
+    "aiInsightsApplied": "Forge wisdom hammered in!",
+    "aiInsightsRequirePaid": "Deep mining requires better gear (Paid Account)"
   },
   "projectNavigator": {
     "title": "🚀 MINING HALL PORTAL",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Collapse the Mine"
     },
     "viewModeTooltip": "Ore Vein Constellation"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Forge Wisdom",
+      "analyzing": "Sifting through the rubble and old maps...",
+      "gatheringContext": "Digging up related ores...",
+      "summary": "The Haul",
+      "suggestions": "Deep Veins",
+      "observations": "Mountain Echoes",
+      "noSuggestions": "No gold in this rock, lad.",
+      "applySelected": "Smelt {{count}} Selections",
+      "selectAll": "Whole Vein",
+      "deselectAll": "None",
+      "applying": "Stoking the forge...",
+      "retry": "Re-mine",
+      "confidence": "Purity",
+      "currentValue": "Raw",
+      "suggestedValue": "Forged",
+      "relatedTodos": "{{count}} tunnels surveyed",
+      "processingTime": "Forged in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Hammer Marks",
+      "tag_remove": "Chisel Off",
+      "priority_change": "Weight Shift",
+      "duplicate": "Cave Echo",
+      "dependency": "Chain Link",
+      "notes_update": "Stone Tablets",
+      "status_change": "Melt Phase"
+    }
   }
 }

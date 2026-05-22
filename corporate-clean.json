@@ -434,7 +434,9 @@
     "todoCreated": "✅ Task successfully created.",
     "settingsSaved": "⚙️ Settings saved.",
     "exportCompleted": "📤 Export complete.",
-    "importCompleted": "📥 Import complete."
+    "importCompleted": "📥 Import complete.",
+    "aiInsightsApplied": "Insights applied successfully.",
+    "aiInsightsRequirePaid": "This feature requires a paid business account."
   },
   "projectNavigator": {
     "title": "📂 PROJECT NAVIGATOR",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Dependency Constellation"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Performance Insights",
+      "analyzing": "Reviewing task data and operational context...",
+      "gatheringContext": "Aggregating related project data...",
+      "summary": "Overview",
+      "suggestions": "Actionable Insights",
+      "observations": "Operational Observations",
+      "noSuggestions": "No suggestions available for this item.",
+      "applySelected": "Update {{count}} Items",
+      "selectAll": "All",
+      "deselectAll": "Clear",
+      "applying": "Applying updates...",
+      "retry": "Retry",
+      "confidence": "Confidence Rating",
+      "currentValue": "Current",
+      "suggestedValue": "Proposed",
+      "relatedTodos": "{{count}} data points analyzed",
+      "processingTime": "Completed in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Categorize",
+      "tag_remove": "Remove Category",
+      "priority_change": "Adjust Priority",
+      "duplicate": "Potential Duplicate",
+      "dependency": "Task Link",
+      "notes_update": "Append Details",
+      "status_change": "Update Lifecycle"
+    }
   }
 }

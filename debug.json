@@ -434,7 +434,9 @@
     "todoCreated": "todoCreated",
     "settingsSaved": "settingsSaved",
     "exportCompleted": "exportCompleted",
-    "importCompleted": "importCompleted"
+    "importCompleted": "importCompleted",
+    "aiInsightsApplied": "notifications.aiInsightsApplied",
+    "aiInsightsRequirePaid": "notifications.aiInsightsRequirePaid"
   },
   "projectNavigator": {
     "title": "projectNavigator.title",
@@ -2489,5 +2491,35 @@
     "adminTooltip": "tier.adminTooltip",
     "premium": "tier.premium",
     "premiumTooltip": "tier.premiumTooltip"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "aiInsights.dialog.title",
+      "analyzing": "aiInsights.dialog.analyzing",
+      "gatheringContext": "aiInsights.dialog.gatheringContext",
+      "summary": "aiInsights.dialog.summary",
+      "suggestions": "aiInsights.dialog.suggestions",
+      "observations": "aiInsights.dialog.observations",
+      "noSuggestions": "aiInsights.dialog.noSuggestions",
+      "applySelected": "aiInsights.dialog.applySelected ({{count}})",
+      "selectAll": "aiInsights.dialog.selectAll",
+      "deselectAll": "aiInsights.dialog.deselectAll",
+      "applying": "aiInsights.dialog.applying",
+      "retry": "aiInsights.dialog.retry",
+      "confidence": "aiInsights.dialog.confidence",
+      "currentValue": "aiInsights.dialog.currentValue",
+      "suggestedValue": "aiInsights.dialog.suggestedValue",
+      "relatedTodos": "aiInsights.dialog.relatedTodos ({{count}})",
+      "processingTime": "aiInsights.dialog.processingTime ({{time}}s)"
+    },
+    "suggestion": {
+      "tag_add": "aiInsights.suggestion.tag_add",
+      "tag_remove": "aiInsights.suggestion.tag_remove",
+      "priority_change": "aiInsights.suggestion.priority_change",
+      "duplicate": "aiInsights.suggestion.duplicate",
+      "dependency": "aiInsights.suggestion.dependency",
+      "notes_update": "aiInsights.suggestion.notes_update",
+      "status_change": "aiInsights.suggestion.status_change"
+    }
   }
 }

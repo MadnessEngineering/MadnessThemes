@@ -434,7 +434,9 @@
     "todoCreated": "📝 New task created.",
     "settingsSaved": "⚙️ Settings saved.",
     "exportCompleted": "📤 Export complete.",
-    "importCompleted": "📥 Import complete."
+    "importCompleted": "📥 Import complete.",
+    "aiInsightsApplied": "AI insights applied successfully!",
+    "aiInsightsRequirePaid": "AI Insights require a paid account"
   },
   "projectNavigator": {
     "title": "🚀 PROJECT NAVIGATOR",
@@ -2510,5 +2512,35 @@
     "adminTooltip": "Administrative access with full control",
     "premium": "PREMIUM",
     "premiumTooltip": "Premium tier with all advanced capabilities"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "AI Insights",
+      "analyzing": "Analyzing todo and related tasks...",
+      "gatheringContext": "Gathering related todos...",
+      "summary": "Summary",
+      "suggestions": "Suggestions",
+      "observations": "Cross-Cutting Observations",
+      "noSuggestions": "No suggestions found for this todo.",
+      "applySelected": "Apply {{count}} Selected",
+      "selectAll": "All",
+      "deselectAll": "None",
+      "applying": "Applying changes...",
+      "retry": "Retry",
+      "confidence": "Confidence",
+      "currentValue": "Current",
+      "suggestedValue": "Suggested",
+      "relatedTodos": "{{count}} related todos analyzed",
+      "processingTime": "Completed in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Add Tags",
+      "tag_remove": "Remove Tags",
+      "priority_change": "Priority Change",
+      "duplicate": "Possible Duplicate",
+      "dependency": "Dependency",
+      "notes_update": "Notes Update",
+      "status_change": "Status Change"
+    }
   }
 }

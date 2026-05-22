@@ -368,7 +368,9 @@
     "todoCreated": "📝 New task created.",
     "settingsSaved": "⚙️ Settings saved.",
     "exportCompleted": "📤 Export complete.",
-    "importCompleted": "📥 Import complete."
+    "importCompleted": "📥 Import complete.",
+    "aiInsightsApplied": "Synergy alignment implemented successfully!",
+    "aiInsightsRequirePaid": "Strategic analytics require a Premium Tier subscription"
   },
   "projectNavigator": {
     "title": "🚀 PROJECT PORTFOLIO DASHBOARD",
@@ -2509,5 +2511,35 @@
     "adminTooltip": "Top-level management with unrestricted governance over all protocols",
     "premium": "EXECUTIVE",
     "premiumTooltip": "High-yield contributor with priority access to strategic resources"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Synergy Analytics",
+      "analyzing": "Optimizing task alignment and cross-functional synergies...",
+      "gatheringContext": "Leveraging big data for context...",
+      "summary": "Executive Summary",
+      "suggestions": "Strategic Deliverables",
+      "observations": "Value-Add Observations",
+      "noSuggestions": "No low-hanging fruit detected for this action item.",
+      "applySelected": "Implement {{count}} Optimizations",
+      "selectAll": "Global",
+      "deselectAll": "None",
+      "applying": "Executing synergy shift...",
+      "retry": "Re-evaluate",
+      "confidence": "KPI Confidence",
+      "currentValue": "Legacy",
+      "suggestedValue": "Optimized",
+      "relatedTodos": "{{count}} strategic alignments processed",
+      "processingTime": "Pipeline cleared in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Scale Metadata",
+      "tag_remove": "Sunset Metadata",
+      "priority_change": "Pivot Priority",
+      "duplicate": "Redundancy Detected",
+      "dependency": "Bottleneck Dependency",
+      "notes_update": "Update Roadmap",
+      "status_change": "Workflow Pivot"
+    }
   }
 }

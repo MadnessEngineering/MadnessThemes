@@ -434,7 +434,9 @@
     "todoCreated": "⚔️ A new quest has been inscribed in the codex.",
     "settingsSaved": "🕯️ Sanctum calibrations blessed and preserved.",
     "exportCompleted": "🕊️ Sacred records dispatched via carrier.",
-    "importCompleted": "📖 External scriptures absorbed into the archives."
+    "importCompleted": "📖 External scriptures absorbed into the archives.",
+    "aiInsightsApplied": "Divine guidance manifested!",
+    "aiInsightsRequirePaid": "These revelations require a higher tithe (Paid Account)"
   },
   "projectNavigator": {
     "title": "⚔️ CRUSADE NAVIGATOR",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Collapse the Cathedral"
     },
     "viewModeTooltip": "Sacred Order Constellation"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Divine Guidance",
+      "analyzing": "Seeking clarity in the light and old scriptures...",
+      "gatheringContext": "Gathering related parables...",
+      "summary": "Revelation",
+      "suggestions": "Holy Paths",
+      "observations": "Universal Truths",
+      "noSuggestions": "No light shines upon this task yet.",
+      "applySelected": "Bless {{count}} Selections",
+      "selectAll": "Full Creed",
+      "deselectAll": "None",
+      "applying": "Sanctifying updates...",
+      "retry": "Re-pray",
+      "confidence": "Faith",
+      "currentValue": "Frail",
+      "suggestedValue": "Radiant",
+      "relatedTodos": "{{count}} deeds examined",
+      "processingTime": "Illuminated in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Anoint Seals",
+      "tag_remove": "Purge Seals",
+      "priority_change": "Vow Strength",
+      "duplicate": "Holy Echo",
+      "dependency": "Sacred Bond",
+      "notes_update": "Scripture Update",
+      "status_change": "State of Grace"
+    }
   }
 }

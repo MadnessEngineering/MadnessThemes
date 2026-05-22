@@ -434,7 +434,9 @@
     "todoCreated": "📋 New protocol entry logged in the registry.",
     "settingsSaved": "⚙️ System calibrations committed to memory.",
     "exportCompleted": "📤 Internal data set successfully transmitted.",
-    "importCompleted": "📥 External data integrated into local repository."
+    "importCompleted": "📥 External data integrated into local repository.",
+    "aiInsightsApplied": "Operational insights integrated!",
+    "aiInsightsRequirePaid": "Advanced analytics require Ops Tier access (Paid Account)"
   },
   "projectNavigator": {
     "title": "🔬 STUDY NAVIGATOR",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Lab Dependency Network"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Operational Insights",
+      "analyzing": "Auditing workflows and equipment logs...",
+      "gatheringContext": "Compiling related operational data...",
+      "summary": "Audit Summary",
+      "suggestions": "Efficiency Gains",
+      "observations": "Facility Trends",
+      "noSuggestions": "No optimization opportunities detected.",
+      "applySelected": "Implement {{count}} Protocols",
+      "selectAll": "Full Batch",
+      "deselectAll": "Clear",
+      "applying": "Updating protocols...",
+      "retry": "Re-audit",
+      "confidence": "Compliance Score",
+      "currentValue": "Baseline",
+      "suggestedValue": "Improved",
+      "relatedTodos": "{{count}} operational nodes audited",
+      "processingTime": "Audit complete in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Affix Labels",
+      "tag_remove": "Strip Labels",
+      "priority_change": "Urgency Shift",
+      "duplicate": "Redundant Entry",
+      "dependency": "Process Link",
+      "notes_update": "Log Entry",
+      "status_change": "Stage Update"
+    }
   }
 }

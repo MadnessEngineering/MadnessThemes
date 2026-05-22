@@ -434,7 +434,9 @@
     "todoCreated": "🎯 New objective identified and logged.",
     "settingsSaved": "🛡️ Perimeter protocols updated.",
     "exportCompleted": "📡 Tactical data extracted to external sector.",
-    "importCompleted": "📥 External intel integrated into database."
+    "importCompleted": "📥 External intel integrated into database.",
+    "aiInsightsApplied": "Tactical updates deployed!",
+    "aiInsightsRequirePaid": "Advanced intel requires Command Clearance (Paid Account)"
   },
   "projectNavigator": {
     "title": "🚀 MOBILE SUIT SELECTOR",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Collapse View"
     },
     "viewModeTooltip": "Asset Dependency Grid"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Tactical Intel",
+      "analyzing": "Scanning AO and neutralizing data noise...",
+      "gatheringContext": "Securing related intel assets...",
+      "summary": "Debrief",
+      "suggestions": "Strategic Options",
+      "observations": "Field Intel",
+      "noSuggestions": "No actionable intel on this target.",
+      "applySelected": "Deploy {{count}} Updates",
+      "selectAll": "Full Squad",
+      "deselectAll": "Clear",
+      "applying": "Executing mission parameters...",
+      "retry": "Re-scan",
+      "confidence": "Target Lock",
+      "currentValue": "Standard",
+      "suggestedValue": "Tactical",
+      "relatedTodos": "{{count}} sectors analyzed",
+      "processingTime": "Mission complete in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Assign Callsigns",
+      "tag_remove": "Stripe Off",
+      "priority_change": "Threat Level",
+      "duplicate": "Friendly Fire",
+      "dependency": "Supply Chain",
+      "notes_update": "Update SITREP",
+      "status_change": "Status Code"
+    }
   }
 }

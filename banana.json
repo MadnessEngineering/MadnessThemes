@@ -434,7 +434,9 @@
     "todoCreated": "🍌 A new banana has been spotted in the grove.",
     "settingsSaved": "⚙️ Jungle calibrations peeled to perfection.",
     "exportCompleted": "📤 Bananas shipped out of the canopy.",
-    "importCompleted": "📥 New fruit brought into the stash."
+    "importCompleted": "📥 New fruit brought into the stash.",
+    "aiInsightsApplied": "Banana brain waves applied!",
+    "aiInsightsRequirePaid": "You need more potassium for this (Paid Account)"
   },
   "projectNavigator": {
     "title": "🚀 JUNGLE TREE PORTAL",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Small Banana View"
     },
     "viewModeTooltip": "Banana Vine Tangle"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Banana Brain",
+      "analyzing": "Peeling back the layers of this banana...",
+      "gatheringContext": "Gathering the whole bunch...",
+      "summary": "Bunch Summary",
+      "suggestions": "Sweet Suggestions",
+      "observations": "Jungle Observations",
+      "noSuggestions": "No slips found for this banana.",
+      "applySelected": "Mash {{count}} Selections",
+      "selectAll": "Full Bunch",
+      "deselectAll": "None",
+      "applying": "Mashing bananas...",
+      "retry": "Re-peel",
+      "confidence": "Ripeness",
+      "currentValue": "Unripe",
+      "suggestedValue": "Ripe",
+      "relatedTodos": "{{count}} bananas in the bunch analyzed",
+      "processingTime": "Ripened in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Add Stickers",
+      "tag_remove": "Peel Stickers",
+      "priority_change": "Ripeness Shift",
+      "duplicate": "Double Banana",
+      "dependency": "Vine Link",
+      "notes_update": "Bruise Notes",
+      "status_change": "Color Change"
+    }
   }
 }

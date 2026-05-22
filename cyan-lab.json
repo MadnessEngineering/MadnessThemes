@@ -1761,7 +1761,9 @@
     "todoCreated": "🆕 New task node initialized in the grid.",
     "settingsSaved": "⚙️ Console configurations synced.",
     "exportCompleted": "📤 Sector data transmitted to external node.",
-    "importCompleted": "📥 External data stream absorbed into the buffer."
+    "importCompleted": "📥 External data stream absorbed into the buffer.",
+    "aiInsightsApplied": "Neural patterns integrated!",
+    "aiInsightsRequirePaid": "Neural Echo requires a Tier 2 uplink (Paid Account)"
   },
   "panels": {
     "todos": "📝 Tasks",
@@ -2500,5 +2502,35 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Node Dependency Graph"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Neural Echo",
+      "analyzing": "Scanning neural pathways and sub-routines...",
+      "gatheringContext": "Uplinking related data fragments...",
+      "summary": "Data Stream",
+      "suggestions": "Neural Overlays",
+      "observations": "Grid Reflections",
+      "noSuggestions": "No echoes detected in the static.",
+      "applySelected": "Inject {{count}} Modules",
+      "selectAll": "Full Link",
+      "deselectAll": "Ghost",
+      "applying": "Writing to core...",
+      "retry": "Re-sync",
+      "confidence": "Signal Integrity",
+      "currentValue": "Offline",
+      "suggestedValue": "Augmented",
+      "relatedTodos": "{{count}} nodes synchronized",
+      "processingTime": "Stream complete in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Tag IDs",
+      "tag_remove": "Purge Tags",
+      "priority_change": "Voltage Shift",
+      "duplicate": "Signal Ghost",
+      "dependency": "Hard Link",
+      "notes_update": "Update Log",
+      "status_change": "State Shift"
+    }
   }
 }

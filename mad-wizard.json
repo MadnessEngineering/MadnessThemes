@@ -434,7 +434,9 @@
     "todoCreated": "📝 New task created.",
     "settingsSaved": "⚙️ Settings saved.",
     "exportCompleted": "📤 Export complete.",
-    "importCompleted": "📥 Import complete."
+    "importCompleted": "📥 Import complete.",
+    "aiInsightsApplied": "Arcane insights manifested successfully!",
+    "aiInsightsRequirePaid": "These visions require a more potent catalyst (Paid Account)"
   },
   "projectNavigator": {
     "title": "🚀 LABORATORY PORTAL",
@@ -2510,5 +2512,35 @@
     "adminTooltip": "The master of the tower with absolute authority over all spells",
     "premium": "ARTIFICER",
     "premiumTooltip": "An elite scholar with access to the most rare and volatile reagents"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Arcane Insights",
+      "analyzing": "Consulting the orb and related scrolls...",
+      "gatheringContext": "Gathering related incantations...",
+      "summary": "Visions",
+      "suggestions": "Prophecies",
+      "observations": "Cross-Cutting Leylines",
+      "noSuggestions": "The spirits offer no guidance for this ritual.",
+      "applySelected": "Cast {{count}} Selected",
+      "selectAll": "All Spells",
+      "deselectAll": "None",
+      "applying": "Chanting incantations...",
+      "retry": "Re-cast",
+      "confidence": "Essence",
+      "currentValue": "Current",
+      "suggestedValue": "Prophesied",
+      "relatedTodos": "{{count}} related rituals divined",
+      "processingTime": "Ritual complete in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Bind Sigils",
+      "tag_remove": "Banish Sigils",
+      "priority_change": "Potency Shift",
+      "duplicate": "Ethereal Echo",
+      "dependency": "Soul Bind",
+      "notes_update": "Scroll Update",
+      "status_change": "Phase Shift"
+    }
   }
 }

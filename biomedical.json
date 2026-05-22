@@ -434,7 +434,9 @@
     "todoCreated": "🔬 New specimen logged for analysis.",
     "settingsSaved": "⚙️ Laboratory calibrations synchronized.",
     "exportCompleted": "📤 Biological data transmitted to external repository.",
-    "importCompleted": "📥 External samples integrated into laboratory workflow."
+    "importCompleted": "📥 External samples integrated into laboratory workflow.",
+    "aiInsightsApplied": "Protocols applied to the sample!",
+    "aiInsightsRequirePaid": "Advanced diagnostics require a funded grant (Paid Account)"
   },
   "projectNavigator": {
     "title": "🚀 STUDY NAVIGATOR",
@@ -2501,5 +2503,35 @@
       "exitFullscreen": "Collapse Field"
     },
     "viewModeTooltip": "Specimen Dependency Network"
+  },
+  "aiInsights": {
+    "dialog": {
+      "title": "Diagnostic Insights",
+      "analyzing": "Running sequence analysis and protocol screening...",
+      "gatheringContext": "Synthesizing related trial data...",
+      "summary": "Abstract",
+      "suggestions": "Clinical Recommendations",
+      "observations": "Cross-Trial Observations",
+      "noSuggestions": "No significant correlations found for this sample.",
+      "applySelected": "Administer {{count}} Protocols",
+      "selectAll": "Full Cohort",
+      "deselectAll": "Baseline",
+      "applying": "Infecting data with updates...",
+      "retry": "Re-analyze",
+      "confidence": "P-Value",
+      "currentValue": "Control",
+      "suggestedValue": "Experimental",
+      "relatedTodos": "{{count}} related samples screened",
+      "processingTime": "Assay complete in {{time}}s"
+    },
+    "suggestion": {
+      "tag_add": "Label Reagents",
+      "tag_remove": "Clear Labels",
+      "priority_change": "Triage Shift",
+      "duplicate": "Genetic Clone",
+      "dependency": "Molecular Bond",
+      "notes_update": "Update Lab Book",
+      "status_change": "Reaction Stage"
+    }
   }
 }
