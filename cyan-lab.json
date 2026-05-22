@@ -587,6 +587,8 @@
       "review": "Data Validation",
       "aiInsights": "Neural Analysis",
       "openInWarp": "Jack into Warp",
+      "warpAutoProgress": "Auto-Protocol on Warp",
+      "warpAutoProgressHint": "Automatically move pending hypotheses to in-progress when jacking into Warp",
       "addToQueue": "Queue for Processing",
       "copyIdPrefix": "Vector Header Prefix",
       "copyIdPrefixHint": "Inject a string before the ID for clean neural-link integration.",

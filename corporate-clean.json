@@ -787,6 +787,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Launch in Warp",
+      "warpAutoProgress": "Auto-progress on Warp",
+      "warpAutoProgressHint": "Automatically move pending tasks to in-progress when launching in Warp",
       "addToQueue": "Add to Queue",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text to prepend when copying IDs for use with AI assistants and external tools.",

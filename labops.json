@@ -787,6 +787,8 @@
       "review": "QA Review",
       "aiInsights": "Operational Insights",
       "openInWarp": "Execute Warp Sequence",
+      "warpAutoProgress": "Auto-Activate on Warp",
+      "warpAutoProgressHint": "Automatically move queued protocols to active when executing Warp sequence",
       "addToQueue": "Add to Ops Queue",
       "copyIdPrefix": "Sample ID Prefix",
       "copyIdPrefixHint": "Operational prefix for sample IDs to streamline integration with AI lab assistants.",

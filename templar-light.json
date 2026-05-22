@@ -787,6 +787,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Anoint Warp Gateway",
+      "warpAutoProgress": "Auto-Quest on Warp",
+      "warpAutoProgressHint": "Automatically move pending quests to on-campaign when anointing via Warp",
       "addToQueue": "Enlist in Order",
       "copyIdPrefix": "Sigil Prefix",
       "copyIdPrefixHint": "Sacred text to prepend when copying a Sigil. Blessed for use with the Order Oracle.",

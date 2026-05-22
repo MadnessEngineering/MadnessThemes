@@ -816,6 +816,8 @@
       "review": "Peer Review",
       "aiInsights": "Divination",
       "openInWarp": "Summon Warp Portal",
+      "warpAutoProgress": "Auto-Brew via Warp",
+      "warpAutoProgressHint": "Automatically transmute pending experiments to brewing when summoned via Warp",
       "addToQueue": "Summon to Alchemical Queue",
       "copyIdPrefix": "Sigil Prefix Incantation",
       "copyIdPrefixHint": "Ancient text to be spoken before the research ID. Ideal for summoning Claude or other digital familiars.",

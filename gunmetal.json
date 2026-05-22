@@ -787,6 +787,8 @@
       "review": "AAR (After Action Review)",
       "aiInsights": "Tactical Intel",
       "openInWarp": "Deploy to Warp",
+      "warpAutoProgress": "Auto-Sortie on Warp",
+      "warpAutoProgressHint": "Automatically move standby missions to engaged when deploying via Warp",
       "addToQueue": "Queue for Ops",
       "copyIdPrefix": "Serial Number Header",
       "copyIdPrefixHint": "Pre-defined tactical prefix for serial numbers. Required for automated AI intel processing.",

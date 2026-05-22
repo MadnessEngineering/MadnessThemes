@@ -816,6 +816,8 @@
       "review": "settings.todoToolbar.review",
       "aiInsights": "settings.todoToolbar.aiInsights",
       "openInWarp": "settings.todoToolbar.openInWarp",
+      "warpAutoProgress": "settings.todoToolbar.warpAutoProgress",
+      "warpAutoProgressHint": "settings.todoToolbar.warpAutoProgressHint",
       "addToQueue": "settings.todoToolbar.addToQueue",
       "copyIdPrefix": "settings.todoToolbar.copyIdPrefix",
       "copyIdPrefixHint": "settings.todoToolbar.copyIdPrefixHint",

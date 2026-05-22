@@ -787,6 +787,8 @@
       "review": "Inspect Ore",
       "aiInsights": "Ancient Wisdom",
       "openInWarp": "Delve into Warp",
+      "warpAutoProgress": "Auto-Forge on Warp",
+      "warpAutoProgressHint": "Automatically move pending excavations to mining when delving via Warp",
       "addToQueue": "Load into Cart",
       "copyIdPrefix": "Ore Tag Prefix",
       "copyIdPrefixHint": "Hammer some text onto the ID before ye mine it. Good for talkin' to the metal-thinkers.",

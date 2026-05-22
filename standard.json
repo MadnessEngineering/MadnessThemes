@@ -816,6 +816,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Open in Warp",
+      "warpAutoProgress": "Auto-progress on Warp",
+      "warpAutoProgressHint": "Automatically move pending todos to in-progress when opening in Warp",
       "addToQueue": "Add to Queue",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text prepended when clicking Copy ID. Useful for Claude Code or other AI integrations.",

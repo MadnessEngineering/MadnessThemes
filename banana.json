@@ -787,6 +787,8 @@
       "review": "Check Ripeness",
       "aiInsights": "Tropical Wisdom",
       "openInWarp": "Peel into Warp",
+      "warpAutoProgress": "Auto-Swing on Warp",
+      "warpAutoProgressHint": "Automatically move pending swing tasks to peeling when swinging into Warp",
       "addToQueue": "Bunch It",
       "copyIdPrefix": "Stem Peel Prefix",
       "copyIdPrefixHint": "Add some fruit flavoring before the ID. Handy for the AI monkeys in the canopy.",

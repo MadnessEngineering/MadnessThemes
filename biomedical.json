@@ -787,6 +787,8 @@
       "review": "Pathology Review",
       "aiInsights": "Diagnostic Insights",
       "openInWarp": "Initialize Warp Protocol",
+      "warpAutoProgress": "Auto-Assay on Warp",
+      "warpAutoProgressHint": "Automatically move pending assays to in-trial when initializing via Warp",
       "addToQueue": "Queue Specimen",
       "copyIdPrefix": "Accession Protocol Prefix",
       "copyIdPrefixHint": "Standard prefix for accession IDs to maintain clinical compatibility with AI diagnostic systems.",

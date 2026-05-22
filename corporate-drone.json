@@ -750,6 +750,8 @@
       "review": "Audit Status",
       "aiInsights": "Synergy Analytics",
       "openInWarp": "Initialize Warp Synergy",
+      "warpAutoProgress": "Automated Synergistic Progression",
+      "warpAutoProgressHint": "Automatically pivot pending action items to in-execution upon Warp synergy initialization",
       "addToQueue": "Initialize Queue Synergy",
       "copyIdPrefix": "Asset UID Deliverable Prefix",
       "copyIdPrefixHint": "Standardized boilerplate to prepend for seamless integration with AI-driven synergy platforms.",
