@@ -589,7 +589,8 @@
       "review": "Review",
       "aiInsights": "AI Analysis",
       "openInWarp": "Initialize Warp Protocol",
-      "addToQueue": "Queue Specimen"
+      "addToQueue": "Queue Specimen",
+      "topOfQueue": "Priority Specimen"
     },
     "fullEdit": {
       "modeTitle": "Full Protocol Editor"

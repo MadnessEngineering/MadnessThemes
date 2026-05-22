@@ -523,7 +523,8 @@
       "review": "Flag for Review",
       "aiInsights": "AI Analysis",
       "openInWarp": "Initialize Warp Synergy",
-      "addToQueue": "Initialize Queue Synergy"
+      "addToQueue": "Initialize Queue Synergy",
+      "topOfQueue": "Maximize Priority Alignment"
     },
     "fullEdit": {
       "modeTitle": "Full Configuration Mode - Enhanced Optimization Access"

@@ -589,7 +589,8 @@
       "review": "Peer Survey",
       "aiInsights": "Stonecraft Insights",
       "openInWarp": "Delve into Warp",
-      "addToQueue": "Load into Cart"
+      "addToQueue": "Load into Cart",
+      "topOfQueue": "Heave to Top of Cart"
     },
     "fullEdit": {
       "modeTitle": "⛏️ Master Forge Mode - Full Excavation Access"

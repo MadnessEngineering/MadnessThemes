@@ -589,7 +589,8 @@
       "review": "Peer Grooming",
       "aiInsights": "Primate Insights",
       "openInWarp": "Peel into Warp",
-      "addToQueue": "Bunch It"
+      "addToQueue": "Bunch It",
+      "topOfQueue": "Top of the Bunch"
     },
     "fullEdit": {
       "modeTitle": "🍌 Alpha Ape Mode - Full Jungle Access"

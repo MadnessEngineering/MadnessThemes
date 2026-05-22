@@ -589,7 +589,8 @@
       "review": "Peer Review",
       "aiInsights": "Divination",
       "openInWarp": "Summon Warp Portal",
-      "addToQueue": "Summon to Alchemical Queue"
+      "addToQueue": "Summon to Alchemical Queue",
+      "topOfQueue": "Summon to Alchemical Apex"
     },
     "fullEdit": {
       "modeTitle": "🔧 Workshop Mode - Full Edit Access"

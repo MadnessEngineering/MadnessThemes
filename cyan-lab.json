@@ -254,7 +254,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Jack into Warp",
-      "addToQueue": "Queue for Processing"
+      "addToQueue": "Queue for Processing",
+      "topOfQueue": "Priority Sequence"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"

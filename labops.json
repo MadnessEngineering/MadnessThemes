@@ -589,7 +589,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Execute Warp Sequence",
-      "addToQueue": "Add to Ops Queue"
+      "addToQueue": "Add to Ops Queue",
+      "topOfQueue": "Priority Ops"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"

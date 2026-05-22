@@ -589,7 +589,8 @@
       "review": "todoList.buttons.review",
       "aiInsights": "todoList.buttons.aiInsights",
       "openInWarp": "todoList.buttons.openInWarp",
-      "addToQueue": "todoList.buttons.addToQueue"
+      "addToQueue": "todoList.buttons.addToQueue",
+      "topOfQueue": "todoList.buttons.topOfQueue"
     },
     "fullEdit": {
       "modeTitle": "todoList.fullEdit.modeTitle"

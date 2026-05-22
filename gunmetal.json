@@ -589,7 +589,8 @@
       "review": "Debrief",
       "aiInsights": "AI Analysis",
       "openInWarp": "Deploy to Warp",
-      "addToQueue": "Queue for Ops"
+      "addToQueue": "Queue for Ops",
+      "topOfQueue": "Immediate Deployment"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"

@@ -589,7 +589,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Open in Warp",
-      "addToQueue": "Add to Queue"
+      "addToQueue": "Add to Queue",
+      "topOfQueue": "Top of Queue"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"

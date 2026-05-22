@@ -589,7 +589,8 @@
       "review": "Review",
       "aiInsights": "AI Insights",
       "openInWarp": "Anoint Warp Gateway",
-      "addToQueue": "Enlist in Order"
+      "addToQueue": "Enlist in Order",
+      "topOfQueue": "First in the Order"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
