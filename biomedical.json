@@ -585,6 +585,7 @@
       "edit": "Edit",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share Sample",
       "review": "Review",
       "aiInsights": "AI Analysis"
     },
@@ -595,6 +596,7 @@
       "editTask": "Edit Assay",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share Sample",
       "deleteTask": "Archive Assay"
     },
     "dialog": {

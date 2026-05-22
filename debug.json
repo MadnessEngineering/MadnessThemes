@@ -585,6 +585,7 @@
       "edit": "todoList.buttons.edit",
       "copyId": "todoList.buttons.copyId",
       "copyJiraCmd": "todoList.buttons.copyJiraCmd",
+      "share": "todoList.buttons.share",
       "review": "todoList.buttons.review",
       "aiInsights": "todoList.buttons.aiInsights"
     },
@@ -595,6 +596,7 @@
       "editTask": "todoList.menu.editTask",
       "copyId": "todoList.menu.copyId",
       "copyJiraCmd": "todoList.menu.copyJiraCmd",
+      "share": "todoList.menu.share",
       "deleteTask": "todoList.menu.deleteTask"
     },
     "dialog": {

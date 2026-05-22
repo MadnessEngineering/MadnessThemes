@@ -585,6 +585,7 @@
       "edit": "Re-Groom Task",
       "copyId": "Copy Branch ID",
       "copyJiraCmd": "Copy Jira Vines",
+      "share": "Share Banana Peel",
       "review": "Peer Grooming",
       "aiInsights": "Primate Insights"
     },
@@ -595,6 +596,7 @@
       "editTask": "Re-Groom Swing",
       "copyId": "Copy Branch ID",
       "copyJiraCmd": "Copy Jira Vines",
+      "share": "Share Banana Peel",
       "deleteTask": "Chuck Branch"
     },
     "dialog": {

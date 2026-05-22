@@ -585,6 +585,7 @@
       "edit": "Modify Experiment",
       "copyId": "Copy Research ID",
       "copyJiraCmd": "Cast Jira Incantation",
+      "share": "Transmit Specimen",
       "review": "Peer Review",
       "aiInsights": "Divination"
     },
@@ -595,6 +596,7 @@
       "editTask": "Modify Research",
       "copyId": "Copy Research ID",
       "copyJiraCmd": "Copy Jira Incantation",
+      "share": "Transmit Specimen",
       "deleteTask": "Banish Research"
     },
     "dialog": {

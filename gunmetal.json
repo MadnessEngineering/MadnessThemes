@@ -585,6 +585,7 @@
       "edit": "Reconfigure",
       "copyId": "Copy Mission ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share",
       "review": "Debrief",
       "aiInsights": "AI Analysis"
     },
@@ -595,6 +596,7 @@
       "editTask": "Modify Mission",
       "copyId": "Copy Mission ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share",
       "deleteTask": "Abort Mission"
     },
     "dialog": {

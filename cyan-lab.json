@@ -250,6 +250,7 @@
       "edit": "Edit",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights"
     },
@@ -260,6 +261,7 @@
       "editTask": "Edit Task",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
+      "share": "Share",
       "deleteTask": "Delete Task"
     },
     "dialog": {

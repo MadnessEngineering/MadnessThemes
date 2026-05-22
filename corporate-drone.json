@@ -519,6 +519,7 @@
       "edit": "Modify Task",
       "copyId": "Copy Task ID",
       "copyJiraCmd": "Copy Jira Command",
+      "share": "Share Action Item",
       "review": "Flag for Review",
       "aiInsights": "AI Analysis"
     },
@@ -529,6 +530,7 @@
       "editTask": "Edit Task",
       "copyId": "Copy Task ID",
       "copyJiraCmd": "Copy Jira Command",
+      "share": "Share Action Item",
       "deleteTask": "Remove Task"
     },
     "dialog": {

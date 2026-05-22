@@ -585,6 +585,7 @@
       "edit": "Re-forge Task",
       "copyId": "Copy Claim ID",
       "copyJiraCmd": "Copy Jira Runes",
+      "share": "Share Ore Report",
       "review": "Peer Survey",
       "aiInsights": "Stonecraft Insights"
     },
@@ -595,6 +596,7 @@
       "editTask": "Re-forge Mining",
       "copyId": "Copy Claim ID",
       "copyJiraCmd": "Copy Jira Runes",
+      "share": "Share Ore Report",
       "deleteTask": "Collapse Tunnel"
     },
     "dialog": {
