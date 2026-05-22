@@ -252,7 +252,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "openInWarp": "Jack into Warp"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -262,6 +263,7 @@
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
+      "openInWarp": "Jack into Warp",
       "deleteTask": "Delete Task"
     },
     "dialog": {
@@ -582,6 +584,7 @@
       "share": "Broadcast Signal",
       "review": "Data Validation",
       "aiInsights": "Neural Analysis",
+      "openInWarp": "Jack into Warp",
       "copyIdPrefix": "Vector Header Prefix",
       "copyIdPrefixHint": "Inject a string before the ID for clean neural-link integration.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will uplink as 'run get_todo on abc123...'"

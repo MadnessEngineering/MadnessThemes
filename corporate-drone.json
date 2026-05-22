@@ -521,7 +521,8 @@
       "copyJiraCmd": "Copy Jira Command",
       "share": "Share Action Item",
       "review": "Flag for Review",
-      "aiInsights": "AI Analysis"
+      "aiInsights": "AI Analysis",
+      "openInWarp": "Initialize Warp Synergy"
     },
     "fullEdit": {
       "modeTitle": "Full Configuration Mode - Enhanced Optimization Access"
@@ -531,6 +532,7 @@
       "copyId": "Copy Task ID",
       "copyJiraCmd": "Copy Jira Command",
       "share": "Share Action Item",
+      "openInWarp": "Initialize Warp Synergy",
       "deleteTask": "Remove Task"
     },
     "dialog": {
@@ -745,6 +747,7 @@
       "share": "Distribute Update",
       "review": "Audit Status",
       "aiInsights": "Synergy Analytics",
+      "openInWarp": "Initialize Warp Synergy",
       "copyIdPrefix": "Asset UID Deliverable Prefix",
       "copyIdPrefixHint": "Standardized boilerplate to prepend for seamless integration with AI-driven synergy platforms.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will optimize as 'run get_todo on abc123...'"

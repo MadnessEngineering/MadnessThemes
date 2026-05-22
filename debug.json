@@ -587,7 +587,8 @@
       "copyJiraCmd": "todoList.buttons.copyJiraCmd",
       "share": "todoList.buttons.share",
       "review": "todoList.buttons.review",
-      "aiInsights": "todoList.buttons.aiInsights"
+      "aiInsights": "todoList.buttons.aiInsights",
+      "openInWarp": "todoList.buttons.openInWarp"
     },
     "fullEdit": {
       "modeTitle": "todoList.fullEdit.modeTitle"
@@ -597,6 +598,7 @@
       "copyId": "todoList.menu.copyId",
       "copyJiraCmd": "todoList.menu.copyJiraCmd",
       "share": "todoList.menu.share",
+      "openInWarp": "todoList.menu.openInWarp",
       "deleteTask": "todoList.menu.deleteTask"
     },
     "dialog": {
@@ -811,6 +813,7 @@
       "share": "settings.todoToolbar.share",
       "review": "settings.todoToolbar.review",
       "aiInsights": "settings.todoToolbar.aiInsights",
+      "openInWarp": "settings.todoToolbar.openInWarp",
       "copyIdPrefix": "settings.todoToolbar.copyIdPrefix",
       "copyIdPrefixHint": "settings.todoToolbar.copyIdPrefixHint",
       "copyIdPrefixExample": "settings.todoToolbar.copyIdPrefixExample"

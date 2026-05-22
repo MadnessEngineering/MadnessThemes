@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "openInWarp": "Launch in Warp"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -597,6 +598,7 @@
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
+      "openInWarp": "Launch in Warp",
       "deleteTask": "Delete Task"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
+      "openInWarp": "Launch in Warp",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text to prepend when copying IDs for use with AI assistants and external tools.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"

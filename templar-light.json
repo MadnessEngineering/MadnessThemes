@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "openInWarp": "Anoint Warp Gateway"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -597,6 +598,7 @@
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
+      "openInWarp": "Anoint Warp Gateway",
       "deleteTask": "Delete Task"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
+      "openInWarp": "Anoint Warp Gateway",
       "copyIdPrefix": "Sigil Prefix",
       "copyIdPrefixHint": "Sacred text to prepend when copying a Sigil. Blessed for use with the Order Oracle.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will transcribe as 'run get_todo on abc123...'"

@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "openInWarp": "Open in Warp"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -597,6 +598,7 @@
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
+      "openInWarp": "Open in Warp",
       "deleteTask": "Delete Task"
     },
     "dialog": {
@@ -811,6 +813,7 @@
       "share": "Share",
       "review": "Review",
       "aiInsights": "AI Insights",
+      "openInWarp": "Open in Warp",
       "copyIdPrefix": "Copy ID Prefix",
       "copyIdPrefixHint": "Text prepended when clicking Copy ID. Useful for Claude Code or other AI integrations.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"

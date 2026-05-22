@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Vines",
       "share": "Share Banana Peel",
       "review": "Peer Grooming",
-      "aiInsights": "Primate Insights"
+      "aiInsights": "Primate Insights",
+      "openInWarp": "Peel into Warp"
     },
     "fullEdit": {
       "modeTitle": "🍌 Alpha Ape Mode - Full Jungle Access"
@@ -597,6 +598,7 @@
       "copyId": "Copy Branch ID",
       "copyJiraCmd": "Copy Jira Vines",
       "share": "Share Banana Peel",
+      "openInWarp": "Peel into Warp",
       "deleteTask": "Chuck Branch"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Pass the Bunch",
       "review": "Check Ripeness",
       "aiInsights": "Tropical Wisdom",
+      "openInWarp": "Peel into Warp",
       "copyIdPrefix": "Stem Peel Prefix",
       "copyIdPrefixHint": "Add some fruit flavoring before the ID. Handy for the AI monkeys in the canopy.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will ripen as 'run get_todo on abc123...'"

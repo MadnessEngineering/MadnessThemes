@@ -587,7 +587,8 @@
       "copyJiraCmd": "Cast Jira Incantation",
       "share": "Transmit Specimen",
       "review": "Peer Review",
-      "aiInsights": "Divination"
+      "aiInsights": "Divination",
+      "openInWarp": "Summon Warp Portal"
     },
     "fullEdit": {
       "modeTitle": "🔧 Workshop Mode - Full Edit Access"
@@ -597,6 +598,7 @@
       "copyId": "Copy Research ID",
       "copyJiraCmd": "Copy Jira Incantation",
       "share": "Transmit Specimen",
+      "openInWarp": "Summon Warp Portal",
       "deleteTask": "Banish Research"
     },
     "dialog": {
@@ -811,6 +813,7 @@
       "share": "Transmit Specimen",
       "review": "Peer Review",
       "aiInsights": "Divination",
+      "openInWarp": "Summon Warp Portal",
       "copyIdPrefix": "Sigil Prefix Incantation",
       "copyIdPrefixHint": "Ancient text to be spoken before the research ID. Ideal for summoning Claude or other digital familiars.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will conjure 'run get_todo on abc123...'"

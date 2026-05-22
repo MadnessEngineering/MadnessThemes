@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Runes",
       "share": "Share Ore Report",
       "review": "Peer Survey",
-      "aiInsights": "Stonecraft Insights"
+      "aiInsights": "Stonecraft Insights",
+      "openInWarp": "Delve into Warp"
     },
     "fullEdit": {
       "modeTitle": "⛏️ Master Forge Mode - Full Excavation Access"
@@ -597,6 +598,7 @@
       "copyId": "Copy Claim ID",
       "copyJiraCmd": "Copy Jira Runes",
       "share": "Share Ore Report",
+      "openInWarp": "Delve into Warp",
       "deleteTask": "Collapse Tunnel"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Toss to Kin",
       "review": "Inspect Ore",
       "aiInsights": "Ancient Wisdom",
+      "openInWarp": "Delve into Warp",
       "copyIdPrefix": "Ore Tag Prefix",
       "copyIdPrefixHint": "Hammer some text onto the ID before ye mine it. Good for talkin' to the metal-thinkers.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will forge as 'run get_todo on abc123...'"

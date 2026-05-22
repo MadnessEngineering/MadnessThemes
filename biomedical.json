@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share Sample",
       "review": "Review",
-      "aiInsights": "AI Analysis"
+      "aiInsights": "AI Analysis",
+      "openInWarp": "Initialize Warp Protocol"
     },
     "fullEdit": {
       "modeTitle": "Full Protocol Editor"
@@ -597,6 +598,7 @@
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share Sample",
+      "openInWarp": "Initialize Warp Protocol",
       "deleteTask": "Archive Assay"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Transmit Results",
       "review": "Pathology Review",
       "aiInsights": "Diagnostic Insights",
+      "openInWarp": "Initialize Warp Protocol",
       "copyIdPrefix": "Accession Protocol Prefix",
       "copyIdPrefixHint": "Standard prefix for accession IDs to maintain clinical compatibility with AI diagnostic systems.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will sequence as 'run get_todo on abc123...'"

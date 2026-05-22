@@ -587,7 +587,8 @@
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Debrief",
-      "aiInsights": "AI Analysis"
+      "aiInsights": "AI Analysis",
+      "openInWarp": "Deploy to Warp"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
@@ -597,6 +598,7 @@
       "copyId": "Copy Mission ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
+      "openInWarp": "Deploy to Warp",
       "deleteTask": "Abort Mission"
     },
     "dialog": {
@@ -782,6 +784,7 @@
       "share": "Relay Intel",
       "review": "AAR (After Action Review)",
       "aiInsights": "Tactical Intel",
+      "openInWarp": "Deploy to Warp",
       "copyIdPrefix": "Serial Number Header",
       "copyIdPrefixHint": "Pre-defined tactical prefix for serial numbers. Required for automated AI intel processing.",
       "copyIdPrefixExample": "Example: 'run get_todo on ' will relay as 'run get_todo on abc123...'"
