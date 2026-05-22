@@ -1985,6 +1985,12 @@
       "total": "Queued",
       "high": "Urgent",
       "incoming": "Incoming"
+    },
+    "clearQueue": "Clear Operations Queue",
+    "clearConfirm": {
+      "title": "Reset Operational Priority?",
+      "message": "This will remove {{count}} protocol(s) from the ordered operations queue. They will be reverted to Intake.",
+      "confirm": "Clear All"
     }
   },
   "onboarding": {

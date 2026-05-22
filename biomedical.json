@@ -2010,6 +2010,12 @@
       "total": "Queued Specimens",
       "high": "Critical Priority",
       "incoming": "Intake"
+    },
+    "clearQueue": "Discharge All Specimens",
+    "clearConfirm": {
+      "title": "Clear Specimen Queue?",
+      "message": "This will remove {{count}} specimen(s) from the clinical priority queue. They will be returned to New Intake.",
+      "confirm": "Discharge All"
     }
   },
   "umlData": {

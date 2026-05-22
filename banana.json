@@ -2010,6 +2010,12 @@
       "total": "Queued Bananas",
       "high": "Overripe Urgent",
       "incoming": "Fresh Pickings"
+    },
+    "clearQueue": "Drop the Bunch",
+    "clearConfirm": {
+      "title": "Dump the Basket?",
+      "message": "This will drop {{count}} banana(s) from the swing queue. They'll fall back into the Fresh Pickings pile!",
+      "confirm": "Drop All"
     }
   },
   "umlData": {

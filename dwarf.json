@@ -2010,6 +2010,12 @@
       "total": "Queued Ore",
       "high": "Deep Vein Urgent",
       "incoming": "Raw Deposits"
+    },
+    "clearQueue": "Dump the Cart",
+    "clearConfirm": {
+      "title": "Empty the Iron Cart?",
+      "message": "This'll toss {{count}} chunk(s) o' ore out o' the cart. They'll be kicked back into the Raw Ore Deposits.",
+      "confirm": "Tip the Cart"
     }
   },
   "umlData": {

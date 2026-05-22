@@ -1955,6 +1955,12 @@
       "total": "Queued Missions",
       "high": "Code Red",
       "incoming": "Incoming"
+    },
+    "clearQueue": "Purge Tactical Queue",
+    "clearConfirm": {
+      "title": "Abort Queue Operations?",
+      "message": "This will remove {{count}} mission objective(s) from the tactical priority queue. They will be returned to standby status.",
+      "confirm": "Execute Purge"
     }
   },
   "onboarding": {

@@ -1985,6 +1985,12 @@
       "total": "Queued",
       "high": "Urgent",
       "incoming": "Incoming"
+    },
+    "clearQueue": "Clear Queue",
+    "clearConfirm": {
+      "title": "Clear Queue?",
+      "message": "This will remove {{count}} item(s) from the ordered queue. They will move back to Incoming.",
+      "confirm": "Clear All"
     }
   },
   "onboarding": {

@@ -1935,6 +1935,12 @@
       "total": "Queued",
       "high": "Urgent",
       "incoming": "Incoming"
+    },
+    "clearQueue": "Flush Priority Matrix",
+    "clearConfirm": {
+      "title": "Reset Priority Buffer?",
+      "message": "This will remove {{count}} task node(s) from the ordered priority matrix. They will be re-routed to Incoming Nodes.",
+      "confirm": "Flush Matrix"
     }
   },
   "spells": {
