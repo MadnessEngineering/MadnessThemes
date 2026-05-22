@@ -581,7 +581,10 @@
       "copyJiraCommand": "Execute Terminal Sync",
       "share": "Broadcast Signal",
       "review": "Data Validation",
-      "aiInsights": "Neural Analysis"
+      "aiInsights": "Neural Analysis",
+      "copyIdPrefix": "Vector Header Prefix",
+      "copyIdPrefixHint": "Inject a string before the ID for clean neural-link integration.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will uplink as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Profile",

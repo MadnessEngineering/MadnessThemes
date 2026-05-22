@@ -810,7 +810,10 @@
       "copyJiraCommand": "Copy Jira Command",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "copyIdPrefix": "Copy ID Prefix",
+      "copyIdPrefixHint": "Text prepended when clicking Copy ID. Useful for Claude Code or other AI integrations.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Profile",

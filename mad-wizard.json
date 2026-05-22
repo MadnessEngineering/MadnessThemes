@@ -810,7 +810,10 @@
       "copyJiraCommand": "Cast Jira Incantation",
       "share": "Transmit Specimen",
       "review": "Peer Review",
-      "aiInsights": "Divination"
+      "aiInsights": "Divination",
+      "copyIdPrefix": "Sigil Prefix Incantation",
+      "copyIdPrefixHint": "Ancient text to be spoken before the research ID. Ideal for summoning Claude or other digital familiars.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will conjure 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Laboratory Profile",

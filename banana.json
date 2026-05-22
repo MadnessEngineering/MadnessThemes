@@ -781,7 +781,10 @@
       "copyJiraCommand": "Banana Boat Command",
       "share": "Pass the Bunch",
       "review": "Check Ripeness",
-      "aiInsights": "Tropical Wisdom"
+      "aiInsights": "Tropical Wisdom",
+      "copyIdPrefix": "Stem Peel Prefix",
+      "copyIdPrefixHint": "Add some fruit flavoring before the ID. Handy for the AI monkeys in the canopy.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will ripen as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Ape Profile",

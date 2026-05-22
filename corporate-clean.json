@@ -781,7 +781,10 @@
       "copyJiraCommand": "Copy Jira Command",
       "share": "Share",
       "review": "Review",
-      "aiInsights": "AI Insights"
+      "aiInsights": "AI Insights",
+      "copyIdPrefix": "Copy ID Prefix",
+      "copyIdPrefixHint": "Text to prepend when copying IDs for use with AI assistants and external tools.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will copy as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Profile",

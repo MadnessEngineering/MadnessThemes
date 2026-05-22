@@ -781,7 +781,10 @@
       "copyJiraCommand": "Sync to LIMS",
       "share": "Share Report",
       "review": "QA Review",
-      "aiInsights": "Operational Insights"
+      "aiInsights": "Operational Insights",
+      "copyIdPrefix": "Sample ID Prefix",
+      "copyIdPrefixHint": "Operational prefix for sample IDs to streamline integration with AI lab assistants.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will process as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Profile",

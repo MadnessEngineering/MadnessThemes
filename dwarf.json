@@ -781,7 +781,10 @@
       "copyJiraCommand": "Forge Command",
       "share": "Toss to Kin",
       "review": "Inspect Ore",
-      "aiInsights": "Ancient Wisdom"
+      "aiInsights": "Ancient Wisdom",
+      "copyIdPrefix": "Ore Tag Prefix",
+      "copyIdPrefixHint": "Hammer some text onto the ID before ye mine it. Good for talkin' to the metal-thinkers.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will forge as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Miner Profile",

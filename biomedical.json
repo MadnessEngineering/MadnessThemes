@@ -781,7 +781,10 @@
       "copyJiraCommand": "Export Clinical Data",
       "share": "Transmit Results",
       "review": "Pathology Review",
-      "aiInsights": "Diagnostic Insights"
+      "aiInsights": "Diagnostic Insights",
+      "copyIdPrefix": "Accession Protocol Prefix",
+      "copyIdPrefixHint": "Standard prefix for accession IDs to maintain clinical compatibility with AI diagnostic systems.",
+      "copyIdPrefixExample": "Example: 'run get_todo on ' will sequence as 'run get_todo on abc123...'"
     },
     "tabs": {
       "profile": "Profile",

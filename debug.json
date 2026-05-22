@@ -810,7 +810,10 @@
       "copyJiraCommand": "settings.todoToolbar.copyJiraCommand",
       "share": "settings.todoToolbar.share",
       "review": "settings.todoToolbar.review",
-      "aiInsights": "settings.todoToolbar.aiInsights"
+      "aiInsights": "settings.todoToolbar.aiInsights",
+      "copyIdPrefix": "settings.todoToolbar.copyIdPrefix",
+      "copyIdPrefixHint": "settings.todoToolbar.copyIdPrefixHint",
+      "copyIdPrefixExample": "settings.todoToolbar.copyIdPrefixExample"
     },
     "tabs": {
       "profile": "settings.tabs.profile",
