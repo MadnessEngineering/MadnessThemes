@@ -810,7 +810,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Sanctuary"
+      "support": "Sanctuary",
+      "hooks": "Sacred Automation Rites"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Collapse the Cathedral"
     },
     "viewModeTooltip": "Sacred Order Constellation"
+  },
+  "tier": {
+    "pro": "KNIGHT",
+    "proTooltip": "A sworn defender with expanded sacred duties",
+    "admin": "GRAND MASTER",
+    "adminTooltip": "Supreme leader of the order with absolute mandate",
+    "premium": "PALADIN",
+    "premiumTooltip": "An elite champion blessed with all holy artifacts"
   },
   "aiInsights": {
     "dialog": {

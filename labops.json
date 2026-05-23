@@ -810,7 +810,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Ops Help"
+      "support": "Ops Help",
+      "hooks": "Lab Automation Hooks"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Lab Dependency Network"
+  },
+  "tier": {
+    "pro": "SENIOR OPERATOR",
+    "proTooltip": "Senior status with expanded protocol access",
+    "admin": "OPERATIONS MANAGER",
+    "adminTooltip": "Full management control over lab operations",
+    "premium": "PRINCIPAL",
+    "premiumTooltip": "Principal investigator with advanced research rights"
   },
   "aiInsights": {
     "dialog": {

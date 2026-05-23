@@ -833,6 +833,7 @@
       "apiKeys": "settings.tabs.apiKeys",
       "appearance": "settings.tabs.appearance",
       "mindMap": "settings.tabs.mindMap",
+      "hooks": "settings.tabs.hooks",
       "privacy": "settings.tabs.privacy",
       "advanced": "settings.tabs.advanced",
       "npcAgents": "settings.tabs.npcAgents",

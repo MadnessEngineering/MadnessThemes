@@ -810,7 +810,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Help"
+      "support": "Help",
+      "hooks": "Automation Hooks"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Dependency Constellation"
+  },
+  "tier": {
+    "pro": "PRO",
+    "proTooltip": "Professional tier with expanded features",
+    "admin": "ADMIN",
+    "adminTooltip": "Administrative access with full control",
+    "premium": "PREMIUM",
+    "premiumTooltip": "Premium tier with all advanced capabilities"
   },
   "aiInsights": {
     "dialog": {

@@ -810,7 +810,8 @@
       "umlData": "Code Visualizations",
       "npcAgents": "Clan Kin",
       "swarmDesk": "SwarmDesk",
-      "support": "Overseer"
+      "support": "Overseer",
+      "hooks": "Forge Automation Runes"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Collapse the Mine"
     },
     "viewModeTooltip": "Ore Vein Constellation"
+  },
+  "tier": {
+    "pro": "THANE",
+    "proTooltip": "A respected noble with expanded mine rights",
+    "admin": "KING UNDER THE MOUNTAIN",
+    "adminTooltip": "Ultimate authority over the entire deep-hold",
+    "premium": "MASTER MASON",
+    "premiumTooltip": "An elite craftsman with access to the rarest ores"
   },
   "aiInsights": {
     "dialog": {

@@ -810,7 +810,8 @@
       "umlData": "Code Visualizations",
       "npcAgents": "Primate Personas",
       "swarmDesk": "SwarmDesk",
-      "support": "Help-nana"
+      "support": "Help-nana",
+      "hooks": "Jungle Automation Vines"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Small Banana View"
     },
     "viewModeTooltip": "Banana Vine Tangle"
+  },
+  "tier": {
+    "pro": "SILVERBACK",
+    "proTooltip": "A powerful ape with expanded territory",
+    "admin": "KING KONG",
+    "adminTooltip": "Absolute ruler of the jungle canopy",
+    "premium": "ORANGUTAN ELITE",
+    "premiumTooltip": "Highly intelligent primate with advanced tools"
   },
   "aiInsights": {
     "dialog": {

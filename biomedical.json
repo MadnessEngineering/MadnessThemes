@@ -804,6 +804,7 @@
       "apiKeys": "API Keys",
       "appearance": "Appearance",
       "mindMap": "Mind Map",
+      "hooks": "Clinical Automations",
       "privacy": "Privacy",
       "advanced": "Advanced",
       "messaging": "Messaging",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Collapse Field"
     },
     "viewModeTooltip": "Specimen Dependency Network"
+  },
+  "tier": {
+    "pro": "SPECIALIST",
+    "proTooltip": "Board-certified specialist with enhanced privileges",
+    "admin": "CHIEF OF MEDICINE",
+    "adminTooltip": "Full clinical oversight and administrative control",
+    "premium": "RESEARCH FELLOW",
+    "premiumTooltip": "Elite researcher with access to advanced bio-data"
   },
   "aiInsights": {
     "dialog": {

@@ -73,7 +73,8 @@
     "refreshNow": "Refresh Now",
     "copyId": "Copy ID",
     "show": "Show",
-    "copy": "Copy"
+    "copy": "Copy",
+    "dismiss": "Dismiss"
   },
   "dashboard": {
     "title": "🔬 Laboratory Dashboard",
@@ -608,7 +609,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Personnel",
       "swarmDesk": "SwarmDesk",
-      "support": "Uplink"
+      "support": "Uplink",
+      "hooks": "Automation Protocols"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -2502,6 +2504,14 @@
       "exitFullscreen": "Exit Fullscreen"
     },
     "viewModeTooltip": "Node Dependency Graph"
+  },
+  "tier": {
+    "pro": "EXPERT",
+    "proTooltip": "Lab expert with certified advanced access",
+    "admin": "DIRECTOR",
+    "adminTooltip": "Facility director with complete systemic authority",
+    "premium": "ELITE",
+    "premiumTooltip": "Elite access tier for high-precision operations"
   },
   "aiInsights": {
     "dialog": {

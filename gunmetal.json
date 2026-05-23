@@ -810,7 +810,8 @@
       "advanced": "Advanced",
       "npcAgents": "Tactical AI",
       "swarmDesk": "SwarmDesk",
-      "support": "Comms"
+      "support": "Comms",
+      "hooks": "Combat Automation Routines"
     },
     "messaging": {
       "title": "Message Roles Configuration",
@@ -2503,6 +2504,14 @@
       "exitFullscreen": "Collapse View"
     },
     "viewModeTooltip": "Asset Dependency Grid"
+  },
+  "tier": {
+    "pro": "VETERAN",
+    "proTooltip": "Experienced pilot with upgraded hardware access",
+    "admin": "COMMANDER",
+    "adminTooltip": "Supreme command with full tactical override",
+    "premium": "ELITE SQUAD",
+    "premiumTooltip": "Special forces access with advanced prototype gear"
   },
   "aiInsights": {
     "dialog": {
