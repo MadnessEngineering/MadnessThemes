@@ -2565,5 +2565,21 @@
         "tooltip": "Moves faster than a spark in the wind"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Incoming Ore Shipment",
+    "description": "Raw data has arrived from the surface. Chisel it into a new task?",
+    "createTodo": "Chisel Task",
+    "cancel": "Abandon Post",
+    "sharedFrom": "Hauled from: {app}",
+    "noData": "The cart is empty, lad"
+  },
+  "pwa": {
+    "installTitle": "Forge into Stone",
+    "installDescription": "Hammer the Inventorium onto your home screen for sturdy access",
+    "installButton": "Forge",
+    "installDismiss": "Not Today",
+    "installBenefit": "Stands strong without the draft (offline), fast as a falling pick",
+    "installPrompt": "Forge the app for a better mining experience"
   }
 }

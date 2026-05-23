@@ -2573,5 +2573,21 @@
         "tooltip": "Accelerates workflows to hit aggressive deadlines"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Onboard Shared Data",
+    "description": "Incoming synergy opportunity detected. Initiate task creation protocol?",
+    "createTodo": "Generate Deliverable",
+    "cancel": "Defer Implementation",
+    "sharedFrom": "Sourced via: {app}",
+    "noData": "Zero value-add data detected"
+  },
+  "pwa": {
+    "installTitle": "Execute Device Optimization Protocol",
+    "installDescription": "Leverage local installation for maximum workflow efficiency",
+    "installButton": "Deploy",
+    "installDismiss": "Park Idea",
+    "installBenefit": "Enables offline productivity, ultra-low latency",
+    "installPrompt": "Install now to maximize your stakeholder value"
   }
 }

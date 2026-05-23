@@ -2565,5 +2565,21 @@
         "tooltip": "Neutralizes objectives with lethal efficiency"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Intercept Intel",
+    "description": "New data packet intercepted. Log as a mission objective?",
+    "createTodo": "Log Mission",
+    "cancel": "Abort",
+    "sharedFrom": "Relayed from: {app}",
+    "noData": "Packet contains no actionable intel"
+  },
+  "pwa": {
+    "installTitle": "Deploy to Device",
+    "installDescription": "Hardlink Inventorium to your HUD for combat-ready access",
+    "installButton": "Deploy",
+    "installDismiss": "Hold Fire",
+    "installBenefit": "Mission ready offline, zero-lag deployment",
+    "installPrompt": "Deploy the app for maximum field efficiency"
   }
 }

@@ -2565,5 +2565,21 @@
         "tooltip": "Finishes the banana before the peel hits the ground"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Peel Shared Fruit",
+    "description": "Another ape threw something our way. Turn it into a task?",
+    "createTodo": "Peel Task",
+    "cancel": "Throw Back",
+    "sharedFrom": "Swung from: {app}",
+    "noData": "No banana found in this bunch"
+  },
+  "pwa": {
+    "installTitle": "Nest App in Tree",
+    "installDescription": "Put Inventorium on your home branch for quick climbing",
+    "installButton": "Nest",
+    "installDismiss": "Later, oo oo",
+    "installBenefit": "Works even when the vines are dry (offline), fast as a leopard",
+    "installPrompt": "Nest the app for a better jungle life"
   }
 }

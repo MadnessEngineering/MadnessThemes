@@ -2564,5 +2564,21 @@
         "tooltip": "Executes subroutines before the clock cycle completes"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Receive Data Input",
+    "description": "External dataset detected. Initialize a new laboratory task?",
+    "createTodo": "Initialize Task",
+    "cancel": "Clear Input",
+    "sharedFrom": "Input Source: {app}",
+    "noData": "Input buffer empty"
+  },
+  "pwa": {
+    "installTitle": "Calibrate Local Station",
+    "installDescription": "Add Inventorium to your desktop for streamlined laboratory access",
+    "installButton": "Install",
+    "installDismiss": "Ignore",
+    "installBenefit": "Functions without uplink (offline), immediate response",
+    "installPrompt": "Install for optimal scientific workflow"
   }
 }

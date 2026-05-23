@@ -2574,5 +2574,21 @@
         "tooltip": "Completes tasks with exceptional speed"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Create Todo from Share",
+    "description": "Shared content received. Create a todo from this?",
+    "createTodo": "Create Todo",
+    "cancel": "Cancel",
+    "sharedFrom": "Shared from: {app}",
+    "noData": "No shared data received"
+  },
+  "pwa": {
+    "installTitle": "Install App",
+    "installDescription": "Add Inventorium to your home screen for quick access",
+    "installButton": "Install",
+    "installDismiss": "Maybe Later",
+    "installBenefit": "Works offline, loads instantly",
+    "installPrompt": "Install the app for a better experience"
   }
 }

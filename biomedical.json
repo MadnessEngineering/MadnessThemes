@@ -2565,5 +2565,21 @@
         "tooltip": "Processes samples with sub-millisecond latency"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Process Incoming Specimen",
+    "description": "External data sequence received. Log as a new clinical task?",
+    "createTodo": "Log Task",
+    "cancel": "Discard Sample",
+    "sharedFrom": "Originating Laboratory: {app}",
+    "noData": "Specimen contains no readable markers"
+  },
+  "pwa": {
+    "installTitle": "Initialize Local Deployment",
+    "installDescription": "Install Inventorium to your workstation for optimized diagnostic access",
+    "installButton": "Install",
+    "installDismiss": "Defer",
+    "installBenefit": "Maintains stability offline, rapid load protocols",
+    "installPrompt": "Install for the most precise clinical experience"
   }
 }

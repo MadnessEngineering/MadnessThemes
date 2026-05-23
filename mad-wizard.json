@@ -2574,5 +2574,21 @@
         "tooltip": "Bends time to finish scrolls in a blink"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Capture Arcane Transmission",
+    "description": "An external scroll has been received. Shall we bind it to a new task?",
+    "createTodo": "Inscribe Task",
+    "cancel": "Dispel",
+    "sharedFrom": "Summoned from: {app}",
+    "noData": "The transmission contains no mana"
+  },
+  "pwa": {
+    "installTitle": "Bind to Device",
+    "installDescription": "Anchor the Inventorium to your personal scrying glass for swift access",
+    "installButton": "Bind",
+    "installDismiss": "Not Now",
+    "installBenefit": "Endures beyond the veil (offline), manifests instantly",
+    "installPrompt": "Bind the workshop for a more potent experience"
   }
 }

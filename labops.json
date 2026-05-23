@@ -2565,5 +2565,21 @@
         "tooltip": "Resolves critical bottlenecks in record time"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Register Shared Resource",
+    "description": "External resource shared. Create a new operational task?",
+    "createTodo": "Register Task",
+    "cancel": "Cancel",
+    "sharedFrom": "Shared from Protocol: {app}",
+    "noData": "No data in sharing buffer"
+  },
+  "pwa": {
+    "installTitle": "Provision Local App",
+    "installDescription": "Provision Inventorium on your terminal for faster operational cycles",
+    "installButton": "Provision",
+    "installDismiss": "Postpone",
+    "installBenefit": "Operates without grid connection, instant execution",
+    "installPrompt": "Install to enhance laboratory operational efficiency"
   }
 }

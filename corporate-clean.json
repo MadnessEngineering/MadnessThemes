@@ -2565,5 +2565,21 @@
         "tooltip": "Consistently completes deliverables ahead of schedule"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Import Shared Content",
+    "description": "Shared data received. Would you like to create a new task?",
+    "createTodo": "Create Task",
+    "cancel": "Cancel",
+    "sharedFrom": "Source: {app}",
+    "noData": "No valid data received"
+  },
+  "pwa": {
+    "installTitle": "Install Application",
+    "installDescription": "Add Inventorium to your device for a streamlined experience",
+    "installButton": "Install",
+    "installDismiss": "Later",
+    "installBenefit": "Offline support and faster loading",
+    "installPrompt": "Install for the best professional experience"
   }
 }

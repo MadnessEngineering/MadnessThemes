@@ -2565,5 +2565,21 @@
         "tooltip": "Acts with the speed of a falling star"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "Heed the Call",
+    "description": "A message from the world beyond. Shall we forge it into a sacred duty?",
+    "createTodo": "Vow Duty",
+    "cancel": "Retreat",
+    "sharedFrom": "Heralded by: {app}",
+    "noData": "The parchment is blank, brother"
+  },
+  "pwa": {
+    "installTitle": "Enshrine the Order's Tool",
+    "installDescription": "Place the Inventorium upon your home sanctuary for eternal access",
+    "installButton": "Enshrine",
+    "installDismiss": "Not Today",
+    "installBenefit": "Faith endures in the dark (offline), swift as a prayer",
+    "installPrompt": "Enshrine the app for a more blessed journey"
   }
 }

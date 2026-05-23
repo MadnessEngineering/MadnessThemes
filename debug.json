@@ -2553,5 +2553,21 @@
         "tooltip": "agentStats.enchantments.speed_demon.tooltip"
       }
     }
+  },
+  "shareReceiver": {
+    "title": "shareReceiver.title",
+    "description": "shareReceiver.description",
+    "createTodo": "shareReceiver.createTodo",
+    "cancel": "shareReceiver.cancel",
+    "sharedFrom": "shareReceiver.sharedFrom",
+    "noData": "shareReceiver.noData"
+  },
+  "pwa": {
+    "installTitle": "pwa.installTitle",
+    "installDescription": "pwa.installDescription",
+    "installButton": "pwa.installButton",
+    "installDismiss": "pwa.installDismiss",
+    "installBenefit": "pwa.installBenefit",
+    "installPrompt": "pwa.installPrompt"
   }
 }
