@@ -2607,6 +2607,49 @@
       "explicit": "Explicit reference",
       "embedding": "Semantic (embedding)",
       "tag": "Shared tags"
+    },
+    "panel": {
+      "title": "Lesson Inspector",
+      "close": "Close",
+      "inspector": "Inspector",
+      "editor": "Editor",
+      "empty": "Select a lesson in the graph to inspect."
+    },
+    "field": {
+      "topic": "Topic",
+      "language": "Language",
+      "tags": "Tags (comma-separated)",
+      "lesson_learned": "Lesson content",
+      "createdAt": "created",
+      "embeddedAt": "embedded",
+      "noTags": "no tags"
+    },
+    "embedding": {
+      "present": "embedding present",
+      "stale": "embedding stale",
+      "missing": "embedding missing",
+      "unknown": "unknown",
+      "regenerate": "Recompute embedding"
+    },
+    "neighbors": {
+      "title": "Neighbors",
+      "explicit": "Explicit references",
+      "referencedBy": "Referenced by",
+      "embedding": "Semantic neighbors",
+      "tag": "Tag neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Save",
+      "saved": "Saved.",
+      "saveAndRegen": "Save + Regen",
+      "cancel": "Revert",
+      "tagsHelp": "Lowercased on save."
+    },
+    "errors": {
+      "loadFailed": "Failed to load lesson",
+      "saveFailed": "Failed to save",
+      "regenFailed": "Embedding refresh failed"
     }
   }
 }
