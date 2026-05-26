@@ -466,6 +466,10 @@
       "enter": "🚀 ENTER REALM",
       "helpText": "Press Enter or #{{number}}"
     },
+    "createCta": {
+      "title": "Conjure a New Experiment",
+      "subtitle": "Your laboratory has room for more creations"
+    },
     "deleteDialog": {
       "title": "Banish Apparatus",
       "confirm": "Are you sure you wish to banish apparatus \"{{projectName}}\"?",

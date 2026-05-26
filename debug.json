@@ -466,6 +466,10 @@
       "enter": "projectNavigator.enterButton.enter",
       "helpText": "projectNavigator.enterButton.helpText"
     },
+    "createCta": {
+      "title": "projectNavigator.createCta.title",
+      "subtitle": "projectNavigator.createCta.subtitle"
+    },
     "deleteDialog": {
       "title": "projectNavigator.deleteDialog.title",
       "confirm": "projectNavigator.deleteDialog.confirm",
