@@ -2594,5 +2594,19 @@
     "installDismiss": "Maybe Later",
     "installBenefit": "Works offline, loads instantly",
     "installPrompt": "Install the app for a better experience"
+  },
+  "lessonsViewer": {
+    "title": "Lessons graph",
+    "nodes": "nodes",
+    "edges": "edges",
+    "refresh": "Refresh",
+    "cycleMode": "Switch map mode",
+    "minSimilarity": "Min cosine similarity",
+    "maxEdges": "Max edges / node",
+    "legend": {
+      "explicit": "Explicit reference",
+      "embedding": "Semantic (embedding)",
+      "tag": "Shared tags"
+    }
   }
 }

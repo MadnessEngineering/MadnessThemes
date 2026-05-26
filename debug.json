@@ -2574,5 +2574,19 @@
     "installDismiss": "pwa.installDismiss",
     "installBenefit": "pwa.installBenefit",
     "installPrompt": "pwa.installPrompt"
+  },
+  "lessonsViewer": {
+    "title": "lessonsViewer.title",
+    "nodes": "lessonsViewer.nodes",
+    "edges": "lessonsViewer.edges",
+    "refresh": "lessonsViewer.refresh",
+    "cycleMode": "lessonsViewer.cycleMode",
+    "minSimilarity": "lessonsViewer.minSimilarity",
+    "maxEdges": "lessonsViewer.maxEdges",
+    "legend": {
+      "explicit": "lessonsViewer.legend.explicit",
+      "embedding": "lessonsViewer.legend.embedding",
+      "tag": "lessonsViewer.legend.tag"
+    }
   }
 }

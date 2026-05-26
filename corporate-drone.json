@@ -2594,5 +2594,19 @@
     "installDismiss": "Park Idea",
     "installBenefit": "Enables offline productivity, ultra-low latency",
     "installPrompt": "Install now to maximize your stakeholder value"
+  },
+  "lessonsViewer": {
+    "title": "Knowledge Asset Topology",
+    "nodes": "assets",
+    "edges": "linkages",
+    "refresh": "Re-sync",
+    "cycleMode": "Pivot visualization layer",
+    "minSimilarity": "Semantic correlation threshold",
+    "maxEdges": "Linkages per asset (cap)",
+    "legend": {
+      "explicit": "Curated dependency",
+      "embedding": "Semantic correlation",
+      "tag": "Taxonomy overlap"
+    }
   }
 }

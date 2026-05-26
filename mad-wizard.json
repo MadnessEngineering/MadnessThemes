@@ -2594,5 +2594,19 @@
     "installDismiss": "Not Now",
     "installBenefit": "Endures beyond the veil (offline), manifests instantly",
     "installPrompt": "Bind the workshop for a more potent experience"
+  },
+  "lessonsViewer": {
+    "title": "Grimoire constellation",
+    "nodes": "spells",
+    "edges": "filaments",
+    "refresh": "Re-divine",
+    "cycleMode": "Shift the scrying lens",
+    "minSimilarity": "Mystical resonance threshold",
+    "maxEdges": "Filaments per spell",
+    "legend": {
+      "explicit": "Hand-bound sigil",
+      "embedding": "Latent essence (embedding)",
+      "tag": "Shared incantations"
+    }
   }
 }
