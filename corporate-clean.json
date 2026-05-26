@@ -462,9 +462,13 @@
       "noActivity": "No recent activity"
     },
     "enterButton": {
-      "selected": "⚡ SELECTED",
-      "enter": "🚀 ENTER",
+      "selected": "SELECTED",
+      "enter": "ENTER",
       "helpText": "Press Enter or #{{number}}"
+    },
+    "createCta": {
+      "title": "Create a New Project",
+      "subtitle": "Organization capacity available — initialize a new initiative"
     },
     "deleteDialog": {
       "title": "Delete Project",

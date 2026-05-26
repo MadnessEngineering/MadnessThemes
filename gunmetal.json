@@ -462,9 +462,13 @@
       "noActivity": "No recent sortie activity"
     },
     "enterButton": {
-      "selected": "⚡ LOCKED ON",
-      "enter": "🚀 LAUNCH",
+      "selected": "🎯 LOCKED",
+      "enter": "🔫 DEPLOY",
       "helpText": "Press Enter or #{{number}}"
+    },
+    "createCta": {
+      "title": "Deploy New Operation",
+      "subtitle": "Tactical assets available — authorize a new mission"
     },
     "deleteDialog": {
       "title": "Delete Project",

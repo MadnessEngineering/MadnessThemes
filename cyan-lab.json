@@ -1882,9 +1882,13 @@
       "noActivity": "No recent activity detected"
     },
     "enterButton": {
-      "selected": "⚡ SELECTED",
-      "enter": "🚀 ENTER",
+      "selected": "🔷 SELECTED",
+      "enter": "⚡ ENTER",
       "helpText": "Press Enter or #{{number}}"
+    },
+    "createCta": {
+      "title": "Synthesize New Prototype",
+      "subtitle": "Grid capacity online — initialize a new construct"
     },
     "deleteDialog": {
       "title": "Delete Project",

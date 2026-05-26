@@ -466,6 +466,10 @@
       "enter": "🚀 ENTER MINE",
       "helpText": "Press Enter or #{{number}}"
     },
+    "createCta": {
+      "title": "Stake a New Claim",
+      "subtitle": "The mountain holds more riches — dig a new tunnel"
+    },
     "deleteDialog": {
       "title": "Abandon Quarry",
       "confirm": "Are ye certain ye wish to abandon quarry \"{{projectName}}\"?",

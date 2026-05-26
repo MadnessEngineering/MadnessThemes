@@ -462,9 +462,13 @@
       "noActivity": "No recent activity"
     },
     "enterButton": {
-      "selected": "⚡ SELECTED",
-      "enter": "🚀 ENTER",
+      "selected": "📦 STAGED",
+      "enter": "🚀 DEPLOY",
       "helpText": "Press Enter or #{{number}}"
+    },
+    "createCta": {
+      "title": "Provision New Infrastructure",
+      "subtitle": "Compute resources available — spin up a new environment"
     },
     "deleteDialog": {
       "title": "Delete Project",

@@ -466,6 +466,10 @@
       "enter": "🚀 ENTER",
       "helpText": "Press Enter or #{{number}}"
     },
+    "createCta": {
+      "title": "Initiate New Research Study",
+      "subtitle": "Laboratory bandwidth available — expand your clinical trials"
+    },
     "deleteDialog": {
       "title": "Delete Project",
       "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",

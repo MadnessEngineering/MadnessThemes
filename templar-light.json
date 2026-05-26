@@ -462,9 +462,13 @@
       "noActivity": "No recent activity"
     },
     "enterButton": {
-      "selected": "⚡ SELECTED",
-      "enter": "🚀 ENTER",
+      "selected": "⚔️ PLEDGED",
+      "enter": "🏰 ENTER",
       "helpText": "Press Enter or #{{number}}"
+    },
+    "createCta": {
+      "title": "Start a New Crusade",
+      "subtitle": "The order calls for more — found a new chapter"
     },
     "deleteDialog": {
       "title": "Delete Project",
@@ -805,13 +809,13 @@
       "apiKeys": "API Keys",
       "appearance": "Appearance",
       "mindMap": "Mind Map",
+      "hooks": "Sacred Rites",
       "umlData": "Code Visualizations",
       "privacy": "Privacy",
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Sanctuary",
-      "hooks": "Sacred Automation Rites"
+      "support": "Sanctuary"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
