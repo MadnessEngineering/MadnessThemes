@@ -32,6 +32,7 @@
   "tabs": {
     "todos": "Mining Tasks",
     "lessons": "Stonecraft Runes",
+    "quest": "Sagas",
     "project": "New Quarry",
     "mindmap": "Mind Map",
     "swarmdesk": "3D Lab",
@@ -2695,6 +2696,39 @@
       "selfBlocked": "Cannot link self",
       "addFailed": "Linking failed",
       "removeFailed": "Snapping failed"
+    }
+  },
+  "questTab": {
+    "title": "Carve a New Saga",
+    "subtitle": "Bind mining tasks into a saga with milestones worthy of song.",
+    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "sections": {
+      "criteria": "Success Criteria",
+      "chains": "Todo Chains",
+      "created": "Recently Created Quests"
+    },
+    "fields": {
+      "name": "Quest Name *",
+      "project": "Project",
+      "description": "Description / Goal",
+      "tagsInput": "Tags (comma-separated)",
+      "quickTags": "Quick Tags:",
+      "addCriterion": "Add a success criterion",
+      "chainLabel": "Chain Label",
+      "chainTodos": "Todos in chain ({{count}})"
+    },
+    "buttons": {
+      "add": "Add",
+      "addChain": "Add Chain",
+      "removeChain": "Remove chain",
+      "create": "Carve Saga",
+      "creating": "Carving...",
+      "copyId": "Copy ID"
+    },
+    "errors": {
+      "nameRequired": "Quest name is required.",
+      "projectRequired": "Project is required."
     }
   }
 }

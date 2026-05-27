@@ -32,6 +32,7 @@
   "tabs": {
     "todos": "tabs.todos",
     "lessons": "tabs.lessons",
+    "quest": "tabs.quest",
     "project": "tabs.project",
     "mindmap": "Mind Map",
     "swarmdesk": "3D Lab",
@@ -2675,6 +2676,39 @@
       "selfBlocked": "self_ref_blocked",
       "addFailed": "add_err",
       "removeFailed": "rm_err"
+    }
+  },
+  "questTab": {
+    "title": "questTab.title",
+    "subtitle": "questTab.subtitle",
+    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "sections": {
+      "criteria": "Success Criteria",
+      "chains": "Todo Chains",
+      "created": "Recently Created Quests"
+    },
+    "fields": {
+      "name": "Quest Name *",
+      "project": "Project",
+      "description": "Description / Goal",
+      "tagsInput": "Tags (comma-separated)",
+      "quickTags": "Quick Tags:",
+      "addCriterion": "Add a success criterion",
+      "chainLabel": "Chain Label",
+      "chainTodos": "Todos in chain ({{count}})"
+    },
+    "buttons": {
+      "add": "Add",
+      "addChain": "Add Chain",
+      "removeChain": "Remove chain",
+      "create": "questTab.buttons.create",
+      "creating": "questTab.buttons.creating",
+      "copyId": "Copy ID"
+    },
+    "errors": {
+      "nameRequired": "Quest name is required.",
+      "projectRequired": "Project is required."
     }
   }
 }

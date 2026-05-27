@@ -32,6 +32,7 @@
   "tabs": {
     "todos": "Research Tasks",
     "lessons": "Laboratory Notes",
+    "quest": "Grand Experiments",
     "project": "New Experiment",
     "mindmap": "Mind Map",
     "swarmdesk": "3D Lab",
@@ -2695,6 +2696,39 @@
       "selfBlocked": "Cannot bind self",
       "addFailed": "Knitting failed",
       "removeFailed": "Snapping failed"
+    }
+  },
+  "questTab": {
+    "title": "Conjure a Grand Experiment",
+    "subtitle": "Bind related research tasks into an ordered ritual. Track the arcane progress.",
+    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "sections": {
+      "criteria": "Success Criteria",
+      "chains": "Todo Chains",
+      "created": "Recently Created Quests"
+    },
+    "fields": {
+      "name": "Quest Name *",
+      "project": "Project",
+      "description": "Description / Goal",
+      "tagsInput": "Tags (comma-separated)",
+      "quickTags": "Quick Tags:",
+      "addCriterion": "Add a success criterion",
+      "chainLabel": "Chain Label",
+      "chainTodos": "Todos in chain ({{count}})"
+    },
+    "buttons": {
+      "add": "Add",
+      "addChain": "Add Chain",
+      "removeChain": "Remove chain",
+      "create": "Conjure Experiment",
+      "creating": "Conjuring...",
+      "copyId": "Copy ID"
+    },
+    "errors": {
+      "nameRequired": "Quest name is required.",
+      "projectRequired": "Project is required."
     }
   }
 }
