@@ -2594,5 +2594,107 @@
     "installDismiss": "Later",
     "installBenefit": "Offline support and faster loading",
     "installPrompt": "Install for the best professional experience"
+  },
+  "lessonsViewer": {
+    "title": "Knowledge graph",
+    "nodes": "entries",
+    "edges": "links",
+    "refresh": "Sync",
+    "cycleMode": "Change view mode",
+    "minSimilarity": "Min relevance threshold",
+    "maxEdges": "Max links / entry",
+    "legend": {
+      "explicit": "Defined link",
+      "embedding": "Semantic (AI)",
+      "tag": "Shared tags"
+    },
+    "panel": {
+      "title": "Knowledge Inspector",
+      "close": "Dismiss",
+      "inspector": "Overview",
+      "editor": "Edit",
+      "bench": "Workbench",
+      "empty": "Select an entry in the graph to inspect."
+    },
+    "openBench": "Open search bench",
+    "clearHighlights": "Clear focus",
+    "highlighted": "selected",
+    "bench": {
+      "tool": "Service",
+      "toolFindRelevant": "find_related (semantic search)",
+      "toolPreflight": "audit_rag (insights + risks)",
+      "queryFind": "Search (semantic search)",
+      "queryIntent": "Intent (business objective)",
+      "project": "Account (optional)",
+      "tags": "Tags (comma)",
+      "limit": "Count",
+      "run": "Execute",
+      "method": "service",
+      "noResults": "No records found.",
+      "queryRequired": "Enter a search query.",
+      "callFailed": "Service failure",
+      "sectionLessons": "Knowledge",
+      "sectionTodos": "Actions",
+      "sectionPitfalls": "Risks",
+      "sectionSolutions": "Solutions",
+      "kindPitfall": "risk",
+      "kindSolution": "solution",
+      "highlightAll": "Focus all matches in graph",
+      "highlightAllShort": "Focus all",
+      "highlightOne": "Focus in graph",
+      "openInPanel": "Open in inspector"
+    },
+    "field": {
+      "topic": "Account",
+      "language": "Source",
+      "tags": "Tags (comma-separated)",
+      "lesson_learned": "Entry content",
+      "createdAt": "created",
+      "embeddedAt": "indexed",
+      "noTags": "untagged"
+    },
+    "embedding": {
+      "present": "index valid",
+      "stale": "index stale",
+      "missing": "index missing",
+      "unknown": "pending",
+      "regenerate": "Re-index entry"
+    },
+    "neighbors": {
+      "title": "Related",
+      "explicit": "Defined links",
+      "referencedBy": "Related in",
+      "embedding": "Semantic matches",
+      "tag": "Tag matches",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Submit",
+      "saved": "Submitted.",
+      "saveAndRegen": "Submit + Index",
+      "cancel": "Discard",
+      "tagsHelp": "Normalized on save."
+    },
+    "errors": {
+      "loadFailed": "Failed to retrieve entry",
+      "saveFailed": "Failed to submit",
+      "regenFailed": "Indexing failed"
+    },
+    "references": {
+      "tab": "Relations",
+      "outgoing": "Outbound links",
+      "incoming": "Inbound links",
+      "none": "none",
+      "addLabel": "Add link",
+      "searchPlaceholder": "Search account name…",
+      "noMatches": "No matches",
+      "promoteSection": "Promote implicit link",
+      "add": "Link",
+      "remove": "Unlink",
+      "promote": "Validate",
+      "selfBlocked": "Self-linkage blocked",
+      "addFailed": "Linking failed",
+      "removeFailed": "Unlinking failed"
+    }
   }
 }

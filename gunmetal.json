@@ -2594,5 +2594,107 @@
     "installDismiss": "Hold Fire",
     "installBenefit": "Mission ready offline, zero-lag deployment",
     "installPrompt": "Deploy the app for maximum field efficiency"
+  },
+  "lessonsViewer": {
+    "title": "Intel graph",
+    "nodes": "targets",
+    "edges": "leads",
+    "refresh": "Update",
+    "cycleMode": "Cycle intel mode",
+    "minSimilarity": "Min signal match",
+    "maxEdges": "Max leads / target",
+    "legend": {
+      "explicit": "Direct lead",
+      "embedding": "Signal (semantic)",
+      "tag": "Shared tags"
+    },
+    "panel": {
+      "title": "Intel Inspector",
+      "close": "Secure",
+      "inspector": "Debrief",
+      "editor": "Comms",
+      "bench": "Ops",
+      "empty": "Select a target in the graph to debrief."
+    },
+    "openBench": "Open ops bench",
+    "clearHighlights": "Clear markers",
+    "highlighted": "tracked",
+    "bench": {
+      "tool": "Asset",
+      "toolFindRelevant": "ping_intel (semantic search)",
+      "toolPreflight": "scan_area (data + hazards)",
+      "queryFind": "Ping (semantic search)",
+      "queryIntent": "Mission (current objective)",
+      "project": "Unit (optional)",
+      "tags": "Tags (comma)",
+      "limit": "Load",
+      "run": "Engage",
+      "method": "asset",
+      "noResults": "No intel found.",
+      "queryRequired": "Ping target to engage.",
+      "callFailed": "Engagement failed",
+      "sectionLessons": "Intel",
+      "sectionTodos": "Tasks",
+      "sectionPitfalls": "Hazards",
+      "sectionSolutions": "Tactics",
+      "kindPitfall": "hazard",
+      "kindSolution": "tactic",
+      "highlightAll": "Track all matches in graph",
+      "highlightAllShort": "Track all",
+      "highlightOne": "Track in graph",
+      "openInPanel": "Open in comms"
+    },
+    "field": {
+      "topic": "Target",
+      "language": "Code",
+      "tags": "Tags (comma-split)",
+      "lesson_learned": "Intel brief",
+      "createdAt": "logged",
+      "embeddedAt": "encoded",
+      "noTags": "blackout"
+    },
+    "embedding": {
+      "present": "signal locked",
+      "stale": "signal weak",
+      "missing": "signal lost",
+      "unknown": "jammed",
+      "regenerate": "Recode signal"
+    },
+    "neighbors": {
+      "title": "Squads",
+      "explicit": "Direct leads",
+      "referencedBy": "Tracked by",
+      "embedding": "Signal neighbors",
+      "tag": "Tag neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "File",
+      "saved": "Filed.",
+      "saveAndRegen": "File + Encode",
+      "cancel": "Abort",
+      "tagsHelp": "Lowercase on file."
+    },
+    "errors": {
+      "loadFailed": "Failed to pull intel",
+      "saveFailed": "Failed to file",
+      "regenFailed": "Encoding failed"
+    },
+    "references": {
+      "tab": "Leads",
+      "outgoing": "Direct leads (out)",
+      "incoming": "Tracked by",
+      "none": "none",
+      "addLabel": "Add lead",
+      "searchPlaceholder": "Search intel target…",
+      "noMatches": "No intel",
+      "promoteSection": "Promote dark lead",
+      "add": "Tag",
+      "remove": "Drop",
+      "promote": "Lock",
+      "selfBlocked": "Cannot track self",
+      "addFailed": "Tagging failed",
+      "removeFailed": "Dropping failed"
+    }
   }
 }

@@ -2594,5 +2594,107 @@
     "installDismiss": "Defer",
     "installBenefit": "Maintains stability offline, rapid load protocols",
     "installPrompt": "Install for the most precise clinical experience"
+  },
+  "lessonsViewer": {
+    "title": "Specimen graph",
+    "nodes": "cells",
+    "edges": "synapses",
+    "refresh": "Recalibrate",
+    "cycleMode": "Toggle scan mode",
+    "minSimilarity": "Min affinity",
+    "maxEdges": "Max links / cell",
+    "legend": {
+      "explicit": "Direct linkage",
+      "embedding": "Phenotype (semantic)",
+      "tag": "Shared markers"
+    },
+    "panel": {
+      "title": "Specimen Inspector",
+      "close": "Abort",
+      "inspector": "Analyst",
+      "editor": "Scribe",
+      "bench": "Lab",
+      "empty": "Select a specimen in the graph to analyze."
+    },
+    "openBench": "Open lab bench",
+    "clearHighlights": "Clear markers",
+    "highlighted": "sequenced",
+    "bench": {
+      "tool": "Assay",
+      "toolFindRelevant": "probe_sample (phenotype search)",
+      "toolPreflight": "assay_prep (data + pathogens)",
+      "queryFind": "Probe (phenotype search)",
+      "queryIntent": "Protocol (active intent)",
+      "project": "Subject (optional)",
+      "tags": "Markers (comma)",
+      "limit": "Dose",
+      "run": "Assay",
+      "method": "assay",
+      "noResults": "No results.",
+      "queryRequired": "Enter a probe to run.",
+      "callFailed": "Assay failed",
+      "sectionLessons": "Specimens",
+      "sectionTodos": "Protocols",
+      "sectionPitfalls": "Pathogens",
+      "sectionSolutions": "Antidotes",
+      "kindPitfall": "pathogen",
+      "kindSolution": "antidote",
+      "highlightAll": "Mark all matches in graph",
+      "highlightAllShort": "Mark all",
+      "highlightOne": "Mark in graph",
+      "openInPanel": "Open in analyst"
+    },
+    "field": {
+      "topic": "Subject",
+      "language": "Strain",
+      "tags": "Markers (comma-split)",
+      "lesson_learned": "Cellular data",
+      "createdAt": "harvested",
+      "embeddedAt": "sequenced",
+      "noTags": "sterile"
+    },
+    "embedding": {
+      "present": "sequence valid",
+      "stale": "sequence stale",
+      "missing": "sequence null",
+      "unknown": "mutated",
+      "regenerate": "Resequence"
+    },
+    "neighbors": {
+      "title": "Clusters",
+      "explicit": "Direct linkages",
+      "referencedBy": "Inhibited by",
+      "embedding": "Phenotype neighbors",
+      "tag": "Marker neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Store",
+      "saved": "Stored.",
+      "saveAndRegen": "Store + Assay",
+      "cancel": "Flush",
+      "tagsHelp": "Lowercase on store."
+    },
+    "errors": {
+      "loadFailed": "Failed to load specimen",
+      "saveFailed": "Failed to store",
+      "regenFailed": "Sequencing failed"
+    },
+    "references": {
+      "tab": "Linkages",
+      "outgoing": "Direct linkages (out)",
+      "incoming": "Linked by",
+      "none": "none",
+      "addLabel": "Add linkage",
+      "searchPlaceholder": "Search specimen ID…",
+      "noMatches": "No matches",
+      "promoteSection": "Promote dormant link",
+      "add": "Bind",
+      "remove": "Cleave",
+      "promote": "Synthesize",
+      "selfBlocked": "Cannot bind self",
+      "addFailed": "Binding failed",
+      "removeFailed": "Cleaving failed"
+    }
   }
 }

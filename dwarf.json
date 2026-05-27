@@ -2594,5 +2594,107 @@
     "installDismiss": "Not Today",
     "installBenefit": "Stands strong without the draft (offline), fast as a falling pick",
     "installPrompt": "Forge the app for a better mining experience"
+  },
+  "lessonsViewer": {
+    "title": "Lore vein graph",
+    "nodes": "runes",
+    "edges": "seams",
+    "refresh": "Strike the anvil",
+    "cycleMode": "Cycle vein mode",
+    "minSimilarity": "Min ore density",
+    "maxEdges": "Max seams / rune",
+    "legend": {
+      "explicit": "Ancestral link",
+      "embedding": "Echoes (semantic)",
+      "tag": "Shared runes"
+    },
+    "panel": {
+      "title": "Lore Inspector",
+      "close": "Seal",
+      "inspector": "Scribe",
+      "editor": "Forge",
+      "bench": "Anvil",
+      "empty": "Select a rune in the vein to inspect."
+    },
+    "openBench": "Open forge bench",
+    "clearHighlights": "Clear ore",
+    "highlighted": "glimmering",
+    "bench": {
+      "tool": "Craft",
+      "toolFindRelevant": "seek_lore (semantic search)",
+      "toolPreflight": "vein_check (lore + cave-ins)",
+      "queryFind": "Seek (semantic search)",
+      "queryIntent": "Intent (miner's objective)",
+      "project": "Clans (optional)",
+      "tags": "Runes (comma)",
+      "limit": "Load",
+      "run": "Strike",
+      "method": "craft",
+      "noResults": "No ore found.",
+      "queryRequired": "Seek a vein to strike.",
+      "callFailed": "Forging failed",
+      "sectionLessons": "Lore",
+      "sectionTodos": "Tasks",
+      "sectionPitfalls": "Cave-ins",
+      "sectionSolutions": "Strikes",
+      "kindPitfall": "cave-in",
+      "kindSolution": "strike",
+      "highlightAll": "Glimmer all matches in vein",
+      "highlightAllShort": "Glimmer all",
+      "highlightOne": "Glimmer in vein",
+      "openInPanel": "Open in forge"
+    },
+    "field": {
+      "topic": "Vein",
+      "language": "Tongue",
+      "tags": "Runes (comma-split)",
+      "lesson_learned": "Lore meat",
+      "createdAt": "unearthed",
+      "embeddedAt": "tempered",
+      "noTags": "barren"
+    },
+    "embedding": {
+      "present": "rune tempered",
+      "stale": "rune rusted",
+      "missing": "rune missing",
+      "unknown": "cursed",
+      "regenerate": "Reforge rune"
+    },
+    "neighbors": {
+      "title": "Clans",
+      "explicit": "Ancestral links",
+      "referencedBy": "Dug by",
+      "embedding": "Echo neighbors",
+      "tag": "Rune neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Hammer",
+      "saved": "Hammered.",
+      "saveAndRegen": "Hammer + Forge",
+      "cancel": "Melt",
+      "tagsHelp": "Lowercase on hammer."
+    },
+    "errors": {
+      "loadFailed": "Failed to unearth lore",
+      "saveFailed": "Failed to hammer",
+      "regenFailed": "Forging failed"
+    },
+    "references": {
+      "tab": "Ancestry",
+      "outgoing": "Ancestral links (out)",
+      "incoming": "Dug by",
+      "none": "none",
+      "addLabel": "Add link",
+      "searchPlaceholder": "Search lore vein…",
+      "noMatches": "No ore",
+      "promoteSection": "Promote deep seam",
+      "add": "Link",
+      "remove": "Snap",
+      "promote": "Forge",
+      "selfBlocked": "Cannot link self",
+      "addFailed": "Linking failed",
+      "removeFailed": "Snapping failed"
+    }
   }
 }

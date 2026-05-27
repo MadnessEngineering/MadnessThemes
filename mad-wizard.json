@@ -2596,17 +2596,105 @@
     "installPrompt": "Bind the workshop for a more potent experience"
   },
   "lessonsViewer": {
-    "title": "Grimoire constellation",
-    "nodes": "spells",
-    "edges": "filaments",
-    "refresh": "Re-divine",
-    "cycleMode": "Shift the scrying lens",
-    "minSimilarity": "Mystical resonance threshold",
-    "maxEdges": "Filaments per spell",
+    "title": "Grimoire graph",
+    "nodes": "spirits",
+    "edges": "threads",
+    "refresh": "Invoke",
+    "cycleMode": "Cycle hex mode",
+    "minSimilarity": "Min mana resonance",
+    "maxEdges": "Max threads / spirit",
     "legend": {
-      "explicit": "Hand-bound sigil",
-      "embedding": "Latent essence (embedding)",
-      "tag": "Shared incantations"
+      "explicit": "Soul tether",
+      "embedding": "Echoes (semantic)",
+      "tag": "Shared sigils"
+    },
+    "panel": {
+      "title": "Tome Inspector",
+      "close": "Banish",
+      "inspector": "Seer",
+      "editor": "Scribe",
+      "bench": "Altar",
+      "empty": "Select a spirit in the grimoire to inspect."
+    },
+    "openBench": "Open astral altar",
+    "clearHighlights": "Clear wards",
+    "highlighted": "hexed",
+    "bench": {
+      "tool": "Rite",
+      "toolFindRelevant": "seek_vision (semantic search)",
+      "toolPreflight": "omen_check (lore + curses)",
+      "queryFind": "Seek (semantic search)",
+      "queryIntent": "Intent (caster's objective)",
+      "project": "Realm (optional)",
+      "tags": "Sigils (comma)",
+      "limit": "Mana",
+      "run": "Cast",
+      "method": "rite",
+      "noResults": "No spirits found.",
+      "queryRequired": "Seek a vision to cast.",
+      "callFailed": "Casting failed",
+      "sectionLessons": "Lore",
+      "sectionTodos": "Rituals",
+      "sectionPitfalls": "Curses",
+      "sectionSolutions": "Elixirs",
+      "kindPitfall": "curse",
+      "kindSolution": "elixir",
+      "highlightAll": "Hex all matches in grimoire",
+      "highlightAllShort": "Hex all",
+      "highlightOne": "Hex in grimoire",
+      "openInPanel": "Open in seer"
+    },
+    "field": {
+      "topic": "Sigil",
+      "language": "Tongue",
+      "tags": "Sigils (comma-split)",
+      "lesson_learned": "Spell logic",
+      "createdAt": "conjured",
+      "embeddedAt": "imbued",
+      "noTags": "hollow"
+    },
+    "embedding": {
+      "present": "soul imbued",
+      "stale": "soul fading",
+      "missing": "soul missing",
+      "unknown": "tainted",
+      "regenerate": "Rebind spirit"
+    },
+    "neighbors": {
+      "title": "Covens",
+      "explicit": "Soul tethers",
+      "referencedBy": "Bound by",
+      "embedding": "Echo neighbors",
+      "tag": "Sigil neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Bind",
+      "saved": "Bound.",
+      "saveAndRegen": "Bind + Imbue",
+      "cancel": "Banish",
+      "tagsHelp": "Lowercase on bind."
+    },
+    "errors": {
+      "loadFailed": "Failed to summon lore",
+      "saveFailed": "Failed to bind",
+      "regenFailed": "Imbuing failed"
+    },
+    "references": {
+      "tab": "Tethers",
+      "outgoing": "Soul tethers (out)",
+      "incoming": "Bound by",
+      "none": "none",
+      "addLabel": "Add tether",
+      "searchPlaceholder": "Search lore sigil…",
+      "noMatches": "No spirits",
+      "promoteSection": "Promote astral thread",
+      "add": "Knit",
+      "remove": "Snap",
+      "promote": "Imbue",
+      "selfBlocked": "Cannot bind self",
+      "addFailed": "Knitting failed",
+      "removeFailed": "Snapping failed"
     }
   }
 }

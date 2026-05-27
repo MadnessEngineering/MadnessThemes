@@ -2596,17 +2596,105 @@
     "installPrompt": "Install now to maximize your stakeholder value"
   },
   "lessonsViewer": {
-    "title": "Knowledge Asset Topology",
+    "title": "Synergy graph",
     "nodes": "assets",
-    "edges": "linkages",
-    "refresh": "Re-sync",
-    "cycleMode": "Pivot visualization layer",
-    "minSimilarity": "Semantic correlation threshold",
-    "maxEdges": "Linkages per asset (cap)",
+    "edges": "pipelines",
+    "refresh": "Optimize",
+    "cycleMode": "Pivot map mode",
+    "minSimilarity": "Min KPI alignment",
+    "maxEdges": "Max bandwidth / asset",
     "legend": {
-      "explicit": "Curated dependency",
-      "embedding": "Semantic correlation",
-      "tag": "Taxonomy overlap"
+      "explicit": "Core vertical",
+      "embedding": "Synergy (semantic)",
+      "tag": "Shared silos"
+    },
+    "panel": {
+      "title": "Resource Inspector",
+      "close": "Terminate",
+      "inspector": "Analyst",
+      "editor": "Manager",
+      "bench": "Pipeline",
+      "empty": "Select an asset in the graph to leverage."
+    },
+    "openBench": "Open strategy bench",
+    "clearHighlights": "Clear deliverables",
+    "highlighted": "leveraged",
+    "bench": {
+      "tool": "Vertical",
+      "toolFindRelevant": "scale_out (semantic search)",
+      "toolPreflight": "pre_sync (wins + blockers)",
+      "queryFind": "Metric (semantic search)",
+      "queryIntent": "Mission (Q4 objectives)",
+      "project": "Vertical (optional)",
+      "tags": "Silos (comma)",
+      "limit": "Throughput",
+      "run": "Scale",
+      "method": "pipeline",
+      "noResults": "No ROI found.",
+      "queryRequired": "Enter a metric to scale.",
+      "callFailed": "Scaling failed",
+      "sectionLessons": "Assets",
+      "sectionTodos": "Deliverables",
+      "sectionPitfalls": "Blockers",
+      "sectionSolutions": "Wins",
+      "kindPitfall": "blocker",
+      "kindSolution": "win",
+      "highlightAll": "Scale all matches in graph",
+      "highlightAllShort": "Scale all",
+      "highlightOne": "Scale in graph",
+      "openInPanel": "Open in manager"
+    },
+    "field": {
+      "topic": "Vertical",
+      "language": "Jargon",
+      "tags": "Silos (comma-split)",
+      "lesson_learned": "Value prop",
+      "createdAt": "onboarded",
+      "embeddedAt": "integrated",
+      "noTags": "unsiloed"
+    },
+    "embedding": {
+      "present": "synergy active",
+      "stale": "synergy legacy",
+      "missing": "synergy latent",
+      "unknown": "out-of-scope",
+      "regenerate": "Pivot synergy"
+    },
+    "neighbors": {
+      "title": "Silos",
+      "explicit": "Core verticals",
+      "referencedBy": "Reporting to",
+      "embedding": "Synergy neighbors",
+      "tag": "Silo neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Ship",
+      "saved": "Shipped.",
+      "saveAndRegen": "Ship + Scale",
+      "cancel": "Revert",
+      "tagsHelp": "Lowercased on ship."
+    },
+    "errors": {
+      "loadFailed": "Failed to acquire asset",
+      "saveFailed": "Failed to ship",
+      "regenFailed": "Synergy failed"
+    },
+    "references": {
+      "tab": "Synergies",
+      "outgoing": "Core verticals (out)",
+      "incoming": "Reporting to",
+      "none": "none",
+      "addLabel": "Add synergy",
+      "searchPlaceholder": "Search vertical topic…",
+      "noMatches": "No deliverables",
+      "promoteSection": "Promote legacy asset",
+      "add": "Sync",
+      "remove": "Cut",
+      "promote": "Promote",
+      "selfBlocked": "Cannot sync self",
+      "addFailed": "Syncing failed",
+      "removeFailed": "Cutting failed"
     }
   }
 }

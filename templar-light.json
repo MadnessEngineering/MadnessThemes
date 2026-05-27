@@ -2594,5 +2594,107 @@
     "installDismiss": "Not Today",
     "installBenefit": "Faith endures in the dark (offline), swift as a prayer",
     "installPrompt": "Enshrine the app for a more blessed journey"
+  },
+  "lessonsViewer": {
+    "title": "Codex graph",
+    "nodes": "scrolls",
+    "edges": "seals",
+    "refresh": "Renew",
+    "cycleMode": "Cycle path mode",
+    "minSimilarity": "Min sanctity",
+    "maxEdges": "Max seals / scroll",
+    "legend": {
+      "explicit": "Sacred link",
+      "embedding": "Grace (semantic)",
+      "tag": "Shared runes"
+    },
+    "panel": {
+      "title": "Codex Inspector",
+      "close": "Amen",
+      "inspector": "Examine",
+      "editor": "Scribe",
+      "bench": "Chantry",
+      "empty": "Select a scroll in the codex to examine."
+    },
+    "openBench": "Open chantry bench",
+    "clearHighlights": "Clear halo",
+    "highlighted": "blessed",
+    "bench": {
+      "tool": "Edict",
+      "toolFindRelevant": "seek_truth (semantic search)",
+      "toolPreflight": "preach_rag (lessons + sins)",
+      "queryFind": "Seek (semantic search)",
+      "queryIntent": "Mission (holy intent)",
+      "project": "Order (optional)",
+      "tags": "Runes (comma)",
+      "limit": "Faith",
+      "run": "Pray",
+      "method": "edict",
+      "noResults": "No truth found.",
+      "queryRequired": "Seek truth to pray.",
+      "callFailed": "Prayer failed",
+      "sectionLessons": "Lessons",
+      "sectionTodos": "Duties",
+      "sectionPitfalls": "Sins",
+      "sectionSolutions": "Virtues",
+      "kindPitfall": "sin",
+      "kindSolution": "virtue",
+      "highlightAll": "Bless all matches in codex",
+      "highlightAllShort": "Bless all",
+      "highlightOne": "Bless in codex",
+      "openInPanel": "Open in examine"
+    },
+    "field": {
+      "topic": "Order",
+      "language": "Tongue",
+      "tags": "Runes (comma-split)",
+      "lesson_learned": "Holy content",
+      "createdAt": "penned",
+      "embeddedAt": "consecrated",
+      "noTags": "profane"
+    },
+    "embedding": {
+      "present": "grace active",
+      "stale": "grace fading",
+      "missing": "grace absent",
+      "unknown": "unholy",
+      "regenerate": "Reconsecrate"
+    },
+    "neighbors": {
+      "title": "Kinship",
+      "explicit": "Sacred links",
+      "referencedBy": "Led by",
+      "embedding": "Grace neighbors",
+      "tag": "Rune neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Vow",
+      "saved": "Vowed.",
+      "saveAndRegen": "Vow + Bless",
+      "cancel": "Repent",
+      "tagsHelp": "Lowercase on vow."
+    },
+    "errors": {
+      "loadFailed": "Failed to read scroll",
+      "saveFailed": "Failed to vow",
+      "regenFailed": "Blessing failed"
+    },
+    "references": {
+      "tab": "Seals",
+      "outgoing": "Sacred links (out)",
+      "incoming": "Led by",
+      "none": "none",
+      "addLabel": "Add seal",
+      "searchPlaceholder": "Search holy topic…",
+      "noMatches": "No scrolls",
+      "promoteSection": "Promote hidden grace",
+      "add": "Bind",
+      "remove": "Sever",
+      "promote": "Bless",
+      "selfBlocked": "Cannot lead self",
+      "addFailed": "Binding failed",
+      "removeFailed": "Severing failed"
+    }
   }
 }

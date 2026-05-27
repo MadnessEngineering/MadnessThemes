@@ -2594,5 +2594,107 @@
     "installDismiss": "Ignore",
     "installBenefit": "Functions without uplink (offline), immediate response",
     "installPrompt": "Install for optimal scientific workflow"
+  },
+  "lessonsViewer": {
+    "title": "Lesson lattice",
+    "nodes": "records",
+    "edges": "links",
+    "refresh": "Rescan",
+    "cycleMode": "Toggle lattice mode",
+    "minSimilarity": "Min spectral match",
+    "maxEdges": "Max links / record",
+    "legend": {
+      "explicit": "Hard link",
+      "embedding": "Latent (semantic)",
+      "tag": "Shared keys"
+    },
+    "panel": {
+      "title": "Record Inspector",
+      "close": "Eject",
+      "inspector": "Scanner",
+      "editor": "Input",
+      "bench": "Module",
+      "empty": "Select a record in the lattice to analyze."
+    },
+    "openBench": "Open analysis module",
+    "clearHighlights": "Clear beacons",
+    "highlighted": "isolated",
+    "bench": {
+      "tool": "System",
+      "toolFindRelevant": "latent_scan (semantic search)",
+      "toolPreflight": "pre_scan (records + errors)",
+      "queryFind": "Input (semantic search)",
+      "queryIntent": "Vector (intended operation)",
+      "project": "Module (optional)",
+      "tags": "Keys (comma)",
+      "limit": "Buffer",
+      "run": "Initiate",
+      "method": "system",
+      "noResults": "No matches found.",
+      "queryRequired": "Input required for scan.",
+      "callFailed": "Initiation failed",
+      "sectionLessons": "Records",
+      "sectionTodos": "Operations",
+      "sectionPitfalls": "Anomalies",
+      "sectionSolutions": "Resolved",
+      "kindPitfall": "anomaly",
+      "kindSolution": "resolved",
+      "highlightAll": "Isolate all matches in lattice",
+      "highlightAllShort": "Isolate all",
+      "highlightOne": "Isolate in lattice",
+      "openInPanel": "Open in scanner"
+    },
+    "field": {
+      "topic": "Record",
+      "language": "Syntax",
+      "tags": "Keys (comma-separated)",
+      "lesson_learned": "Data string",
+      "createdAt": "logged",
+      "embeddedAt": "vectorized",
+      "noTags": "unkeyed"
+    },
+    "embedding": {
+      "present": "vector active",
+      "stale": "vector stale",
+      "missing": "vector null",
+      "unknown": "corrupt",
+      "regenerate": "Re-vectorize"
+    },
+    "neighbors": {
+      "title": "Proximity",
+      "explicit": "Hard links",
+      "referencedBy": "Linked by",
+      "embedding": "Latent neighbors",
+      "tag": "Key neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Commit",
+      "saved": "Committed.",
+      "saveAndRegen": "Commit + Vector",
+      "cancel": "Abort",
+      "tagsHelp": "Keys normalized on commit."
+    },
+    "errors": {
+      "loadFailed": "Failed to read record",
+      "saveFailed": "Failed to commit",
+      "regenFailed": "Vectorizing failed"
+    },
+    "references": {
+      "tab": "Links",
+      "outgoing": "Hard links (out)",
+      "incoming": "Linked by",
+      "none": "none",
+      "addLabel": "Add link",
+      "searchPlaceholder": "Search record topic…",
+      "noMatches": "No matches",
+      "promoteSection": "Promote latent link",
+      "add": "Link",
+      "remove": "Unlink",
+      "promote": "Verify",
+      "selfBlocked": "Self-linkage invalid",
+      "addFailed": "Linking failed",
+      "removeFailed": "Unlinking failed"
+    }
   }
 }

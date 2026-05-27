@@ -2576,17 +2576,105 @@
     "installPrompt": "pwa.installPrompt"
   },
   "lessonsViewer": {
-    "title": "lessonsViewer.title",
-    "nodes": "lessonsViewer.nodes",
-    "edges": "lessonsViewer.edges",
-    "refresh": "lessonsViewer.refresh",
-    "cycleMode": "lessonsViewer.cycleMode",
-    "minSimilarity": "lessonsViewer.minSimilarity",
-    "maxEdges": "lessonsViewer.maxEdges",
+    "title": "lessons_graph",
+    "nodes": "nodes",
+    "edges": "edges",
+    "refresh": "refresh_data",
+    "cycleMode": "toggle_map_mode",
+    "minSimilarity": "min_cos_sim",
+    "maxEdges": "max_edges_per_node",
     "legend": {
-      "explicit": "lessonsViewer.legend.explicit",
-      "embedding": "lessonsViewer.legend.embedding",
-      "tag": "lessonsViewer.legend.tag"
+      "explicit": "explicit_ref",
+      "embedding": "semantic_ref",
+      "tag": "shared_tags"
+    },
+    "panel": {
+      "title": "lesson_inspector",
+      "close": "close",
+      "inspector": "view",
+      "editor": "edit",
+      "bench": "bench",
+      "empty": "select_node_to_inspect"
+    },
+    "openBench": "open_rag_bench",
+    "clearHighlights": "clear_highlights",
+    "highlighted": "highlighted",
+    "bench": {
+      "tool": "tool",
+      "toolFindRelevant": "find_relevant",
+      "toolPreflight": "preflight_rag",
+      "queryFind": "query",
+      "queryIntent": "intent",
+      "project": "project",
+      "tags": "tags",
+      "limit": "limit",
+      "run": "run",
+      "method": "method",
+      "noResults": "null",
+      "queryRequired": "query_required",
+      "callFailed": "tool_error",
+      "sectionLessons": "lessons",
+      "sectionTodos": "todos",
+      "sectionPitfalls": "pitfalls",
+      "sectionSolutions": "solutions",
+      "kindPitfall": "pitfall",
+      "kindSolution": "solution",
+      "highlightAll": "highlight_all",
+      "highlightAllShort": "all",
+      "highlightOne": "highlight_one",
+      "openInPanel": "open_in_panel"
+    },
+    "field": {
+      "topic": "topic",
+      "language": "lang",
+      "tags": "tags",
+      "lesson_learned": "content",
+      "createdAt": "created_at",
+      "embeddedAt": "embedded_at",
+      "noTags": "no_tags"
+    },
+    "embedding": {
+      "present": "has_vec",
+      "stale": "stale_vec",
+      "missing": "no_vec",
+      "unknown": "unknown",
+      "regenerate": "regen_vec"
+    },
+    "neighbors": {
+      "title": "neighbors",
+      "explicit": "explicit",
+      "referencedBy": "inbound",
+      "embedding": "semantic",
+      "tag": "tag",
+      "none": "none"
+    },
+    "editor": {
+      "save": "save",
+      "saved": "ok",
+      "saveAndRegen": "save_and_regen",
+      "cancel": "revert",
+      "tagsHelp": "lowercase_on_save"
+    },
+    "errors": {
+      "loadFailed": "load_error",
+      "saveFailed": "save_error",
+      "regenFailed": "regen_error"
+    },
+    "references": {
+      "tab": "refs",
+      "outgoing": "outbound",
+      "incoming": "inbound",
+      "none": "none",
+      "addLabel": "add_ref",
+      "searchPlaceholder": "search_topic...",
+      "noMatches": "no_matches",
+      "promoteSection": "promote_neighbor",
+      "add": "add",
+      "remove": "rm",
+      "promote": "prom",
+      "selfBlocked": "self_ref_blocked",
+      "addFailed": "add_err",
+      "removeFailed": "rm_err"
     }
   }
 }

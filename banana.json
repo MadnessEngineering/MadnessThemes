@@ -2594,5 +2594,107 @@
     "installDismiss": "Later, oo oo",
     "installBenefit": "Works even when the vines are dry (offline), fast as a leopard",
     "installPrompt": "Nest the app for a better jungle life"
+  },
+  "lessonsViewer": {
+    "title": "Banana graph",
+    "nodes": "bananas",
+    "edges": "peels",
+    "refresh": "Peel again",
+    "cycleMode": "Slice map mode",
+    "minSimilarity": "Min fruit ripeness",
+    "maxEdges": "Max peels / fruit",
+    "legend": {
+      "explicit": "Direct stem",
+      "embedding": "Aroma (semantic)",
+      "tag": "Shared bunches"
+    },
+    "panel": {
+      "title": "Banana Inspector",
+      "close": "Discard",
+      "inspector": "Peeler",
+      "editor": "Slicer",
+      "bench": "Stand",
+      "empty": "Select a banana in the graph to peel."
+    },
+    "openBench": "Open fruit stand",
+    "clearHighlights": "Clear bruises",
+    "highlighted": "bruised",
+    "bench": {
+      "tool": "Tool",
+      "toolFindRelevant": "sniff_out (smell search)",
+      "toolPreflight": "peel_check (fruit + bruises)",
+      "queryFind": "Sniff (smell search)",
+      "queryIntent": "Intent (what you are peeling)",
+      "project": "Bunch (optional)",
+      "tags": "Peels (comma)",
+      "limit": "Slice",
+      "run": "Blend",
+      "method": "peel",
+      "noResults": "No fruit found.",
+      "queryRequired": "Enter a sniff to run.",
+      "callFailed": "Blending failed",
+      "sectionLessons": "Bananas",
+      "sectionTodos": "Tasks",
+      "sectionPitfalls": "Bruises",
+      "sectionSolutions": "Smoothies",
+      "kindPitfall": "bruise",
+      "kindSolution": "smoothie",
+      "highlightAll": "Bruise all matches in graph",
+      "highlightAllShort": "Bruise all",
+      "highlightOne": "Bruise in graph",
+      "openInPanel": "Open in peeler"
+    },
+    "field": {
+      "topic": "Bunch",
+      "language": "Dialect",
+      "tags": "Peels (comma-split)",
+      "lesson_learned": "Banana meat",
+      "createdAt": "plucked",
+      "embeddedAt": "ripened",
+      "noTags": "naked"
+    },
+    "embedding": {
+      "present": "peel on",
+      "stale": "peel mushy",
+      "missing": "peel missing",
+      "unknown": "rotten",
+      "regenerate": "Ripen again"
+    },
+    "neighbors": {
+      "title": "Bunches",
+      "explicit": "Direct stems",
+      "referencedBy": "Stems from",
+      "embedding": "Smell neighbors",
+      "tag": "Peel neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Mash",
+      "saved": "Mashed.",
+      "saveAndRegen": "Mash + Ripen",
+      "cancel": "Unpeel",
+      "tagsHelp": "Lowercase on mash."
+    },
+    "errors": {
+      "loadFailed": "Failed to pick banana",
+      "saveFailed": "Failed to mash",
+      "regenFailed": "Ripening failed"
+    },
+    "references": {
+      "tab": "Stems",
+      "outgoing": "Direct stems (out)",
+      "incoming": "Stems from",
+      "none": "none",
+      "addLabel": "Add stem",
+      "searchPlaceholder": "Search bunch topic…",
+      "noMatches": "No matches",
+      "promoteSection": "Promote hidden bunch",
+      "add": "Add",
+      "remove": "Strip",
+      "promote": "Grow",
+      "selfBlocked": "Cannot stem self",
+      "addFailed": "Stemming failed",
+      "removeFailed": "Stripping failed"
+    }
   }
 }

@@ -2594,5 +2594,107 @@
     "installDismiss": "Postpone",
     "installBenefit": "Operates without grid connection, instant execution",
     "installPrompt": "Install to enhance laboratory operational efficiency"
+  },
+  "lessonsViewer": {
+    "title": "Knowledge ops graph",
+    "nodes": "units",
+    "edges": "flows",
+    "refresh": "Reset",
+    "cycleMode": "Cycle ops mode",
+    "minSimilarity": "Min flow match",
+    "maxEdges": "Max flows / unit",
+    "legend": {
+      "explicit": "Direct flow",
+      "embedding": "Proximity (semantic)",
+      "tag": "Shared labels"
+    },
+    "panel": {
+      "title": "Unit Inspector",
+      "close": "Stop",
+      "inspector": "Audit",
+      "editor": "Config",
+      "bench": "Ops",
+      "empty": "Select a unit in the graph to audit."
+    },
+    "openBench": "Open ops bench",
+    "clearHighlights": "Clear status",
+    "highlighted": "active",
+    "bench": {
+      "tool": "System",
+      "toolFindRelevant": "run_audit (semantic search)",
+      "toolPreflight": "pre_check (units + faults)",
+      "queryFind": "Scan (semantic search)",
+      "queryIntent": "Scope (what you are doing)",
+      "project": "Ops (optional)",
+      "tags": "Labels (comma)",
+      "limit": "Max",
+      "run": "Run",
+      "method": "system",
+      "noResults": "No units found.",
+      "queryRequired": "Enter a scan to run.",
+      "callFailed": "System failure",
+      "sectionLessons": "Units",
+      "sectionTodos": "Procedures",
+      "sectionPitfalls": "Faults",
+      "sectionSolutions": "Fixes",
+      "kindPitfall": "fault",
+      "kindSolution": "fix",
+      "highlightAll": "Activate all matches in graph",
+      "highlightAllShort": "Activate all",
+      "highlightOne": "Activate in graph",
+      "openInPanel": "Open in audit"
+    },
+    "field": {
+      "topic": "Unit",
+      "language": "Syntax",
+      "tags": "Labels (comma-split)",
+      "lesson_learned": "Unit logic",
+      "createdAt": "deployed",
+      "embeddedAt": "mapped",
+      "noTags": "unlabeled"
+    },
+    "embedding": {
+      "present": "map active",
+      "stale": "map stale",
+      "missing": "map null",
+      "unknown": "broken",
+      "regenerate": "Remap unit"
+    },
+    "neighbors": {
+      "title": "Zones",
+      "explicit": "Direct flows",
+      "referencedBy": "Driven by",
+      "embedding": "Proximity neighbors",
+      "tag": "Label neighbors",
+      "none": "none"
+    },
+    "editor": {
+      "save": "Push",
+      "saved": "Pushed.",
+      "saveAndRegen": "Push + Map",
+      "cancel": "Drop",
+      "tagsHelp": "Lowercase on push."
+    },
+    "errors": {
+      "loadFailed": "Failed to load unit",
+      "saveFailed": "Failed to push",
+      "regenFailed": "Mapping failed"
+    },
+    "references": {
+      "tab": "Flows",
+      "outgoing": "Direct flows (out)",
+      "incoming": "Driven by",
+      "none": "none",
+      "addLabel": "Add flow",
+      "searchPlaceholder": "Search unit topic…",
+      "noMatches": "No units",
+      "promoteSection": "Promote idle flow",
+      "add": "Link",
+      "remove": "Sever",
+      "promote": "Drive",
+      "selfBlocked": "Cannot drive self",
+      "addFailed": "Linking failed",
+      "removeFailed": "Severing failed"
+    }
   }
 }
