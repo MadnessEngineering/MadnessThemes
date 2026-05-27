@@ -2679,6 +2679,22 @@
       "loadFailed": "Failed to load lesson",
       "saveFailed": "Failed to save",
       "regenFailed": "Embedding refresh failed"
+    },
+    "references": {
+      "tab": "References",
+      "outgoing": "Explicit references (out)",
+      "incoming": "Referenced by",
+      "none": "none",
+      "addLabel": "Add reference",
+      "searchPlaceholder": "Search lesson topic…",
+      "noMatches": "No matches",
+      "promoteSection": "Promote implicit neighbor",
+      "add": "Add",
+      "remove": "Remove",
+      "promote": "Promote",
+      "selfBlocked": "Cannot reference self",
+      "addFailed": "Add reference failed",
+      "removeFailed": "Remove reference failed"
     }
   }
 }
