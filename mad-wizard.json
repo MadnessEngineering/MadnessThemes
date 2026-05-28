@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Grand Experiments",
+    "parallel": "Concurrent ritual",
+    "gate": "Sealed — bound to its gate rite",
+    "external": "elsewhere",
+    "criteria": "Conditions of Triumph"
   }
 }

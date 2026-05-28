@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Strategic Initiative Aggregates",
+    "parallel": "Parallelized Workstream Aggregate",
+    "gate": "Dependency-Gated Pending Upstream Closure",
+    "external": "out-of-scope",
+    "criteria": "KPI Acceptance Gates"
   }
 }

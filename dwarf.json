@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Sagas",
+    "parallel": "Side-shaft dig",
+    "gate": "Barred — awaits its gate stone",
+    "external": "far vein",
+    "criteria": "Milestones Worthy of Song"
   }
 }

@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Quests",
+    "parallel": "Parallel chain",
+    "gate": "Gated — waits on its gate todo",
+    "external": "external",
+    "criteria": "Success Criteria"
   }
 }

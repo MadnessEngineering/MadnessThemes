@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Studies",
+    "parallel": "Parallel protocol",
+    "gate": "Gated on prerequisite step",
+    "external": "external",
+    "criteria": "Defined Success Criteria"
   }
 }

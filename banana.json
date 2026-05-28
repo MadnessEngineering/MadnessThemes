@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Jungle Sagas",
+    "parallel": "Side bunch",
+    "gate": "Held til gate banana ripens",
+    "external": "other tree",
+    "criteria": "When the Saga Ripens"
   }
 }

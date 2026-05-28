@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Crusades",
+    "parallel": "Joint crusade",
+    "gate": "Sworn — held by its gate vow",
+    "external": "distant",
+    "criteria": "Hallowed Objectives"
   }
 }

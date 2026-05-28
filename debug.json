@@ -2710,5 +2710,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "questCard.heading",
+    "parallel": "questCard.parallel",
+    "gate": "questCard.gate",
+    "external": "questCard.external",
+    "criteria": "questCard.criteria"
   }
 }

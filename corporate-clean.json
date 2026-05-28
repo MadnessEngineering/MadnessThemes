@@ -2730,5 +2730,12 @@
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
     }
+  },
+  "questCard": {
+    "heading": "Initiatives",
+    "parallel": "Concurrent workstream",
+    "gate": "Blocked by gate task",
+    "external": "external",
+    "criteria": "Success Metrics"
   }
 }
