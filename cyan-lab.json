@@ -2736,6 +2736,7 @@
     "parallel": "Concurrent run",
     "gate": "Gated on prerequisite assay",
     "external": "external",
-    "criteria": "Research Outcomes"
+    "criteria": "Research Outcomes",
+    "showIn3d": "Plot expedition in 3D"
   }
 }

@@ -2736,6 +2736,7 @@
     "parallel": "Concurrent op",
     "gate": "Gated — holds for mission clear",
     "external": "off-grid",
-    "criteria": "Rules of Engagement"
+    "criteria": "Rules of Engagement",
+    "showIn3d": "Project campaign in 3D"
   }
 }

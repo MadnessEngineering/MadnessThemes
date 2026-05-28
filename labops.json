@@ -2736,6 +2736,7 @@
     "parallel": "Parallel protocol",
     "gate": "Gated on prerequisite step",
     "external": "external",
-    "criteria": "Defined Success Criteria"
+    "criteria": "Defined Success Criteria",
+    "showIn3d": "View study in 3D"
   }
 }

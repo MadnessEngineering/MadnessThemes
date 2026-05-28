@@ -2736,6 +2736,7 @@
     "parallel": "Parallelized Workstream Aggregate",
     "gate": "Dependency-Gated Pending Upstream Closure",
     "external": "out-of-scope",
-    "criteria": "KPI Acceptance Gates"
+    "criteria": "KPI Acceptance Gates",
+    "showIn3d": "Visualize Aggregate Dependency Graph"
   }
 }

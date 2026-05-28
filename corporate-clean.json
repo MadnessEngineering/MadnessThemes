@@ -2736,6 +2736,7 @@
     "parallel": "Concurrent workstream",
     "gate": "Blocked by gate task",
     "external": "external",
-    "criteria": "Success Metrics"
+    "criteria": "Success Metrics",
+    "showIn3d": "View initiative in 3D"
   }
 }

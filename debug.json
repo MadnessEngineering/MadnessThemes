@@ -2716,6 +2716,7 @@
     "parallel": "questCard.parallel",
     "gate": "questCard.gate",
     "external": "questCard.external",
-    "criteria": "questCard.criteria"
+    "criteria": "questCard.criteria",
+    "showIn3d": "questCard.showIn3d"
   }
 }

@@ -2736,6 +2736,7 @@
     "parallel": "Concurrent assay",
     "gate": "Gated on endpoint",
     "external": "external",
-    "criteria": "Measurable Endpoints"
+    "criteria": "Measurable Endpoints",
+    "showIn3d": "View trial pathway in 3D"
   }
 }

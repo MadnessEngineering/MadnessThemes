@@ -2736,6 +2736,7 @@
     "parallel": "Joint crusade",
     "gate": "Sworn — held by its gate vow",
     "external": "distant",
-    "criteria": "Hallowed Objectives"
+    "criteria": "Hallowed Objectives",
+    "showIn3d": "Behold the Crusade in 3D"
   }
 }

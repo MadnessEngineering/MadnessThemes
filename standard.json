@@ -2736,6 +2736,7 @@
     "parallel": "Parallel chain",
     "gate": "Gated — waits on its gate todo",
     "external": "external",
-    "criteria": "Success Criteria"
+    "criteria": "Success Criteria",
+    "showIn3d": "View trail in SwarmDesk"
   }
 }

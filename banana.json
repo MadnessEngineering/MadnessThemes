@@ -2736,6 +2736,7 @@
     "parallel": "Side bunch",
     "gate": "Held til gate banana ripens",
     "external": "other tree",
-    "criteria": "When the Saga Ripens"
+    "criteria": "When the Saga Ripens",
+    "showIn3d": "Swing the saga in 3D"
   }
 }

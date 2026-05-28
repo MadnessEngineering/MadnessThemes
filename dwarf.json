@@ -2736,6 +2736,7 @@
     "parallel": "Side-shaft dig",
     "gate": "Barred — awaits its gate stone",
     "external": "far vein",
-    "criteria": "Milestones Worthy of Song"
+    "criteria": "Milestones Worthy of Song",
+    "showIn3d": "See the Saga carved in stone"
   }
 }

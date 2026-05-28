@@ -2736,6 +2736,7 @@
     "parallel": "Concurrent ritual",
     "gate": "Sealed — bound to its gate rite",
     "external": "elsewhere",
-    "criteria": "Conditions of Triumph"
+    "criteria": "Conditions of Triumph",
+    "showIn3d": "Trace the ritual in the Lab"
   }
 }
