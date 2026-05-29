@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Trial",
       "updating": "Recalibrating...",
-      "update": "Execute Amendment"
+      "update": "Execute Amendment",
+      "refreshTags": "Recalibrate Tag Array"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

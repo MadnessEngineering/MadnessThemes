@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Initiative",
       "updating": "Leveraging Synergy...",
-      "update": "Finalize Alignment"
+      "update": "Finalize Alignment",
+      "refreshTags": "Synchronize Strategic Taxonomy"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

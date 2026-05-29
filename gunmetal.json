@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Campaign",
       "updating": "Re-loading...",
-      "update": "Confirm Intel"
+      "update": "Confirm Intel",
+      "refreshTags": "Cycle the Intel Mag"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

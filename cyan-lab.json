@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Expedition",
       "updating": "Uploading...",
-      "update": "Finalize Link"
+      "update": "Finalize Link",
+      "refreshTags": "Reset Tag Uplink"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

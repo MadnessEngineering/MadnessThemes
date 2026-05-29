@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Crusade",
       "updating": "Purifying...",
-      "update": "Seal the Covenant"
+      "update": "Seal the Covenant",
+      "refreshTags": "Purify the Archives"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

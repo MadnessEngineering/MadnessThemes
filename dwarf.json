@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Saga",
       "updating": "Striking the Anvil...",
-      "update": "Strike the Rune"
+      "update": "Strike the Rune",
+      "refreshTags": "Polish the Runes"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

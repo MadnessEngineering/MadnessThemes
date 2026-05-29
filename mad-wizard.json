@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Experiment",
       "updating": "Chanting Incantations...",
-      "update": "Seal the Spell"
+      "update": "Seal the Spell",
+      "refreshTags": "Scour the Arcane Haze"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

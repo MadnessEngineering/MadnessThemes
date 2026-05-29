@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Saga",
       "updating": "Peeling...",
-      "update": "Mush It In"
+      "update": "Mush It In",
+      "refreshTags": "Un-mush the Bunch"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

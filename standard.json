@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Quest",
       "updating": "Updating Quest...",
-      "update": "Update Quest"
+      "update": "Update Quest",
+      "refreshTags": "Refresh tag cache"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

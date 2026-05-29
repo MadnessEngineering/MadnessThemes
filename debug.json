@@ -2708,7 +2708,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "questTab.buttons.cancelEdit",
       "updating": "questTab.buttons.updating",
-      "update": "questTab.buttons.update"
+      "update": "questTab.buttons.update",
+      "refreshTags": "questTab.buttons.refreshTags"
     },
     "errors": {
       "nameRequired": "Quest name is required.",

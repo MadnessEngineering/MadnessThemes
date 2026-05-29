@@ -2728,7 +2728,8 @@
       "copyId": "Copy ID",
       "cancelEdit": "New Study",
       "updating": "Processing...",
-      "update": "Commit Revision"
+      "update": "Commit Revision",
+      "refreshTags": "Flush Tag Registry"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
