@@ -2696,7 +2696,8 @@
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})"
+      "chainTodos": "Todos in chain ({{count}})",
+      "loadQuest": "questTab.fields.loadQuest"
     },
     "buttons": {
       "add": "Add",
@@ -2704,12 +2705,17 @@
       "removeChain": "Remove chain",
       "create": "questTab.buttons.create",
       "creating": "questTab.buttons.creating",
-      "copyId": "Copy ID"
+      "copyId": "Copy ID",
+      "cancelEdit": "questTab.buttons.cancelEdit",
+      "updating": "questTab.buttons.updating",
+      "update": "questTab.buttons.update"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
-    }
+    },
+    "editTitle": "questTab.editTitle",
+    "updated": "questTab.updated"
   },
   "questCard": {
     "heading": "questCard.heading",

@@ -2716,7 +2716,8 @@
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})"
+      "chainTodos": "Todos in chain ({{count}})",
+      "loadQuest": "Pick a bunch to peel…"
     },
     "buttons": {
       "add": "Add",
@@ -2724,12 +2725,17 @@
       "removeChain": "Remove chain",
       "create": "Bunch It Up",
       "creating": "Bunching...",
-      "copyId": "Copy ID"
+      "copyId": "Copy ID",
+      "cancelEdit": "New Saga",
+      "updating": "Peeling...",
+      "update": "Mush It In"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
-    }
+    },
+    "editTitle": "Re-bunch the Saga",
+    "updated": "Saga \"{{name}}\" ripened ({{chains}} hands, {{todos}} peels)"
   },
   "questCard": {
     "heading": "Jungle Sagas",

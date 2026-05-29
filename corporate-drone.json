@@ -2716,7 +2716,8 @@
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})"
+      "chainTodos": "Todos in chain ({{count}})",
+      "loadQuest": "Onboard existing initiative for optimization…"
     },
     "buttons": {
       "add": "Add",
@@ -2724,12 +2725,17 @@
       "removeChain": "Remove chain",
       "create": "Onboard Aggregate",
       "creating": "Onboarding...",
-      "copyId": "Copy ID"
+      "copyId": "Copy ID",
+      "cancelEdit": "New Initiative",
+      "updating": "Leveraging Synergy...",
+      "update": "Finalize Alignment"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
-    }
+    },
+    "editTitle": "Re-align Cross-Functional Initiative Aggregate",
+    "updated": "Aggregate \"{{name}}\" optimized ({{chains}} workstreams, {{todos}} deliverables)"
   },
   "questCard": {
     "heading": "Strategic Initiative Aggregates",

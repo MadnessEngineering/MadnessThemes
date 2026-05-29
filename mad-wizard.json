@@ -2716,7 +2716,8 @@
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})"
+      "chainTodos": "Todos in chain ({{count}})",
+      "loadQuest": "Summon an existing scroll…"
     },
     "buttons": {
       "add": "Add",
@@ -2724,12 +2725,17 @@
       "removeChain": "Remove chain",
       "create": "Conjure Experiment",
       "creating": "Conjuring...",
-      "copyId": "Copy ID"
+      "copyId": "Copy ID",
+      "cancelEdit": "New Experiment",
+      "updating": "Chanting Incantations...",
+      "update": "Seal the Spell"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
       "projectRequired": "Project is required."
-    }
+    },
+    "editTitle": "Respell the Grand Experiment",
+    "updated": "Experiment \"{{name}}\" transmuted ({{chains}} circles, {{todos}} reagents)"
   },
   "questCard": {
     "heading": "Grand Experiments",
