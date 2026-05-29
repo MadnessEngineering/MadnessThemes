@@ -1,0 +1,236 @@
+{
+  "themeName": "lab-neon",
+  "displayName": "Lab Neon",
+  "description": "Inventorium landing palette - neon green and electric cyan on near-black",
+  "icon": "🟢",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#00ff88",
+    "primaryButton": "#00cc6a",
+    "secondary": "#00ccff",
+    "success": "#00ff88",
+    "warning": "#ffb300",
+    "error": "#ff5252",
+    "background": {
+      "main": "#0a0a0f",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.02)",
+        "selected": "rgba(0, 255, 136, 0.05)",
+        "hover": "rgba(255, 255, 255, 0.04)"
+      },
+      "header": "rgba(10, 10, 15, 0.85)",
+      "paper": "rgba(15, 15, 20, 0.9)",
+      "topBar": "rgba(10, 10, 15, 0.85)"
+    },
+    "text": {
+      "primary": "#e0e0e0",
+      "secondary": "#a0a0b0",
+      "tertiary": "#707080",
+      "muted": "#707080",
+      "contrast": "#ffffff",
+      "success": "#00ff88",
+      "warning": "#ffb300",
+      "error": "#ff5252",
+      "info": "#00ccff",
+      "critical": "#ff5252",
+      "high": "#00cc6a",
+      "medium": "#ffb300",
+      "low": "#707080"
+    },
+    "border": {
+      "primary": "#00ff88",
+      "secondary": "#00ccff",
+      "subtle": "rgba(255, 255, 255, 0.06)"
+    },
+    "dashboard": {
+      "stats": {
+        "total": {
+          "background": "linear-gradient(135deg, #00ff88 0%, #00cc6a 100%)",
+          "color": "#0a0a0f"
+        },
+        "active": {
+          "background": "linear-gradient(135deg, #00ccff 0%, #0099cc 100%)",
+          "color": "#0a0a0f"
+        },
+        "completed": {
+          "background": "linear-gradient(135deg, #00cc6a 0%, #009950 100%)",
+          "color": "#0a0a0f"
+        },
+        "archived": {
+          "background": "linear-gradient(135deg, #505060 0%, #303040 100%)",
+          "color": "#ffffff"
+        }
+      },
+      "activity": {
+        "panel": {
+          "background": "rgba(0, 255, 136, 0.08)",
+          "border": "rgba(0, 255, 136, 0.2)"
+        },
+        "create": "#00ccff",
+        "complete": "#00ff88",
+        "delete": "#ff5252",
+        "update": "#ffb300",
+        "review": "#00cc6a"
+      },
+      "completed": {
+        "panel": {
+          "background": "rgba(0, 255, 136, 0.08)",
+          "border": "rgba(0, 255, 136, 0.2)"
+        },
+        "highlight": {
+          "background": "rgba(0, 255, 136, 0.08)"
+        }
+      },
+      "button": {
+        "neutral": "rgba(255, 255, 255, 0.06)",
+        "neutralHover": "rgba(255, 255, 255, 0.1)",
+        "danger": "#ff5252",
+        "dangerHover": "#e53935"
+      }
+    },
+    "accent": {
+      "orange": "#ff9800",
+      "deepOrange": "#ff5722",
+      "green": "#00ff88",
+      "lightGreen": "#5cffb0",
+      "amber": "#ffb300",
+      "red": "#ff5252",
+      "deepRed": "#e53935",
+      "purple": "#c06bff",
+      "deepPurple": "#9c27b0",
+      "cyan": "#00ccff",
+      "blue": "#0099cc"
+    },
+    "state": {
+      "editing": {
+        "primary": "#00ccff",
+        "background": "rgba(0, 204, 255, 0.1)",
+        "backgroundMedium": "rgba(0, 204, 255, 0.15)",
+        "border": "rgba(0, 204, 255, 0.3)",
+        "shadow": "rgba(0, 204, 255, 0.15)"
+      },
+      "hover": {
+        "background": "rgba(0, 255, 136, 0.08)",
+        "overlay": "rgba(255, 255, 255, 0.03)"
+      },
+      "selected": {
+        "background": "rgba(0, 255, 136, 0.15)",
+        "border": "rgba(0, 255, 136, 0.6)"
+      },
+      "disabled": {
+        "background": "rgba(255, 255, 255, 0.03)",
+        "text": "rgba(224, 224, 224, 0.3)"
+      }
+    },
+    "effects": {
+      "magic": {
+        "primary": "#c06bff",
+        "glow": "rgba(192, 107, 255, 0.3)",
+        "background": "rgba(156, 39, 176, 0.1)",
+        "backgroundMedium": "rgba(156, 39, 176, 0.2)",
+        "trail": "rgba(192, 107, 255, 0.15)"
+      },
+      "energy": {
+        "primary": "#00ff88",
+        "glow": "rgba(0, 255, 136, 0.2)",
+        "background": "rgba(0, 255, 136, 0.1)",
+        "pulse": "rgba(0, 255, 136, 0.6)"
+      },
+      "debug": {
+        "mobile": "#00ff88",
+        "desktop": "#00ccff",
+        "mobileBackground": "rgba(0, 255, 136, 0.2)",
+        "desktopBackground": "rgba(0, 204, 255, 0.2)"
+      }
+    },
+    "tags": {
+      "default": {
+        "background": "rgba(0, 255, 136, 0.1)",
+        "border": "rgba(0, 255, 136, 0.2)",
+        "hover": "rgba(0, 255, 136, 0.2)"
+      },
+      "cached": {
+        "background": "rgba(0, 204, 255, 0.15)",
+        "border": "rgba(0, 204, 255, 0.5)",
+        "text": "#00ccff"
+      },
+      "selected": {
+        "background": "rgba(0, 255, 136, 0.25)",
+        "border": "rgba(0, 255, 136, 0.7)"
+      }
+    },
+    "shadows": {
+      "light": "rgba(0, 0, 0, 0.3)",
+      "medium": "rgba(0, 0, 0, 0.5)",
+      "heavy": "rgba(0, 0, 0, 0.65)",
+      "overlay": "rgba(0, 0, 0, 0.85)",
+      "cardNormal": "rgba(0, 0, 0, 0.3)",
+      "cardHover": "rgba(0, 0, 0, 0.5)"
+    },
+    "overlays": {
+      "light": "rgba(255, 255, 255, 0.06)",
+      "medium": "rgba(255, 255, 255, 0.1)",
+      "dark": "rgba(0, 0, 0, 0.3)",
+      "darker": "rgba(0, 0, 0, 0.7)"
+    },
+    "status": {
+      "completed": {
+        "background": "rgba(0, 255, 136, 0.15)",
+        "border": "rgba(0, 255, 136, 0.6)",
+        "text": "#00ff88"
+      },
+      "pending": {
+        "background": "rgba(255, 179, 0, 0.15)",
+        "border": "rgba(255, 179, 0, 0.5)",
+        "text": "#ffb300"
+      },
+      "inProgress": {
+        "background": "rgba(0, 204, 255, 0.15)",
+        "border": "rgba(0, 204, 255, 0.5)",
+        "text": "#00ccff"
+      },
+      "blocked": {
+        "background": "rgba(255, 82, 82, 0.15)",
+        "border": "rgba(255, 82, 82, 0.5)",
+        "text": "#ff5252"
+      }
+    },
+    "chat": {
+      "userBubble": "#00cc6a",
+      "userBubbleText": "#0a0a0f"
+    }
+  },
+  "threeJS": {
+    "colors": {
+      "primary": "0x00ff88",
+      "secondary": "0x00ccff",
+      "success": "0x00ff88",
+      "warning": "0xffb300",
+      "error": "0xff5252",
+      "background": {
+        "main": "0x0a0a0f",
+        "card": "0x141420",
+        "paper": "0x0f0f14"
+      },
+      "text": {
+        "primary": "0xe0e0e0",
+        "secondary": "0xa0a0b0"
+      },
+      "border": {
+        "primary": "0x00ff88",
+        "secondary": "0x00ccff",
+        "subtle": "0x222230"
+      }
+    },
+    "materials": {
+      "metalness": 0.3,
+      "roughness": 0.7,
+      "emissiveIntensity": 0.1
+    },
+    "lighting": {
+      "ambientIntensity": 0.3,
+      "directionalIntensity": 0.8,
+      "pointIntensity": 0.6
+    }
+  }
+}
