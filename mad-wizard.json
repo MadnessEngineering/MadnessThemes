@@ -596,8 +596,8 @@
       "review": "Peer Review",
       "aiInsights": "Divination",
       "openInWarp": "Summon Warp Portal",
-      "addToQueue": "Summon to Alchemical Queue",
-      "topOfQueue": "Summon to Alchemical Apex"
+      "addToQueue": "Summon to Queue",
+      "topOfQueue": "Summon to Apex"
     },
     "fullEdit": {
       "modeTitle": "🔧 Workshop Mode - Full Edit Access"
@@ -751,7 +751,7 @@
       "createNewTodo": "Archive New Research"
     },
     "buttons": {
-      "backToDashboard": "Return to Laboratory Command Central"
+      "backToDashboard": "Return to Command"
     },
     "error": {
       "todoNotFound": "Research task has vanished from the mystical archives. It may have been banished or the reference scroll is corrupted."
@@ -976,7 +976,7 @@
     },
     "buttons": {
       "demoLogin": "Access Observatory Mode",
-      "googleLogin": "Enter with Mystical Gateway"
+      "googleLogin": "Enter via Gateway"
     },
     "status": {
       "loggingOut": "Departing the laboratory..."
@@ -1228,7 +1228,7 @@
           "pendingTasks": "Unstable Reagents: 23",
           "completedToday": "Transmutations Today: 7",
           "actions": {
-            "viewAll": "📋 Gaze Upon All Specimens",
+            "viewAll": "📋 All Specimens",
             "addTask": "➕ Add Volatile Reagent"
           }
         },
@@ -1519,7 +1519,7 @@
       "monitor": "📊 Scry the Vitals",
       "optimize": "⚡ Supercharge the Coils!",
       "analyze": "📈 Dissect the Results",
-      "configure": "⚙️ Tinker with the Dials"
+      "configure": "⚙️ Tinker the Dials"
     }
   },
   "chatAssistant": {
@@ -2046,8 +2046,8 @@
     },
     "actions": {
       "skip": "Skip Apparatus Initialization",
-      "next": "Proceed to Next Phase",
-      "back": "Return to Previous Phase",
+      "next": "Next Phase",
+      "back": "Previous Phase",
       "getStarted": "Enter the Laboratory"
     },
     "steps": {
@@ -2729,7 +2729,7 @@
       "cancelEdit": "New Experiment",
       "updating": "Chanting Incantations...",
       "update": "Seal the Spell",
-      "refreshTags": "Scour the Arcane Haze"
+      "refreshTags": "Scour the Haze"
     },
     "errors": {
       "nameRequired": "Quest name is required.",
