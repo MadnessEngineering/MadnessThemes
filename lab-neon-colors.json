@@ -20,7 +20,8 @@
       },
       "header": "rgba(10, 10, 15, 0.85)",
       "paper": "rgba(15, 15, 20, 0.9)",
-      "topBar": "rgba(10, 10, 15, 0.85)"
+      "topBar": "rgba(10, 10, 15, 0.85)",
+      "input": "rgba(15, 15, 20, 0.9)"
     },
     "text": {
       "primary": "#e0e0e0",
@@ -35,12 +36,14 @@
       "critical": "#ff5252",
       "high": "#00cc6a",
       "medium": "#ffb300",
-      "low": "#707080"
+      "low": "#707080",
+      "disabled": "#707080"
     },
     "border": {
       "primary": "#00ff88",
       "secondary": "#00ccff",
-      "subtle": "rgba(255, 255, 255, 0.06)"
+      "subtle": "rgba(255, 255, 255, 0.06)",
+      "disabled": "rgba(255, 255, 255, 0.06)"
     },
     "dashboard": {
       "stats": {

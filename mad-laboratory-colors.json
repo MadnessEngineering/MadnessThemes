@@ -20,7 +20,8 @@
       },
       "header": "linear-gradient(135deg, #1a0a2e 0%, #16103e 100%)",
       "paper": "rgba(20, 10, 30, 0.9)",
-      "topBar": "linear-gradient(90deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)"
+      "topBar": "linear-gradient(90deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)",
+      "input": "rgba(20, 10, 30, 0.9)"
     },
     "text": {
       "primary": "rgba(255, 255, 255, 0.9)",
@@ -34,12 +35,15 @@
       "critical": "#ff1744",
       "high": "#ff6f00",
       "medium": "#ffb300",
-      "low": "#8d6e63"
+      "low": "#8d6e63",
+      "disabled": "rgba(255, 255, 255, 0.6)",
+      "contrast": "#ffffff"
     },
     "border": {
       "primary": "#9c27b0",
       "secondary": "#00ff88",
-      "subtle": "rgba(156, 39, 176, 0.28)"
+      "subtle": "rgba(156, 39, 176, 0.28)",
+      "disabled": "rgba(156, 39, 176, 0.28)"
     },
     "chat": {
       "userBubble": "#6a1b9a",

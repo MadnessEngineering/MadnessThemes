@@ -20,7 +20,8 @@
       },
       "header": "linear-gradient(135deg, #1a1a28 0%, #1e2535 100%)",
       "paper": "rgba(20, 25, 35, 0.9)",
-      "topBar": "linear-gradient(90deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)"
+      "topBar": "linear-gradient(90deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)",
+      "input": "rgba(20, 25, 35, 0.9)"
     },
     "text": {
       "primary": "rgba(255, 255, 255, 0.9)",
@@ -34,12 +35,15 @@
       "critical": "#ff1744",
       "high": "#ff6f00",
       "medium": "#ffb300",
-      "low": "#8d6e63"
+      "low": "#8d6e63",
+      "disabled": "rgba(255, 255, 255, 0.6)",
+      "contrast": "#ffffff"
     },
     "border": {
       "primary": "#2196f3",
       "secondary": "#607d8b",
-      "subtle": "rgba(33, 150, 243, 0.15)"
+      "subtle": "rgba(33, 150, 243, 0.15)",
+      "disabled": "rgba(33, 150, 243, 0.15)"
     },
     "dashboard": {
       "stats": {
