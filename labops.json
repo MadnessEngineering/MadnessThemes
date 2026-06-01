@@ -1140,6 +1140,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me create a new todo",
+      "createTodoPrefill": "Register a task: ",
       "listTodos": "Show me my current todos",
       "projectStatus": "Give me a status update on my projects",
       "help": "What can you help me with?",

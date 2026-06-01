@@ -1522,6 +1522,7 @@
     },
     "actionMessages": {
       "createTodo": "mobileChatInterface.actionMessages.createTodo",
+      "createTodoPrefill": "mobileChatInterface.actionMessages.createTodoPrefill",
       "listTodos": "mobileChatInterface.actionMessages.listTodos",
       "projectStatus": "mobileChatInterface.actionMessages.projectStatus",
       "help": "mobileChatInterface.actionMessages.help",
