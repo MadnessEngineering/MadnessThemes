@@ -211,11 +211,11 @@
       "projectsCreated": "New Apparatus Created",
       "projectsUpdated": "Apparatus Modified",
       "projectsDeleted": "Apparatus Banished",
-      "all": "All Activity",
-      "create": "Created",
-      "update": "Updated",
-      "complete": "Completed",
-      "delete": "Deleted"
+      "all": "All Reactions",
+      "create": "Conjured",
+      "update": "Mutated",
+      "complete": "Sealed",
+      "delete": "Banished"
     },
     "unifiedView": "🌐 Mystical Omniscient View",
     "personalView": "👤 Personal Laboratory View",
@@ -248,18 +248,18 @@
     "showingPageStats": "Viewing chronicle {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
     "autoRefreshingInterval": " • Auto-scrying every 30 mystical moments",
     "emptyState": {
-      "title": "No activity yet",
-      "message": "Start working on tasks to see activity here"
+      "title": "No reactions yet",
+      "message": "Begin your experiments to chronicle activity here"
     },
     "events": {
-      "created": "created",
-      "updated": "updated",
-      "completed": "completed",
-      "deleted": "deleted"
+      "created": "conjured",
+      "updated": "mutated",
+      "completed": "sealed",
+      "deleted": "banished"
     },
     "ago": "ago",
     "stats": {
-      "total": "Total Events",
+      "total": "Total Reactions",
       "today": "Today",
       "thisWeek": "This Week"
     }
@@ -432,10 +432,10 @@
     "taskCreated": "🎉 New research task archived successfully!",
     "projectCreated": "🚀 New experiment initiated successfully!",
     "aiConfigured": "✅ AI familiar successfully bound to your apparatus!",
-    "todoCreated": "📝 New task created.",
-    "settingsSaved": "⚙️ Settings saved.",
-    "exportCompleted": "📤 Export complete.",
-    "importCompleted": "📥 Import complete.",
+    "todoCreated": "📝 New experiment conjured.",
+    "settingsSaved": "⚙️ Settings archived.",
+    "exportCompleted": "📤 Extraction complete.",
+    "importCompleted": "📥 Conjuration complete.",
     "aiInsightsApplied": "Arcane insights manifested successfully!",
     "aiInsightsRequirePaid": "These visions require a more potent catalyst (Paid Account)"
   },
@@ -2013,7 +2013,7 @@
     "cardActions": {
       "complete": "Mark Research Complete",
       "edit": "Modify Experiment",
-      "remove": "Remove from Queue"
+      "remove": "Banish from Queue"
     },
     "incoming": {
       "title": "Uncharted Specimens",
@@ -2472,7 +2472,7 @@
     "customHeaders": "Ancient Seals",
     "notificationTitle": "Whisper Title",
     "notificationBody": "Whisper Message",
-    "agentType": "Agent Type",
+    "agentType": "Homunculus Type",
     "agentWarning": "This ritual summons an autonomous spirit to act on your behalf.",
     "eventFeedTitle": "Arcane Flux Monitor",
     "eventFeedLoading": "Consulting the ether...",
@@ -2701,12 +2701,12 @@
   "questTab": {
     "title": "Conjure a Grand Experiment",
     "subtitle": "Bind related research tasks into an ordered ritual. Track the arcane progress.",
-    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
-    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "success": "Quest \"{{name}}\" conjured ({{chains}} chains, {{todos}} todos)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} experiment(s) bound.",
     "sections": {
       "criteria": "Success Criteria",
-      "chains": "Todo Chains",
-      "created": "Recently Created Quests"
+      "chains": "Experiment Chains",
+      "created": "Recently Conjured Quests"
     },
     "fields": {
       "name": "Quest Name *",
@@ -2716,7 +2716,7 @@
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})",
+      "chainTodos": "Experiments in chain ({{count}})",
       "loadQuest": "Summon an existing scroll…"
     },
     "buttons": {
