@@ -697,7 +697,10 @@
       "confidence": "Monkey Confidence",
       "phase": "Swinging Phase",
       "epic": "Great Jungle Epic",
-      "blockers": "Vine Blockers"
+      "blockers": "Vine Blockers",
+      "description_preview": "Peel Preview",
+      "created_at": "Hatched At",
+      "updated_at": "Last Ripened"
     },
     "validation": {
       "descriptionRequired": "Swing description cannot be empty",

@@ -631,7 +631,10 @@
       "confidence": "Confidence Score",
       "phase": "Delivery Phase",
       "epic": "Epic Initiative",
-      "blockers": "Blocking Dependencies"
+      "blockers": "Blocking Dependencies",
+      "description_preview": "Desc. Synopsis",
+      "created_at": "Submission Timestamp",
+      "updated_at": "Last Modified"
     },
     "validation": {
       "descriptionRequired": "Task description cannot be empty.",

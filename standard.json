@@ -697,7 +697,10 @@
       "confidence": "Confidence",
       "phase": "Phase",
       "epic": "Epic",
-      "blockers": "Blockers"
+      "blockers": "Blockers",
+      "description_preview": "Description Preview",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
     },
     "validation": {
       "descriptionRequired": "Description cannot be empty",

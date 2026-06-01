@@ -697,7 +697,10 @@
       "confidence": "todoList.fields.confidence",
       "phase": "todoList.fields.phase",
       "epic": "todoList.fields.epic",
-      "blockers": "todoList.fields.blockers"
+      "blockers": "todoList.fields.blockers",
+      "description_preview": "[desc_preview]",
+      "created_at": "[created_at]",
+      "updated_at": "[updated_at]"
     },
     "validation": {
       "descriptionRequired": "todoList.validation.descriptionRequired",

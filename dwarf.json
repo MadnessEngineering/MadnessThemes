@@ -697,7 +697,10 @@
       "confidence": "Miner Confidence",
       "phase": "Excavation Phase",
       "epic": "Great Mining Epic",
-      "blockers": "Cave Blockers"
+      "blockers": "Cave Blockers",
+      "description_preview": "Rune Glimpse",
+      "created_at": "Carved At",
+      "updated_at": "Last Chiseled"
     },
     "validation": {
       "descriptionRequired": "Mining description cannot be empty",

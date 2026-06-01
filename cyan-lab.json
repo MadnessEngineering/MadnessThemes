@@ -344,7 +344,10 @@
       "confidence": "Confidence",
       "phase": "Phase",
       "epic": "Epic",
-      "blockers": "Blockers"
+      "blockers": "Blockers",
+      "description_preview": "Signal Preview",
+      "created_at": "Initiated At",
+      "updated_at": "Last Synced"
     },
     "validation": {
       "descriptionRequired": "Description cannot be empty",

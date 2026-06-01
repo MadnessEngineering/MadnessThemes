@@ -697,7 +697,10 @@
       "confidence": "Confidence Level",
       "phase": "Research Phase",
       "epic": "Grand Epic",
-      "blockers": "Mystical Blockers"
+      "blockers": "Mystical Blockers",
+      "description_preview": "Arcane Glimpse",
+      "created_at": "Conjured On",
+      "updated_at": "Last Altered"
     },
     "validation": {
       "descriptionRequired": "Research description cannot be empty",

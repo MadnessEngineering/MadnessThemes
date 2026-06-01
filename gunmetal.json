@@ -697,7 +697,10 @@
       "confidence": "Confidence",
       "phase": "Phase",
       "epic": "Epic",
-      "blockers": "Blockers"
+      "blockers": "Blockers",
+      "description_preview": "Briefing Snippet",
+      "created_at": "Stamped At",
+      "updated_at": "Last Revised"
     },
     "validation": {
       "descriptionRequired": "Mission brief cannot be empty",
