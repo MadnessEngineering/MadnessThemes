@@ -1548,10 +1548,10 @@
       "demoMessage": "AI mystical consultation is not available for observatory users. Register for full laboratory access to commune with your arcane intelligence!",
       "description": "Your personal mystical familiar to help orchestrate experiments, navigate apparatus, and divine deeper insights.",
       "suggestions": [
-        "Search research notes",
-        "List active tasks",
-        "Create new project",
-        "Generate experiment report"
+        "Scry the research notes",
+        "List active experiments",
+        "Conjure a new project",
+        "Distill an experiment report"
       ]
     },
     "notConfigured": {
@@ -1573,15 +1573,15 @@
       "placeholder": "Channel your mystical inquiry...",
       "demoPlaceholder": "AI mystical consultation is not available for observatory users. Register for full laboratory access!"
     },
-    "title": "Lab Assistant",
-    "placeholder": "Ask your lab assistant...",
-    "send": "Send",
-    "thinking": "Processing...",
+    "title": "Lab Familiar",
+    "placeholder": "Ask your lab familiar...",
+    "send": "Transmit",
+    "thinking": "Void Tunneling...",
     "suggestions": {
-      "searchLessons": "Search research notes",
-      "listTodos": "List active tasks",
-      "createProject": "Create new project",
-      "summarize": "Generate summary"
+      "searchLessons": "Scry the research notes",
+      "listTodos": "List active experiments",
+      "createProject": "Conjure a new project",
+      "summarize": "Distill a summary"
     }
   },
   "mobileChatInterface": {
