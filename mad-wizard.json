@@ -1595,7 +1595,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me archive a new mystical experiment",
-      "createTodoPrefill": "Archive a mystical experiment: ",
+      "createTodoPrefill": "Experiment: ",
       "listTodos": "Reveal my current research tasks",
       "projectStatus": "Divine the status of my mystical apparatus",
       "help": "What mystical guidance can you provide?",

@@ -1491,7 +1491,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me plant a new jungle task",
-      "createTodoPrefill": "Plant a jungle task: ",
+      "createTodoPrefill": "Task: ",
       "listTodos": "Reveal my current swing tasks",
       "projectStatus": "Forage the status of my jungle apparatus",
       "help": "What jungle guidance can you provide?",

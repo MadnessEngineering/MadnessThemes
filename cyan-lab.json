@@ -1728,7 +1728,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me create a new task",
-      "createTodoPrefill": "Create a task: ",
+      "createTodoPrefill": "Task: ",
       "listTodos": "Display my current tasks",
       "projectStatus": "Give me a status readout on my projects",
       "help": "What protocols can you assist with?",

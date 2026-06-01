@@ -1087,7 +1087,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me create a new assay",
-      "createTodoPrefill": "Create an assay: ",
+      "createTodoPrefill": "Assay: ",
       "listTodos": "Show me my current assays",
       "projectStatus": "Give me a status update on my studies",
       "help": "What can you help me with?",

@@ -1491,7 +1491,7 @@
     },
     "actionMessages": {
       "createTodo": "Help me carve a new mining task",
-      "createTodoPrefill": "Carve a mining task: ",
+      "createTodoPrefill": "Task: ",
       "listTodos": "Reveal me current mining tasks",
       "projectStatus": "Survey the status of me mining apparatus",
       "help": "What mining guidance can ye provide?",
