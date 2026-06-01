@@ -118,8 +118,8 @@ Copy this block to start a new theme card:
   | edit | **Modify Apparatus** (tools/forms) · **Modify Experiment** (a todo) | — | split by object, see noun-map |
   | refresh | **Refresh Apparatus** | "Refresh Portal" | portals are for navigation, not reload |
   | export | **Extract Research Data** | bare "Export" | |
-  | complete (a todo) | **Seal Experiment** *(proposed — confirm in Phase 2)* | "" (currently empty) | see collision note |
-  | close (a panel) | **Seal Apparatus** | — | see collision note |
+  | complete (a todo) | **Seal Experiment** | "" (was empty) | Seal = secure/finalize, see note |
+  | close (a panel) | **Seal Apparatus** | — | Seal = secure/put away, see note |
   | review | **Peer Review** | — | |
   | AI insights | **Divination** | — | reserve "divination" for AI/prediction only |
   | open externally | **Summon Warp Portal** | — | portals = navigation/connection |
@@ -154,11 +154,11 @@ Copy this block to start a new theme card:
   - `Loading…` → **Void Tunneling…**
   - `No todos yet` → *something like* **The apparatus sits idle — no experiments logged.**
 
-- **⚠️ Open collision (defer to Phase 2 confirm):** `common.close = "Seal Apparatus"` and the
-  proposed `todoList.buttons.complete = "Seal Experiment"` both use **Seal**. Completing a todo and
-  closing a panel reading with the same verb could confuse. Object nouns differ (Apparatus vs
-  Experiment), which helps — but confirm during the Phase 2 rewrite whether "complete" wants a
-  distinct verb (e.g. *Conclude Experiment*).
+- **Seal collision — resolved (Phase 2):** `common.close = "Seal Apparatus"` and
+  `todoList.buttons.complete = "Seal Experiment"` both use **Seal**. Rather than split the verb, we
+  embraced it: **Seal = "secure and put away"** consistently — you seal a finished experiment
+  (complete) the same way you seal the apparatus (close a panel). The distinct object nouns keep
+  them unambiguous. The completed *status* is likewise **"Sealed"**, reinforcing the metaphor.
 
 ---
 

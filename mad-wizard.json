@@ -6,21 +6,21 @@
       "reset": "Reset Apparatus",
       "create": "Seal the Phylactery",
       "submit": "Launch Investigation",
-      "cancel": "Cancel"
+      "cancel": "Abandon Experiment"
     },
     "demoMode": {
-      "label": "DEMO MODE",
+      "label": "SIMULATION MODE",
       "title": "Mad Tinker's Experimentation Lab - Read Only",
       "description": "🎭 You're exploring in demo mode! Project creation is disabled to preserve the workshop's delicate experiments. Sign up for full tinker access to unleash your creative chaos!"
     },
     "fields": {
       "name": {
-        "label": "Project Name",
-        "placeholder": "Enter project identifier..."
+        "label": "Project Codename",
+        "placeholder": "Name your research endeavor..."
       },
       "description": {
-        "label": "Project Description",
-        "placeholder": "Describe your research objectives..."
+        "label": "Research Brief",
+        "placeholder": "What mysteries will this project unravel?"
       }
     },
     "validation": {
@@ -34,10 +34,10 @@
     "lessons": "Laboratory Notes",
     "quest": "Grand Experiments",
     "project": "New Experiment",
-    "mindmap": "Mind Map",
-    "swarmdesk": "3D Lab",
-    "chat": "Lab Assistant",
-    "sessions": "Lab Sessions"
+    "mindmap": "Synapse Map",
+    "swarmdesk": "3D Laboratory",
+    "chat": "Lab Familiar",
+    "sessions": "Research Sessions"
   },
   "validation": {
     "nameRequired": "Project incantation name is required",
@@ -78,16 +78,16 @@
     "back": "Back",
     "next": "Next",
     "previous": "Previous",
-    "search": "Search",
-    "filter": "Filter",
-    "sort": "Sort",
-    "clear": "Clear",
-    "apply": "Apply",
-    "export": "Export",
-    "import": "Import",
-    "viewAll": "View All",
-    "collapse": "Collapse",
-    "expand": "Expand",
+    "search": "Seek",
+    "filter": "Sift",
+    "sort": "Arrange",
+    "clear": "Dispel",
+    "apply": "Invoke",
+    "export": "Extract",
+    "import": "Conjure",
+    "viewAll": "Reveal All",
+    "collapse": "Fold",
+    "expand": "Unfurl",
     "dismiss": "Banish"
   },
   "forms": {
@@ -142,7 +142,7 @@
     "welcome": {
       "message": "Welcome to the Madness Interactive Laboratory! Your mystical research command center.",
       "description": "The Experimental Apparatus is primed for discovery! This command center appears when no research panels are active. Use the mystical controls above to access specific research areas, experimental logs, project archives, and more.",
-      "title": "Welcome to Your Lab"
+      "title": "The Laboratory Awaits"
     },
     "quickActions": {
       "openTodos": "📝 Research Tasks",
@@ -196,7 +196,7 @@
       "completedTodos": "Mastered Enchantments",
       "archivedProjects": "Dusty Tomes"
     },
-    "recentActivity": "Recent Activity"
+    "recentActivity": "Recent Findings"
   },
   "activityLog": {
     "title": "📋 Laboratory Activity Chronicle",
@@ -465,7 +465,7 @@
     "enterButton": {
       "selected": "⚡ PORTAL ACTIVE",
       "enter": "🚀 ENTER REALM",
-      "helpText": "Press Enter or #{{number}}"
+      "helpText": "Invoke with Enter or #{{number}}"
     },
     "createCta": {
       "title": "Conjure a New Experiment",
@@ -478,7 +478,7 @@
       "hasTodos": "This apparatus has {{count}} experimental task(s). Would you relocate them?",
       "relocateLabel": "Relocate tasks to another apparatus",
       "selectDestination": "Select destination apparatus",
-      "cancel": "Cancel",
+      "cancel": "Abandon Experiment",
       "deleteButton": "Banish Apparatus"
     }
   },
@@ -544,9 +544,9 @@
       "pending": "Active Experiments",
       "review": "Under Review",
       "completed": "Archived Studies",
-      "all": "All Tasks",
-      "inProgress": "In Progress",
-      "blocked": "Blocked",
+      "all": "All Experiments",
+      "inProgress": "Brewing",
+      "blocked": "Contained",
       "in_progress": "Brewing"
     },
     "sort": {
@@ -568,11 +568,11 @@
       "show": "Display",
       "perPage": "per laboratory",
       "all": "All Research",
-      "results": "results"
+      "results": "findings"
     },
     "results": {
       "showing": "Viewing {{start}}-{{end}} of {{total}} research tasks",
-      "matching": " matching \"{{searchText}}\"",
+      "matching": " conjured for \"{{searchText}}\"",
       "filteringByProject": "Filtering by experiment: <strong>{{project}}</strong>",
       "filteringByProjects": "Conjuring {{count}} experiment(s)"
     },
@@ -588,7 +588,7 @@
       "saving": "Void Tunneling...",
       "saveChanges": "Channel Changes",
       "discard": "Abandon Timeline",
-      "complete": "",
+      "complete": "Seal Experiment",
       "edit": "Modify Experiment",
       "copyId": "Copy Research ID",
       "copyJiraCmd": "Cast Jira Incantation",
@@ -662,17 +662,17 @@
       "statusFilter": "Task Status Filter"
     },
     "priority": {
-      "high": "High",
-      "medium": "Medium",
-      "low": "Low",
-      "critical": "Critical"
+      "high": "Volatile",
+      "medium": "Stable",
+      "low": "Inert",
+      "critical": "Cataclysmic"
     },
     "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "initial": "Initial",
-      "blocked": "Blocked"
+      "pending": "Dormant",
+      "in_progress": "Brewing",
+      "completed": "Sealed",
+      "initial": "Conjured",
+      "blocked": "Contained"
     },
     "fields": {
       "id": "Research ID",
@@ -726,20 +726,20 @@
     "aria": {
       "todoActions": "Research task mystical actions"
     },
-    "title": "Laboratory Tasks",
-    "addTodo": "Add Task",
+    "title": "Laboratory Experiments",
+    "addTodo": "New Experiment",
     "emptyState": {
-      "title": "No tasks yet",
-      "message": "Create your first laboratory task to get started",
-      "action": "Create Task",
-      "noTasks": "No tasks found",
-      "createFirst": "Create your first task to get started"
+      "title": "No experiments yet",
+      "message": "Log your first experiment to begin your research",
+      "action": "Log Experiment",
+      "noTasks": "No experiments found",
+      "createFirst": "Log your first experiment to get started"
     },
     "actions": {
-      "markComplete": "Mark Complete",
-      "markPending": "Mark Pending",
-      "edit": "Edit Task",
-      "delete": "Delete Task"
+      "markComplete": "Seal Experiment",
+      "markPending": "Mark Dormant",
+      "edit": "Modify Experiment",
+      "delete": "Banish to Void"
     }
   },
   "todoEdit": {
@@ -904,13 +904,13 @@
     },
     "theme": {
       "title": "Theme",
-      "colorTheme": "Color Theme",
-      "textTheme": "Text Style",
-      "description": "Customize your laboratory appearance"
+      "colorTheme": "Color Palette",
+      "textTheme": "Personality Voice",
+      "description": "Attune your laboratory appearance"
     },
     "account": {
       "title": "Account",
-      "profile": "Profile Settings",
+      "profile": "Researcher Profile",
       "preferences": "Preferences"
     }
   },
@@ -1010,7 +1010,7 @@
       "enhancedDescription": "Ethereal Enhancement",
       "aiEnhanced": "🔮 Mystically Enhanced Description:",
       "completionNotes": "✨ Manifestation Notes:",
-      "completed": "Completed",
+      "completed": "Sealed",
       "duration": "Duration"
     },
     "priority": {
