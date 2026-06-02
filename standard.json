@@ -339,7 +339,8 @@
     "chatAudit": "📊 Audit",
     "dashboard": "🏠 Dashboard",
     "account": "👤 Account",
-    "queue": "📥 Queue"
+    "queue": "📥 Queue",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Go back",

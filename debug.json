@@ -339,7 +339,8 @@
     "dashboard": "panels.dashboard",
     "account": "panels.account",
     "queue": "panels.queue",
-    "inventory": "panels.inventory"
+    "inventory": "panels.inventory",
+    "quests": "panels.quests"
   },
   "mobileNavigation": {
     "goBack": "mobileNavigation.goBack",

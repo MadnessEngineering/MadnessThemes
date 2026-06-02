@@ -339,7 +339,8 @@
     "chatAudit": "🔮 Arcane Audit",
     "dashboard": "🏠 Sanctum Overview",
     "account": "👤 Wizard Profile",
-    "queue": "📥 Pending Rituals"
+    "queue": "📥 Pending Rituals",
+    "quests": "⚔️ Arcane Quests"
   },
   "mobileNavigation": {
     "goBack": "Retreat to previous chamber",

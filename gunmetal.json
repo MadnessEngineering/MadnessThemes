@@ -339,7 +339,8 @@
     "dashboard": "🏠 Command Center",
     "account": "👤 Operator Profile",
     "queue": "📥 Mission Queue",
-    "inventory": "🗄️ Arsenal"
+    "inventory": "🗄️ Arsenal",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Fall Back",

@@ -339,7 +339,8 @@
     "dashboard": "🏠 Canopy Overview",
     "account": "👤 Monkey Profile",
     "queue": "📥 Banana Queue",
-    "inventory": "🗄️ Jungle Stash"
+    "inventory": "🗄️ Jungle Stash",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Swing Back",

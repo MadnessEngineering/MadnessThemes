@@ -339,7 +339,8 @@
     "dashboard": "🏠 Diagnostic Overview",
     "account": "👤 Researcher Profile",
     "queue": "📥 Sample Queue",
-    "inventory": "🗄️ Specimen Registry"
+    "inventory": "🗄️ Specimen Registry",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Return to Previous Phase",

@@ -339,7 +339,8 @@
     "dashboard": "🏠 Dashboard Overview",
     "account": "👤 User Profile",
     "queue": "📥 Processing Queue",
-    "inventory": "🗄️ Asset Inventory"
+    "inventory": "🗄️ Asset Inventory",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Go Back",

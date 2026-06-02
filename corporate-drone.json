@@ -273,7 +273,8 @@
     "dashboard": "🏠 Executive Summary",
     "account": "👤 User Profile",
     "queue": "📥 Pending Approvals",
-    "inventory": "🗄️ Asset Registry"
+    "inventory": "🗄️ Asset Registry",
+    "quests": "⚔️ Initiatives"
   },
   "mobileNavigation": {
     "goBack": "Return to previous view",

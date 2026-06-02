@@ -339,7 +339,8 @@
     "dashboard": "🏠 Mine Overview",
     "account": "👤 Dwarf Ledger",
     "queue": "📥 Ore Queue",
-    "inventory": "🗄️ Supply Cavern"
+    "inventory": "🗄️ Supply Cavern",
+    "quests": "⚔️ Guild Contracts"
   },
   "mobileNavigation": {
     "goBack": "Retreat to Previous Tunnel",

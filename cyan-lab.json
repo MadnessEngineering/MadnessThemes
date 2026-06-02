@@ -1789,7 +1789,8 @@
     "dashboard": "🏠 Neural Hub",
     "account": "👤 User Interface",
     "queue": "📥 Processing Stack",
-    "inventory": "🗄️ Data Vault"
+    "inventory": "🗄️ Data Vault",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Rewind Protocol",

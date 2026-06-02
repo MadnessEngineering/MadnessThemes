@@ -339,7 +339,8 @@
     "dashboard": "🏠 Operations Dashboard",
     "account": "👤 Operator Profile",
     "queue": "📥 Processing Queue",
-    "inventory": "🗄️ Equipment Registry"
+    "inventory": "🗄️ Equipment Registry",
+    "quests": "⚔️ Quests"
   },
   "mobileNavigation": {
     "goBack": "Return to Station",
