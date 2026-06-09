@@ -2795,6 +2795,18 @@
     "gate": "Blocked by gate task",
     "external": "external",
     "criteria": "Success Metrics",
-    "showIn3d": "View initiative in 3D"
+    "showIn3d": "View initiative in 3D",
+    "briefNoAi": "Please configure the AI Integration under Settings to generate a quest brief.",
+    "briefNoTodos": "No tasks are currently linked. Please add tasks to this quest to proceed.",
+    "briefGenerating": "Generating Brief…",
+    "briefGenerate": "Generate AI Quest Brief",
+    "briefHeader": "Quest Brief",
+    "briefCopy": "Copy Brief",
+    "briefSave": "Save Brief to Quest",
+    "briefSaved": "Successfully Saved",
+    "briefDismiss": "Dismiss",
+    "briefRegenerate": "Regenerate Brief",
+    "copyPrompt": "Copy Quest Details as AI Prompt",
+    "copiedPrompt": "Copied successfully"
   }
 }

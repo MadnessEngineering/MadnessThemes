@@ -2795,6 +2795,18 @@
     "gate": "Gated on prerequisite assay",
     "external": "external",
     "criteria": "Research Outcomes",
-    "showIn3d": "Plot expedition in 3D"
+    "showIn3d": "Plot expedition in 3D",
+    "briefNoAi": "Initialize Neural Engine in Settings to compile a node summary",
+    "briefNoTodos": "No mapped data nodes — attach data nodes to this project node first",
+    "briefGenerating": "Compiling…",
+    "briefGenerate": "Compile neural node summary",
+    "briefHeader": "Node Summary",
+    "briefCopy": "Clone summary",
+    "briefSave": "Commit summary to project node",
+    "briefSaved": "Committed!",
+    "briefDismiss": "Close",
+    "briefRegenerate": "Recompile summary",
+    "copyPrompt": "Clone project node as compiler prompt",
+    "copiedPrompt": "Cloned!"
   }
 }

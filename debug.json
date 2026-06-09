@@ -2775,6 +2775,18 @@
     "gate": "questCard.gate",
     "external": "questCard.external",
     "criteria": "questCard.criteria",
-    "showIn3d": "questCard.showIn3d"
+    "showIn3d": "questCard.showIn3d",
+    "briefNoAi": "questCard.briefNoAi",
+    "briefNoTodos": "questCard.briefNoTodos",
+    "briefGenerating": "questCard.briefGenerating",
+    "briefGenerate": "questCard.briefGenerate",
+    "briefHeader": "questCard.briefHeader",
+    "briefCopy": "questCard.briefCopy",
+    "briefSave": "questCard.briefSave",
+    "briefSaved": "questCard.briefSaved",
+    "briefDismiss": "questCard.briefDismiss",
+    "briefRegenerate": "questCard.briefRegenerate",
+    "copyPrompt": "questCard.copyPrompt",
+    "copiedPrompt": "questCard.copiedPrompt"
   }
 }

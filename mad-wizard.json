@@ -2795,6 +2795,18 @@
     "gate": "Sealed — bound to its gate rite",
     "external": "elsewhere",
     "criteria": "Conditions of Triumph",
-    "showIn3d": "Trace the ritual in the Lab"
+    "showIn3d": "Trace the ritual in the Lab",
+    "briefNoAi": "Align the AI Oracle in Settings to summon an arcane scroll",
+    "briefNoTodos": "No reagents linked — bind reagents to this experiment first",
+    "briefGenerating": "Summoning…",
+    "briefGenerate": "Summon Arcane Experiment Scroll",
+    "briefHeader": "Arcane Scroll",
+    "briefCopy": "Transcribe scroll",
+    "briefSave": "Enshrine scroll to experiment",
+    "briefSaved": "Enshrined!",
+    "briefDismiss": "Banish",
+    "briefRegenerate": "Re-summon scroll",
+    "copyPrompt": "Transcribe experiment as ritual prompt",
+    "copiedPrompt": "Transcribed!"
   }
 }

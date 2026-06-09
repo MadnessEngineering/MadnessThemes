@@ -2795,6 +2795,18 @@
     "gate": "Sworn — held by its gate vow",
     "external": "distant",
     "criteria": "Hallowed Objectives",
-    "showIn3d": "Behold the Crusade in 3D"
+    "showIn3d": "Behold the Crusade in 3D",
+    "briefNoAi": "Attune the Divine Oracle in Settings to invoke a sacred brief",
+    "briefNoTodos": "No sacred duties pledged — assign duties to this crusade first",
+    "briefGenerating": "Invoking…",
+    "briefGenerate": "Invoke Divine Crusade Brief",
+    "briefHeader": "Sacred Brief",
+    "briefCopy": "Transcribe brief",
+    "briefSave": "Inscribe brief to crusade ledger",
+    "briefSaved": "Inscribed!",
+    "briefDismiss": "Release",
+    "briefRegenerate": "Reinvoke brief",
+    "copyPrompt": "Transcribe crusade as sacred prompt",
+    "copiedPrompt": "Transcribed!"
   }
 }

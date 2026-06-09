@@ -2795,6 +2795,18 @@
     "gate": "Dependency-Gated Pending Upstream Closure",
     "external": "out-of-scope",
     "criteria": "KPI Acceptance Gates",
-    "showIn3d": "Visualize Aggregate Dependency Graph"
+    "showIn3d": "Visualize Aggregate Dependency Graph",
+    "briefNoAi": "Enable AI analytics engine in Settings to deploy an executive summary",
+    "briefNoTodos": "No linked action items — add action items to this initiative first",
+    "briefGenerating": "Deploying…",
+    "briefGenerate": "Deploy AI initiative summary",
+    "briefHeader": "Executive Summary",
+    "briefCopy": "Duplicate summary",
+    "briefSave": "Persist summary to initiative",
+    "briefSaved": "Persisted!",
+    "briefDismiss": "Close",
+    "briefRegenerate": "Re-run summary",
+    "copyPrompt": "Duplicate initiative as prompt",
+    "copiedPrompt": "Duplicated!"
   }
 }

@@ -2795,6 +2795,18 @@
     "gate": "Gated — waits on its gate todo",
     "external": "external",
     "criteria": "Success Criteria",
-    "showIn3d": "View trail in SwarmDesk"
+    "showIn3d": "View trail in SwarmDesk",
+    "briefNoAi": "Configure AI in Settings to generate a brief",
+    "briefNoTodos": "No linked todos — add todos to this quest first",
+    "briefGenerating": "Generating…",
+    "briefGenerate": "Generate AI quest brief",
+    "briefHeader": "Quest Brief",
+    "briefCopy": "Copy brief",
+    "briefSave": "Save brief to quest",
+    "briefSaved": "Saved!",
+    "briefDismiss": "Dismiss",
+    "briefRegenerate": "Regenerate brief",
+    "copyPrompt": "Copy quest as prompt",
+    "copiedPrompt": "Copied!"
   }
 }

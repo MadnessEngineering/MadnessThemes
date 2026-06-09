@@ -2795,6 +2795,18 @@
     "gate": "Gated on prerequisite step",
     "external": "external",
     "criteria": "Defined Success Criteria",
-    "showIn3d": "View study in 3D"
+    "showIn3d": "View study in 3D",
+    "briefNoAi": "Configure AI Ops Engine in Settings to generate an ops summary",
+    "briefNoTodos": "No tasks assigned — add tasks to this operation first",
+    "briefGenerating": "Generating…",
+    "briefGenerate": "Generate AI operation summary",
+    "briefHeader": "Ops Summary",
+    "briefCopy": "Copy summary",
+    "briefSave": "Save summary to operation",
+    "briefSaved": "Saved!",
+    "briefDismiss": "Dismiss",
+    "briefRegenerate": "Regenerate summary",
+    "copyPrompt": "Copy operation as reference prompt",
+    "copiedPrompt": "Copied!"
   }
 }

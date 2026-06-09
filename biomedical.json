@@ -2795,6 +2795,18 @@
     "gate": "Gated on endpoint",
     "external": "external",
     "criteria": "Measurable Endpoints",
-    "showIn3d": "View trial pathway in 3D"
+    "showIn3d": "View trial pathway in 3D",
+    "briefNoAi": "Calibrate AI analysis module in Settings to initiate a protocol summary",
+    "briefNoTodos": "No linked specimens — assign specimens to this protocol first",
+    "briefGenerating": "Initiating…",
+    "briefGenerate": "Initiate AI protocol summary",
+    "briefHeader": "Protocol Summary",
+    "briefCopy": "Duplicate summary",
+    "briefSave": "Archive summary to protocol",
+    "briefSaved": "Archived!",
+    "briefDismiss": "Close",
+    "briefRegenerate": "Re-initiate summary",
+    "copyPrompt": "Duplicate protocol as analysis prompt",
+    "copiedPrompt": "Duplicated!"
   }
 }

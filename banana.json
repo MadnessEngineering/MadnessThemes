@@ -2795,6 +2795,18 @@
     "gate": "Held til gate banana ripens",
     "external": "other tree",
     "criteria": "When the Saga Ripens",
-    "showIn3d": "Swing the saga in 3D"
+    "showIn3d": "Swing the saga in 3D",
+    "briefNoAi": "Wake up magic monkey brain in Settings to peel open a banana peel note",
+    "briefNoTodos": "No banana bunches linked — add bunches to this banana run first",
+    "briefGenerating": "Peeling open…",
+    "briefGenerate": "Peel open magic banana run note",
+    "briefHeader": "Banana Peel Note",
+    "briefCopy": "Grab a bunch copy",
+    "briefSave": "Stash note to banana run",
+    "briefSaved": "Stashed!",
+    "briefDismiss": "Toss",
+    "briefRegenerate": "Re-peel note",
+    "copyPrompt": "Grab banana run as monkey prompt",
+    "copiedPrompt": "Grabbed!"
   }
 }

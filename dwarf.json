@@ -2795,6 +2795,18 @@
     "gate": "Barred — awaits its gate stone",
     "external": "far vein",
     "criteria": "Milestones Worthy of Song",
-    "showIn3d": "See the Saga carved in stone"
+    "showIn3d": "See the Saga carved in stone",
+    "briefNoAi": "Engrave Rune Engine in Settings to smelt a mine report",
+    "briefNoTodos": "No linked ore veins — strike ore veins in this tunnel first",
+    "briefGenerating": "Smelting…",
+    "briefGenerate": "Smelt Rune Tunnel Report",
+    "briefHeader": "Mine Report",
+    "briefCopy": "Chisel report copy",
+    "briefSave": "Engrave report to tunnel",
+    "briefSaved": "Engraved!",
+    "briefDismiss": "Toss aside",
+    "briefRegenerate": "Re-smelt report",
+    "copyPrompt": "Chisel tunnel as draft prompt",
+    "copiedPrompt": "Chiseled!"
   }
 }

@@ -2795,6 +2795,18 @@
     "gate": "Gated — holds for mission clear",
     "external": "off-grid",
     "criteria": "Rules of Engagement",
-    "showIn3d": "Project campaign in 3D"
+    "showIn3d": "Project campaign in 3D",
+    "briefNoAi": "Authorize Tactical AI in Settings to deploy a mission brief",
+    "briefNoTodos": "No active objectives — assign objectives to this mission first",
+    "briefGenerating": "Deploying…",
+    "briefGenerate": "Deploy AI mission brief",
+    "briefHeader": "Mission Brief",
+    "briefCopy": "Duplicate brief",
+    "briefSave": "File brief to mission",
+    "briefSaved": "Filed!",
+    "briefDismiss": "Stand down",
+    "briefRegenerate": "Re-deploy brief",
+    "copyPrompt": "Duplicate mission as targeting prompt",
+    "copiedPrompt": "Duplicated!"
   }
 }
