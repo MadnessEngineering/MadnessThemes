@@ -1,0 +1,35 @@
+{
+  "themeName": "deep-space",
+  "displayName": "Deep Space",
+  "description": "Violet and electric cyan over void black",
+  "icon": "🌌",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#7c4dff",
+    "primaryButton": "#6a3de0",
+    "secondary": "#40c4ff",
+    "success": "#69f0ae",
+    "warning": "#ffab40",
+    "error": "#ff5252",
+    "background": {
+      "main": "#050510",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.02)",
+        "selected": "rgba(124, 77, 255, 0.08)",
+        "hover": "rgba(255, 255, 255, 0.04)"
+      }
+    },
+    "text": {
+      "primary": "#e0e0f0",
+      "secondary": "#a0a0c0",
+      "muted": "#707088"
+    },
+    "border": {
+      "primary": "#7c4dff",
+      "subtle": "rgba(255, 255, 255, 0.06)"
+    },
+    "shadows": {
+      "medium": "rgba(0, 0, 0, 0.5)"
+    }
+  }
+}

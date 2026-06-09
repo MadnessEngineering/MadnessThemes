@@ -1,0 +1,35 @@
+{
+  "themeName": "terminal",
+  "displayName": "Terminal",
+  "description": "Classic phosphor green on pure black",
+  "icon": "🖥️",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#33ff33",
+    "primaryButton": "#1fcc1f",
+    "secondary": "#00cc00",
+    "success": "#33ff33",
+    "warning": "#ffcc00",
+    "error": "#ff3333",
+    "background": {
+      "main": "#000000",
+      "card": {
+        "normal": "rgba(51, 255, 51, 0.03)",
+        "selected": "rgba(51, 255, 51, 0.1)",
+        "hover": "rgba(51, 255, 51, 0.06)"
+      }
+    },
+    "text": {
+      "primary": "#33ff33",
+      "secondary": "#22aa22",
+      "muted": "#157015"
+    },
+    "border": {
+      "primary": "#33ff33",
+      "subtle": "rgba(51, 255, 51, 0.15)"
+    },
+    "shadows": {
+      "medium": "rgba(0, 0, 0, 0.6)"
+    }
+  }
+}

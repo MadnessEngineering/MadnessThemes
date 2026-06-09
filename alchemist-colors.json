@@ -1,0 +1,35 @@
+{
+  "themeName": "alchemist",
+  "displayName": "Alchemist",
+  "description": "Molten gold and ember orange on burnt-umber black",
+  "icon": "⚗️",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#c8860a",
+    "primaryButton": "#a86e08",
+    "secondary": "#ff6b00",
+    "success": "#76b041",
+    "warning": "#ffb300",
+    "error": "#c62828",
+    "background": {
+      "main": "#1a1000",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.02)",
+        "selected": "rgba(200, 134, 10, 0.08)",
+        "hover": "rgba(255, 255, 255, 0.04)"
+      }
+    },
+    "text": {
+      "primary": "#ede0c8",
+      "secondary": "#b8a880",
+      "muted": "#807058"
+    },
+    "border": {
+      "primary": "#c8860a",
+      "subtle": "rgba(255, 255, 255, 0.06)"
+    },
+    "shadows": {
+      "medium": "rgba(0, 0, 0, 0.5)"
+    }
+  }
+}

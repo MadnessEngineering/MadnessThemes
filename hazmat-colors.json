@@ -1,0 +1,35 @@
+{
+  "themeName": "hazmat",
+  "displayName": "Hazmat",
+  "description": "Caution yellow and warning orange on toxic black",
+  "icon": "☢️",
+  "version": "1.0.0",
+  "colors": {
+    "primary": "#ffd600",
+    "primaryButton": "#d6b400",
+    "secondary": "#ff6d00",
+    "success": "#00e676",
+    "warning": "#ffd600",
+    "error": "#dd2c00",
+    "background": {
+      "main": "#0a0800",
+      "card": {
+        "normal": "rgba(255, 255, 255, 0.02)",
+        "selected": "rgba(255, 214, 0, 0.08)",
+        "hover": "rgba(255, 255, 255, 0.04)"
+      }
+    },
+    "text": {
+      "primary": "#ede8c8",
+      "secondary": "#b8b080",
+      "muted": "#807858"
+    },
+    "border": {
+      "primary": "#ffd600",
+      "subtle": "rgba(255, 255, 255, 0.06)"
+    },
+    "shadows": {
+      "medium": "rgba(0, 0, 0, 0.5)"
+    }
+  }
+}
