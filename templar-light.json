@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to load todos",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "moveToPersonalFailed": "The claiming could not be completed"
     },
     "placeholders": {
       "setStatus": "Set status...",
@@ -768,7 +769,8 @@
       "setPriority": "Set priority..."
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes"
+      "unsavedChanges": "You have unsaved changes",
+      "moveToPersonal": "Claim this shared quest as thine own"
     },
     "labels": {
       "readOnly": "🔒 Read-Only",

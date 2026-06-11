@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to summon research tasks",
       "unknownError": "Unknown mystical interference",
-      "malfunctionMessage": "The Laboratory Apparatus encountered mystical interference. Please try refreshing the mystical connection or check your ethereal network."
+      "malfunctionMessage": "The Laboratory Apparatus encountered mystical interference. Please try refreshing the mystical connection or check your ethereal network.",
+      "moveToPersonalFailed": "The claiming ritual fizzled"
     },
     "placeholders": {
       "setStatus": "Set research phase...",
@@ -768,7 +769,8 @@
       "setPriority": "Set mystical urgency..."
     },
     "tooltip": {
-      "unsavedChanges": "Mystical modifications await archiving"
+      "unsavedChanges": "Mystical modifications await archiving",
+      "moveToPersonal": "Claim this shared artifact into thy personal grimoire"
     },
     "labels": {
       "readOnly": "🔒 Observatory Mode",

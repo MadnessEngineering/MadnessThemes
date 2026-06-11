@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to retrieve mining tasks",
       "unknownError": "Unknown cave collapse",
-      "malfunctionMessage": "The Mining Apparatus encountered a cave collapse. Please try refreshing the ore connection or check yer underground network."
+      "malfunctionMessage": "The Mining Apparatus encountered a cave collapse. Please try refreshing the ore connection or check yer underground network.",
+      "moveToPersonalFailed": "The claim failed, by me beard!"
     },
     "placeholders": {
       "setStatus": "Set mining phase...",
@@ -768,7 +769,8 @@
       "setPriority": "Set dig urgency..."
     },
     "tooltip": {
-      "unsavedChanges": "Ore modifications await chiseling"
+      "unsavedChanges": "Ore modifications await chiseling",
+      "moveToPersonal": "Claim this shared task fer yer own hoard"
     },
     "labels": {
       "readOnly": "🔒 Stone Reader Mode",

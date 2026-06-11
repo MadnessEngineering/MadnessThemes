@@ -693,7 +693,8 @@
     "error": {
       "failedToLoad": "Failed to load task data.",
       "unknownError": "Unknown system error.",
-      "malfunctionMessage": "The Task Management System encountered an error. Please try refreshing the interface or check your network connection."
+      "malfunctionMessage": "The Task Management System encountered an error. Please try refreshing the interface or check your network connection.",
+      "moveToPersonalFailed": "Ownership transfer failed — please escalate"
     },
     "placeholders": {
       "setStatus": "Update task status...",
@@ -702,7 +703,8 @@
       "setPriority": "Set business priority..."
     },
     "tooltip": {
-      "unsavedChanges": "Pending operational modifications require action."
+      "unsavedChanges": "Pending operational modifications require action.",
+      "moveToPersonal": "Reassign this shared deliverable to your personal backlog"
     },
     "labels": {
       "readOnly": "🔒 Read-Only Access",

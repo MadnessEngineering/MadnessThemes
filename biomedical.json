@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to load assays",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "moveToPersonalFailed": "Specimen transfer to personal lab failed"
     },
     "placeholders": {
       "setStatus": "Set status...",
@@ -768,7 +769,8 @@
       "setPriority": "Set priority..."
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes"
+      "unsavedChanges": "You have unsaved changes",
+      "moveToPersonal": "Transfer this shared specimen to your personal lab"
     },
     "labels": {
       "readOnly": "🔒 Read-Only",

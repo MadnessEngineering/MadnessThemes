@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "todoList.error.failedToLoad",
       "unknownError": "todoList.error.unknownError",
-      "malfunctionMessage": "todoList.error.malfunctionMessage"
+      "malfunctionMessage": "todoList.error.malfunctionMessage",
+      "moveToPersonalFailed": "todoList.error.moveToPersonalFailed"
     },
     "placeholders": {
       "setStatus": "todoList.placeholders.setStatus",
@@ -768,7 +769,8 @@
       "setPriority": "todoList.placeholders.setPriority"
     },
     "tooltip": {
-      "unsavedChanges": "todoList.tooltip.unsavedChanges"
+      "unsavedChanges": "todoList.tooltip.unsavedChanges",
+      "moveToPersonal": "todoList.tooltip.moveToPersonal"
     },
     "labels": {
       "readOnly": "todoList.labels.readOnly",

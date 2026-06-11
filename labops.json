@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to load todos",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "moveToPersonalFailed": "Personal transfer op failed"
     },
     "placeholders": {
       "setStatus": "Set status...",
@@ -768,7 +769,8 @@
       "setPriority": "Set priority..."
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes"
+      "unsavedChanges": "You have unsaved changes",
+      "moveToPersonal": "Claim shared task into your personal ops queue"
     },
     "labels": {
       "readOnly": "🔒 Read-Only",

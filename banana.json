@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to retrieve swing tasks",
       "unknownError": "Unknown tree collapse",
-      "malfunctionMessage": "The Jungle Apparatus encountered a branch snap. Please try refreshing the vine connection or check your canopy network."
+      "malfunctionMessage": "The Jungle Apparatus encountered a branch snap. Please try refreshing the vine connection or check your canopy network.",
+      "moveToPersonalFailed": "Slipped! Couldn't move todo to personal"
     },
     "placeholders": {
       "setStatus": "Set climbing phase...",
@@ -768,7 +769,8 @@
       "setPriority": "Set swing urgency..."
     },
     "tooltip": {
-      "unsavedChanges": "Banana modifications await stashing"
+      "unsavedChanges": "Banana modifications await stashing",
+      "moveToPersonal": "Peel this shared todo into your personal bunch"
     },
     "labels": {
       "readOnly": "🔒 Monkey See Mode",

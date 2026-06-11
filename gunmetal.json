@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to load mission data",
       "unknownError": "System error",
-      "malfunctionMessage": "Mobile suit systems encountered critical error. Rescan or check network link."
+      "malfunctionMessage": "Mobile suit systems encountered critical error. Rescan or check network link.",
+      "moveToPersonalFailed": "Move to personal failed"
     },
     "placeholders": {
       "setStatus": "Set mission status...",
@@ -768,7 +769,8 @@
       "setPriority": "Set combat priority..."
     },
     "tooltip": {
-      "unsavedChanges": "Unsaved tactical data"
+      "unsavedChanges": "Unsaved tactical data",
+      "moveToPersonal": "Claim shared task to personal"
     },
     "labels": {
       "readOnly": "🔒 Locked",

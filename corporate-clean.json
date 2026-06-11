@@ -759,7 +759,8 @@
     "error": {
       "failedToLoad": "Failed to load todos",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection."
+      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "moveToPersonalFailed": "Could not move task to your personal list"
     },
     "placeholders": {
       "setStatus": "Set status...",
@@ -768,7 +769,8 @@
       "setPriority": "Set priority..."
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes"
+      "unsavedChanges": "You have unsaved changes",
+      "moveToPersonal": "Move this shared task to your personal list"
     },
     "labels": {
       "readOnly": "🔒 Read-Only",
