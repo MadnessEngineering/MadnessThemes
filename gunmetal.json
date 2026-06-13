@@ -2809,6 +2809,8 @@
     "briefDismiss": "Stand down",
     "briefRegenerate": "Re-deploy brief",
     "copyPrompt": "Duplicate mission as targeting prompt",
-    "copiedPrompt": "Duplicated!"
+    "copiedPrompt": "Duplicated!",
+    "showCompleted": "Show completed ops",
+    "hideCompleted": "Hide completed ops"
   }
 }

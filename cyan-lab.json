@@ -2809,6 +2809,8 @@
     "briefDismiss": "Close",
     "briefRegenerate": "Recompile summary",
     "copyPrompt": "Clone project node as compiler prompt",
-    "copiedPrompt": "Cloned!"
+    "copiedPrompt": "Cloned!",
+    "showCompleted": "Show finished runs",
+    "hideCompleted": "Hide finished runs"
   }
 }

@@ -2809,6 +2809,8 @@
     "briefDismiss": "Close",
     "briefRegenerate": "Re-initiate summary",
     "copyPrompt": "Duplicate protocol as analysis prompt",
-    "copiedPrompt": "Duplicated!"
+    "copiedPrompt": "Duplicated!",
+    "showCompleted": "Show completed trials",
+    "hideCompleted": "Hide completed trials"
   }
 }

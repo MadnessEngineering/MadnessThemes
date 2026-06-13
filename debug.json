@@ -2789,6 +2789,8 @@
     "briefDismiss": "questCard.briefDismiss",
     "briefRegenerate": "questCard.briefRegenerate",
     "copyPrompt": "questCard.copyPrompt",
-    "copiedPrompt": "questCard.copiedPrompt"
+    "copiedPrompt": "questCard.copiedPrompt",
+    "showCompleted": "questCard.showCompleted",
+    "hideCompleted": "questCard.hideCompleted"
   }
 }

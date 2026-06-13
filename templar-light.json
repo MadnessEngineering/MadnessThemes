@@ -2809,6 +2809,8 @@
     "briefDismiss": "Release",
     "briefRegenerate": "Reinvoke brief",
     "copyPrompt": "Transcribe crusade as sacred prompt",
-    "copiedPrompt": "Transcribed!"
+    "copiedPrompt": "Transcribed!",
+    "showCompleted": "Show finished crusades",
+    "hideCompleted": "Hide finished crusades"
   }
 }

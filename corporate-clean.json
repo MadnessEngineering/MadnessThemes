@@ -2809,6 +2809,8 @@
     "briefDismiss": "Dismiss",
     "briefRegenerate": "Regenerate Brief",
     "copyPrompt": "Copy Quest Details as AI Prompt",
-    "copiedPrompt": "Copied successfully"
+    "copiedPrompt": "Copied successfully",
+    "showCompleted": "Show completed",
+    "hideCompleted": "Hide completed"
   }
 }

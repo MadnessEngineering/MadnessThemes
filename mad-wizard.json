@@ -2809,6 +2809,8 @@
     "briefDismiss": "Banish",
     "briefRegenerate": "Re-summon scroll",
     "copyPrompt": "Transcribe experiment as ritual prompt",
-    "copiedPrompt": "Transcribed!"
+    "copiedPrompt": "Transcribed!",
+    "showCompleted": "Reveal completed experiments",
+    "hideCompleted": "Conceal completed experiments"
   }
 }

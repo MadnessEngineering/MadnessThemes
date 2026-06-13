@@ -2809,6 +2809,8 @@
     "briefDismiss": "Dismiss",
     "briefRegenerate": "Regenerate brief",
     "copyPrompt": "Copy quest as prompt",
-    "copiedPrompt": "Copied!"
+    "copiedPrompt": "Copied!",
+    "showCompleted": "Show completed",
+    "hideCompleted": "Hide completed"
   }
 }

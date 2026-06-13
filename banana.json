@@ -2809,6 +2809,8 @@
     "briefDismiss": "Toss",
     "briefRegenerate": "Re-peel note",
     "copyPrompt": "Grab banana run as monkey prompt",
-    "copiedPrompt": "Grabbed!"
+    "copiedPrompt": "Grabbed!",
+    "showCompleted": "Reveal eaten bananas",
+    "hideCompleted": "Hide eaten bananas"
   }
 }

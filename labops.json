@@ -2809,6 +2809,8 @@
     "briefDismiss": "Dismiss",
     "briefRegenerate": "Regenerate summary",
     "copyPrompt": "Copy operation as reference prompt",
-    "copiedPrompt": "Copied!"
+    "copiedPrompt": "Copied!",
+    "showCompleted": "Show completed studies",
+    "hideCompleted": "Hide completed studies"
   }
 }

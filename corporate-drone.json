@@ -2809,6 +2809,8 @@
     "briefDismiss": "Close",
     "briefRegenerate": "Re-run summary",
     "copyPrompt": "Duplicate initiative as prompt",
-    "copiedPrompt": "Duplicated!"
+    "copiedPrompt": "Duplicated!",
+    "showCompleted": "Surface Finalized Initiatives",
+    "hideCompleted": "Conceal Finalized Initiatives"
   }
 }

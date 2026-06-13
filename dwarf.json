@@ -2809,6 +2809,8 @@
     "briefDismiss": "Toss aside",
     "briefRegenerate": "Re-smelt report",
     "copyPrompt": "Chisel tunnel as draft prompt",
-    "copiedPrompt": "Chiseled!"
+    "copiedPrompt": "Chiseled!",
+    "showCompleted": "Show finished digs",
+    "hideCompleted": "Hide finished digs"
   }
 }
