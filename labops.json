@@ -460,7 +460,8 @@
       "selectTodosFirst": "Identify assets first",
       "aiSuggest": "Inventory Intelligence",
       "aiSuggesting": "Optimizing..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Logout",
-    "support": "Operations Support"
+    "support": "Operations Support",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧪 Lab analysis complete. Review enhanced protocol notes.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -870,7 +874,8 @@
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
       "support": "Ops Help",
-      "hooks": "Lab Automation Hooks"
+      "hooks": "Lab Automation Hooks",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1036,7 +1041,10 @@
       "aiEnhanced": "🧠 AI Enhanced Description:",
       "completionNotes": "✅ Completion Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1059,6 +1067,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Execute post-hoc normalization on all protocol tags — standardizes casing, maps retired callsigns to canonical tags, and purges duplicates.",
       "runNow": "Initiate Normalization",
       "running": "Standardizing Signals...",
-      "lastRun": "Last operational cycle"
+      "lastRun": "Last operational cycle",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

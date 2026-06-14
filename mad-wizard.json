@@ -460,7 +460,8 @@
       "selectTodosFirst": "Bind specimens first",
       "aiSuggest": "Divination Sigils",
       "aiSuggesting": "Divining..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Observatory Mode"
@@ -472,7 +473,8 @@
     "github": "Source Archive",
     "themeGallery": "Arcane Palette",
     "logout": "Exit Laboratory",
-    "support": "Contact the Oracle"
+    "support": "Contact the Oracle",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Mystical insights channeled! Review the enhanced research notes.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination apparatus",
       "cancel": "Abandon Experiment",
       "deleteButton": "Banish Apparatus"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "Brewing",
       "completed": "Sealed",
       "initial": "Conjured",
-      "blocked": "Contained"
+      "blocked": "Contained",
+      "review": "Review"
     },
     "fields": {
       "id": "Research ID",
@@ -899,7 +903,8 @@
       "advanced": "Advanced Mystical Controls",
       "npcAgents": "Ethereal Familiars",
       "swarmDesk": "Velocity Calibration Chamber",
-      "support": "Oracle"
+      "support": "Oracle",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Ethereal Drift Calibration",
@@ -1065,7 +1070,10 @@
       "aiEnhanced": "🔮 Mystically Enhanced Description:",
       "completionNotes": "✨ Manifestation Notes:",
       "completed": "Sealed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Whispered",
@@ -1088,6 +1096,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No ethereal wisdom yet. Invoke the mystical enhancement to reveal deeper insights."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Purify all arcane rune-tags — transmutes retired sigils to canonical glyphs, enforces lowercase incantation, and banishes duplicates.",
       "runNow": "Invoke Ritual",
       "running": "Purifying runes...",
-      "lastRun": "Last invocation"
+      "lastRun": "Last invocation",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

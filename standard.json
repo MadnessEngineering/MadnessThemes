@@ -460,7 +460,8 @@
       "selectTodosFirst": "Select todos first",
       "aiSuggest": "AI Suggest Tags",
       "aiSuggesting": "Suggesting..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "support": "Contact Support",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
-    "logout": "Logout"
+    "logout": "Logout",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI insights generated! Check the enhanced description.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -899,7 +903,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Support"
+      "support": "Support",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1065,7 +1070,10 @@
       "aiEnhanced": "🧠 AI Enhanced Description:",
       "completionNotes": "✅ Completion Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1088,6 +1096,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Run post-hoc normalization on all todo tags — lowercases, maps retired aliases to canonical tags, and deduplicates.",
       "runNow": "Run Now",
       "running": "Normalizing...",
-      "lastRun": "Last run"
+      "lastRun": "Last run",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

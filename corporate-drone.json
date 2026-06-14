@@ -394,7 +394,8 @@
       "selectTodosFirst": "Identify assets first",
       "aiSuggest": "Auto-Categorize",
       "aiSuggesting": "Processing..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Evaluation Mode"
@@ -406,7 +407,8 @@
     "github": "Source Repository",
     "themeGallery": "Brand Assets Portal",
     "logout": "Sign Out",
-    "support": "Escalate Ticket"
+    "support": "Escalate Ticket",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI insights generated! Review the enhanced analysis report.",
@@ -463,7 +465,8 @@
       "selectDestination": "Select destination initiative",
       "cancel": "Cancel",
       "deleteButton": "Retire Initiative"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -655,7 +658,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "Task ID",
@@ -833,7 +837,8 @@
       "advanced": "Advanced System Settings",
       "npcAgents": "Automated Personnel",
       "swarmDesk": "SwarmDesk Controls",
-      "support": "Escalation"
+      "support": "Escalation",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Navigation Speed Optimization",
@@ -999,7 +1004,10 @@
       "aiEnhanced": "🤖 AI-Enhanced Task Description:",
       "completionNotes": "✅ Delivery Documentation:",
       "completed": "Delivered",
-      "duration": "Time Investment"
+      "duration": "Time Investment",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Standard",
@@ -1022,6 +1030,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No AI enhancements yet. Click the AI button to generate enhanced specifications for optimal productivity."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Execute tag normalization across all task records — enforces naming conventions, resolves deprecated labels, removes redundancies.",
       "runNow": "Execute Audit",
       "running": "Processing compliance...",
-      "lastRun": "Last audit"
+      "lastRun": "Last audit",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

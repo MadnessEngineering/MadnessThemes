@@ -460,7 +460,8 @@
       "selectTodosFirst": "Grab some bananas first",
       "aiSuggest": "Monkey Brain Suggest",
       "aiSuggesting": "Monkey thinking..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Monkey See Mode"
@@ -472,7 +473,8 @@
     "logout": "Exit Tree",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management",
-    "support": "Call the Big Banana"
+    "support": "Call the Big Banana",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Primate insights harvested! Review the enhanced jungle notes.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "Branch ID",
@@ -870,7 +874,8 @@
       "npcAgents": "Primate Personas",
       "swarmDesk": "SwarmDesk",
       "support": "Help-nana",
-      "hooks": "Jungle Automation Vines"
+      "hooks": "Jungle Automation Vines",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -980,7 +985,10 @@
       "aiEnhanced": "🍌 Primate Enhanced Description:",
       "completionNotes": "✨ Harvest Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Leisurely",
@@ -1006,6 +1014,9 @@
     },
     "sections": {
       "metadata": "Metadata (Optional)"
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Clean up all those messy vine tags — fixes monkey typos, points old fruit to the fresh bunch, and tosses the double bananas.",
       "runNow": "Straighten Now!",
       "running": "Squashing the mushy ones...",
-      "lastRun": "Last harvest cleanup"
+      "lastRun": "Last harvest cleanup",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

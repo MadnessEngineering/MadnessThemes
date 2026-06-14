@@ -460,7 +460,8 @@
       "selectTodosFirst": "error: select_nodes_first",
       "aiSuggest": "ai.suggest_tags()",
       "aiSuggesting": "ai.running..."
-    }
+    },
+    "sessionResolved": "labMaintenance.sessionResolved"
   },
   "demo": {
     "label": "demo.label"
@@ -472,7 +473,8 @@
     "github": "menu.github",
     "themeGallery": "menu.themeGallery",
     "logout": "menu.logout",
-    "support": "menu.support"
+    "support": "menu.support",
+    "lessonRefiner": "menu.lessonRefiner"
   },
   "notifications": {
     "aiInsightsGenerated": "notifications.aiInsightsGenerated",
@@ -529,7 +531,8 @@
       "selectDestination": "projectNavigator.deleteDialog.selectDestination",
       "cancel": "projectNavigator.deleteDialog.cancel",
       "deleteButton": "projectNavigator.deleteDialog.deleteButton"
-    }
+    },
+    "viewInSwarmDesk": "projectNavigator.viewInSwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "projectSwarmdesk.title",
@@ -721,7 +724,8 @@
       "in_progress": "todoList.status.in_progress",
       "completed": "todoList.status.completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "todoList.status.review"
     },
     "fields": {
       "id": "todoList.fields.id",
@@ -899,7 +903,8 @@
       "swarmDesk": "settings.tabs.swarmDesk",
       "messaging": "Messaging",
       "umlData": "Code Visualizations",
-      "support": "settings.tabs.support"
+      "support": "settings.tabs.support",
+      "keyboardShortcuts": "settings.tabs.keyboardShortcuts"
     },
     "swarmdesk": {
       "movementTitle": "settings.swarmdesk.movementTitle",
@@ -1012,7 +1017,10 @@
       "aiEnhanced": "editableTodoCard.labels.aiEnhanced",
       "completionNotes": "editableTodoCard.labels.completionNotes",
       "completed": "editableTodoCard.labels.completed",
-      "duration": "editableTodoCard.labels.duration"
+      "duration": "editableTodoCard.labels.duration",
+      "autoEnhanceOnSave": "editableTodoCard.labels.autoEnhanceOnSave",
+      "enhance": "editableTodoCard.labels.enhance",
+      "enhancing": "editableTodoCard.labels.enhancing"
     },
     "priority": {
       "low": "editableTodoCard.priority.low",
@@ -1035,6 +1043,9 @@
     },
     "messages": {
       "noEnhancedDescription": "editableTodoCard.messages.noEnhancedDescription"
+    },
+    "tooltips": {
+      "enhance": "editableTodoCard.tooltips.enhance"
     }
   },
   "mindMap": {
@@ -2517,7 +2528,9 @@
       "description": "automationRecipes.tagNormalization.description",
       "runNow": "automationRecipes.tagNormalization.runNow",
       "running": "automationRecipes.tagNormalization.running",
-      "lastRun": "automationRecipes.tagNormalization.lastRun"
+      "lastRun": "automationRecipes.tagNormalization.lastRun",
+      "scanned": "automationRecipes.tagNormalization.scanned",
+      "modified": "automationRecipes.tagNormalization.modified"
     }
   },
   "constellation": {

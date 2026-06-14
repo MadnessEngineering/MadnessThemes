@@ -249,7 +249,8 @@
       "initial": "Initial",
       "in_progress": "In Progress",
       "completed": "Completed",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "actions": {
       "markComplete": "Mark Complete",
@@ -664,7 +665,8 @@
       "npcAgents": "NPC Personnel",
       "swarmDesk": "SwarmDesk",
       "support": "Uplink",
-      "hooks": "Automation Protocols"
+      "hooks": "Automation Protocols",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1319,7 +1321,8 @@
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Logout",
-    "support": "Uplink Support"
+    "support": "Uplink Support",
+    "lessonRefiner": "Lesson Refiner"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -1619,7 +1622,10 @@
       "aiEnhanced": "🧠 AI Augmented Description:",
       "completionNotes": "✅ Completion Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1642,6 +1648,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No augmented description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "forms": {
@@ -1912,7 +1921,8 @@
       "selectTodosFirst": "Target nodes first",
       "aiSuggest": "Neural Suggestion",
       "aiSuggesting": "Calculating..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "projectNavigator": {
     "title": "🚀 PROJECT NAVIGATOR",
@@ -1955,7 +1965,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectTab": {
     "title": "Project Configuration",
@@ -2537,7 +2548,9 @@
       "description": "Perform matrix-wide tag normalization — standardizes syntax, resolves legacy aliases to active nodes, and optimizes registry.",
       "runNow": "Execute Sync",
       "running": "Optimizing Matrix...",
-      "lastRun": "Last data sync"
+      "lastRun": "Last data sync",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

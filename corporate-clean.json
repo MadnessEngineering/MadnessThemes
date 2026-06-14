@@ -460,7 +460,8 @@
       "selectTodosFirst": "Select entries first",
       "aiSuggest": "Smart Suggestions",
       "aiSuggesting": "Generating..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Logout",
-    "support": "Help Center"
+    "support": "Help Center",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI insights generated. Review the enhanced description.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -870,7 +874,8 @@
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
       "support": "Help",
-      "hooks": "Automation Hooks"
+      "hooks": "Automation Hooks",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1036,7 +1041,10 @@
       "aiEnhanced": "🧠 AI Enhanced Description:",
       "completionNotes": "✅ Completion Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1059,6 +1067,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Execute post-hoc normalization across all initiative tags — standardizes formatting, reconciles retired aliases with canonical labels, and eliminates redundancies.",
       "runNow": "Execute Now",
       "running": "Normalizing Tags...",
-      "lastRun": "Last audit"
+      "lastRun": "Last audit",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

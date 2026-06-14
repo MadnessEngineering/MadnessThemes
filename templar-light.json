@@ -460,7 +460,8 @@
       "selectTodosFirst": "Choose souls first",
       "aiSuggest": "Divine Insight",
       "aiSuggesting": "Seeking guidance..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "github": "GitHub",
     "themeGallery": "Sacred Vestments",
     "logout": "Logout",
-    "support": "Seek the High Priest"
+    "support": "Seek the High Priest",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "📜 The Oracle has spoken! Review the divine insights.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -870,7 +874,8 @@
       "advanced": "Advanced",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
-      "support": "Sanctuary"
+      "support": "Sanctuary",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1036,7 +1041,10 @@
       "aiEnhanced": "🧠 AI Enhanced Description:",
       "completionNotes": "✅ Completion Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1059,6 +1067,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Perform a rite of alignment upon all sacred sigils — standardizes the script, maps forgotten titles to canonical virtues, and purges the redundant.",
       "runNow": "Align Sigils",
       "running": "Communing with the Oracle...",
-      "lastRun": "Last holy alignment"
+      "lastRun": "Last holy alignment",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

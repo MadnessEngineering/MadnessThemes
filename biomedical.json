@@ -460,7 +460,8 @@
       "selectTodosFirst": "Isolate specimens first",
       "aiSuggest": "Sequence Analysis",
       "aiSuggesting": "Analyzing..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "logout": "Logout",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management",
-    "support": "Consult Principal Investigator"
+    "support": "Consult Principal Investigator",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI analysis generated! Check the enhanced description.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Validated",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -870,7 +874,8 @@
       "umlData": "Code Visualizations",
       "npcAgents": "Research Assistants",
       "swarmDesk": "SwarmDesk",
-      "support": "Consultation"
+      "support": "Consultation",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -983,7 +988,10 @@
       "aiEnhanced": "🧠 AI Analyzed Description:",
       "completionNotes": "✅ Validation Notes:",
       "completed": "Validated",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Low",
@@ -1006,6 +1014,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No analyzed description yet. Click the AI button to generate one."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Perform retrospective normalization on all diagnostic markers — standardizes nomenclature, maps legacy codes to canonical biomarkers, and resolves overlaps.",
       "runNow": "Process Markers",
       "running": "Standardizing Samples...",
-      "lastRun": "Last pathology sweep"
+      "lastRun": "Last pathology sweep",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

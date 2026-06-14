@@ -460,7 +460,8 @@
       "selectTodosFirst": "Mine the rocks first",
       "aiSuggest": "Rune Guidance",
       "aiSuggesting": "Consulting the stone..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Stone Reader Mode"
@@ -472,7 +473,8 @@
     "logout": "Exit Mine",
     "replayTutorial": "Replay Tutorial",
     "userManagement": "User Management",
-    "support": "Call the Overseer"
+    "support": "Call the Overseer",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 Stonecraft insights unearthed! Review the enhanced mining notes.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination quarry",
       "cancel": "Cave-In",
       "deleteButton": "Seal the Quarry"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "Claim ID",
@@ -870,7 +874,8 @@
       "npcAgents": "Clan Kin",
       "swarmDesk": "SwarmDesk",
       "support": "Overseer",
-      "hooks": "Forge Automation Runes"
+      "hooks": "Forge Automation Runes",
+      "keyboardShortcuts": "Shortcuts"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -980,7 +985,10 @@
       "aiEnhanced": "⛏️ Stonecraft Enhanced Description:",
       "completionNotes": "✨ Extraction Notes:",
       "completed": "Completed",
-      "duration": "Duration"
+      "duration": "Duration",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Whispered",
@@ -1006,6 +1014,9 @@
     },
     "sections": {
       "metadata": "Metadata (Optional)"
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Scrub the soot off yer carved runes — fixes the chisel marks, maps old ore names to the proper veins, and clears out the rubble.",
       "runNow": "Refine Runes",
       "running": "Polishing the gems...",
-      "lastRun": "Last shift's refinement"
+      "lastRun": "Last shift's refinement",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {

@@ -460,7 +460,8 @@
       "selectTodosFirst": "Lock targets first",
       "aiSuggest": "Tactical Analysis",
       "aiSuggesting": "Targeting..."
-    }
+    },
+    "sessionResolved": "resolved this session"
   },
   "demo": {
     "label": "DEMO - Read Only"
@@ -472,7 +473,8 @@
     "themeGallery": "Theme Gallery",
     "logout": "Logout",
     "userManagement": "User Management",
-    "support": "Comms Link"
+    "support": "Comms Link",
+    "lessonRefiner": "Lesson Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧠 AI tactical analysis complete! Check enhanced mission brief.",
@@ -529,7 +531,8 @@
       "selectDestination": "Select destination project",
       "cancel": "Cancel",
       "deleteButton": "Delete Project"
-    }
+    },
+    "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🎪 {{projectName}}",
@@ -721,7 +724,8 @@
       "in_progress": "In Progress",
       "completed": "Completed",
       "initial": "Initial",
-      "blocked": "Blocked"
+      "blocked": "Blocked",
+      "review": "Review"
     },
     "fields": {
       "id": "ID",
@@ -870,7 +874,8 @@
       "npcAgents": "Tactical AI",
       "swarmDesk": "SwarmDesk",
       "support": "Comms",
-      "hooks": "Combat Automation Routines"
+      "hooks": "Combat Automation Routines",
+      "keyboardShortcuts": "Shortcuts"
     },
     "messaging": {
       "title": "Message Roles Configuration",
@@ -1036,7 +1041,10 @@
       "aiEnhanced": "🧠 AI Tactical Analysis:",
       "completionNotes": "✅ Mission Debrief:",
       "completed": "Mission Complete",
-      "duration": "Deployment Time"
+      "duration": "Deployment Time",
+      "autoEnhanceOnSave": "Auto-enhance on save",
+      "enhance": "Enhance",
+      "enhancing": "Enhancing..."
     },
     "priority": {
       "low": "Patrol",
@@ -1059,6 +1067,9 @@
     },
     "messages": {
       "noEnhancedDescription": "No tactical analysis yet. Use AI to generate combat insights."
+    },
+    "tooltips": {
+      "enhance": "AI enhances description, suggests tags and complexity"
     }
   },
   "mindMap": {
@@ -2537,7 +2548,9 @@
       "description": "Perform deep normalization on all objective tags — standardizes casing, re-maps retired unit designations, and clears redundancies.",
       "runNow": "Start Indexing",
       "running": "Re-indexing Arsenal...",
-      "lastRun": "Last inventory scan"
+      "lastRun": "Last inventory scan",
+      "scanned": "Scanned",
+      "modified": "Modified"
     }
   },
   "constellation": {
