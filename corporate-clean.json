@@ -2811,6 +2811,22 @@
     "copyPrompt": "Copy Quest Details as AI Prompt",
     "copiedPrompt": "Copied successfully",
     "showCompleted": "Show completed",
-    "hideCompleted": "Hide completed"
+    "hideCompleted": "Hide completed",
+    "copyId": "Copy Initiative ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Initiative",
+    "delete": "Delete Initiative",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Initiative name",
+    "nameRequired": "Initiative name is required",
+    "descPlaceholder": "Initiative description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Initiative filter:",
+    "emptyFilter": "No initiatives match the current filter",
+    "emptyQuestFilter": "No todos found in this initiative"
   }
 }

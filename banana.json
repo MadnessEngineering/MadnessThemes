@@ -2811,6 +2811,22 @@
     "copyPrompt": "Grab banana run as monkey prompt",
     "copiedPrompt": "Grabbed!",
     "showCompleted": "Reveal eaten bananas",
-    "hideCompleted": "Hide eaten bananas"
+    "hideCompleted": "Hide eaten bananas",
+    "copyId": "Copy Saga ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Saga",
+    "delete": "Delete Saga",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Saga name",
+    "nameRequired": "Saga name is required",
+    "descPlaceholder": "Saga description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Saga filter:",
+    "emptyFilter": "No sagas match the current filter",
+    "emptyQuestFilter": "No todos found in this saga"
   }
 }

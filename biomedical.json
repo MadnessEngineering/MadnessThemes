@@ -2811,6 +2811,22 @@
     "copyPrompt": "Duplicate protocol as analysis prompt",
     "copiedPrompt": "Duplicated!",
     "showCompleted": "Show completed trials",
-    "hideCompleted": "Hide completed trials"
+    "hideCompleted": "Hide completed trials",
+    "copyId": "Copy Trial ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Trial",
+    "delete": "Delete Trial",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Trial name",
+    "nameRequired": "Trial name is required",
+    "descPlaceholder": "Trial description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Trial filter:",
+    "emptyFilter": "No trials match the current filter",
+    "emptyQuestFilter": "No todos found in this trial"
   }
 }

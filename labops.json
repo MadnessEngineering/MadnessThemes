@@ -2811,6 +2811,22 @@
     "copyPrompt": "Copy operation as reference prompt",
     "copiedPrompt": "Copied!",
     "showCompleted": "Show completed studies",
-    "hideCompleted": "Hide completed studies"
+    "hideCompleted": "Hide completed studies",
+    "copyId": "Copy Study ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Study",
+    "delete": "Delete Study",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Study name",
+    "nameRequired": "Study name is required",
+    "descPlaceholder": "Study description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Study filter:",
+    "emptyFilter": "No studies match the current filter",
+    "emptyQuestFilter": "No todos found in this study"
   }
 }

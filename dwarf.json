@@ -2811,6 +2811,22 @@
     "copyPrompt": "Chisel tunnel as draft prompt",
     "copiedPrompt": "Chiseled!",
     "showCompleted": "Show finished digs",
-    "hideCompleted": "Hide finished digs"
+    "hideCompleted": "Hide finished digs",
+    "copyId": "Copy Saga ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Saga",
+    "delete": "Delete Saga",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Saga name",
+    "nameRequired": "Saga name is required",
+    "descPlaceholder": "Saga description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Saga filter:",
+    "emptyFilter": "No sagas match the current filter",
+    "emptyQuestFilter": "No todos found in this saga"
   }
 }

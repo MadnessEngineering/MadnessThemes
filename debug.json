@@ -2791,6 +2791,22 @@
     "copyPrompt": "questCard.copyPrompt",
     "copiedPrompt": "questCard.copiedPrompt",
     "showCompleted": "questCard.showCompleted",
-    "hideCompleted": "questCard.hideCompleted"
+    "hideCompleted": "questCard.hideCompleted",
+    "copyId": "questCard.copyId",
+    "copiedId": "questCard.copiedId",
+    "edit": "questCard.edit",
+    "delete": "questCard.delete",
+    "deleteFailed": "questCard.deleteFailed",
+    "save": "questCard.save",
+    "saveFailed": "questCard.saveFailed",
+    "cancel": "questCard.cancel",
+    "namePlaceholder": "questCard.namePlaceholder",
+    "nameRequired": "questCard.nameRequired",
+    "descPlaceholder": "questCard.descPlaceholder",
+    "project": "questCard.project",
+    "projectRequired": "questCard.projectRequired",
+    "filterActive": "questCard.filterActive",
+    "emptyFilter": "questCard.emptyFilter",
+    "emptyQuestFilter": "questCard.emptyQuestFilter"
   }
 }

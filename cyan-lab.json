@@ -2811,6 +2811,22 @@
     "copyPrompt": "Clone project node as compiler prompt",
     "copiedPrompt": "Cloned!",
     "showCompleted": "Show finished runs",
-    "hideCompleted": "Hide finished runs"
+    "hideCompleted": "Hide finished runs",
+    "copyId": "Copy Expedition ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Expedition",
+    "delete": "Delete Expedition",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Expedition name",
+    "nameRequired": "Expedition name is required",
+    "descPlaceholder": "Expedition description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Expedition filter:",
+    "emptyFilter": "No expeditions match the current filter",
+    "emptyQuestFilter": "No todos found in this expedition"
   }
 }

@@ -2811,6 +2811,22 @@
     "copyPrompt": "Copy quest as prompt",
     "copiedPrompt": "Copied!",
     "showCompleted": "Show completed",
-    "hideCompleted": "Hide completed"
+    "hideCompleted": "Hide completed",
+    "copyId": "Copy Quest ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Quest",
+    "delete": "Delete Quest",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Quest name",
+    "nameRequired": "Quest name is required",
+    "descPlaceholder": "Quest description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Quest filter:",
+    "emptyFilter": "No quests match the current filter",
+    "emptyQuestFilter": "No todos found in this quest"
   }
 }

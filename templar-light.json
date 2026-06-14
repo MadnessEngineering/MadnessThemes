@@ -2811,6 +2811,22 @@
     "copyPrompt": "Transcribe crusade as sacred prompt",
     "copiedPrompt": "Transcribed!",
     "showCompleted": "Show finished crusades",
-    "hideCompleted": "Hide finished crusades"
+    "hideCompleted": "Hide finished crusades",
+    "copyId": "Copy Crusade ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Crusade",
+    "delete": "Delete Crusade",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Crusade name",
+    "nameRequired": "Crusade name is required",
+    "descPlaceholder": "Crusade description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Crusade filter:",
+    "emptyFilter": "No crusades match the current filter",
+    "emptyQuestFilter": "No todos found in this crusade"
   }
 }

@@ -2811,6 +2811,22 @@
     "copyPrompt": "Transcribe experiment as ritual prompt",
     "copiedPrompt": "Transcribed!",
     "showCompleted": "Reveal completed experiments",
-    "hideCompleted": "Conceal completed experiments"
+    "hideCompleted": "Conceal completed experiments",
+    "copyId": "Copy Experiment ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Experiment",
+    "delete": "Delete Experiment",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Experiment name",
+    "nameRequired": "Experiment name is required",
+    "descPlaceholder": "Experiment description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Experiment filter:",
+    "emptyFilter": "No experiments match the current filter",
+    "emptyQuestFilter": "No todos found in this experiment"
   }
 }

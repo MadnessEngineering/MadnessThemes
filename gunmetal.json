@@ -2811,6 +2811,22 @@
     "copyPrompt": "Duplicate mission as targeting prompt",
     "copiedPrompt": "Duplicated!",
     "showCompleted": "Show completed ops",
-    "hideCompleted": "Hide completed ops"
+    "hideCompleted": "Hide completed ops",
+    "copyId": "Copy Campaign ID",
+    "copiedId": "Copied!",
+    "edit": "Edit Campaign",
+    "delete": "Delete Campaign",
+    "deleteFailed": "Delete failed",
+    "save": "Save",
+    "saveFailed": "Save failed",
+    "cancel": "Cancel",
+    "namePlaceholder": "Campaign name",
+    "nameRequired": "Campaign name is required",
+    "descPlaceholder": "Campaign description",
+    "project": "Project",
+    "projectRequired": "Project is required",
+    "filterActive": "Campaign filter:",
+    "emptyFilter": "No campaigns match the current filter",
+    "emptyQuestFilter": "No todos found in this campaign"
   }
 }
