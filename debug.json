@@ -1001,6 +1001,11 @@
     "coordinates": {
       "empty": "todoDetail.coordinates.empty",
       "hint": "todoDetail.coordinates.hint"
+    },
+    "fields": {
+      "status": "todoDetail.fields.status",
+      "priority": "todoDetail.fields.priority",
+      "project": "todoDetail.fields.project"
     }
   },
   "settings": {
@@ -2369,7 +2374,8 @@
     "tabs": {
       "overview": "insights.tabs.overview",
       "analytics": "insights.tabs.analytics",
-      "systemLogs": "insights.tabs.systemLogs"
+      "systemLogs": "insights.tabs.systemLogs",
+      "performance": "insights.tabs.performance"
     }
   },
   "admin": {
@@ -3373,7 +3379,21 @@
       "projectRequired": "Project is required."
     },
     "editTitle": "questTab.editTitle",
-    "updated": "questTab.updated"
+    "updated": "questTab.updated",
+    "status": {
+      "active": "questTab.status.active",
+      "completed": "questTab.status.completed",
+      "pending": "questTab.status.pending"
+    },
+    "filters": {
+      "all": "questTab.filters.all",
+      "active": "questTab.filters.active",
+      "completed": "questTab.filters.completed"
+    },
+    "empty": {
+      "title": "questTab.empty.title",
+      "action": "questTab.empty.action"
+    }
   },
   "questCard": {
     "heading": "questCard.heading",

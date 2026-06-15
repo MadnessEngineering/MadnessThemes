@@ -17,7 +17,7 @@
     "pulling": "Receiving…",
     "newBranch": "New order",
     "createBranch": "Found order",
-    "deleteBranch": "Delete branch",
+    "deleteBranch": "Dissolve order",
     "renameBranch": "Rename order",
     "switchBranch": "Cross to order",
     "currentBranch": "Present order",
@@ -25,27 +25,27 @@
     "noBranches": "No orders",
     "changesTitle": "Amendments",
     "noLocalChanges": "No local amendments",
-    "discardChanges": "Discard changes",
-    "discardAll": "Discard all changes",
+    "discardChanges": "Discard amendments",
+    "discardAll": "Discard all amendments",
     "stashChanges": "Lay in reliquary",
     "undo": "Revoke",
     "cloneRepository": "Copy archive",
     "addRepository": "Enter archive",
     "removeRepository": "Remove archive",
     "repositorySettings": "Archive configuration",
-    "openInTerminal": "Open in terminal",
+    "openInTerminal": "Open in Scriptorium",
     "viewOnGitHub": "Behold on GitHub",
     "historyTitle": "Chronicle",
     "noHistory": "No chronicle",
     "resolveConflicts": "Reconcile conflicts",
-    "abortMerge": "Abort merge",
-    "continueRebase": "Continue rebase",
-    "abortRebase": "Abort rebase",
+    "abortMerge": "Abort Binding",
+    "continueRebase": "Continue Alignment",
+    "abortRebase": "Abort Alignment",
     "ok": "OK",
     "cancel": "Withdraw",
-    "discard": "Discard",
+    "discard": "Withdraw",
     "continue": "Advance",
-    "dismiss": "Dismiss"
+    "dismiss": "Seal"
   },
   "createProject": {
     "title": "Declare New Crusade",
@@ -125,7 +125,7 @@
     "confirm": "Swear Oath",
     "back": "Retreat",
     "next": "Advance",
-    "previous": "Previous",
+    "previous": "Prior",
     "search": "Search the Codex",
     "filter": "Filter by Virtue",
     "sort": "Order the Scrolls",
@@ -136,21 +136,21 @@
     "viewAll": "View All Scrolls",
     "collapse": "Fold",
     "expand": "Unfurl",
-    "dismiss": "Dismiss"
+    "dismiss": "Seal"
   },
   "forms": {
-    "name": "Project Name",
-    "displayName": "Display Name",
-    "description": "Description",
-    "type": "Project Type",
-    "visibility": "Visibility",
-    "repository": "Repository",
-    "language": "Language",
-    "framework": "Framework",
-    "priority": "Priority",
-    "status": "Status",
-    "notes": "Notes",
-    "ticket": "Ticket",
+    "name": "Crusade Name",
+    "displayName": "Heraldic Title",
+    "description": "Chronicle",
+    "type": "Crusade Type",
+    "visibility": "Visibility Edict",
+    "repository": "Codex Repository",
+    "language": "Tongue",
+    "framework": "Order Framework",
+    "priority": "Precedence",
+    "status": "Standing",
+    "notes": "Annotations",
+    "ticket": "Writ",
     "project": "Crusade"
   },
   "dashboard": {
@@ -175,17 +175,17 @@
       "lowPriority": "Routine Vigil"
     },
     "activityLog": {
-      "title": "📊 Todo Activity Log",
-      "collection": "todo_logs collection",
-      "description": "Track all changes and operations performed on todos",
-      "updates": "Updates",
-      "creates": "Creates",
-      "deletes": "Deletes",
-      "completions": "Completions",
-      "totalEntries": "Total Entries"
+      "title": "📜 Chronicle of Deeds",
+      "collection": "Archive of deeds",
+      "description": "The sacred record of all charges wrought and amended",
+      "updates": "Amendments",
+      "creates": "Pledges",
+      "deletes": "Expungements",
+      "completions": "Fulfillments",
+      "totalEntries": "Total Inscriptions"
     },
     "recentlyCompleted": {
-      "title": "✅ Recently Completed"
+      "title": "✅ Recently Fulfilled"
     },
     "welcome": {
       "message": "Welcome to the Order's Command Chamber. The Council convenes.",
@@ -199,117 +199,117 @@
       "projects": "🏰 Crusades"
     },
     "filters": {
-      "allActivity": "All Activity",
-      "todosCreated": "Tasks Created",
-      "todosUpdated": "Tasks Updated",
-      "todosCompleted": "Tasks Completed",
-      "todosDeleted": "Tasks Deleted",
-      "projectsCreated": "Projects Created",
-      "projectsUpdated": "Projects Updated",
-      "projectsDeleted": "Projects Deleted"
+      "allActivity": "All Deeds",
+      "todosCreated": "Charges Pledged",
+      "todosUpdated": "Charges Amended",
+      "todosCompleted": "Charges Fulfilled",
+      "todosDeleted": "Charges Expunged",
+      "projectsCreated": "Crusades Declared",
+      "projectsUpdated": "Crusades Amended",
+      "projectsDeleted": "Crusades Dissolved"
     },
-    "unifiedView": "Unified View",
-    "personalView": "Personal View",
-    "showingAllDatabases": "Showing all databases",
-    "showingPersonalOnly": "Showing personal entries only",
-    "filteredByProject": "Filtered by project",
-    "noLogsFound": "No activity logs found",
-    "tryChangingFilter": "Try adjusting your filters",
-    "startCreatingTodos": "Create your first task to begin",
-    "failedToLoad": "Failed to load: {{error}}",
-    "changesMade": "Changes implemented",
-    "completionNotes": "Completion notes",
-    "revertOperation": "Revert {{operation}}",
-    "revertSuccess": "Successfully reverted {{operation}}",
-    "revertFailed": "Revert failed: {{error}}",
-    "revertDeleteNotSupported": "Reverting deletions is not supported",
-    "revertNotSupported": "Reverting {{operation}} is not supported",
-    "confirmRevert": "Confirm Revert",
-    "confirmRevertMessage": "Are you sure you want to revert {{operation}} on {{description}}?",
-    "confirmRevertAction": "Revert Change",
-    "operationType": "Operation Type",
-    "taskDescription": "Task Description",
+    "unifiedView": "Order-wide View",
+    "personalView": "Personal Vigil",
+    "showingAllDatabases": "Consulting all chapters",
+    "showingPersonalOnly": "Showing personal vigil only",
+    "filteredByProject": "Filtered by crusade",
+    "noLogsFound": "No deeds recorded in the Archive",
+    "tryChangingFilter": "Alter thy filter",
+    "startCreatingTodos": "Pledge your first charge to begin",
+    "failedToLoad": "Archive failed to open: {{error}}",
+    "changesMade": "Amendments inscribed",
+    "completionNotes": "Fulfillment notes",
+    "revertOperation": "Recant {{operation}}",
+    "revertSuccess": "{{operation}} recanted successfully",
+    "revertFailed": "Recantation failed: {{error}}",
+    "revertDeleteNotSupported": "Recanting expungement is not permitted",
+    "revertNotSupported": "Recantation not permitted for {{operation}}",
+    "confirmRevert": "Confirm Recantation",
+    "confirmRevertMessage": "Recant {{operation}} on {{description}}?",
+    "confirmRevertAction": "Recant",
+    "operationType": "Deed Type",
+    "taskDescription": "Charge Description",
     "descriptions": {
-      "projectCreated": "Project created: {{projectName}}",
-      "projectUpdated": "Project updated: {{projectName}}",
-      "projectDeleted": "Project deleted: {{projectName}}",
-      "projectModified": "Project modified: {{projectName}}",
-      "unknownTask": "Unknown task"
+      "projectCreated": "Crusade declared: {{projectName}}",
+      "projectUpdated": "Crusade amended: {{projectName}}",
+      "projectDeleted": "Crusade dissolved: {{projectName}}",
+      "projectModified": "Crusade reconfigured: {{projectName}}",
+      "unknownTask": "Deed unknown"
     },
-    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} items)",
-    "autoRefreshingInterval": "Auto-refreshing every 30 seconds",
+    "showingPageStats": "Folio {{currentPage}} of {{totalPages}} ({{totalCount}} inscriptions)",
+    "autoRefreshingInterval": "Consulting the Archive every 30 seconds",
     "stats": {
-      "totalProjects": "Total Projects",
-      "activeProjects": "Active Projects",
-      "completedTodos": "Completed Tasks",
-      "archivedProjects": "Archived Projects"
+      "totalProjects": "Total Crusades",
+      "activeProjects": "Active Crusades",
+      "completedTodos": "Charges Fulfilled",
+      "archivedProjects": "Archived Crusades"
     },
-    "recentActivity": "Recent Activity"
+    "recentActivity": "Recent Deeds"
   },
   "activityLog": {
-    "title": "📋 Activity Log",
-    "autoRefreshOn": "Auto-refresh ON",
-    "autoRefreshOff": "Auto-refresh OFF",
+    "title": "📜 Chronicle of Deeds",
+    "autoRefreshOn": "Vigil: ON",
+    "autoRefreshOff": "Vigil: OFF",
     "filters": {
-      "allActivity": "All Activity",
-      "todosCreated": "Todos Created",
-      "todosUpdated": "Todos Updated",
-      "todosCompleted": "Todos Completed",
-      "todosDeleted": "Todos Deleted",
-      "projectsCreated": "Projects Created",
-      "projectsUpdated": "Projects Updated",
-      "projectsDeleted": "Projects Deleted",
-      "all": "All Activity",
-      "create": "Created",
-      "update": "Updated",
-      "complete": "Completed",
-      "delete": "Deleted"
+      "allActivity": "All Deeds",
+      "todosCreated": "Charges Pledged",
+      "todosUpdated": "Charges Amended",
+      "todosCompleted": "Charges Fulfilled",
+      "todosDeleted": "Charges Expunged",
+      "projectsCreated": "Crusades Declared",
+      "projectsUpdated": "Crusades Amended",
+      "projectsDeleted": "Crusades Dissolved",
+      "all": "All Deeds",
+      "create": "Pledged",
+      "update": "Amended",
+      "complete": "Fulfilled",
+      "delete": "Expunged"
     },
-    "unifiedView": "🌐 Unified View",
-    "personalView": "👤 Personal View",
-    "showingAllDatabases": "Showing logs from all databases",
-    "showingPersonalOnly": "Showing only your personal logs",
-    "filteredByProject": "Filtered by project:",
-    "noLogsFound": "No activity logs found",
-    "tryChangingFilter": "Try changing the filter",
-    "startCreatingTodos": "Start creating todos to see activity",
-    "failedToLoad": "Failed to load activity logs: {{error}}",
-    "changesMade": "Changes made:",
-    "completionNotes": "Completion notes:",
-    "revertOperation": "Revert {{operation}}",
-    "revertSuccess": "Successfully reverted {{operation}} operation",
-    "revertFailed": "Failed to revert: {{error}}",
-    "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
-    "revertNotSupported": "Revert not supported for {{operation}} operation",
-    "confirmRevert": "Confirm Revert Operation",
-    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
-    "confirmRevertAction": "Revert Operation",
-    "operationType": "Operation Type",
-    "taskDescription": "Task Description",
+    "unifiedView": "🌐 Order-wide View",
+    "personalView": "👤 Personal Vigil",
+    "showingAllDatabases": "Consulting all chapter archives",
+    "showingPersonalOnly": "Showing your personal vigil only",
+    "filteredByProject": "Filtered by crusade:",
+    "noLogsFound": "No deeds recorded in the Archive",
+    "tryChangingFilter": "Alter thy filter",
+    "startCreatingTodos": "Pledge a charge to begin inscribing deeds",
+    "failedToLoad": "Chronicle failed to open: {{error}}",
+    "changesMade": "Amendments made:",
+    "completionNotes": "Fulfillment notes:",
+    "revertOperation": "Recant {{operation}}",
+    "revertSuccess": "{{operation}} recanted successfully",
+    "revertFailed": "Recantation failed: {{error}}",
+    "revertDeleteNotSupported": "Recanting expungement is not permitted — inscription is gone",
+    "revertNotSupported": "Recantation not permitted for {{operation}}",
+    "confirmRevert": "Confirm Recantation",
+    "confirmRevertMessage": "Recant {{operation}} on: {{description}}?",
+    "confirmRevertAction": "Recant",
+    "operationType": "Deed Type",
+    "taskDescription": "Charge Description",
     "descriptions": {
-      "projectCreated": "Project \"{{projectName}}\" was created",
-      "projectUpdated": "Project \"{{projectName}}\" was updated",
-      "projectDeleted": "Project \"{{projectName}}\" was deleted",
-      "projectModified": "Project \"{{projectName}}\" was modified",
-      "unknownTask": "Unknown task"
+      "projectCreated": "Crusade \"{{projectName}}\" declared",
+      "projectUpdated": "Crusade \"{{projectName}}\" amended",
+      "projectDeleted": "Crusade \"{{projectName}}\" dissolved",
+      "projectModified": "Crusade \"{{projectName}}\" reconfigured",
+      "unknownTask": "Deed unknown"
     },
-    "showingPageStats": "Showing page {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
-    "autoRefreshingInterval": " • Auto-refreshing every 30s",
+    "showingPageStats": "Folio {{currentPage}} of {{totalPages}} ({{totalCount}} total inscriptions)",
+    "autoRefreshingInterval": " • Consulting the Archive every 30s",
     "emptyState": {
-      "title": "No activity yet",
-      "message": "Start working on tasks to see activity here"
+      "title": "The chronicle stands empty",
+      "message": "Begin your vigil — pledge a charge to inscribe the first deed"
     },
     "events": {
-      "created": "created",
-      "updated": "updated",
-      "completed": "completed",
-      "deleted": "deleted"
+      "created": "pledged",
+      "updated": "amended",
+      "completed": "fulfilled",
+      "deleted": "expunged"
     },
-    "ago": "ago",
+    "ago": "past",
     "stats": {
-      "total": "Total Events",
-      "today": "Today",
-      "thisWeek": "This Week"
+      "total": "Total Deeds",
+      "today": "This Day",
+      "thisWeek": "This Sennight"
     }
   },
   "lessonsLearned": {
@@ -318,7 +318,7 @@
     "addLesson": "Inscribe Chronicle",
     "searchPlaceholder": "Search the sacred chronicles, codex entries, or sigils...",
     "languages": {
-      "allLanguages": "All Languages",
+      "allLanguages": "All Tongues",
       "javascript": "JavaScript",
       "typescript": "TypeScript",
       "python": "Python",
@@ -327,8 +327,8 @@
       "general": "General"
     },
     "filters": {
-      "allLessons": "All Lessons",
-      "bookmarked": "Bookmarked",
+      "allLessons": "All Chronicles",
+      "bookmarked": "Marked",
       "recent": "Recent (7 days)"
     },
     "emptyState": {
@@ -340,47 +340,47 @@
     },
     "createFirstLesson": "Inscribe Thy First Chronicle",
     "actions": {
-      "starred": "Starred",
-      "addStar": "Add Star"
+      "starred": "Marked",
+      "addStar": "Mark"
     },
     "pagination": {
-      "showingRange": "Showing {{start}}-{{end}} of {{total}} lessons"
+      "showingRange": "Showing {{start}}-{{end}} of {{total}} chronicles"
     },
     "dialog": {
       "editTitle": "📜 Amend Chronicle",
       "addTitle": "📜 Inscribe New Chronicle",
-      "topicLabel": "Topic",
-      "lessonLabel": "Lesson Learned",
-      "languageLabel": "Language",
-      "tagsLabel": "Tags (comma separated)",
-      "tagsPlaceholder": "react, ui, logging",
-      "databaseLabel": "Save to Database",
-      "personalDatabase": "👤 Personal Database",
-      "sharedDatabase": "🌐 Shared Database (swarmonomicon)",
-      "updateLesson": "Amend the Record",
-      "createLesson": "Inscribe in Codex"
+      "topicLabel": "Subject",
+      "lessonLabel": "Chronicle Entry",
+      "languageLabel": "Tongue",
+      "tagsLabel": "Seals (comma separated)",
+      "tagsPlaceholder": "rite, rune, passage",
+      "databaseLabel": "Inscribe to Archive",
+      "personalDatabase": "👤 Personal Archive",
+      "sharedDatabase": "🌐 Chapter Archive (swarmonomicon)",
+      "updateLesson": "Amend Chronicle",
+      "createLesson": "Inscribe Entry"
     },
-    "failedToLoad": "Failed to load lessons: {{error}}",
-    "confirmDelete": "Are you sure you want to delete this lesson?"
+    "failedToLoad": "Archive failed to open: {{error}}",
+    "confirmDelete": "Expunge this chronicle entry from the Archive?"
   },
   "todoManagement": {
     "title": "⚔️ Quest Registry"
   },
   "app": {
-    "titleShort": "Madness Interactive",
-    "titleLong": "Madness Interactive Workshop"
+    "titleShort": "The Order",
+    "titleLong": "The Sacred Order Workshop"
   },
   "panels": {
     "todos": "📜 Charges",
     "logs": "📋 Chronicle",
-    "aiChat": "🤖 AI Chat",
+    "aiChat": "🤖 Order Oracle",
     "create": "➕ Pledge",
-    "projects": "📂 Projects",
-    "mindMap": "🗺️ Mind Map",
-    "swarmDesk": "🎪 SwarmDesk",
+    "projects": "📂 Crusades",
+    "mindMap": "🗺️ Battle Map",
+    "swarmDesk": "🎪 War Council",
     "lessons": "🎓 Teachings",
     "insights": "📊 Auguries",
-    "settings": "⚙️ Settings",
+    "settings": "⚔️ Chapter Config",
     "labMaintenance": "🧹 Sanctum Purification",
     "workshop": "🔧 Sacred Workshop",
     "chatAudit": "📜 Audit",
@@ -402,7 +402,7 @@
       "orphaned": "Forsaken Relics",
       "completed": "Fulfilled Oaths",
       "consolidate": "Order Overview",
-      "duplicates": "Duplicates"
+      "duplicates": "Duplicate Charges"
     },
     "selectAll": "Gather All",
     "clearSelection": "Release",
@@ -425,28 +425,28 @@
     "deletedProjects": "Dissolved Orders",
     "activeProjects": "Active Orders",
     "duplicates": {
-      "title": "Similar Todo Detection",
-      "description": "Find and consolidate near-duplicate todos across projects.",
-      "threshold": "Similarity",
-      "scan": "Scan",
-      "scanning": "Scanning...",
-      "noResults": "No similar todos found at this threshold. Try lowering the sensitivity.",
-      "groupsFound": "groups",
-      "potentialDuplicates": "todos",
-      "analyzeAI": "Analyze with AI",
-      "analyzing": "Analyzing...",
-      "aiComplete": "AI analysis complete! Review recommendations below.",
-      "aiUnavailable": "AI analysis is temporarily unavailable.",
-      "recommendations": "AI Recommendations",
-      "keep": "Keep",
-      "merge": "Merge",
-      "deleteLabel": "Remove",
-      "suggestedDescription": "Suggested",
-      "reasoning": "Reasoning",
-      "apply": "Apply",
-      "applyAll": "Apply All",
-      "applied": "Recommendation applied successfully",
-      "selectGroupsFirst": "Select todos from groups to analyze"
+      "title": "Duplicate Charge Detection",
+      "description": "Find and consolidate near-duplicate charges across crusades.",
+      "threshold": "Accord",
+      "scan": "Seek",
+      "scanning": "Consulting the Archive…",
+      "noResults": "No duplicate charges found at this threshold.",
+      "groupsFound": "clusters",
+      "potentialDuplicates": "charges",
+      "analyzeAI": "Seek Counsel",
+      "analyzing": "Consulting the Oracle…",
+      "aiComplete": "Counsel received. Review recommendations below.",
+      "aiUnavailable": "Oracle counsel temporarily unavailable.",
+      "recommendations": "Oracle Counsel",
+      "keep": "Retain",
+      "merge": "Unite",
+      "deleteLabel": "Expunge",
+      "suggestedDescription": "Proposed",
+      "reasoning": "Rationale",
+      "apply": "Bind",
+      "applyAll": "Bind All",
+      "applied": "Counsel applied",
+      "selectGroupsFirst": "Select charge groups to examine"
     },
     "quickTags": {
       "title": "Holy Seals:",
@@ -461,28 +461,28 @@
       "aiSuggest": "Divine Insight",
       "aiSuggesting": "Seeking guidance..."
     },
-    "sessionResolved": "resolved this session"
+    "sessionResolved": "resolved this vigil"
   },
   "demo": {
-    "label": "DEMO - Read Only"
+    "label": "PILGRIM MODE"
   },
   "menu": {
-    "documentation": "Documentation",
-    "replayTutorial": "Replay Tutorial",
-    "userManagement": "User Management",
-    "github": "GitHub",
-    "themeGallery": "Sacred Vestments",
-    "logout": "Logout",
-    "support": "Seek the High Priest",
-    "lessonRefiner": "Lesson Refiner"
+    "documentation": "Chronicles",
+    "replayTutorial": "Replay Rite of Entry",
+    "userManagement": "Knight Rolls",
+    "github": "Codex Repository",
+    "themeGallery": "Vestment Gallery",
+    "logout": "Depart",
+    "support": "Chapter Support",
+    "lessonRefiner": "Chronicle Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "📜 The Oracle has spoken! Review the divine insights.",
     "todoMarkedForReview": "⚔️ Quest submitted to the Council for review.",
     "todoCompleted": "✝️ Quest complete. Victory is thine!",
-    "taskCreated": "🎉 Task created successfully!",
-    "projectCreated": "🏰 A new crusade has been declared.",
-    "aiConfigured": "✅ AI configured successfully!",
+    "taskCreated": "🎉 Charge pledged to the roster.",
+    "projectCreated": "⚔️ New crusade declared in the Archive.",
+    "aiConfigured": "✅ Oracle bound successfully!",
     "todoCreated": "⚔️ A new quest has been inscribed in the codex.",
     "settingsSaved": "🕯️ Sanctum calibrations blessed and preserved.",
     "exportCompleted": "🕊️ Sacred records dispatched via carrier.",
@@ -492,126 +492,126 @@
   },
   "projectNavigator": {
     "title": "⚔️ CRUSADE NAVIGATOR",
-    "subtitle": "Choose your project universe • Enter focused development environments",
-    "cacheStatus": "🏪 Cached data • Last loaded: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main Swarmdesk • 1-9: Quick select",
+    "subtitle": "Select your crusade • Enter focused vigil environments",
+    "cacheStatus": "📜 Cached • Last consulted: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Renew • M: Main War Council • 1-9: Quick select",
     "manageTooltip": {
-      "admin": "Manage Projects (Admin)",
-      "personal": "Manage Personal Projects"
+      "admin": "Manage Crusades (Grand Master)",
+      "personal": "Manage Personal Crusades"
     },
-    "refreshTooltip": "Refresh Project Data",
-    "mainSwarmDeskTooltip": "Enter Main Swarmdesk",
+    "refreshTooltip": "Renew from Archive",
+    "mainSwarmDeskTooltip": "Enter Main War Council",
     "loading": {
-      "title": "🔍 Scanning Project Universes...",
-      "subtitle": "Gathering todo data and project metrics"
+      "title": "📜 Consulting the Archive…",
+      "subtitle": "Gathering charge tallies and crusade records"
     },
     "stats": {
-      "pending": "pending",
-      "review": "review"
+      "pending": "outstanding",
+      "review": "examination"
     },
     "activity": {
-      "title": "Recent Activity",
-      "noActivity": "No recent activity"
+      "title": "Recent Deeds",
+      "noActivity": "No recent deeds recorded"
     },
     "enterButton": {
-      "selected": "⚔️ PLEDGED",
-      "enter": "🏰 ENTER",
+      "selected": "📦 PLEDGED",
+      "enter": "⚔️ RIDE FORTH",
       "helpText": "Press Enter or #{{number}}"
     },
     "createCta": {
-      "title": "Start a New Crusade",
-      "subtitle": "The order calls for more — found a new chapter"
+      "title": "Declare New Crusade",
+      "subtitle": "The chapter house awaits — declare a new holy mission"
     },
     "deleteDialog": {
-      "title": "Delete Project",
-      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
-      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
-      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
-      "relocateLabel": "Relocate todos to another project",
-      "selectDestination": "Select destination project",
-      "cancel": "Cancel",
-      "deleteButton": "Delete Project"
+      "title": "Dissolve Crusade",
+      "confirm": "Dissolve crusade \"{{projectName}}\"?",
+      "graveyardNote": "The crusade shall be archived. You may restore it later if need arises.",
+      "hasTodos": "This crusade bears {{count}} charge(s). Shall they be reassigned?",
+      "relocateLabel": "Reassign charges to another crusade",
+      "selectDestination": "Select destination crusade",
+      "cancel": "Withdraw",
+      "deleteButton": "Dissolve Crusade"
     },
-    "viewInSwarmDesk": "View in SwarmDesk"
+    "viewInSwarmDesk": "View in War Council"
   },
   "projectSwarmdesk": {
-    "title": "🎪 {{projectName}}",
+    "title": "⚔️ {{projectName}}",
     "stats": {
-      "pendingTasks": "{{count}} pending",
-      "completedTasks": "{{count}} completed"
+      "pendingTasks": "{{count}} outstanding",
+      "completedTasks": "{{count}} fulfilled"
     },
-    "loading": "🎪 Loading {{projectId}} Environment...",
-    "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Project",
+    "loading": "⚔️ Entering {{projectId}} Chapter…",
+    "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Depart Chapter",
     "workstation": {
-      "todoHint": "📝 Click to manage project todos",
-      "projectHint": "🎪 Click to view project details"
+      "todoHint": "📜 Click to tend to chapter charges",
+      "projectHint": "⚔️ Click to view crusade details"
     },
     "statsPanel": {
-      "title": "Project Stats",
-      "totalTasks": "Total Tasks",
-      "pending": "Pending",
-      "completed": "Completed",
-      "review": "Review",
-      "blocked": "Blocked"
+      "title": "Crusade Tally",
+      "totalTasks": "Total Charges",
+      "pending": "Outstanding",
+      "completed": "Fulfilled",
+      "review": "Examination",
+      "blocked": "Hindered"
     },
     "reviewTab": {
-      "title": "Review Queue",
-      "approveButton": "Approve",
-      "requestChanges": "Request Changes",
+      "title": "Examination Queue",
+      "approveButton": "Sanction",
+      "requestChanges": "Request Revision",
       "returnToProgress": "Return to Progress",
-      "emptyState": "No items in review"
+      "emptyState": "No charges under examination"
     },
     "todoPanel": {
-      "title": "Todo Queue",
-      "loading": "Querying todos…",
-      "create": "Open Todo",
-      "empty": "Board clear — no open todos."
+      "title": "Charge Roster",
+      "loading": "Consulting the Archive…",
+      "create": "Pledge Charge",
+      "empty": "The roster stands empty — no charges pledged."
     },
-    "error": "Failed to load ops environment: {{error}}",
-    "exitButton": "Exit  Environment"
+    "error": "Failed to enter chapter: {{error}}",
+    "exitButton": "Depart Chapter"
   },
   "projectTab": {
-    "title": "Project Setup",
+    "title": "Crusade Founding",
     "sections": {
-      "basicInfo": "Basic Information",
-      "configuration": "Configuration",
-      "technicalDetails": "Technical Details (Optional)"
+      "basicInfo": "Core Chronicle",
+      "configuration": "Charter",
+      "technicalDetails": "Technical Scrolls (Optional)"
     },
     "projectTypes": {
-      "web": "Web Application",
-      "mobile": "Mobile App",
-      "desktop": "Desktop Application",
-      "library": "Library/Package",
-      "api": "API/Service",
-      "general": "General Project"
+      "web": "Web Citadel",
+      "mobile": "Mobile Envoy",
+      "desktop": "Desktop Stronghold",
+      "library": "Tome/Grimoire",
+      "api": "API Conduit",
+      "general": "General Crusade"
     },
     "buttons": {
-      "creating": "Creating...",
-      "demoMode": "Demo Mode",
-      "createProject": "CREATE PROJECT"
+      "creating": "Founding...",
+      "demoMode": "Witness Mode",
+      "createProject": "FOUND CRUSADE"
     },
     "deleteDialog": {
-      "title": "Delete Project",
-      "message": "Delete project \"{{projectName}}\"? This cannot be undone.",
-      "confirm": "Delete",
-      "cancel": "Cancel"
+      "title": "Dissolve Crusade",
+      "message": "Dissolve crusade \"{{projectName}}\"? This cannot be undone.",
+      "confirm": "Dissolve",
+      "cancel": "Withdraw"
     },
     "overview": {
-      "description": "No description on record",
-      "created": "Createed",
-      "todos": "Open Todos",
-      "lessons": "Lesson Entries",
-      "noRepository": "No repository linked",
-      "completedTodos": "Completed Todos",
-      "updated": "Last Updated"
+      "description": "No brief inscribed",
+      "created": "Declared",
+      "todos": "Open Charges",
+      "lessons": "Chronicle Entries",
+      "noRepository": "No archive linked",
+      "completedTodos": "Fulfilled Charges",
+      "updated": "Last Amended"
     },
     "actions": {
-      "editProject": "Reconfigure Project",
-      "deleteProject": "Delete Project",
-      "openSwarmDesk": "Open SwarmDesk"
+      "editProject": "Amend Crusade",
+      "deleteProject": "Dissolve Crusade",
+      "openSwarmDesk": "Open War Council"
     },
-    "noActiveProject": "No active project",
-    "selectProject": "Select a project from the navigator"
+    "noActiveProject": "No active crusade",
+    "selectProject": "Select a crusade from the navigator"
   },
   "todoTab": {
     "project": {
@@ -625,384 +625,384 @@
   "todoList": {
     "filters": {
       "allTasks": "All Quests",
-      "pending": "Awaiting",
-      "review": "Before the Council",
-      "completed": "Victorious",
-      "all": "All Quests",
-      "inProgress": "On Campaign",
+      "pending": "Outstanding",
+      "review": "Examination",
+      "completed": "Fulfilled",
+      "all": "All Charges",
+      "inProgress": "Under Arms",
       "blocked": "Hindered",
-      "in_progress": "In Progress"
+      "in_progress": "Under Arms"
     },
     "sort": {
-      "newest": "Newest First",
-      "oldest": "Oldest First",
-      "priority": "Priority Order",
-      "madness": "Random Order",
-      "alphabetical": "Alphabetical",
-      "updated": "Recently Updated"
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "priority": "Priority",
+      "madness": "By Providence",
+      "alphabetical": "By Inscription",
+      "updated": "Recently Amended"
     },
     "search": {
-      "placeholder": "Search tasks...",
-      "clear": "Clear Query",
-      "noResults": "No todos match this query"
+      "placeholder": "Seek in the Archive…",
+      "clear": "Clear Seeking",
+      "noResults": "No charges match this seeking"
     },
     "project": {
-      "label": "Project",
-      "allProjects": "All Projects ({{count}})",
-      "clearFilter": "Clear Filter",
+      "label": "Crusade",
+      "allProjects": "All Crusades ({{count}})",
+      "clearFilter": "Clear Edict",
       "clearAll": "Clear all",
-      "select": "Assign Project",
-      "none": "No project assigned",
-      "change": "Reassign"
+      "select": "Assign Crusade",
+      "none": "No crusade assigned",
+      "change": "Transfer"
     },
     "pagination": {
-      "show": "Show",
-      "perPage": "per page",
+      "show": "Display",
+      "perPage": "per folio",
       "all": "All",
-      "results": "results",
-      "page": "Page {{current}} of {{total}}",
-      "next": "Next",
-      "prev": "Previous",
-      "showing": "Showing {{start}}-{{end}} of {{total}}"
+      "results": "inscriptions",
+      "page": "Folio {{current}} of {{total}}",
+      "next": "Advance",
+      "prev": "Retreat",
+      "showing": "Displaying {{start}}-{{end}} of {{total}}"
     },
     "results": {
-      "showing": "Showing {{start}}-{{end}} of {{total}} todos",
+      "showing": "Showing {{start}}-{{end}} of {{total}} charges",
       "matching": " matching \"{{searchText}}\"",
-      "filteringByProject": "Filtering by project: <strong>{{project}}</strong>",
-      "filteringByProjects": "Filtering by {{count}} project(s)"
+      "filteringByProject": "Filtered by crusade: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtered by {{count}} crusade(s)"
     },
     "empty": {
-      "noMatching": "No Matching Tasks",
-      "workshopClear": "No Tasks Found",
-      "noMatchingDescription": "No tasks match \"{{searchText}}\". Try adjusting your search or filters.",
-      "workshopClearDescription": "No tasks found. The workspace is clear and organized.",
-      "title": "Queue clear",
-      "message": "No open todos. Create a new todo to begin.",
-      "filtered": "No matching todos",
-      "noResults": "No todos match the current filter."
+      "noMatching": "No Matching Charges",
+      "workshopClear": "Roster Clear",
+      "noMatchingDescription": "No charges match \"{{searchText}}\". Adjust thy search or filters.",
+      "workshopClearDescription": "No charges found. The roster is clear and in good order.",
+      "title": "The roster stands empty",
+      "message": "No charges pledged. Pledge your first charge to begin.",
+      "filtered": "No matching charges",
+      "noResults": "No charges match the current filter."
     },
     "buttons": {
-      "refresh": "Refresh",
-      "export": "Export",
-      "saving": "Saving...",
-      "saveChanges": "Save Changes",
-      "discard": "Discard",
-      "complete": "Complete",
-      "edit": "Edit",
-      "copyId": "Copy ID",
-      "copyJiraCmd": "Copy Jira Cmd",
+      "refresh": "Renew",
+      "export": "Transcribe Records",
+      "saving": "Inscribing…",
+      "saveChanges": "Inscribe Changes",
+      "discard": "Withdraw",
+      "complete": "Fulfill",
+      "edit": "Amend Charge",
+      "copyId": "Copy Sigil",
+      "copyJiraCmd": "Copy Writ",
       "share": "Share",
-      "review": "Review",
-      "aiInsights": "AI Insights",
+      "review": "Examine",
+      "aiInsights": "Seek Counsel",
       "openInWarp": "Anoint Warp Gateway",
       "addToQueue": "Enlist in Order",
       "topOfQueue": "First in the Order",
-      "clone": "Duplicate",
-      "view": "View",
-      "move": "Reassign",
-      "delete": "Delete",
-      "flag": "Flag"
+      "clone": "Transcribe",
+      "view": "Examine",
+      "move": "Transfer",
+      "delete": "Expunge",
+      "flag": "Mark"
     },
     "fullEdit": {
-      "modeTitle": "Full Edit Mode"
+      "modeTitle": "Full Amendment Mode"
     },
     "menu": {
-      "editTask": "Edit Task",
-      "copyId": "Copy ID",
-      "copyJiraCmd": "Copy Jira Cmd",
+      "editTask": "Amend Charge",
+      "copyId": "Copy Sigil",
+      "copyJiraCmd": "Copy Writ",
       "share": "Share",
       "openInWarp": "Anoint Warp Gateway",
-      "deleteTask": "Delete Task"
+      "deleteTask": "Expunge Charge"
     },
     "dialog": {
-      "completeTitle": "Complete Todo: {{description}}",
-      "completeDescription": "Add an optional comment about how this task was completed (e.g., solution details, time taken, blockers resolved, etc.)",
-      "completePlaceholder": "e.g., Fixed CSS issue by updating the responsive breakpoints. Took 2 hours due to browser compatibility testing.",
-      "cancel": "Cancel",
-      "completeTask": "Complete Task",
-      "exportTitle": "Export Todos",
-      "exportDescription": "Exporting {{count}} todos",
-      "exportFilename": "Filename",
-      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
+      "completeTitle": "Fulfill Charge: {{description}}",
+      "completeDescription": "Add an optional fulfillment note (how the charge was met, time taken, obstacles overcome, etc.)",
+      "completePlaceholder": "e.g., Completed the rite by updating the sacred scrolls. Two hours — much deliberation with the council.",
+      "cancel": "Withdraw",
+      "completeTask": "Fulfill Charge",
+      "exportTitle": "Transcribe Charge Records",
+      "exportDescription": "Transcribing {{count}} charges",
+      "exportFilename": "Scroll Name",
+      "exportFilenameHelp": "Name of the transcribed scroll (extension added automatically)",
       "exportFormat": "Format",
-      "exportButton": "Export",
-      "formatJSON": "JSON - Structured Data",
-      "formatJSONDesc": "Complete todo data in JSON format for reimport",
-      "formatCSV": "CSV - Spreadsheet",
-      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
-      "formatMarkdown": "Markdown - Documentation",
-      "formatMarkdownDesc": "Human-readable format for documentation",
-      "formatHTML": "HTML - Web Page",
-      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
-      "formatJira": "Jira/Slack Commands",
-      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
-      "formatVariant": "Format Variant",
-      "variantPretty": "Pretty (Readable)",
-      "variantMinified": "Minified (Compact)",
+      "exportButton": "Transcribe",
+      "formatJSON": "JSON — Structured Data",
+      "formatJSONDesc": "Complete charge data in JSON format for re-import",
+      "formatCSV": "CSV — Tabular Scroll",
+      "formatCSVDesc": "Parchment-compatible format for scrolls or ledgers",
+      "formatMarkdown": "Markdown — Readable Scroll",
+      "formatMarkdownDesc": "Human-readable format for chronicles",
+      "formatHTML": "HTML — Web Illumination",
+      "formatHTMLDesc": "Styled web page for browser viewing",
+      "formatJira": "Jira/Slack Writs",
+      "formatJiraDesc": "Ready-to-paste Slack commands for Jira writs",
+      "formatVariant": "Scroll Variant",
+      "variantPretty": "Illuminated (Readable)",
+      "variantMinified": "Compact",
       "variantJSONL": "JSON Lines (Stream)",
       "variantStandard": "Standard",
       "variantExcel": "Excel-Optimized",
       "variantTable": "Table View",
-      "selectFields": "Select Fields",
-      "customizeFields": "Customize Field Names",
+      "selectFields": "Choose Fields",
+      "customizeFields": "Customise Field Names",
       "renameFields": "Rename Fields",
-      "calculatedFields": "Calculated Fields",
+      "calculatedFields": "Computed Fields",
       "fieldName": "Field Name",
-      "addCalculatedField": "Add Calculated Field",
+      "addCalculatedField": "Add Computed Field",
       "formula": {
         "ageInDays": "Age (days)",
-        "daysSinceUpdate": "Days since update",
+        "daysSinceUpdate": "Days since amendment",
         "charCount": "Character count",
         "tokenEstimate": "Token estimate",
-        "timeToComplete": "Time to complete"
+        "timeToComplete": "Time to fulfill"
       },
       "selectAll": "All",
       "selectNone": "None",
-      "advancedFilters": "Advanced Filters",
+      "advancedFilters": "Advanced Edicts",
       "dateRange": "Date Range",
       "startDate": "From",
       "endDate": "To",
-      "priorityFilter": "Priority",
-      "statusFilter": "Status"
+      "priorityFilter": "Precedence",
+      "statusFilter": "Standing"
     },
     "priority": {
       "high": "High",
       "medium": "Medium",
       "low": "Low",
-      "critical": "Critical",
-      "none": "Unset"
+      "critical": "Urgent",
+      "none": "Unsworn"
     },
     "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "completed": "Completed",
-      "initial": "Initial",
-      "blocked": "Blocked",
-      "review": "Review",
-      "inProgress": "In Progress"
+      "pending": "Outstanding",
+      "in_progress": "Under Arms",
+      "completed": "Fulfilled",
+      "initial": "Forming",
+      "blocked": "Hindered",
+      "review": "Examination",
+      "inProgress": "Under Arms"
     },
     "fields": {
       "id": "ID",
-      "description": "Description",
-      "project": "Project",
-      "priority": "Priority",
-      "status": "Status",
+      "description": "Chronicle",
+      "project": "Crusade",
+      "priority": "Precedence",
+      "status": "Standing",
       "target": "Target",
-      "created": "Created",
-      "updated": "Updated",
-      "metadata": "Metadata",
+      "created": "Pledged",
+      "updated": "Amended",
+      "metadata": "Annotations",
       "source": "Source",
-      "notes": "Notes",
-      "ticket": "Ticket",
-      "completed_at": "Completed At",
-      "completed_by": "Completed By",
-      "completion_comment": "Completion Comment",
+      "notes": "Marginalia",
+      "ticket": "Writ",
+      "completed_at": "Fulfilled At",
+      "completed_by": "Fulfilled By",
+      "completion_comment": "Fulfillment Note",
       "duration": "Duration",
       "duration_sec": "Duration (seconds)",
-      "tags": "Tags",
+      "tags": "Seals",
       "complexity": "Complexity",
       "confidence": "Confidence",
       "phase": "Phase",
-      "epic": "Epic",
-      "blockers": "Blockers",
-      "description_preview": "Description Preview",
-      "created_at": "Created At",
-      "updated_at": "Updated At"
+      "epic": "Crusade",
+      "blockers": "Hindrances",
+      "description_preview": "Chronicle Preview",
+      "created_at": "Inscribed At",
+      "updated_at": "Revised At"
     },
     "validation": {
-      "descriptionRequired": "Description cannot be empty",
-      "descriptionTooLong": "Description must be less than 500 characters",
-      "invalidProject": "Please select a valid project"
+      "descriptionRequired": "Chronicle cannot be empty",
+      "descriptionTooLong": "Chronicle must be less than 500 characters",
+      "invalidProject": "Please select a valid crusade"
     },
     "error": {
-      "failedToLoad": "Failed to load todos",
+      "failedToLoad": "Archive failed to open",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "malfunctionMessage": "The Archive encountered an error. Renew the connection or check your scroll.",
       "moveToPersonalFailed": "The claiming could not be completed"
     },
     "placeholders": {
-      "setStatus": "Set status...",
-      "editDescription": "Click to edit todo description...",
-      "selectProject": "Select project...",
-      "setPriority": "Set priority..."
+      "setStatus": "Set status…",
+      "editDescription": "Click to amend the charge description…",
+      "selectProject": "Select crusade…",
+      "setPriority": "Set priority…"
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes",
+      "unsavedChanges": "You have uninscribed amendments",
       "moveToPersonal": "Claim this shared quest as thine own"
     },
     "labels": {
-      "readOnly": "🔒 Read-Only",
-      "review": "REVIEW",
+      "readOnly": "🔒 Sealed",
+      "review": "EXAMINATION",
       "notes": "Sacred Annotations"
     },
     "aria": {
-      "todoActions": "Todo actions"
+      "todoActions": "Charge actions"
     },
-    "title": "Laboratory Tasks",
-    "addTodo": "Add Task",
+    "title": "📜 Charge Roster",
+    "addTodo": "Pledge Charge",
     "emptyState": {
-      "title": "No tasks yet",
-      "message": "Create your first laboratory task to get started",
-      "action": "Create Task",
+      "title": "The roster stands empty",
+      "message": "Pledge your first charge to begin the vigil",
+      "action": "Pledge Charge",
       "noTasks": "No quests found",
       "createFirst": "Declare thy first quest to begin the crusade"
     },
     "actions": {
-      "markComplete": "Mark Complete",
-      "markPending": "Mark Pending",
-      "edit": "Edit Task",
-      "delete": "Delete Task",
-      "archive": "Archive",
-      "sendToReview": "Send to Review",
-      "reopen": "Reopen",
-      "prioritize": "Prioritize",
+      "markComplete": "Fulfill",
+      "markPending": "Mark Outstanding",
+      "edit": "Amend Charge",
+      "delete": "Expunge Charge",
+      "archive": "Seal to Archive",
+      "sendToReview": "Send for Examination",
+      "reopen": "Recall",
+      "prioritize": "Raise Priority",
       "unarchive": "Restore"
     },
     "timestamps": {
       "due": "Due",
-      "created": "Opened",
-      "completed": "Completed",
-      "updated": "Updated"
+      "created": "Pledged",
+      "completed": "Fulfilled",
+      "updated": "Amended"
     },
-    "aiEnhancing": "Running diagnostics…",
+    "aiEnhancing": "Consulting the Oracle…",
     "dueDate": {
-      "none": "No due date",
-      "set": "Set Due Date",
-      "today": "Due today",
-      "tomorrow": "Due tomorrow",
-      "overdue": "Overdue",
-      "change": "Adjust Due Date"
+      "none": "No date set",
+      "set": "Set Date",
+      "today": "Due this day",
+      "tomorrow": "Due on the morrow",
+      "overdue": "Past due",
+      "change": "Amend Due Date"
     },
     "notes": {
-      "add": "Add Note",
-      "edit": "Edit Note",
-      "none": "No notes on record"
+      "add": "Add Annotation",
+      "edit": "Amend Annotation",
+      "none": "No annotations inscribed"
     },
-    "viewDetails": "View Details",
+    "viewDetails": "Examine",
     "moveDialog": {
-      "cancel": "Cancel",
-      "selectProject": "Select destination project",
-      "title": "Reassign Todo",
-      "confirm": "Reassign"
+      "cancel": "Withdraw",
+      "selectProject": "Select destination crusade",
+      "title": "Reassign Charge",
+      "confirm": "Transfer"
     },
-    "createFirst": "Open your first todo",
-    "spellsAvailable": "AIs available",
-    "loadingMore": "Pulling more todos…",
+    "createFirst": "Pledge your first charge",
+    "spellsAvailable": "Oracle counsel available",
+    "loadingMore": "Consulting further folios…",
     "selected": "{{count}} selected",
     "completionDialog": {
-      "notesLabel": "Resolution notes (optional)",
-      "title": "Complete Todo",
-      "cancel": "Cancel",
-      "confirm": "Complete"
+      "notesLabel": "Fulfillment notes (optional)",
+      "title": "Fulfill Charge",
+      "cancel": "Withdraw",
+      "confirm": "Fulfill"
     },
-    "errorLoading": "Query failed: {{error}}",
-    "aiEnhance": "AI Insights",
-    "expandAll": "Expand All",
+    "errorLoading": "Archive failed to open: {{error}}",
+    "aiEnhance": "Seek Counsel",
+    "expandAll": "Unfurl All",
     "bulkActions": {
-      "complete": "Complete Selected",
-      "move": "Reassign Selected",
-      "export": "Export",
-      "delete": "Delete Selected"
+      "complete": "Fulfill Selected",
+      "move": "Transfer Selected",
+      "export": "Transcribe Records",
+      "delete": "Expunge Selected"
     },
     "selectAll": "Select All",
     "tags": {
-      "none": "No tags",
-      "remove": "Remove Tag",
-      "add": "Add Tag"
+      "none": "No seals",
+      "remove": "Remove Seal",
+      "add": "Add Seal"
     },
-    "noTasks": "Board is clear — no open todos.",
+    "noTasks": "The roster stands empty — no charges pledged.",
     "assignee": {
-      "none": "Unassigned",
+      "none": "Unsworn",
       "change": "Reassign",
-      "select": "Assign User"
+      "select": "Assign Knight"
     },
-    "successMove": "Todo reassigned",
-    "dragHint": "Drag to reorder queue",
+    "successMove": "Charge reassigned",
+    "dragHint": "Drag to reorder roster",
     "deselectAll": "Deselect All",
     "loadMore": "Load More",
-    "errorDeleting": "Delete failed: {{error}}",
+    "errorDeleting": "Expungement failed: {{error}}",
     "confirmDelete": {
-      "title": "Delete Todo",
-      "cancel": "Cancel",
-      "message": "Delete \"{{title}}\"? This cannot be undone.",
-      "confirm": "Delete"
+      "title": "Expunge Charge",
+      "cancel": "Withdraw",
+      "message": "Expunge \"{{title}}\" from the Archive? This cannot be undone.",
+      "confirm": "Expunge"
     },
     "dropHere": "Drop here",
-    "successComplete": "Todo resolved",
-    "hideDetails": "Hide Details",
-    "count": "{{count}} todo(s)",
-    "collapseAll": "Collapse All",
-    "successDelete": "Todo decommissioned",
-    "loading": "Loading…",
-    "errorUpdating": "Update failed: {{error}}"
+    "successComplete": "Charge fulfilled",
+    "hideDetails": "Close Record",
+    "count": "{{count}} charge(s)",
+    "collapseAll": "Fold All",
+    "successDelete": "Charge expunged",
+    "loading": "Consulting the Archive…",
+    "errorUpdating": "Amendment failed: {{error}}"
   },
   "todoEdit": {
     "loading": {
-      "text": "Loading todo..."
+      "text": "Consulting the Archive..."
     },
     "header": {
-      "editTodo": "Edit Todo",
-      "createNewTodo": "Create New Todo"
+      "editTodo": "Amend Charge",
+      "createNewTodo": "Inscribe New Charge"
     },
     "buttons": {
-      "backToDashboard": "Back to Dashboard"
+      "backToDashboard": "Return to Chamber"
     },
     "error": {
-      "todoNotFound": "Todo not found. It may have been deleted or the ID is incorrect."
+      "todoNotFound": "Charge not found. It may have been expunged or the seal is incorrect."
     },
     "workshop": {
-      "modeTitle": "🔧 Workshop Mode - Full Edit Access"
+      "modeTitle": "⚒️ Scriptorium Mode - Full Edit Access"
     },
     "tips": {
-      "title": "💡 Edit Tips:",
-      "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Purple sparkle for AI enhancement"
+      "title": "📜 Edit Scrolls:",
+      "description": "• Click any field to amend in-place • Use the Amend button for full form • ESC to withdraw • Ctrl+Enter to inscribe • Purple sparkle for Oracle enhancement"
     },
-    "title": "Edit Todo",
+    "title": "Amend Charge",
     "fields": {
       "dueDate": "Due Date",
-      "priority": "Priority",
-      "assignee": "Assignee",
-      "notes": "Notes",
-      "description": "Todo Description",
-      "tags": "Tags",
-      "status": "Status",
-      "project": "Project"
+      "priority": "Precedence",
+      "assignee": "Assigned Knight",
+      "notes": "Annotations",
+      "description": "Charge Description",
+      "tags": "Seals",
+      "status": "Standing",
+      "project": "Crusade"
     },
-    "cancel": "Cancel",
-    "saving": "Saveting…",
-    "save": "Save",
-    "delete": "Delete",
-    "createTitle": "Open New Todo"
+    "cancel": "Withdraw",
+    "saving": "Inscribing…",
+    "save": "Inscribe",
+    "delete": "Expunge",
+    "createTitle": "Pledge New Charge"
   },
   "settings": {
-    "title": "⚙️ Order Configuration",
-    "confirmReset": "Art thou certain thou wishest to restore all configurations to their covenant defaults? This cannot be undone.",
+    "title": "⚙️ Chapter Configuration",
+    "confirmReset": "Restore all configuration to the original covenant?",
     "messages": {
       "saveSuccess": "The Order's configurations have been inscribed",
       "saveError": "Failed to inscribe configurations in the sacred registry"
     },
     "export": {
-      "starting": "Starting export...",
-      "success": "Export completed! Downloaded {{todoCount}} todos, {{projectCount}} projects, and settings.",
-      "error": "Export failed: {{error}}"
+      "starting": "Beginning transcription…",
+      "success": "Transcription complete! {{todoCount}} charges, {{projectCount}} crusades, and configuration recorded.",
+      "error": "Transcription failed: {{error}}"
     },
     "import": {
-      "starting": "Starting import...",
-      "confirmDialog": "Import Preview:\n\n{{todoCount}} todos, {{projectCount}} projects, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
-      "success": "Import completed! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
+      "starting": "Beginning import…",
+      "confirmDialog": "Import Preview:\n\n{{todoCount}} charges, {{projectCount}} crusades, {{settingsCount}} configuration scrolls\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
+      "success": "Import complete! {{importedCount}} inscriptions made. {{skippedCount}} items set aside.",
       "error": "Import failed: {{error}}",
-      "fileDialogError": "Failed to open file dialog"
+      "fileDialogError": "Failed to open scroll dialog"
     },
     "todoToolbar": {
       "title": "Task Action Buttons",
       "subtitle": "Choose which action buttons appear on your task items. Others are kept in the right-click menu.",
-      "complete": "Complete",
-      "edit": "Edit",
-      "copyId": "Copy ID",
+      "complete": "Fulfill",
+      "edit": "Amend",
+      "copyId": "Copy Seal",
       "copyJiraCommand": "Copy Jira Command",
       "share": "Share",
-      "review": "Review",
-      "aiInsights": "AI Insights",
+      "review": "Examine",
+      "aiInsights": "Oracle Insights",
       "openInWarp": "Anoint Warp Gateway",
       "warpAutoProgress": "Auto-Quest on Warp",
       "warpAutoProgressHint": "Automatically move pending quests to on-campaign when anointing via Warp",
@@ -1012,146 +1012,146 @@
       "copyIdPrefixExample": "Example: 'run get_todo on ' will transcribe as 'run get_todo on abc123...'"
     },
     "tabs": {
-      "profile": "Profile",
-      "data": "Database",
-      "aiConfiguration": "AI Configuration",
-      "mcpSetup": "MCP Setup",
-      "messaging": "Messaging",
-      "apiKeys": "API Keys",
-      "appearance": "Appearance",
-      "mindMap": "Mind Map",
+      "profile": "Knight's Dossier",
+      "data": "Archive",
+      "aiConfiguration": "Oracle Config",
+      "mcpSetup": "MCP Connexion",
+      "messaging": "Missives",
+      "apiKeys": "Sigil Keys",
+      "appearance": "Vestments",
+      "mindMap": "Battle Map",
       "hooks": "Sacred Rites",
-      "umlData": "Code Visualizations",
-      "privacy": "Privacy",
-      "advanced": "Advanced",
-      "npcAgents": "NPC Agents",
-      "swarmDesk": "SwarmDesk",
+      "umlData": "Sacred Diagrams",
+      "privacy": "Access Rites",
+      "advanced": "Advanced Rites",
+      "npcAgents": "Chapter Agents",
+      "swarmDesk": "War Council",
       "support": "Sanctuary",
-      "keyboardShortcuts": "Shortcuts",
-      "security": "Security",
-      "notifications": "Alerts",
-      "general": "General",
-      "ai": "AI"
+      "keyboardShortcuts": "Rune Bindings",
+      "security": "Ward Seals",
+      "notifications": "Vigil",
+      "general": "General Edicts",
+      "ai": "Oracle"
     },
     "swarmdesk": {
-      "movementTitle": "Movement Speed Controls",
-      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
-      "resetDefaults": "Reset to Defaults",
+      "movementTitle": "Movement Speed Edicts",
+      "movementDescription": "Adjust camera movement in Orbital and FPS modes in the War Council 3D environment.",
+      "resetDefaults": "Restore Defaults",
       "orbitalTitle": "Orbital Mode (O key)",
-      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
+      "orbitalDescription": "Controls camera when using orbital navigation.",
       "orbitalBaseSpeed": "Base Speed",
       "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
       "fpsTitle": "FPS Mode (F key)",
-      "fpsDescription": "Controls camera movement when using first-person navigation.",
-      "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsDescription": "Controls camera when using first-person navigation.",
+      "fpsBaseSpeed": "March Speed",
+      "fpsSprintSpeed": "Charge Speed (Ctrl held)"
     },
     "messaging": {
-      "title": "Message Roles Configuration",
-      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
-      "allowedRoles": "Allowed Roles",
-      "addRole": "Add Role",
-      "editRole": "Edit Message Role",
-      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
-      "roleId": "Role ID",
+      "title": "Missive Roles Configuration",
+      "subtitle": "Configure which roles are permitted in chapter missives.",
+      "allowedRoles": "Permitted Roles",
+      "addRole": "Enlist Role",
+      "editRole": "Amend Role",
+      "infoMessage": "These roles are available when composing missives. Each role may bear a unique sigil. Core roles can be hidden but not removed.",
+      "roleId": "Role Sigil",
       "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
-      "roleIdDisabled": "Role ID cannot be changed",
-      "displayLabel": "Display Label",
-      "displayLabelHelper": "Human-readable name shown in UI",
-      "emoji": "Emoji",
-      "emojiHelper": "Single emoji character for visual identification",
+      "roleIdDisabled": "Role sigil cannot be changed",
+      "displayLabel": "Heraldic Label",
+      "displayLabelHelper": "Human-readable name shown in chamber",
+      "emoji": "Emblem",
+      "emojiHelper": "Single emblem character for visual identification",
       "coreRole": "Core Role",
-      "hidden": "Hidden",
-      "showRole": "Show role",
-      "hideRole": "Hide role",
-      "saveChanges": "Save Changes",
-      "cancel": "Cancel",
-      "npcConfig": "SwarmDesk NPC Configuration",
+      "hidden": "Concealed",
+      "showRole": "Reveal role",
+      "hideRole": "Conceal role",
+      "saveChanges": "Inscribe Changes",
+      "cancel": "Withdraw",
+      "npcConfig": "SwarmDesk NPC Charter",
       "npcEnabled": "Spawn as SwarmDesk NPC",
       "npcCount": "NPC Count",
       "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
-      "npcColor": "NPC Color",
+      "npcColor": "NPC Livery",
       "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
       "npcRole": "NPC Role Title",
-      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
-      "npcPersonality": "NPC Personality",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the heraldic label.",
+      "npcPersonality": "NPC Disposition",
       "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
       "npcPersonalities": {
-        "helpful_assistant": "Helpful Assistant",
-        "chaotic_genius": "Chaotic Genius",
-        "methodical_precise": "Methodical & Precise",
-        "curious_explorer": "Curious Explorer",
-        "zen_creative": "Zen Creative",
-        "welcoming_efficient": "Welcoming & Efficient",
-        "organized_visionary": "Organized Visionary"
+        "helpful_assistant": "Faithful Squire",
+        "chaotic_genius": "Errant Knight",
+        "methodical_precise": "Scribe-Knight",
+        "curious_explorer": "Wandering Pilgrim",
+        "zen_creative": "Contemplative Friar",
+        "welcoming_efficient": "Hospitable Steward",
+        "organized_visionary": "Grand Visionary"
       },
-      "duplicateRoleId": "A role with this ID already exists.",
-      "duplicateAgentId": "An agent with this ID already exists."
+      "duplicateRoleId": "A role bearing this seal already exists.",
+      "duplicateAgentId": "An agent bearing this seal already exists."
     },
     "theme": {
-      "title": "Theme",
-      "colorTheme": "Color Theme",
-      "textTheme": "Text Style",
-      "description": "Customize your laboratory appearance",
-      "label": "Interface Theme"
+      "title": "Vestments",
+      "colorTheme": "Heraldic Colors",
+      "textTheme": "Script Style",
+      "description": "Select the chapter's visual order",
+      "label": "Order Theme"
     },
     "account": {
       "title": "Account",
-      "profile": "Profile Settings",
+      "profile": "Profile Scrolls",
       "preferences": "Preferences"
     },
     "data": {
-      "autoBackup": "Auto-snapshot",
-      "importFile": "Import Data File",
-      "exportAll": "Export Full Snapshot",
-      "backupFrequency": "Snapshot Frequency",
-      "clearAllData": "Purge All Data",
-      "confirmClear": "Purge all data? This cannot be undone."
+      "autoBackup": "Auto-transcribe",
+      "importFile": "Import Scrolls",
+      "exportAll": "Transcribe Full Records",
+      "backupFrequency": "Transcription Frequency",
+      "clearAllData": "Purge All Records",
+      "confirmClear": "Purge all records from the Archive? This cannot be undone."
     },
     "about": {
       "build": "Build",
-      "reportBug": "Report Incident",
+      "reportBug": "Report Anomaly",
       "version": "Version",
-      "license": "License",
-      "documentation": "Lessons",
-      "changelog": "Release Notes",
-      "featureRequest": "Request Feature"
+      "license": "Charter",
+      "documentation": "Chronicles",
+      "changelog": "Order Annals",
+      "featureRequest": "Request Rite"
     },
     "sections": {
-      "ai": "AI Integration",
-      "security": "Security Config",
-      "privacy": "Access Control",
-      "about": "System Info",
-      "account": "User Profile",
-      "notifications": "Alert Config",
-      "advanced": "Advanced",
-      "appearance": "Display Config",
-      "data": "Data Management",
-      "integrations": "Integrations"
+      "ai": "Oracle Integration",
+      "security": "Security Rites",
+      "privacy": "Access Rites",
+      "about": "Chapter Records",
+      "account": "Knight's Dossier",
+      "notifications": "Vigil Alerts",
+      "advanced": "Advanced Rites",
+      "appearance": "Appearance",
+      "data": "Archive Management",
+      "integrations": "Allegiances"
     },
     "ai": {
-      "provider": "Provider",
-      "temperature": "Temperature",
-      "apiKey": "API Key",
-      "testConnection": "Test Connection",
-      "description": "Configure AI diagnostic provider",
-      "model": "Model",
-      "label": "AI Integration",
+      "provider": "Oracle Provider",
+      "temperature": "Fervor",
+      "apiKey": "Sigil Key",
+      "testConnection": "Test Connexion",
+      "description": "Configure the Oracle provider",
+      "model": "Oracle Model",
+      "label": "Oracle Integration",
       "maxTokens": "Max Tokens",
-      "failed": "Connection failed",
-      "connected": "Connection verified",
-      "testing": "Testing…"
+      "failed": "Connexion failed",
+      "connected": "Connexion verified",
+      "testing": "Consulting…"
     },
     "security": {
-      "changePassword": "Change Password",
-      "loginHistory": "Login Log",
-      "revokeAll": "Revoke All Sessions",
-      "sessions": "Active Sessions",
-      "twoFactor": "Two-Factor Auth"
+      "changePassword": "Change Passphrase",
+      "loginHistory": "Entry Chronicle",
+      "revokeAll": "Revoke All Vigils",
+      "sessions": "Active Vigils",
+      "twoFactor": "Two-Factor Rite"
     },
     "language": {
-      "label": "Language",
-      "description": "Interface language"
+      "label": "Tongue",
+      "description": "Chamber language"
     },
     "display": {
       "reducedMotion": "Reduce motion",
@@ -1159,56 +1159,56 @@
       "density": "Display Density",
       "comfortable": "Comfortable",
       "compact": "Compact",
-      "fontSize": "Font Size",
-      "animations": "UI Animations"
+      "fontSize": "Script Size",
+      "animations": "Animations"
     },
     "autoSave": {
-      "description": "Automatically commit configuration changes",
-      "label": "Auto-commit changes"
+      "description": "Automatically inscribe configuration changes",
+      "label": "Auto-inscribe changes"
     },
     "advanced": {
-      "label": "Advanced",
-      "resetSettings": "Reset to Defaults",
-      "importData": "Import Data",
+      "label": "Advanced Rites",
+      "resetSettings": "Restore Covenant",
+      "importData": "Import Scrolls",
       "debugMode": "Debug Mode",
-      "exportData": "Export",
-      "experimentalFeatures": "Experimental Features",
-      "dangerZone": "Restricted Zone",
-      "clearCache": "Purge Cache",
-      "description": "Advanced configuration parameters"
+      "exportData": "Transcribe Records",
+      "experimentalFeatures": "Experimental Rites",
+      "dangerZone": "Forbidden Reliquary",
+      "clearCache": "Purge Scriptorium",
+      "description": "Advanced chapter parameters"
     },
     "privacy": {
-      "shareAnalytics": "Share usage telemetry",
-      "crashReports": "Submit crash reports",
-      "label": "Access Control",
-      "description": "Manage data access settings"
+      "shareAnalytics": "Share usage records",
+      "crashReports": "Submit incident reports",
+      "label": "Access Rites",
+      "description": "Manage access rites"
     },
-    "reset": "Reset to Defaults",
-    "cancel": "Cancel",
+    "reset": "Restore Covenant",
+    "cancel": "Withdraw",
     "notifications": {
-      "inApp": "In-Console Alerts",
-      "email": "Email Alerts",
-      "description": "Enable system alerts",
-      "push": "Push Alerts",
-      "label": "Alert Notifications"
+      "inApp": "In-Chamber Alerts",
+      "email": "Missive Alerts",
+      "description": "Enable chapter vigil alerts",
+      "push": "Herald Alerts",
+      "label": "Vigil Alerts"
     },
-    "save": "Save Config",
-    "error": "Configuration commit failed",
-    "saved": "Configuration committed"
+    "save": "Inscribe Config",
+    "error": "Inscription failed",
+    "saved": "Configuration inscribed"
   },
   "umlData": {
-    "title": "Code Visualizations",
-    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
-    "upload": "Upload Map",
+    "title": "🗺️ Sacred Diagrams",
+    "description": "Manage architectural scrolls for the 3D code citadel in SwarmDesk",
+    "upload": "Present Diagram",
     "errors": {
-      "loadFailed": "Failed to load UML datasets",
-      "uploadFailed": "Failed to upload UML file",
-      "deleteFailed": "Failed to delete UML data"
+      "loadFailed": "Failed to retrieve architectural scrolls",
+      "uploadFailed": "Failed to upload scroll",
+      "deleteFailed": "Failed to expunge scroll"
     },
     "delete": {
-      "confirmTitle": "Expunge from Archive",
-      "confirmMessage": "Expunge this record from the Archive? This cannot be undone.",
-      "success": "Record expunged from Archive"
+      "confirmTitle": "Expunge Diagram",
+      "confirmMessage": "Expunge this diagram from the Archive? This cannot be undone.",
+      "success": "Diagram expunged from Archive"
     },
     "viewSwarmDesk": {
       "redirect": "Opening in SwarmDesk..."
@@ -1218,81 +1218,82 @@
       "shared": "Shared"
     },
     "instructions": {
-      "title": "How to use:",
-      "step1": "Install the UML generator: npm install -g @madnessengineering/cartogomancy",
-      "step2": "Generate UML from your codebase: cartogomancy /path/to/project -o project-uml.json",
-      "step3": "Upload the generated JSON file using the button above"
+      "title": "How to inscribe:",
+      "step1": "Install the cartographer: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Map your codebase: cartogomancy /path/to/project -o project-uml.json",
+      "step3": "Upload the generated JSON scroll using the button above"
     },
     "storage": {
-      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
-      "limit": "10 files per user (10MB each)"
+      "info": "You hold {{count}} visualisation(s). Storage edict: {{limit}}",
+      "limit": "10 scrolls per order member (10MB each)"
     },
     "table": {
-      "name": "Project Name",
-      "linkedProject": "Linked Project",
+      "name": "Crusade Name",
+      "linkedProject": "Bound Crusade",
       "version": "Version",
-      "lastUpdated": "Last Updated",
+      "lastUpdated": "Last Revised",
       "source": "Source",
       "classes": "Classes",
       "packages": "Packages",
-      "created": "Created",
+      "created": "Inscribed",
       "actions": "Actions"
     },
     "actions": {
       "view": "View in SwarmDesk",
-      "delete": "Delete"
+      "delete": "Expunge"
     },
     "empty": {
-      "action": "Generate First Map",
-      "title": "No code maps on record",
-      "message": "Generate a code map to visualize project architecture."
+      "action": "Scribe First Diagram",
+      "title": "No diagrams inscribed",
+      "message": "Scribe a diagram to illuminate the project's architecture.",
+      "hint": "Upload a scroll to behold your code in 3D"
     },
     "empty.hint": "Upload a UML file to see your code in 3D",
     "compareVersions": "Compare Versions",
-    "download": "Download",
-    "generateFromRepo": "Generate from Repository",
-    "confirmRestore": "Restore this version?",
+    "download": "Transcribe Copy",
+    "generateFromRepo": "Scribe from Repository",
+    "confirmRestore": "Restore this version of the diagram?",
     "filters": {
-      "all": "All Maps",
+      "all": "All Diagrams",
       "recent": "Recent",
-      "language": "By Language"
+      "language": "By Tongue"
     },
-    "noVersions": "No versions on record",
+    "noVersions": "No versions inscribed",
     "success": {
-      "generated": "Code map generated",
-      "deleted": "Map decommissioned",
-      "uploaded": "Map uploaded to archive",
+      "generated": "Diagram scribed",
+      "deleted": "Diagram expunged",
+      "uploaded": "Diagram presented to Archive",
       "restored": "Version restored"
     },
     "metadata": {
       "size": "Size",
       "nodes": "Nodes",
-      "created": "Generated",
+      "created": "Inscribed",
       "framework": "Framework",
-      "edges": "Edges",
-      "language": "Language"
+      "edges": "Connections",
+      "language": "Tongue"
     },
     "versions": "Versions",
     "depth": "Analysis Depth",
     "restore": "Restore Version",
-    "generate": "Generate Map",
+    "generate": "Scribe Diagram",
     "error": {
-      "upload": "Upload failed: {{error}}",
-      "generate": "Generation failed: {{error}}",
-      "load": "Query failed: {{error}}"
+      "upload": "Presentation failed: {{error}}",
+      "generate": "Scribing failed: {{error}}",
+      "load": "Archive failed to open: {{error}}"
     },
-    "confirmDelete": "Delete this code map?",
+    "confirmDelete": "Expunge this diagram from the Archive?",
     "branch": "Branch",
-    "diff": "Diff View",
-    "uploading": "Uploading…",
-    "generating": "Generating…",
+    "diff": "Compare View",
+    "uploading": "Presenting…",
+    "generating": "Scribing…",
     "repoUrl": "Repository URL",
-    "loading": "Querying code maps…",
-    "timeline": "Version Timeline",
-    "previousVersion": "Previous",
-    "currentVersion": "Current",
+    "loading": "Consulting the diagrams…",
+    "timeline": "Version Chronicle",
+    "previousVersion": "Prior",
+    "currentVersion": "Present",
     "version": "Version",
-    "noData": "No code maps on record. Generate your first map."
+    "noData": "No diagrams inscribed. Scribe your first diagram."
   },
   "auth": {
     "app": {
@@ -1309,229 +1310,229 @@
       "loggingOut": "Departing the Order..."
     },
     "errors": {
-      "demoLoginFailed": "Demo login failed",
+      "demoLoginFailed": "Witness login failed",
       "authRequired": "Thou must pledge thy oath to access the Order's chambers",
       "configNotFound": "The sacred gateway configuration is lost",
-      "tokenInvalid": "Access token has expired"
+      "tokenInvalid": "Access seal has expired"
     }
   },
   "editableTodoCard": {
-    "confirmCancel": "You have unsaved changes. Are you sure you want to cancel?",
+    "confirmCancel": "You bear unsaved revisions. Are you sure you wish to withdraw?",
     "confirmDelete": {
-      "confirm": "Delete",
-      "cancel": "Cancel",
-      "message": "Delete this todo?",
-      "title": "Delete Todo"
+      "confirm": "Expunge",
+      "cancel": "Withdraw",
+      "message": "Expunge this charge from the Archive?",
+      "title": "Expunge Charge"
     },
     "sections": {
-      "metadata": "Metadata (Optional)"
+      "metadata": "Annotations (Optional)"
     },
     "errors": {
-      "descriptionRequired": "Description is required for AI enhancement",
-      "aiEnhancementFailed": "AI enhancement failed: {{error}}",
-      "saveFailed": "Failed to save changes"
+      "descriptionRequired": "Chronicle is required for Oracle enhancement",
+      "aiEnhancementFailed": "Oracle enhancement failed: {{error}}",
+      "saveFailed": "Failed to inscribe changes"
     },
     "placeholders": {
-      "description": "Enter todo description...",
-      "clickToAdd": "Click to add description...",
-      "enhancedDescription": "AI-enhanced description will appear here...",
-      "notes": "Additional notes...",
-      "ticket": "Ticket reference..."
+      "description": "Enter charge chronicle...",
+      "clickToAdd": "Click to add chronicle...",
+      "enhancedDescription": "Oracle-enhanced chronicle will appear here...",
+      "notes": "Additional marginalia...",
+      "ticket": "Seal reference..."
     },
     "labels": {
-      "enhancedDescription": "Enhanced Description",
-      "aiEnhanced": "🧠 AI Enhanced Description:",
-      "completionNotes": "✅ Completion Notes:",
-      "completed": "Completed",
+      "enhancedDescription": "Enhanced Chronicle",
+      "aiEnhanced": "🧠 Oracle Enhanced Chronicle:",
+      "completionNotes": "✅ Fulfilment Notes:",
+      "completed": "Fulfilled",
       "duration": "Duration",
-      "autoEnhanceOnSave": "Auto-enhance on save",
-      "enhance": "Enhance",
-      "enhancing": "Enhancing..."
+      "autoEnhanceOnSave": "Auto-enhance on inscribe",
+      "enhance": "Invoke",
+      "enhancing": "Invoking..."
     },
     "priority": {
       "low": "Low",
       "medium": "Medium",
       "high": "High",
-      "critical": "Critical"
+      "critical": "Urgent"
     },
     "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "blocked": "Blocked",
-      "review": "Review",
-      "completed": "Completed",
-      "initial": "Initial",
-      "cancelled": "Cancelled",
-      "inProgress": "In Progress"
+      "pending": "Outstanding",
+      "in_progress": "Under Arms",
+      "blocked": "Hindered",
+      "review": "Examination",
+      "completed": "Fulfilled",
+      "initial": "Forming",
+      "cancelled": "Withdrawn",
+      "inProgress": "Under Arms"
     },
     "menu": {
-      "editTask": "Edit Task",
-      "deleteTask": "Delete Task"
+      "editTask": "Amend Charge",
+      "deleteTask": "Expunge Charge"
     },
     "messages": {
-      "noEnhancedDescription": "No enhanced description yet. Click the AI button to generate one."
+      "noEnhancedDescription": "No enhanced chronicle yet. Invoke the Oracle to generate one."
     },
     "tooltips": {
-      "enhance": "AI enhances description, suggests tags and complexity"
+      "enhance": "Oracle enhances chronicle, suggests tags and complexity"
     },
     "actions": {
-      "save": "Save",
+      "save": "Inscribe",
       "share": "Share",
-      "unpin": "Unpin",
-      "edit": "Edit Todo",
-      "view": "View Details",
-      "pin": "Pin",
-      "unflag": "Unflag",
-      "complete": "Complete",
-      "clone": "Duplicate",
-      "delete": "Delete",
-      "flag": "Flag",
-      "move": "Reassign",
-      "cancel": "Cancel"
+      "unpin": "Remove Pin",
+      "edit": "Amend Charge",
+      "view": "Examine",
+      "pin": "Pin to Board",
+      "unflag": "Unmark",
+      "complete": "Fulfill",
+      "clone": "Transcribe",
+      "delete": "Expunge",
+      "flag": "Mark",
+      "move": "Transfer",
+      "cancel": "Withdraw"
     },
     "fields": {
-      "description": "Description",
-      "status": "Status",
-      "tags": "Tags",
-      "priority": "Priority",
-      "notes": "Notes",
+      "description": "Chronicle",
+      "status": "Standing",
+      "tags": "Seals",
+      "priority": "Precedence",
+      "notes": "Annotations",
       "dueDate": "Due Date",
-      "project": "Project"
+      "project": "Crusade"
     },
-    "placeholder": "Todo description…",
-    "saved": "Saveted",
-    "saving": "Saveting…",
-    "viewMode": "View Mode",
-    "editMode": "Edit Mode",
-    "error": "Save failed"
+    "placeholder": "Charge description…",
+    "saved": "Inscribed",
+    "saving": "Inscribing…",
+    "viewMode": "Examination Mode",
+    "editMode": "Amendment Mode",
+    "error": "Inscription failed"
   },
   "mindMap": {
     "controls": {
-      "switchToWorldMap": "Switch to War Room",
-      "switchToSphere": "Switch to Sphere",
-      "chaos": "Chaos",
-      "fullscreen": "Full Screen",
-      "fit": "Fit to Window",
-      "center": "Center View",
-      "reset": "Reset View",
-      "zoomOut": "Zoom Out",
-      "exitFullscreen": "Exit Full Screen",
-      "zoomIn": "Zoom In"
+      "switchToWorldMap": "Open War Room",
+      "switchToSphere": "Switch to Orb",
+      "chaos": "Discord",
+      "fullscreen": "Full Chamber",
+      "fit": "Fit to Chamber",
+      "center": "Centre View",
+      "reset": "Restore View",
+      "zoomOut": "Withdraw View",
+      "exitFullscreen": "Depart Full Chamber",
+      "zoomIn": "Advance View"
     },
     "info": {
       "nodeCount": "{{count}} Nodes"
     },
     "instructions": {
-      "dragToMove": "Drag to Move",
-      "dragging": "Dragging!",
-      "touchAndDrag": "Touch & Drag",
+      "dragToMove": "Drag to Reposition",
+      "dragging": "Moving!",
+      "touchAndDrag": "Touch & Reposition",
       "doubleTapBurst": "Double-tap for burst!",
       "doubleTapPhysics": "Double-tap for physics!"
     },
     "filter": {
-      "title": "Project Filter",
-      "allProjects": "All Projects",
-      "projectCount": "{{selected}}/{{total}} Projects",
+      "title": "Crusade Filter",
+      "allProjects": "All Crusades",
+      "projectCount": "{{selected}}/{{total}} Crusades",
       "selectAll": "Select All",
       "clearAll": "Clear All",
-      "selectProjects": "Select Projects",
-      "projectsSelected": "{{count}} projects selected",
-      "selectedProjects": "Selected Projects ({{count}})"
+      "selectProjects": "Select Crusades",
+      "projectsSelected": "{{count}} crusades selected",
+      "selectedProjects": "Selected Crusades ({{count}})"
     },
     "tooltips": {
       "disableStaticMode": "Disable Static Mode",
       "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Clean Up Visual Effects"
+      "cleanUpEffects": "Cleanse Visual Effects"
     },
     "sequence": {
-      "hideSequence": "Hide Task Sequence",
-      "showSequence": "Show AI Task Sequence",
-      "analyzeSequences": "Analyze Sequences",
-      "stopAnimation": "Stop Animation",
+      "hideSequence": "Conceal Task Sequence",
+      "showSequence": "Reveal Oracle Sequence",
+      "analyzeSequences": "Analyse Sequences",
+      "stopAnimation": "Halt Animation",
       "animateSequence": "Animate Sequence",
-      "shuffleSequence": "Shuffle Sequence Type"
+      "shuffleSequence": "Vary Sequence"
     },
     "selection": {
       "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
     },
     "nodes": {
       "centerBrain": "⚡ TANGENTRON",
-      "centerWorkshop": "🧠 WORKSHOP",
-      "lesson": "Lesson",
-      "tag": "Tag",
-      "todo": "Todo",
-      "project": "Project"
+      "centerWorkshop": "🧠 SCRIPTORIUM",
+      "lesson": "Chronicle",
+      "tag": "Seal",
+      "todo": "Charge",
+      "project": "Crusade"
     },
     "modes": {
       "dynamic": "⚡ Dynamic Mode",
-      "static": "📖 Static Mode"
+      "static": "📖 Scriptorium Mode"
     },
     "dialog": {
-      "createNode": "🧠 Create Neural Node",
-      "nodeText": "Node Text"
+      "createNode": "📜 Inscribe New Node",
+      "nodeText": "Node Inscription"
     },
     "nodeInfo": {
       "type": "Type",
-      "priority": "Priority",
-      "energy": "Energy"
+      "priority": "Precedence",
+      "energy": "Vigour"
     },
     "export": {
-      "json": "Export JSON",
-      "svg": "Export SVG",
-      "png": "Export PNG"
+      "json": "Transcribe JSON",
+      "svg": "Transcribe SVG",
+      "png": "Transcribe PNG"
     },
-    "loading": "Querying topology…",
+    "loading": "Consulting the battle map…",
     "filters": {
       "all": "All Nodes",
-      "todos": "Todos Only",
-      "tags": "Tags Only",
-      "projects": "Projects Only"
+      "todos": "Charges Only",
+      "tags": "Seals Only",
+      "projects": "Crusades Only"
     },
-    "disconnectNodes": "Unlink Nodes",
+    "disconnectNodes": "Sever Link",
     "layout": {
       "radial": "Radial Layout",
       "force": "Force Layout",
-      "tree": "Tree Layout",
+      "tree": "Hierarchy Layout",
       "grid": "Grid Layout"
     },
-    "error": "Mind Map query failed: {{error}}",
-    "connectNodes": "Link Nodes",
-    "addNode": "Add Node",
-    "deleteNode": "Remove Node",
+    "error": "Battle map failed to illuminate: {{error}}",
+    "connectNodes": "Bind Nodes",
+    "addNode": "Inscribe Node",
+    "deleteNode": "Expunge Node",
     "empty": {
-      "action": "Open First Todo",
-      "message": "Add todos and projects to map the system topology.",
-      "title": "Mind Map empty"
+      "action": "Pledge First Charge",
+      "message": "Pledge charges and declare crusades to illuminate the battle map.",
+      "title": "The map stands empty"
     },
-    "editNode": "Edit Node",
-    "refresh": "Refresh Mind Map",
-    "title": "🗺️ Project Mind Map"
+    "editNode": "Amend Node",
+    "refresh": "Renew Battle Map",
+    "title": "🗺️ Battle Map"
   },
   "chatAssistant": {
     "errors": {
       "notConfigured": "The Order's Oracle is silent. Visit Settings > Oracle Configuration to awaken the divine counsel.",
       "noResponse": "Thy petition was received but the Oracle returned no answer. The divine forces were unclear. Petition again.",
-      "demoUserRestricted": "🚫 AI chat is not available for demo users. Please sign up for a free account to access AI assistance."
+      "demoUserRestricted": "🚫 Oracle counsel is unavailable for witness users. Please enlist to access the Oracle."
     },
     "quickActions": {
-      "listPending": "List my pending todos",
-      "createHighPriority": "Create a new high priority todo",
-      "summarizeProject": "Summarize the {{project}} project",
-      "filterHighPriority": "Show me high priority todos in this project"
+      "listPending": "List my outstanding charges",
+      "createHighPriority": "Inscribe a new high-precedence charge",
+      "summarizeProject": "Chronicle the {{project}} crusade",
+      "filterHighPriority": "Show me high-precedence charges in this crusade"
     },
     "suggestedActions": {
-      "listPending": "List Pending",
+      "listPending": "List Outstanding",
       "newHighPrio": "New High Prio",
-      "summarize": "Summarize"
+      "summarize": "Chronicle"
     },
     "status": {
-      "typing": "Assistant is typing",
+      "typing": "Oracle is composing",
       "loadingHistory": "Unrolling ancient scrolls..."
     },
     "emptyState": {
-      "title": "Madness Interactive Assistant",
-      "demoMessage": "AI chat is not available for demo users. Sign up for a free account to access AI assistance!",
-      "description": "Your personal AI to help manage tasks, projects, and more.",
+      "title": "Sacred Order Oracle",
+      "demoMessage": "Oracle counsel is unavailable for witness users. Enlist for a free account to access the Oracle!",
+      "description": "Your personal Oracle to help manage charges, crusades, and more.",
       "suggestions": [
         "Search research notes",
         "List active tasks",
@@ -1540,135 +1541,135 @@
       ]
     },
     "notConfigured": {
-      "title": "AI Assistant Not Configured",
-      "description": "To use the AI assistant, please configure your AI provider in the Settings.",
-      "configureButton": "Configure AI Provider"
+      "title": "Oracle Not Bound",
+      "description": "To invoke the Oracle, please bind your provider in the Settings.",
+      "configureButton": "Bind Oracle Provider"
     },
     "header": {
-      "title": "AI Assistant",
-      "refreshTooltip": "Refresh context",
+      "title": "Sacred Oracle",
+      "refreshTooltip": "Refresh counsel",
       "settingsTooltip": "Settings"
     },
     "menu": {
       "refreshContext": "Refresh Context",
-      "aiSettings": "AI Settings (Go to Settings)",
-      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+      "aiSettings": "Oracle Settings (Go to Settings)",
+      "aiSettingsRedirect": "Oracle configuration has been moved to Settings → Oracle Configuration"
     },
     "input": {
-      "placeholder": "Ask your assistant...",
-      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
+      "placeholder": "Seek counsel from the Oracle...",
+      "demoPlaceholder": "Oracle counsel is unavailable for witness users. Enlist for a free account!"
     },
-    "title": "Lab Assistant",
-    "placeholder": "Ask your lab assistant...",
-    "send": "Send",
-    "thinking": "Processing...",
+    "title": "⚔️ Order Oracle",
+    "placeholder": "Seek counsel from the Oracle…",
+    "send": "Dispatch",
+    "thinking": "Consulting...",
     "suggestions": {
-      "searchLessons": "Search research notes",
-      "listTodos": "List active tasks",
-      "createProject": "Create new project",
-      "summarize": "Generate summary",
-      "insights": "Run project diagnostics",
-      "blocked": "What is blocked?",
-      "critical": "Show critical todos",
-      "listAll": "List all open todos"
+      "searchLessons": "Search the Archive",
+      "listTodos": "List active charges",
+      "createProject": "Found new crusade",
+      "summarize": "Generate chronicle",
+      "insights": "Seek counsel on this crusade",
+      "blocked": "What is hindered?",
+      "critical": "Show urgent charges",
+      "listAll": "List all open charges"
     },
-    "history": "Session History",
-    "ai": "AIs",
+    "history": "Audience Chronicles",
+    "ai": "Oracle",
     "tools": {
-      "createTodo": "Open Todo",
-      "analyzeTodos": "AI Insights",
-      "listTodos": "List Todos",
-      "searchTodos": "Query Todos"
+      "createTodo": "Pledge Charge",
+      "analyzeTodos": "Seek Counsel",
+      "listTodos": "List Charges",
+      "searchTodos": "Seek in Archive"
     },
     "empty": {
-      "title": "Chat ready",
-      "message": "Enter a query or request an analysis.",
-      "suggestion": "Try: 'What todos are blocked?'"
+      "title": "The Oracle awaits",
+      "message": "Pose a question or seek interpretation.",
+      "suggestion": "Try: 'What charges are hindered?'"
     },
     "error": {
-      "send": "Transmission failed: {{error}}",
-      "load": "Query failed: {{error}}"
+      "send": "Conveyance failed: {{error}}",
+      "load": "Consultation failed: {{error}}"
     },
-    "system": "System",
+    "system": "Order",
     "actions": {
       "feedback": {
         "bad": "Not Useful",
         "good": "Useful"
       },
       "retry": "Retry",
-      "copy": "Copy",
-      "delete": "Remove"
+      "copy": "Transcribe",
+      "delete": "Expunge"
     },
-    "typing": "Processing…",
-    "you": "User",
-    "newConversation": "New Session",
-    "confirmClear": "Purge all session history?",
-    "clearHistory": "Purge History",
-    "sending": "Transmitting…",
-    "noHistory": "No session history",
-    "loading": "Loading…"
+    "typing": "Deliberating…",
+    "you": "Knight",
+    "newConversation": "New Audience",
+    "confirmClear": "Purge all audience chronicles?",
+    "clearHistory": "Purge Chronicle",
+    "sending": "Conveying…",
+    "noHistory": "No audience chronicles",
+    "loading": "Consulting the Archive…"
   },
   "mobileChatInterface": {
     "quickActions": {
-      "createTodo": "Create Todo",
-      "listTodos": "List Todos",
-      "projectStatus": "Project Status",
-      "help": "Help",
-      "prioritize": "Prioritize",
-      "summarize": "Summarize"
+      "createTodo": "Inscribe Charge",
+      "listTodos": "List Charges",
+      "projectStatus": "Crusade Status",
+      "help": "Seek Aid",
+      "prioritize": "Set Precedence",
+      "summarize": "Chronicle"
     },
     "actionMessages": {
-      "createTodo": "Help me create a new todo",
+      "createTodo": "Help me inscribe a new charge",
       "createTodoPrefill": "Duty: ",
-      "listTodos": "Show me my current todos",
-      "projectStatus": "Give me a status update on my projects",
-      "help": "What can you help me with?",
-      "prioritize": "What should I prioritize working on today?",
-      "summarize": "Give me a quick summary of my current project"
+      "listTodos": "Show me my current charges",
+      "projectStatus": "Give me a status on my crusades",
+      "help": "What counsel can you offer?",
+      "prioritize": "What should I address today?",
+      "summarize": "Give me a quick chronicle of my current crusade"
     },
     "header": {
-      "title": "AI Assistant",
-      "statusListening": "Listening...",
-      "statusTyping": "Typing...",
-      "statusOnline": "Online"
+      "title": "Sacred Oracle",
+      "statusListening": "Hearkening...",
+      "statusTyping": "Composing...",
+      "statusOnline": "Vigilant"
     },
     "emptyState": {
-      "greeting": "Hi! I'm your AI Assistant",
-      "description": "I can help you manage todos, navigate projects, and answer questions about your workspace."
+      "greeting": "Hail! I am your Sacred Oracle",
+      "description": "I can help you manage charges, navigate crusades, and answer questions about your order."
     },
     "status": {
-      "thinking": "AI is thinking..."
+      "thinking": "Oracle is deliberating..."
     },
     "input": {
-      "placeholder": "Type a message..."
+      "placeholder": "Speak your query..."
     },
     "menu": {
       "clearChat": "Clear Scroll"
     },
-    "attachFile": "Attach File",
+    "attachFile": "Attach Scroll",
     "empty": {
-      "message": "Run a query or request an analysis.",
-      "title": "Chat ready"
+      "message": "Pose a question or seek interpretation.",
+      "title": "The Oracle awaits"
     },
-    "historyTitle": "Session History",
-    "minimize": "Minimize",
-    "loading": "Loading…",
-    "expand": "Expand",
-    "stopVoice": "Stop Voice",
-    "noHistory": "No session history",
-    "newSession": "New Session",
-    "error": "Transmission failed",
+    "historyTitle": "Audience Chronicles",
+    "minimize": "Withdraw",
+    "loading": "Consulting the Archive…",
+    "expand": "Unfurl",
+    "stopVoice": "Cease Proclamation",
+    "noHistory": "No audience chronicles",
+    "newSession": "New Audience",
+    "error": "Conveyance failed",
     "connectionStatus": {
-      "disconnected": "Disconnected",
-      "connected": "Connected",
-      "reconnecting": "Reconnecting…"
+      "disconnected": "Severed",
+      "connected": "Bound",
+      "reconnecting": "Rebinding…"
     },
-    "send": "Send",
-    "placeholder": "Query the assistant…",
-    "clearHistory": "Purge History",
-    "title": "Lab AIs",
-    "close": "Dismiss",
-    "voiceInput": "Voice Input"
+    "send": "Convey",
+    "placeholder": "Seek counsel…",
+    "clearHistory": "Purge Chronicles",
+    "title": "Order Oracle",
+    "close": "Seal Chamber",
+    "voiceInput": "Voice Proclamation"
   },
   "warRoom": {
     "backgroundImage": {
@@ -1677,7 +1678,7 @@
       "presets": "Ancient Maps",
       "uploads": "Thy Custom Maps",
       "upload": "Submit Map",
-      "noUploads": "No custom backgrounds yet",
+      "noUploads": "No custom banners yet",
       "opacity": "Opacity",
       "fitMode": "Fit Mode",
       "fitCover": "Cover",
@@ -1685,73 +1686,73 @@
       "fitStretch": "Stretch",
       "fitTile": "Tile",
       "blendWithTerrain": "Blend with Terrain",
-      "remove": "Remove Background",
+      "remove": "Remove Banner",
       "active": "Active",
       "uploadError": "Upload failed. Please try again.",
-      "fileTooLarge": "Image must be under 5MB",
-      "invalidType": "Only JPEG, PNG, and WebP images are supported"
+      "fileTooLarge": "Banner must be under 5MB",
+      "invalidType": "Only JPEG, PNG, and WebP banners are supported"
     },
     "incident": {
-      "assign": "Assign",
-      "priority": "Severity",
-      "resolve": "Complete Incident",
+      "assign": "Assign Knight",
+      "priority": "Urgency",
+      "resolve": "Resolve Conflict",
       "escalate": "Escalate",
-      "create": "Open Incident",
-      "status": "Status"
+      "create": "Declare Conflict",
+      "status": "Standing"
     },
-    "error": "Incident query failed: {{error}}",
+    "error": "War council failed to convene: {{error}}",
     "empty": {
-      "message": "No active incidents. All systems nominal.",
-      "title": "All clear",
+      "message": "No active conflicts. The order stands at peace.",
+      "title": "The council chamber is peaceful",
       "action": "Open Incident"
     },
     "filters": {
-      "resolved": "Completed",
-      "all": "All Incidents",
+      "resolved": "Resolved",
+      "all": "All Conflicts",
       "active": "Active"
     },
-    "refresh": "Refresh",
-    "title": "🚨 Incident Command",
-    "loading": "Querying incident data…"
+    "refresh": "Renew",
+    "title": "⚔️ War Council",
+    "loading": "Consulting the war council…"
   },
   "swarmDesk": {
     "ui": {
       "loading": {
-        "entering": "🖥️ Entering System Environment...",
-        "initializing": "⚙️ Initializing SwarmDesk...",
-        "ready": "✅ System Ready",
-        "connecting": "🔗 Connecting to Services...",
-        "loadingProjects": "📊 Loading Project Data...",
-        "title": "🖥️ Initializing SwarmDesk Workspace...",
-        "subtitle": "Preparing System Interface"
+        "entering": "⚔️ Entering Chapter House…",
+        "initializing": "⚔️ Preparing War Council…",
+        "ready": "✅ Council Ready",
+        "connecting": "🔗 Joining the Chapter…",
+        "loadingProjects": "📜 Consulting Crusade Records…",
+        "title": "⚔️ Assembling War Council…",
+        "subtitle": "Preparing the Chapter House"
       },
       "navigation": {
-        "controls": "⌨️ Navigation Controls",
-        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
-        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
-        "escape": "🚪 ESC: Return to Dashboard | M: Menu"
+        "controls": "⌨️ Navigation Edicts",
+        "movement": "⌨️ WASD: Move | Mouse: Look",
+        "interaction": "🖱️ Click: Tend | E: Action | Space: Quick Action",
+        "escape": "🚪 ESC: Return to Chamber | M: Menu"
       },
       "status": {
-        "connected": "🌐 Network: CONNECTED",
-        "offline": "⚠️ Network: OFFLINE - Local Mode",
-        "syncing": "🔄 Syncing Data...",
-        "ready": "✅ SwarmDesk: READY"
+        "connected": "🌐 Chapter: CONNECTED",
+        "offline": "⚠️ Chapter: OFFLINE — Local Vigil",
+        "syncing": "🔄 Consulting Archive…",
+        "ready": "✅ War Council: READY"
       },
       "error": {
-        "title": "❌ SwarmDesk System Error",
-        "subtitle": "Check system console for technical details",
-        "initializationFailed": "SwarmDesk workspace initialization failed"
+        "title": "❌ War Council Error",
+        "subtitle": "Consult the chapter scribe for details",
+        "initializationFailed": "War Council failed to assemble"
       },
       "controls": {
-        "instructions": "🖥️ SwarmDesk Active | WASD: Navigation | E: Primary Interaction | F4-F7: Open Panels | Space: Performance Mode"
+        "instructions": "⚔️ War Council Active | WASD: Navigate | E: Tend | F4-F7: Open Chambers | Space: Swift Mode"
       }
     },
     "panels": {
       "welcome": {
-        "title": "🖥️ Welcome to SwarmDesk",
-        "subtitle": "Interactive Project Management Interface",
-        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
-        "gettingStarted": "Getting Started:",
+        "title": "⚔️ Welcome to the War Council",
+        "subtitle": "Chapter House Ready",
+        "description": "Welcome to the War Council — the 3D chapter house for managing your crusades and charges.",
+        "gettingStarted": "Getting started:",
         "quickActions": [
           "📝 View and manage your project tasks",
           "🎯 Create new tasks and set priorities",
@@ -1760,24 +1761,24 @@
           "🔗 Connect to external tools and services"
         ],
         "features": {
-          "title": "🎯 System Features:",
-          "draggable": "📱 Draggable interface panels with system docking",
-          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk workspace interactions",
-          "docking": "🧲 Magnetic docking zones (workspace edges & corners)",
-          "shortcuts": "⌨️ Keyboard shortcuts for quick access",
-          "integration": "🖥️ Full SwarmDesk 3D workspace environment integration"
+          "title": "🎯 Chapter Features:",
+          "draggable": "📱 Draggable chambers with magnetic docking",
+          "contextual": "🏷️ Contextual chambers respond to interactions",
+          "docking": "🧲 Docking zones at chapter edges",
+          "shortcuts": "⌨️ Keyboard shortcuts for swift access",
+          "integration": "⚔️ Full War Council 3D integration"
         },
         "actions": {
-          "createProject": "📋 Open Project Panel",
-          "createAgent": "🤖 Open Agent Panel"
+          "createProject": "📜 Open Crusade Chamber",
+          "createAgent": "⚔️ Open Knight Chamber"
         }
       },
       "shortcuts": {
-        "title": "⌨️ Keyboard Shortcuts",
-        "subtitle": "Quick Controls Reference",
+        "title": "⌨️ Rune Bindings",
+        "subtitle": "Quick Reference",
         "categories": {
           "navigation": {
-            "title": "🧭 Navigation",
+            "title": "🧭 Pathfinding",
             "commands": [
               "WASD: Move camera around the environment",
               "Mouse Drag: Look around and rotate view",
@@ -1786,7 +1787,7 @@
             ]
           },
           "panels": {
-            "title": "📊 Panel Controls",
+            "title": "📜 Chamber Controls",
             "commands": [
               "F4: Open Task Management Panel",
               "F5: Open Activity Log Panel",
@@ -1795,7 +1796,7 @@
             ]
           },
           "actions": {
-            "title": "⚡ Actions",
+            "title": "⚔️ Commands",
             "commands": [
               "E: Interact with selected object",
               "Space: Quick action",
@@ -1804,23 +1805,23 @@
             ]
           }
         },
-        "f3": "F3 - Toggle Welcome Interface",
-        "f4": "F4 - Toggle Project Interface",
-        "f5": "F5 - Toggle Agent Actions",
-        "f6": "F6 - Toggle System Tools",
-        "f7": "F7 - Toggle Analytics Interface",
-        "f8": "F8 - Toggle WebLLM Interface",
-        "f9": "F9 - Toggle MQTT Monitor",
-        "f10": "F10 - Minimize All Interfaces",
-        "f11": "F11 - Close All Interfaces",
-        "esc": "ESC - Cancel current system operation",
-        "drag": "Drag panels - Click and interact with panel headers",
-        "dock": "Dock panels - Drag near workspace edges to anchor"
+        "f3": "F3 — Toggle Welcome Chamber",
+        "f4": "F4 — Toggle Crusade Chamber",
+        "f5": "F5 — Toggle Knight Chamber",
+        "f6": "F6 — Toggle Chapter Tools",
+        "f7": "F7 — Toggle Oracle Chamber",
+        "f8": "F8 — Toggle Grimoire Chamber",
+        "f9": "F9 — Toggle Herald Monitor",
+        "f10": "F10 — Seal All Chambers",
+        "f11": "F11 — Close All Chambers",
+        "esc": "ESC — Withdraw from current action",
+        "drag": "Drag chambers — Click and drag headers",
+        "dock": "Dock chambers — Drag near edges to anchor"
       },
       "mcp": {
-        "title": "🔗 Model Context Protocol",
-        "subtitle": "System Integration Hub",
-        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "title": "🔗 Oracle Protocol Hub",
+        "subtitle": "Service Connexion Layer",
+        "description": "The Oracle Protocol enables connexions to external orders and services for enhanced counsel.",
         "features": [
           "🔧 Tool Integration Framework",
           "📊 Automated Data Collection",
@@ -1828,7 +1829,7 @@
           "⚙️ Workflow Automation",
           "🔐 Secure Communication"
         ],
-        "gettingStarted": "Setup Instructions:",
+        "gettingStarted": "Setup instructions:",
         "deploymentSteps": [
           "Configure authentication settings",
           "Connect to desired services",
@@ -1836,52 +1837,52 @@
           "Test connections and workflows"
         ],
         "tools": {
-          "title": "🛠️ Available MCP System Tools",
-          "notAuthenticated": "Please authenticate to the system to access MCP tools.",
-          "authRequired": "System authentication required to connect to MCP services",
-          "connecting": "No tools available. Connecting to system...",
-          "serverStatus": "System Status: {{status}}",
-          "retryConnection": "🔄 Retry System Connection",
-          "connectedAs": "Connected as: {{username}}"
+          "title": "🛠️ Available Oracle Tools",
+          "notAuthenticated": "Authenticate to access Oracle tools.",
+          "authRequired": "Authentication required to connect to Oracle services",
+          "connecting": "No tools available. Joining the chapter…",
+          "serverStatus": "Oracle Status: {{status}}",
+          "retryConnection": "🔄 Retry Connexion",
+          "connectedAs": "Bound as: {{username}}"
         },
         "history": {
-          "title": "📜 System Command History",
-          "noHistory": "No command history found."
+          "title": "📜 Counsel Chronicle",
+          "noHistory": "No counsel recorded."
         },
         "debug": {
-          "title": "🐛 System Debug Information",
+          "title": "🐛 Chapter Debug",
           "authentication": "Authentication: {{status}}",
-          "user": "User: {{user}}",
-          "authMode": "System Mode: {{mode}}",
-          "mcpServer": "MCP Server: {{status}}",
-          "activeTools": "Active System Tools: {{count}}",
-          "lastPing": "Last System Ping: {{time}}",
+          "user": "Knight: {{user}}",
+          "authMode": "Mode: {{mode}}",
+          "mcpServer": "Oracle Server: {{status}}",
+          "activeTools": "Active Oracle Tools: {{count}}",
+          "lastPing": "Last Signal: {{time}}",
           "apiService": "API Service: {{status}}",
-          "authContext": "Auth System Context: {{status}}",
-          "refreshAuth": "🔄 Refresh System Auth"
+          "authContext": "Auth Context: {{status}}",
+          "refreshAuth": "🔄 Renew Auth"
         }
       },
       "project": {
         "overview": {
-          "title": "📊 Project Overview",
-          "activeProjects": "Active Projects: 5",
-          "pendingTasks": "Pending Tasks: 23",
-          "completedToday": "Completed Today: 7",
+          "title": "📜 Crusade Overview",
+          "activeProjects": "Active Crusades: 5",
+          "pendingTasks": "Pending Charges: 23",
+          "completedToday": "Fulfilled Today: 7",
           "actions": {
-            "viewAll": "📋 View All Projects",
-            "addTask": "➕ Add New Task"
+            "viewAll": "📜 View All Crusades",
+            "addTask": "⚔️ Pledge Charge"
           }
         },
         "todos": {
-          "title": "✅ Task Management",
-          "inProgress": "🖥️ Dashboard Integration - In Progress",
-          "pending": "🔧 MCP Tool Enhancement - Pending",
+          "title": "✅ Charge Roster",
+          "inProgress": "⚔️ Chapter House — In Progress",
+          "pending": "📜 Oracle Protocol — Pending",
           "actions": {
-            "addTodo": "➕ Add Task"
+            "addTodo": "⚔️ Pledge Charge"
           }
         },
         "files": {
-          "title": "📁 System Files",
+          "title": "📁 Sacred Scrolls",
           "files": [
             "📄 dashboard-integrated.html",
             "📄 floating-panels-dashboard.html",
@@ -1889,142 +1890,142 @@
             "📄 swarmdesk-dashboard-hooks.js"
           ],
           "actions": {
-            "browse": "📂 Browse File Archives"
+            "browse": "📂 Browse the Scriptorium"
           }
         }
       },
       "agent": {
         "chat": {
-          "title": "💬 Agent Communication",
-          "agentReady": "Agent: Ready to assist with your workspace tasks.",
-          "userQuery": "You: Help me with the floating interface panels",
-          "agentResponse": "Agent: The floating panel system is highly flexible. You can drag panels anywhere and dock them to the workspace edges.",
-          "placeholder": "Type your message..."
+          "title": "💬 Knight Channel",
+          "agentReady": "Knight: Ready for your bidding.",
+          "userQuery": "Knight: Aid me with the floating chambers",
+          "agentResponse": "Knight: The chamber system is most flexible — drag anywhere and anchor to the walls.",
+          "placeholder": "Pose your query…"
         },
         "commands": {
-          "title": "⚡ Agent Commands",
-          "searchProjects": "🔍 Search Projects",
-          "listTodos": "📋 List Tasks",
-          "deployProject": "🚀 Deploy Project",
-          "generateReport": "📊 Generate Report"
+          "title": "⚡ Knight Commands",
+          "searchProjects": "🔍 Seek Crusades",
+          "listTodos": "📜 List Charges",
+          "deployProject": "⚔️ Ride Forth",
+          "generateReport": "📜 Generate Chronicle"
         },
         "interface": {
-          "title": "💬 {{agentName}} System Interface",
+          "title": "💬 {{agentName}} Knight Interface",
           "role": "Role: {{role}}",
-          "status": "Status: {{status}}",
+          "status": "Standing: {{status}}",
           "actions": {
-            "startConversation": "💬 Start Conversation",
-            "executeCommand": "⚡ Execute Command"
+            "startConversation": "💬 Open Channel",
+            "executeCommand": "⚔️ Execute Command"
           }
         },
         "capabilities": {
-          "title": "⚡ Agent Capabilities",
-          "projectManagement": "✅ Project Management",
-          "codeAnalysis": "✅ Code Analysis",
-          "mcpIntegration": "✅ MCP Tool Integration",
-          "communication": "✅ Real-time Communication"
+          "title": "⚡ Knight Capabilities",
+          "projectManagement": "✅ Crusade Management",
+          "codeAnalysis": "✅ Scroll Analysis",
+          "mcpIntegration": "✅ Oracle Integration",
+          "communication": "✅ Real-time Communion"
         }
       },
       "analytics": {
         "metrics": {
-          "title": "📈 System Performance Metrics",
-          "cpuUsage": "CPU Usage: 42%",
-          "memory": "System Memory: 68%",
-          "activePanels": "Active Panels: {{count}}",
-          "uptime": "System Uptime: 2h 15m"
+          "title": "📜 Chapter Performance",
+          "cpuUsage": "Processing: 42%",
+          "memory": "Memory: 68%",
+          "activePanels": "Open Chambers: {{count}}",
+          "uptime": "Vigil time: 2h 15m"
         },
         "activity": {
-          "title": "🚀 Recent System Activity",
-          "panelCreated": "🏷️ Panel created: Project Management",
-          "swarmDeskInteraction": "🖥️ SwarmDesk interaction: Workstation selected",
-          "mcpToolExecuted": "🔧 MCP tool executed: list_projects"
+          "title": "⚔️ Recent Deeds",
+          "panelCreated": "🏷️ Chamber opened: Crusade Management",
+          "swarmDeskInteraction": "⚔️ War Council: Station selected",
+          "mcpToolExecuted": "📜 Oracle tool invoked: list_projects"
         },
         "insights": {
-          "title": "💡 System Insights",
-          "mostUsedPanel": "Most used panel: Project Management",
-          "peakActivity": "Peak activity: 14:00-15:00",
-          "efficiencyScore": "Efficiency score: 87%"
+          "title": "💡 Chapter Insights",
+          "mostUsedPanel": "Most used chamber: Crusade Management",
+          "peakActivity": "Peak vigil: 14:00-15:00",
+          "efficiencyScore": "Efficiency: 87%"
         }
       },
       "webllm": {
         "models": {
-          "title": "🧠 Available LLM Models",
-          "currentModel": "Current Model: {{model}}",
-          "loadModel": "Load Model"
+          "title": "🧠 Available Oracle Models",
+          "currentModel": "Present Oracle: {{model}}",
+          "loadModel": "Summon Model"
         },
         "compatibility": {
-          "title": "✅ Browser Compatibility",
-          "checking": "🔄 Checking compatibility...",
+          "title": "✅ Chamber Compatibility",
+          "checking": "🔄 Checking compatibility…",
           "checkCompatibility": "🔍 Check Compatibility"
         },
         "status": {
-          "title": "⚡ WebLLM Status",
-          "initialized": "System Initialized: {{status}}",
-          "currentModel": "Current Model: {{model}}",
-          "loading": "Model Loading: {{status}}",
-          "inferencing": "Inference Status: {{status}}",
-          "queueLength": "Queue Length: {{length}}",
-          "loadedModels": "Loaded Models: {{count}}",
-          "mode": "Operating Mode: {{mode}}",
-          "initialize": "🚀 Initialize WebLLM"
+          "title": "⚡ Oracle Status",
+          "initialized": "Summoned: {{status}}",
+          "currentModel": "Present Oracle: {{model}}",
+          "loading": "Summoning: {{status}}",
+          "inferencing": "Deliberating: {{status}}",
+          "queueLength": "Queue: {{length}}",
+          "loadedModels": "Active Oracles: {{count}}",
+          "mode": "Mode: {{mode}}",
+          "initialize": "⚔️ Summon Oracle"
         },
         "settings": {
-          "title": "⚙️ WebLLM Settings",
-          "agentModelAssignment": "Agent Model Assignment:",
-          "useGlobal": "Use Global Model",
-          "perAgent": "Per-Agent Models",
-          "temperature": "Temperature:",
+          "title": "⚙️ Oracle Configuration",
+          "agentModelAssignment": "Knight Model Assignment:",
+          "useGlobal": "Use Chapter Oracle",
+          "perAgent": "Per-Knight Oracles",
+          "temperature": "Fervor:",
           "maxTokens": "Max Tokens:",
-          "saveSettings": "💾 Save Settings",
-          "resetDefaults": "🔄 Reset to Defaults"
+          "saveSettings": "📜 Inscribe Config",
+          "resetDefaults": "🔄 Restore Defaults"
         }
       },
       "mqtt": {
         "logs": {
-          "title": "📋 MQTT Live Logs",
-          "noMessages": "No messages received yet...",
-          "waitingTraffic": "Waiting for MQTT traffic on port 4140",
-          "reconnect": "🔄 Reconnect Connection",
-          "messages": "Messages: {{count}}",
+          "title": "📜 Herald Feed",
+          "noMessages": "No heralds received…",
+          "waitingTraffic": "Awaiting herald traffic on port 4140",
+          "reconnect": "🔄 Reconnect",
+          "messages": "Heralds: {{count}}",
           "lastMessage": "Last: {{time}}",
-          "clearLogs": "🗑️ Clear Logs",
-          "export": "💾 Export Archive"
+          "clearLogs": "🗑️ Purge Feed",
+          "export": "📜 Transcribe Archive"
         },
         "status": {
-          "title": "🔌 MQTT Connection Status",
-          "status": "Connection Status: {{status}}",
-          "broker": "MQTT Broker: {{broker}}",
-          "clientId": "Client ID: swarmdesk_{{id}}",
-          "messagesReceived": "Messages Received: {{count}}",
-          "lastActivity": "Last Activity: {{time}}",
-          "subscriptions": "📡 Subscriptions:",
-          "connect": "🔄 Establish Connection",
-          "disconnect": "🔌 Terminate Connection"
+          "title": "🔌 Herald Connexion",
+          "status": "Connexion: {{status}}",
+          "broker": "Herald Post: {{broker}}",
+          "clientId": "Sigil ID: swarmdesk_{{id}}",
+          "messagesReceived": "Heralds Received: {{count}}",
+          "lastActivity": "Last Vigil: {{time}}",
+          "subscriptions": "📡 Listening:",
+          "connect": "🔄 Establish Connexion",
+          "disconnect": "🔌 Sever Connexion"
         },
         "settings": {
-          "title": "⚙️ MQTT Settings",
-          "brokerAddress": "Broker Address:",
-          "subscribeTopics": "Subscribe to Topics:",
-          "autoReconnect": "Auto-reconnect on disconnect",
+          "title": "⚙️ Herald Configuration",
+          "brokerAddress": "Herald Post Address:",
+          "subscribeTopics": "Listen to Topics:",
+          "autoReconnect": "Auto-reconnect on severance",
           "showTimestamps": "Show timestamps",
-          "saveSettings": "💾 Save Settings",
-          "resetDefaults": "🔄 Reset to Defaults"
+          "saveSettings": "📜 Inscribe Config",
+          "resetDefaults": "🔄 Restore Defaults"
         }
       },
-      "settings": "Config",
-      "chat": "AIs",
-      "insights": "Analytics",
-      "projects": "Projects",
-      "todos": "Todo Queue"
+      "settings": "Charter",
+      "chat": "Oracles",
+      "insights": "Vigil Analytics",
+      "projects": "Crusades",
+      "todos": "Charge Queue"
     },
     "projectData": {
-      "title": "📂 Project Information",
-      "subtitle": "Project Management Hub",
-      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "title": "📜 Crusade Registry",
+      "subtitle": "Crusade Management Hub",
+      "description": "Sacred registry and chapter tools for organizing work and tracking progress.",
       "projectReadmes": {
         "inventorium": {
-          "title": "📊 Inventorium - Project Dashboard",
-          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "title": "📜 Inventorium — Chapter Dashboard",
+          "description": "Charge and crusade management dashboard with integrated tools.",
           "features": [
             "📈 Project progress tracking and analytics",
             "🎯 Task management and prioritization",
@@ -2034,8 +2035,8 @@
           ]
         },
         "omnispindle": {
-          "title": "🔗 Omnispindle - Integration Platform",
-          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "title": "🔗 Omnispindle — Alliance Platform",
+          "description": "Communication platform connecting chapter orders and services.",
           "features": [
             "🔧 Multi-platform connectivity",
             "⚙️ Automated workflow processing",
@@ -2046,179 +2047,179 @@
         }
       },
       "swarmDesk": {
-        "title": "🖥️ SwarmDesk",
-        "description": "3D interactive agent command center - the interface for the Madness Interactive environment",
+        "title": "⚔️ War Council",
+        "description": "3D chapter house — the sacred command environment",
         "features": [
           "🖥️ 3D interactive workspace environment",
           "🤖 Direct agent communication",
           "📊 Real-time system monitoring",
           "⚡ System performance optimization"
         ],
-        "status": "🔥 Active Development",
+        "status": "🔥 Active Crusade",
         "visibility": "public repository"
       },
       "inventorium": {
         "title": "📦 Inventorium",
-        "description": "Todo Inventory management system - Keep up with Agents at speed, and edit their thoughts as they process and execute",
+        "description": "Charge management — track agents and their work in the sacred registry",
         "features": [
           "📋 Task tracking",
           "🏷️ Smart categorization",
           "📈 Analytics dashboard",
           "🔄 Cross-system integration"
         ],
-        "status": "🚀 Active Development (private repository)",
-        "visibility": "private environment"
+        "status": "⚔️ Active Development (private)",
+        "visibility": "private chapter"
       },
       "swarmonomicon": {
         "title": "🐝 Swarmonomicon",
-        "description": "AI agent swarm coordination system for centralized orchestration and collective intelligence",
+        "description": "Knight swarm coordination for collective intelligence and orchestration",
         "features": [
           "🤖 Agent orchestration",
           "💬 Communication protocols",
           "🖥️ Interactive interfaces",
           "🧠 Collective intelligence"
         ],
-        "status": "✨ modularly functional",
+        "status": "✨ Modularly functional",
         "visibility": "public repository"
       }
     },
     "errors": {
-      "connectionFailed": "❌ Connection Failed",
-      "loadingError": "⚠️ Loading Error",
-      "permissionDenied": "🔒 Access Denied",
-      "systemUnavailable": "🚫 System Unavailable",
-      "unknownError": "❓ Unknown Error",
-      "initializationFailed": "SwarmDesk system scripts failed to load within timeout",
-      "sceneInitFailed": "❌ Scene initialization failed:",
-      "panelSystemFailed": "❌ Failed to create panel system:",
-      "panelSystemMissing": "⚠️ FloatingPanelSystem not available",
-      "controlsInitFailed": "Failed to initialize standardized controls:",
-      "basicSceneFailed": "❌ Failed to initialize basic Three.js scene:"
+      "connectionFailed": "❌ Connexion Failed",
+      "loadingError": "⚠️ Consultation Error",
+      "permissionDenied": "🔒 Access Sealed",
+      "systemUnavailable": "🚫 Chapter Unavailable",
+      "unknownError": "❓ Unknown Anomaly",
+      "initializationFailed": "War Council failed to assemble within the allotted time",
+      "sceneInitFailed": "❌ Scene failed to manifest:",
+      "panelSystemFailed": "❌ Failed to erect chamber system:",
+      "panelSystemMissing": "⚠️ Chamber system unavailable",
+      "controlsInitFailed": "Failed to ready navigation controls:",
+      "basicSceneFailed": "❌ Failed to manifest basic scene:"
     },
     "status": {
-      "initializing": "⚙️ Initializing System...",
-      "loading": "📊 Loading Configuration...",
-      "ready": "✅ System Ready",
-      "error": "❌ System Error",
-      "offline": "⚠️ Offline Mode - Limited Features",
-      "initialized": "✅ SwarmDesk tab initialized successfully",
-      "scriptsLoaded": "✅ SwarmDesk scripts loaded successfully",
-      "scriptsTimeout": "⚠️ SwarmDesk scripts loading timeout",
-      "containerNotReady": "⚠️ Container not ready yet",
-      "panelSystemExists": "🏷️ Panel system already exists, ensuring proper state",
-      "panelSystemMissing": "⚠️ Panel system missing handleKeyboard, reinitializing...",
-      "panelSystemCreated": "✅ Panel system created successfully",
-      "disconnected": "Datastore disconnected",
-      "connected": "Connected to datastore",
-      "synced": "Synced",
-      "syncing": "Syncing…"
+      "initializing": "⚙️ Assembling Council…",
+      "loading": "📜 Consulting Registry…",
+      "ready": "✅ Council Ready",
+      "error": "❌ Council Error",
+      "offline": "⚠️ Offline — Local Vigil",
+      "initialized": "✅ War Council assembled",
+      "scriptsLoaded": "✅ Council scripts loaded",
+      "scriptsTimeout": "⚠️ Council scripts load timeout",
+      "containerNotReady": "⚠️ Chapter house not ready",
+      "panelSystemExists": "🏷️ Chamber system present — verifying",
+      "panelSystemMissing": "⚠️ Chamber system missing — reassembling…",
+      "panelSystemCreated": "✅ Chamber system erected",
+      "disconnected": "Archive severed",
+      "connected": "Bound to Archive",
+      "synced": "Synchronised",
+      "syncing": "Synchronising…"
     },
     "actions": {
-      "create": "🆕 Create New",
-      "view": "👁️ View Details",
-      "edit": "✏️ Edit Item",
-      "delete": "🗑️ Delete Item",
-      "refresh": "🔄 Refresh Data",
-      "connect": "🔗 Connect Service",
-      "deploy": "🚀 Deploy Strategic Initiative",
-      "monitor": "📊 Monitor Performance Metrics",
-      "optimize": "⚡ Optimize Resource Allocation",
-      "analyze": "📈 Generate Strategic Analysis",
-      "configure": "⚙️ Configure System Parameters"
+      "create": "⚔️ Pledge",
+      "view": "👁️ Examine",
+      "edit": "📜 Amend Charge",
+      "delete": "🗑️ Expunge",
+      "refresh": "🔄 Renew",
+      "connect": "🔗 Join Order",
+      "deploy": "⚔️ Ride Forth",
+      "monitor": "📜 Chronicle Progress",
+      "optimize": "⚡ Refine Conduct",
+      "analyze": "📜 Seek Counsel",
+      "configure": "⚙️ Amend Configuration"
     },
     "notifications": {
-      "todoCompleted": "Todo resolved",
-      "projectCreated": "Project provisioned",
-      "todoCreated": "Todo opened",
-      "syncComplete": "Datastore synced",
-      "todoDeleted": "Todo decommissioned"
+      "todoCompleted": "Charge fulfilled",
+      "projectCreated": "Crusade declared",
+      "todoCreated": "Charge pledged",
+      "syncComplete": "Archive consulted",
+      "todoDeleted": "Charge expunged"
     },
     "controls": {
-      "reset": "Reset View",
-      "exitFullscreen": "Exit Full Screen",
+      "reset": "Restore View",
+      "exitFullscreen": "Depart Full Chamber",
       "zoom": "Zoom",
       "rotate": "Rotate",
-      "fullscreen": "Full Screen",
-      "move": "Move"
+      "fullscreen": "Full Chamber",
+      "move": "March"
     },
     "chatPanel": {
-      "send": "Send",
-      "title": "AIs",
-      "placeholder": "Query…",
-      "loading": "Loading…"
+      "send": "Convey",
+      "title": "Oracle Counsel",
+      "placeholder": "Seek…",
+      "loading": "Consulting…"
     },
     "tour": {
-      "panels": "Use panels to query todos and run diagnostics",
-      "welcome": "Welcome to SwarmDesk  Center",
-      "interaction": "Click nodes to manage todos",
-      "navigation": "WASD to navigate, mouse to look",
-      "complete": "center ready"
+      "panels": "Use chambers to examine charges and seek counsel",
+      "welcome": "Welcome to the War Council",
+      "interaction": "Click nodes to tend to charges",
+      "navigation": "WASD to navigate, mouse to survey",
+      "complete": "War council ready"
     },
     "agentPanel": {
       "status": {
-        "offline": "Offline",
-        "idle": "Idle",
-        "active": "Active"
+        "offline": "Absent",
+        "idle": "At Rest",
+        "active": "Vigilant"
       },
-      "title": "Agent Status",
-      "loading": "Querying agents…",
-      "empty": "No agents registered."
+      "title": "Knight Status",
+      "loading": "Consulting chapter rolls…",
+      "empty": "No knights registered."
     },
     "projectPanel": {
-      "select": "Select Project",
-      "title": "Active Projects",
-      "empty": "No projects provisioned.",
-      "loading": "Querying projects…",
-      "create": "Create Project",
-      "selected": "Active: {{name}}"
+      "select": "Select Crusade",
+      "title": "Active Crusades",
+      "empty": "No crusades declared.",
+      "loading": "Consulting crusade records…",
+      "create": "Declare Crusade",
+      "selected": "Active Crusade: {{name}}"
     },
     "hotkeys": {
-      "mouse": "Mouse: Look",
+      "mouse": "Mouse: Survey",
       "space": "Space: Select",
-      "title": "Hotkey Reference",
-      "escape": "ESC: Exit",
-      "tab": "TAB: Switch Panel",
-      "wasd": "WASD: Navigate"
+      "title": "Shortcut Reference",
+      "escape": "ESC: Depart",
+      "tab": "TAB: Switch Chamber",
+      "wasd": "WASD: March"
     },
     "nodes": {
-      "edit": "Edit Todo",
-      "view": "View Details",
-      "delete": "Delete",
-      "complete": "Complete",
-      "create": "Open Todo",
-      "move": "Reassign"
+      "edit": "Amend Charge",
+      "view": "Examine",
+      "delete": "Expunge",
+      "complete": "Fulfill",
+      "create": "Pledge Charge",
+      "move": "Transfer"
     },
     "filters": {
-      "inProgress": "In Progress",
-      "review": "Review",
-      "all": "All Todos",
-      "pending": "Pending",
-      "blocked": "Blocked"
+      "inProgress": "Under Arms",
+      "review": "Examination",
+      "all": "All Charges",
+      "pending": "Outstanding",
+      "blocked": "Hindered"
     },
     "sort": {
-      "created": "Date Opened",
-      "name": "Alphabetical",
-      "updated": "Recently Updated",
-      "priority": "Priority"
+      "created": "Date Pledged",
+      "name": "By Inscription",
+      "updated": "Recently Amended",
+      "priority": "By Precedence"
     },
     "todoPanel": {
-      "loading": "Querying todos…",
-      "empty": "Board is clear.",
-      "title": "Todo Queue"
+      "loading": "Consulting the Archive…",
+      "empty": "The roster stands empty.",
+      "title": "Charge Roster"
     },
     "empty": {
-      "message": "Open a todo to populate the ops center.",
-      "title": "No nodes in view"
+      "message": "Pledge a charge to populate the war council.",
+      "title": "The council chamber stands empty"
     },
     "createTodo": {
-      "placeholder": "Todo description…",
-      "cancel": "Cancel",
-      "submit": "Open Todo",
-      "title": "Open New Todo"
+      "placeholder": "Charge description…",
+      "cancel": "Withdraw",
+      "submit": "Pledge Charge",
+      "title": "Pledge New Charge"
     },
-    "loading": "Loading…",
-    "error": "SwarmDesk query failed: {{error}}",
-    "title": "🎪 SwarmDesk  Center"
+    "loading": "Consulting the Archive…",
+    "error": "War council failed: {{error}}",
+    "title": "⚔️ War Council"
   },
   "spells": {
     "names": {
@@ -2232,90 +2233,90 @@
       "consolidate_similar": "Unite and merge overlapping quests to strengthen the Order's focus"
     },
     "interface": {
-      "title": "🪄 Task Enhancement Tools",
-      "subtitle": "Use AI-powered tools to improve your task management",
-      "selectSpell": "Choose Enhancement Tool",
-      "castSpell": "Apply Enhancement",
-      "cancelSpell": "Cancel",
-      "casting": "Processing Enhancement...",
-      "resultsTitle": "✨ Enhancement Results",
-      "historyTitle": "📜 Enhancement History",
-      "clearHistory": "Clear History",
-      "noHistory": "No enhancements have been applied",
-      "placeholder": "Select a tool to enhance your tasks..."
+      "title": "⚔️ Charge Enhancement Rites",
+      "subtitle": "Employ Oracle-powered rites to improve your charge management",
+      "selectSpell": "Choose Enhancement Rite",
+      "castSpell": "Invoke Rite",
+      "cancelSpell": "Withdraw",
+      "casting": "Invoking Rite...",
+      "resultsTitle": "✨ Rite Results",
+      "historyTitle": "📜 Rite Chronicle",
+      "clearHistory": "Clear Chronicle",
+      "noHistory": "No rites have been invoked",
+      "placeholder": "Select a rite to enhance your charges..."
     },
     "effects": {
-      "particles": "Processing indicators active",
-      "energy": "System processing",
-      "casting": "Enhancement in progress",
-      "complete": "Enhancement completed successfully"
+      "particles": "Sacred rite indicators active",
+      "energy": "Rite in motion",
+      "casting": "Invocation in progress",
+      "complete": "Invocation complete"
     },
     "results": {
       "enhance": {
-        "success": "🧠 Task enhanced with AI insights!",
-        "improvement": "Enhancement applied to task description",
-        "insights": "Key insights:",
-        "suggestions": "Recommendations:"
+        "success": "📜 Charge illuminated by Oracle counsel!",
+        "improvement": "Illumination applied to charge description",
+        "insights": "Key revelations:",
+        "suggestions": "Counsel:"
       },
       "geomancy": {
-        "success": "🔍 Patterns identified in your project!",
-        "insights": "Analysis findings:",
+        "success": "🔍 Patterns revealed in crusade!",
+        "insights": "Oracle findings:",
         "patterns": "Pattern analysis:",
-        "recommendations": "Recommendations:",
-        "analysis": "Analysis completed"
+        "recommendations": "Counsel:",
+        "analysis": "Analysis complete"
       },
       "consolidate": {
-        "success": "🔗 Similar tasks consolidated successfully!",
-        "merged": "{{count}} tasks merged successfully",
-        "candidates": "Consolidation candidates:",
-        "preview": "Merge preview:",
-        "confirmation": "Proceed with consolidation?"
+        "success": "🔗 Duplicate charges united!",
+        "merged": "{{count}} charges united",
+        "candidates": "Unification candidates:",
+        "preview": "Union preview:",
+        "confirmation": "Proceed with unification?"
       },
-      "title": "Spell Results",
+      "title": "Rite Results",
       "latest": "Latest",
-      "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "noResults": "No results yet. Invoke a rite to see results here.",
+      "summary": "{{count}} rite results"
     },
     "errors": {
-      "castingFailed": "Enhancement failed: {{error}}",
-      "noDescription": "Task description is required for enhancement",
-      "rateLimited": "Enhancement limit reached. Please wait: {{timeRemaining}}",
-      "aiError": "AI system encountered an error",
-      "networkError": "Network connection error",
-      "invalidSpell": "Unknown enhancement tool requested",
-      "unauthorized": "Insufficient permissions for this enhancement"
+      "castingFailed": "Invocation failed: {{error}}",
+      "noDescription": "Charge description required for illumination",
+      "rateLimited": "Rite limit reached. Wait: {{timeRemaining}}",
+      "aiError": "Oracle system error",
+      "networkError": "Herald connexion error",
+      "invalidSpell": "Unknown rite requested",
+      "unauthorized": "Insufficient authority for this rite"
     },
     "rateLimit": {
-      "enhance": "Enhancement uses: {{used}}/{{limit}} remaining",
-      "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
-      "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
-      "resetTime": "Usage resets in: {{time}}",
-      "depleted": "Enhancement limit reached temporarily"
+      "enhance": "Illumination uses: {{used}}/{{limit}} remaining",
+      "geomancy": "Pattern-seeking uses: {{used}}/{{limit}} remaining",
+      "consolidate": "Unification uses: {{used}}/{{limit}} remaining",
+      "resetTime": "Resets in: {{time}}",
+      "depleted": "Rite limit reached"
     },
     "tooltip": {
-      "castSpell": "Apply AI enhancement (🪄)",
-      "enhanceDescription": "Enhance with AI insights (Ctrl+E)",
-      "performGeomancy": "Analyze patterns (Ctrl+G)",
-      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
-      "spellHistory": "View enhancement history",
-      "clearHistory": "Clear enhancement history"
+      "castSpell": "Invoke sacred rite",
+      "enhanceDescription": "Illuminate charge (Ctrl+E)",
+      "performGeomancy": "Seek patterns (Ctrl+G)",
+      "consolidateSimilar": "Find duplicates (Ctrl+C)",
+      "spellHistory": "View rite chronicle",
+      "clearHistory": "Purge rite chronicle"
     },
     "keyboard": {
-      "shortcuts": "🪄 Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - AI Enhancement",
-      "geomancy": "Ctrl+G - Pattern Analysis",
-      "consolidate": "Ctrl+C - Task Consolidation",
-      "cancel": "Esc - Cancel"
+      "shortcuts": "⌨️ Keyboard Shortcuts:",
+      "enhance": "Ctrl+E — Illuminate Charge",
+      "geomancy": "Ctrl+G — Seek Patterns",
+      "consolidate": "Ctrl+C — Find Duplicates",
+      "cancel": "Esc — Withdraw"
     },
     "history": {
-      "timestamp": "Timestamp:",
-      "spellType": "Enhancement type:",
-      "target": "Target task:",
-      "result": "Result:",
-      "success": "✅ Successful",
-      "failed": "❌ Failed",
+      "timestamp": "Time:",
+      "spellType": "Rite type:",
+      "target": "Target charge:",
+      "result": "Outcome:",
+      "success": "✅ Fulfilled",
+      "failed": "❌ Unfulfilled",
       "duration": "Duration:",
-      "empty": "No enhancements recorded",
+      "empty": "No rites recorded",
       "justNow": "In this holy hour",
       "minutesAgo": "{{count}} prayers ago",
       "hoursAgo": "{{count}} vigils ago",
@@ -2341,65 +2342,65 @@
       "castFailed": "The light faded.",
       "showing": "Witnessing",
       "totalCasts": "Total Miracles",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle rite chronicle"
     },
     "status": {
-      "idle": "Enhancement tools ready",
-      "casting": "Applying enhancement...",
-      "processing": "Processing data...",
-      "complete": "Enhancement completed",
-      "failed": "Enhancement failed",
-      "cooldown": "System cooling down...",
-      "success": "Success"
+      "idle": "Rites ready",
+      "casting": "Invoking rite…",
+      "processing": "Processing…",
+      "complete": "Rite complete",
+      "failed": "Rite failed",
+      "cooldown": "Resting between rites…",
+      "success": "Fulfilled"
     },
     "enhance_description": {
       "name": "Divine Revelation",
-      "description": "Use AI to enhance and clarify this task description",
-      "button": "Enhance Description",
-      "casting": "Enhancing description..."
+      "description": "Invoke the Oracle to illuminate this charge description",
+      "button": "Illuminate Description",
+      "casting": "Illuminating description…"
     },
     "perform_geomancy": {
       "name": "Hallowed Ground",
-      "description": "Analyze patterns and relationships for this task",
-      "button": "Analyze Patterns",
-      "casting": "Analyzing patterns..."
+      "description": "Seek patterns and connexions for this charge",
+      "button": "Seek Patterns",
+      "casting": "Consulting the Oracle…"
     },
     "consolidate_similar": {
       "name": "Sacred Union",
-      "description": "Find and merge similar tasks to reduce duplication",
-      "button": "Find Similar",
-      "casting": "Searching for similar tasks..."
+      "description": "Find and unite similar charges to reduce duplication",
+      "button": "Seek Similar",
+      "casting": "Seeking similar charges…"
     },
     "suggest_tags": {
       "name": "Virtue Naming"
     },
     "system": {
-      "title": "Spell System"
+      "title": "Sacred Rite System"
     },
     "accessDenied": {
-      "title": "Access Denied",
-      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+      "title": "Access Sealed",
+      "description": "Thou dost not have the authority to perform these rites. Join the order or seek elevation."
     },
-    "noTodoSelected": "No todo selected",
-    "availableSpells": "Available Spells",
-    "keyboardShortcut": "Keyboard Shortcut",
+    "noTodoSelected": "No charge selected",
+    "availableSpells": "Available Rites",
+    "keyboardShortcut": "Rune Binding",
     "estimatedTime": "Estimated Time",
     "tip": {
-      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+      "castMultiple": "Invoke multiple rites on one charge for deeper counsel"
     },
     "meta": {
-      "maxPerHour": "Max casts per hour",
-      "lastCast": "Last cast"
+      "maxPerHour": "Max invocations per hour",
+      "lastCast": "Last invoked"
     },
     "result": {
       "confidence": "Confidence"
     },
     "error": {
-      "unknown": "An unknown error occurred"
+      "unknown": "An unknown error transpired"
     },
     "enhanceDescription": {
       "result": {
-        "title": "Enhanced Description",
+        "title": "Illuminated Description",
         "before": "Before",
         "after": "After",
         "improvements": "Improvements"
@@ -2407,8 +2408,8 @@
     },
     "performGeomancy": {
       "result": {
-        "insights": "Insights",
-        "relatedProjects": "Related Projects"
+        "insights": "Revelations",
+        "relatedProjects": "Related Crusades"
       },
       "insights": {
         "complexity": "Complexity",
@@ -2417,121 +2418,122 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": "Found {{count}} similar charges",
       "result": {
-        "consolidated": "Consolidated Description",
-        "suggestions": "Merge Suggestions"
+        "consolidated": "United Description",
+        "suggestions": "Union Suggestions"
       }
     },
     "consolidate": {
-      "description": "Identify and merge duplicate todos",
-      "casting": "Scanning for duplicates…",
-      "title": "Consolidate Todos",
-      "button": "Find Duplicates",
-      "success": "Consolidation complete"
+      "description": "Identify and unite duplicate charges",
+      "casting": "Seeking duplicate charges…",
+      "title": "Unite Charges",
+      "button": "Seek Duplicates",
+      "success": "Charges united"
     },
     "geomancy": {
-      "title": "Pattern Analysis",
-      "button": "Analyze Patterns",
-      "description": "Identify patterns and dependencies",
-      "casting": "Running analysis…",
-      "success": "Analysis complete"
+      "title": "Seek Patterns",
+      "button": "Seek Patterns",
+      "description": "Identify patterns and connexions",
+      "casting": "Consulting the Oracle…",
+      "success": "Patterns revealed"
     },
     "categories": {
       "consolidate": "Consolidate",
-      "analyze": "Analyze",
+      "analyze": "Analyse",
       "enhance": "Enhance"
     },
     "enhance": {
-      "button": "Enhance Todo",
-      "description": "Use AI to improve todo description",
-      "success": "Todo enhanced",
-      "title": "Enhance Todo",
-      "casting": "Enhancing…"
+      "button": "Enhance Charge",
+      "description": "Invoke the Oracle to illuminate this charge",
+      "success": "Charge illuminated",
+      "title": "Enhance Charge",
+      "casting": "Invoking…"
     },
-    "title": "🔬 AI Tools",
-    "available": "Available diagnostics",
-    "description": "AI-powered analytics for todo management"
+    "title": "⚔️ Sacred Rites",
+    "available": "Available rites",
+    "description": "Oracle-powered rites for charge management"
   },
   "insights": {
-    "loading": "Loading insights...",
+    "loading": "Consulting the Oracle…",
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
-      "systemLogs": "System Logs"
+      "systemLogs": "Chronicle",
+      "performance": "Performance"
     }
   },
   "admin": {
     "tabs": {
       "overview": "Overview",
-      "users": "Users",
+      "users": "Knights",
       "analytics": "Analytics",
-      "featureFlags": "Feature Flags",
-      "systemLogs": "System Logs"
+      "featureFlags": "Order Rites",
+      "systemLogs": "Chapter Chronicle"
     },
     "overview": {
-      "title": "Laboratory Overview",
-      "loading": "Analyzing laboratory data...",
-      "refresh": "Refresh statistics",
+      "title": "Chapter Overview",
+      "loading": "Consulting chapter records…",
+      "refresh": "Renew from Archive",
       "fallback": "(showing mock data for development)",
-      "totalUsers": "Total Users",
-      "totalUsersSubtitle": "All registered users",
+      "totalUsers": "Total Knights",
+      "totalUsersSubtitle": "All sworn knights",
       "activeUsers": "Active (7d)",
-      "activeUsersSubtitle": "Users active this week",
-      "premiumUsers": "Premium Users",
-      "premiumUsersSubtitle": "Paid subscriptions",
-      "errors": "Errors (24h)",
-      "errorsSubtitle": "System errors today",
-      "tierDistribution": "Tier Distribution",
+      "activeUsersSubtitle": "Knights active this week",
+      "premiumUsers": "Senior Knights",
+      "premiumUsersSubtitle": "Paid memberships",
+      "errors": "Anomalies (24h)",
+      "errorsSubtitle": "Chapter errors today",
+      "tierDistribution": "Rank Distribution",
       "tier": {
-        "free": "Free",
-        "pro": "Pro",
-        "premium": "Premium",
-        "admin": "Admin"
+        "free": "Initiate",
+        "pro": "Knight",
+        "premium": "Paladin",
+        "admin": "Grand Master"
       },
-      "productivity": "Productivity Metrics",
-      "totalTodos": "Total Todos",
-      "completedTodos": "Completed",
-      "completionRate": "Completion Rate"
+      "productivity": "Chapter Productivity",
+      "totalTodos": "Total Charges",
+      "completedTodos": "Fulfilled",
+      "completionRate": "Fulfillment Rate"
     },
     "analytics": {
-      "title": "Advanced Analytics",
-      "loading": "Loading experimental protocols...",
-      "comingSoon": "Analytics Laboratory Under Construction",
-      "description": "Advanced charts and data visualization apparatus are currently being calibrated. Check back soon for powerful insights into user behavior, system performance, and laboratory productivity metrics.",
+      "title": "Vigil Analytics",
+      "loading": "Consulting the Oracle…",
+      "comingSoon": "Analytics Chamber Under Construction",
+      "description": "Advanced chronicles and illuminations are being prepared. Check back soon.",
       "timeframe": {
         "day": "Last 24 Hours",
         "week": "Last 7 Days",
         "month": "Last 30 Days",
         "year": "Last 12 Months"
       },
-      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of data science!",
+      "futureHint": "Coming soon: Custom date ranges, scroll export, real-time updates, cohort analysis.",
       "charts": {
-        "userGrowth": "User Growth Trends",
-        "userGrowthDesc": "Track new user registrations over time",
-        "activityHeatmap": "Activity Heatmap",
-        "activityHeatmapDesc": "Visualize user activity patterns by hour/day",
-        "featureUsage": "Feature Usage Distribution",
-        "featureUsageDesc": "Which features are most popular?",
-        "performance": "System Performance Metrics",
-        "performanceDesc": "API response times and error rates"
+        "userGrowth": "Knight Growth",
+        "userGrowthDesc": "New knight inductions over time",
+        "activityHeatmap": "Vigil Heatmap",
+        "activityHeatmapDesc": "Knight activity by hour/day",
+        "featureUsage": "Rite Usage",
+        "featureUsageDesc": "Most-invoked rites",
+        "performance": "Chapter Performance",
+        "performanceDesc": "Response times and error rates"
       }
     },
     "logs": {
-      "title": "System Logs",
-      "loading": "Analyzing laboratory recordings...",
-      "refresh": "Refresh logs",
+      "title": "Chapter Chronicle",
+      "loading": "Consulting the chronicle…",
+      "refresh": "Renew chronicle",
       "fallback": "(showing mock data for development)",
-      "autoRefresh": "Auto-refresh (30s)",
-      "showing": "Showing",
-      "entries": "entries",
-      "empty": "No logs found - laboratory running smoothly!",
+      "autoRefresh": "Vigil (30s)",
+      "showing": "Displaying",
+      "entries": "inscriptions",
+      "empty": "No inscriptions — the chapter stands in good order",
       "columns": {
         "timestamp": "Time",
         "level": "Level",
-        "message": "Message",
-        "user": "User",
-        "endpoint": "Endpoint"
+        "message": "Inscription",
+        "user": "Knight",
+        "endpoint": "Passage"
       },
       "severity": {
         "error": "ERROR",
@@ -2540,93 +2542,93 @@
       }
     },
     "featureFlags": {
-      "title": "Feature Flags",
-      "loading": "Loading experimental protocols...",
-      "refresh": "Refresh flags",
+      "title": "Order Rites",
+      "loading": "Consulting order rites…",
+      "refresh": "Renew rites",
       "fallback": "(showing mock data for development)",
-      "lastUpdated": "Last updated",
-      "unsavedChanges": "You have unsaved changes. These will affect all users when saved!",
-      "save": "Save Changes",
-      "cancel": "Cancel",
-      "saving": "Saving...",
-      "confirmSave": "Yes, Apply Changes",
+      "lastUpdated": "Last revised",
+      "unsavedChanges": "Uninscribed changes pending — will affect all knights on inscription.",
+      "save": "Inscribe Changes",
+      "cancel": "Withdraw",
+      "saving": "Inscribing…",
+      "confirmSave": "Apply Changes",
       "tiers": {
-        "free": "Free Tier",
-        "pro": "Pro Tier",
-        "premium": "Premium Tier",
-        "admin": "Admin Tier"
+        "free": "Initiate Rank",
+        "pro": "Knight Rank",
+        "premium": "Paladin Rank",
+        "admin": "Grand Master Rank"
       },
       "flags": {
-        "basic_todos": "Basic Todos",
-        "chat_interface": "Chat Interface",
-        "theme_selector": "Theme Selector",
-        "export_todos": "Export Todos",
-        "advanced_search": "Advanced Search",
-        "unlimited_todos": "Unlimited Todos",
-        "mindmap_view": "Mind Map View",
-        "custom_themes": "Custom Themes",
+        "basic_todos": "Basic Charges",
+        "chat_interface": "Oracle Interface",
+        "theme_selector": "Vestment Selector",
+        "export_todos": "Transcribe Charges",
+        "advanced_search": "Advanced Seeking",
+        "unlimited_todos": "Unlimited Charges",
+        "mindmap_view": "Battle Map View",
+        "custom_themes": "Custom Vestments",
         "api_access": "API Access",
-        "priority_support": "Priority Support",
-        "swarmdesk_3d": "SwarmDesk 3D",
-        "collaborative_editing": "Collaborative Editing",
-        "ai_copilot": "AI Copilot",
-        "admin_panel": "Admin Panel",
-        "user_management": "User Management",
-        "feature_flags": "Feature Flags",
-        "system_logs": "System Logs",
+        "priority_support": "Priority Counsel",
+        "swarmdesk_3d": "War Council 3D",
+        "collaborative_editing": "Joint Authorship",
+        "ai_copilot": "Oracle Copilot",
+        "admin_panel": "Grand Master Panel",
+        "user_management": "Knight Management",
+        "feature_flags": "Order Rites",
+        "system_logs": "Chapter Chronicle",
         "analytics": "Analytics",
         "debug_mode": "Debug Mode"
       },
       "confirm": {
-        "title": "Confirm Feature Flag Changes",
-        "message": "Are you sure you want to apply these changes? This will immediately affect all users across the platform. Feature flags control access to core functionality.",
-        "warning": "Tip: Test changes on a staging environment first. Disabling critical features may break user workflows."
+        "title": "Confirm Rite Changes",
+        "message": "Apply these rite changes? This will immediately affect all knights.",
+        "warning": "Tip: Test on a chapter house first. Disabling core rites may break knight access."
       }
     },
     "users": {
-      "title": "User Management",
-      "loading": "Cataloging test subjects...",
-      "refresh": "Refresh user list",
+      "title": "Knight Management",
+      "loading": "Consulting chapter rolls…",
+      "refresh": "Renew rolls",
       "fallback": "(showing mock data for development)",
-      "searchPlaceholder": "Search by email or name...",
-      "showing": "Showing",
-      "users": "users",
+      "searchPlaceholder": "Seek by missive or name…",
+      "showing": "Displaying",
+      "users": "knights",
       "filtered": "filtered from",
-      "empty": "No users registered yet",
-      "noResults": "No users found matching your search",
-      "adminBadge": "ADMIN",
+      "empty": "No knights sworn to the order",
+      "noResults": "No knights found in this seeking",
+      "adminBadge": "GRAND MASTER",
       "edit": {
-        "title": "Edit User",
-        "email": "Email",
-        "tier": "Tier",
-        "isAdmin": "Grant Admin Access",
-        "cancel": "Cancel",
-        "save": "Save",
-        "saving": "Saving..."
+        "title": "Amend Knight Record",
+        "email": "Missive",
+        "tier": "Rank",
+        "isAdmin": "Grant Grand Master Authority",
+        "cancel": "Withdraw",
+        "save": "Inscribe",
+        "saving": "Inscribing…"
       },
       "columns": {
-        "email": "Email",
-        "tier": "Tier",
-        "status": "Status",
-        "lastLogin": "Last Login",
-        "todos": "Todos",
+        "email": "Missive",
+        "tier": "Rank",
+        "status": "Standing",
+        "lastLogin": "Last Entry",
+        "todos": "Charges",
         "actions": "Actions"
       },
       "confirm": {
-        "title": "Confirm Admin Access Change",
-        "grantMessage": "You are about to grant admin privileges to this user. This will give them full access to the admin panel, including user management, feature flags, and system logs.",
-        "revokeMessage": "You are about to revoke admin privileges from this user. They will lose access to all admin functionality.",
-        "cancel": "Cancel",
-        "confirm": "Yes, Confirm",
-        "saving": "Saving..."
+        "title": "Confirm Authority Change",
+        "grantMessage": "Grant Grand Master authority to this knight? They shall have full access to all chapter records.",
+        "revokeMessage": "Revoke Grand Master authority from this knight? They shall lose all elevated access.",
+        "cancel": "Withdraw",
+        "confirm": "Confirm",
+        "saving": "Inscribing…"
       }
     },
     "common": {
-      "loading": "Loading...",
-      "error": "An error occurred",
-      "refresh": "Refresh",
-      "save": "Save",
-      "cancel": "Cancel"
+      "loading": "Consulting the Archive…",
+      "error": "An anomaly occurred",
+      "refresh": "Renew",
+      "save": "Inscribe",
+      "cancel": "Withdraw"
     }
   },
   "queuePane": {
@@ -2637,19 +2639,19 @@
     "emptyState": "The roster stands empty — no charges pledged",
     "noSearchResults": "No charges answer your search",
     "reordering": "Inscribing the order...",
-    "allProjects": "All Projects",
+    "allProjects": "All Crusades",
     "cardActions": {
       "complete": "Fulfill",
       "edit": "Amend Charge",
       "remove": "Strike from Roster"
     },
     "incoming": {
-      "title": "Incoming",
-      "addToTop": "Add to Top",
-      "addToBottom": "Add to Bottom"
+      "title": "Dispatches",
+      "addToTop": "Add to Head of Roster",
+      "addToBottom": "Add to Tail of Roster"
     },
     "ordered": {
-      "title": "Ordered Queue"
+      "title": "Ordered Roster"
     },
     "stats": {
       "total": "Queued",
@@ -2679,60 +2681,60 @@
       "getStarted": "Enter the Order"
     },
     "complete": {
-      "message": "Account setup is complete. You may now access your dashboard."
+      "message": "Thy oath is sworn. Thou art welcome in the Chapter House."
     },
     "steps": {
       "welcome": {
-        "title": "Welcome, Initiate",
-        "defaultName": "User",
-        "description": "Inventorium is your AI-powered task management and project visualization platform.",
-        "subtitle": "Let's take a quick tour to help you get started."
+        "title": "Welcome, Sworn Knight",
+        "defaultName": "Knight",
+        "description": "Inventorium is thy sacred order for charge management and crusade planning.",
+        "subtitle": "Let us walk the rites of initiation so thou art ready for the vigil."
       },
       "create-project": {
-        "title": "Create Your First Project",
-        "description": "Let's create a project to organize your work. Projects help you group related todos together.",
-        "skipHint": "You can skip this and create a project later from the Create menu"
+        "title": "Declare Thy First Crusade",
+        "description": "Declare a crusade to organize thy charges. Crusades group related charges into holy missions.",
+        "skipHint": "Thou may skip this and declare a crusade later from the Chapter Create chamber"
       },
       "add-todo": {
-        "title": "Add Todo to Your Project",
-        "description": "Now let's add a todo to your project. Todos are the tasks and action items you need to complete.",
-        "guideTitle": "How to create a todo:",
+        "title": "Pledge a Charge",
+        "description": "Now pledge a charge to thy crusade. Charges are the duties thou must fulfill.",
+        "guideTitle": "How to pledge a charge:",
         "step1": "Click the floating '+' button again",
-        "step2": "Select the 'Todo' tab in the dialog",
-        "step3": "Enter your todo description",
-        "step4": "Select your project from the dropdown",
-        "step5": "Set priority and click 'Create'",
-        "hint": "Tip: You can create todos from anywhere in the app using the '+' button",
+        "step2": "Select the 'Charge' tab in the chamber",
+        "step3": "Enter thy charge description",
+        "step4": "Assign the crusade from the scroll",
+        "step5": "Set priority and click 'Pledge Charge'",
+        "hint": "Tip: Thou canst pledge charges from anywhere using the '+' button",
         "aiAlternative": "You may also record your noble duties by speaking with the Order's scribe — simply state your sworn task."
       },
       "configure-ai": {
-        "title": "Configure Your AI Assistant",
-        "description": "Get the most out of Inventorium by connecting to an AI provider like Google Gemini or OpenAI.",
-        "whyConfigureTitle": "Why configure AI?",
+        "title": "Summon the Oracle",
+        "description": "Gain the most from Inventorium by summoning an Oracle provider.",
+        "whyConfigureTitle": "Why summon the Oracle?",
         "benefits": {
-          "suggestions": "Generate smart task suggestions",
-          "enhance": "Enhance todo descriptions with AI insights",
-          "analyze": "Analyze project patterns and dependencies",
-          "insights": "Get productivity insights and recommendations"
+          "suggestions": "Generate wise charge suggestions",
+          "enhance": "Illuminate charge descriptions with Oracle counsel",
+          "analyze": "Seek patterns and connexions in thy crusades",
+          "insights": "Receive counsel and guidance"
         },
-        "statusConfigured": "Status: ✅ AI is configured and ready to use!",
-        "statusNotConfigured": "Status: ❌ AI is not configured yet",
-        "configureButton": "Configure AI Now",
-        "skipButton": "Skip for Now",
-        "helpText": "You can configure AI anytime from Settings → AI Configuration"
+        "statusConfigured": "Status: ✅ Oracle summoned and ready.",
+        "statusNotConfigured": "Status: ❌ Oracle not yet summoned",
+        "configureButton": "Summon Oracle",
+        "skipButton": "Withdraw for Now",
+        "helpText": "Thou canst summon the Oracle anytime from Settings → Oracle Configuration"
       },
       "ai-assistant": {
-        "title": "AI Assistant",
+        "title": "The Oracle",
         "description": "Your AI scribe shall manage your holy quests, seek wisdom from the archives, and watch over your sacred duties through humble speech.",
-        "examplesTitle": "Quick Actions:",
+        "examplesTitle": "Quick Seekings:",
         "quickActions": {
-          "createTodos": "Create todos from text",
-          "analyzeTasks": "Analyze task patterns",
-          "suggestions": "Get smart suggestions",
-          "insights": "Project insights"
+          "createTodos": "Pledge charges from text",
+          "analyzeTasks": "Seek charge patterns",
+          "suggestions": "Receive wise counsel",
+          "insights": "Crusade insights"
         },
         "hint": "💡 Tip: Click the chat icon to start a conversation",
-        "examplePromptsTitle": "Try saying:",
+        "examplePromptsTitle": "Seek counsel:",
         "examplePrompts": {
           "listTodos": "List my sacred duties",
           "addTodo": "Record a duty: Guard the cathedral gates",
@@ -2745,29 +2747,29 @@
         "powerTip": "The Order's scribe can record, organize, and recall your duties through simple speech — focusing your spirit on the quest, not the menus."
       },
       "swarmdesk": {
-        "title": "3D Workspace",
-        "description": "Explore your codebase in 3D with SwarmDesk - an immersive visualization tool.",
-        "featuresTitle": "SwarmDesk Features:",
+        "title": "3D War Council",
+        "description": "Explore thy crusades in 3D with the War Council — an immersive chapter environment.",
+        "featuresTitle": "War Council Features:",
         "features": {
-          "codeViz": "3D code visualization",
+          "codeViz": "3D sacred diagram view",
           "interactive": "Interactive navigation",
           "architecture": "Architecture overview",
           "dependencies": "Dependency mapping"
         },
-        "hint": "💡 Tip: Access SwarmDesk from the project view",
-        "tabTip": "After SwarmDesk loads, press TAB to jump back and forth between the dashboard and 3D workspace"
+        "hint": "💡 Tip: Access the War Council from the crusade view",
+        "tabTip": "After the War Council loads, press TAB to move between the dashboard and chapter house"
       },
       "complete": {
-        "title": "Your Oath Is Sworn",
-        "description": "You're ready to start using Inventorium. Explore the features and make it your own.",
-        "nextStepsTitle": "Next Steps:",
+        "title": "Thy Vigil Begins",
+        "description": "The rites of initiation are complete. Go forth and tend to the order's charges.",
+        "nextStepsTitle": "Forthcoming Rites:",
         "nextSteps": {
-          "createProject": "Create your first project",
-          "addTodos": "Add todos to your project",
-          "tryAI": "Try the AI assistant",
-          "checkSwarmDesk": "Explore SwarmDesk 3D"
+          "createProject": "Declare thy first crusade",
+          "addTodos": "Pledge charges to thy crusade",
+          "tryAI": "Seek Oracle counsel",
+          "checkSwarmDesk": "Explore the War Council 3D"
         },
-        "footer": "💡 You can replay this tutorial anytime from Settings"
+        "footer": "💡 Thou canst replay these rites of initiation anytime from Settings"
       }
     }
   },
@@ -2777,105 +2779,105 @@
   "icon": "📝",
   "version": "1.0.0",
   "lessons": {
-    "title": "Lessons Learned",
-    "addLesson": "Add Lesson",
+    "title": "Chronicles",
+    "addLesson": "Inscribe Chronicle",
     "emptyState": {
-      "title": "No Lessons Found",
-      "message": "Capture insights to improve future workflows.",
-      "action": "Add Your First Lesson"
+      "title": "No Chronicles Found",
+      "message": "Inscribe learnings to guide the order in future vigils.",
+      "action": "Inscribe First Chronicle"
     },
     "fields": {
-      "topic": "Topic",
-      "language": "Language/Category",
-      "lessonLearned": "Lesson Learned",
-      "tags": "Tags"
+      "topic": "Subject",
+      "language": "Tongue/Category",
+      "lessonLearned": "Chronicle Entry",
+      "tags": "Seals"
     },
     "actions": {
-      "edit": "Edit",
-      "delete": "Delete",
-      "save": "Save Changes"
+      "edit": "Amend",
+      "delete": "Expunge",
+      "save": "Inscribe Changes"
     }
   },
   "mindmap": {
-    "title": "Project Mindmap",
+    "title": "Battle Map",
     "emptyState": {
-      "title": "Empty Mindmap",
-      "message": "Add tasks and projects to visualize your workspace."
+      "title": "The Map Stands Empty",
+      "message": "Pledge charges and declare crusades to illuminate the battle map."
     },
     "controls": {
-      "zoomIn": "Zoom In",
-      "zoomOut": "Zoom Out",
-      "resetView": "Reset View",
-      "centerView": "Center View"
+      "zoomIn": "Advance View",
+      "zoomOut": "Withdraw View",
+      "resetView": "Restore View",
+      "centerView": "Centre View"
     }
   },
   "swarmdesk": {
-    "title": "System Overview",
+    "title": "War Council",
     "emptyState": {
-      "title": "No Data Available",
-      "message": "Initialize components to view system status."
+      "title": "The Chamber Stands Empty",
+      "message": "Initiate components to view the chapter status."
     },
     "controls": {
       "rotate": "Rotate",
       "zoom": "Zoom",
-      "pan": "Pan",
-      "reset": "Reset Camera"
+      "pan": "Survey",
+      "reset": "Restore View"
     }
   },
   "projectSelector": {
-    "title": "Select Project",
-    "placeholder": "Search projects...",
-    "noProjects": "No projects available",
-    "createNew": "Create New Project"
+    "title": "Select Crusade",
+    "placeholder": "Seek crusades…",
+    "noProjects": "No crusades declared",
+    "createNew": "Declare New Crusade"
   },
   "errors": {
     "generic": "A darkness has disrupted the sacred vigil!",
     "network": "The etheric messenger pigeon has fallen!",
     "notFound": "This scroll cannot be found in the Codex.",
     "unauthorized": "Thou lackest the authority to enter this sanctum.",
-    "serverError": "Internal server error.",
+    "serverError": "Internal sanctum error.",
     "server": "A disturbance in the heavens! The High Priests have been notified.",
     "timeout": "The prayer went unanswered. Seek the divine again."
   },
   "success": {
     "status": {
       "verifying": {
-        "title": "VERIFYING...",
-        "subtitle": "Verifying payment with Stripe"
+        "title": "CONSULTING ARCHIVE…",
+        "subtitle": "Verifying payment with the Treasury"
       },
       "success": {
-        "title": "ASCENSION COMPLETE",
-        "subtitle": "All systems nominal. Your account has been upgraded."
+        "title": "ELEVATION COMPLETE",
+        "subtitle": "The order confirms thy elevation. Go forth."
       },
       "error": {
-        "title": "VERIFICATION FAILED",
-        "subtitle": "The verification process encountered an error."
+        "title": "RITE FAILED",
+        "subtitle": "The verification rite encountered an anomaly."
       },
       "no_session": {
-        "title": "MISSING SESSION",
-        "subtitle": "No checkout session detected. Did you navigate here directly?"
+        "title": "SESSION NOT FOUND",
+        "subtitle": "No treasury session detected. Didst thou navigate here directly?"
       }
     },
     "log": {
-      "initializing": "Initializing payment verification...",
-      "connecting": "Connecting to Stripe...",
+      "initializing": "Consulting the treasury archive…",
+      "connecting": "Contacting the treasury…",
       "session": "Session:",
-      "conduitStable": "Payment confirmed: STABLE",
-      "tierUpgrade": "Tier upgrade:",
-      "unlocking": "Unlocking upgraded features...",
-      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
-      "paymentStatus": "Payment status:",
-      "paymentIncomplete": "WARNING: Payment incomplete",
+      "conduitStable": "Tithe confirmed: STABLE",
+      "tierUpgrade": "Rank elevation:",
+      "unlocking": "Unlocking elevated privileges...",
+      "allSystemsGo": "STATUS: THE ORDER STANDS READY",
+      "paymentStatus": "Treasury status:",
+      "paymentIncomplete": "WARNING: Tithe incomplete",
       "error": "ERROR:",
       "verificationFailed": "Verification failed",
-      "containment": "Error protocols engaged"
+      "containment": "Containment protocols engaged"
     },
-    "tier": "TIER",
-    "operator": "ACCOUNT",
+    "tier": "RANK",
+    "operator": "KNIGHT",
     "enterLab": "ENTER THE HALL",
-    "viewManifest": "VIEW BILLING",
-    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
-    "checkBilling": "Check billing for current status."
+    "viewManifest": "VIEW TREASURY",
+    "errorRetry": "If payment was received by the treasury, thy elevation shall be confirmed shortly.",
+    "checkBilling": "Consult the treasury for current status."
   },
   "confirmations": {
     "delete": "Art thou certain thou wishest to strike this from the sacred record?",
@@ -2889,10 +2891,10 @@
     "assigned": "Sworn to duty"
   },
   "targetAgent": {
-    "user": "User",
-    "ai": "Assistant",
-    "system": "System",
-    "none": "Unassigned"
+    "user": "Knight",
+    "ai": "Oracle",
+    "system": "Order",
+    "none": "Unsworn"
   },
   "accountPanel": {
     "title": "Knight's Dossier",
@@ -3030,32 +3032,37 @@
     }
   },
   "todoDetail": {
-    "untitled": "Untitled Todo",
+    "untitled": "Unnamed Charge",
     "tabs": {
       "overview": "Overview",
-      "history": "History",
-      "spells": "Spells",
-      "related": "Related",
-      "sessions": "Sessions",
+      "history": "Chronicle",
+      "spells": "Rites",
+      "related": "Related Charges",
+      "sessions": "Vigils",
       "coordinates": "Coordinates"
     },
     "spells": {
-      "empty": "No spells have been cast on this todo yet.",
-      "hint": "Use the AI chat to enhance descriptions or perform analysis.",
-      "undo": "Undo spell"
+      "empty": "No rites have been invoked upon this charge yet.",
+      "hint": "Use the Oracle to illuminate descriptions or seek patterns.",
+      "undo": "Withdraw rite"
     },
     "related": {
-      "empty": "No related todos found in this project.",
-      "count": "{{count}} related todos"
+      "empty": "No related charges found in this crusade.",
+      "count": "{{count}} related charges"
     },
     "sessions": {
-      "empty": "No sessions linked to this todo.",
-      "hint": "Link sessions via the AI chat.",
-      "count": "{{count}} linked sessions"
+      "empty": "No vigils linked to this charge.",
+      "hint": "Link vigils via the Oracle.",
+      "count": "{{count}} linked vigils"
     },
     "coordinates": {
-      "empty": "No coordinates assigned to this todo.",
-      "hint": "Cast a geomancy spell to assign spatial coordinates."
+      "empty": "No coordinates assigned to this charge.",
+      "hint": "Invoke the geomancy rite to assign spatial coordinates."
+    },
+    "fields": {
+      "status": "Status",
+      "priority": "Priority",
+      "project": "Crusade"
     }
   },
   "chatAudit": {
@@ -3141,7 +3148,7 @@
       "running": "Communing with the Oracle...",
       "lastRun": "Last holy alignment",
       "scanned": "Scanned",
-      "modified": "Modified"
+      "modified": "Revised"
     }
   },
   "constellation": {
@@ -3291,7 +3298,7 @@
       "noResults": "No truth found.",
       "queryRequired": "Seek truth to pray.",
       "callFailed": "Prayer failed",
-      "sectionLessons": "Lessons",
+      "sectionLessons": "Scrolls",
       "sectionTodos": "Duties",
       "sectionPitfalls": "Sins",
       "sectionSolutions": "Virtues",
@@ -3358,77 +3365,91 @@
   "questTab": {
     "title": "Declare a Crusade",
     "subtitle": "Marshal sworn quests into a Crusade with hallowed objectives.",
-    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
-    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "success": "Holy mission \"{{name}}\" declared ({{chains}} chains, {{todos}} charges)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} charge(s) linked.",
     "sections": {
       "criteria": "Oaths of Completion",
       "chains": "Charge Chains",
       "created": "Recently Pledged Quests"
     },
     "fields": {
-      "name": "Quest Name *",
-      "project": "Project",
+      "name": "Mission Name *",
+      "project": "Crusade",
       "description": "Description / Sacred Goal",
-      "tagsInput": "Tags (comma-separated)",
-      "quickTags": "Quick Tags:",
-      "addCriterion": "Add a success criterion",
-      "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})",
+      "tagsInput": "Seals (comma-separated)",
+      "quickTags": "Quick Seals:",
+      "addCriterion": "Add a fulfillment criterion",
+      "chainLabel": "Chain Name",
+      "chainTodos": "Charges in chain ({{count}})",
       "loadQuest": "Consult the sacred records…"
     },
     "buttons": {
-      "add": "Add",
+      "add": "Enlist",
       "addChain": "Add Chain",
-      "removeChain": "Remove chain",
+      "removeChain": "Remove Chain",
       "create": "Declare Crusade",
       "creating": "Declaring...",
-      "copyId": "Copy ID",
+      "copyId": "Copy Sigil",
       "cancelEdit": "New Crusade",
       "updating": "Purifying...",
       "update": "Seal the Covenant",
       "refreshTags": "Purify the Archives"
     },
     "errors": {
-      "nameRequired": "Quest name is required.",
-      "projectRequired": "Project is required."
+      "nameRequired": "Mission name is required.",
+      "projectRequired": "Crusade is required."
     },
     "editTitle": "Reform the Holy Crusade",
-    "updated": "Crusade \"{{name}}\" renewed ({{chains}} battalions, {{todos}} vows)"
+    "updated": "Crusade \"{{name}}\" renewed ({{chains}} battalions, {{todos}} vows)",
+    "status": {
+      "active": "Active",
+      "completed": "Fulfilled",
+      "pending": "Outstanding"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Fulfilled"
+    },
+    "empty": {
+      "title": "No active quests",
+      "action": "Pledge Quest"
+    }
   },
   "questCard": {
     "heading": "Crusades",
     "parallel": "Joint crusade",
     "gate": "Sworn — held by its gate vow",
-    "external": "distant",
+    "external": "external",
     "criteria": "Hallowed Objectives",
     "showIn3d": "Behold the Crusade in 3D",
     "briefNoAi": "Attune the Divine Oracle in Settings to invoke a sacred brief",
     "briefNoTodos": "No sacred duties pledged — assign duties to this crusade first",
-    "briefGenerating": "Invoking…",
+    "briefGenerating": "Composing…",
     "briefGenerate": "Invoke Divine Crusade Brief",
     "briefHeader": "Sacred Brief",
     "briefCopy": "Transcribe brief",
     "briefSave": "Inscribe brief to crusade ledger",
     "briefSaved": "Inscribed!",
-    "briefDismiss": "Release",
+    "briefDismiss": "Seal",
     "briefRegenerate": "Reinvoke brief",
     "copyPrompt": "Transcribe crusade as sacred prompt",
-    "copiedPrompt": "Transcribed!",
+    "copiedPrompt": "Copied!",
     "showCompleted": "Show finished crusades",
     "hideCompleted": "Hide finished crusades",
     "copyId": "Copy Crusade ID",
     "copiedId": "Copied!",
     "edit": "Edit Crusade",
     "delete": "Delete Crusade",
-    "deleteFailed": "Delete failed",
-    "save": "Save",
-    "saveFailed": "Save failed",
-    "cancel": "Cancel",
+    "deleteFailed": "Expungement failed",
+    "save": "Inscribe",
+    "saveFailed": "Inscription failed",
+    "cancel": "Withdraw",
     "namePlaceholder": "Crusade name",
     "nameRequired": "Crusade name is required",
     "descPlaceholder": "Crusade description",
-    "project": "Project",
-    "projectRequired": "Project is required",
+    "project": "Crusade",
+    "projectRequired": "Crusade is required",
     "filterActive": "Crusade filter:",
     "emptyFilter": "No crusades match the current filter",
     "emptyQuestFilter": "No todos found in this crusade"

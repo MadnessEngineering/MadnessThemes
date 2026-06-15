@@ -1001,6 +1001,11 @@
     "coordinates": {
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
+    },
+    "fields": {
+      "status": "Status",
+      "priority": "Priority",
+      "project": "Project"
     }
   },
   "settings": {
@@ -2487,7 +2492,8 @@
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
-      "systemLogs": "System Logs"
+      "systemLogs": "System Logs",
+      "performance": "Performance"
     }
   },
   "admin": {
@@ -3393,7 +3399,21 @@
       "projectRequired": "Project is required."
     },
     "editTitle": "Edit Quest",
-    "updated": "Quest \"{{name}}\" updated ({{chains}} chains, {{todos}} todos)"
+    "updated": "Quest \"{{name}}\" updated ({{chains}} chains, {{todos}} todos)",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "empty": {
+      "title": "No active quests",
+      "action": "Create Quest"
+    }
   },
   "questCard": {
     "heading": "Quests",

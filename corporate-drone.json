@@ -935,6 +935,11 @@
     "coordinates": {
       "empty": "No spatial analytics generated for this action item.",
       "hint": "Deploy spatial analysis to generate coordinate mapping."
+    },
+    "fields": {
+      "status": "Status",
+      "priority": "Priority",
+      "project": "Project"
     }
   },
   "settings": {
@@ -2487,7 +2492,8 @@
     "tabs": {
       "overview": "Executive Dashboard",
       "analytics": "Business Intelligence Suite",
-      "systemLogs": "Operational Audit Trail"
+      "systemLogs": "Operational Audit Trail",
+      "performance": "Performance"
     }
   },
   "admin": {
@@ -3393,7 +3399,21 @@
       "projectRequired": "Project is required."
     },
     "editTitle": "Re-align Cross-Functional Initiative Aggregate",
-    "updated": "Aggregate \"{{name}}\" optimized ({{chains}} workstreams, {{todos}} deliverables)"
+    "updated": "Aggregate \"{{name}}\" optimized ({{chains}} workstreams, {{todos}} deliverables)",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "empty": {
+      "title": "No active quests",
+      "action": "Create Quest"
+    }
   },
   "questCard": {
     "heading": "Strategic Initiative Aggregates",

@@ -2768,7 +2768,8 @@
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
-      "systemLogs": "System Logs"
+      "systemLogs": "System Logs",
+      "performance": "Performance"
     }
   },
   "themeName": "gunmetal",
@@ -3056,6 +3057,11 @@
     "coordinates": {
       "empty": "No coordinates assigned to this todo.",
       "hint": "Cast a geomancy spell to assign spatial coordinates."
+    },
+    "fields": {
+      "status": "Status",
+      "priority": "Priority",
+      "project": "Project"
     }
   },
   "chatAudit": {
@@ -3393,7 +3399,21 @@
       "projectRequired": "Project is required."
     },
     "editTitle": "Modify Campaign Intel",
-    "updated": "Campaign \"{{name}}\" re-deployed ({{chains}} sectors, {{todos}} targets)"
+    "updated": "Campaign \"{{name}}\" re-deployed ({{chains}} sectors, {{todos}} targets)",
+    "status": {
+      "active": "Active",
+      "completed": "Completed",
+      "pending": "Pending"
+    },
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "completed": "Completed"
+    },
+    "empty": {
+      "title": "No active quests",
+      "action": "Create Quest"
+    }
   },
   "questCard": {
     "heading": "Campaigns",
