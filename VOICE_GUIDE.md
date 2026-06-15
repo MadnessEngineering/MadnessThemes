@@ -162,6 +162,117 @@ Copy this block to start a new theme card:
 
 ---
 
+### labops  🔬  *(written)*
+
+- **Persona** — an on-call SRE running the lab like a production system. Calm, procedural,
+  instrumentation-minded. Talks in runbooks, telemetry, and tickets; treats every action as an
+  operation against live infrastructure. Never panics — escalates.
+- **Setting** — an ops control room wired into the lab. Todos are *tickets* on the board, the UI is
+  the *console*, work flows through a *queue*, and the data layer is the *datastore / telemetry
+  pipeline*.
+
+- **Lexicon** — pinned canonical terms. **Keep** wins where the file drifts.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | save | **Commit** | commit the change to the record |
+  | save (in-progress) | **Applying…** | active mid-edit write |
+  | cancel / discard | **Discard** · **Roll Back** (revert) | Discard for unsaved, Roll Back to revert applied state |
+  | delete | **Decommission** | retire a resource for good |
+  | loading | **Querying…** | reuse verbatim for every fetch/loading state |
+  | create | **Provision** | stand up a new ticket/resource |
+  | edit | **Reconfigure Console** (tools/panels) · **Edit Ticket** (a todo) | split by object |
+  | refresh | **Resync** | re-pull current state |
+  | search | **Query** | query the system; avoid jargon "grep" on scannable buttons |
+  | export | **Export Snapshot** | point-in-time dump |
+  | complete (a todo) | **Resolve** | resolve the ticket; completed status = **Resolved** |
+  | close (a panel) | **Dismiss** | clear the console view |
+  | review | **Triage** | the review queue is the triage queue |
+  | AI insights | **Run Diagnostics** | analysis/prediction only |
+  | open externally | **Open Console** | jump to an external endpoint |
+
+  **Noun-map:**
+  - **Console** = a tool, panel, or form you operate.
+  - **Ticket** = a work item (a todo) — opened, triaged, resolved.
+  - **Queue** = ordered/pending work (the run queue, the board).
+  - **Route** = navigation between views; **Endpoint** = an external connection.
+  - **Datastore / Telemetry** = the data + metrics layer — query it, sync from it.
+
+- **Tone dial** — *low-medium.* Ops voice is understated by nature: precise, not theatrical. Flavor
+  on labels, empty states, onboarding; plain on `validation.*`, error bodies, destructive confirms
+  (ops culture already prizes blunt errors — lean into that). Sentence case for body, Title Case for
+  buttons.
+
+- **Do / Don't**
+  - **Do** keep "Querying…" as the single loading term everywhere.
+  - **Do** treat a todo as a **ticket** consistently — open / triage / resolve.
+  - **Don't** over-jargon scannable controls ("Grep", "SIGKILL" on a delete button) — meaning first.
+  - **Don't** flavor a validation message — "Email is required" stays as-is.
+
+- **Sample transforms** (standard → labops)
+  - `Save` → **Commit**
+  - `Cancel` → **Discard**
+  - `Delete` → **Decommission**
+  - `Loading…` → **Querying…**
+  - `No todos yet` → **Board is clear — no open tickets.**
+
+---
+
+### templar-light  ⚔️  *(written)*
+
+- **Persona** — a scribe-knight of a sacred order, keeper of the archive. Formal, reverent,
+  ceremonious — but never obscure. Speaks of duty, oaths, and the record. Dignified, not stiff.
+- **Setting** — a sunlit chapter house and sacred archive. Todos are *charges* (sworn duties), the
+  UI panels are *chambers*, a form is a *record*, work is mustered on a *roster*, and the data layer
+  is *the Archive / the Vault*.
+
+- **Lexicon** — pinned canonical terms. **Keep** wins where the file drifts.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | save | **Inscribe** | inscribe into the record |
+  | save (in-progress) | **Inscribing…** | active mid-edit write |
+  | cancel / discard | **Withdraw** · **Recant** (undo applied) | Withdraw the unsaved, Recant a vow already made |
+  | delete | **Expunge** | strike from the Archive |
+  | loading | **Consulting the Archive…** | reuse verbatim for every loading state |
+  | create | **Pledge** | pledge a new charge |
+  | edit | **Amend Record** (tools/forms) · **Amend Charge** (a todo) | split by object |
+  | refresh | **Renew** | renew from the Archive |
+  | search | **Seek** | seek the records |
+  | export | **Transcribe Records** | scribe a copy to carry out |
+  | complete (a todo) | **Fulfill** | fulfill the charge; completed status = **Fulfilled** |
+  | close (a panel) | **Seal** | seal the chamber |
+  | review | **Examine** | the review queue is examination |
+  | AI insights | **Seek Counsel** | augury/divination only |
+  | open externally | **Open Passage** | a passage to another hall |
+
+  **Noun-map:**
+  - **Chamber** = a panel or view you enter; **Record** = a form/document you amend.
+  - **Charge** = a work item (a todo) — pledged, examined, fulfilled.
+  - **Roster** = ordered/pending work (the muster of charges).
+  - **Passage / Hall** = navigation and external connections.
+  - **Archive / Vault** = the data layer — inscribed to, expunged from, consulted.
+
+- **Tone dial** — *medium-high* on titles, empty states, onboarding; *medium* on tooltips (reverent
+  phrasing + a plain clause); **off** on `validation.*`, error bodies, destructive confirms — a
+  failed save or a delete warning stays plain and clear. Title Case for buttons/labels, sentence case
+  for body. Reverent, never riddling.
+
+- **Do / Don't**
+  - **Do** hold one verb per concept, split only by object (Amend Record vs Amend Charge).
+  - **Do** reuse "Consulting the Archive…" for every loading state.
+  - **Don't** let ceremony obscure meaning — a newcomer must still guess the control.
+  - **Don't** put liturgy on a validation message or a destructive confirm.
+
+- **Sample transforms** (standard → templar-light)
+  - `Save` → **Inscribe**
+  - `Cancel` → **Withdraw**
+  - `Delete` → **Expunge**
+  - `Loading…` → **Consulting the Archive…**
+  - `No todos yet` → **The roster stands empty — no charges pledged.**
+
+---
+
 ### Stubs — fill in their own sessions
 
 Do **not** fabricate voices not yet designed. One line each; promote to a full card when that
@@ -175,9 +286,9 @@ theme's rewrite phase runs.
 - **debug** 🐞 — *not a voice*: every value is its own dotted key path (master key checklist). Leave as-is.
 - **dwarf** ⛏️ — Dwarf-Fortress-flavored mining/crafting; gruff, sturdy.
 - **gunmetal** 🔩 — terse industrial/military; clipped, functional.
-- **labops** 🔬 — ops/SRE lab register; runbooks, instrumentation, telemetry.
 - **standard** — the neutral baseline. By definition no flavor; the worklist source for every other theme.
-- **templar-light** ⚔️ — order-of-knights / sacred-archive tone; formal, reverent.
+
+*(labops 🔬 and templar-light ⚔️ are now full cards above.)*
 
 ---
 
