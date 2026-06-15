@@ -106,14 +106,14 @@
     "invalidEmail": "Invalid email address"
   },
   "common": {
-    "save": "Inscribe in Codex",
+    "save": "Inscribe",
     "cancel": "Abandon",
     "close": "Close the Gate",
     "edit": "Amend",
     "delete": "Strike from Record",
     "reset": "Restore to Covenant",
     "refresh": "Consult Oracle",
-    "loading": "Consulting the Codex...",
+    "loading": "Consulting the Archive…",
     "error": "A darkness has disrupted the vigil",
     "success": "The decree is sealed",
     "failed": "The sacred rite has faltered",
@@ -938,7 +938,7 @@
   },
   "todoEdit": {
     "loading": {
-      "text": "Consulting the Archive..."
+      "text": "Consulting the Archive…"
     },
     "header": {
       "editTodo": "Amend Charge",
@@ -1527,7 +1527,7 @@
     },
     "status": {
       "typing": "Oracle is composing",
-      "loadingHistory": "Unrolling ancient scrolls..."
+      "loadingHistory": "Consulting the Archive…"
     },
     "emptyState": {
       "title": "Sacred Order Oracle",
@@ -1562,7 +1562,7 @@
     "title": "⚔️ Order Oracle",
     "placeholder": "Seek counsel from the Oracle…",
     "send": "Dispatch",
-    "thinking": "Consulting...",
+    "thinking": "Consulting the Archive…",
     "suggestions": {
       "searchLessons": "Search the Archive",
       "listTodos": "List active charges",
@@ -1600,7 +1600,7 @@
       "copy": "Transcribe",
       "delete": "Expunge"
     },
-    "typing": "Deliberating…",
+    "typing": "Consulting the Archive…",
     "you": "Knight",
     "newConversation": "New Audience",
     "confirmClear": "Purge all audience chronicles?",
@@ -2146,7 +2146,7 @@
       "send": "Convey",
       "title": "Oracle Counsel",
       "placeholder": "Seek…",
-      "loading": "Consulting…"
+      "loading": "Consulting the Archive…"
     },
     "tour": {
       "panels": "Use chambers to examine charges and seek counsel",
@@ -2238,7 +2238,7 @@
       "selectSpell": "Choose Enhancement Rite",
       "castSpell": "Invoke Rite",
       "cancelSpell": "Withdraw",
-      "casting": "Invoking Rite...",
+      "casting": "Consulting the Archive…",
       "resultsTitle": "✨ Rite Results",
       "historyTitle": "📜 Rite Chronicle",
       "clearHistory": "Clear Chronicle",
@@ -2246,7 +2246,7 @@
       "placeholder": "Select a rite to enhance your charges..."
     },
     "effects": {
-      "particles": "Sacred rite indicators active",
+      "particles": "Consulting the Archive…",
       "energy": "Rite in motion",
       "casting": "Invocation in progress",
       "complete": "Invocation complete"
@@ -2335,7 +2335,7 @@
       },
       "titleGlobal": "Chronicle of Deeds",
       "titleTodo": "Sacred Duties",
-      "loading": "Meditating...",
+      "loading": "Consulting the Archive…",
       "noHistory": "The altar is bare.",
       "noMatchingHistory": "No such truth was found.",
       "castSuccessfully": "Blessing received.",
@@ -2347,7 +2347,7 @@
     "status": {
       "idle": "Rites ready",
       "casting": "Invoking rite…",
-      "processing": "Processing…",
+      "processing": "Consulting the Archive…",
       "complete": "Rite complete",
       "failed": "Rite failed",
       "cooldown": "Resting between rites…",
@@ -2455,7 +2455,7 @@
     "description": "Oracle-powered rites for charge management"
   },
   "insights": {
-    "loading": "Consulting the Oracle…",
+    "loading": "Consulting the Archive…",
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
@@ -2498,7 +2498,7 @@
     },
     "analytics": {
       "title": "Vigil Analytics",
-      "loading": "Consulting the Oracle…",
+      "loading": "Consulting the Archive…",
       "comingSoon": "Analytics Chamber Under Construction",
       "description": "Advanced chronicles and illuminations are being prepared. Check back soon.",
       "timeframe": {
@@ -2543,7 +2543,7 @@
     },
     "featureFlags": {
       "title": "Order Rites",
-      "loading": "Consulting order rites…",
+      "loading": "Consulting the Archive…",
       "refresh": "Renew rites",
       "fallback": "(showing mock data for development)",
       "lastUpdated": "Last revised",
@@ -2831,13 +2831,13 @@
     "createNew": "Declare New Crusade"
   },
   "errors": {
-    "generic": "A darkness has disrupted the sacred vigil!",
-    "network": "The etheric messenger pigeon has fallen!",
-    "notFound": "This scroll cannot be found in the Codex.",
-    "unauthorized": "Thou lackest the authority to enter this sanctum.",
-    "serverError": "Internal sanctum error.",
-    "server": "A disturbance in the heavens! The High Priests have been notified.",
-    "timeout": "The prayer went unanswered. Seek the divine again."
+    "generic": "An unexpected error occurred.",
+    "network": "Network connection error.",
+    "notFound": "Requested resource not found.",
+    "unauthorized": "Access denied. Please authenticate.",
+    "serverError": "Internal server error.",
+    "server": "Server error. Our team has been notified.",
+    "timeout": "Request timed out. Please retry."
   },
   "success": {
     "status": {
@@ -2885,7 +2885,7 @@
     "archive": "Seal this crusade in the reliquary?"
   },
   "agentStates": {
-    "working": "On crusade",
+    "working": "Consulting the Archive…",
     "traveling": "Riding to battle",
     "idle": "Standing vigil",
     "assigned": "Sworn to duty"
@@ -2991,7 +2991,7 @@
     "viewPlans": "View Order Tiers"
   },
   "chronomancy": {
-    "loading": "Reading the sacred chronicles...",
+    "loading": "Consulting the Archive…",
     "noVersions": "No prior records found in the codex.",
     "today": "Present Day",
     "yesterday": "Previous Sun",
@@ -3098,7 +3098,7 @@
     "activate": "Invoke Rite",
     "emptyState": "No rites found in the sacred registry",
     "emptyHint": "Decree thy first holy rite to bring divine order to thy crusade.",
-    "loading": "Seeking rites...",
+    "loading": "Consulting the Archive…",
     "loadError": "Failed to commune with the sacred registry",
     "runNow": "Invoke Now",
     "edit": "Amend Rite",
@@ -3115,7 +3115,7 @@
     "conditionsOptional": "Optional Virtues",
     "action": "Divine Result",
     "cancel": "Withdraw",
-    "saveChanges": "Seal the Codex",
+    "saveChanges": "Inscribe Changes",
     "inscribe": "Inscribe Decree",
     "formulaWhen": "UPON",
     "formulaIf": "WHENEVER",
@@ -3139,7 +3139,7 @@
     "agentType": "Celestial Servant",
     "agentWarning": "Warning: This action summons an autonomous celestial servant.",
     "eventFeedTitle": "Chronicle of Events",
-    "eventFeedLoading": "Consulting the chronicle...",
+    "eventFeedLoading": "Consulting the Archive…",
     "eventFeedEmpty": "The chronicle is bare. No events have been recorded.",
     "tagNormalization": {
       "title": "Sacred Sigil Alignment",
@@ -3334,7 +3334,7 @@
       "none": "none"
     },
     "editor": {
-      "save": "Vow",
+      "save": "Inscribe",
       "saved": "Vowed.",
       "saveAndRegen": "Vow + Bless",
       "cancel": "Repent",

@@ -106,14 +106,14 @@
     "invalidEmail": "Invalid email address"
   },
   "common": {
-    "save": "Log Entry",
+    "save": "Commit",
     "cancel": "Abort",
     "close": "Close Station",
     "edit": "Amend",
     "delete": "Decommission",
     "reset": "Reset to Baseline",
     "refresh": "Rescan",
-    "loading": "Processing sample...",
+    "loading": "Querying…",
     "error": "Instrument malfunction detected",
     "success": "Protocol completed successfully",
     "failed": "Procedure failed — review logs",
@@ -1526,7 +1526,7 @@
     },
     "status": {
       "typing": "Diagnostic system processing",
-      "loadingHistory": "Loading operation logs..."
+      "loadingHistory": "Querying…"
     },
     "emptyState": {
       "title": "Ops Diagnostic Assistant",
@@ -1561,7 +1561,7 @@
     "title": "🤖 Diagnostic Console",
     "placeholder": "Query the diagnostic system…",
     "send": "Dispatch",
-    "thinking": "Running diagnostics...",
+    "thinking": "Querying…",
     "suggestions": {
       "searchLessons": "Search runbooks",
       "listTodos": "List active tickets",
@@ -1595,7 +1595,7 @@
     "system": "System",
     "you": "Operator",
     "ai": "Diagnostics",
-    "typing": "Processing…",
+    "typing": "Querying…",
     "newConversation": "New Session",
     "clearHistory": "Purge History",
     "confirmClear": "Purge all session history?",
@@ -2237,7 +2237,7 @@
       "selectSpell": "Choose Diagnostic Tool",
       "castSpell": "Run Diagnostic",
       "cancelSpell": "Abort",
-      "casting": "Running Diagnostic...",
+      "casting": "Querying…",
       "resultsTitle": "✅ Diagnostic Results",
       "historyTitle": "📋 Diagnostic History",
       "clearHistory": "Clear History",
@@ -2245,7 +2245,7 @@
       "placeholder": "Select a diagnostic to enhance your tickets..."
     },
     "effects": {
-      "particles": "Diagnostic indicators active",
+      "particles": "Querying…",
       "energy": "System processing",
       "casting": "Enhancement in progress",
       "complete": "Enhancement completed"
@@ -2334,7 +2334,7 @@
       },
       "titleGlobal": "Operational Log",
       "titleTodo": "Standard Procedures",
-      "loading": "Initializing...",
+      "loading": "Querying…",
       "noHistory": "No data logs available.",
       "noMatchingHistory": "No results in range.",
       "castSuccessfully": "Protocol executed.",
@@ -2346,7 +2346,7 @@
     "status": {
       "idle": "Diagnostics ready",
       "casting": "Applying diagnostic…",
-      "processing": "Processing…",
+      "processing": "Querying…",
       "complete": "Diagnostic complete",
       "failed": "Diagnostic failed",
       "cooldown": "Rate limit cooling down…",
@@ -2454,7 +2454,7 @@
     }
   },
   "insights": {
-    "loading": "Querying analytics…",
+    "loading": "Querying…",
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
@@ -2497,7 +2497,7 @@
     },
     "analytics": {
       "title": "Advanced Analytics",
-      "loading": "Querying analytics…",
+      "loading": "Querying…",
       "comingSoon": "Analytics Under Construction",
       "description": "Advanced charts and data visualization are being calibrated. Check back soon.",
       "timeframe": {
@@ -2542,7 +2542,7 @@
     },
     "featureFlags": {
       "title": "Feature Flags",
-      "loading": "Querying flags…",
+      "loading": "Querying…",
       "refresh": "Resync flags",
       "fallback": "(showing mock data for development)",
       "lastUpdated": "Last updated",
@@ -2830,13 +2830,13 @@
     "createNew": "Provision New Project"
   },
   "errors": {
-    "generic": "Instrument malfunction detected!",
-    "network": "Network conduit disrupted!",
-    "notFound": "Specimen not found in registry.",
-    "unauthorized": "Access credentials invalid. Re-authenticate.",
+    "generic": "An unexpected error occurred.",
+    "network": "Network connection error.",
+    "notFound": "Requested resource not found.",
+    "unauthorized": "Access denied. Please authenticate.",
     "serverError": "Internal server error.",
-    "server": "Central system node failure. Support personnel alerted.",
-    "timeout": "Signal handshake timed out. Re-attempt the transmission."
+    "server": "Server error. Our team has been notified.",
+    "timeout": "Request timed out. Please retry."
   },
   "success": {
     "status": {
@@ -2884,7 +2884,7 @@
     "archive": "Archive this study?"
   },
   "agentStates": {
-    "working": "Running protocol...",
+    "working": "Querying…",
     "traveling": "In the field",
     "idle": "Standby",
     "assigned": "Assigned to study"
@@ -2990,7 +2990,7 @@
     "viewPlans": "Review Provisioning Tiers"
   },
   "chronomancy": {
-    "loading": "Retrieving chronological protocol data...",
+    "loading": "Querying…",
     "noVersions": "No prior protocol snapshots detected.",
     "today": "Current Cycle",
     "yesterday": "T-1 Cycle",
@@ -3097,7 +3097,7 @@
     "activate": "Execute",
     "emptyState": "No workflows detected in the operations log",
     "emptyHint": "Initialize your first automated workflow to optimize laboratory operations.",
-    "loading": "Scanning workflows...",
+    "loading": "Querying…",
     "loadError": "Failed to establish communication with automated workflows",
     "runNow": "Execute Now",
     "edit": "Amend Protocol",
@@ -3114,7 +3114,7 @@
     "conditionsOptional": "Optional Variables",
     "action": "Resultant Protocol",
     "cancel": "Abort",
-    "saveChanges": "Log Changes",
+    "saveChanges": "Commit Changes",
     "inscribe": "Validate Logic",
     "formulaWhen": "UPON",
     "formulaIf": "CONTINGENT",
@@ -3138,7 +3138,7 @@
     "agentType": "Autonomous Unit",
     "agentWarning": "Warning: Invoking autonomous analytic unit.",
     "eventFeedTitle": "Event Monitor",
-    "eventFeedLoading": "Fetching events...",
+    "eventFeedLoading": "Querying…",
     "eventFeedEmpty": "No events logged. Waiting for triggers to fire.",
     "tagNormalization": {
       "title": "Signal Normalization",
@@ -3333,7 +3333,7 @@
       "none": "none"
     },
     "editor": {
-      "save": "Push",
+      "save": "Commit",
       "saved": "Pushed.",
       "saveAndRegen": "Push + Map",
       "cancel": "Drop",
