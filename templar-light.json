@@ -371,15 +371,15 @@
     "titleLong": "Madness Interactive Workshop"
   },
   "panels": {
-    "todos": "📝 Todos",
-    "logs": "📋 Logs",
+    "todos": "📜 Charges",
+    "logs": "📋 Chronicle",
     "aiChat": "🤖 AI Chat",
-    "create": "➕ Create",
+    "create": "➕ Pledge",
     "projects": "📂 Projects",
     "mindMap": "🗺️ Mind Map",
     "swarmDesk": "🎪 SwarmDesk",
-    "lessons": "🎓 Lessons",
-    "insights": "📊 Insights",
+    "lessons": "🎓 Teachings",
+    "insights": "📊 Auguries",
     "settings": "⚙️ Settings",
     "labMaintenance": "🧹 Sanctum Purification",
     "workshop": "🔧 Sacred Workshop",
@@ -2039,18 +2039,18 @@
     }
   },
   "queuePane": {
-    "title": "Priority Queue",
-    "subtitle": "Arrange your tasks in order of priority",
-    "dragHint": "Drag cards to reorder priority",
-    "searchPlaceholder": "Search queue...",
-    "emptyState": "No tasks in queue",
-    "noSearchResults": "No items match your search",
-    "reordering": "Saving order...",
+    "title": "The Roster",
+    "subtitle": "Order your charges by sacred priority",
+    "dragHint": "Draw charges into their rightful order",
+    "searchPlaceholder": "Seek the roster...",
+    "emptyState": "The roster stands empty — no charges pledged",
+    "noSearchResults": "No charges answer your search",
+    "reordering": "Inscribing the order...",
     "allProjects": "All Projects",
     "cardActions": {
-      "complete": "Complete",
-      "edit": "Edit",
-      "remove": "Remove from Queue"
+      "complete": "Fulfill",
+      "edit": "Amend Charge",
+      "remove": "Strike from Roster"
     },
     "incoming": {
       "title": "Incoming",
@@ -2069,7 +2069,7 @@
     "clearConfirm": {
       "title": "Clear the Ranks?",
       "message": "This will remove {{count}} duty(s) from the sacred priority queue. They shall return to the scroll of Incoming.",
-      "confirm": "Release All"
+      "confirm": "Clear Roster"
     }
   },
   "onboarding": {
@@ -2092,7 +2092,7 @@
     },
     "steps": {
       "welcome": {
-        "title": "Welcome",
+        "title": "Welcome, Initiate",
         "defaultName": "User",
         "description": "Inventorium is your AI-powered task management and project visualization platform.",
         "subtitle": "Let's take a quick tour to help you get started."
@@ -2167,7 +2167,7 @@
         "tabTip": "After SwarmDesk loads, press TAB to jump back and forth between the dashboard and 3D workspace"
       },
       "complete": {
-        "title": "You're All Set!",
+        "title": "Your Oath Is Sworn",
         "description": "You're ready to start using Inventorium. Explore the features and make it your own.",
         "nextStepsTitle": "Next Steps:",
         "nextSteps": {
@@ -2253,7 +2253,7 @@
         "subtitle": "Verifying payment with Stripe"
       },
       "success": {
-        "title": "UPGRADE COMPLETE",
+        "title": "ASCENSION COMPLETE",
         "subtitle": "All systems nominal. Your account has been upgraded."
       },
       "error": {
@@ -2281,7 +2281,7 @@
     },
     "tier": "TIER",
     "operator": "ACCOUNT",
-    "enterLab": "GO TO DASHBOARD",
+    "enterLab": "ENTER THE HALL",
     "viewManifest": "VIEW BILLING",
     "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
     "checkBilling": "Check billing for current status."
@@ -2770,14 +2770,14 @@
     "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
     "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
     "sections": {
-      "criteria": "Success Criteria",
-      "chains": "Todo Chains",
-      "created": "Recently Created Quests"
+      "criteria": "Oaths of Completion",
+      "chains": "Charge Chains",
+      "created": "Recently Pledged Quests"
     },
     "fields": {
       "name": "Quest Name *",
       "project": "Project",
-      "description": "Description / Goal",
+      "description": "Description / Sacred Goal",
       "tagsInput": "Tags (comma-separated)",
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",

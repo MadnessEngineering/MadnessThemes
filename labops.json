@@ -371,16 +371,16 @@
     "titleLong": "Madness Interactive Workshop"
   },
   "panels": {
-    "todos": "📝 Todos",
-    "logs": "📋 Logs",
+    "todos": "📝 Tickets",
+    "logs": "📋 Telemetry",
     "aiChat": "🤖 AI Chat",
-    "create": "➕ Create",
+    "create": "➕ Provision",
     "projects": "📂 Projects",
-    "mindMap": "🗺️ Mind Map",
+    "mindMap": "🗺️ Topology",
     "swarmDesk": "🎪 SwarmDesk",
-    "lessons": "🎓 Lessons",
-    "insights": "📊 Insights",
-    "settings": "⚙️ Settings",
+    "lessons": "🎓 Runbooks",
+    "insights": "📊 Diagnostics",
+    "settings": "⚙️ Config",
     "labMaintenance": "🧹 Facility Audit",
     "workshop": "🔧 Operations Workshop",
     "chatAudit": "📊 Audit",
@@ -2039,18 +2039,18 @@
     }
   },
   "queuePane": {
-    "title": "Priority Queue",
-    "subtitle": "Arrange your tasks in order of priority",
-    "dragHint": "Drag cards to reorder priority",
-    "searchPlaceholder": "Search queue...",
-    "emptyState": "No tasks in queue",
-    "noSearchResults": "No items match your search",
-    "reordering": "Saving order...",
+    "title": "Run Queue",
+    "subtitle": "Order tickets by priority for the next run",
+    "dragHint": "Drag tickets to reprioritize",
+    "searchPlaceholder": "Query queue...",
+    "emptyState": "Queue is clear — no open tickets",
+    "noSearchResults": "No tickets match your query",
+    "reordering": "Applying order...",
     "allProjects": "All Projects",
     "cardActions": {
-      "complete": "Complete",
-      "edit": "Edit",
-      "remove": "Remove from Queue"
+      "complete": "Resolve",
+      "edit": "Edit Ticket",
+      "remove": "Pull from Queue"
     },
     "incoming": {
       "title": "Incoming",
@@ -2069,7 +2069,7 @@
     "clearConfirm": {
       "title": "Reset Operational Priority?",
       "message": "This will remove {{count}} protocol(s) from the ordered operations queue. They will be reverted to Intake.",
-      "confirm": "Clear All"
+      "confirm": "Clear Queue"
     }
   },
   "onboarding": {
@@ -2258,7 +2258,7 @@
       },
       "error": {
         "title": "VERIFICATION FAILED",
-        "subtitle": "The verification process encountered an error."
+        "subtitle": "The verification run hit an error."
       },
       "no_session": {
         "title": "MISSING SESSION",
@@ -2271,17 +2271,17 @@
       "session": "Session:",
       "conduitStable": "Payment confirmed: STABLE",
       "tierUpgrade": "Tier upgrade:",
-      "unlocking": "Unlocking upgraded features...",
+      "unlocking": "Provisioning upgraded features...",
       "allSystemsGo": "STATUS: ALL SYSTEMS GO",
       "paymentStatus": "Payment status:",
       "paymentIncomplete": "WARNING: Payment incomplete",
       "error": "ERROR:",
       "verificationFailed": "Verification failed",
-      "containment": "Error protocols engaged"
+      "containment": "Error protocols engaged — rolling back"
     },
     "tier": "TIER",
     "operator": "ACCOUNT",
-    "enterLab": "GO TO DASHBOARD",
+    "enterLab": "GO TO CONSOLE",
     "viewManifest": "VIEW BILLING",
     "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
     "checkBilling": "Check billing for current status."
@@ -2770,14 +2770,14 @@
     "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
     "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
     "sections": {
-      "criteria": "Success Criteria",
-      "chains": "Todo Chains",
-      "created": "Recently Created Quests"
+      "criteria": "Acceptance Criteria",
+      "chains": "Ticket Chains",
+      "created": "Recently Provisioned Quests"
     },
     "fields": {
       "name": "Quest Name *",
       "project": "Project",
-      "description": "Description / Goal",
+      "description": "Description / Objective",
       "tagsInput": "Tags (comma-separated)",
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
