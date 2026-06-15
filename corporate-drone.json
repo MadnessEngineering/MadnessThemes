@@ -484,7 +484,9 @@
       "title": "📊 Project Metrics",
       "totalTasks": "Total Tasks",
       "pending": "Pending Items",
-      "completed": "Delivered"
+      "completed": "Delivered",
+      "review": "Review",
+      "blocked": "Blocked"
     },
     "reviewTab": {
       "title": "QA Pipeline",
@@ -492,7 +494,15 @@
       "requestChanges": "Flag for Revision",
       "returnToProgress": "Re-assign",
       "emptyState": "Queue empty"
-    }
+    },
+    "todoPanel": {
+      "title": "Todo Queue",
+      "loading": "Querying todos…",
+      "create": "Open Todo",
+      "empty": "Board clear — no open todos."
+    },
+    "error": "Failed to load ops environment: {{error}}",
+    "exitButton": "Exit  Environment"
   },
   "projectTab": {
     "title": "New Project Initiative",
@@ -513,7 +523,29 @@
       "creating": "Processing...",
       "demoMode": "Evaluation Mode",
       "createProject": "DEPLOY PROJECT"
-    }
+    },
+    "deleteDialog": {
+      "title": "Delete Project",
+      "message": "Delete project \"{{projectName}}\"? This cannot be undone.",
+      "confirm": "Delete",
+      "cancel": "Cancel"
+    },
+    "overview": {
+      "description": "No description on record",
+      "created": "Createed",
+      "todos": "Open Todos",
+      "lessons": "Lesson Entries",
+      "noRepository": "No repository linked",
+      "completedTodos": "Completed Todos",
+      "updated": "Last Updated"
+    },
+    "actions": {
+      "editProject": "Reconfigure Project",
+      "deleteProject": "Delete Project",
+      "openSwarmDesk": "Open SwarmDesk"
+    },
+    "noActiveProject": "No active project",
+    "selectProject": "Select a project from the navigator"
   },
   "todoTab": {
     "project": {
@@ -539,22 +571,33 @@
       "newest": "Recent Additions",
       "oldest": "Legacy Items",
       "priority": "Priority Matrix",
-      "madness": "Random Optimization"
+      "madness": "Random Optimization",
+      "alphabetical": "Alphabetical",
+      "updated": "Recently Updated"
     },
     "search": {
-      "placeholder": "Search task inventory..."
+      "placeholder": "Search task inventory...",
+      "clear": "Clear Query",
+      "noResults": "No todos match this query"
     },
     "project": {
       "label": "Initiative",
       "allProjects": "All Initiatives ({{count}})",
       "clearFilter": "Reset Filter",
-      "clearAll": "Clear all"
+      "clearAll": "Clear all",
+      "select": "Assign Project",
+      "none": "No project assigned",
+      "change": "Reassign"
     },
     "pagination": {
       "show": "Display",
       "perPage": "per page",
       "all": "All Items",
-      "results": "results"
+      "results": "results",
+      "page": "Page {{current}} of {{total}}",
+      "next": "Next",
+      "prev": "Previous",
+      "showing": "Showing {{start}}-{{end}} of {{total}}"
     },
     "results": {
       "showing": "Showing {{start}}–{{end}} of {{total}} task items",
@@ -566,7 +609,11 @@
       "noMatching": "No Matching Tasks",
       "workshopClear": "Pipeline is Clear!",
       "noMatchingDescription": "No tasks match \"{{searchText}}\". Try refining your search parameters for optimal results.",
-      "workshopClearDescription": "No active tasks found. The productivity optimization system has achieved maximum efficiency — or all deliverables have been successfully processed."
+      "workshopClearDescription": "No active tasks found. The productivity optimization system has achieved maximum efficiency — or all deliverables have been successfully processed.",
+      "title": "Queue clear",
+      "message": "No open todos. Create a new todo to begin.",
+      "filtered": "No matching todos",
+      "noResults": "No todos match the current filter."
     },
     "buttons": {
       "refresh": "Refresh Data",
@@ -583,7 +630,12 @@
       "aiInsights": "AI Analysis",
       "openInWarp": "Initialize Warp Synergy",
       "addToQueue": "Initialize Queue Synergy",
-      "topOfQueue": "Maximize Priority Alignment"
+      "topOfQueue": "Maximize Priority Alignment",
+      "clone": "Duplicate",
+      "view": "View",
+      "move": "Reassign",
+      "delete": "Delete",
+      "flag": "Flag"
     },
     "fullEdit": {
       "modeTitle": "Full Configuration Mode - Enhanced Optimization Access"
@@ -651,7 +703,8 @@
       "high": "High",
       "medium": "Medium",
       "low": "Low",
-      "critical": "Critical"
+      "critical": "Critical",
+      "none": "Unset"
     },
     "status": {
       "pending": "Pending",
@@ -659,7 +712,8 @@
       "completed": "Completed",
       "initial": "Initial",
       "blocked": "Blocked",
-      "review": "Review"
+      "review": "Review",
+      "inProgress": "In Progress"
     },
     "fields": {
       "id": "Task ID",
@@ -731,8 +785,90 @@
       "markComplete": "Mark Complete",
       "markPending": "Mark Pending",
       "edit": "Edit Task",
-      "delete": "Delete Task"
-    }
+      "delete": "Delete Task",
+      "archive": "Archive",
+      "sendToReview": "Send to Review",
+      "reopen": "Reopen",
+      "prioritize": "Prioritize",
+      "unarchive": "Restore"
+    },
+    "timestamps": {
+      "due": "Due",
+      "created": "Opened",
+      "completed": "Completed",
+      "updated": "Updated"
+    },
+    "aiEnhancing": "Running diagnostics…",
+    "dueDate": {
+      "none": "No due date",
+      "set": "Set Due Date",
+      "today": "Due today",
+      "tomorrow": "Due tomorrow",
+      "overdue": "Overdue",
+      "change": "Adjust Due Date"
+    },
+    "notes": {
+      "add": "Add Note",
+      "edit": "Edit Note",
+      "none": "No notes on record"
+    },
+    "viewDetails": "View Details",
+    "moveDialog": {
+      "cancel": "Cancel",
+      "selectProject": "Select destination project",
+      "title": "Reassign Todo",
+      "confirm": "Reassign"
+    },
+    "createFirst": "Open your first todo",
+    "spellsAvailable": "AIs available",
+    "loadingMore": "Pulling more todos…",
+    "selected": "{{count}} selected",
+    "completionDialog": {
+      "notesLabel": "Resolution notes (optional)",
+      "title": "Complete Todo",
+      "cancel": "Cancel",
+      "confirm": "Complete"
+    },
+    "errorLoading": "Query failed: {{error}}",
+    "aiEnhance": "AI Insights",
+    "expandAll": "Expand All",
+    "bulkActions": {
+      "complete": "Complete Selected",
+      "move": "Reassign Selected",
+      "export": "Export",
+      "delete": "Delete Selected"
+    },
+    "selectAll": "Select All",
+    "tags": {
+      "none": "No tags",
+      "remove": "Remove Tag",
+      "add": "Add Tag"
+    },
+    "noTasks": "Board is clear — no open todos.",
+    "assignee": {
+      "none": "Unassigned",
+      "change": "Reassign",
+      "select": "Assign User"
+    },
+    "successMove": "Todo reassigned",
+    "dragHint": "Drag to reorder queue",
+    "deselectAll": "Deselect All",
+    "loadMore": "Load More",
+    "errorDeleting": "Delete failed: {{error}}",
+    "confirmDelete": {
+      "title": "Delete Todo",
+      "cancel": "Cancel",
+      "message": "Delete \"{{title}}\"? This cannot be undone.",
+      "confirm": "Delete"
+    },
+    "dropHere": "Drop here",
+    "successComplete": "Todo resolved",
+    "hideDetails": "Hide Details",
+    "count": "{{count}} todo(s)",
+    "collapseAll": "Collapse All",
+    "successDelete": "Todo decommissioned",
+    "loading": "Loading…",
+    "errorUpdating": "Update failed: {{error}}"
   },
   "todoEdit": {
     "loading": {
@@ -754,7 +890,23 @@
     "tips": {
       "title": "💡 Productivity Optimization Tips:",
       "description": "• Click any field to edit specifications inline • Use the Edit function for comprehensive form access • ESC to abort modifications • Ctrl+Enter to commit changes • Purple indicator for AI-enhanced analysis"
-    }
+    },
+    "title": "Edit Todo",
+    "fields": {
+      "dueDate": "Due Date",
+      "priority": "Priority",
+      "assignee": "Assignee",
+      "notes": "Notes",
+      "description": "Todo Description",
+      "tags": "Tags",
+      "status": "Status",
+      "project": "Project"
+    },
+    "cancel": "Cancel",
+    "saving": "Saveting…",
+    "save": "Save",
+    "delete": "Delete",
+    "createTitle": "Open New Todo"
   },
   "todoDetail": {
     "untitled": "Untitled Action Item",
@@ -838,7 +990,11 @@
       "npcAgents": "Automated Personnel",
       "swarmDesk": "SwarmDesk Controls",
       "support": "Escalation",
-      "keyboardShortcuts": "Shortcuts"
+      "keyboardShortcuts": "Shortcuts",
+      "security": "Security",
+      "notifications": "Alerts",
+      "general": "General",
+      "ai": "AI"
     },
     "swarmdesk": {
       "movementTitle": "Navigation Speed Optimization",
@@ -899,31 +1055,123 @@
       "title": "Theme",
       "colorTheme": "Color Theme",
       "textTheme": "Text Style",
-      "description": "Customize your laboratory appearance"
+      "description": "Customize your laboratory appearance",
+      "label": "Interface Theme"
     },
     "account": {
       "title": "Account",
       "profile": "Profile Settings",
       "preferences": "Preferences"
-    }
+    },
+    "data": {
+      "autoBackup": "Auto-snapshot",
+      "importFile": "Import Data File",
+      "exportAll": "Export Full Snapshot",
+      "backupFrequency": "Snapshot Frequency",
+      "clearAllData": "Purge All Data",
+      "confirmClear": "Purge all data? This cannot be undone."
+    },
+    "about": {
+      "build": "Build",
+      "reportBug": "Report Incident",
+      "version": "Version",
+      "license": "License",
+      "documentation": "Lessons",
+      "changelog": "Release Notes",
+      "featureRequest": "Request Feature"
+    },
+    "sections": {
+      "ai": "AI Integration",
+      "security": "Security Config",
+      "privacy": "Access Control",
+      "about": "System Info",
+      "account": "User Profile",
+      "notifications": "Alert Config",
+      "advanced": "Advanced",
+      "appearance": "Display Config",
+      "data": "Data Management",
+      "integrations": "Integrations"
+    },
+    "ai": {
+      "provider": "Provider",
+      "temperature": "Temperature",
+      "apiKey": "API Key",
+      "testConnection": "Test Connection",
+      "description": "Configure AI diagnostic provider",
+      "model": "Model",
+      "label": "AI Integration",
+      "maxTokens": "Max Tokens",
+      "failed": "Connection failed",
+      "connected": "Connection verified",
+      "testing": "Testing…"
+    },
+    "security": {
+      "changePassword": "Change Password",
+      "loginHistory": "Login Log",
+      "revokeAll": "Revoke All Sessions",
+      "sessions": "Active Sessions",
+      "twoFactor": "Two-Factor Auth"
+    },
+    "language": {
+      "label": "Language",
+      "description": "Interface language"
+    },
+    "display": {
+      "reducedMotion": "Reduce motion",
+      "spacious": "Spacious",
+      "density": "Display Density",
+      "comfortable": "Comfortable",
+      "compact": "Compact",
+      "fontSize": "Font Size",
+      "animations": "UI Animations"
+    },
+    "autoSave": {
+      "description": "Automatically commit configuration changes",
+      "label": "Auto-commit changes"
+    },
+    "advanced": {
+      "label": "Advanced",
+      "resetSettings": "Reset to Defaults",
+      "importData": "Import Data",
+      "debugMode": "Debug Mode",
+      "exportData": "Export",
+      "experimentalFeatures": "Experimental Features",
+      "dangerZone": "Restricted Zone",
+      "clearCache": "Purge Cache",
+      "description": "Advanced configuration parameters"
+    },
+    "privacy": {
+      "shareAnalytics": "Share usage telemetry",
+      "crashReports": "Submit crash reports",
+      "label": "Access Control",
+      "description": "Manage data access settings"
+    },
+    "reset": "Reset to Defaults",
+    "cancel": "Cancel",
+    "notifications": {
+      "inApp": "In-Console Alerts",
+      "email": "Email Alerts",
+      "description": "Enable system alerts",
+      "push": "Push Alerts",
+      "label": "Alert Notifications"
+    },
+    "save": "Save Config",
+    "error": "Configuration commit failed",
+    "saved": "Configuration committed"
   },
   "umlData": {
     "title": "📐 Architecture Blueprints",
     "description": "Leverage UML data assets for 3D system architecture visualization in SwarmDesk platform",
-    "upload": {
-      "button": "Deploy Blueprint",
-      "reading": "Processing architecture data",
-      "success": "Successfully deployed {{name}} with {{classes}} architectural components"
-    },
+    "upload": "Upload Map",
     "errors": {
       "loadFailed": "Failed to retrieve blueprint inventory from repository",
       "uploadFailed": "Failed to deploy architecture blueprint to system",
       "deleteFailed": "Failed to archive blueprint asset"
     },
     "delete": {
-      "confirmTitle": "Archive Architecture Blueprint?",
-      "confirmMessage": "Are you sure you want to archive {{name}}? This operation cannot be reversed.",
-      "success": "Successfully archived {{name}} from active inventory"
+      "confirmTitle": "Delete Code Map",
+      "confirmMessage": "Delete this code map? This cannot be undone.",
+      "success": "Code map deleted"
     },
     "viewSwarmDesk": {
       "redirect": "Launching SwarmDesk platform..."
@@ -957,8 +1205,57 @@
       "view": "Launch in SwarmDesk",
       "delete": "Archive"
     },
-    "empty": "No architecture blueprints in inventory",
-    "empty.hint": "Deploy a UML blueprint to visualize your system architecture in 3D"
+    "empty": {
+      "action": "Generate First Map",
+      "title": "No code maps on record",
+      "message": "Generate a code map to visualize project architecture."
+    },
+    "empty.hint": "Deploy a UML blueprint to visualize your system architecture in 3D",
+    "compareVersions": "Compare Versions",
+    "download": "Download",
+    "generateFromRepo": "Generate from Repository",
+    "confirmRestore": "Restore this version?",
+    "filters": {
+      "all": "All Maps",
+      "recent": "Recent",
+      "language": "By Language"
+    },
+    "noVersions": "No versions on record",
+    "success": {
+      "generated": "Code map generated",
+      "deleted": "Map decommissioned",
+      "uploaded": "Map uploaded to archive",
+      "restored": "Version restored"
+    },
+    "metadata": {
+      "size": "Size",
+      "nodes": "Nodes",
+      "created": "Generated",
+      "framework": "Framework",
+      "edges": "Edges",
+      "language": "Language"
+    },
+    "versions": "Versions",
+    "depth": "Analysis Depth",
+    "restore": "Restore Version",
+    "generate": "Generate Map",
+    "error": {
+      "upload": "Upload failed: {{error}}",
+      "generate": "Generation failed: {{error}}",
+      "load": "Query failed: {{error}}"
+    },
+    "confirmDelete": "Delete this code map?",
+    "branch": "Branch",
+    "diff": "Diff View",
+    "uploading": "Uploading…",
+    "generating": "Generating…",
+    "repoUrl": "Repository URL",
+    "loading": "Querying code maps…",
+    "timeline": "Version Timeline",
+    "previousVersion": "Previous",
+    "currentVersion": "Current",
+    "version": "Version",
+    "noData": "No code maps on record. Generate your first map."
   },
   "auth": {
     "app": {
@@ -983,7 +1280,12 @@
   },
   "editableTodoCard": {
     "confirmCancel": "You have unsaved operational changes. Are you sure you want to abort this optimization process?",
-    "confirmDelete": "Are you sure you want to remove this task item from the system database?",
+    "confirmDelete": {
+      "confirm": "Delete",
+      "cancel": "Cancel",
+      "message": "Delete this todo?",
+      "title": "Delete Todo"
+    },
     "sections": {
       "metadata": "Micromiddle-management (Optional)"
     },
@@ -1022,7 +1324,8 @@
       "review": "Under Review",
       "completed": "Delivered",
       "initial": "Initiated",
-      "cancelled": "Sunsetted"
+      "cancelled": "Sunsetted",
+      "inProgress": "In Progress"
     },
     "menu": {
       "editTask": "Modify Task",
@@ -1033,13 +1336,50 @@
     },
     "tooltips": {
       "enhance": "AI enhances description, suggests tags and complexity"
-    }
+    },
+    "actions": {
+      "save": "Save",
+      "share": "Share",
+      "unpin": "Unpin",
+      "edit": "Edit Todo",
+      "view": "View Details",
+      "pin": "Pin",
+      "unflag": "Unflag",
+      "complete": "Complete",
+      "clone": "Duplicate",
+      "delete": "Delete",
+      "flag": "Flag",
+      "move": "Reassign",
+      "cancel": "Cancel"
+    },
+    "fields": {
+      "description": "Description",
+      "status": "Status",
+      "tags": "Tags",
+      "priority": "Priority",
+      "notes": "Notes",
+      "dueDate": "Due Date",
+      "project": "Project"
+    },
+    "placeholder": "Todo description…",
+    "saved": "Saveted",
+    "saving": "Saveting…",
+    "viewMode": "View Mode",
+    "editMode": "Edit Mode",
+    "error": "Save failed"
   },
   "mindMap": {
     "controls": {
       "switchToWorldMap": "Switch to Strategic Relationship Mapping",
       "switchToSphere": "Return to Network Visualization",
-      "chaos": "🎯 Process Optimization"
+      "chaos": "🎯 Process Optimization",
+      "fullscreen": "Full Screen",
+      "fit": "Fit to Window",
+      "center": "Center View",
+      "reset": "Reset View",
+      "zoomOut": "Zoom Out",
+      "exitFullscreen": "Exit Full Screen",
+      "zoomIn": "Zoom In"
     },
     "info": {
       "nodeCount": "{{count}} Strategic Nodes"
@@ -1079,7 +1419,11 @@
     },
     "nodes": {
       "centerBrain": "📊 STRATEGIC COMMAND CENTER",
-      "centerWorkshop": "🏢 PRODUCTIVITY HUB"
+      "centerWorkshop": "🏢 PRODUCTIVITY HUB",
+      "lesson": "Lesson",
+      "tag": "Tag",
+      "todo": "Todo",
+      "project": "Project"
     },
     "modes": {
       "dynamic": "⚡ Dynamic Process Mode",
@@ -1093,7 +1437,38 @@
       "type": "Resource Type",
       "priority": "Business Priority",
       "energy": "Performance Index"
-    }
+    },
+    "export": {
+      "json": "Export JSON",
+      "svg": "Export SVG",
+      "png": "Export PNG"
+    },
+    "loading": "Querying topology…",
+    "filters": {
+      "all": "All Nodes",
+      "todos": "Todos Only",
+      "tags": "Tags Only",
+      "projects": "Projects Only"
+    },
+    "disconnectNodes": "Unlink Nodes",
+    "layout": {
+      "radial": "Radial Layout",
+      "force": "Force Layout",
+      "tree": "Tree Layout",
+      "grid": "Grid Layout"
+    },
+    "error": "Mind Map query failed: {{error}}",
+    "connectNodes": "Link Nodes",
+    "addNode": "Add Node",
+    "deleteNode": "Remove Node",
+    "empty": {
+      "action": "Open First Todo",
+      "message": "Add todos and projects to map the system topology.",
+      "title": "Mind Map empty"
+    },
+    "editNode": "Edit Node",
+    "refresh": "Refresh Mind Map",
+    "title": "🗺️ Project Mind Map"
   },
   "warRoom": {
     "backgroundImage": {
@@ -1115,7 +1490,29 @@
       "uploadError": "Asset deployment failed. Escalate and retry.",
       "fileTooLarge": "Asset exceeds 5MB compliance threshold",
       "invalidType": "Only JPEG, PNG, and WebP formats are SOC2-compliant"
-    }
+    },
+    "incident": {
+      "assign": "Assign",
+      "priority": "Severity",
+      "resolve": "Complete Incident",
+      "escalate": "Escalate",
+      "create": "Open Incident",
+      "status": "Status"
+    },
+    "error": "Incident query failed: {{error}}",
+    "empty": {
+      "message": "No active incidents. All systems nominal.",
+      "title": "All clear",
+      "action": "Open Incident"
+    },
+    "filters": {
+      "resolved": "Completed",
+      "all": "All Incidents",
+      "active": "Active"
+    },
+    "refresh": "Refresh",
+    "title": "🚨 Incident Command",
+    "loading": "Querying incident data…"
   },
   "swarmDesk": {
     "ui": {
@@ -1413,7 +1810,12 @@
           "saveSettings": "💾 Commit Protocol Settings",
           "resetDefaults": "🔄 Revert to Protocol Defaults"
         }
-      }
+      },
+      "settings": "Config",
+      "chat": "AIs",
+      "insights": "Analytics",
+      "projects": "Projects",
+      "todos": "Todo Queue"
     },
     "projectData": {
       "title": "📂 Strategic Project Portfolio",
@@ -1505,7 +1907,11 @@
       "containerNotReady": "⚠️ Enterprise container pending",
       "panelSystemExists": "🏷️ Node system already localized, ensuring proper state",
       "panelSystemMissing": "⚠️ Node system non-compliant with input protocols, reinitializing...",
-      "panelSystemCreated": "✅ Node system instantiated successfully"
+      "panelSystemCreated": "✅ Node system instantiated successfully",
+      "disconnected": "Datastore disconnected",
+      "connected": "Connected to datastore",
+      "synced": "Synced",
+      "syncing": "Syncing…"
     },
     "actions": {
       "deploy": "🚀 Deploy Strategic Initiative",
@@ -1519,7 +1925,100 @@
       "edit": "✏️ Edit Item",
       "delete": "🗑️ Delete Item",
       "refresh": "🔄 Refresh Data"
-    }
+    },
+    "notifications": {
+      "todoCompleted": "Todo resolved",
+      "projectCreated": "Project provisioned",
+      "todoCreated": "Todo opened",
+      "syncComplete": "Datastore synced",
+      "todoDeleted": "Todo decommissioned"
+    },
+    "controls": {
+      "reset": "Reset View",
+      "exitFullscreen": "Exit Full Screen",
+      "zoom": "Zoom",
+      "rotate": "Rotate",
+      "fullscreen": "Full Screen",
+      "move": "Move"
+    },
+    "chatPanel": {
+      "send": "Send",
+      "title": "AIs",
+      "placeholder": "Query…",
+      "loading": "Loading…"
+    },
+    "tour": {
+      "panels": "Use panels to query todos and run diagnostics",
+      "welcome": "Welcome to SwarmDesk  Center",
+      "interaction": "Click nodes to manage todos",
+      "navigation": "WASD to navigate, mouse to look",
+      "complete": "center ready"
+    },
+    "agentPanel": {
+      "status": {
+        "offline": "Offline",
+        "idle": "Idle",
+        "active": "Active"
+      },
+      "title": "Agent Status",
+      "loading": "Querying agents…",
+      "empty": "No agents registered."
+    },
+    "projectPanel": {
+      "select": "Select Project",
+      "title": "Active Projects",
+      "empty": "No projects provisioned.",
+      "loading": "Querying projects…",
+      "create": "Create Project",
+      "selected": "Active: {{name}}"
+    },
+    "hotkeys": {
+      "mouse": "Mouse: Look",
+      "space": "Space: Select",
+      "title": "Hotkey Reference",
+      "escape": "ESC: Exit",
+      "tab": "TAB: Switch Panel",
+      "wasd": "WASD: Navigate"
+    },
+    "nodes": {
+      "edit": "Edit Todo",
+      "view": "View Details",
+      "delete": "Delete",
+      "complete": "Complete",
+      "create": "Open Todo",
+      "move": "Reassign"
+    },
+    "filters": {
+      "inProgress": "In Progress",
+      "review": "Review",
+      "all": "All Todos",
+      "pending": "Pending",
+      "blocked": "Blocked"
+    },
+    "sort": {
+      "created": "Date Opened",
+      "name": "Alphabetical",
+      "updated": "Recently Updated",
+      "priority": "Priority"
+    },
+    "todoPanel": {
+      "loading": "Querying todos…",
+      "empty": "Board is clear.",
+      "title": "Todo Queue"
+    },
+    "empty": {
+      "message": "Open a todo to populate the ops center.",
+      "title": "No nodes in view"
+    },
+    "createTodo": {
+      "placeholder": "Todo description…",
+      "cancel": "Cancel",
+      "submit": "Open Todo",
+      "title": "Open New Todo"
+    },
+    "loading": "Loading…",
+    "error": "SwarmDesk query failed: {{error}}",
+    "title": "🎪 SwarmDesk  Center"
   },
   "chatAssistant": {
     "errors": {
@@ -1580,8 +2079,47 @@
       "searchLessons": "Search research notes",
       "listTodos": "List active tasks",
       "createProject": "Create new project",
-      "summarize": "Generate summary"
-    }
+      "summarize": "Generate summary",
+      "insights": "Run project diagnostics",
+      "blocked": "What is blocked?",
+      "critical": "Show critical todos",
+      "listAll": "List all open todos"
+    },
+    "history": "Session History",
+    "ai": "AIs",
+    "tools": {
+      "createTodo": "Open Todo",
+      "analyzeTodos": "AI Insights",
+      "listTodos": "List Todos",
+      "searchTodos": "Query Todos"
+    },
+    "empty": {
+      "title": "Chat ready",
+      "message": "Enter a query or request an analysis.",
+      "suggestion": "Try: 'What todos are blocked?'"
+    },
+    "error": {
+      "send": "Transmission failed: {{error}}",
+      "load": "Query failed: {{error}}"
+    },
+    "system": "System",
+    "actions": {
+      "feedback": {
+        "bad": "Not Useful",
+        "good": "Useful"
+      },
+      "retry": "Retry",
+      "copy": "Copy",
+      "delete": "Remove"
+    },
+    "typing": "Processing…",
+    "you": "User",
+    "newConversation": "New Session",
+    "confirmClear": "Purge all session history?",
+    "clearHistory": "Purge History",
+    "sending": "Transmitting…",
+    "noHistory": "No session history",
+    "loading": "Loading…"
   },
   "mobileChatInterface": {
     "quickActions": {
@@ -1619,7 +2157,31 @@
     },
     "menu": {
       "clearChat": "Reset Chat Session"
-    }
+    },
+    "attachFile": "Attach File",
+    "empty": {
+      "message": "Run a query or request an analysis.",
+      "title": "Chat ready"
+    },
+    "historyTitle": "Session History",
+    "minimize": "Minimize",
+    "loading": "Loading…",
+    "expand": "Expand",
+    "stopVoice": "Stop Voice",
+    "noHistory": "No session history",
+    "newSession": "New Session",
+    "error": "Transmission failed",
+    "connectionStatus": {
+      "disconnected": "Disconnected",
+      "connected": "Connected",
+      "reconnecting": "Reconnecting…"
+    },
+    "send": "Send",
+    "placeholder": "Query the assistant…",
+    "clearHistory": "Purge History",
+    "title": "Lab AIs",
+    "close": "Dismiss",
+    "voiceInput": "Voice Input"
   },
   "spells": {
     "names": {
@@ -1823,7 +2385,36 @@
         "consolidated": "Consolidated Deliverable",
         "suggestions": "Streamlining Recommendations"
       }
-    }
+    },
+    "consolidate": {
+      "description": "Identify and merge duplicate todos",
+      "casting": "Scanning for duplicates…",
+      "title": "Consolidate Todos",
+      "button": "Find Duplicates",
+      "success": "Consolidation complete"
+    },
+    "geomancy": {
+      "title": "Pattern Analysis",
+      "button": "Analyze Patterns",
+      "description": "Identify patterns and dependencies",
+      "casting": "Running analysis…",
+      "success": "Analysis complete"
+    },
+    "categories": {
+      "consolidate": "Consolidate",
+      "analyze": "Analyze",
+      "enhance": "Enhance"
+    },
+    "enhance": {
+      "button": "Enhance Todo",
+      "description": "Use AI to improve todo description",
+      "success": "Todo enhanced",
+      "title": "Enhance Todo",
+      "casting": "Enhancing…"
+    },
+    "title": "🔬 AI Tools",
+    "available": "Available diagnostics",
+    "description": "AI-powered analytics for todo management"
   },
   "activityLog": {
     "title": "📋 Operational Performance Ledger",

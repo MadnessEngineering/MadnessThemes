@@ -17,12 +17,12 @@
     "pulling": "Pulling…",
     "newBranch": "New branch",
     "createBranch": "Cut branch",
-    "deleteBranch": "Delete branch",
+    "deleteBranch": "Decommission branch",
     "renameBranch": "Rename branch",
     "switchBranch": "Switch branch",
     "currentBranch": "Active branch",
     "branchName": "Branch name",
-    "noBranches": "No branches",
+    "noBranches": "No branches on record",
     "changesTitle": "Pending changes",
     "noLocalChanges": "Working tree clean",
     "discardChanges": "Discard changes",
@@ -30,19 +30,19 @@
     "stashChanges": "Stash changes",
     "undo": "Roll back",
     "cloneRepository": "Clone repository",
-    "addRepository": "Add repository",
-    "removeRepository": "Remove repository",
+    "addRepository": "Register repository",
+    "removeRepository": "Deregister repository",
     "repositorySettings": "Repository config",
-    "openInTerminal": "Open in terminal",
+    "openInTerminal": "Open terminal session",
     "viewOnGitHub": "View on GitHub",
     "historyTitle": "Deploy log",
-    "noHistory": "No history",
+    "noHistory": "No commit history",
     "resolveConflicts": "Resolve conflicts",
     "abortMerge": "Abort merge",
     "continueRebase": "Continue rebase",
     "abortRebase": "Abort rebase",
     "ok": "OK",
-    "cancel": "Cancel",
+    "cancel": "Discard",
     "discard": "Discard",
     "continue": "Continue",
     "dismiss": "Dismiss"
@@ -85,7 +85,7 @@
     "mindmap": "Specimen Map",
     "swarmdesk": "3D Lab View",
     "chat": "Lab Consultant",
-    "sessions": "Lab Sessions"
+    "sessions": "Sessions"
   },
   "validation": {
     "nameRequired": "Project name is required",
@@ -175,17 +175,17 @@
       "lowPriority": "Routine"
     },
     "activityLog": {
-      "title": "📊 Todo Activity Log",
-      "collection": "todo_logs collection",
-      "description": "Track all changes and operations performed on todos",
+      "title": "📊 Ops Event Log",
+      "collection": "event_logs collection",
+      "description": "Telemetry stream — all ticket state changes and ops events",
       "updates": "Updates",
-      "creates": "Creates",
-      "deletes": "Deletes",
-      "completions": "Completions",
-      "totalEntries": "Total Entries"
+      "creates": "Provisions",
+      "deletes": "Decommissions",
+      "completions": "Resolutions",
+      "totalEntries": "Total Events"
     },
     "recentlyCompleted": {
-      "title": "✅ Recently Completed"
+      "title": "✅ Recently Resolved"
     },
     "welcome": {
       "message": "Lab Operations Center online. All systems nominal.",
@@ -199,111 +199,111 @@
       "projects": "🧪 Studies"
     },
     "filters": {
-      "allActivity": "All Activity",
-      "todosCreated": "Tasks Created",
-      "todosUpdated": "Tasks Updated",
-      "todosCompleted": "Tasks Completed",
-      "todosDeleted": "Tasks Deleted",
-      "projectsCreated": "Projects Created",
+      "allActivity": "All Events",
+      "todosCreated": "Tickets Opened",
+      "todosUpdated": "Tickets Updated",
+      "todosCompleted": "Tickets Resolved",
+      "todosDeleted": "Tickets Decommissioned",
+      "projectsCreated": "Projects Provisioned",
       "projectsUpdated": "Projects Updated",
-      "projectsDeleted": "Projects Deleted"
+      "projectsDeleted": "Projects Decommissioned"
     },
     "unifiedView": "Unified View",
     "personalView": "Personal View",
-    "showingAllDatabases": "Showing all databases",
-    "showingPersonalOnly": "Showing personal entries only",
+    "showingAllDatabases": "Querying all datastores",
+    "showingPersonalOnly": "Showing personal queue only",
     "filteredByProject": "Filtered by project",
-    "noLogsFound": "No activity logs found",
-    "tryChangingFilter": "Try adjusting your filters",
-    "startCreatingTodos": "Create your first task to begin",
-    "failedToLoad": "Failed to load: {{error}}",
-    "changesMade": "Changes implemented",
-    "completionNotes": "Completion notes",
-    "revertOperation": "Revert {{operation}}",
-    "revertSuccess": "Successfully reverted {{operation}}",
-    "revertFailed": "Revert failed: {{error}}",
-    "revertDeleteNotSupported": "Reverting deletions is not supported",
-    "revertNotSupported": "Reverting {{operation}} is not supported",
-    "confirmRevert": "Confirm Revert",
-    "confirmRevertMessage": "Are you sure you want to revert {{operation}} on {{description}}?",
-    "confirmRevertAction": "Revert Change",
-    "operationType": "Operation Type",
-    "taskDescription": "Task Description",
+    "noLogsFound": "No events in telemetry log",
+    "tryChangingFilter": "Adjust filter parameters",
+    "startCreatingTodos": "Open your first ticket to begin",
+    "failedToLoad": "Query failed: {{error}}",
+    "changesMade": "Changes committed",
+    "completionNotes": "Resolution notes",
+    "revertOperation": "Roll back {{operation}}",
+    "revertSuccess": "{{operation}} rolled back successfully",
+    "revertFailed": "Roll back failed: {{error}}",
+    "revertDeleteNotSupported": "Reverting decommission ops is not supported",
+    "revertNotSupported": "Roll back not supported for {{operation}}",
+    "confirmRevert": "Confirm Roll Back",
+    "confirmRevertMessage": "Roll back {{operation}} on {{description}}?",
+    "confirmRevertAction": "Roll Back",
+    "operationType": "Event Type",
+    "taskDescription": "Ticket Description",
     "descriptions": {
-      "projectCreated": "Project created: {{projectName}}",
+      "projectCreated": "Project provisioned: {{projectName}}",
       "projectUpdated": "Project updated: {{projectName}}",
-      "projectDeleted": "Project deleted: {{projectName}}",
-      "projectModified": "Project modified: {{projectName}}",
-      "unknownTask": "Unknown task"
+      "projectDeleted": "Project decommissioned: {{projectName}}",
+      "projectModified": "Project reconfigured: {{projectName}}",
+      "unknownTask": "Unknown event"
     },
-    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} items)",
-    "autoRefreshingInterval": "Auto-refreshing every 30 seconds",
+    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} events)",
+    "autoRefreshingInterval": "Auto-syncing every 30 seconds",
     "stats": {
       "totalProjects": "Total Projects",
       "activeProjects": "Active Projects",
-      "completedTodos": "Completed Tasks",
+      "completedTodos": "Resolved Tickets",
       "archivedProjects": "Archived Projects"
     },
-    "recentActivity": "Recent Activity"
+    "recentActivity": "Recent Events"
   },
   "activityLog": {
-    "title": "📋 Activity Log",
-    "autoRefreshOn": "Auto-refresh ON",
-    "autoRefreshOff": "Auto-refresh OFF",
+    "title": "📋 Ops Event Log",
+    "autoRefreshOn": "Auto-sync ON",
+    "autoRefreshOff": "Auto-sync OFF",
     "filters": {
-      "allActivity": "All Activity",
-      "todosCreated": "Todos Created",
-      "todosUpdated": "Todos Updated",
-      "todosCompleted": "Todos Completed",
-      "todosDeleted": "Todos Deleted",
-      "projectsCreated": "Projects Created",
+      "allActivity": "All Events",
+      "todosCreated": "Tickets Opened",
+      "todosUpdated": "Tickets Updated",
+      "todosCompleted": "Tickets Resolved",
+      "todosDeleted": "Tickets Decommissioned",
+      "projectsCreated": "Projects Provisioned",
       "projectsUpdated": "Projects Updated",
-      "projectsDeleted": "Projects Deleted",
-      "all": "All Activity",
-      "create": "Created",
+      "projectsDeleted": "Projects Decommissioned",
+      "all": "All Events",
+      "create": "Opened",
       "update": "Updated",
-      "complete": "Completed",
-      "delete": "Deleted"
+      "complete": "Resolved",
+      "delete": "Decommissioned"
     },
     "unifiedView": "🌐 Unified View",
     "personalView": "👤 Personal View",
-    "showingAllDatabases": "Showing logs from all databases",
-    "showingPersonalOnly": "Showing only your personal logs",
+    "showingAllDatabases": "Querying all datastores",
+    "showingPersonalOnly": "Showing your personal queue only",
     "filteredByProject": "Filtered by project:",
-    "noLogsFound": "No activity logs found",
-    "tryChangingFilter": "Try changing the filter",
-    "startCreatingTodos": "Start creating todos to see activity",
-    "failedToLoad": "Failed to load activity logs: {{error}}",
-    "changesMade": "Changes made:",
-    "completionNotes": "Completion notes:",
-    "revertOperation": "Revert {{operation}}",
-    "revertSuccess": "Successfully reverted {{operation}} operation",
-    "revertFailed": "Failed to revert: {{error}}",
-    "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
-    "revertNotSupported": "Revert not supported for {{operation}} operation",
-    "confirmRevert": "Confirm Revert Operation",
-    "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
-    "confirmRevertAction": "Revert Operation",
-    "operationType": "Operation Type",
-    "taskDescription": "Task Description",
+    "noLogsFound": "No events in telemetry log",
+    "tryChangingFilter": "Adjust filter parameters",
+    "startCreatingTodos": "Open a ticket to begin generating telemetry",
+    "failedToLoad": "Query failed: {{error}}",
+    "changesMade": "Changes committed:",
+    "completionNotes": "Resolution notes:",
+    "revertOperation": "Roll back {{operation}}",
+    "revertSuccess": "{{operation}} rolled back successfully",
+    "revertFailed": "Roll back failed: {{error}}",
+    "revertDeleteNotSupported": "Cannot roll back decommission — resource is gone",
+    "revertNotSupported": "Roll back not supported for {{operation}}",
+    "confirmRevert": "Confirm Roll Back",
+    "confirmRevertMessage": "Roll back {{operation}} on: {{description}}?",
+    "confirmRevertAction": "Roll Back",
+    "operationType": "Event Type",
+    "taskDescription": "Ticket Description",
     "descriptions": {
-      "projectCreated": "Project \"{{projectName}}\" was created",
-      "projectUpdated": "Project \"{{projectName}}\" was updated",
-      "projectDeleted": "Project \"{{projectName}}\" was deleted",
-      "projectModified": "Project \"{{projectName}}\" was modified",
-      "unknownTask": "Unknown task"
+      "projectCreated": "Project \"{{projectName}}\" provisioned",
+      "projectUpdated": "Project \"{{projectName}}\" updated",
+      "projectDeleted": "Project \"{{projectName}}\" decommissioned",
+      "projectModified": "Project \"{{projectName}}\" reconfigured",
+      "unknownTask": "Unknown event"
     },
-    "showingPageStats": "Showing page {{currentPage}} of {{totalPages}} ({{totalCount}} total activities)",
-    "autoRefreshingInterval": " • Auto-refreshing every 30s",
+    "showingPageStats": "Page {{currentPage}} of {{totalPages}} ({{totalCount}} total events)",
+    "autoRefreshingInterval": " • Auto-syncing every 30s",
     "emptyState": {
-      "title": "No activity yet",
-      "message": "Start working on tasks to see activity here"
+      "title": "Queue clear",
+      "message": "No events recorded yet. Open a ticket to begin."
     },
     "events": {
-      "created": "created",
+      "created": "opened",
       "updated": "updated",
-      "completed": "completed",
-      "deleted": "deleted"
+      "completed": "resolved",
+      "deleted": "decommissioned"
     },
     "ago": "ago",
     "stats": {
@@ -327,8 +327,8 @@
       "general": "General"
     },
     "filters": {
-      "allLessons": "All Lessons",
-      "bookmarked": "Bookmarked",
+      "allLessons": "All Runbooks",
+      "bookmarked": "Flagged",
       "recent": "Recent (7 days)"
     },
     "emptyState": {
@@ -340,28 +340,28 @@
     },
     "createFirstLesson": "Record Your First Finding",
     "actions": {
-      "starred": "Starred",
-      "addStar": "Add Star"
+      "starred": "Flagged",
+      "addStar": "Flag"
     },
     "pagination": {
-      "showingRange": "Showing {{start}}-{{end}} of {{total}} lessons"
+      "showingRange": "Showing {{start}}-{{end}} of {{total}} runbooks"
     },
     "dialog": {
       "editTitle": "🔭 Amend Lab Note",
       "addTitle": "🔭 Record New Finding",
       "topicLabel": "Topic",
-      "lessonLabel": "Lesson Learned",
+      "lessonLabel": "Runbook Entry",
       "languageLabel": "Language",
       "tagsLabel": "Tags (comma separated)",
       "tagsPlaceholder": "react, ui, logging",
-      "databaseLabel": "Save to Database",
-      "personalDatabase": "👤 Personal Database",
-      "sharedDatabase": "🌐 Shared Database (swarmonomicon)",
-      "updateLesson": "Update Note",
-      "createLesson": "Log Finding"
+      "databaseLabel": "Commit to Datastore",
+      "personalDatabase": "👤 Personal Datastore",
+      "sharedDatabase": "🌐 Shared Datastore (swarmonomicon)",
+      "updateLesson": "Update Runbook",
+      "createLesson": "Log Runbook"
     },
-    "failedToLoad": "Failed to load lessons: {{error}}",
-    "confirmDelete": "Are you sure you want to delete this lesson?"
+    "failedToLoad": "Query failed: {{error}}",
+    "confirmDelete": "Decommission this runbook entry?"
   },
   "todoManagement": {
     "title": "🔬 Protocol Management"
@@ -373,7 +373,7 @@
   "panels": {
     "todos": "📝 Tickets",
     "logs": "📋 Telemetry",
-    "aiChat": "🤖 AI Chat",
+    "aiChat": "🤖 Diagnostics",
     "create": "➕ Provision",
     "projects": "📂 Projects",
     "mindMap": "🗺️ Topology",
@@ -388,7 +388,7 @@
     "account": "👤 Operator Profile",
     "queue": "📥 Processing Queue",
     "inventory": "🗄️ Equipment Registry",
-    "quests": "⚔️ Quests"
+    "quests": "⚔️ Objectives"
   },
   "mobileNavigation": {
     "goBack": "Return to Station",
@@ -425,28 +425,28 @@
     "deletedProjects": "Deactivated",
     "activeProjects": "Active Workflows",
     "duplicates": {
-      "title": "Similar Todo Detection",
-      "description": "Find and consolidate near-duplicate todos across projects.",
+      "title": "Duplicate Ticket Detection",
+      "description": "Identify and consolidate near-duplicate tickets across projects.",
       "threshold": "Similarity",
       "scan": "Scan",
-      "scanning": "Scanning...",
-      "noResults": "No similar todos found at this threshold. Try lowering the sensitivity.",
+      "scanning": "Querying…",
+      "noResults": "No duplicate tickets detected at this threshold.",
       "groupsFound": "groups",
-      "potentialDuplicates": "todos",
-      "analyzeAI": "Analyze with AI",
-      "analyzing": "Analyzing...",
-      "aiComplete": "AI analysis complete! Review recommendations below.",
-      "aiUnavailable": "AI analysis is temporarily unavailable.",
-      "recommendations": "AI Recommendations",
+      "potentialDuplicates": "tickets",
+      "analyzeAI": "Run Diagnostics",
+      "analyzing": "Running diagnostics…",
+      "aiComplete": "Diagnostic complete. Review recommendations below.",
+      "aiUnavailable": "Diagnostics temporarily unavailable.",
+      "recommendations": "Diagnostic Recommendations",
       "keep": "Keep",
       "merge": "Merge",
-      "deleteLabel": "Remove",
+      "deleteLabel": "Decommission",
       "suggestedDescription": "Suggested",
-      "reasoning": "Reasoning",
+      "reasoning": "Rationale",
       "apply": "Apply",
       "applyAll": "Apply All",
-      "applied": "Recommendation applied successfully",
-      "selectGroupsFirst": "Select todos from groups to analyze"
+      "applied": "Recommendation applied",
+      "selectGroupsFirst": "Select ticket groups to analyze"
     },
     "quickTags": {
       "title": "Asset Tags:",
@@ -464,24 +464,24 @@
     "sessionResolved": "resolved this session"
   },
   "demo": {
-    "label": "DEMO - Read Only"
+    "label": "OBSERVATION MODE"
   },
   "menu": {
-    "documentation": "Documentation",
-    "replayTutorial": "Replay Tutorial",
+    "documentation": "Runbooks",
+    "replayTutorial": "Replay Onboarding",
     "userManagement": "User Management",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
-    "logout": "Logout",
+    "logout": "Log Out",
     "support": "Operations Support",
-    "lessonRefiner": "Lesson Refiner"
+    "lessonRefiner": "Runbook Refiner"
   },
   "notifications": {
     "aiInsightsGenerated": "🧪 Lab analysis complete. Review enhanced protocol notes.",
     "todoMarkedForReview": "🔬 Protocol flagged for peer review.",
     "todoCompleted": "✅ Protocol completed and archived.",
-    "taskCreated": "🎉 Task created successfully!",
-    "projectCreated": "🧪 New study registered.",
+    "taskCreated": "🎉 Ticket provisioned.",
+    "projectCreated": "🔬 New project provisioned.",
     "aiConfigured": "✅ AI configured successfully!",
     "todoCreated": "📋 New protocol entry logged in the registry.",
     "settingsSaved": "⚙️ System calibrations committed to memory.",
@@ -492,26 +492,26 @@
   },
   "projectNavigator": {
     "title": "🔬 STUDY NAVIGATOR",
-    "subtitle": "Choose your project universe • Enter focused development environments",
-    "cacheStatus": "🏪 Cached data • Last loaded: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main Swarmdesk • 1-9: Quick select",
+    "subtitle": "Select active project • Enter focused ops environment",
+    "cacheStatus": "🏪 Cached • Last synced: {{time}}",
+    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Resync • M: Main Swarmdesk • 1-9: Quick select",
     "manageTooltip": {
       "admin": "Manage Projects (Admin)",
       "personal": "Manage Personal Projects"
     },
-    "refreshTooltip": "Refresh Project Data",
-    "mainSwarmDeskTooltip": "Enter Main Swarmdesk",
+    "refreshTooltip": "Resync Project Data",
+    "mainSwarmDeskTooltip": "Open Main Swarmdesk",
     "loading": {
-      "title": "🔍 Scanning Project Universes...",
-      "subtitle": "Gathering todo data and project metrics"
+      "title": "🔍 Querying projects…",
+      "subtitle": "Pulling ticket data and project metrics"
     },
     "stats": {
       "pending": "pending",
-      "review": "review"
+      "review": "triage"
     },
     "activity": {
-      "title": "Recent Activity",
-      "noActivity": "No recent activity"
+      "title": "Recent Events",
+      "noActivity": "No recent events"
     },
     "enterButton": {
       "selected": "📦 STAGED",
@@ -519,18 +519,18 @@
       "helpText": "Press Enter or #{{number}}"
     },
     "createCta": {
-      "title": "Provision New Infrastructure",
-      "subtitle": "Compute resources available — spin up a new environment"
+      "title": "Provision New Project",
+      "subtitle": "Resources available — stand up a new environment"
     },
     "deleteDialog": {
-      "title": "Delete Project",
-      "confirm": "Are you sure you want to delete project \"{{projectName}}\"?",
-      "graveyardNote": "This will move the project to the graveyard. You can restore it later if needed.",
-      "hasTodos": "This project has {{count}} todo(s). Would you like to relocate them?",
-      "relocateLabel": "Relocate todos to another project",
+      "title": "Decommission Project",
+      "confirm": "Decommission project \"{{projectName}}\"?",
+      "graveyardNote": "Project will be archived. You can restore it later if needed.",
+      "hasTodos": "This project has {{count}} open ticket(s). Relocate them?",
+      "relocateLabel": "Relocate tickets to another project",
       "selectDestination": "Select destination project",
-      "cancel": "Cancel",
-      "deleteButton": "Delete Project"
+      "cancel": "Discard",
+      "deleteButton": "Decommission Project"
     },
     "viewInSwarmDesk": "View in SwarmDesk"
   },
@@ -538,19 +538,21 @@
     "title": "🎪 {{projectName}}",
     "stats": {
       "pendingTasks": "{{count}} pending",
-      "completedTasks": "{{count}} completed"
+      "completedTasks": "{{count}} resolved"
     },
-    "loading": "🎪 Loading {{projectId}} Environment...",
+    "loading": "🎪 Loading {{projectId}} environment…",
     "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Project",
     "workstation": {
-      "todoHint": "📝 Click to manage project todos",
+      "todoHint": "📋 Click to manage project tickets",
       "projectHint": "🎪 Click to view project details"
     },
     "statsPanel": {
-      "title": "Project Stats",
+      "title": "Project Metrics",
       "totalTasks": "Total Tasks",
       "pending": "Pending",
-      "completed": "Completed"
+      "completed": "Resolved",
+      "blocked": "Blocked",
+      "review": "Triage"
     },
     "reviewTab": {
       "title": "Review Queue",
@@ -558,7 +560,15 @@
       "requestChanges": "Request Changes",
       "returnToProgress": "Return to Progress",
       "emptyState": "No items in review"
-    }
+    },
+    "todoPanel": {
+      "title": "Ticket Queue",
+      "empty": "Board clear — no open tickets.",
+      "loading": "Querying tickets…",
+      "create": "Open Ticket"
+    },
+    "exitButton": "Exit Ops Environment",
+    "error": "Failed to load ops environment: {{error}}"
   },
   "projectTab": {
     "title": "Project Setup",
@@ -579,6 +589,28 @@
       "creating": "Creating...",
       "demoMode": "Demo Mode",
       "createProject": "CREATE PROJECT"
+    },
+    "noActiveProject": "No active project",
+    "selectProject": "Select a project from the navigator",
+    "overview": {
+      "description": "No description on record",
+      "noRepository": "No repository linked",
+      "todos": "Open Tickets",
+      "completedTodos": "Resolved Tickets",
+      "lessons": "Runbook Entries",
+      "created": "Provisioned",
+      "updated": "Last Updated"
+    },
+    "actions": {
+      "openSwarmDesk": "Open SwarmDesk",
+      "editProject": "Reconfigure Project",
+      "deleteProject": "Decommission Project"
+    },
+    "deleteDialog": {
+      "title": "Decommission Project",
+      "message": "Decommission project \"{{projectName}}\"? This cannot be undone.",
+      "confirm": "Decommission",
+      "cancel": "Discard"
     }
   },
   "todoTab": {
@@ -593,97 +625,117 @@
   "todoList": {
     "filters": {
       "allTasks": "All Protocols",
-      "pending": "Queued",
-      "review": "Under Review",
-      "completed": "Archived",
-      "all": "All Protocols",
-      "inProgress": "Active",
+      "pending": "Pending",
+      "review": "Triage",
+      "completed": "Resolved",
+      "all": "All Tickets",
+      "inProgress": "In Progress",
       "blocked": "Blocked",
       "in_progress": "In Progress"
     },
     "sort": {
-      "newest": "Newest First",
-      "oldest": "Oldest First",
-      "priority": "Priority Order",
-      "madness": "Random Order"
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "priority": "Priority",
+      "madness": "Random Order",
+      "alphabetical": "Alphabetical",
+      "updated": "Recently Updated"
     },
     "search": {
-      "placeholder": "Search tasks..."
+      "placeholder": "Query tickets…",
+      "clear": "Clear Query",
+      "noResults": "No tickets match this query"
     },
     "project": {
       "label": "Project",
       "allProjects": "All Projects ({{count}})",
       "clearFilter": "Clear Filter",
-      "clearAll": "Clear all"
+      "clearAll": "Clear all",
+      "select": "Assign Project",
+      "change": "Reassign",
+      "none": "No project assigned"
     },
     "pagination": {
       "show": "Show",
       "perPage": "per page",
       "all": "All",
-      "results": "results"
+      "results": "results",
+      "showing": "Showing {{start}}-{{end}} of {{total}}",
+      "page": "Page {{current}} of {{total}}",
+      "prev": "Previous",
+      "next": "Next"
     },
     "results": {
-      "showing": "Showing {{start}}-{{end}} of {{total}} todos",
+      "showing": "Showing {{start}}-{{end}} of {{total}} tickets",
       "matching": " matching \"{{searchText}}\"",
-      "filteringByProject": "Filtering by project: <strong>{{project}}</strong>",
-      "filteringByProjects": "Filtering by {{count}} project(s)"
+      "filteringByProject": "Filtered by project: <strong>{{project}}</strong>",
+      "filteringByProjects": "Filtered by {{count}} project(s)"
     },
     "empty": {
-      "noMatching": "No Matching Tasks",
-      "workshopClear": "No Tasks Found",
-      "noMatchingDescription": "No tasks match \"{{searchText}}\". Try adjusting your search or filters.",
-      "workshopClearDescription": "No tasks found. The workspace is clear and organized."
+      "noMatching": "No Matching Tickets",
+      "workshopClear": "Queue Clear",
+      "noMatchingDescription": "No tickets match \"{{searchText}}\". Adjust your query or filters.",
+      "workshopClearDescription": "No tickets found. The queue is clear.",
+      "title": "Queue clear",
+      "message": "No open tickets. Provision a new ticket to begin.",
+      "noResults": "No tickets match the current filter.",
+      "filtered": "No matching tickets"
     },
     "buttons": {
-      "refresh": "Refresh",
-      "export": "Export",
-      "saving": "Saving...",
-      "saveChanges": "Save Changes",
+      "refresh": "Resync",
+      "export": "Export Snapshot",
+      "saving": "Committing…",
+      "saveChanges": "Commit Changes",
       "discard": "Discard",
-      "complete": "Complete",
-      "edit": "Edit",
+      "complete": "Resolve",
+      "edit": "Edit Ticket",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
-      "review": "Review",
-      "aiInsights": "AI Insights",
+      "review": "Triage",
+      "aiInsights": "Run Diagnostics",
       "openInWarp": "Execute Warp Sequence",
       "addToQueue": "Add to Ops Queue",
-      "topOfQueue": "Priority Ops"
+      "topOfQueue": "Priority Ops",
+      "delete": "Decommission",
+      "view": "View",
+      "flag": "Flag",
+      "move": "Reassign",
+      "clone": "Duplicate"
     },
     "fullEdit": {
       "modeTitle": "Full Edit Mode"
     },
     "menu": {
-      "editTask": "Edit Task",
+      "editTask": "Edit Ticket",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "openInWarp": "Execute Warp Sequence",
-      "deleteTask": "Delete Task"
+      "deleteTask": "Decommission Ticket"
     },
     "dialog": {
-      "completeTitle": "Complete Todo: {{description}}",
-      "completeDescription": "Add an optional comment about how this task was completed (e.g., solution details, time taken, blockers resolved, etc.)",
-      "completePlaceholder": "e.g., Fixed CSS issue by updating the responsive breakpoints. Took 2 hours due to browser compatibility testing.",
-      "cancel": "Cancel",
-      "completeTask": "Complete Task",
-      "exportTitle": "Export Todos",
-      "exportDescription": "Exporting {{count}} todos",
+      "completeTitle": "Resolve Ticket: {{description}}",
+      "completeDescription": "Add an optional resolution note (solution details, time taken, blockers resolved, etc.)",
+      "completePlaceholder": "e.g., Fixed CSS issue by updating responsive breakpoints. 2 hours — browser compat testing.",
+      "cancel": "Discard",
+      "completeTask": "Resolve Ticket",
+      "exportTitle": "Export Ticket Snapshot",
+      "exportDescription": "Exporting {{count}} tickets",
       "exportFilename": "Filename",
-      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
+      "exportFilenameHelp": "Export file name (extension added automatically)",
       "exportFormat": "Format",
       "exportButton": "Export",
-      "formatJSON": "JSON - Structured Data",
-      "formatJSONDesc": "Complete todo data in JSON format for reimport",
-      "formatCSV": "CSV - Spreadsheet",
+      "formatJSON": "JSON — Structured Data",
+      "formatJSONDesc": "Complete ticket data in JSON format for reimport",
+      "formatCSV": "CSV — Spreadsheet",
       "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
-      "formatMarkdown": "Markdown - Documentation",
+      "formatMarkdown": "Markdown — Documentation",
       "formatMarkdownDesc": "Human-readable format for documentation",
-      "formatHTML": "HTML - Web Page",
-      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
+      "formatHTML": "HTML — Web Page",
+      "formatHTMLDesc": "Styled web page for browser viewing",
       "formatJira": "Jira/Slack Commands",
-      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatJiraDesc": "Ready-to-paste Slack commands for Jira tickets",
       "formatVariant": "Format Variant",
       "variantPretty": "Pretty (Readable)",
       "variantMinified": "Minified (Compact)",
@@ -702,7 +754,7 @@
         "daysSinceUpdate": "Days since update",
         "charCount": "Character count",
         "tokenEstimate": "Token estimate",
-        "timeToComplete": "Time to complete"
+        "timeToComplete": "Time to resolve"
       },
       "selectAll": "All",
       "selectNone": "None",
@@ -717,15 +769,17 @@
       "high": "High",
       "medium": "Medium",
       "low": "Low",
-      "critical": "Critical"
+      "critical": "Critical",
+      "none": "Unset"
     },
     "status": {
       "pending": "Pending",
       "in_progress": "In Progress",
-      "completed": "Completed",
-      "initial": "Initial",
+      "completed": "Resolved",
+      "initial": "Initializing",
       "blocked": "Blocked",
-      "review": "Review"
+      "review": "Triage",
+      "inProgress": "In Progress"
     },
     "fields": {
       "id": "ID",
@@ -734,15 +788,15 @@
       "priority": "Priority",
       "status": "Status",
       "target": "Target",
-      "created": "Created",
+      "created": "Opened",
       "updated": "Updated",
       "metadata": "Metadata",
       "source": "Source",
       "notes": "Notes",
       "ticket": "Ticket",
-      "completed_at": "Completed At",
-      "completed_by": "Completed By",
-      "completion_comment": "Completion Comment",
+      "completed_at": "Resolved At",
+      "completed_by": "Resolved By",
+      "completion_comment": "Resolution Comment",
       "duration": "Duration",
       "duration_sec": "Duration (seconds)",
       "tags": "Tags",
@@ -761,44 +815,126 @@
       "invalidProject": "Please select a valid project"
     },
     "error": {
-      "failedToLoad": "Failed to load todos",
+      "failedToLoad": "Query failed",
       "unknownError": "Unknown error",
-      "malfunctionMessage": "The system encountered an error. Please try refreshing or check your connection.",
+      "malfunctionMessage": "The system encountered an error. Resync or check your connection.",
       "moveToPersonalFailed": "Personal transfer op failed"
     },
     "placeholders": {
-      "setStatus": "Set status...",
-      "editDescription": "Click to edit todo description...",
-      "selectProject": "Select project...",
-      "setPriority": "Set priority..."
+      "setStatus": "Set status…",
+      "editDescription": "Click to edit ticket description…",
+      "selectProject": "Select project…",
+      "setPriority": "Set priority…"
     },
     "tooltip": {
-      "unsavedChanges": "You have unsaved changes",
+      "unsavedChanges": "You have uncommitted changes",
       "moveToPersonal": "Claim shared task into your personal ops queue"
     },
     "labels": {
       "readOnly": "🔒 Read-Only",
-      "review": "REVIEW",
+      "review": "TRIAGE",
       "notes": "Operational Notes"
     },
     "aria": {
-      "todoActions": "Todo actions"
+      "todoActions": "Ticket actions"
     },
-    "title": "Laboratory Tasks",
-    "addTodo": "Add Task",
+    "title": "🔬 Ticket Queue",
+    "addTodo": "Open Ticket",
     "emptyState": {
-      "title": "No tasks yet",
-      "message": "Create your first laboratory task to get started",
-      "action": "Create Task",
+      "title": "Queue clear",
+      "message": "Open your first ticket to get started",
+      "action": "Open Ticket",
       "noTasks": "No protocols found",
       "createFirst": "Initialize your first protocol to begin"
     },
     "actions": {
-      "markComplete": "Mark Complete",
+      "markComplete": "Resolve",
       "markPending": "Mark Pending",
-      "edit": "Edit Task",
-      "delete": "Delete Task"
-    }
+      "edit": "Edit Ticket",
+      "delete": "Decommission Ticket",
+      "sendToReview": "Send to Triage",
+      "reopen": "Reopen",
+      "prioritize": "Prioritize",
+      "archive": "Archive",
+      "unarchive": "Restore"
+    },
+    "loading": "Querying…",
+    "loadingMore": "Pulling more tickets…",
+    "loadMore": "Load More",
+    "count": "{{count}} ticket(s)",
+    "selected": "{{count}} selected",
+    "selectAll": "Select All",
+    "deselectAll": "Deselect All",
+    "bulkActions": {
+      "complete": "Resolve Selected",
+      "delete": "Decommission Selected",
+      "move": "Reassign Selected",
+      "export": "Export Snapshot"
+    },
+    "dragHint": "Drag to reorder queue",
+    "dropHere": "Drop here",
+    "createFirst": "Open your first ticket",
+    "noTasks": "Board is clear — no open tickets.",
+    "timestamps": {
+      "created": "Opened",
+      "updated": "Updated",
+      "completed": "Resolved",
+      "due": "Due"
+    },
+    "tags": {
+      "add": "Add Tag",
+      "remove": "Remove Tag",
+      "none": "No tags"
+    },
+    "notes": {
+      "add": "Add Note",
+      "edit": "Edit Note",
+      "none": "No notes on record"
+    },
+    "assignee": {
+      "select": "Assign Operator",
+      "change": "Reassign",
+      "none": "Unassigned"
+    },
+    "dueDate": {
+      "set": "Set Due Date",
+      "change": "Adjust Due Date",
+      "none": "No due date",
+      "overdue": "Overdue",
+      "today": "Due today",
+      "tomorrow": "Due tomorrow"
+    },
+    "confirmDelete": {
+      "title": "Decommission Ticket",
+      "message": "Decommission \"{{title}}\"? This cannot be undone.",
+      "confirm": "Decommission",
+      "cancel": "Discard"
+    },
+    "moveDialog": {
+      "title": "Reassign Ticket",
+      "selectProject": "Select destination project",
+      "confirm": "Reassign",
+      "cancel": "Discard"
+    },
+    "completionDialog": {
+      "title": "Resolve Ticket",
+      "notesLabel": "Resolution notes (optional)",
+      "confirm": "Resolve",
+      "cancel": "Discard"
+    },
+    "errorLoading": "Query failed: {{error}}",
+    "errorUpdating": "Update failed: {{error}}",
+    "errorDeleting": "Decommission failed: {{error}}",
+    "successComplete": "Ticket resolved",
+    "successDelete": "Ticket decommissioned",
+    "successMove": "Ticket reassigned",
+    "aiEnhance": "Run Diagnostics",
+    "aiEnhancing": "Running diagnostics…",
+    "spellsAvailable": "Diagnostics available",
+    "viewDetails": "View Details",
+    "hideDetails": "Hide Details",
+    "expandAll": "Expand All",
+    "collapseAll": "Collapse All"
   },
   "todoEdit": {
     "loading": {
@@ -820,11 +956,27 @@
     "tips": {
       "title": "💡 Edit Tips:",
       "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to cancel • Ctrl+Enter to save • Purple sparkle for AI enhancement"
-    }
+    },
+    "title": "Edit Ticket",
+    "createTitle": "Open New Ticket",
+    "fields": {
+      "description": "Ticket Description",
+      "priority": "Priority",
+      "status": "Status",
+      "notes": "Notes",
+      "tags": "Tags",
+      "project": "Project",
+      "assignee": "Assignee",
+      "dueDate": "Due Date"
+    },
+    "save": "Commit",
+    "cancel": "Discard",
+    "delete": "Decommission",
+    "saving": "Committing…"
   },
   "settings": {
-    "title": "⚙️ Instrument Configuration",
-    "confirmReset": "Confirm reset of all instrument configurations to baseline parameters? This operation cannot be undone.",
+    "title": "⚙️ System Configuration",
+    "confirmReset": "Reset all configuration to factory defaults?",
     "messages": {
       "saveSuccess": "Configuration parameters saved to instrument registry",
       "saveError": "Failed to write configuration to instrument registry"
@@ -861,12 +1013,12 @@
     },
     "tabs": {
       "profile": "Profile",
-      "data": "Database",
+      "data": "Data",
       "aiConfiguration": "AI Configuration",
       "mcpSetup": "MCP Setup",
       "messaging": "Messaging",
       "apiKeys": "API Keys",
-      "appearance": "Appearance",
+      "appearance": "Display",
       "mindMap": "Mind Map",
       "umlData": "Code Visualizations",
       "privacy": "Privacy",
@@ -875,7 +1027,11 @@
       "swarmDesk": "SwarmDesk",
       "support": "Ops Help",
       "hooks": "Lab Automation Hooks",
-      "keyboardShortcuts": "Shortcuts"
+      "keyboardShortcuts": "Shortcuts",
+      "general": "General",
+      "ai": "AI",
+      "notifications": "Alerts",
+      "security": "Security"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -936,31 +1092,123 @@
       "title": "Theme",
       "colorTheme": "Color Theme",
       "textTheme": "Text Style",
-      "description": "Customize your laboratory appearance"
+      "description": "Select the console display theme",
+      "label": "Interface Theme"
     },
     "account": {
       "title": "Account",
       "profile": "Profile Settings",
       "preferences": "Preferences"
+    },
+    "sections": {
+      "appearance": "Display Config",
+      "ai": "AI Integration",
+      "notifications": "Alert Config",
+      "privacy": "Access Control",
+      "account": "Operator Profile",
+      "advanced": "Advanced Ops",
+      "about": "System Info",
+      "data": "Data Management",
+      "integrations": "Integrations",
+      "security": "Security Config"
+    },
+    "language": {
+      "label": "Language",
+      "description": "Interface language"
+    },
+    "notifications": {
+      "label": "Alert Notifications",
+      "description": "Enable system alerts",
+      "email": "Email Alerts",
+      "push": "Push Alerts",
+      "inApp": "In-Console Alerts"
+    },
+    "ai": {
+      "label": "AI Integration",
+      "description": "Configure AI diagnostic provider",
+      "provider": "Provider",
+      "apiKey": "API Key",
+      "model": "Model",
+      "temperature": "Temperature",
+      "maxTokens": "Max Tokens",
+      "testConnection": "Test Connection",
+      "testing": "Testing…",
+      "connected": "Connection verified",
+      "failed": "Connection failed"
+    },
+    "privacy": {
+      "label": "Access Control",
+      "description": "Manage data access settings",
+      "shareAnalytics": "Share usage telemetry",
+      "crashReports": "Submit crash reports"
+    },
+    "advanced": {
+      "label": "Advanced Ops",
+      "description": "Advanced configuration parameters",
+      "debugMode": "Debug Mode",
+      "experimentalFeatures": "Experimental Features",
+      "resetSettings": "Reset to Defaults",
+      "clearCache": "Purge Cache",
+      "exportData": "Export Snapshot",
+      "importData": "Import Data",
+      "dangerZone": "Restricted Zone"
+    },
+    "save": "Commit Config",
+    "cancel": "Discard",
+    "saved": "Configuration committed",
+    "error": "Configuration commit failed",
+    "reset": "Reset to Defaults",
+    "autoSave": {
+      "label": "Auto-commit changes",
+      "description": "Automatically commit configuration changes"
+    },
+    "display": {
+      "density": "Display Density",
+      "compact": "Compact",
+      "comfortable": "Comfortable",
+      "spacious": "Spacious",
+      "fontSize": "Font Size",
+      "animations": "UI Animations",
+      "reducedMotion": "Reduce motion"
+    },
+    "data": {
+      "exportAll": "Export Full Snapshot",
+      "importFile": "Import Data File",
+      "clearAllData": "Purge All Data",
+      "confirmClear": "Purge all data? This cannot be undone.",
+      "backupFrequency": "Snapshot Frequency",
+      "autoBackup": "Auto-snapshot"
+    },
+    "security": {
+      "changePassword": "Change Password",
+      "twoFactor": "Two-Factor Auth",
+      "sessions": "Active Sessions",
+      "revokeAll": "Revoke All Sessions",
+      "loginHistory": "Login Log"
+    },
+    "about": {
+      "version": "Version",
+      "build": "Build",
+      "license": "License",
+      "documentation": "Runbooks",
+      "changelog": "Release Notes",
+      "reportBug": "Report Incident",
+      "featureRequest": "Request Feature"
     }
   },
   "umlData": {
-    "title": "Code Visualizations",
+    "title": "🗂️ Code Map Archive",
     "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
-    "upload": {
-      "button": "Upload UML File",
-      "reading": "Reading file",
-      "success": "Successfully uploaded {{name}} with {{classes}} classes"
-    },
+    "upload": "Upload Map",
     "errors": {
       "loadFailed": "Failed to load UML datasets",
       "uploadFailed": "Failed to upload UML file",
       "deleteFailed": "Failed to delete UML data"
     },
     "delete": {
-      "confirmTitle": "Delete Code Visualization?",
-      "confirmMessage": "Are you sure you want to delete {{name}}? This action cannot be undone.",
-      "success": "Successfully deleted {{name}}"
+      "confirmTitle": "Decommission Code Map",
+      "confirmMessage": "Decommission this code map? This cannot be undone.",
+      "success": "Code map decommissioned"
     },
     "viewSwarmDesk": {
       "redirect": "Opening in SwarmDesk..."
@@ -994,8 +1242,57 @@
       "view": "View in SwarmDesk",
       "delete": "Delete"
     },
-    "empty": "No code visualizations yet",
-    "empty.hint": "Upload a UML file to see your code in 3D"
+    "empty": {
+      "title": "No code maps on record",
+      "message": "Generate a code map to visualize project architecture.",
+      "action": "Generate First Map"
+    },
+    "empty.hint": "Upload a UML file to see your code in 3D",
+    "loading": "Querying code maps…",
+    "noData": "No code maps on record. Generate your first map.",
+    "generate": "Generate Map",
+    "generating": "Generating…",
+    "uploading": "Uploading…",
+    "download": "Download",
+    "confirmDelete": "Decommission this code map?",
+    "version": "Version",
+    "versions": "Versions",
+    "noVersions": "No versions on record",
+    "compareVersions": "Compare Versions",
+    "currentVersion": "Current",
+    "previousVersion": "Previous",
+    "diff": "Diff View",
+    "timeline": "Version Timeline",
+    "restore": "Restore Version",
+    "confirmRestore": "Restore this version?",
+    "metadata": {
+      "created": "Generated",
+      "size": "Size",
+      "nodes": "Nodes",
+      "edges": "Edges",
+      "language": "Language",
+      "framework": "Framework"
+    },
+    "filters": {
+      "all": "All Maps",
+      "recent": "Recent",
+      "language": "By Language"
+    },
+    "error": {
+      "generate": "Generation failed: {{error}}",
+      "upload": "Upload failed: {{error}}",
+      "load": "Query failed: {{error}}"
+    },
+    "success": {
+      "generated": "Code map generated",
+      "uploaded": "Map uploaded to archive",
+      "deleted": "Map decommissioned",
+      "restored": "Version restored"
+    },
+    "repoUrl": "Repository URL",
+    "branch": "Branch",
+    "depth": "Analysis Depth",
+    "generateFromRepo": "Generate from Repository"
   },
   "auth": {
     "app": {
@@ -1020,7 +1317,12 @@
   },
   "editableTodoCard": {
     "confirmCancel": "You have unsaved changes. Are you sure you want to cancel?",
-    "confirmDelete": "Are you sure you want to delete this todo?",
+    "confirmDelete": {
+      "title": "Decommission Ticket",
+      "message": "Decommission this ticket? This cannot be undone.",
+      "confirm": "Decommission",
+      "cancel": "Discard"
+    },
     "sections": {
       "metadata": "Metadata (Optional)"
     },
@@ -1056,10 +1358,11 @@
       "pending": "Pending",
       "in_progress": "In Progress",
       "blocked": "Blocked",
-      "review": "Review",
-      "completed": "Completed",
+      "review": "Triage",
+      "completed": "Resolved",
       "initial": "Initial",
-      "cancelled": "Cancelled"
+      "cancelled": "Cancelled",
+      "inProgress": "In Progress"
     },
     "menu": {
       "editTask": "Edit Task",
@@ -1070,13 +1373,50 @@
     },
     "tooltips": {
       "enhance": "AI enhances description, suggests tags and complexity"
+    },
+    "placeholder": "Ticket description…",
+    "saving": "Committing…",
+    "saved": "Committed",
+    "error": "Commit failed",
+    "editMode": "Edit Mode",
+    "viewMode": "View Mode",
+    "actions": {
+      "edit": "Edit Ticket",
+      "save": "Commit",
+      "cancel": "Discard",
+      "delete": "Decommission",
+      "complete": "Resolve",
+      "move": "Reassign",
+      "clone": "Duplicate",
+      "flag": "Flag",
+      "unflag": "Unflag",
+      "pin": "Pin",
+      "unpin": "Unpin",
+      "share": "Share",
+      "view": "View Details"
+    },
+    "fields": {
+      "description": "Description",
+      "notes": "Notes",
+      "tags": "Tags",
+      "priority": "Priority",
+      "status": "Status",
+      "project": "Project",
+      "dueDate": "Due Date"
     }
   },
   "mindMap": {
     "controls": {
       "switchToWorldMap": "Switch to War Room",
       "switchToSphere": "Switch to Sphere",
-      "chaos": "Chaos"
+      "chaos": "Chaos",
+      "zoomIn": "Zoom In",
+      "zoomOut": "Zoom Out",
+      "reset": "Reset View",
+      "center": "Center View",
+      "fit": "Fit to Window",
+      "fullscreen": "Full Screen",
+      "exitFullscreen": "Exit Full Screen"
     },
     "info": {
       "nodeCount": "{{count}} Nodes"
@@ -1116,7 +1456,11 @@
     },
     "nodes": {
       "centerBrain": "⚡ TANGENTRON",
-      "centerWorkshop": "🧠 WORKSHOP"
+      "centerWorkshop": "🧠 WORKSHOP",
+      "todo": "Ticket",
+      "project": "Project",
+      "lesson": "Runbook",
+      "tag": "Tag"
     },
     "modes": {
       "dynamic": "⚡ Dynamic Mode",
@@ -1130,7 +1474,38 @@
       "type": "Type",
       "priority": "Priority",
       "energy": "Energy"
-    }
+    },
+    "title": "🗺️ Project Topology",
+    "loading": "Querying topology…",
+    "empty": {
+      "title": "Topology empty",
+      "message": "Add tickets and projects to map the system topology.",
+      "action": "Open First Ticket"
+    },
+    "filters": {
+      "all": "All Nodes",
+      "todos": "Tickets Only",
+      "projects": "Projects Only",
+      "tags": "Tags Only"
+    },
+    "layout": {
+      "force": "Force Layout",
+      "tree": "Tree Layout",
+      "radial": "Radial Layout",
+      "grid": "Grid Layout"
+    },
+    "export": {
+      "png": "Export PNG",
+      "svg": "Export SVG",
+      "json": "Export JSON"
+    },
+    "error": "Topology query failed: {{error}}",
+    "refresh": "Resync Topology",
+    "addNode": "Add Node",
+    "editNode": "Edit Node",
+    "deleteNode": "Remove Node",
+    "connectNodes": "Link Nodes",
+    "disconnectNodes": "Unlink Nodes"
   },
   "chatAssistant": {
     "errors": {
@@ -1183,15 +1558,54 @@
       "placeholder": "Ask your assistant...",
       "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
     },
-    "title": "Lab Assistant",
-    "placeholder": "Ask your lab assistant...",
+    "title": "🤖 Diagnostic Console",
+    "placeholder": "Query the diagnostic system…",
     "send": "Send",
     "thinking": "Processing...",
     "suggestions": {
       "searchLessons": "Search research notes",
       "listTodos": "List active tasks",
       "createProject": "Create new project",
-      "summarize": "Generate summary"
+      "summarize": "Generate summary",
+      "listAll": "List all open tickets",
+      "critical": "Show critical tickets",
+      "blocked": "What is blocked?",
+      "insights": "Run project diagnostics"
+    },
+    "sending": "Transmitting…",
+    "loading": "Querying…",
+    "empty": {
+      "title": "Diagnostics ready",
+      "message": "Enter a query or request an analysis.",
+      "suggestion": "Try: 'What tickets are blocked?'"
+    },
+    "error": {
+      "send": "Transmission failed: {{error}}",
+      "load": "Query failed: {{error}}"
+    },
+    "actions": {
+      "copy": "Copy",
+      "retry": "Retry",
+      "delete": "Remove",
+      "feedback": {
+        "good": "Useful",
+        "bad": "Not Useful"
+      }
+    },
+    "system": "System",
+    "you": "Operator",
+    "ai": "Diagnostics",
+    "typing": "Processing…",
+    "newConversation": "New Session",
+    "clearHistory": "Purge History",
+    "confirmClear": "Purge all session history?",
+    "history": "Session History",
+    "noHistory": "No session history",
+    "tools": {
+      "listTodos": "List Tickets",
+      "createTodo": "Open Ticket",
+      "analyzeTodos": "Run Diagnostics",
+      "searchTodos": "Query Tickets"
     }
   },
   "mobileChatInterface": {
@@ -1230,6 +1644,30 @@
     },
     "menu": {
       "clearChat": "Clear Lab Chat"
+    },
+    "title": "Lab Diagnostics",
+    "placeholder": "Query the diagnostic system…",
+    "send": "Send",
+    "voiceInput": "Voice Input",
+    "stopVoice": "Stop Voice",
+    "attachFile": "Attach File",
+    "loading": "Querying…",
+    "empty": {
+      "title": "Diagnostics ready",
+      "message": "Run a query or request an analysis."
+    },
+    "error": "Transmission failed",
+    "newSession": "New Session",
+    "clearHistory": "Purge History",
+    "historyTitle": "Session History",
+    "noHistory": "No session history",
+    "close": "Dismiss",
+    "minimize": "Minimize",
+    "expand": "Expand",
+    "connectionStatus": {
+      "connected": "Connected",
+      "disconnected": "Disconnected",
+      "reconnecting": "Reconnecting…"
     }
   },
   "warRoom": {
@@ -1252,18 +1690,40 @@
       "uploadError": "Upload failed. Please try again.",
       "fileTooLarge": "Image must be under 5MB",
       "invalidType": "Only JPEG, PNG, and WebP images are supported"
-    }
+    },
+    "title": "🚨 Incident Command",
+    "loading": "Querying incident data…",
+    "empty": {
+      "title": "All clear",
+      "message": "No active incidents. All systems nominal.",
+      "action": "Open Incident"
+    },
+    "incident": {
+      "create": "Open Incident",
+      "resolve": "Resolve Incident",
+      "escalate": "Escalate",
+      "assign": "Assign",
+      "priority": "Severity",
+      "status": "Status"
+    },
+    "filters": {
+      "all": "All Incidents",
+      "active": "Active",
+      "resolved": "Resolved"
+    },
+    "error": "Incident query failed: {{error}}",
+    "refresh": "Resync"
   },
   "swarmDesk": {
     "ui": {
       "loading": {
-        "entering": "🖥️ Entering System Environment...",
-        "initializing": "⚙️ Initializing SwarmDesk...",
-        "ready": "✅ System Ready",
-        "connecting": "🔗 Connecting to Services...",
-        "loadingProjects": "📊 Loading Project Data...",
-        "title": "🖥️ Initializing SwarmDesk Workspace...",
-        "subtitle": "Preparing System Interface"
+        "entering": "🖥️ Connecting to Ops Environment…",
+        "initializing": "⚙️ Initializing SwarmDesk…",
+        "ready": "✅ System Nominal",
+        "connecting": "🔗 Linking to Services…",
+        "loadingProjects": "📊 Querying Project Data…",
+        "title": "🖥️ Standing Up SwarmDesk Workspace…",
+        "subtitle": "Preparing Ops Console"
       },
       "navigation": {
         "controls": "⌨️ Navigation Controls",
@@ -1273,25 +1733,25 @@
       },
       "status": {
         "connected": "🌐 Network: CONNECTED",
-        "offline": "⚠️ Network: OFFLINE - Local Mode",
-        "syncing": "🔄 Syncing Data...",
-        "ready": "✅ SwarmDesk: READY"
+        "offline": "⚠️ Network: OFFLINE — Local Mode",
+        "syncing": "🔄 Syncing datastore…",
+        "ready": "✅ SwarmDesk: NOMINAL"
       },
       "error": {
         "title": "❌ SwarmDesk System Error",
-        "subtitle": "Check system console for technical details",
+        "subtitle": "Check ops console for technical details",
         "initializationFailed": "SwarmDesk workspace initialization failed"
       },
       "controls": {
-        "instructions": "🖥️ SwarmDesk Active | WASD: Navigation | E: Primary Interaction | F4-F7: Open Panels | Space: Performance Mode"
+        "instructions": "🖥️ SwarmDesk Active | WASD: Navigate | E: Primary Action | F4-F7: Open Panels | Space: Performance Mode"
       }
     },
     "panels": {
       "welcome": {
-        "title": "🖥️ Welcome to SwarmDesk",
-        "subtitle": "Interactive Project Management Interface",
-        "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your projects and tasks. Use the navigation controls to move around and interact with the various elements.",
-        "gettingStarted": "Getting Started:",
+        "title": "🖥️ SwarmDesk Ops Center",
+        "subtitle": "Ops Console Ready",
+        "description": "Welcome to the SwarmDesk ops environment. Use navigation controls to move through the 3D space and interact with project nodes.",
+        "gettingStarted": "Getting started:",
         "quickActions": [
           "📝 View and manage your project tasks",
           "🎯 Create new tasks and set priorities",
@@ -1300,12 +1760,12 @@
           "🔗 Connect to external tools and services"
         ],
         "features": {
-          "title": "🎯 System Features:",
-          "draggable": "📱 Draggable interface panels with system docking",
-          "contextual": "🏷️ Contextual tabs that respond to SwarmDesk workspace interactions",
-          "docking": "🧲 Magnetic docking zones (workspace edges & corners)",
-          "shortcuts": "⌨️ Keyboard shortcuts for quick access",
-          "integration": "🖥️ Full SwarmDesk 3D workspace environment integration"
+          "title": "🎯 Console Features:",
+          "draggable": "📱 Draggable console panels with magnetic docking",
+          "contextual": "🏷️ Contextual tabs respond to workspace interactions",
+          "docking": "🧲 Docking zones at workspace edges and corners",
+          "shortcuts": "⌨️ Keyboard shortcuts for rapid access",
+          "integration": "🖥️ Full SwarmDesk 3D environment integration"
         },
         "actions": {
           "createProject": "📋 Open Project Panel",
@@ -1314,7 +1774,7 @@
       },
       "shortcuts": {
         "title": "⌨️ Keyboard Shortcuts",
-        "subtitle": "Quick Controls Reference",
+        "subtitle": "Quick Reference",
         "categories": {
           "navigation": {
             "title": "🧭 Navigation",
@@ -1344,23 +1804,23 @@
             ]
           }
         },
-        "f3": "F3 - Toggle Welcome Interface",
-        "f4": "F4 - Toggle Project Interface",
-        "f5": "F5 - Toggle Agent Actions",
-        "f6": "F6 - Toggle System Tools",
-        "f7": "F7 - Toggle Analytics Interface",
-        "f8": "F8 - Toggle WebLLM Interface",
-        "f9": "F9 - Toggle MQTT Monitor",
-        "f10": "F10 - Minimize All Interfaces",
-        "f11": "F11 - Close All Interfaces",
-        "esc": "ESC - Cancel current system operation",
-        "drag": "Drag panels - Click and interact with panel headers",
-        "dock": "Dock panels - Drag near workspace edges to anchor"
+        "f3": "F3 — Toggle Welcome Panel",
+        "f4": "F4 — Toggle Project Panel",
+        "f5": "F5 — Toggle Agent Panel",
+        "f6": "F6 — Toggle System Tools",
+        "f7": "F7 — Toggle Analytics Panel",
+        "f8": "F8 — Toggle WebLLM Panel",
+        "f9": "F9 — Toggle MQTT Monitor",
+        "f10": "F10 — Minimize All Panels",
+        "f11": "F11 — Close All Panels",
+        "esc": "ESC — Cancel current operation",
+        "drag": "Drag panels — Click and drag panel headers",
+        "dock": "Dock panels — Drag near workspace edges to anchor"
       },
       "mcp": {
-        "title": "🔗 Model Context Protocol",
-        "subtitle": "System Integration Hub",
-        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "title": "🔗 MCP Integration Hub",
+        "subtitle": "Service Integration Layer",
+        "description": "The Model Context Protocol (MCP) connects to external tools and services for enhanced automation and ops functionality.",
         "features": [
           "🔧 Tool Integration Framework",
           "📊 Automated Data Collection",
@@ -1368,7 +1828,7 @@
           "⚙️ Workflow Automation",
           "🔐 Secure Communication"
         ],
-        "gettingStarted": "Setup Instructions:",
+        "gettingStarted": "Setup instructions:",
         "deploymentSteps": [
           "Configure authentication settings",
           "Connect to desired services",
@@ -1376,48 +1836,48 @@
           "Test connections and workflows"
         ],
         "tools": {
-          "title": "🛠️ Available MCP System Tools",
-          "notAuthenticated": "Please authenticate to the system to access MCP tools.",
-          "authRequired": "System authentication required to connect to MCP services",
-          "connecting": "No tools available. Connecting to system...",
-          "serverStatus": "System Status: {{status}}",
-          "retryConnection": "🔄 Retry System Connection",
+          "title": "🛠️ Available MCP Tools",
+          "notAuthenticated": "Authenticate to access MCP tools.",
+          "authRequired": "Authentication required to connect to MCP services",
+          "connecting": "No tools available. Connecting to service…",
+          "serverStatus": "Service Status: {{status}}",
+          "retryConnection": "🔄 Retry Connection",
           "connectedAs": "Connected as: {{username}}"
         },
         "history": {
-          "title": "📜 System Command History",
-          "noHistory": "No command history found."
+          "title": "📜 Command History",
+          "noHistory": "No command history."
         },
         "debug": {
-          "title": "🐛 System Debug Information",
+          "title": "🐛 Debug Info",
           "authentication": "Authentication: {{status}}",
           "user": "User: {{user}}",
-          "authMode": "System Mode: {{mode}}",
+          "authMode": "Mode: {{mode}}",
           "mcpServer": "MCP Server: {{status}}",
-          "activeTools": "Active System Tools: {{count}}",
-          "lastPing": "Last System Ping: {{time}}",
+          "activeTools": "Active Tools: {{count}}",
+          "lastPing": "Last Ping: {{time}}",
           "apiService": "API Service: {{status}}",
-          "authContext": "Auth System Context: {{status}}",
-          "refreshAuth": "🔄 Refresh System Auth"
+          "authContext": "Auth Context: {{status}}",
+          "refreshAuth": "🔄 Refresh Auth"
         }
       },
       "project": {
         "overview": {
           "title": "📊 Project Overview",
           "activeProjects": "Active Projects: 5",
-          "pendingTasks": "Pending Tasks: 23",
-          "completedToday": "Completed Today: 7",
+          "pendingTasks": "Pending Tickets: 23",
+          "completedToday": "Resolved Today: 7",
           "actions": {
             "viewAll": "📋 View All Projects",
-            "addTask": "➕ Add New Task"
+            "addTask": "➕ Open Ticket"
           }
         },
         "todos": {
-          "title": "✅ Task Management",
-          "inProgress": "🖥️ Dashboard Integration - In Progress",
-          "pending": "🔧 MCP Tool Enhancement - Pending",
+          "title": "✅ Ticket Queue",
+          "inProgress": "🖥️ Dashboard Integration — In Progress",
+          "pending": "🔧 MCP Enhancement — Pending",
           "actions": {
-            "addTodo": "➕ Add Task"
+            "addTodo": "➕ Open Ticket"
           }
         },
         "files": {
@@ -1429,31 +1889,31 @@
             "📄 swarmdesk-dashboard-hooks.js"
           ],
           "actions": {
-            "browse": "📂 Browse File Archives"
+            "browse": "📂 Browse File Archive"
           }
         }
       },
       "agent": {
         "chat": {
-          "title": "💬 Agent Communication",
-          "agentReady": "Agent: Ready to assist with your workspace tasks.",
-          "userQuery": "You: Help me with the floating interface panels",
-          "agentResponse": "Agent: The floating panel system is highly flexible. You can drag panels anywhere and dock them to the workspace edges.",
-          "placeholder": "Type your message..."
+          "title": "💬 Agent Channel",
+          "agentReady": "Agent: Ready for ops tasks.",
+          "userQuery": "Operator: Help with the floating panels",
+          "agentResponse": "Agent: The panel system is flexible — drag anywhere and dock to edges.",
+          "placeholder": "Enter query…"
         },
         "commands": {
           "title": "⚡ Agent Commands",
-          "searchProjects": "🔍 Search Projects",
-          "listTodos": "📋 List Tasks",
+          "searchProjects": "🔍 Query Projects",
+          "listTodos": "📋 List Tickets",
           "deployProject": "🚀 Deploy Project",
           "generateReport": "📊 Generate Report"
         },
         "interface": {
-          "title": "💬 {{agentName}} System Interface",
+          "title": "💬 {{agentName}} Agent Interface",
           "role": "Role: {{role}}",
           "status": "Status: {{status}}",
           "actions": {
-            "startConversation": "💬 Start Conversation",
+            "startConversation": "💬 Open Channel",
             "executeCommand": "⚡ Execute Command"
           }
         },
@@ -1461,7 +1921,7 @@
           "title": "⚡ Agent Capabilities",
           "projectManagement": "✅ Project Management",
           "codeAnalysis": "✅ Code Analysis",
-          "mcpIntegration": "✅ MCP Tool Integration",
+          "mcpIntegration": "✅ MCP Integration",
           "communication": "✅ Real-time Communication"
         }
       },
@@ -1469,18 +1929,18 @@
         "metrics": {
           "title": "📈 System Performance Metrics",
           "cpuUsage": "CPU Usage: 42%",
-          "memory": "System Memory: 68%",
+          "memory": "Memory: 68%",
           "activePanels": "Active Panels: {{count}}",
-          "uptime": "System Uptime: 2h 15m"
+          "uptime": "Uptime: 2h 15m"
         },
         "activity": {
-          "title": "🚀 Recent System Activity",
+          "title": "🚀 Recent Activity",
           "panelCreated": "🏷️ Panel created: Project Management",
-          "swarmDeskInteraction": "🖥️ SwarmDesk interaction: Workstation selected",
+          "swarmDeskInteraction": "🖥️ SwarmDesk: Workstation selected",
           "mcpToolExecuted": "🔧 MCP tool executed: list_projects"
         },
         "insights": {
-          "title": "💡 System Insights",
+          "title": "💡 Ops Insights",
           "mostUsedPanel": "Most used panel: Project Management",
           "peakActivity": "Peak activity: 14:00-15:00",
           "efficiencyScore": "Efficiency score: 87%"
@@ -1494,72 +1954,77 @@
         },
         "compatibility": {
           "title": "✅ Browser Compatibility",
-          "checking": "🔄 Checking compatibility...",
+          "checking": "🔄 Checking compatibility…",
           "checkCompatibility": "🔍 Check Compatibility"
         },
         "status": {
           "title": "⚡ WebLLM Status",
-          "initialized": "System Initialized: {{status}}",
+          "initialized": "Initialized: {{status}}",
           "currentModel": "Current Model: {{model}}",
-          "loading": "Model Loading: {{status}}",
-          "inferencing": "Inference Status: {{status}}",
+          "loading": "Loading: {{status}}",
+          "inferencing": "Inference: {{status}}",
           "queueLength": "Queue Length: {{length}}",
           "loadedModels": "Loaded Models: {{count}}",
-          "mode": "Operating Mode: {{mode}}",
+          "mode": "Mode: {{mode}}",
           "initialize": "🚀 Initialize WebLLM"
         },
         "settings": {
-          "title": "⚙️ WebLLM Settings",
+          "title": "⚙️ WebLLM Config",
           "agentModelAssignment": "Agent Model Assignment:",
           "useGlobal": "Use Global Model",
           "perAgent": "Per-Agent Models",
           "temperature": "Temperature:",
           "maxTokens": "Max Tokens:",
-          "saveSettings": "💾 Save Settings",
+          "saveSettings": "💾 Commit Config",
           "resetDefaults": "🔄 Reset to Defaults"
         }
       },
       "mqtt": {
         "logs": {
-          "title": "📋 MQTT Live Logs",
-          "noMessages": "No messages received yet...",
+          "title": "📋 MQTT Live Feed",
+          "noMessages": "No messages received…",
           "waitingTraffic": "Waiting for MQTT traffic on port 4140",
-          "reconnect": "🔄 Reconnect Connection",
+          "reconnect": "🔄 Reconnect",
           "messages": "Messages: {{count}}",
           "lastMessage": "Last: {{time}}",
-          "clearLogs": "🗑️ Clear Logs",
+          "clearLogs": "🗑️ Purge Feed",
           "export": "💾 Export Archive"
         },
         "status": {
-          "title": "🔌 MQTT Connection Status",
-          "status": "Connection Status: {{status}}",
-          "broker": "MQTT Broker: {{broker}}",
+          "title": "🔌 MQTT Connection",
+          "status": "Connection: {{status}}",
+          "broker": "Broker: {{broker}}",
           "clientId": "Client ID: swarmdesk_{{id}}",
           "messagesReceived": "Messages Received: {{count}}",
           "lastActivity": "Last Activity: {{time}}",
           "subscriptions": "📡 Subscriptions:",
-          "connect": "🔄 Establish Connection",
-          "disconnect": "🔌 Terminate Connection"
+          "connect": "🔄 Connect",
+          "disconnect": "🔌 Disconnect"
         },
         "settings": {
-          "title": "⚙️ MQTT Settings",
+          "title": "⚙️ MQTT Config",
           "brokerAddress": "Broker Address:",
-          "subscribeTopics": "Subscribe to Topics:",
+          "subscribeTopics": "Subscribe Topics:",
           "autoReconnect": "Auto-reconnect on disconnect",
           "showTimestamps": "Show timestamps",
-          "saveSettings": "💾 Save Settings",
+          "saveSettings": "💾 Commit Config",
           "resetDefaults": "🔄 Reset to Defaults"
         }
-      }
+      },
+      "todos": "Ticket Queue",
+      "projects": "Projects",
+      "chat": "Diagnostics",
+      "insights": "Analytics",
+      "settings": "Config"
     },
     "projectData": {
-      "title": "📂 Project Information",
+      "title": "📂 Project Registry",
       "subtitle": "Project Management Hub",
-      "description": "Comprehensive project information and management tools for organizing your work and tracking progress.",
+      "description": "Project registry and ops tooling for organizing work and tracking progress.",
       "projectReadmes": {
         "inventorium": {
-          "title": "📊 Inventorium - Project Dashboard",
-          "description": "Interactive dashboard for managing projects, tasks, and team collaboration with integrated tools and analytics.",
+          "title": "📊 Inventorium — Ops Dashboard",
+          "description": "Ticket management and project ops dashboard with integrated tools and analytics.",
           "features": [
             "📈 Project progress tracking and analytics",
             "🎯 Task management and prioritization",
@@ -1569,8 +2034,8 @@
           ]
         },
         "omnispindle": {
-          "title": "🔗 Omnispindle - Integration Platform",
-          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "title": "🔗 Omnispindle — Integration Platform",
+          "description": "Communication and coordination platform connecting tools and services for streamlined ops.",
           "features": [
             "🔧 Multi-platform connectivity",
             "⚙️ Automated workflow processing",
@@ -1582,7 +2047,7 @@
       },
       "swarmDesk": {
         "title": "🖥️ SwarmDesk",
-        "description": "3D interactive agent command center - the interface for the Madness Interactive environment",
+        "description": "3D interactive ops command center — the ops interface for the Madness Interactive environment",
         "features": [
           "🖥️ 3D interactive workspace environment",
           "🤖 Direct agent communication",
@@ -1594,7 +2059,7 @@
       },
       "inventorium": {
         "title": "📦 Inventorium",
-        "description": "Todo Inventory management system - Keep up with Agents at speed, and edit their thoughts as they process and execute",
+        "description": "Ticket management system — track agents at speed, edit their tasks as they process and execute",
         "features": [
           "📋 Task tracking",
           "🏷️ Smart categorization",
@@ -1613,49 +2078,146 @@
           "🖥️ Interactive interfaces",
           "🧠 Collective intelligence"
         ],
-        "status": "✨ modularly functional",
+        "status": "✨ Modularly functional",
         "visibility": "public repository"
       }
     },
     "errors": {
       "connectionFailed": "❌ Connection Failed",
-      "loadingError": "⚠️ Loading Error",
+      "loadingError": "⚠️ Query Error",
       "permissionDenied": "🔒 Access Denied",
       "systemUnavailable": "🚫 System Unavailable",
       "unknownError": "❓ Unknown Error",
-      "initializationFailed": "SwarmDesk system scripts failed to load within timeout",
+      "initializationFailed": "SwarmDesk scripts failed to load within timeout",
       "sceneInitFailed": "❌ Scene initialization failed:",
       "panelSystemFailed": "❌ Failed to create panel system:",
-      "panelSystemMissing": "⚠️ FloatingPanelSystem not available",
-      "controlsInitFailed": "Failed to initialize standardized controls:",
-      "basicSceneFailed": "❌ Failed to initialize basic Three.js scene:"
+      "panelSystemMissing": "⚠️ FloatingPanelSystem unavailable",
+      "controlsInitFailed": "Failed to initialize controls:",
+      "basicSceneFailed": "❌ Failed to initialize Three.js scene:"
     },
     "status": {
-      "initializing": "⚙️ Initializing System...",
-      "loading": "📊 Loading Configuration...",
-      "ready": "✅ System Ready",
+      "initializing": "⚙️ Initializing…",
+      "loading": "📊 Loading config…",
+      "ready": "✅ System Nominal",
       "error": "❌ System Error",
-      "offline": "⚠️ Offline Mode - Limited Features",
-      "initialized": "✅ SwarmDesk tab initialized successfully",
-      "scriptsLoaded": "✅ SwarmDesk scripts loaded successfully",
-      "scriptsTimeout": "⚠️ SwarmDesk scripts loading timeout",
-      "containerNotReady": "⚠️ Container not ready yet",
-      "panelSystemExists": "🏷️ Panel system already exists, ensuring proper state",
-      "panelSystemMissing": "⚠️ Panel system missing handleKeyboard, reinitializing...",
-      "panelSystemCreated": "✅ Panel system created successfully"
+      "offline": "⚠️ Offline Mode — Limited Features",
+      "initialized": "✅ SwarmDesk initialized",
+      "scriptsLoaded": "✅ SwarmDesk scripts loaded",
+      "scriptsTimeout": "⚠️ SwarmDesk scripts load timeout",
+      "containerNotReady": "⚠️ Container not ready",
+      "panelSystemExists": "🏷️ Panel system exists — verifying state",
+      "panelSystemMissing": "⚠️ Panel system missing keyboard handler — reinitializing…",
+      "panelSystemCreated": "✅ Panel system created",
+      "connected": "Connected to datastore",
+      "disconnected": "Datastore disconnected",
+      "syncing": "Syncing…",
+      "synced": "Synced"
     },
     "actions": {
-      "create": "🆕 Create New",
+      "create": "🆕 Provision",
       "view": "👁️ View Details",
-      "edit": "✏️ Edit Item",
-      "delete": "🗑️ Delete Item",
-      "refresh": "🔄 Refresh Data",
+      "edit": "✏️ Edit Ticket",
+      "delete": "🗑️ Decommission",
+      "refresh": "🔄 Resync",
       "connect": "🔗 Connect Service",
-      "deploy": "🚀 Deploy Strategic Initiative",
-      "monitor": "📊 Monitor Performance Metrics",
-      "optimize": "⚡ Optimize Resource Allocation",
-      "analyze": "📈 Generate Strategic Analysis",
-      "configure": "⚙️ Configure System Parameters"
+      "deploy": "🚀 Deploy Project",
+      "monitor": "📊 Monitor Metrics",
+      "optimize": "⚡ Optimize Allocation",
+      "analyze": "📈 Run Analysis",
+      "configure": "⚙️ Configure Parameters"
+    },
+    "title": "🎪 SwarmDesk Ops Center",
+    "loading": "Querying…",
+    "controls": {
+      "move": "Move",
+      "rotate": "Rotate",
+      "zoom": "Zoom",
+      "reset": "Reset View",
+      "fullscreen": "Full Screen",
+      "exitFullscreen": "Exit Full Screen"
+    },
+    "nodes": {
+      "create": "Open Ticket",
+      "edit": "Edit Ticket",
+      "delete": "Decommission",
+      "complete": "Resolve",
+      "move": "Reassign",
+      "view": "View Details"
+    },
+    "empty": {
+      "title": "No nodes in view",
+      "message": "Open a ticket to populate the ops center."
+    },
+    "error": "SwarmDesk query failed: {{error}}",
+    "hotkeys": {
+      "title": "Hotkey Reference",
+      "wasd": "WASD: Navigate",
+      "mouse": "Mouse: Look",
+      "escape": "ESC: Exit",
+      "tab": "TAB: Switch Panel",
+      "space": "Space: Select"
+    },
+    "filters": {
+      "all": "All Tickets",
+      "pending": "Pending",
+      "inProgress": "In Progress",
+      "blocked": "Blocked",
+      "review": "Triage"
+    },
+    "sort": {
+      "priority": "Priority",
+      "updated": "Recently Updated",
+      "created": "Date Opened",
+      "name": "Alphabetical"
+    },
+    "createTodo": {
+      "title": "Open New Ticket",
+      "placeholder": "Ticket description…",
+      "submit": "Open Ticket",
+      "cancel": "Discard"
+    },
+    "todoPanel": {
+      "title": "Ticket Queue",
+      "empty": "Board is clear.",
+      "loading": "Querying tickets…"
+    },
+    "projectPanel": {
+      "title": "Active Projects",
+      "empty": "No projects provisioned.",
+      "loading": "Querying projects…",
+      "create": "Provision Project",
+      "select": "Select Project",
+      "selected": "Active: {{name}}"
+    },
+    "agentPanel": {
+      "title": "Agent Status",
+      "empty": "No agents registered.",
+      "loading": "Querying agents…",
+      "status": {
+        "active": "Active",
+        "idle": "Idle",
+        "offline": "Offline"
+      }
+    },
+    "chatPanel": {
+      "title": "Diagnostics",
+      "placeholder": "Query…",
+      "send": "Send",
+      "loading": "Querying…"
+    },
+    "notifications": {
+      "todoCreated": "Ticket opened",
+      "todoCompleted": "Ticket resolved",
+      "todoDeleted": "Ticket decommissioned",
+      "projectCreated": "Project provisioned",
+      "syncComplete": "Datastore synced"
+    },
+    "tour": {
+      "welcome": "Welcome to SwarmDesk Ops Center",
+      "navigation": "WASD to navigate, mouse to look",
+      "interaction": "Click nodes to manage tickets",
+      "panels": "Use panels to query tickets and run diagnostics",
+      "complete": "Ops center ready"
     }
   },
   "spells": {
@@ -1683,77 +2245,77 @@
       "placeholder": "Select a tool to enhance your tasks..."
     },
     "effects": {
-      "particles": "Processing indicators active",
+      "particles": "Diagnostic indicators active",
       "energy": "System processing",
       "casting": "Enhancement in progress",
-      "complete": "Enhancement completed successfully"
+      "complete": "Enhancement completed"
     },
     "results": {
       "enhance": {
-        "success": "🧠 Task enhanced with AI insights!",
-        "improvement": "Enhancement applied to task description",
-        "insights": "Key insights:",
+        "success": "🔬 Ticket enhanced with AI diagnostics!",
+        "improvement": "Improvement applied to ticket description",
+        "insights": "Key findings:",
         "suggestions": "Recommendations:"
       },
       "geomancy": {
-        "success": "🔍 Patterns identified in your project!",
+        "success": "🔍 Patterns identified in project!",
         "insights": "Analysis findings:",
         "patterns": "Pattern analysis:",
         "recommendations": "Recommendations:",
-        "analysis": "Analysis completed"
+        "analysis": "Analysis complete"
       },
       "consolidate": {
-        "success": "🔗 Similar tasks consolidated successfully!",
-        "merged": "{{count}} tasks merged successfully",
+        "success": "🔗 Duplicate tickets consolidated!",
+        "merged": "{{count}} tickets merged",
         "candidates": "Consolidation candidates:",
         "preview": "Merge preview:",
         "confirmation": "Proceed with consolidation?"
       },
-      "title": "Spell Results",
+      "title": "Diagnostic Results",
       "latest": "Latest",
-      "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "noResults": "No results yet. Run a diagnostic to see results here.",
+      "summary": "{{count}} diagnostic results"
     },
     "errors": {
-      "castingFailed": "Enhancement failed: {{error}}",
-      "noDescription": "Task description is required for enhancement",
-      "rateLimited": "Enhancement limit reached. Please wait: {{timeRemaining}}",
-      "aiError": "AI system encountered an error",
-      "networkError": "Network connection error",
-      "invalidSpell": "Unknown enhancement tool requested",
-      "unauthorized": "Insufficient permissions for this enhancement"
+      "castingFailed": "Diagnostic failed: {{error}}",
+      "noDescription": "Ticket description required for enhancement",
+      "rateLimited": "Rate limit reached. Wait: {{timeRemaining}}",
+      "aiError": "AI system error",
+      "networkError": "Network error",
+      "invalidSpell": "Unknown diagnostic requested",
+      "unauthorized": "Insufficient access level"
     },
     "rateLimit": {
       "enhance": "Enhancement uses: {{used}}/{{limit}} remaining",
       "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
       "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
-      "resetTime": "Usage resets in: {{time}}",
-      "depleted": "Enhancement limit reached temporarily"
+      "resetTime": "Resets in: {{time}}",
+      "depleted": "Rate limit reached"
     },
     "tooltip": {
-      "castSpell": "Apply AI enhancement (🪄)",
-      "enhanceDescription": "Enhance with AI insights (Ctrl+E)",
+      "castSpell": "Run diagnostic",
+      "enhanceDescription": "Enhance ticket (Ctrl+E)",
       "performGeomancy": "Analyze patterns (Ctrl+G)",
-      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
-      "spellHistory": "View enhancement history",
-      "clearHistory": "Clear enhancement history"
+      "consolidateSimilar": "Find duplicates (Ctrl+C)",
+      "spellHistory": "View diagnostic history",
+      "clearHistory": "Purge diagnostic history"
     },
     "keyboard": {
-      "shortcuts": "🪄 Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - AI Enhancement",
+      "shortcuts": "⌨️ Keyboard Shortcuts:",
+      "enhance": "Ctrl+E - Enhance Ticket",
       "geomancy": "Ctrl+G - Pattern Analysis",
-      "consolidate": "Ctrl+C - Task Consolidation",
+      "consolidate": "Ctrl+C - Find Duplicates",
       "cancel": "Esc - Cancel"
     },
     "history": {
       "timestamp": "Timestamp:",
-      "spellType": "Enhancement type:",
-      "target": "Target task:",
+      "spellType": "Diagnostic type:",
+      "target": "Target ticket:",
       "result": "Result:",
       "success": "✅ Successful",
       "failed": "❌ Failed",
       "duration": "Duration:",
-      "empty": "No enhancements recorded",
+      "empty": "No diagnostics logged",
       "justNow": "Current",
       "minutesAgo": "{{count}} mins elapsed",
       "hoursAgo": "{{count}} hrs elapsed",
@@ -1779,55 +2341,55 @@
       "castFailed": "Execution error.",
       "showing": "Displaying",
       "totalCasts": "Total Runs",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle diagnostic history"
     },
     "status": {
-      "idle": "Enhancement tools ready",
-      "casting": "Applying enhancement...",
-      "processing": "Processing data...",
-      "complete": "Enhancement completed",
-      "failed": "Enhancement failed",
-      "cooldown": "System cooling down...",
+      "idle": "Diagnostics ready",
+      "casting": "Applying diagnostic…",
+      "processing": "Processing…",
+      "complete": "Diagnostic complete",
+      "failed": "Diagnostic failed",
+      "cooldown": "Rate limit cooling down…",
       "success": "Success"
     },
     "enhance_description": {
       "name": "Abstract Refinement",
-      "description": "Use AI to enhance and clarify this task description",
+      "description": "Use AI to enhance and clarify this ticket description",
       "button": "Enhance Description",
-      "casting": "Enhancing description..."
+      "casting": "Enhancing description…"
     },
     "perform_geomancy": {
       "name": "LIMS Integration",
-      "description": "Analyze patterns and relationships for this task",
+      "description": "Analyze patterns and relationships for this ticket",
       "button": "Analyze Patterns",
-      "casting": "Analyzing patterns..."
+      "casting": "Analyzing patterns…"
     },
     "consolidate_similar": {
       "name": "Sample Batching",
-      "description": "Find and merge similar tasks to reduce duplication",
+      "description": "Find and merge similar tickets to reduce duplication",
       "button": "Find Similar",
-      "casting": "Searching for similar tasks..."
+      "casting": "Scanning for similar tickets…"
     },
     "suggest_tags": {
       "name": "Asset Tagging"
     },
     "system": {
-      "title": "Spell System"
+      "title": "Diagnostic System"
     },
     "accessDenied": {
       "title": "Access Denied",
-      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+      "description": "Insufficient access level to run diagnostics. Upgrade your account or log in."
     },
-    "noTodoSelected": "No todo selected",
-    "availableSpells": "Available Spells",
+    "noTodoSelected": "No ticket selected",
+    "availableSpells": "Available Diagnostics",
     "keyboardShortcut": "Keyboard Shortcut",
     "estimatedTime": "Estimated Time",
     "tip": {
-      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+      "castMultiple": "Run multiple diagnostics on the same ticket for comprehensive analysis"
     },
     "meta": {
-      "maxPerHour": "Max casts per hour",
-      "lastCast": "Last cast"
+      "maxPerHour": "Max runs per hour",
+      "lastCast": "Last run"
     },
     "result": {
       "confidence": "Confidence"
@@ -1855,15 +2417,44 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": "Found {{count}} similar tickets",
       "result": {
         "consolidated": "Consolidated Description",
         "suggestions": "Merge Suggestions"
       }
+    },
+    "title": "🔬 Diagnostic Tools",
+    "description": "AI-powered analytics for ticket management",
+    "available": "Available diagnostics",
+    "categories": {
+      "enhance": "Enhance",
+      "analyze": "Analyze",
+      "consolidate": "Consolidate"
+    },
+    "enhance": {
+      "title": "Enhance Ticket",
+      "description": "Use AI to improve ticket description",
+      "button": "Enhance Ticket",
+      "casting": "Enhancing…",
+      "success": "Ticket enhanced"
+    },
+    "geomancy": {
+      "title": "Pattern Analysis",
+      "description": "Identify patterns and dependencies",
+      "button": "Analyze Patterns",
+      "casting": "Running analysis…",
+      "success": "Analysis complete"
+    },
+    "consolidate": {
+      "title": "Consolidate Tickets",
+      "description": "Identify and merge duplicate tickets",
+      "button": "Find Duplicates",
+      "casting": "Scanning for duplicates…",
+      "success": "Consolidation complete"
     }
   },
   "insights": {
-    "loading": "Loading insights...",
+    "loading": "Querying analytics…",
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
@@ -1873,21 +2464,21 @@
   "admin": {
     "tabs": {
       "overview": "Overview",
-      "users": "Users",
+      "users": "Operators",
       "analytics": "Analytics",
       "featureFlags": "Feature Flags",
       "systemLogs": "System Logs"
     },
     "overview": {
-      "title": "Laboratory Overview",
-      "loading": "Analyzing laboratory data...",
-      "refresh": "Refresh statistics",
+      "title": "Operations Overview",
+      "loading": "Querying ops metrics…",
+      "refresh": "Resync metrics",
       "fallback": "(showing mock data for development)",
-      "totalUsers": "Total Users",
-      "totalUsersSubtitle": "All registered users",
+      "totalUsers": "Total Operators",
+      "totalUsersSubtitle": "All registered operators",
       "activeUsers": "Active (7d)",
-      "activeUsersSubtitle": "Users active this week",
-      "premiumUsers": "Premium Users",
+      "activeUsersSubtitle": "Operators active this week",
+      "premiumUsers": "Premium Operators",
       "premiumUsersSubtitle": "Paid subscriptions",
       "errors": "Errors (24h)",
       "errorsSubtitle": "System errors today",
@@ -1898,48 +2489,48 @@
         "premium": "Premium",
         "admin": "Admin"
       },
-      "productivity": "Productivity Metrics",
-      "totalTodos": "Total Todos",
-      "completedTodos": "Completed",
-      "completionRate": "Completion Rate"
+      "productivity": "Throughput Metrics",
+      "totalTodos": "Total Tickets",
+      "completedTodos": "Resolved",
+      "completionRate": "Resolution Rate"
     },
     "analytics": {
       "title": "Advanced Analytics",
-      "loading": "Loading experimental protocols...",
-      "comingSoon": "Analytics Laboratory Under Construction",
-      "description": "Advanced charts and data visualization apparatus are currently being calibrated. Check back soon for powerful insights into user behavior, system performance, and laboratory productivity metrics.",
+      "loading": "Querying analytics…",
+      "comingSoon": "Analytics Under Construction",
+      "description": "Advanced charts and data visualization are being calibrated. Check back soon.",
       "timeframe": {
         "day": "Last 24 Hours",
         "week": "Last 7 Days",
         "month": "Last 30 Days",
         "year": "Last 12 Months"
       },
-      "futureHint": "Future enhancements: Custom date ranges, CSV export, real-time updates, cohort analysis, and predictive insights powered by the madness of data science!",
+      "futureHint": "Coming soon: Custom date ranges, CSV export, real-time updates, cohort analysis.",
       "charts": {
-        "userGrowth": "User Growth Trends",
-        "userGrowthDesc": "Track new user registrations over time",
+        "userGrowth": "Operator Growth",
+        "userGrowthDesc": "New operator registrations over time",
         "activityHeatmap": "Activity Heatmap",
-        "activityHeatmapDesc": "Visualize user activity patterns by hour/day",
-        "featureUsage": "Feature Usage Distribution",
-        "featureUsageDesc": "Which features are most popular?",
-        "performance": "System Performance Metrics",
+        "activityHeatmapDesc": "Operator activity by hour/day",
+        "featureUsage": "Feature Usage",
+        "featureUsageDesc": "Most-used features",
+        "performance": "System Performance",
         "performanceDesc": "API response times and error rates"
       }
     },
     "logs": {
       "title": "System Logs",
-      "loading": "Analyzing laboratory recordings...",
-      "refresh": "Refresh logs",
+      "loading": "Querying logs…",
+      "refresh": "Resync logs",
       "fallback": "(showing mock data for development)",
-      "autoRefresh": "Auto-refresh (30s)",
+      "autoRefresh": "Auto-sync (30s)",
       "showing": "Showing",
       "entries": "entries",
-      "empty": "No logs found - laboratory running smoothly!",
+      "empty": "No log entries — systems nominal",
       "columns": {
         "timestamp": "Time",
         "level": "Level",
         "message": "Message",
-        "user": "User",
+        "user": "Operator",
         "endpoint": "Endpoint"
       },
       "severity": {
@@ -1950,15 +2541,15 @@
     },
     "featureFlags": {
       "title": "Feature Flags",
-      "loading": "Loading experimental protocols...",
-      "refresh": "Refresh flags",
+      "loading": "Querying flags…",
+      "refresh": "Resync flags",
       "fallback": "(showing mock data for development)",
       "lastUpdated": "Last updated",
-      "unsavedChanges": "You have unsaved changes. These will affect all users when saved!",
-      "save": "Save Changes",
-      "cancel": "Cancel",
-      "saving": "Saving...",
-      "confirmSave": "Yes, Apply Changes",
+      "unsavedChanges": "Uncommitted changes pending — will affect all operators on commit.",
+      "save": "Commit Changes",
+      "cancel": "Discard",
+      "saving": "Committing…",
+      "confirmSave": "Apply Changes",
       "tiers": {
         "free": "Free Tier",
         "pro": "Pro Tier",
@@ -1966,13 +2557,13 @@
         "admin": "Admin Tier"
       },
       "flags": {
-        "basic_todos": "Basic Todos",
+        "basic_todos": "Basic Tickets",
         "chat_interface": "Chat Interface",
         "theme_selector": "Theme Selector",
-        "export_todos": "Export Todos",
-        "advanced_search": "Advanced Search",
-        "unlimited_todos": "Unlimited Todos",
-        "mindmap_view": "Mind Map View",
+        "export_todos": "Export Tickets",
+        "advanced_search": "Advanced Query",
+        "unlimited_todos": "Unlimited Tickets",
+        "mindmap_view": "Topology View",
         "custom_themes": "Custom Themes",
         "api_access": "API Access",
         "priority_support": "Priority Support",
@@ -1980,62 +2571,62 @@
         "collaborative_editing": "Collaborative Editing",
         "ai_copilot": "AI Copilot",
         "admin_panel": "Admin Panel",
-        "user_management": "User Management",
+        "user_management": "Operator Management",
         "feature_flags": "Feature Flags",
         "system_logs": "System Logs",
         "analytics": "Analytics",
         "debug_mode": "Debug Mode"
       },
       "confirm": {
-        "title": "Confirm Feature Flag Changes",
-        "message": "Are you sure you want to apply these changes? This will immediately affect all users across the platform. Feature flags control access to core functionality.",
-        "warning": "Tip: Test changes on a staging environment first. Disabling critical features may break user workflows."
+        "title": "Confirm Flag Changes",
+        "message": "Apply these changes? This will immediately affect all operators.",
+        "warning": "Tip: Test on staging first. Disabling core flags may break operator workflows."
       }
     },
     "users": {
-      "title": "User Management",
-      "loading": "Cataloging test subjects...",
-      "refresh": "Refresh user list",
+      "title": "Operator Management",
+      "loading": "Querying operator roster…",
+      "refresh": "Resync roster",
       "fallback": "(showing mock data for development)",
-      "searchPlaceholder": "Search by email or name...",
+      "searchPlaceholder": "Query by email or name…",
       "showing": "Showing",
-      "users": "users",
+      "users": "operators",
       "filtered": "filtered from",
-      "empty": "No users registered yet",
-      "noResults": "No users found matching your search",
+      "empty": "No operators registered",
+      "noResults": "No operators match this query",
       "adminBadge": "ADMIN",
       "edit": {
-        "title": "Edit User",
+        "title": "Edit Operator",
         "email": "Email",
         "tier": "Tier",
         "isAdmin": "Grant Admin Access",
-        "cancel": "Cancel",
-        "save": "Save",
-        "saving": "Saving..."
+        "cancel": "Discard",
+        "save": "Commit",
+        "saving": "Committing…"
       },
       "columns": {
         "email": "Email",
         "tier": "Tier",
         "status": "Status",
         "lastLogin": "Last Login",
-        "todos": "Todos",
+        "todos": "Tickets",
         "actions": "Actions"
       },
       "confirm": {
-        "title": "Confirm Admin Access Change",
-        "grantMessage": "You are about to grant admin privileges to this user. This will give them full access to the admin panel, including user management, feature flags, and system logs.",
-        "revokeMessage": "You are about to revoke admin privileges from this user. They will lose access to all admin functionality.",
-        "cancel": "Cancel",
-        "confirm": "Yes, Confirm",
-        "saving": "Saving..."
+        "title": "Confirm Access Change",
+        "grantMessage": "Grant admin access to this operator? They will have full access to all admin panels.",
+        "revokeMessage": "Revoke admin access from this operator? They will lose all admin access.",
+        "cancel": "Discard",
+        "confirm": "Confirm",
+        "saving": "Committing…"
       }
     },
     "common": {
-      "loading": "Loading...",
+      "loading": "Querying…",
       "error": "An error occurred",
-      "refresh": "Refresh",
-      "save": "Save",
-      "cancel": "Cancel"
+      "refresh": "Resync",
+      "save": "Commit",
+      "cancel": "Discard"
     }
   },
   "queuePane": {
@@ -2054,8 +2645,8 @@
     },
     "incoming": {
       "title": "Incoming",
-      "addToTop": "Add to Top",
-      "addToBottom": "Add to Bottom"
+      "addToTop": "Push to Top",
+      "addToBottom": "Enqueue"
     },
     "ordered": {
       "title": "Ordered Queue"
@@ -2088,57 +2679,57 @@
       "getStarted": "Enter Lab Ops"
     },
     "complete": {
-      "message": "Account setup is complete. You may now access your dashboard."
+      "message": "Operator account provisioned. Access your ops dashboard now."
     },
     "steps": {
       "welcome": {
-        "title": "Welcome",
-        "defaultName": "User",
-        "description": "Inventorium is your AI-powered task management and project visualization platform.",
-        "subtitle": "Let's take a quick tour to help you get started."
+        "title": "Welcome, Operator",
+        "defaultName": "Operator",
+        "description": "Inventorium is your AI-powered ticket management and project ops platform.",
+        "subtitle": "Let's run a quick orientation to get you operational."
       },
       "create-project": {
-        "title": "Create Your First Project",
-        "description": "Let's create a project to organize your work. Projects help you group related todos together.",
-        "skipHint": "You can skip this and create a project later from the Create menu"
+        "title": "Provision Your First Project",
+        "description": "Let's provision a project to organize your tickets.",
+        "skipHint": "You can skip this and provision a project later from the Create console"
       },
       "add-todo": {
-        "title": "Add Todo to Your Project",
-        "description": "Now let's add a todo to your project. Todos are the tasks and action items you need to complete.",
-        "guideTitle": "How to create a todo:",
+        "title": "Open a Ticket",
+        "description": "Now let's open a ticket in your project.",
+        "guideTitle": "How to open a ticket:",
         "step1": "Click the floating '+' button again",
-        "step2": "Select the 'Todo' tab in the dialog",
-        "step3": "Enter your todo description",
-        "step4": "Select your project from the dropdown",
-        "step5": "Set priority and click 'Create'",
-        "hint": "Tip: You can create todos from anywhere in the app using the '+' button",
+        "step2": "Select the 'Ticket' tab in the dialog",
+        "step3": "Enter your ticket description",
+        "step4": "Assign the project from the dropdown",
+        "step5": "Set priority and click 'Open Ticket'",
+        "hint": "Tip: You can open tickets from anywhere using the '+' button",
         "aiAlternative": "You can also create tasks by chatting with the AI assistant — just specify your requirements!"
       },
       "configure-ai": {
-        "title": "Configure Your AI Assistant",
-        "description": "Get the most out of Inventorium by connecting to an AI provider like Google Gemini or OpenAI.",
+        "title": "Configure AI Diagnostics",
+        "description": "Connect an AI provider to unlock advanced analytics.",
         "whyConfigureTitle": "Why configure AI?",
         "benefits": {
-          "suggestions": "Generate smart task suggestions",
-          "enhance": "Enhance todo descriptions with AI insights",
+          "suggestions": "Generate smart ticket suggestions",
+          "enhance": "Enhance ticket descriptions with AI analysis",
           "analyze": "Analyze project patterns and dependencies",
-          "insights": "Get productivity insights and recommendations"
+          "insights": "Get ops insights and recommendations"
         },
-        "statusConfigured": "Status: ✅ AI is configured and ready to use!",
-        "statusNotConfigured": "Status: ❌ AI is not configured yet",
+        "statusConfigured": "Status: ✅ AI diagnostics configured and ready.",
+        "statusNotConfigured": "Status: ❌ AI diagnostics not configured",
         "configureButton": "Configure AI Now",
         "skipButton": "Skip for Now",
         "helpText": "You can configure AI anytime from Settings → AI Configuration"
       },
       "ai-assistant": {
-        "title": "AI Assistant",
+        "title": "AI Diagnostics",
         "description": "Your AI assistant manages lab tasks, searches operation logs, and analyzes project workflows through natural conversation.",
-        "examplesTitle": "Quick Actions:",
+        "examplesTitle": "Quick Queries:",
         "quickActions": {
-          "createTodos": "Create todos from text",
-          "analyzeTasks": "Analyze task patterns",
+          "createTodos": "Open tickets from text",
+          "analyzeTasks": "Analyze ticket patterns",
           "suggestions": "Get smart suggestions",
-          "insights": "Project insights"
+          "insights": "Project analytics"
         },
         "hint": "💡 Tip: Click the chat icon to start a conversation",
         "examplePromptsTitle": "Try requesting:",
@@ -2154,8 +2745,8 @@
         "powerTip": "The AI assistant manages your entire workflow via natural language — streamline your operations without manual menus!"
       },
       "swarmdesk": {
-        "title": "3D Workspace",
-        "description": "Explore your codebase in 3D with SwarmDesk - an immersive visualization tool.",
+        "title": "3D Ops Center",
+        "description": "Visualize your codebase in 3D with SwarmDesk — an immersive ops environment.",
         "featuresTitle": "SwarmDesk Features:",
         "features": {
           "codeViz": "3D code visualization",
@@ -2164,19 +2755,19 @@
           "dependencies": "Dependency mapping"
         },
         "hint": "💡 Tip: Access SwarmDesk from the project view",
-        "tabTip": "After SwarmDesk loads, press TAB to jump back and forth between the dashboard and 3D workspace"
+        "tabTip": "After SwarmDesk loads, press TAB to switch between dashboard and 3D ops center"
       },
       "complete": {
-        "title": "You're All Set!",
-        "description": "You're ready to start using Inventorium. Explore the features and make it your own.",
+        "title": "Operator Online",
+        "description": "You're ready. Explore the console and tune it to your workflow.",
         "nextStepsTitle": "Next Steps:",
         "nextSteps": {
-          "createProject": "Create your first project",
-          "addTodos": "Add todos to your project",
-          "tryAI": "Try the AI assistant",
+          "createProject": "Provision your first project",
+          "addTodos": "Open tickets in your project",
+          "tryAI": "Run AI diagnostics",
           "checkSwarmDesk": "Explore SwarmDesk 3D"
         },
-        "footer": "💡 You can replay this tutorial anytime from Settings"
+        "footer": "💡 You can replay this orientation anytime from Settings"
       }
     }
   },
@@ -2186,30 +2777,30 @@
   "icon": "📝",
   "version": "1.0.0",
   "lessons": {
-    "title": "Lessons Learned",
-    "addLesson": "Add Lesson",
+    "title": "Runbooks",
+    "addLesson": "Add Runbook",
     "emptyState": {
-      "title": "No Lessons Found",
-      "message": "Capture insights to improve future workflows.",
-      "action": "Add Your First Lesson"
+      "title": "No Runbooks Found",
+      "message": "Document findings to improve future ops workflows.",
+      "action": "Add First Runbook"
     },
     "fields": {
       "topic": "Topic",
       "language": "Language/Category",
-      "lessonLearned": "Lesson Learned",
+      "lessonLearned": "Runbook Entry",
       "tags": "Tags"
     },
     "actions": {
       "edit": "Edit",
-      "delete": "Delete",
-      "save": "Save Changes"
+      "delete": "Decommission",
+      "save": "Commit Changes"
     }
   },
   "mindmap": {
-    "title": "Project Mindmap",
+    "title": "Project Topology",
     "emptyState": {
-      "title": "Empty Mindmap",
-      "message": "Add tasks and projects to visualize your workspace."
+      "title": "Topology Empty",
+      "message": "Add tickets and projects to map the system topology."
     },
     "controls": {
       "zoomIn": "Zoom In",
@@ -2219,7 +2810,7 @@
     }
   },
   "swarmdesk": {
-    "title": "System Overview",
+    "title": "Ops Overview",
     "emptyState": {
       "title": "No Data Available",
       "message": "Initialize components to view system status."
@@ -2228,14 +2819,14 @@
       "rotate": "Rotate",
       "zoom": "Zoom",
       "pan": "Pan",
-      "reset": "Reset Camera"
+      "reset": "Reset View"
     }
   },
   "projectSelector": {
     "title": "Select Project",
-    "placeholder": "Search projects...",
-    "noProjects": "No projects available",
-    "createNew": "Create New Project"
+    "placeholder": "Query projects…",
+    "noProjects": "No projects provisioned",
+    "createNew": "Provision New Project"
   },
   "errors": {
     "generic": "Instrument malfunction detected!",
@@ -2249,25 +2840,25 @@
   "success": {
     "status": {
       "verifying": {
-        "title": "VERIFYING...",
+        "title": "VERIFYING…",
         "subtitle": "Verifying payment with Stripe"
       },
       "success": {
         "title": "UPGRADE COMPLETE",
-        "subtitle": "All systems nominal. Your account has been upgraded."
+        "subtitle": "All systems nominal. Account upgraded."
       },
       "error": {
         "title": "VERIFICATION FAILED",
         "subtitle": "The verification run hit an error."
       },
       "no_session": {
-        "title": "MISSING SESSION",
+        "title": "SESSION NOT FOUND",
         "subtitle": "No checkout session detected. Did you navigate here directly?"
       }
     },
     "log": {
-      "initializing": "Initializing payment verification...",
-      "connecting": "Connecting to Stripe...",
+      "initializing": "Initializing payment verification…",
+      "connecting": "Connecting to Stripe…",
       "session": "Session:",
       "conduitStable": "Payment confirmed: STABLE",
       "tierUpgrade": "Tier upgrade:",
@@ -2283,7 +2874,7 @@
     "operator": "ACCOUNT",
     "enterLab": "GO TO CONSOLE",
     "viewManifest": "VIEW BILLING",
-    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "errorRetry": "If payment was processed, your upgrade will activate shortly.",
     "checkBilling": "Check billing for current status."
   },
   "confirmations": {
@@ -2298,8 +2889,8 @@
     "assigned": "Assigned to study"
   },
   "targetAgent": {
-    "user": "User",
-    "ai": "Assistant",
+    "user": "Operator",
+    "ai": "Diagnostic AI",
     "system": "System",
     "none": "Unassigned"
   },
@@ -2439,32 +3030,32 @@
     }
   },
   "todoDetail": {
-    "untitled": "Untitled Todo",
+    "untitled": "Untitled Ticket",
     "tabs": {
       "overview": "Overview",
-      "history": "History",
-      "spells": "Spells",
+      "history": "Changelog",
+      "spells": "Diagnostics",
       "related": "Related",
       "sessions": "Sessions",
       "coordinates": "Coordinates"
     },
     "spells": {
-      "empty": "No spells have been cast on this todo yet.",
-      "hint": "Use the AI chat to enhance descriptions or perform analysis.",
-      "undo": "Undo spell"
+      "empty": "No diagnostics run on this ticket yet.",
+      "hint": "Use the AI chat to enhance descriptions or run analysis.",
+      "undo": "Undo diagnostic"
     },
     "related": {
-      "empty": "No related todos found in this project.",
-      "count": "{{count}} related todos"
+      "empty": "No related tickets found in this project.",
+      "count": "{{count}} related tickets"
     },
     "sessions": {
-      "empty": "No sessions linked to this todo.",
+      "empty": "No sessions linked to this ticket.",
       "hint": "Link sessions via the AI chat.",
       "count": "{{count}} linked sessions"
     },
     "coordinates": {
-      "empty": "No coordinates assigned to this todo.",
-      "hint": "Cast a geomancy spell to assign spatial coordinates."
+      "empty": "No coordinates assigned to this ticket.",
+      "hint": "Run a geomancy diagnostic to assign spatial coordinates."
     }
   },
   "chatAudit": {
@@ -2650,7 +3241,7 @@
     "title": "Register Shared Resource",
     "description": "External resource shared. Create a new operational task?",
     "createTodo": "Register Task",
-    "cancel": "Cancel",
+    "cancel": "Discard",
     "sharedFrom": "Shared from Protocol: {app}",
     "noData": "No data in sharing buffer"
   },
@@ -2695,7 +3286,7 @@
       "project": "Ops (optional)",
       "tags": "Labels (comma)",
       "limit": "Max",
-      "run": "Run",
+      "run": "Execute",
       "method": "system",
       "noResults": "No units found.",
       "queryRequired": "Enter a scan to run.",
@@ -2767,22 +3358,22 @@
   "questTab": {
     "title": "Open a New Study",
     "subtitle": "Bundle protocols into an ordered study with defined success criteria.",
-    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
-    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "success": "Objective \"{{name}}\" registered ({{chains}} chains, {{todos}} tickets)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} ticket(s) linked.",
     "sections": {
       "criteria": "Acceptance Criteria",
       "chains": "Ticket Chains",
       "created": "Recently Provisioned Quests"
     },
     "fields": {
-      "name": "Quest Name *",
+      "name": "Objective Name *",
       "project": "Project",
       "description": "Description / Objective",
       "tagsInput": "Tags (comma-separated)",
       "quickTags": "Quick Tags:",
       "addCriterion": "Add a success criterion",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})",
+      "chainTodos": "Tickets in chain ({{count}})",
       "loadQuest": "Select study to audit…"
     },
     "buttons": {
@@ -2798,7 +3389,7 @@
       "refreshTags": "Flush Tag Registry"
     },
     "errors": {
-      "nameRequired": "Quest name is required.",
+      "nameRequired": "Objective name is required.",
       "projectRequired": "Project is required."
     },
     "editTitle": "Revise Study Parameters",
@@ -2818,7 +3409,7 @@
     "briefHeader": "Ops Summary",
     "briefCopy": "Copy summary",
     "briefSave": "Save summary to operation",
-    "briefSaved": "Saved!",
+    "briefSaved": "Committed",
     "briefDismiss": "Dismiss",
     "briefRegenerate": "Regenerate summary",
     "copyPrompt": "Copy operation as reference prompt",
@@ -2829,10 +3420,10 @@
     "copiedId": "Copied!",
     "edit": "Edit Study",
     "delete": "Delete Study",
-    "deleteFailed": "Delete failed",
-    "save": "Save",
-    "saveFailed": "Save failed",
-    "cancel": "Cancel",
+    "deleteFailed": "Decommission failed",
+    "save": "Commit",
+    "saveFailed": "Commit failed",
+    "cancel": "Discard",
     "namePlaceholder": "Study name",
     "nameRequired": "Study name is required",
     "descPlaceholder": "Study description",
