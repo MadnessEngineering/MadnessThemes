@@ -330,12 +330,69 @@ Copy this block to start a new theme card:
 
 ---
 
+### banana  🍌  *(written)*
+
+- **Persona** — a sunny, pun-happy banana-stand mascot. Upbeat, breezy, snacky. Keeps every
+  control light and cheerful, slips in fruit puns where they land — but never at the cost of a
+  newcomer guessing what the button does. Fun first, never confusing.
+- **Setting** — a cheerful fruit stand / smoothie bar. Todos are *bananas* in the *bunch*, UI
+  panels are *stands / carts*, work flows as a *bunch* of jobs, and the data layer is the
+  *bowl / crate* — with the *compost* bin where things go to rot.
+
+- **Lexicon** — pinned canonical terms. **Keep** wins where the file drifts.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | save | **Stash** | stash it in the bowl |
+  | save (in-progress) | **Stashing…** | active mid-edit write |
+  | cancel / discard | **Scrap** | drop the unsaved work, no fuss |
+  | delete | **Compost** | toss it in the compost; compost is the disposal layer |
+  | loading | **Ripening…** | reuse verbatim for every fetch/loading state |
+  | create | **Plant** | plant a new banana |
+  | edit | **Tweak Cart** (tools/panels) · **Tweak Banana** (a todo) | split by object |
+  | refresh | **Restock** | restock the stand |
+  | search | **Forage** | forage the bowl for what you want |
+  | export | **Pack to Go** | bag it up to carry out |
+  | complete (a todo) | **Peel It** | finished job; completed status = **Peeled** |
+  | close (a panel) | **Pack Up** | pack up the stand |
+  | review | **Taste Test** | the review queue is the taste-test line |
+  | AI insights | **Inside Scoop** | the insider read; analysis/prediction only |
+  | open externally | **Split Open** | a banana-split to another view |
+
+  **Noun-map:**
+  - **Cart / Stand** = a tool, panel, or form you operate.
+  - **Banana** = a work item (a todo) — planted, tweaked, peeled.
+  - **Bunch** = ordered/pending work (the queue).
+  - **Lane** = navigation between views; **Split** = an external connection.
+  - **Bowl / Crate** = the data layer — stashed into, foraged from; the *compost* is its
+    disposal end.
+
+- **Tone dial** — *medium.* Cheerful and pun-happy, but meaning-first: one pun per control, not
+  three. Flavor on labels, buttons, empty states, onboarding; **off** on `validation.*`, error
+  bodies, and destructive confirms — a failed save or a delete warning stays plain (the
+  **Compost** button is fine; its confirm *body* stays clear). Title Case for buttons/labels,
+  sentence case for body.
+
+- **Do / Don't**
+  - **Do** keep "Ripening…" as the single loading term everywhere.
+  - **Do** treat a todo as a **banana** consistently — planted, tweaked, peeled.
+  - **Don't** stack puns until meaning drowns — fun is seasoning, not the whole smoothie.
+  - **Don't** put a pun on a validation message or a destructive confirm.
+
+- **Sample transforms** (standard → banana)
+  - `Save` → **Stash**
+  - `Cancel` → **Scrap**
+  - `Delete` → **Compost**
+  - `Loading...` → **Ripening…**
+  - `No todos yet` → **Bunch is empty — plant a banana to start.**
+
+---
+
 ### Stubs — fill in their own sessions
 
 Do **not** fabricate voices not yet designed. One line each; promote to a full card when that
 theme's rewrite phase runs.
 
-- **banana** 🍌 — playful fruit/snack voice; cheerful, light.
 - **biomedical** 🧬 — clinical lab / medical-research register; precise, sterile.
 - **corporate-clean** 🏢 — minimal, neutral-professional; flavor near zero by design.
 - **corporate-drone** 📊 — satirical corporate jargon; synergy/leverage/circle-back.
@@ -344,7 +401,7 @@ theme's rewrite phase runs.
 - **gunmetal** 🔩 — terse industrial/military; clipped, functional.
 - **standard** — the neutral baseline. By definition no flavor; the worklist source for every other theme.
 
-*(labops 🔬, templar-light ⚔️, and dwarf ⛏️ are now full cards above.)*
+*(labops 🔬, templar-light ⚔️, dwarf ⛏️, and banana 🍌 are now full cards above.)*
 
 ---
 
