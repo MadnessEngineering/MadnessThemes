@@ -1409,58 +1409,58 @@
     "controls": {
       "switchToWorldMap": "Open War Room",
       "switchToSphere": "Switch to Sphere",
-      "chaos": "Chaos",
+      "chaos": "Randomize Layout",
       "zoomIn": "Zoom In",
       "zoomOut": "Zoom Out",
       "reset": "Reset View",
-      "center": "Center View",
+      "center": "Recenter",
       "fit": "Fit to Window",
-      "fullscreen": "Full Screen",
-      "exitFullscreen": "Exit Full Screen"
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
     },
     "info": {
-      "nodeCount": "{{count}} Nodes"
+      "nodeCount": "{{count}} nodes mapped"
     },
     "instructions": {
-      "dragToMove": "Drag to Move",
-      "dragging": "Moving!",
+      "dragToMove": "Drag to Reposition",
+      "dragging": "Repositioning…",
       "touchAndDrag": "Touch & Drag",
-      "doubleTapBurst": "Double-tap for burst!",
-      "doubleTapPhysics": "Double-tap for physics!"
+      "doubleTapBurst": "Double-tap to burst",
+      "doubleTapPhysics": "Double-tap for physics"
     },
     "filter": {
       "title": "Service Filter",
       "allProjects": "All Services",
       "projectCount": "{{selected}}/{{total}} Services",
       "selectAll": "Select All",
-      "clearAll": "Clear All",
+      "clearAll": "Deselect All",
       "selectProjects": "Select Services",
       "projectsSelected": "{{count}} services selected",
       "selectedProjects": "Selected Services ({{count}})"
     },
     "tooltips": {
-      "disableStaticMode": "Disable Static Mode",
-      "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Clean Up Visual Effects"
+      "disableStaticMode": "Deactivate Static Mode",
+      "enableStaticMode": "Activate Static Mode",
+      "cleanUpEffects": "Purge Visual Effects"
     },
     "sequence": {
-      "hideSequence": "Hide Task Sequence",
-      "showSequence": "Show AI Task Sequence",
-      "analyzeSequences": "Analyze Sequences",
-      "stopAnimation": "Stop Animation",
+      "hideSequence": "Hide Execution Sequence",
+      "showSequence": "Show AI Execution Sequence",
+      "analyzeSequences": "Run Sequence Analysis",
+      "stopAnimation": "Halt Animation",
       "animateSequence": "Animate Sequence",
-      "shuffleSequence": "Shuffle Sequence Type"
+      "shuffleSequence": "Cycle Sequence Mode"
     },
     "selection": {
-      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3 for analysis)"
     },
     "nodes": {
       "centerBrain": "⚡ OPS CORE",
       "centerWorkshop": "🧠 CONTROL CENTER",
       "todo": "Ticket",
-      "project": "Project",
+      "project": "Service",
       "lesson": "Runbook",
-      "tag": "Tag"
+      "tag": "Label"
     },
     "modes": {
       "dynamic": "⚡ Dynamic Mode",
@@ -1471,7 +1471,7 @@
       "nodeText": "Node Name"
     },
     "nodeInfo": {
-      "type": "Type",
+      "type": "Node Type",
       "priority": "Priority",
       "energy": "Load"
     },
@@ -1485,14 +1485,14 @@
     "filters": {
       "all": "All Nodes",
       "todos": "Tickets Only",
-      "projects": "Projects Only",
-      "tags": "Tags Only"
+      "projects": "Services Only",
+      "tags": "Labels Only"
     },
     "layout": {
-      "force": "Force Layout",
-      "tree": "Tree Layout",
-      "radial": "Radial Layout",
-      "grid": "Grid Layout"
+      "force": "Force-Directed",
+      "tree": "Tree",
+      "radial": "Radial",
+      "grid": "Grid"
     },
     "export": {
       "png": "Export PNG",
@@ -1501,11 +1501,11 @@
     },
     "error": "Topology query failed: {{error}}",
     "refresh": "Resync Topology",
-    "addNode": "Add Node",
-    "editNode": "Edit Node",
-    "deleteNode": "Remove Node",
+    "addNode": "Register Node",
+    "editNode": "Reconfigure Node",
+    "deleteNode": "Decommission Node",
     "connectNodes": "Link Nodes",
-    "disconnectNodes": "Unlink Nodes"
+    "disconnectNodes": "Sever Link"
   },
   "chatAssistant": {
     "errors": {
@@ -1726,21 +1726,21 @@
         "subtitle": "Preparing Ops Console"
       },
       "navigation": {
-        "controls": "⌨️ Navigation Controls",
-        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
-        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "controls": "⌨️ Nav Controls",
+        "movement": "⌨️ WASD: Traverse | Mouse: Orient",
+        "interaction": "🖱️ Click: Interact | E: Execute | Space: Quick Action",
         "escape": "🚪 ESC: Return to Console | M: Menu"
       },
       "status": {
-        "connected": "🌐 Network: CONNECTED",
-        "offline": "⚠️ Network: OFFLINE — Local Mode",
+        "connected": "🌐 Network: NOMINAL",
+        "offline": "⚠️ Network: DEGRADED — Local Mode",
         "syncing": "🔄 Syncing datastore…",
-        "ready": "✅ SwarmDesk: NOMINAL"
+        "ready": "✅ SwarmDesk: OPERATIONAL"
       },
       "error": {
-        "title": "❌ SwarmDesk System Error",
-        "subtitle": "Check ops console for technical details",
-        "initializationFailed": "SwarmDesk workspace initialization failed"
+        "title": "❌ SwarmDesk Initialization Failed",
+        "subtitle": "Check ops console for error details",
+        "initializationFailed": "SwarmDesk workspace failed to initialize — check logs"
       },
       "controls": {
         "instructions": "🖥️ SwarmDesk Active | WASD: Navigate | E: Primary Action | F4-F7: Open Panels | Space: Performance Mode"
@@ -1768,8 +1768,8 @@
           "integration": "🖥️ Full SwarmDesk 3D environment integration"
         },
         "actions": {
-          "createProject": "📋 Open Project Panel",
-          "createAgent": "🤖 Open Agent Panel"
+          "createProject": "📋 Open Project Console",
+          "createAgent": "🤖 Open Agent Console"
         }
       },
       "shortcuts": {
@@ -1777,7 +1777,7 @@
         "subtitle": "Quick Reference",
         "categories": {
           "navigation": {
-            "title": "🧭 Navigation",
+            "title": "🧭 Traversal",
             "commands": [
               "WASD: Move camera around the environment",
               "Mouse Drag: Look around and rotate view",
@@ -1786,7 +1786,7 @@
             ]
           },
           "panels": {
-            "title": "📊 Panel Controls",
+            "title": "📊 Console Controls",
             "commands": [
               "F4: Open Task Management Panel",
               "F5: Open Activity Log Panel",
@@ -1795,7 +1795,7 @@
             ]
           },
           "actions": {
-            "title": "⚡ Actions",
+            "title": "⚡ Operations",
             "commands": [
               "E: Interact with selected object",
               "Space: Quick action",
@@ -1842,7 +1842,7 @@
           "connecting": "No tools available. Connecting to service…",
           "serverStatus": "Service Status: {{status}}",
           "retryConnection": "🔄 Retry Connection",
-          "connectedAs": "Connected as: {{username}}"
+          "connectedAs": "Authenticated as: {{username}}"
         },
         "history": {
           "title": "📜 Command History",
@@ -1850,25 +1850,25 @@
         },
         "debug": {
           "title": "🐛 Debug Info",
-          "authentication": "Authentication: {{status}}",
-          "user": "User: {{user}}",
+          "authentication": "Auth: {{status}}",
+          "user": "Operator: {{user}}",
           "authMode": "Mode: {{mode}}",
           "mcpServer": "MCP Server: {{status}}",
           "activeTools": "Active Tools: {{count}}",
           "lastPing": "Last Ping: {{time}}",
-          "apiService": "API Service: {{status}}",
+          "apiService": "API Endpoint: {{status}}",
           "authContext": "Auth Context: {{status}}",
           "refreshAuth": "🔄 Refresh Auth"
         }
       },
       "project": {
         "overview": {
-          "title": "📊 Project Overview",
-          "activeProjects": "Active Projects: 5",
-          "pendingTasks": "Pending Tickets: 23",
+          "title": "📊 Service Overview",
+          "activeProjects": "Active Services: 5",
+          "pendingTasks": "Open Tickets: 23",
           "completedToday": "Resolved Today: 7",
           "actions": {
-            "viewAll": "📋 View All Projects",
+            "viewAll": "📋 View All Services",
             "addTask": "➕ Open Ticket"
           }
         },
@@ -1881,7 +1881,7 @@
           }
         },
         "files": {
-          "title": "📁 System Files",
+          "title": "📁 System Artifacts",
           "files": [
             "📄 dashboard-integrated.html",
             "📄 floating-panels-dashboard.html",
@@ -1903,10 +1903,10 @@
         },
         "commands": {
           "title": "⚡ Agent Commands",
-          "searchProjects": "🔍 Query Projects",
+          "searchProjects": "🔍 Query Services",
           "listTodos": "📋 List Tickets",
-          "deployProject": "🚀 Deploy Project",
-          "generateReport": "📊 Generate Report"
+          "deployProject": "🚀 Deploy Service",
+          "generateReport": "📊 Generate Status Report"
         },
         "interface": {
           "title": "💬 {{agentName}} Agent Interface",
@@ -1914,112 +1914,112 @@
           "status": "Status: {{status}}",
           "actions": {
             "startConversation": "💬 Open Channel",
-            "executeCommand": "⚡ Execute Command"
+            "executeCommand": "⚡ Dispatch Command"
           }
         },
         "capabilities": {
           "title": "⚡ Agent Capabilities",
-          "projectManagement": "✅ Project Management",
+          "projectManagement": "✅ Service Management",
           "codeAnalysis": "✅ Code Analysis",
           "mcpIntegration": "✅ MCP Integration",
-          "communication": "✅ Real-time Communication"
+          "communication": "✅ Real-time Comms"
         }
       },
       "analytics": {
         "metrics": {
-          "title": "📈 System Performance Metrics",
-          "cpuUsage": "CPU Usage: 42%",
+          "title": "📈 Telemetry Metrics",
+          "cpuUsage": "CPU: 42%",
           "memory": "Memory: 68%",
-          "activePanels": "Active Panels: {{count}}",
+          "activePanels": "Active Consoles: {{count}}",
           "uptime": "Uptime: 2h 15m"
         },
         "activity": {
           "title": "🚀 Recent Activity",
-          "panelCreated": "🏷️ Panel created: Project Management",
-          "swarmDeskInteraction": "🖥️ SwarmDesk: Workstation selected",
-          "mcpToolExecuted": "🔧 MCP tool executed: list_projects"
+          "panelCreated": "🏷️ Console opened: Project Management",
+          "swarmDeskInteraction": "🖥️ SwarmDesk: Node selected",
+          "mcpToolExecuted": "🔧 MCP tool dispatched: list_projects"
         },
         "insights": {
           "title": "💡 Ops Insights",
-          "mostUsedPanel": "Most used panel: Project Management",
-          "peakActivity": "Peak activity: 14:00-15:00",
-          "efficiencyScore": "Efficiency score: 87%"
+          "mostUsedPanel": "Top console: Project Management",
+          "peakActivity": "Peak load window: 14:00-15:00",
+          "efficiencyScore": "Throughput score: 87%"
         }
       },
       "webllm": {
         "models": {
           "title": "🧠 Available LLM Models",
-          "currentModel": "Current Model: {{model}}",
+          "currentModel": "Active Model: {{model}}",
           "loadModel": "Load Model"
         },
         "compatibility": {
           "title": "✅ Browser Compatibility",
           "checking": "🔄 Checking compatibility…",
-          "checkCompatibility": "🔍 Check Compatibility"
+          "checkCompatibility": "🔍 Run Compatibility Check"
         },
         "status": {
           "title": "⚡ WebLLM Status",
           "initialized": "Initialized: {{status}}",
-          "currentModel": "Current Model: {{model}}",
+          "currentModel": "Active Model: {{model}}",
           "loading": "Loading: {{status}}",
           "inferencing": "Inference: {{status}}",
-          "queueLength": "Queue Length: {{length}}",
+          "queueLength": "Queue Depth: {{length}}",
           "loadedModels": "Loaded Models: {{count}}",
           "mode": "Mode: {{mode}}",
           "initialize": "🚀 Initialize WebLLM"
         },
         "settings": {
           "title": "⚙️ WebLLM Config",
-          "agentModelAssignment": "Agent Model Assignment:",
+          "agentModelAssignment": "Per-Agent Model Assignment:",
           "useGlobal": "Use Global Model",
-          "perAgent": "Per-Agent Models",
+          "perAgent": "Per-Agent Override",
           "temperature": "Temperature:",
-          "maxTokens": "Max Tokens:",
+          "maxTokens": "Token Limit:",
           "saveSettings": "💾 Commit Config",
-          "resetDefaults": "🔄 Reset to Defaults"
+          "resetDefaults": "🔄 Reset to Baseline"
         }
       },
       "mqtt": {
         "logs": {
           "title": "📋 MQTT Live Feed",
           "noMessages": "No messages received…",
-          "waitingTraffic": "Waiting for MQTT traffic on port 4140",
+          "waitingTraffic": "Monitoring MQTT bus on port 4140",
           "reconnect": "🔄 Reconnect",
-          "messages": "Messages: {{count}}",
-          "lastMessage": "Last: {{time}}",
+          "messages": "Received: {{count}}",
+          "lastMessage": "Last event: {{time}}",
           "clearLogs": "🗑️ Purge Feed",
-          "export": "💾 Export Archive"
+          "export": "💾 Export Log Snapshot"
         },
         "status": {
           "title": "🔌 MQTT Connection",
           "status": "Connection: {{status}}",
           "broker": "Broker: {{broker}}",
-          "clientId": "Client ID: swarmdesk_{{id}}",
-          "messagesReceived": "Messages Received: {{count}}",
-          "lastActivity": "Last Activity: {{time}}",
-          "subscriptions": "📡 Subscriptions:",
+          "clientId": "Client: swarmdesk_{{id}}",
+          "messagesReceived": "Total received: {{count}}",
+          "lastActivity": "Last event: {{time}}",
+          "subscriptions": "📡 Subscribed Topics:",
           "connect": "🔄 Connect",
           "disconnect": "🔌 Disconnect"
         },
         "settings": {
           "title": "⚙️ MQTT Config",
-          "brokerAddress": "Broker Address:",
-          "subscribeTopics": "Subscribe Topics:",
+          "brokerAddress": "Broker Endpoint:",
+          "subscribeTopics": "Topic Subscriptions:",
           "autoReconnect": "Auto-reconnect on disconnect",
           "showTimestamps": "Show timestamps",
           "saveSettings": "💾 Commit Config",
-          "resetDefaults": "🔄 Reset to Defaults"
+          "resetDefaults": "🔄 Reset to Baseline"
         }
       },
       "todos": "Ticket Queue",
       "projects": "Services",
-      "chat": "AIs",
-      "insights": "Analytics",
+      "chat": "Diagnostics",
+      "insights": "Metrics",
       "settings": "Config"
     },
     "projectData": {
       "title": "📂 Project Registry",
-      "subtitle": "Project Management Hub",
+      "subtitle": "Service Management Hub",
       "description": "Project registry and ops tooling for organizing work and tracking progress.",
       "projectReadmes": {
         "inventorium": {
@@ -2055,7 +2055,7 @@
           "⚡ System performance optimization"
         ],
         "status": "🔥 Active Development",
-        "visibility": "public repository"
+        "visibility": "public repo"
       },
       "inventorium": {
         "title": "📦 Inventorium",
@@ -2067,11 +2067,11 @@
           "🔄 Cross-system integration"
         ],
         "status": "🚀 Active Development (private repository)",
-        "visibility": "private environment"
+        "visibility": "private repo"
       },
       "swarmonomicon": {
         "title": "🐝 Swarmonomicon",
-        "description": "AI agent swarm coordination system for centralized orchestration and collective intelligence",
+        "description": "AI agent swarm coordination system for centralized orchestration",
         "features": [
           "🤖 Agent orchestration",
           "💬 Communication protocols",
@@ -2087,10 +2087,10 @@
       "loadingError": "⚠️ Query Error",
       "permissionDenied": "🔒 Access Denied",
       "systemUnavailable": "🚫 System Unavailable",
-      "unknownError": "❓ Unknown Error",
-      "initializationFailed": "SwarmDesk scripts failed to load within timeout",
-      "sceneInitFailed": "❌ Scene initialization failed:",
-      "panelSystemFailed": "❌ Failed to create panel system:",
+      "unknownError": "❓ Unknown Error — check logs",
+      "initializationFailed": "SwarmDesk scripts failed to load within timeout — check logs",
+      "sceneInitFailed": "❌ Scene init failed:",
+      "panelSystemFailed": "❌ Console system failed to initialize:",
       "panelSystemMissing": "⚠️ FloatingPanelSystem unavailable",
       "controlsInitFailed": "Failed to initialize controls:",
       "basicSceneFailed": "❌ Failed to initialize Three.js scene:"
@@ -2108,18 +2108,18 @@
       "panelSystemExists": "🏷️ Panel system exists — verifying state",
       "panelSystemMissing": "⚠️ Panel system missing keyboard handler — reinitializing…",
       "panelSystemCreated": "✅ Panel system created",
-      "connected": "Connected to datastore",
+      "connected": "Datastore connected",
       "disconnected": "Datastore disconnected",
-      "syncing": "Syncing…",
-      "synced": "Synced"
+      "syncing": "Resyncing…",
+      "synced": "Datastore synced"
     },
     "actions": {
       "create": "🆕 Provision",
-      "view": "👁️ View Details",
+      "view": "👁️ Inspect",
       "edit": "✏️ Edit Ticket",
       "delete": "🗑️ Decommission",
       "refresh": "🔄 Resync",
-      "connect": "🔗 Connect Service",
+      "connect": "🔗 Register Service",
       "deploy": "🚀 Deploy Project",
       "monitor": "📊 Monitor Metrics",
       "optimize": "⚡ Optimize Allocation",
@@ -2129,12 +2129,12 @@
     "title": "🎪 SwarmDesk Ops Center",
     "loading": "Querying…",
     "controls": {
-      "move": "Move",
-      "rotate": "Rotate",
+      "move": "Traverse",
+      "rotate": "Orient",
       "zoom": "Zoom",
       "reset": "Reset View",
-      "fullscreen": "Full Screen",
-      "exitFullscreen": "Exit Full Screen"
+      "fullscreen": "Fullscreen",
+      "exitFullscreen": "Exit Fullscreen"
     },
     "nodes": {
       "create": "Open Ticket",
@@ -2142,7 +2142,7 @@
       "delete": "Decommission",
       "complete": "Resolve",
       "move": "Reassign",
-      "view": "View Details"
+      "view": "Inspect"
     },
     "empty": {
       "title": "No nodes in view",
@@ -2151,22 +2151,22 @@
     "error": "SwarmDesk query failed: {{error}}",
     "hotkeys": {
       "title": "Hotkey Reference",
-      "wasd": "WASD: Navigate",
-      "mouse": "Mouse: Look",
+      "wasd": "WASD: Traverse",
+      "mouse": "Mouse: Orient",
       "escape": "ESC: Exit",
-      "tab": "TAB: Switch Panel",
+      "tab": "TAB: Switch Console",
       "space": "Space: Select"
     },
     "filters": {
       "all": "All Tickets",
-      "pending": "Pending",
-      "inProgress": "In Progress",
-      "blocked": "Blocked",
+      "pending": "Open",
+      "inProgress": "Active",
+      "blocked": "On Hold",
       "review": "Triage"
     },
     "sort": {
       "priority": "Priority",
-      "updated": "Recently Updated",
+      "updated": "Recently Patched",
       "created": "Date Opened",
       "name": "Alphabetical"
     },
@@ -2182,27 +2182,27 @@
       "loading": "Querying tickets…"
     },
     "projectPanel": {
-      "title": "Active Projects",
-      "empty": "No projects provisioned.",
-      "loading": "Querying projects…",
-      "create": "Provision Project",
-      "select": "Select Project",
+      "title": "Active Services",
+      "empty": "No services provisioned.",
+      "loading": "Querying services…",
+      "create": "Provision Service",
+      "select": "Select Service",
       "selected": "Active: {{name}}"
     },
     "agentPanel": {
       "title": "Agent Status",
-      "empty": "No agents registered.",
+      "empty": "No agents deployed.",
       "loading": "Querying agents…",
       "status": {
-        "active": "Active",
-        "idle": "Idle",
+        "active": "Operational",
+        "idle": "Standby",
         "offline": "Offline"
       }
     },
     "chatPanel": {
       "title": "Diagnostics",
       "placeholder": "Query…",
-      "send": "Send",
+      "send": "Dispatch",
       "loading": "Querying…"
     },
     "notifications": {
@@ -2213,11 +2213,11 @@
       "syncComplete": "Datastore synced"
     },
     "tour": {
-      "welcome": "Welcome to SwarmDesk Ops Center",
-      "navigation": "WASD to navigate, mouse to look",
+      "welcome": "SwarmDesk Ops Center initialized",
+      "navigation": "WASD to traverse, mouse to orient",
       "interaction": "Click nodes to manage tickets",
-      "panels": "Use panels to query tickets and run diagnostics",
-      "complete": "Ops center ready"
+      "panels": "Use consoles to query tickets and run diagnostics",
+      "complete": "Ops center operational"
     }
   },
   "spells": {
@@ -2240,14 +2240,14 @@
       "casting": "Querying…",
       "resultsTitle": "✅ Diagnostic Results",
       "historyTitle": "📋 Diagnostic History",
-      "clearHistory": "Clear History",
+      "clearHistory": "Purge History",
       "noHistory": "No diagnostics have been run",
       "placeholder": "Select a diagnostic to enhance your tickets..."
     },
     "effects": {
       "particles": "Querying…",
-      "energy": "System processing",
-      "casting": "Enhancement in progress",
+      "energy": "Processing…",
+      "casting": "Applying diagnostic…",
       "complete": "Enhancement completed"
     },
     "results": {
@@ -2255,13 +2255,13 @@
         "success": "🔬 Ticket enhanced with AI diagnostics!",
         "improvement": "Improvement applied to ticket description",
         "insights": "Key findings:",
-        "suggestions": "Recommendations:"
+        "suggestions": "Optimization Recommendations:"
       },
       "geomancy": {
         "success": "🔍 Patterns identified in project!",
-        "insights": "Analysis findings:",
-        "patterns": "Pattern analysis:",
-        "recommendations": "Recommendations:",
+        "insights": "Diagnostic findings:",
+        "patterns": "Pattern report:",
+        "recommendations": "Optimization Recommendations:",
         "analysis": "Analysis complete"
       },
       "consolidate": {
@@ -2269,10 +2269,10 @@
         "merged": "{{count}} tickets merged",
         "candidates": "Consolidation candidates:",
         "preview": "Merge preview:",
-        "confirmation": "Proceed with consolidation?"
+        "confirmation": "Confirm ticket consolidation?"
       },
       "title": "Diagnostic Results",
-      "latest": "Latest",
+      "latest": "Most Recent",
       "noResults": "No results yet. Run a diagnostic to see results here.",
       "summary": "{{count}} diagnostic results"
     },
@@ -2286,16 +2286,16 @@
       "unauthorized": "Insufficient access level"
     },
     "rateLimit": {
-      "enhance": "Enhancement uses: {{used}}/{{limit}} remaining",
-      "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
-      "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
+      "enhance": "Enhancement quota: {{used}}/{{limit}} used",
+      "geomancy": "Analysis quota: {{used}}/{{limit}} used",
+      "consolidate": "Consolidation quota: {{used}}/{{limit}} used",
       "resetTime": "Resets in: {{time}}",
       "depleted": "Rate limit reached"
     },
     "tooltip": {
       "castSpell": "Run diagnostic",
       "enhanceDescription": "Enhance ticket (Ctrl+E)",
-      "performGeomancy": "Analyze patterns (Ctrl+G)",
+      "performGeomancy": "Run pattern analysis (Ctrl+G)",
       "consolidateSimilar": "Find duplicates (Ctrl+C)",
       "spellHistory": "View diagnostic history",
       "clearHistory": "Purge diagnostic history"
@@ -2303,18 +2303,18 @@
     "keyboard": {
       "shortcuts": "⌨️ Keyboard Shortcuts:",
       "enhance": "Ctrl+E - Enhance Ticket",
-      "geomancy": "Ctrl+G - Pattern Analysis",
+      "geomancy": "Ctrl+G - Run Pattern Analysis",
       "consolidate": "Ctrl+C - Find Duplicates",
-      "cancel": "Esc - Cancel"
+      "cancel": "Esc - Abort"
     },
     "history": {
-      "timestamp": "Timestamp:",
+      "timestamp": "Run timestamp:",
       "spellType": "Diagnostic type:",
       "target": "Target ticket:",
-      "result": "Result:",
-      "success": "✅ Successful",
+      "result": "Outcome:",
+      "success": "✅ Completed",
       "failed": "❌ Failed",
-      "duration": "Duration:",
+      "duration": "Runtime:",
       "empty": "No diagnostics logged",
       "justNow": "Current",
       "minutesAgo": "{{count}} mins elapsed",
@@ -2350,24 +2350,24 @@
       "complete": "Diagnostic complete",
       "failed": "Diagnostic failed",
       "cooldown": "Rate limit cooling down…",
-      "success": "Success"
+      "success": "Completed"
     },
     "enhance_description": {
       "name": "Abstract Refinement",
       "description": "Use AI to enhance and clarify this ticket description",
-      "button": "Enhance Description",
+      "button": "Run Enhancement",
       "casting": "Enhancing description…"
     },
     "perform_geomancy": {
       "name": "LIMS Integration",
       "description": "Analyze patterns and relationships for this ticket",
-      "button": "Analyze Patterns",
+      "button": "Run Pattern Analysis",
       "casting": "Analyzing patterns…"
     },
     "consolidate_similar": {
       "name": "Sample Batching",
       "description": "Find and merge similar tickets to reduce duplication",
-      "button": "Find Similar",
+      "button": "Scan for Similar",
       "casting": "Scanning for similar tickets…"
     },
     "suggest_tags": {
@@ -2378,12 +2378,12 @@
     },
     "accessDenied": {
       "title": "Access Denied",
-      "description": "Insufficient access level to run diagnostics. Upgrade your account or log in."
+      "description": "Insufficient access level to run diagnostics. Upgrade tier or authenticate."
     },
     "noTodoSelected": "No ticket selected",
     "availableSpells": "Available Diagnostics",
     "keyboardShortcut": "Hotkey",
-    "estimatedTime": "Estimated Time",
+    "estimatedTime": "Est. Runtime",
     "tip": {
       "castMultiple": "Run multiple diagnostics on the same ticket for comprehensive analysis"
     },
@@ -2399,28 +2399,28 @@
     },
     "enhanceDescription": {
       "result": {
-        "title": "Enhanced Description",
+        "title": "Enhanced Ticket Description",
         "before": "Before",
         "after": "After",
-        "improvements": "Improvements"
+        "improvements": "Changes Applied"
       }
     },
     "performGeomancy": {
       "result": {
-        "insights": "Insights",
-        "relatedProjects": "Related Projects"
+        "insights": "Diagnostic Insights",
+        "relatedProjects": "Related Services"
       },
       "insights": {
         "complexity": "Complexity",
-        "duration": "Estimated Duration",
+        "duration": "Estimated Runtime",
         "risks": "Risk Factors"
       }
     },
     "consolidateSimilar": {
       "found": "Found {{count}} similar tickets",
       "result": {
-        "consolidated": "Consolidated Description",
-        "suggestions": "Merge Suggestions"
+        "consolidated": "Merged Description",
+        "suggestions": "Consolidation Recommendations"
       }
     },
     "title": "🔬 Diagnostic Tools",
