@@ -2709,18 +2709,18 @@
       "configure-ai": {
         "title": "Configure AI Diagnostics",
         "description": "Connect an AI provider to unlock advanced analytics.",
-        "whyConfigureTitle": "Why configure AI?",
+        "whyConfigureTitle": "Why configure diagnostics?",
         "benefits": {
           "suggestions": "Generate smart ticket suggestions",
           "enhance": "Enhance ticket descriptions with AI analysis",
-          "analyze": "Analyze project patterns and dependencies",
+          "analyze": "Analyze project patterns and service dependencies",
           "insights": "Get ops insights and recommendations"
         },
         "statusConfigured": "Status: ✅ AI diagnostics configured and ready.",
         "statusNotConfigured": "Status: ❌ AI diagnostics not configured",
-        "configureButton": "Configure AI Now",
+        "configureButton": "Configure Diagnostics Now",
         "skipButton": "Skip for Now",
-        "helpText": "You can configure AI anytime from Settings → AI Configuration"
+        "helpText": "You can configure diagnostics anytime from Settings → Diagnostics Config"
       },
       "ai-assistant": {
         "title": "AI Diagnostics",
@@ -2729,7 +2729,7 @@
         "quickActions": {
           "createTodos": "Open tickets from text",
           "analyzeTasks": "Analyze ticket patterns",
-          "suggestions": "Get smart suggestions",
+          "suggestions": "Get optimization recommendations",
           "insights": "Project analytics"
         },
         "hint": "💡 Tip: Click the chat icon to start a conversation",
@@ -2813,18 +2813,18 @@
   "swarmdesk": {
     "title": "Ops Overview",
     "emptyState": {
-      "title": "No Data Available",
+      "title": "No Telemetry Available",
       "message": "Initialize components to view system status."
     },
     "controls": {
-      "rotate": "Rotate",
+      "rotate": "Orient",
       "zoom": "Zoom",
       "pan": "Pan",
       "reset": "Reset View"
     }
   },
   "projectSelector": {
-    "title": "Select Project",
+    "title": "Select Service",
     "placeholder": "Select service...",
     "noProjects": "No projects provisioned",
     "createNew": "Provision New Project"
@@ -3373,7 +3373,7 @@
     },
     "fields": {
       "name": "Objective Name *",
-      "project": "Project",
+      "project": "Service",
       "description": "Description / Objective",
       "tagsInput": "Tags (comma-separated)",
       "quickTags": "Quick Tags:",
@@ -3396,7 +3396,7 @@
     },
     "errors": {
       "nameRequired": "Objective name is required.",
-      "projectRequired": "Project is required."
+      "projectRequired": "Service is required."
     },
     "editTitle": "Revise Study Parameters",
     "updated": "Study \"{{name}}\" revision complete ({{chains}} workflows, {{todos}} log entries)",
@@ -3411,8 +3411,8 @@
       "completed": "Resolved"
     },
     "empty": {
-      "title": "No active quests",
-      "action": "Create Quest"
+      "title": "No active studies",
+      "action": "Open Study"
     }
   },
   "questCard": {
@@ -3447,8 +3447,8 @@
     "namePlaceholder": "Study name",
     "nameRequired": "Study name is required",
     "descPlaceholder": "Study description",
-    "project": "Project",
-    "projectRequired": "Project is required",
+    "project": "Service",
+    "projectRequired": "Service is required",
     "filterActive": "Study filter:",
     "emptyFilter": "No studies match the current filter",
     "emptyQuestFilter": "No todos found in this study"
