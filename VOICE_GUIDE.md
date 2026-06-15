@@ -273,6 +273,63 @@ Copy this block to start a new theme card:
 
 ---
 
+### dwarf  ⛏️  *(written)*
+
+- **Persona** — a gruff dwarven master-mason and smith running the fortress workshop. Curt,
+  sturdy, practical; speaks in stone, ore, and the forge. Respects good work and finished
+  craft, has no patience for frills. Says what a thing does in as few words as the rock allows.
+- **Setting** — a mountainhall fortress. Todos are *tasks / jobs* worked through the *work
+  queue*, UI panels are *halls / workshops*, a form is the *bench*, the data layer is the
+  *stockpile / vault* hewn from living stone, and magma is where things go to die.
+
+- **Lexicon** — pinned canonical terms. **Keep** wins where the file drifts.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | save | **Engrave** | carve the record into stone; an engraving is the saved record |
+  | save (in-progress) | **Engraving…** | active mid-edit write |
+  | cancel / discard | **Abandon** | DF "abandon the fortress" — drop the unsaved work |
+  | delete | **Melt** | cast into the magma; magma is the disposal layer |
+  | loading | **Mining…** | reuse verbatim for every fetch/loading state |
+  | create | **Hew** | hew a new task from the rock |
+  | edit | **Rework Bench** (tools/forms) · **Rework Task** (a todo) | split by object |
+  | refresh | **Resurvey** | re-survey the current state |
+  | search | **Prospect** | prospect the stockpile for what you need |
+  | export | **Haul Out** | haul to the trade depot / surface |
+  | complete (a todo) | **Strike Done** | finished job; completed status = **Masterwork** |
+  | close (a panel) | **Seal Hall** | seal the chamber (Seal shared across themes — fine, object differs) |
+  | review | **Inspect** | the review queue is the inspection line |
+  | AI insights | **Read the Stone** | augury from the engravings; analysis/prediction only |
+  | open externally | **Open Gate** | a gate through to another hall |
+
+  **Noun-map:**
+  - **Bench** = a form you fill; **Hall / Workshop** = a panel or view you operate.
+  - **Task / Job** = a work item (a todo) — hewn, worked, struck done.
+  - **Work Queue** = ordered/pending work (the dig).
+  - **Gate / Tunnel** = navigation and external connections.
+  - **Stockpile / Vault / the Stone** = the data layer — engraved into, melted from, mined; the
+    *magma* is its disposal end.
+
+- **Tone dial** — *low-medium.* Dwarves are terse by nature: gruff and short beats theatrical.
+  Flavor on labels, buttons, empty states, onboarding; **off** on `validation.*`, error bodies,
+  and destructive confirms — a failed save or a delete warning stays plain. Title Case for
+  buttons/labels, sentence case for body. When in doubt, cut a word.
+
+- **Do / Don't**
+  - **Do** keep "Mining…" as the single loading term everywhere.
+  - **Do** treat a todo as a **task/job** consistently — hewn, worked, struck done.
+  - **Don't** gild it — dwarves don't pad. If a label runs long, the flavor's too heavy.
+  - **Don't** put flavor on a validation message or a destructive confirm.
+
+- **Sample transforms** (standard → dwarf)
+  - `Save` → **Engrave**
+  - `Cancel` → **Abandon**
+  - `Delete` → **Melt**
+  - `Loading...` → **Mining…**
+  - `No todos yet` → **Work queue's empty. Strike the earth.**
+
+---
+
 ### Stubs — fill in their own sessions
 
 Do **not** fabricate voices not yet designed. One line each; promote to a full card when that
@@ -284,11 +341,10 @@ theme's rewrite phase runs.
 - **corporate-drone** 📊 — satirical corporate jargon; synergy/leverage/circle-back.
 - **cyan-lab** 🧪 — bright neon lab tech; energetic, modern.
 - **debug** 🐞 — *not a voice*: every value is its own dotted key path (master key checklist). Leave as-is.
-- **dwarf** ⛏️ — Dwarf-Fortress-flavored mining/crafting; gruff, sturdy.
 - **gunmetal** 🔩 — terse industrial/military; clipped, functional.
 - **standard** — the neutral baseline. By definition no flavor; the worklist source for every other theme.
 
-*(labops 🔬 and templar-light ⚔️ are now full cards above.)*
+*(labops 🔬, templar-light ⚔️, and dwarf ⛏️ are now full cards above.)*
 
 ---
 
