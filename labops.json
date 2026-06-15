@@ -10,16 +10,16 @@
     "push": "Push to origin",
     "pull": "Pull from origin",
     "fetch": "Sync origin",
-    "publishBranch": "Publish branch",
+    "publishBranch": "Publish Branch",
     "publishRepository": "Register repository",
     "fetching": "Syncing…",
     "pushing": "Deploying…",
-    "pulling": "Pulling…",
-    "newBranch": "New branch",
+    "pulling": "Pulling from remote…",
+    "newBranch": "Cut Branch",
     "createBranch": "Cut branch",
     "deleteBranch": "Decommission branch",
-    "renameBranch": "Rename branch",
-    "switchBranch": "Switch branch",
+    "renameBranch": "Rename Branch",
+    "switchBranch": "Switch Branch",
     "currentBranch": "Active branch",
     "branchName": "Branch name",
     "noBranches": "No branches on record",
@@ -27,24 +27,24 @@
     "noLocalChanges": "Working tree clean",
     "discardChanges": "Rollback changes",
     "discardAll": "Rollback all changes",
-    "stashChanges": "Stash changes",
+    "stashChanges": "Stash Changes",
     "undo": "Roll back",
     "cloneRepository": "Clone repo",
     "addRepository": "Register repository",
     "removeRepository": "Deregister repository",
     "repositorySettings": "Repository config",
     "openInTerminal": "Open terminal session",
-    "viewOnGitHub": "View on GitHub",
+    "viewOnGitHub": "Open on GitHub",
     "historyTitle": "Deploy log",
     "noHistory": "No commit history",
-    "resolveConflicts": "Resolve conflicts",
-    "abortMerge": "Abort merge",
-    "continueRebase": "Continue rebase",
-    "abortRebase": "Abort rebase",
+    "resolveConflicts": "Resolve Conflicts",
+    "abortMerge": "Abort Merge",
+    "continueRebase": "Resume Rebase",
+    "abortRebase": "Abort Rebase",
     "ok": "OK",
     "cancel": "Discard",
     "discard": "Rollback",
-    "continue": "Continue",
+    "continue": "Proceed",
     "dismiss": "Dismiss"
   },
   "createProject": {
@@ -149,7 +149,7 @@
     "framework": "Framework",
     "priority": "Priority",
     "status": "Status",
-    "notes": "Comments",
+    "notes": "Operational Notes",
     "ticket": "Ticket ID",
     "project": "Procedure"
   },
@@ -167,8 +167,8 @@
       "title": "🎯 Protocol Priority Matrix",
       "pendingTasks": "Pending Protocols",
       "inReview": "Under Review",
-      "inProgress": "In Progress",
-      "blocked": "Blocked",
+      "inProgress": "Active",
+      "blocked": "On Hold",
       "completed": "Resolved",
       "highPriority": "Critical",
       "mediumPriority": "Standard",
@@ -178,7 +178,7 @@
       "title": "📊 Ops Event Log",
       "collection": "event_logs collection",
       "description": "Telemetry stream — all ticket state changes and ops events",
-      "updates": "Updates",
+      "updates": "Patches",
       "creates": "Provisions",
       "deletes": "Decommissions",
       "completions": "Resolutions",
@@ -208,8 +208,8 @@
       "projectsUpdated": "Services Updated",
       "projectsDeleted": "Projects Decommissioned"
     },
-    "unifiedView": "Unified View",
-    "personalView": "Personal View",
+    "unifiedView": "Unified Queue",
+    "personalView": "Personal Queue",
     "showingAllDatabases": "Querying all datastores",
     "showingPersonalOnly": "Showing personal queue only",
     "filteredByProject": "Filtered by service",
@@ -261,12 +261,12 @@
       "projectsDeleted": "Projects Decommissioned",
       "all": "All Events",
       "create": "Opened",
-      "update": "Updated",
+      "update": "Patched",
       "complete": "Resolved",
       "delete": "Decommissioned"
     },
-    "unifiedView": "🌐 Unified View",
-    "personalView": "👤 Personal View",
+    "unifiedView": "🌐 Unified Queue",
+    "personalView": "👤 Personal Queue",
     "showingAllDatabases": "Querying all datastores",
     "showingPersonalOnly": "Showing your personal queue only",
     "filteredByProject": "Filtered by service:",
@@ -301,7 +301,7 @@
     },
     "events": {
       "created": "opened",
-      "updated": "updated",
+      "updated": "patched",
       "completed": "resolved",
       "deleted": "decommissioned"
     },
@@ -329,7 +329,7 @@
     "filters": {
       "allLessons": "All Runbooks",
       "bookmarked": "Flagged",
-      "recent": "Recent (7 days)"
+      "recent": "Last 7 Days"
     },
     "emptyState": {
       "noMatching": "No Matching Lab Notes",
@@ -349,7 +349,7 @@
     "dialog": {
       "editTitle": "🔭 Amend Lab Note",
       "addTitle": "🔭 Record New Finding",
-      "topicLabel": "Topic",
+      "topicLabel": "Subject",
       "lessonLabel": "Runbook Entry",
       "languageLabel": "Language",
       "tagsLabel": "Labels (comma separated)",
@@ -405,12 +405,12 @@
       "duplicates": "Redundancies"
     },
     "selectAll": "Select All Items",
-    "clearSelection": "Clear",
+    "clearSelection": "Deselect",
     "targetProject": "Assign to workflow...",
     "reassign": "Reassign",
     "reassignSelected": "Reassign untracked items to active workflow",
-    "reopen": "Reopen",
-    "reopenSelected": "Reopen closed workflows for continued ops",
+    "reopen": "Reactivate",
+    "reopenSelected": "Reactivate closed workflows for continued ops",
     "delete": "Decommission",
     "deleteSelected": "Decommission selected items from inventory",
     "selectProjectFirst": "Select a target workflow first",
@@ -427,24 +427,24 @@
     "duplicates": {
       "title": "Duplicate Ticket Detection",
       "description": "Identify and consolidate near-duplicate tickets across projects.",
-      "threshold": "Similarity",
-      "scan": "Scan",
+      "threshold": "Match Threshold",
+      "scan": "Run Scan",
       "scanning": "Querying…",
       "noResults": "No duplicate tickets detected at this threshold.",
-      "groupsFound": "groups",
+      "groupsFound": "duplicate groups",
       "potentialDuplicates": "tickets",
       "analyzeAI": "Run Diagnostics",
       "analyzing": "Running diagnostics…",
       "aiComplete": "Diagnostic complete. Review recommendations below.",
       "aiUnavailable": "Diagnostics temporarily unavailable.",
       "recommendations": "Diagnostic Recommendations",
-      "keep": "Keep",
+      "keep": "Retain",
       "merge": "Consolidate",
       "deleteLabel": "Decommission",
-      "suggestedDescription": "Suggested",
+      "suggestedDescription": "Proposed",
       "reasoning": "Rationale",
-      "apply": "Apply",
-      "applyAll": "Apply All",
+      "apply": "Implement",
+      "applyAll": "Implement All",
       "applied": "Recommendation applied",
       "selectGroupsFirst": "Select ticket groups to analyze"
     },
@@ -461,7 +461,7 @@
       "aiSuggest": "Inventory Intelligence",
       "aiSuggesting": "Optimizing..."
     },
-    "sessionResolved": "resolved this session"
+    "sessionResolved": "tickets resolved this session"
   },
   "demo": {
     "label": "OBSERVATION MODE"
@@ -469,7 +469,7 @@
   "menu": {
     "documentation": "Runbooks",
     "replayTutorial": "Replay Onboarding",
-    "userManagement": "User Management",
+    "userManagement": "Operator Management",
     "github": "GitHub",
     "themeGallery": "Theme Gallery",
     "logout": "Log Out",
@@ -506,7 +506,7 @@
       "subtitle": "Pulling ticket data and project metrics"
     },
     "stats": {
-      "pending": "pending",
+      "pending": "open",
       "review": "triage"
     },
     "activity": {
@@ -516,7 +516,7 @@
     "enterButton": {
       "selected": "📦 STAGED",
       "enter": "🚀 DEPLOY",
-      "helpText": "Press Enter or #{{number}}"
+      "helpText": "Enter or #{{number}} to deploy"
     },
     "createCta": {
       "title": "Provision New Project",
@@ -532,12 +532,12 @@
       "cancel": "Discard",
       "deleteButton": "Decommission Project"
     },
-    "viewInSwarmDesk": "View in SwarmDesk"
+    "viewInSwarmDesk": "Open in SwarmDesk"
   },
   "projectSwarmdesk": {
-    "title": "🎪 {{projectName}}",
+    "title": "🖥️ {{projectName}}",
     "stats": {
-      "pendingTasks": "{{count}} pending",
+      "pendingTasks": "{{count}} open",
       "completedTasks": "{{count}} resolved"
     },
     "loading": "🎪 Loading {{projectId}} environment…",
@@ -549,7 +549,7 @@
     "statsPanel": {
       "title": "Project Metrics",
       "totalTasks": "Total Tickets",
-      "pending": "Pending",
+      "pending": "Open",
       "completed": "Resolved",
       "blocked": "Blocked",
       "review": "Triage"
@@ -557,7 +557,7 @@
     "reviewTab": {
       "title": "Triage Queue",
       "approveButton": "Approve",
-      "requestChanges": "Request Changes",
+      "requestChanges": "Flag for Revision",
       "returnToProgress": "Return to Active",
       "emptyState": "No tickets in triage"
     },
@@ -568,41 +568,41 @@
       "create": "Open Ticket"
     },
     "exitButton": "Exit Ops Environment",
-    "error": "Failed to load ops environment: {{error}}"
+    "error": "Ops environment query failed: {{error}}"
   },
   "projectTab": {
     "title": "Service Setup",
     "sections": {
       "basicInfo": "Service Information",
-      "configuration": "Configuration",
-      "technicalDetails": "Technical Details (Optional)"
+      "configuration": "Service Config",
+      "technicalDetails": "Technical Parameters (Optional)"
     },
     "projectTypes": {
       "web": "Web Service",
       "mobile": "Mobile Service",
       "desktop": "Desktop Service",
       "library": "Library/Package",
-      "api": "API/Service",
+      "api": "API Endpoint",
       "general": "General Service"
     },
     "buttons": {
       "creating": "Provisioning...",
-      "demoMode": "Demo Mode",
+      "demoMode": "Observation Mode",
       "createProject": "PROVISION SERVICE"
     },
     "noActiveProject": "No active service",
     "selectProject": "Select a service from the navigator",
     "overview": {
       "description": "No summary on record",
-      "noRepository": "No repository linked",
+      "noRepository": "No repository registered",
       "todos": "Open Tickets",
       "completedTodos": "Resolved Tickets",
       "lessons": "Runbook Entries",
       "created": "Provisioned",
-      "updated": "Last Updated"
+      "updated": "Last Patched"
     },
     "actions": {
-      "openSwarmDesk": "Open SwarmDesk",
+      "openSwarmDesk": "Launch SwarmDesk",
       "editProject": "Reconfigure Service",
       "deleteProject": "Decommission Project"
     },
@@ -625,41 +625,41 @@
   "todoList": {
     "filters": {
       "allTasks": "All Protocols",
-      "pending": "Pending",
+      "pending": "Open",
       "review": "Triage",
       "completed": "Resolved",
       "all": "All Tickets",
-      "inProgress": "In Progress",
-      "blocked": "Blocked",
-      "in_progress": "In Progress"
+      "inProgress": "Active",
+      "blocked": "On Hold",
+      "in_progress": "Active"
     },
     "sort": {
       "newest": "Newest",
       "oldest": "Oldest",
       "priority": "Priority",
-      "madness": "Random Order",
+      "madness": "Random",
       "alphabetical": "Alphabetical",
-      "updated": "Recently Updated"
+      "updated": "Recently Patched"
     },
     "search": {
       "placeholder": "Query tickets…",
-      "clear": "Clear Query",
+      "clear": "Clear",
       "noResults": "No tickets match this query"
     },
     "project": {
       "label": "Service",
       "allProjects": "All Services ({{count}})",
-      "clearFilter": "Clear Filter",
-      "clearAll": "Clear all",
+      "clearFilter": "Remove Filter",
+      "clearAll": "Remove all",
       "select": "Assign Service",
       "change": "Reassign",
       "none": "No service assigned"
     },
     "pagination": {
       "show": "Show",
-      "perPage": "per page",
+      "perPage": "per batch",
       "all": "All",
-      "results": "results",
+      "results": "records",
       "showing": "Showing {{start}}-{{end}} of {{total}}",
       "page": "Page {{current}} of {{total}}",
       "prev": "Previous",
@@ -667,7 +667,7 @@
     },
     "results": {
       "showing": "Showing {{start}}-{{end}} of {{total}} tickets",
-      "matching": " matching \"{{searchText}}\"",
+      "matching": " matching query \"{{searchText}}\"",
       "filteringByProject": "Filtered by project: <strong>{{project}}</strong>",
       "filteringByProjects": "Filtered by {{count}} project(s)"
     },
@@ -698,19 +698,19 @@
       "addToQueue": "Add to Ops Queue",
       "topOfQueue": "Priority Ops",
       "delete": "Decommission",
-      "view": "View",
+      "view": "Inspect",
       "flag": "Flag",
       "move": "Reassign",
-      "clone": "Duplicate"
+      "clone": "Clone"
     },
     "fullEdit": {
-      "modeTitle": "Full Edit Mode"
+      "modeTitle": "Full Console Edit"
     },
     "menu": {
       "editTask": "Edit Ticket",
       "copyId": "Copy ID",
       "copyJiraCmd": "Copy Jira Cmd",
-      "share": "Share",
+      "share": "Share Record",
       "openInWarp": "Execute Warp Sequence",
       "deleteTask": "Decommission Ticket"
     },
@@ -722,19 +722,19 @@
       "completeTask": "Resolve Ticket",
       "exportTitle": "Export Ticket Snapshot",
       "exportDescription": "Exporting {{count}} tickets",
-      "exportFilename": "Filename",
+      "exportFilename": "Output Filename",
       "exportFilenameHelp": "Export file name (extension added automatically)",
-      "exportFormat": "Format",
-      "exportButton": "Export",
+      "exportFormat": "Output Format",
+      "exportButton": "Export Snapshot",
       "formatJSON": "JSON — Structured Data",
       "formatJSONDesc": "Complete ticket data in JSON format for reimport",
       "formatCSV": "CSV — Spreadsheet",
-      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
+      "formatCSVDesc": "Spreadsheet format — compatible with Excel and Google Sheets",
       "formatMarkdown": "Markdown — Documentation",
-      "formatMarkdownDesc": "Human-readable format for documentation",
+      "formatMarkdownDesc": "Human-readable format for runbook documentation",
       "formatHTML": "HTML — Web Page",
       "formatHTMLDesc": "Styled web page for browser viewing",
-      "formatJira": "Jira/Slack Commands",
+      "formatJira": "Jira/Slack Output",
       "formatJiraDesc": "Ready-to-paste Slack commands for Jira tickets",
       "formatVariant": "Format Variant",
       "variantPretty": "Pretty (Readable)",
@@ -743,12 +743,12 @@
       "variantStandard": "Standard",
       "variantExcel": "Excel-Optimized",
       "variantTable": "Table View",
-      "selectFields": "Select Fields",
-      "customizeFields": "Customize Field Names",
-      "renameFields": "Rename Fields",
-      "calculatedFields": "Calculated Fields",
+      "selectFields": "Select Columns",
+      "customizeFields": "Customize Column Names",
+      "renameFields": "Rename Columns",
+      "calculatedFields": "Derived Fields",
       "fieldName": "Field Name",
-      "addCalculatedField": "Add Calculated Field",
+      "addCalculatedField": "Add Derived Field",
       "formula": {
         "ageInDays": "Age (days)",
         "daysSinceUpdate": "Days since update",
@@ -758,7 +758,7 @@
       },
       "selectAll": "All",
       "selectNone": "None",
-      "advancedFilters": "Advanced Filters",
+      "advancedFilters": "Query Filters",
       "dateRange": "Date Range",
       "startDate": "From",
       "endDate": "To",
@@ -773,13 +773,13 @@
       "none": "Unset"
     },
     "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
+      "pending": "Open",
+      "in_progress": "Active",
       "completed": "Resolved",
       "initial": "Initializing",
-      "blocked": "Blocked",
+      "blocked": "On Hold",
       "review": "Triage",
-      "inProgress": "In Progress"
+      "inProgress": "Active"
     },
     "fields": {
       "id": "ID",
@@ -787,18 +787,18 @@
       "project": "Service",
       "priority": "Priority",
       "status": "Status",
-      "target": "Target",
+      "target": "Assignee",
       "created": "Opened",
-      "updated": "Updated",
+      "updated": "Last Patched",
       "metadata": "Metadata",
-      "source": "Source",
-      "notes": "Comments",
+      "source": "Origin",
+      "notes": "Operational Notes",
       "ticket": "Ticket ID",
       "completed_at": "Resolved At",
       "completed_by": "Resolved By",
       "completion_comment": "Resolution Comment",
       "duration": "Duration",
-      "duration_sec": "Duration (seconds)",
+      "duration_sec": "Duration (s)",
       "tags": "Labels",
       "complexity": "Complexity",
       "confidence": "Confidence",
@@ -816,7 +816,7 @@
     },
     "error": {
       "failedToLoad": "Query failed",
-      "unknownError": "Unknown error",
+      "unknownError": "Unknown error — check logs",
       "malfunctionMessage": "The system encountered an error. Resync or check your connection.",
       "moveToPersonalFailed": "Personal transfer op failed"
     },
@@ -849,14 +849,14 @@
     },
     "actions": {
       "markComplete": "Resolve",
-      "markPending": "Mark Pending",
+      "markPending": "Reset to Open",
       "edit": "Edit Ticket",
       "delete": "Decommission Ticket",
       "sendToReview": "Send to Triage",
-      "reopen": "Reopen",
+      "reopen": "Reactivate",
       "prioritize": "Escalate Priority",
       "archive": "Archive",
-      "unarchive": "Restore"
+      "unarchive": "Restore from Archive"
     },
     "loading": "Querying…",
     "loadingMore": "Pulling more tickets…",
@@ -864,15 +864,15 @@
     "count": "{{count}} ticket(s)",
     "selected": "{{count}} selected",
     "selectAll": "Select All",
-    "deselectAll": "Deselect All",
+    "deselectAll": "Clear Selection",
     "bulkActions": {
       "complete": "Resolve Selected",
       "delete": "Decommission Selected",
       "move": "Reassign Selected",
       "export": "Export Snapshot"
     },
-    "dragHint": "Drag to reorder queue",
-    "dropHere": "Drop here",
+    "dragHint": "Drag to reprioritize queue",
+    "dropHere": "Drop to insert",
     "createFirst": "Open your first ticket",
     "noTasks": "Board is clear — no open tickets.",
     "timestamps": {
@@ -897,10 +897,10 @@
       "none": "Unassigned"
     },
     "dueDate": {
-      "set": "Set Due Date",
-      "change": "Adjust Due Date",
-      "none": "No due date",
-      "overdue": "Overdue",
+      "set": "Set Deadline",
+      "change": "Adjust Deadline",
+      "none": "No deadline",
+      "overdue": "SLA Breached",
       "today": "Due today",
       "tomorrow": "Due tomorrow"
     },
@@ -918,7 +918,7 @@
     },
     "completionDialog": {
       "title": "Resolve Ticket",
-      "notesLabel": "Resolution notes (optional)",
+      "notesLabel": "Resolution notes (optional — add closure context)",
       "confirm": "Resolve",
       "cancel": "Discard"
     },
@@ -931,8 +931,8 @@
     "aiEnhance": "Run Diagnostics",
     "aiEnhancing": "Running diagnostics…",
     "spellsAvailable": "Diagnostics available",
-    "viewDetails": "View Details",
-    "hideDetails": "Hide Details",
+    "viewDetails": "Inspect Ticket",
+    "hideDetails": "Collapse Details",
     "expandAll": "Expand All",
     "collapseAll": "Collapse All"
   },
@@ -954,8 +954,8 @@
       "modeTitle": "🔧 Ops Mode - Full Edit Access"
     },
     "tips": {
-      "title": "💡 Edit Tips:",
-      "description": "• Click any field to edit in-place • Use the Edit button for full form • ESC to discard • Ctrl+Enter to commit • Purple sparkle for diagnostics"
+      "title": "💡 Ops Console Tips:",
+      "description": "• Click any field to edit in-place • Use the Edit button for full console • ESC to discard • Ctrl+Enter to commit • Purple sparkle for diagnostics"
     },
     "title": "Edit Ticket",
     "createTitle": "Open New Ticket",
@@ -966,8 +966,8 @@
       "notes": "Comments",
       "tags": "Labels",
       "project": "Service",
-      "assignee": "Assignee",
-      "dueDate": "Due Date"
+      "assignee": "Assigned Operator",
+      "dueDate": "Deadline"
     },
     "save": "Commit",
     "cancel": "Discard",
@@ -984,14 +984,14 @@
     "export": {
       "starting": "Initiating export...",
       "success": "Export completed! Downloaded {{todoCount}} tickets, {{projectCount}} services, and settings.",
-      "error": "Export failed: {{error}}"
+      "error": "Export snapshot failed: {{error}}"
     },
     "import": {
       "starting": "Initiating import...",
       "confirmDialog": "Import Preview:\n\n{{todoCount}} tickets, {{projectCount}} services, {{settingsCount}} settings categories\n\nConflicts detected:\n{{conflicts}}\n\nProceed with import?",
       "success": "Import complete! Imported {{importedCount}} items. {{skippedCount}} items skipped.",
-      "error": "Import failed: {{error}}",
-      "fileDialogError": "Failed to open file dialog"
+      "error": "Import ingestion failed: {{error}}",
+      "fileDialogError": "File dialog unavailable"
     },
     "todoToolbar": {
       "title": "Lab Ops Controls",
@@ -1014,15 +1014,15 @@
     "tabs": {
       "profile": "Operator Profile",
       "data": "Data",
-      "aiConfiguration": "AI Configuration",
+      "aiConfiguration": "Diagnostics Config",
       "mcpSetup": "MCP Setup",
-      "messaging": "Messaging",
+      "messaging": "Role Config",
       "apiKeys": "API Keys",
       "appearance": "Display",
       "mindMap": "Topology Map",
-      "umlData": "Code Visualizations",
-      "privacy": "Privacy",
-      "advanced": "Advanced",
+      "umlData": "Code Map Archive",
+      "privacy": "Access Control",
+      "advanced": "Advanced Ops",
       "npcAgents": "NPC Agents",
       "swarmDesk": "SwarmDesk",
       "support": "Ops Help",
@@ -1034,48 +1034,48 @@
       "security": "Security"
     },
     "swarmdesk": {
-      "movementTitle": "Movement Speed Controls",
-      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
-      "resetDefaults": "Reset to Defaults",
+      "movementTitle": "Camera Movement Parameters",
+      "movementDescription": "Configure camera traversal rates for Orbital and FPS modes in the SwarmDesk 3D ops environment.",
+      "resetDefaults": "Reset to Baseline",
       "orbitalTitle": "Orbital Mode (O key)",
-      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
-      "orbitalBaseSpeed": "Base Speed",
+      "orbitalDescription": "Camera traversal config for orbital (free-fly) navigation mode.",
+      "orbitalBaseSpeed": "Base Rate",
       "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
       "fpsTitle": "FPS Mode (F key)",
-      "fpsDescription": "Controls camera movement when using first-person navigation.",
-      "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsDescription": "Camera traversal config for first-person navigation mode.",
+      "fpsBaseSpeed": "Walk Rate",
+      "fpsSprintSpeed": "Sprint Rate (Ctrl held)"
     },
     "messaging": {
       "title": "Message Role Configuration",
-      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
-      "allowedRoles": "Allowed Roles",
-      "addRole": "Add Role",
-      "editRole": "Edit Message Role",
-      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "subtitle": "Configure permitted roles for chat message routing. Core roles may be hidden but not deleted — they remain valid for backend validation.",
+      "allowedRoles": "Permitted Roles",
+      "addRole": "Register Role",
+      "editRole": "Reconfigure Role",
+      "infoMessage": "These roles are available when composing chat messages. Each role supports a custom emoji for visual identification. Core roles may be hidden but not deleted — they remain valid for backend validation.",
       "roleId": "Role ID",
       "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
-      "roleIdDisabled": "Role ID cannot be changed",
+      "roleIdDisabled": "Role ID is locked",
       "displayLabel": "Display Label",
       "displayLabelHelper": "Human-readable name shown in console",
       "emoji": "Emoji",
       "emojiHelper": "Single emoji character for visual identification",
       "coreRole": "Core Role",
       "hidden": "Hidden",
-      "showRole": "Show role",
-      "hideRole": "Hide role",
+      "showRole": "Enable role",
+      "hideRole": "Suppress role",
       "saveChanges": "Commit Changes",
       "cancel": "Discard",
       "npcConfig": "SwarmDesk NPC Configuration",
-      "npcEnabled": "Spawn as SwarmDesk NPC",
-      "npcCount": "NPC Count",
-      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcEnabled": "Deploy as SwarmDesk NPC",
+      "npcCount": "Instance Count",
+      "npcCountHelper": "Number of instances of this role to deploy in SwarmDesk (0-5).",
       "npcColor": "NPC Color",
       "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
-      "npcRole": "NPC Role Title",
-      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcRole": "NPC Role Label",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to inherit the display label.",
       "npcPersonality": "NPC Personality",
-      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalityHelper": "Sets the default behavior profile and fallback dialogue for this NPC.",
       "npcPersonalities": {
         "helpful_assistant": "Helpful Assistant",
         "chaotic_genius": "Chaotic Genius",
@@ -1089,78 +1089,78 @@
       "duplicateAgentId": "An agent with this ID already exists."
     },
     "theme": {
-      "title": "Theme",
-      "colorTheme": "Color Theme",
+      "title": "Display Theme",
+      "colorTheme": "Color Profile",
       "textTheme": "Text Style",
       "description": "Select the console display theme",
-      "label": "Interface Theme"
+      "label": "Console Theme"
     },
     "account": {
-      "title": "Account",
-      "profile": "Profile Settings",
-      "preferences": "Preferences"
+      "title": "Operator Account",
+      "profile": "Operator Profile",
+      "preferences": "Operator Preferences"
     },
     "sections": {
       "appearance": "Display Config",
-      "ai": "AI Integration",
-      "notifications": "Alert Config",
+      "ai": "Diagnostics Integration",
+      "notifications": "Alert Routing",
       "privacy": "Access Control",
       "account": "Operator Profile",
       "advanced": "Advanced Ops",
       "about": "System Info",
       "data": "Data Management",
-      "integrations": "Integrations",
+      "integrations": "Service Integrations",
       "security": "Security Config"
     },
     "language": {
       "label": "Language",
-      "description": "Interface language"
+      "description": "Console interface language"
     },
     "notifications": {
       "label": "Alert Notifications",
-      "description": "Enable system alerts",
+      "description": "Enable alert routing",
       "email": "Email Alerts",
       "push": "Push Alerts",
       "inApp": "In-Console Alerts"
     },
     "ai": {
-      "label": "AI Integration",
-      "description": "Configure AI diagnostic provider",
+      "label": "Diagnostics Integration",
+      "description": "Configure AI diagnostics provider",
       "provider": "Provider",
       "apiKey": "API Key",
       "model": "Model",
       "temperature": "Temperature",
       "maxTokens": "Max Tokens",
-      "testConnection": "Test Connection",
-      "testing": "Testing…",
+      "testConnection": "Verify Connection",
+      "testing": "Probing…",
       "connected": "Connection verified",
       "failed": "Connection failed"
     },
     "privacy": {
       "label": "Access Control",
-      "description": "Manage data access settings",
+      "description": "Configure data access policies",
       "shareAnalytics": "Share usage telemetry",
       "crashReports": "Submit crash reports"
     },
     "advanced": {
       "label": "Advanced Ops",
-      "description": "Advanced configuration parameters",
+      "description": "Advanced ops configuration parameters",
       "debugMode": "Debug Mode",
       "experimentalFeatures": "Experimental Features",
-      "resetSettings": "Reset to Defaults",
+      "resetSettings": "Reset to Baseline",
       "clearCache": "Purge Cache",
       "exportData": "Export Snapshot",
-      "importData": "Import Data",
+      "importData": "Import Dataset",
       "dangerZone": "Restricted Zone"
     },
     "save": "Commit Config",
     "cancel": "Discard",
     "saved": "Configuration committed",
     "error": "Configuration commit failed",
-    "reset": "Reset to Defaults",
+    "reset": "Reset to Baseline",
     "autoSave": {
       "label": "Auto-commit changes",
-      "description": "Automatically commit configuration changes"
+      "description": "Automatically commit configuration on change"
     },
     "display": {
       "density": "Display Density",
@@ -1176,7 +1176,7 @@
       "importFile": "Import Data File",
       "clearAllData": "Purge All Data",
       "confirmClear": "Purge all data? This cannot be undone.",
-      "backupFrequency": "Snapshot Frequency",
+      "backupFrequency": "Snapshot Interval",
       "autoBackup": "Auto-snapshot"
     },
     "security": {
@@ -1184,7 +1184,7 @@
       "twoFactor": "Two-Factor Auth",
       "sessions": "Active Sessions",
       "revokeAll": "Revoke All Sessions",
-      "loginHistory": "Login Log"
+      "loginHistory": "Auth Log"
     },
     "about": {
       "version": "Version",
@@ -1193,7 +1193,7 @@
       "documentation": "Runbooks",
       "changelog": "Release Notes",
       "reportBug": "Report Incident",
-      "featureRequest": "Request Feature"
+      "featureRequest": "Submit Feature Request"
     }
   },
   "umlData": {
@@ -1324,7 +1324,7 @@
       "cancel": "Discard"
     },
     "sections": {
-      "metadata": "Metadata (Optional)"
+      "metadata": "Operational Metadata (Optional)"
     },
     "errors": {
       "descriptionRequired": "Summary is required for diagnostic enhancement",
@@ -1336,14 +1336,14 @@
       "clickToAdd": "Click to add summary...",
       "enhancedDescription": "AI-enhanced summary will appear here...",
       "notes": "Additional comments...",
-      "ticket": "Ticket reference..."
+      "ticket": "External ticket ref..."
     },
     "labels": {
       "enhancedDescription": "Enhanced Summary",
       "aiEnhanced": "🧠 AI Enhanced Summary:",
       "completionNotes": "✅ Resolution Notes:",
       "completed": "Resolved",
-      "duration": "Duration",
+      "duration": "Duration (elapsed)",
       "autoEnhanceOnSave": "Auto-enhance on commit",
       "enhance": "Run Diagnostics",
       "enhancing": "Running diagnostics..."
@@ -1355,14 +1355,14 @@
       "critical": "Critical"
     },
     "status": {
-      "pending": "Pending",
-      "in_progress": "In Progress",
-      "blocked": "Blocked",
+      "pending": "Open",
+      "in_progress": "Active",
+      "blocked": "On Hold",
       "review": "Triage",
       "completed": "Resolved",
-      "initial": "Initial",
+      "initial": "Initializing",
       "cancelled": "Cancelled",
-      "inProgress": "In Progress"
+      "inProgress": "Active"
     },
     "menu": {
       "editTask": "Edit Ticket",
@@ -1379,7 +1379,7 @@
     "saved": "Committed",
     "error": "Commit failed",
     "editMode": "Edit Mode",
-    "viewMode": "View Mode",
+    "viewMode": "Read Mode",
     "actions": {
       "edit": "Edit Ticket",
       "save": "Commit",
@@ -1387,13 +1387,13 @@
       "delete": "Decommission",
       "complete": "Resolve",
       "move": "Reassign",
-      "clone": "Duplicate",
+      "clone": "Clone",
       "flag": "Flag",
       "unflag": "Unflag",
       "pin": "Pin",
       "unpin": "Unpin",
-      "share": "Share",
-      "view": "View Details"
+      "share": "Share Record",
+      "view": "Inspect"
     },
     "fields": {
       "description": "Summary",
@@ -1402,7 +1402,7 @@
       "priority": "Priority",
       "status": "Status",
       "project": "Service",
-      "dueDate": "Due Date"
+      "dueDate": "Deadline"
     }
   },
   "mindMap": {
