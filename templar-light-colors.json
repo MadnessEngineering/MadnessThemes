@@ -5,8 +5,8 @@
   "icon": "⚔️",
   "version": "1.0.0",
   "colors": {
-    "primary": "#c5b358",
-    "primaryButton": "#b89f46",
+    "primary": "#8a6d00",
+    "primaryButton": "#8a6d00",
     "secondary": "#a41e21",
     "success": "#2e7d32",
     "warning": "#e65100",
@@ -26,8 +26,8 @@
     "text": {
       "primary": "rgba(0, 0, 0, 0.87)",
       "secondary": "rgba(0, 0, 0, 0.6)",
-      "tertiary": "rgba(0, 0, 0, 0.4)",
-      "muted": "rgba(0, 0, 0, 0.3)",
+      "tertiary": "rgba(0, 0, 0, 0.55)",
+      "muted": "rgba(0, 0, 0, 0.5)",
       "contrast": "#ffffff",
       "disabled": "rgba(0, 0, 0, 0.2)",
       "success": "#1b5e20",

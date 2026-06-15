@@ -5,9 +5,9 @@
   "icon": "🔫",
   "version": "1.0.0",
   "colors": {
-    "primary": "#78909c",
+    "primary": "#b0bec5",
     "primaryButton": "#546e7a",
-    "secondary": "#90a4ae",
+    "secondary": "#cfd8dc",
     "success": "#66bb6a",
     "warning": "#ffb74d",
     "error": "#ef5350",

@@ -20,7 +20,7 @@
       },
       "header": "linear-gradient(135deg, #162F42 0%, #0E2234 100%)",
       "paper": "rgba(30, 55, 75, 0.95)",
-      "topBar": "linear-gradient(90deg, #1188A6 0%, #0D7B96 100%)",
+      "topBar": "linear-gradient(90deg, #162F42 0%, #0E2234 100%)",
       "input": "rgba(38, 62, 82, 0.99)"
     },
     "text": {
