@@ -676,7 +676,7 @@
       "workshopClear": "Queue Clear",
       "noMatchingDescription": "No tickets match \"{{searchText}}\". Adjust your query or filters.",
       "workshopClearDescription": "No tickets found. The queue is clear.",
-      "title": "Queue clear",
+      "title": "Board is clear",
       "message": "No open tickets. Provision a new ticket to begin.",
       "noResults": "No tickets match the current filter.",
       "filtered": "No matching tickets"
@@ -689,7 +689,7 @@
       "discard": "Discard",
       "complete": "Resolve",
       "edit": "Edit Ticket",
-      "copyId": "Copy ID",
+      "copyId": "Copy Ticket ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share",
       "review": "Triage",
@@ -708,7 +708,7 @@
     },
     "menu": {
       "editTask": "Edit Ticket",
-      "copyId": "Copy ID",
+      "copyId": "Copy Ticket ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share Record",
       "openInWarp": "Execute Warp Sequence",
@@ -747,12 +747,12 @@
       "customizeFields": "Customize Column Names",
       "renameFields": "Rename Columns",
       "calculatedFields": "Derived Fields",
-      "fieldName": "Field Name",
+      "fieldName": "Field",
       "addCalculatedField": "Add Derived Field",
       "formula": {
         "ageInDays": "Age (days)",
         "daysSinceUpdate": "Days since update",
-        "charCount": "Character count",
+        "charCount": "Char count",
         "tokenEstimate": "Token estimate",
         "timeToComplete": "Time to resolve"
       },
@@ -923,7 +923,7 @@
       "cancel": "Discard"
     },
     "errorLoading": "Query failed: {{error}}",
-    "errorUpdating": "Update failed: {{error}}",
+    "errorUpdating": "Patch failed: {{error}}",
     "errorDeleting": "Decommission failed: {{error}}",
     "successComplete": "Ticket resolved",
     "successDelete": "Ticket decommissioned",
@@ -1028,9 +1028,9 @@
       "support": "Ops Help",
       "hooks": "Lab Automation Hooks",
       "keyboardShortcuts": "Hotkeys",
-      "general": "General",
+      "general": "General Config",
       "ai": "AI",
-      "notifications": "Alerts",
+      "notifications": "Alert Channels",
       "security": "Security"
     },
     "swarmdesk": {
@@ -1066,7 +1066,7 @@
       "hideRole": "Suppress role",
       "saveChanges": "Commit Changes",
       "cancel": "Discard",
-      "npcConfig": "SwarmDesk NPC Configuration",
+      "npcConfig": "SwarmDesk NPC Config",
       "npcEnabled": "Deploy as SwarmDesk NPC",
       "npcCount": "Instance Count",
       "npcCountHelper": "Number of instances of this role to deploy in SwarmDesk (0-5).",
@@ -1133,8 +1133,8 @@
       "maxTokens": "Max Tokens",
       "testConnection": "Verify Connection",
       "testing": "Probing…",
-      "connected": "Connection verified",
-      "failed": "Connection failed"
+      "connected": "Endpoint verified",
+      "failed": "Endpoint unreachable"
     },
     "privacy": {
       "label": "Access Control",
@@ -1180,7 +1180,7 @@
       "autoBackup": "Auto-snapshot"
     },
     "security": {
-      "changePassword": "Change Password",
+      "changePassword": "Rotate Credentials",
       "twoFactor": "Two-Factor Auth",
       "sessions": "Active Sessions",
       "revokeAll": "Revoke All Sessions",
@@ -1191,19 +1191,19 @@
       "build": "Build",
       "license": "License",
       "documentation": "Runbooks",
-      "changelog": "Release Notes",
-      "reportBug": "Report Incident",
+      "changelog": "Changelog",
+      "reportBug": "File Incident Report",
       "featureRequest": "Submit Feature Request"
     }
   },
   "umlData": {
     "title": "🗂️ Code Map Archive",
-    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "description": "Manage code map datasets for 3D visualization in SwarmDesk",
     "upload": "Upload Map",
     "errors": {
-      "loadFailed": "Failed to load UML datasets",
-      "uploadFailed": "Failed to upload UML file",
-      "deleteFailed": "Failed to delete UML data"
+      "loadFailed": "Failed to load code map datasets",
+      "uploadFailed": "Failed to upload map file",
+      "deleteFailed": "Failed to decommission map"
     },
     "delete": {
       "confirmTitle": "Decommission Code Map",
@@ -1211,45 +1211,45 @@
       "success": "Code map decommissioned"
     },
     "viewSwarmDesk": {
-      "redirect": "Opening in SwarmDesk..."
+      "redirect": "Opening in SwarmDesk…"
     },
     "source": {
       "personal": "Personal",
       "shared": "Shared"
     },
     "instructions": {
-      "title": "How to use:",
-      "step1": "Install the UML generator: npm install -g @madnessengineering/cartogomancy",
-      "step2": "Generate UML from your codebase: cartogomancy /path/to/project -o project-uml.json",
+      "title": "Deployment instructions:",
+      "step1": "Install the map generator: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Generate map from codebase: cartogomancy /path/to/project -o project-uml.json",
       "step3": "Upload the generated JSON file using the button above"
     },
     "storage": {
-      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "info": "{{count}} visualization(s) on record. Storage limit: {{limit}}",
       "limit": "10 files per user (10MB each)"
     },
     "table": {
-      "name": "Project Name",
-      "linkedProject": "Linked Project",
+      "name": "Service Name",
+      "linkedProject": "Linked Service",
       "version": "Version",
       "lastUpdated": "Last Updated",
       "source": "Source",
       "classes": "Classes",
       "packages": "Packages",
-      "created": "Created",
+      "created": "Provisioned",
       "actions": "Actions"
     },
     "actions": {
-      "view": "View in SwarmDesk",
-      "delete": "Delete"
+      "view": "Open in SwarmDesk",
+      "delete": "Decommission"
     },
     "empty": {
-      "title": "No code maps on record",
-      "message": "Generate a code map to visualize project architecture.",
-      "action": "Generate First Map"
+      "title": "No maps on record",
+      "message": "Generate a code map to visualize service architecture.",
+      "action": "Generate First Map",
+      "hint": "Upload a map file to view your codebase in 3D"
     },
-    "empty.hint": "Upload a UML file to see your code in 3D",
     "loading": "Querying code maps…",
-    "noData": "No code maps on record. Generate your first map.",
+    "noData": "No maps on record. Generate your first map.",
     "generate": "Generate Map",
     "generating": "Generating…",
     "uploading": "Uploading…",
@@ -1258,11 +1258,11 @@
     "version": "Version",
     "versions": "Versions",
     "noVersions": "No versions on record",
-    "compareVersions": "Compare Versions",
+    "compareVersions": "Diff Versions",
     "currentVersion": "Current",
     "previousVersion": "Previous",
     "diff": "Diff View",
-    "timeline": "Version Timeline",
+    "timeline": "Version History",
     "restore": "Restore Version",
     "confirmRestore": "Restore this version?",
     "metadata": {
@@ -1284,8 +1284,8 @@
       "load": "Query failed: {{error}}"
     },
     "success": {
-      "generated": "Code map generated",
-      "uploaded": "Map uploaded to archive",
+      "generated": "Map generated",
+      "uploaded": "Map uploaded",
       "deleted": "Map decommissioned",
       "restored": "Version restored"
     },
@@ -1576,7 +1576,7 @@
     "loading": "Querying…",
     "empty": {
       "title": "Diagnostics ready",
-      "message": "Enter a query or request an analysis.",
+      "message": "Enter a query or request a diagnostic.",
       "suggestion": "Try: 'What tickets are blocked?'"
     },
     "error": {
@@ -1647,14 +1647,14 @@
     },
     "title": "Lab Diagnostics",
     "placeholder": "Query the diagnostic system…",
-    "send": "Send",
+    "send": "Dispatch",
     "voiceInput": "Voice Input",
     "stopVoice": "Stop Voice",
     "attachFile": "Attach File",
     "loading": "Querying…",
     "empty": {
       "title": "Diagnostics ready",
-      "message": "Run a query or request an analysis."
+      "message": "Run a query or request a diagnostic."
     },
     "error": "Transmission failed",
     "newSession": "New Session",
@@ -2209,7 +2209,7 @@
       "todoCreated": "Ticket opened",
       "todoCompleted": "Ticket resolved",
       "todoDeleted": "Ticket decommissioned",
-      "projectCreated": "Project provisioned",
+      "projectCreated": "Service provisioned",
       "syncComplete": "Datastore synced"
     },
     "tour": {
@@ -2442,7 +2442,7 @@
       "title": "Pattern Analysis",
       "description": "Identify patterns and dependencies",
       "button": "Analyze Patterns",
-      "casting": "Running analysis…",
+      "casting": "Analyzing…",
       "success": "Analysis complete"
     },
     "consolidate": {
@@ -2457,7 +2457,7 @@
     "loading": "Querying…",
     "tabs": {
       "overview": "Overview",
-      "analytics": "Analytics",
+      "analytics": "Telemetry",
       "systemLogs": "System Logs",
       "performance": "Performance"
     }
@@ -2466,7 +2466,7 @@
     "tabs": {
       "overview": "Overview",
       "users": "Operators",
-      "analytics": "Analytics",
+      "analytics": "Telemetry",
       "featureFlags": "Feature Flags",
       "systemLogs": "System Logs"
     },
@@ -2496,7 +2496,7 @@
       "completionRate": "Resolution Rate"
     },
     "analytics": {
-      "title": "Advanced Analytics",
+      "title": "Telemetry Dashboard",
       "loading": "Querying…",
       "comingSoon": "Analytics Under Construction",
       "description": "Advanced charts and data visualization are being calibrated. Check back soon.",
@@ -2528,8 +2528,8 @@
       "entries": "entries",
       "empty": "No log entries — systems nominal",
       "columns": {
-        "timestamp": "Time",
-        "level": "Level",
+        "timestamp": "Timestamp",
+        "level": "Severity",
         "message": "Message",
         "user": "Operator",
         "endpoint": "Endpoint"
@@ -2571,11 +2571,11 @@
         "swarmdesk_3d": "SwarmDesk 3D",
         "collaborative_editing": "Collaborative Editing",
         "ai_copilot": "AI Copilot",
-        "admin_panel": "Admin Panel",
+        "admin_panel": "Admin Console",
         "user_management": "Operator Management",
         "feature_flags": "Feature Flags",
         "system_logs": "System Logs",
-        "analytics": "Analytics",
+        "analytics": "Telemetry",
         "debug_mode": "Debug Mode"
       },
       "confirm": {
@@ -2638,7 +2638,7 @@
     "emptyState": "Queue is clear — no open tickets",
     "noSearchResults": "No tickets match your query",
     "reordering": "Applying order...",
-    "allProjects": "All Projects",
+    "allProjects": "All Services",
     "cardActions": {
       "complete": "Resolve",
       "edit": "Edit Ticket",
@@ -3147,7 +3147,7 @@
       "running": "Standardizing Signals...",
       "lastRun": "Last operational cycle",
       "scanned": "Scanned",
-      "modified": "Modified"
+      "modified": "Patched"
     }
   },
   "constellation": {
