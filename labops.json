@@ -551,12 +551,12 @@
       "totalTasks": "Total Tickets",
       "pending": "Open",
       "completed": "Resolved",
-      "blocked": "Blocked",
+      "blocked": "On Hold",
       "review": "Triage"
     },
     "reviewTab": {
       "title": "Triage Queue",
-      "approveButton": "Approve",
+      "approveButton": "Approve & Close",
       "requestChanges": "Flag for Revision",
       "returnToProgress": "Return to Active",
       "emptyState": "No tickets in triage"
@@ -1520,9 +1520,9 @@
       "filterHighPriority": "Show me critical tickets in this service"
     },
     "suggestedActions": {
-      "listPending": "List Pending",
+      "listPending": "List Open Tickets",
       "newHighPrio": "New Critical",
-      "summarize": "Summarize"
+      "summarize": "Status Report"
     },
     "status": {
       "typing": "Diagnostic system processing",
@@ -1542,17 +1542,17 @@
     "notConfigured": {
       "title": "Diagnostic System Offline",
       "description": "To bring diagnostics online, please configure your AI provider in Settings.",
-      "configureButton": "Configure AI Provider"
+      "configureButton": "Configure Diagnostics"
     },
     "header": {
       "title": "Ops Diagnostics",
-      "refreshTooltip": "Refresh context",
-      "settingsTooltip": "Settings"
+      "refreshTooltip": "Resync Context",
+      "settingsTooltip": "Config"
     },
     "menu": {
-      "refreshContext": "Refresh Context",
-      "aiSettings": "AI Settings (Go to Settings)",
-      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+      "refreshContext": "Resync Context",
+      "aiSettings": "Diagnostics Config (Settings)",
+      "aiSettingsRedirect": "AI diagnostics config has moved to Settings → Diagnostics Config"
     },
     "input": {
       "placeholder": "Query the diagnostic system...",
@@ -1613,7 +1613,7 @@
       "createTodo": "Provision Ticket",
       "listTodos": "List Tickets",
       "projectStatus": "Service Status",
-      "help": "Help",
+      "help": "Query Help",
       "prioritize": "Triage",
       "summarize": "Status Report"
     },
@@ -1622,7 +1622,7 @@
       "createTodoPrefill": "Task: ",
       "listTodos": "Show me my current ticket queue",
       "projectStatus": "Give me a status update on my services",
-      "help": "What can you help me with?",
+      "help": "What operations can you assist with?",
       "prioritize": "What should I triage first today?",
       "summarize": "Give me a quick status report on my current service"
     },
@@ -1630,7 +1630,7 @@
       "title": "Ops Diagnostics",
       "statusListening": "Receiving...",
       "statusTyping": "Processing...",
-      "statusOnline": "Online"
+      "statusOnline": "Nominal"
     },
     "emptyState": {
       "greeting": "Ops Diagnostic System Online",
@@ -2624,7 +2624,7 @@
     },
     "common": {
       "loading": "Querying…",
-      "error": "An error occurred",
+      "error": "System fault detected",
       "refresh": "Resync",
       "save": "Commit",
       "cancel": "Discard"
