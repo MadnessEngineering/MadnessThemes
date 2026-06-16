@@ -15,12 +15,12 @@
     "fetching": "Retrieving…",
     "pushing": "Transmitting…",
     "pulling": "Syncing…",
-    "newBranch": "New branch",
+    "newBranch": "Register Branch",
     "createBranch": "Register branch",
     "deleteBranch": "Archive branch",
     "renameBranch": "Relabel branch",
-    "switchBranch": "Switch branch",
-    "currentBranch": "Current branch",
+    "switchBranch": "Switch Protocol Branch",
+    "currentBranch": "Active Branch",
     "branchName": "Branch identifier",
     "noBranches": "No branches on record",
     "changesTitle": "Modifications",
@@ -29,23 +29,23 @@
     "discardAll": "Withdraw all modifications",
     "stashChanges": "Set aside samples",
     "undo": "Reverse",
-    "cloneRepository": "Clone repository",
+    "cloneRepository": "Clone Repository",
     "addRepository": "Register repository",
-    "removeRepository": "Remove repository",
-    "repositorySettings": "Repository settings",
-    "openInTerminal": "Open in terminal",
+    "removeRepository": "Decommission Repository",
+    "repositorySettings": "Repository Configuration",
+    "openInTerminal": "Open Terminal Session",
     "viewOnGitHub": "View on GitHub",
     "historyTitle": "Chronicle",
     "noHistory": "No records",
-    "resolveConflicts": "Resolve conflicts",
-    "abortMerge": "Abort merge",
-    "continueRebase": "Continue rebase",
-    "abortRebase": "Abort rebase",
+    "resolveConflicts": "Resolve Conflicts",
+    "abortMerge": "Abort Merge",
+    "continueRebase": "Continue Rebase",
+    "abortRebase": "Abort Rebase",
     "ok": "OK",
     "cancel": "Withdraw",
     "discard": "Withdraw",
-    "continue": "Continue",
-    "dismiss": "Dismiss"
+    "continue": "Proceed",
+    "dismiss": "Acknowledge"
   },
   "createProject": {
     "title": "Initialize New Study",
@@ -111,7 +111,7 @@
     "close": "Clear Station",
     "edit": "Amend Protocol",
     "delete": "Archive",
-    "reset": "Reset",
+    "reset": "Reset Parameters",
     "loading": "Analyzing…",
     "error": "Error detected",
     "success": "Protocol complete",
@@ -127,12 +127,12 @@
     "next": "Next",
     "previous": "Previous",
     "search": "Screen",
-    "filter": "Filter",
+    "filter": "Screen Filter",
     "sort": "Sort",
     "clear": "Clear",
     "apply": "Apply",
     "export": "Export Records",
-    "import": "Import",
+    "import": "Import Records",
     "viewAll": "View All Records",
     "collapse": "Collapse",
     "expand": "Expand",
@@ -170,9 +170,9 @@
       "inProgress": "In Trial",
       "blocked": "Contraindicated",
       "completed": "Validated",
-      "highPriority": "High Priority",
-      "mediumPriority": "Medium Priority",
-      "lowPriority": "Low Priority"
+      "highPriority": "Acute Priority",
+      "mediumPriority": "Subacute Priority",
+      "lowPriority": "Elective Priority"
     },
     "activityLog": {
       "title": "📊 Activity Log",
@@ -244,10 +244,10 @@
       "completedTodos": "Successful Prognoses",
       "archivedProjects": "Archived Patient Files"
     },
-    "recentActivity": "Recent Activity"
+    "recentActivity": "Recent Lab Activity"
   },
   "activityLog": {
-    "title": "📋 Activity Log",
+    "title": "📋 Lab Activity Log",
     "autoRefreshOn": "Auto-scan ON",
     "autoRefreshOff": "Auto-scan OFF",
     "filters": {
@@ -305,11 +305,11 @@
       "completed": "validated",
       "deleted": "archived"
     },
-    "ago": "ago",
+    "ago": "elapsed",
     "stats": {
       "total": "Total Records",
-      "today": "Today",
-      "thisWeek": "This Week"
+      "today": "Current Period",
+      "thisWeek": "7-Day Window"
     }
   },
   "lessonsLearned": {
@@ -329,7 +329,7 @@
     "filters": {
       "allLessons": "All Notes",
       "bookmarked": "Flagged",
-      "recent": "Recent (7 days)"
+      "recent": "Recent Findings (7 days)"
     },
     "emptyState": {
       "noMatching": "No Matching Notes",
@@ -377,9 +377,9 @@
     "create": "➕ Register",
     "projects": "📂 Studies",
     "mindMap": "🗺️ Neural Map",
-    "swarmDesk": "🎪 SwarmDesk",
+    "swarmDesk": "🎪 Lab Environment",
     "lessons": "🎓 Lab Notes",
-    "settings": "⚙️ Settings",
+    "settings": "⚙️ Lab Configuration",
     "insights": "📊 Run Analysis",
     "labMaintenance": "🧹 Specimen Triage",
     "workshop": "🔧 Synthesis Lab",
@@ -402,7 +402,7 @@
       "orphaned": "Uncatalogued",
       "completed": "Archived Protocols",
       "consolidate": "Clinical Overview",
-      "duplicates": "Duplicates"
+      "duplicates": "Duplicate Specimens"
     },
     "selectAll": "Select All Specimens",
     "clearSelection": "Clear Selection",
@@ -431,7 +431,7 @@
       "scan": "Screen",
       "scanning": "Screening…",
       "noResults": "No duplicate assays detected at this threshold. Try lowering the sensitivity.",
-      "groupsFound": "groups",
+      "groupsFound": "specimen groups",
       "potentialDuplicates": "assays",
       "analyzeAI": "Run Analysis",
       "analyzing": "Analyzing…",
@@ -443,8 +443,8 @@
       "deleteLabel": "Archive",
       "suggestedDescription": "Proposed",
       "reasoning": "Rationale",
-      "apply": "Apply",
-      "applyAll": "Apply All",
+      "apply": "Apply Protocol",
+      "applyAll": "Apply All Protocols",
       "applied": "Recommendation applied",
       "selectGroupsFirst": "Select assay groups to analyze"
     },
@@ -506,16 +506,16 @@
       "subtitle": "Gathering assay data and study metrics"
     },
     "stats": {
-      "pending": "pending",
+      "pending": "queued",
       "review": "under assessment"
     },
     "activity": {
-      "title": "Recent Activity",
+      "title": "Recent Lab Activity",
       "noActivity": "No recent activity on record"
     },
     "enterButton": {
-      "selected": "⚡ SELECTED",
-      "enter": "🚀 ENTER",
+      "selected": "✅ ACTIVE STUDY",
+      "enter": "🔬 ENTER",
       "helpText": "Press Enter or #{{number}}"
     },
     "createCta": {
@@ -535,12 +535,12 @@
     "viewInSwarmDesk": "View in SwarmDesk"
   },
   "projectSwarmdesk": {
-    "title": "🎪 {{projectName}}",
+    "title": "🔬 {{projectName}}",
     "stats": {
-      "pendingTasks": "{{count}} pending",
+      "pendingTasks": "{{count}} queued",
       "completedTasks": "{{count}} validated"
     },
-    "loading": "🎪 Loading {{projectId}} Environment...",
+    "loading": "🔬 Loading {{projectId}} Environment...",
     "controls": "🎮 WASD: Move | Mouse Drag: Look | ESC: Exit Study",
     "workstation": {
       "todoHint": "📝 Click to manage study assays",
@@ -549,7 +549,7 @@
     "statsPanel": {
       "title": "📊 Study Metrics",
       "totalTasks": "Total Assays",
-      "pending": "Pending",
+      "pending": "Queued",
       "completed": "Validated",
       "review": "Under Assessment",
       "blocked": "Contraindicated"
@@ -573,9 +573,9 @@
   "projectTab": {
     "title": "Study Configuration",
     "sections": {
-      "basicInfo": "Basic Information",
-      "configuration": "Configuration",
-      "technicalDetails": "Technical Details (Optional)"
+      "basicInfo": "Study Identifiers",
+      "configuration": "Protocol Parameters",
+      "technicalDetails": "Technical Specifications (Optional)"
     },
     "projectTypes": {
       "web": "Web Application",
@@ -649,7 +649,7 @@
     "project": {
       "label": "Study",
       "allProjects": "All Studies ({{count}})",
-      "clearFilter": "Clear Filter",
+      "clearFilter": "Clear Screen Filter",
       "clearAll": "Clear all",
       "select": "Assign Study",
       "none": "No study assigned",
