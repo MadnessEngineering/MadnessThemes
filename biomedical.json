@@ -88,16 +88,16 @@
     "sessions": "Lab Sessions"
   },
   "validation": {
-    "nameRequired": "Study identifier is required",
-    "nameLength": "Identifier must be at least 2 characters",
-    "nameFormat": "Identifier can only contain letters, numbers, hyphens, and underscores",
+    "nameRequired": "Project name is required",
+    "nameLength": "Name must be at least 2 characters",
+    "nameFormat": "Name can only contain letters, numbers, hyphens, and underscores",
     "displayNameRequired": "Display name is required",
-    "descriptionRequired": "Protocol description is required",
-    "descriptionLength": "Description must be at least 10 characters for proper documentation",
-    "topicRequired": "Research topic cannot be empty",
+    "descriptionRequired": "Project description is required",
+    "descriptionLength": "Description must be at least 10 characters",
+    "topicRequired": "Topic cannot be empty",
     "topicTooLong": "Topic must be less than 200 characters",
-    "contentRequired": "Procedure content cannot be empty",
-    "contentTooLong": "Procedure must be less than 5000 characters",
+    "contentRequired": "Lesson content cannot be empty",
+    "contentTooLong": "Lesson must be less than 5000 characters",
     "invalidLanguage": "Please select a valid language",
     "required": "This field is required",
     "minLength": "Minimum {min} characters required",
@@ -2094,17 +2094,17 @@
       "subtitle": "Use AI-powered tools to improve your assay management",
       "selectSpell": "Choose Analysis Tool",
       "castSpell": "Apply Analysis",
-      "cancelSpell": "Cancel",
-      "casting": "Processing Analysis...",
-      "resultsTitle": "✨ Analysis Results",
-      "historyTitle": "📜 Analysis History",
-      "clearHistory": "Clear History",
+      "cancelSpell": "Withdraw",
+      "casting": "Running Analysis...",
+      "resultsTitle": "✨ Analytical Results",
+      "historyTitle": "📜 Analysis Chronicle",
+      "clearHistory": "Purge Analysis History",
       "noHistory": "No analyses have been performed",
       "placeholder": "Select a tool to analyze your assays..."
     },
     "effects": {
       "particles": "Diagnostic indicators active",
-      "energy": "System processing",
+      "energy": "Lab systems processing",
       "casting": "Analysis in progress",
       "complete": "Analysis completed successfully"
     },
@@ -2112,15 +2112,15 @@
       "enhance": {
         "success": "🧠 Assay analyzed with AI insights!",
         "improvement": "Analysis applied to assay description",
-        "insights": "Key insights:",
-        "suggestions": "Recommendations:"
+        "insights": "Key findings:",
+        "suggestions": "Clinical recommendations:"
       },
       "geomancy": {
         "success": "🔍 Patterns identified in your study!",
         "insights": "Analysis findings:",
         "patterns": "Pattern analysis:",
-        "recommendations": "Recommendations:",
-        "analysis": "Analysis completed"
+        "recommendations": "Clinical recommendations:",
+        "analysis": "Analysis complete"
       },
       "consolidate": {
         "success": "🔗 Similar assays consolidated successfully!",
@@ -2129,10 +2129,10 @@
         "preview": "Merge preview:",
         "confirmation": "Proceed with consolidation?"
       },
-      "title": "Spell Results",
-      "latest": "Latest",
-      "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "title": "Analytical Results",
+      "latest": "Most Recent",
+      "noResults": "No results yet. Run an analysis to see results here.",
+      "summary": "{{count}} analytical results shown"
     },
     "errors": {
       "castingFailed": "Analysis failed: {{error}}",
@@ -2145,31 +2145,31 @@
     },
     "rateLimit": {
       "enhance": "Analysis uses: {{used}}/{{limit}} remaining",
-      "geomancy": "Analysis uses: {{used}}/{{limit}} remaining",
-      "consolidate": "Consolidation uses: {{used}}/{{limit}} remaining",
-      "resetTime": "Usage resets in: {{time}}",
+      "geomancy": "Analysis quota: {{used}}/{{limit}} used",
+      "consolidate": "Consolidation quota: {{used}}/{{limit}} used",
+      "resetTime": "Quota resets in: {{time}}",
       "depleted": "Analysis limit reached temporarily"
     },
     "tooltip": {
       "castSpell": "Apply AI analysis (🪄)",
       "enhanceDescription": "Analyze with AI insights (Ctrl+E)",
-      "performGeomancy": "Analyze patterns (Ctrl+G)",
+      "performGeomancy": "Screen for patterns (Ctrl+G)",
       "consolidateSimilar": "Consolidate similar assays (Ctrl+C)",
       "spellHistory": "View analysis history",
       "clearHistory": "Clear analysis history"
     },
     "keyboard": {
-      "shortcuts": "🪄 Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - AI Analysis",
-      "geomancy": "Ctrl+G - Pattern Analysis",
-      "consolidate": "Ctrl+C - Assay Consolidation",
-      "cancel": "Esc - Cancel"
+      "shortcuts": "⌨️ Keyboard Shortcuts:",
+      "enhance": "Ctrl+E - Run Analysis",
+      "geomancy": "Ctrl+G - Pattern Screen",
+      "consolidate": "Ctrl+C - Consolidate Assays",
+      "cancel": "Esc - Withdraw"
     },
     "history": {
-      "timestamp": "Timestamp:",
+      "timestamp": "Logged at:",
       "spellType": "Analysis type:",
       "target": "Target assay:",
-      "result": "Result:",
+      "result": "Outcome:",
       "success": "✅ Stable",
       "failed": "❌ Adverse reaction",
       "duration": "Duration:",
@@ -2219,7 +2219,7 @@
     "perform_geomancy": {
       "name": "Molecular Docking",
       "description": "Analyze patterns and relationships for this assay",
-      "button": "Analyze Patterns",
+      "button": "Screen Patterns",
       "casting": "Analyzing patterns…"
     },
     "consolidate_similar": {
@@ -2277,7 +2277,7 @@
     "consolidateSimilar": {
       "found": "Detected {{count}} similar assays",
       "result": {
-        "consolidated": "Consolidated Description",
+        "consolidated": "Pooled Description",
         "suggestions": "Consolidation Candidates"
       }
     },
@@ -2289,16 +2289,16 @@
       "success": "Consolidation complete"
     },
     "geomancy": {
-      "title": "Pattern Analysis",
-      "button": "Analyze Patterns",
-      "description": "Identify patterns and dependencies",
-      "casting": "Running analysis…",
-      "success": "Analysis complete"
+      "title": "Molecular Pattern Screen",
+      "button": "Screen Patterns",
+      "description": "Identify patterns and molecular dependencies",
+      "casting": "Screening for patterns…",
+      "success": "Pattern screen complete"
     },
     "categories": {
-      "consolidate": "Consolidate",
-      "analyze": "Analyze",
-      "enhance": "Enhance"
+      "consolidate": "Pool Specimens",
+      "analyze": "Run Analysis",
+      "enhance": "Enhance Protocol"
     },
     "enhance": {
       "button": "Analyze Assay",
@@ -2308,8 +2308,8 @@
       "casting": "Analyzing…"
     },
     "title": "🔬 AI Tools",
-    "available": "Available diagnostics",
-    "description": "AI-powered analytics for todo management"
+    "available": "Available analytical tools",
+    "description": "AI-powered diagnostics for assay management"
   },
   "onboarding": {
     "colors": {
@@ -2599,7 +2599,7 @@
     "cardActions": {
       "complete": "Validate",
       "edit": "Amend Protocol",
-      "remove": "Remove from Queue"
+      "remove": "Discharge from Queue"
     },
     "incoming": {
       "title": "Intake Specimens",
@@ -2622,9 +2622,9 @@
     }
   },
   "umlData": {
-    "title": "Code Visualizations",
-    "description": "Manage UML data files for 3D code visualization in SwarmDesk",
-    "upload": "Upload Map",
+    "title": "Code Structure Maps",
+    "description": "Manage UML data files for 3D code visualization in the lab environment",
+    "upload": "Upload Structure Map",
     "errors": {
       "loadFailed": "Failed to retrieve UML datasets",
       "uploadFailed": "Failed to upload UML file",
@@ -2668,26 +2668,26 @@
       "delete": "Archive"
     },
     "empty": {
-      "action": "Generate First Map",
+      "action": "Generate First Structure Map",
       "title": "No code maps on record",
-      "message": "Generate a code map to visualize study architecture."
+      "message": "Generate a structure map to visualize study architecture."
     },
     "empty.hint": "Upload a UML file to visualize your code in 3D",
     "compareVersions": "Cross-Reference Versions",
-    "download": "Download",
+    "download": "Download Map",
     "generateFromRepo": "Generate from Repository",
-    "confirmRestore": "Restore this version?",
+    "confirmRestore": "Restore this revision?",
     "filters": {
       "all": "All Maps",
       "recent": "Recent",
       "language": "By Language"
     },
-    "noVersions": "No versions on record",
+    "noVersions": "No revisions on record",
     "success": {
-      "generated": "Code map generated",
+      "generated": "Structure map generated",
       "deleted": "Map archived",
-      "uploaded": "Map recorded to archive",
-      "restored": "Version restored"
+      "uploaded": "Map registered to archive",
+      "restored": "Revision restored"
     },
     "metadata": {
       "size": "Size",
@@ -2697,10 +2697,10 @@
       "edges": "Edges",
       "language": "Language"
     },
-    "versions": "Versions",
-    "depth": "Analysis Depth",
-    "restore": "Restore Version",
-    "generate": "Generate Map",
+    "versions": "Revisions",
+    "depth": "Scan Depth",
+    "restore": "Restore Revision",
+    "generate": "Generate Structure Map",
     "error": {
       "upload": "Upload failed: {{error}}",
       "generate": "Generation failed: {{error}}",
@@ -2709,24 +2709,24 @@
     "confirmDelete": "Archive this code map?",
     "branch": "Branch",
     "diff": "Diff View",
-    "uploading": "Uploading…",
-    "generating": "Generating…",
+    "uploading": "Uploading map…",
+    "generating": "Generating map…",
     "repoUrl": "Repository URL",
     "loading": "Retrieving code maps…",
-    "timeline": "Version Timeline",
-    "previousVersion": "Previous",
-    "currentVersion": "Current",
-    "version": "Version",
-    "noData": "No code maps on record. Generate your first map."
+    "timeline": "Revision Timeline",
+    "previousVersion": "Prior Revision",
+    "currentVersion": "Active Revision",
+    "version": "Revision",
+    "noData": "No structure maps on record. Generate your first map."
   },
   "warRoom": {
     "backgroundImage": {
-      "title": "Map Background",
-      "description": "Set a custom background image for your War Room map",
-      "presets": "Presets",
+      "title": "Lab Map Background",
+      "description": "Set a custom background image for your Incident Command map",
+      "presets": "Standard Presets",
       "uploads": "Your Uploads",
-      "upload": "Upload",
-      "noUploads": "No custom backgrounds yet",
+      "upload": "Upload Image",
+      "noUploads": "No custom backgrounds on record",
       "opacity": "Opacity",
       "fitMode": "Fit Mode",
       "fitCover": "Cover",
@@ -2734,17 +2734,17 @@
       "fitStretch": "Stretch",
       "fitTile": "Tile",
       "blendWithTerrain": "Blend with Terrain",
-      "remove": "Remove Background",
+      "remove": "Clear Background",
       "active": "Active",
       "uploadError": "Upload failed. Please try again.",
       "fileTooLarge": "Image must be under 5MB",
       "invalidType": "Only JPEG, PNG, and WebP images are supported"
     },
     "incident": {
-      "assign": "Assign",
+      "assign": "Assign Responder",
       "priority": "Severity",
       "resolve": "Resolve Incident",
-      "escalate": "Escalate",
+      "escalate": "Escalate to Senior",
       "create": "Log Incident",
       "status": "Status"
     },
@@ -2757,7 +2757,7 @@
     "filters": {
       "resolved": "Resolved",
       "all": "All Incidents",
-      "active": "Active"
+      "active": "Active Incidents"
     },
     "refresh": "Rescan",
     "title": "🚨 Incident Command",
@@ -2766,10 +2766,10 @@
   "insights": {
     "loading": "Analyzing…",
     "tabs": {
-      "overview": "Overview",
-      "analytics": "Analytics",
+      "overview": "Clinical Overview",
+      "analytics": "Analytics Suite",
       "systemLogs": "Diagnostic Logs",
-      "performance": "Performance"
+      "performance": "Performance Metrics"
     }
   },
   "themeName": "biomedical",
@@ -2830,13 +2830,13 @@
     "createNew": "Initiate New Trial"
   },
   "errors": {
-    "generic": "Systemic biohazard detected in the workflow.",
-    "network": "Telemetry connection to life support severed.",
-    "notFound": "Specimen not found in the morgue or active wards.",
-    "unauthorized": "HIPAA Violation: Unauthorized access to medical records.",
-    "serverError": "Critical failure in hospital mainframe systems.",
-    "server": "System pathology detected! Internal diagnostics have been alerted.",
-    "timeout": "Protocol timeout. The laboratory network failed to respond in time."
+    "generic": "An unexpected error occurred.",
+    "network": "Network connection error.",
+    "notFound": "Requested resource not found.",
+    "unauthorized": "Access denied. Please authenticate.",
+    "serverError": "Internal server error.",
+    "server": "Server error. Our team has been notified.",
+    "timeout": "Request timed out. Please retry."
   },
   "success": {
     "status": {
@@ -3033,12 +3033,12 @@
   "todoDetail": {
     "untitled": "Untitled Assay",
     "tabs": {
-      "overview": "Overview",
-      "history": "History",
+      "overview": "Assay Overview",
+      "history": "Assay History",
       "spells": "Analyses",
       "related": "Related Assays",
-      "sessions": "Sessions",
-      "coordinates": "Coordinates"
+      "sessions": "Linked Sessions",
+      "coordinates": "Spatial Coordinates"
     },
     "spells": {
       "empty": "No analyses performed on this assay yet.",
@@ -3146,7 +3146,7 @@
       "runNow": "Process Markers",
       "running": "Standardizing Samples...",
       "lastRun": "Last pathology sweep",
-      "scanned": "Scanned",
+      "scanned": "Specimens Scanned",
       "modified": "Normalized"
     }
   },
@@ -3294,7 +3294,7 @@
       "limit": "Dose",
       "run": "Assay",
       "method": "assay",
-      "noResults": "No results.",
+      "noResults": "No specimens found.",
       "queryRequired": "Enter a probe to run.",
       "callFailed": "Assay failed",
       "sectionLessons": "Specimens",
@@ -3384,7 +3384,7 @@
     },
     "buttons": {
       "add": "Add",
-      "addChain": "Add Chain",
+      "addChain": "Add Assay Chain",
       "removeChain": "Remove chain",
       "create": "Initiate Trial",
       "creating": "Initiating…",
