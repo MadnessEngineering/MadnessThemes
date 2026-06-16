@@ -2345,7 +2345,7 @@
         "title": "Add Assay to Study",
         "description": "Now let's add an assay to your study. These are the experimental tasks you need to validate.",
         "guideTitle": "How to create an assay:",
-        "step1": "Click the floating '+' button again",
+        "step1": "Click the floating '+' button to open the registration form",
         "step2": "Select the 'Assay' tab in the dialog",
         "step3": "Enter your assay description",
         "step4": "Select your study from the dropdown",
@@ -2623,20 +2623,20 @@
   },
   "umlData": {
     "title": "Code Visualizations",
-    "description": "Manage UML data files for 3D code city visualization in SwarmDesk",
+    "description": "Manage UML data files for 3D code visualization in SwarmDesk",
     "upload": "Upload Map",
     "errors": {
-      "loadFailed": "Failed to load UML datasets",
+      "loadFailed": "Failed to retrieve UML datasets",
       "uploadFailed": "Failed to upload UML file",
-      "deleteFailed": "Failed to delete UML data"
+      "deleteFailed": "Failed to archive UML data"
     },
     "delete": {
-      "confirmTitle": "Delete Code Map",
-      "confirmMessage": "Delete this code map? This cannot be undone.",
-      "success": "Code map deleted"
+      "confirmTitle": "Archive Code Map",
+      "confirmMessage": "Archive this code map? This cannot be undone.",
+      "success": "Code map archived"
     },
     "viewSwarmDesk": {
-      "redirect": "Opening in SwarmDesk..."
+      "redirect": "Opening in SwarmDesk…"
     },
     "source": {
       "personal": "Personal",
@@ -2653,27 +2653,27 @@
       "limit": "10 files per user (10MB each)"
     },
     "table": {
-      "name": "Project Name",
-      "linkedProject": "Linked Project",
+      "name": "Study Name",
+      "linkedProject": "Linked Study",
       "version": "Version",
       "lastUpdated": "Last Updated",
       "source": "Source",
       "classes": "Classes",
       "packages": "Packages",
-      "created": "Created",
+      "created": "Registered",
       "actions": "Actions"
     },
     "actions": {
       "view": "View in SwarmDesk",
-      "delete": "Delete"
+      "delete": "Archive"
     },
     "empty": {
       "action": "Generate First Map",
       "title": "No code maps on record",
-      "message": "Generate a code map to visualize project architecture."
+      "message": "Generate a code map to visualize study architecture."
     },
-    "empty.hint": "Upload a UML file to see your code in 3D",
-    "compareVersions": "Compare Versions",
+    "empty.hint": "Upload a UML file to visualize your code in 3D",
+    "compareVersions": "Cross-Reference Versions",
     "download": "Download",
     "generateFromRepo": "Generate from Repository",
     "confirmRestore": "Restore this version?",
@@ -2685,8 +2685,8 @@
     "noVersions": "No versions on record",
     "success": {
       "generated": "Code map generated",
-      "deleted": "Map decommissioned",
-      "uploaded": "Map uploaded to archive",
+      "deleted": "Map archived",
+      "uploaded": "Map recorded to archive",
       "restored": "Version restored"
     },
     "metadata": {
@@ -2706,13 +2706,13 @@
       "generate": "Generation failed: {{error}}",
       "load": "Query failed: {{error}}"
     },
-    "confirmDelete": "Delete this code map?",
+    "confirmDelete": "Archive this code map?",
     "branch": "Branch",
     "diff": "Diff View",
     "uploading": "Uploading…",
     "generating": "Generating…",
     "repoUrl": "Repository URL",
-    "loading": "Querying code maps…",
+    "loading": "Retrieving code maps…",
     "timeline": "Version Timeline",
     "previousVersion": "Previous",
     "currentVersion": "Current",
@@ -2743,32 +2743,32 @@
     "incident": {
       "assign": "Assign",
       "priority": "Severity",
-      "resolve": "Complete Incident",
+      "resolve": "Resolve Incident",
       "escalate": "Escalate",
-      "create": "Open Incident",
+      "create": "Log Incident",
       "status": "Status"
     },
     "error": "Incident query failed: {{error}}",
     "empty": {
       "message": "No active incidents. All systems nominal.",
       "title": "All clear",
-      "action": "Open Incident"
+      "action": "Log Incident"
     },
     "filters": {
-      "resolved": "Completed",
+      "resolved": "Resolved",
       "all": "All Incidents",
       "active": "Active"
     },
-    "refresh": "Refresh",
+    "refresh": "Rescan",
     "title": "🚨 Incident Command",
-    "loading": "Querying incident data…"
+    "loading": "Retrieving incident data…"
   },
   "insights": {
-    "loading": "Loading insights...",
+    "loading": "Analyzing…",
     "tabs": {
       "overview": "Overview",
       "analytics": "Analytics",
-      "systemLogs": "System Logs",
+      "systemLogs": "Diagnostic Logs",
       "performance": "Performance"
     }
   },
@@ -3031,37 +3031,37 @@
     }
   },
   "todoDetail": {
-    "untitled": "Untitled Todo",
+    "untitled": "Untitled Assay",
     "tabs": {
       "overview": "Overview",
       "history": "History",
-      "spells": "Spells",
-      "related": "Related",
+      "spells": "Analyses",
+      "related": "Related Assays",
       "sessions": "Sessions",
       "coordinates": "Coordinates"
     },
     "spells": {
-      "empty": "No spells have been cast on this todo yet.",
-      "hint": "Use the AI chat to enhance descriptions or perform analysis.",
-      "undo": "Undo spell"
+      "empty": "No analyses performed on this assay yet.",
+      "hint": "Use the Lab Assistant to enhance descriptions or run analysis.",
+      "undo": "Reverse analysis"
     },
     "related": {
-      "empty": "No related todos found in this project.",
-      "count": "{{count}} related todos"
+      "empty": "No related assays found in this study.",
+      "count": "{{count}} related assays"
     },
     "sessions": {
-      "empty": "No sessions linked to this todo.",
-      "hint": "Link sessions via the AI chat.",
+      "empty": "No sessions linked to this assay.",
+      "hint": "Link sessions via the Lab Assistant.",
       "count": "{{count}} linked sessions"
     },
     "coordinates": {
-      "empty": "No coordinates assigned to this todo.",
-      "hint": "Cast a geomancy spell to assign spatial coordinates."
+      "empty": "No coordinates assigned to this assay.",
+      "hint": "Run pattern analysis to assign spatial coordinates."
     },
     "fields": {
       "status": "Status",
       "priority": "Priority",
-      "project": "Project"
+      "project": "Study"
     }
   },
   "chatAudit": {
@@ -3099,8 +3099,8 @@
     "emptyHint": "Design your first automated protocol to enhance research efficiency.",
     "loading": "Analyzing protocols...",
     "loadError": "Failed to retrieve automated protocols",
-    "runNow": "Run Now",
-    "edit": "Edit Protocol",
+    "runNow": "Execute Now",
+    "edit": "Amend Protocol",
     "delete": "Archive Protocol",
     "recentExecutions": "Recent Assay Results",
     "noLogs": "No execution data found",
@@ -3113,8 +3113,8 @@
     "conditions": "Variable Thresholds",
     "conditionsOptional": "Optional Variables",
     "action": "Resulting Assay",
-    "cancel": "Cancel",
-    "saveChanges": "Save Findings",
+    "cancel": "Withdraw",
+    "saveChanges": "Record Findings",
     "inscribe": "Validate Protocol",
     "formulaWhen": "UPON",
     "formulaIf": "CONTINGENT",
@@ -3147,7 +3147,7 @@
       "running": "Standardizing Samples...",
       "lastRun": "Last pathology sweep",
       "scanned": "Scanned",
-      "modified": "Modified"
+      "modified": "Normalized"
     }
   },
   "constellation": {
@@ -3254,7 +3254,7 @@
   "pwa": {
     "installTitle": "Initialize Local Deployment",
     "installDescription": "Install Inventorium to your workstation for optimized diagnostic access",
-    "installButton": "Install",
+    "installButton": "Deploy",
     "installDismiss": "Defer",
     "installBenefit": "Maintains stability offline, rapid load protocols",
     "installPrompt": "Install for the most precise clinical experience"
@@ -3364,55 +3364,55 @@
   "questTab": {
     "title": "Design a New Trial",
     "subtitle": "Cluster related assays into an ordered trial with measurable endpoints.",
-    "success": "Quest \"{{name}}\" created ({{chains}} chains, {{todos}} todos)",
-    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} todo(s) linked.",
+    "success": "Trial \"{{name}}\" registered ({{chains}} chains, {{todos}} assays)",
+    "chainsHint": "Optional. {{chains}} chain(s), {{todos}} assay(s) linked.",
     "sections": {
-      "criteria": "Success Criteria",
-      "chains": "Todo Chains",
-      "created": "Recently Created Quests"
+      "criteria": "Success Endpoints",
+      "chains": "Assay Chains",
+      "created": "Recently Registered Trials"
     },
     "fields": {
-      "name": "Quest Name *",
-      "project": "Project",
-      "description": "Description / Goal",
-      "tagsInput": "Tags (comma-separated)",
-      "quickTags": "Quick Tags:",
-      "addCriterion": "Add a success criterion",
+      "name": "Trial Name *",
+      "project": "Study",
+      "description": "Description / Objective",
+      "tagsInput": "Markers (comma-separated)",
+      "quickTags": "Quick Markers:",
+      "addCriterion": "Add a success endpoint",
       "chainLabel": "Chain Label",
-      "chainTodos": "Todos in chain ({{count}})",
-      "loadQuest": "Select study for amendment…"
+      "chainTodos": "Assays in chain ({{count}})",
+      "loadQuest": "Select trial for amendment…"
     },
     "buttons": {
       "add": "Add",
       "addChain": "Add Chain",
       "removeChain": "Remove chain",
       "create": "Initiate Trial",
-      "creating": "Initiating...",
+      "creating": "Initiating…",
       "copyId": "Copy ID",
       "cancelEdit": "New Trial",
-      "updating": "Recalibrating...",
+      "updating": "Recalibrating…",
       "update": "Execute Amendment",
-      "refreshTags": "Recalibrate Tag Array"
+      "refreshTags": "Rescan Marker Array"
     },
     "errors": {
-      "nameRequired": "Quest name is required.",
-      "projectRequired": "Project is required."
+      "nameRequired": "Trial name is required.",
+      "projectRequired": "Study is required."
     },
     "editTitle": "Amend Trial Protocol",
-    "updated": "Trial \"{{name}}\" updated ({{chains}} phases, {{todos}} endpoints)",
+    "updated": "Trial \"{{name}}\" amended ({{chains}} phases, {{todos}} endpoints)",
     "status": {
       "active": "Active",
-      "completed": "Completed",
+      "completed": "Validated",
       "pending": "Pending"
     },
     "filters": {
       "all": "All",
       "active": "Active",
-      "completed": "Completed"
+      "completed": "Validated"
     },
     "empty": {
-      "title": "No active quests",
-      "action": "Create Quest"
+      "title": "No active trials",
+      "action": "Register Trial"
     }
   },
   "questCard": {
@@ -3438,17 +3438,17 @@
     "hideCompleted": "Hide completed trials",
     "copyId": "Copy Trial ID",
     "copiedId": "Copied!",
-    "edit": "Edit Trial",
-    "delete": "Delete Trial",
-    "deleteFailed": "Delete failed",
-    "save": "Save",
-    "saveFailed": "Save failed",
-    "cancel": "Cancel",
+    "edit": "Amend Trial",
+    "delete": "Archive Trial",
+    "deleteFailed": "Archive failed",
+    "save": "Record",
+    "saveFailed": "Record failed",
+    "cancel": "Withdraw",
     "namePlaceholder": "Trial name",
     "nameRequired": "Trial name is required",
     "descPlaceholder": "Trial description",
-    "project": "Project",
-    "projectRequired": "Project is required",
+    "project": "Study",
+    "projectRequired": "Study is required",
     "filterActive": "Trial filter:",
     "emptyFilter": "No trials match the current filter",
     "emptyQuestFilter": "No todos found in this trial"
