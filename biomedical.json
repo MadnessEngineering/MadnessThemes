@@ -1133,20 +1133,20 @@
       "provider": "Provider",
       "temperature": "Temperature",
       "apiKey": "API Key",
-      "testConnection": "Test Connection",
+      "testConnection": "Run Connectivity Test",
       "description": "Configure AI diagnostic provider",
       "model": "Model",
-      "label": "AI Integration",
+      "label": "AI Diagnostics",
       "maxTokens": "Max Tokens",
       "failed": "Connection failed",
       "connected": "Connection verified",
-      "testing": "Testing…"
+      "testing": "Analyzing…"
     },
     "security": {
       "changePassword": "Change Credentials",
       "loginHistory": "Access Log",
-      "revokeAll": "Revoke All Sessions",
-      "sessions": "Active Sessions",
+      "revokeAll": "Terminate All Sessions",
+      "sessions": "Active Lab Sessions",
       "twoFactor": "Two-Factor Auth"
     },
     "language": {
@@ -1160,30 +1160,30 @@
       "comfortable": "Comfortable",
       "compact": "Compact",
       "fontSize": "Font Size",
-      "animations": "UI Animations"
+      "animations": "Interface Animations"
     },
     "autoSave": {
       "description": "Automatically record configuration changes",
       "label": "Auto-record changes"
     },
     "advanced": {
-      "label": "Advanced",
-      "resetSettings": "Reset to Defaults",
+      "label": "Advanced Parameters",
+      "resetSettings": "Reset to Baseline",
       "importData": "Import Records",
       "debugMode": "Debug Mode",
       "exportData": "Export Records",
       "experimentalFeatures": "Experimental Protocols",
       "dangerZone": "Restricted Zone",
-      "clearCache": "Purge Cache",
-      "description": "Advanced configuration parameters"
+      "clearCache": "Flush Cache",
+      "description": "Advanced lab configuration parameters"
     },
     "privacy": {
-      "shareAnalytics": "Share usage telemetry",
+      "shareAnalytics": "Share diagnostic telemetry",
       "crashReports": "Submit incident reports",
       "label": "Access Control",
-      "description": "Manage data access settings"
+      "description": "Manage lab data access permissions"
     },
-    "reset": "Reset to Defaults",
+    "reset": "Reset to Baseline",
     "cancel": "Withdraw",
     "notifications": {
       "inApp": "In-Console Alerts",
@@ -1422,9 +1422,9 @@
       "filterHighPriority": "Show me high priority assays in this study"
     },
     "suggestedActions": {
-      "listPending": "List Pending",
-      "newHighPrio": "New High Prio",
-      "summarize": "Summarize"
+      "listPending": "Screen Pending",
+      "newHighPrio": "Register Acute Assay",
+      "summarize": "Generate Summary"
     },
     "status": {
       "typing": "Assistant is typing",
@@ -1517,7 +1517,7 @@
       "projectStatus": "Study Status",
       "help": "Help",
       "prioritize": "Triage",
-      "summarize": "Summarize"
+      "summarize": "Generate Summary"
     },
     "actionMessages": {
       "createTodo": "Help me register a new assay",
@@ -1576,9 +1576,9 @@
     "ui": {
       "loading": {
         "entering": "🎮 Entering Clinical Environment...",
-        "initializing": "⚙️ Initializing SwarmDesk...",
-        "ready": "✅ System Ready",
-        "connecting": "🔗 Connecting to Services...",
+        "initializing": "⚙️ Initializing Lab Environment...",
+        "ready": "✅ Lab Systems Ready",
+        "connecting": "🔗 Connecting to Lab Services...",
         "loadingProjects": "📊 Loading Study Data...",
         "title": "🎪 Cultivating SwarmDesk Clinical Environment...",
         "subtitle": "Preparing the Biomedical Protocols!"
@@ -1590,10 +1590,10 @@
         "escape": "🚪 ESC: Return to Lab Bench | M: Menu"
       },
       "status": {
-        "connected": "🌐 Network: CONNECTED",
-        "offline": "⚠️ Network: OFFLINE - Local Mode",
-        "syncing": "🔄 Syncing Data...",
-        "ready": "✅ SwarmDesk: READY"
+        "connected": "🌐 Lab Network: CONNECTED",
+        "offline": "⚠️ Lab Network: OFFLINE - Local Mode",
+        "syncing": "🔄 Syncing Lab Data...",
+        "ready": "✅ Lab Environment: READY"
       },
       "error": {
         "title": "❌ SwarmDesk Protocol Failure",
@@ -1972,17 +1972,17 @@
       "syncing": "Syncing…"
     },
     "actions": {
-      "create": "🆕 Create New",
-      "view": "👁️ View Details",
-      "edit": "✏️ Edit Item",
-      "delete": "🗑️ Archive Item",
-      "refresh": "🔄 Refresh Data",
+      "create": "🆕 Register New",
+      "view": "👁️ Open Record",
+      "edit": "✏️ Amend Protocol",
+      "delete": "🗑️ Archive Record",
+      "refresh": "🔄 Rescan Data",
       "connect": "🔗 Connect Service",
-      "deploy": "🚀 Deploy Strategic Initiative",
-      "monitor": "📊 Monitor Performance Metrics",
-      "optimize": "⚡ Optimize Resource Allocation",
-      "analyze": "📈 Generate Strategic Analysis",
-      "configure": "⚙️ Configure System Parameters"
+      "deploy": "🚀 Deploy Protocol",
+      "monitor": "📊 Monitor Diagnostic Metrics",
+      "optimize": "⚡ Optimize Specimen Allocation",
+      "analyze": "📈 Run Analysis",
+      "configure": "⚙️ Configure Lab Parameters"
     },
     "notifications": {
       "todoCompleted": "Todo resolved",
