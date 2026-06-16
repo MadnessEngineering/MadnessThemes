@@ -2199,34 +2199,34 @@
       "castFailed": "Adverse reaction detected.",
       "showing": "Monitoring",
       "totalCasts": "Total Interventions",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle analysis history"
     },
     "status": {
       "idle": "Analysis tools ready",
-      "casting": "Applying analysis...",
-      "processing": "Processing data...",
-      "complete": "Analysis completed",
+      "casting": "Applying analysis…",
+      "processing": "Processing data…",
+      "complete": "Analysis complete",
       "failed": "Analysis failed",
-      "cooldown": "System cooling down...",
-      "success": "Success"
+      "cooldown": "System equilibrating…",
+      "success": "Protocol complete"
     },
     "enhance_description": {
       "name": "Clinical Interpretation",
-      "description": "Use AI to enhance and clarify this task description",
-      "button": "Enhance Description",
-      "casting": "Enhancing description..."
+      "description": "Use AI to enhance and clarify this assay description",
+      "button": "Analyze Description",
+      "casting": "Analyzing description…"
     },
     "perform_geomancy": {
       "name": "Molecular Docking",
-      "description": "Analyze patterns and relationships for this task",
+      "description": "Analyze patterns and relationships for this assay",
       "button": "Analyze Patterns",
-      "casting": "Analyzing patterns..."
+      "casting": "Analyzing patterns…"
     },
     "consolidate_similar": {
       "name": "Serum Pooling",
-      "description": "Find and merge similar tasks to reduce duplication",
-      "button": "Find Similar",
-      "casting": "Searching for similar tasks..."
+      "description": "Identify and consolidate similar assays to reduce duplication",
+      "button": "Screen Similar",
+      "casting": "Screening for similar assays…"
     },
     "suggest_tags": {
       "name": "Marker Identification"
