@@ -1954,11 +1954,11 @@
       "basicSceneFailed": "❌ Failed to initialize basic Three.js clinical scene:"
     },
     "status": {
-      "initializing": "⚙️ Initializing System...",
-      "loading": "📊 Loading Configuration...",
-      "ready": "✅ System Ready",
-      "error": "❌ System Error",
-      "offline": "⚠️ Offline Mode - Limited Features",
+      "initializing": "⚙️ Initializing Lab Systems...",
+      "loading": "📊 Loading Lab Configuration...",
+      "ready": "✅ Lab Systems Ready",
+      "error": "❌ Lab System Error",
+      "offline": "⚠️ Offline Mode - Limited Lab Features",
       "initialized": "✅ SwarmDesk clinical tab initialized successfully",
       "scriptsLoaded": "✅ SwarmDesk clinical scripts loaded successfully",
       "scriptsTimeout": "⚠️ SwarmDesk clinical scripts loading timeout",
@@ -2006,28 +2006,28 @@
       "loading": "Analyzing…"
     },
     "tour": {
-      "panels": "Use panels to query todos and run diagnostics",
-      "welcome": "Welcome to SwarmDesk  Center",
-      "interaction": "Click nodes to manage todos",
+      "panels": "Use stations to screen assays and run diagnostics",
+      "welcome": "Welcome to the Lab Environment",
+      "interaction": "Click nodes to manage assay records",
       "navigation": "WASD to navigate, mouse to look",
-      "complete": "center ready"
+      "complete": "Lab environment ready"
     },
     "agentPanel": {
       "status": {
         "offline": "Offline",
-        "idle": "Idle",
+        "idle": "On Standby",
         "active": "Active"
       },
-      "title": "Agent Status",
-      "loading": "Querying agents…",
+      "title": "Research Agent Status",
+      "loading": "Scanning agents…",
       "empty": "No agents registered."
     },
     "projectPanel": {
-      "select": "Select Project",
-      "title": "Active Projects",
-      "empty": "No projects provisioned.",
-      "loading": "Querying projects…",
-      "create": "Create Project",
+      "select": "Select Study",
+      "title": "Active Studies",
+      "empty": "No studies registered.",
+      "loading": "Scanning studies…",
+      "create": "Register Study",
       "selected": "Active: {{name}}"
     },
     "hotkeys": {
