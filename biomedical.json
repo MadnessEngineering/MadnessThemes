@@ -1985,11 +1985,11 @@
       "configure": "⚙️ Configure Lab Parameters"
     },
     "notifications": {
-      "todoCompleted": "Todo resolved",
-      "projectCreated": "Project provisioned",
-      "todoCreated": "Todo opened",
-      "syncComplete": "Datastore synced",
-      "todoDeleted": "Todo decommissioned"
+      "todoCompleted": "Assay validated",
+      "projectCreated": "Study registered",
+      "todoCreated": "Assay registered",
+      "syncComplete": "Biorepository synced",
+      "todoDeleted": "Assay archived"
     },
     "controls": {
       "reset": "Reset View",
@@ -2000,10 +2000,10 @@
       "move": "Move"
     },
     "chatPanel": {
-      "send": "Send",
-      "title": "AIs",
+      "send": "Submit",
+      "title": "Lab AIs",
       "placeholder": "Query…",
-      "loading": "Loading…"
+      "loading": "Analyzing…"
     },
     "tour": {
       "panels": "Use panels to query todos and run diagnostics",
