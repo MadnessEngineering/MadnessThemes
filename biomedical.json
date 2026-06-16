@@ -2841,41 +2841,41 @@
   "success": {
     "status": {
       "verifying": {
-        "title": "VERIFYING...",
-        "subtitle": "Verifying payment with Stripe"
+        "title": "VERIFYING…",
+        "subtitle": "Confirming payment with Stripe"
       },
       "success": {
-        "title": "UPGRADE COMPLETE",
-        "subtitle": "All systems nominal. Your account has been upgraded."
+        "title": "CLEARANCE GRANTED",
+        "subtitle": "All systems nominal. Account clearance level upgraded."
       },
       "error": {
         "title": "VERIFICATION FAILED",
         "subtitle": "The verification process encountered an error."
       },
       "no_session": {
-        "title": "MISSING SESSION",
+        "title": "SESSION NOT FOUND",
         "subtitle": "No checkout session detected. Did you navigate here directly?"
       }
     },
     "log": {
-      "initializing": "Initializing payment verification...",
-      "connecting": "Connecting to Stripe...",
+      "initializing": "Initializing payment verification…",
+      "connecting": "Connecting to Stripe…",
       "session": "Session:",
       "conduitStable": "Payment confirmed: STABLE",
-      "tierUpgrade": "Tier upgrade:",
-      "unlocking": "Unlocking upgraded features...",
-      "allSystemsGo": "STATUS: ALL SYSTEMS GO",
+      "tierUpgrade": "Clearance upgrade:",
+      "unlocking": "Activating upgraded clearance…",
+      "allSystemsGo": "STATUS: ALL SYSTEMS NOMINAL",
       "paymentStatus": "Payment status:",
       "paymentIncomplete": "WARNING: Payment incomplete",
       "error": "ERROR:",
       "verificationFailed": "Verification failed",
       "containment": "Error protocols engaged"
     },
-    "tier": "TIER",
+    "tier": "CLEARANCE",
     "operator": "ACCOUNT",
-    "enterLab": "GO TO DASHBOARD",
+    "enterLab": "ENTER LAB",
     "viewManifest": "VIEW BILLING",
-    "errorRetry": "If your payment was processed, your upgrade will activate shortly.",
+    "errorRetry": "If your payment was processed, your clearance upgrade will activate shortly.",
     "checkBilling": "Check billing for current status."
   },
   "confirmations": {
@@ -2893,7 +2893,7 @@
     "user": "Attending Physician",
     "ai": "Diagnostic AI",
     "system": "Hospital Mainframe",
-    "none": "Unassigned"
+    "none": "No Assignment"
   },
   "accountPanel": {
     "title": "Patient Registry",
