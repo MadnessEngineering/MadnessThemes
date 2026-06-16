@@ -601,7 +601,7 @@
       "created": "Registered",
       "todos": "Open Assays",
       "lessons": "Lab Note Entries",
-      "noRepository": "No repository linked",
+      "noRepository": "No repository assigned",
       "completedTodos": "Validated Assays",
       "updated": "Last Amended"
     },
@@ -1966,10 +1966,10 @@
       "panelSystemExists": "🏷️ Diagnostic panel system already exists, ensuring proper state",
       "panelSystemMissing": "⚠️ Diagnostic panel system missing handleKeyboard, reinitializing...",
       "panelSystemCreated": "✅ Diagnostic panel system created successfully",
-      "disconnected": "Datastore disconnected",
-      "connected": "Connected to datastore",
-      "synced": "Synced",
-      "syncing": "Syncing…"
+      "disconnected": "Biorepository disconnected",
+      "connected": "Connected to biorepository",
+      "synced": "Synchronized",
+      "syncing": "Synchronizing…"
     },
     "actions": {
       "create": "🆕 Register New",
@@ -2081,7 +2081,7 @@
   "spells": {
     "names": {
       "enhance_description": "AI Assay Analysis",
-      "perform_geomancy": "Pattern Analysis",
+      "perform_geomancy": "Molecular Pattern Screen",
       "consolidate_similar": "Assay Consolidation"
     },
     "descriptions": {
@@ -2116,18 +2116,18 @@
         "suggestions": "Clinical recommendations:"
       },
       "geomancy": {
-        "success": "🔍 Patterns identified in your study!",
-        "insights": "Analysis findings:",
-        "patterns": "Pattern analysis:",
+        "success": "🔍 Patterns identified in study data!",
+        "insights": "Key findings:",
+        "patterns": "Molecular patterns:",
         "recommendations": "Clinical recommendations:",
         "analysis": "Analysis complete"
       },
       "consolidate": {
         "success": "🔗 Similar assays consolidated successfully!",
-        "merged": "{{count}} assays merged successfully",
-        "candidates": "Consolidation candidates:",
-        "preview": "Merge preview:",
-        "confirmation": "Proceed with consolidation?"
+        "merged": "{{count}} assays pooled successfully",
+        "candidates": "Specimen pool candidates:",
+        "preview": "Pool preview:",
+        "confirmation": "Proceed with specimen pooling?"
       },
       "title": "Analytical Results",
       "latest": "Most Recent",
@@ -2240,7 +2240,7 @@
     },
     "noTodoSelected": "No assay selected",
     "availableSpells": "Available Analyses",
-    "keyboardShortcut": "Keyboard Shortcut",
+    "keyboardShortcut": "Protocol Shortcut",
     "estimatedTime": "Estimated Duration",
     "tip": {
       "castMultiple": "Multiple analyses can be applied to the same assay for combined diagnostic insights"
@@ -2269,9 +2269,9 @@
         "relatedProjects": "Related Studies"
       },
       "insights": {
-        "complexity": "Complexity",
-        "duration": "Estimated Duration",
-        "risks": "Risk Factors"
+        "complexity": "Specimen Complexity",
+        "duration": "Estimated Incubation",
+        "risks": "Adverse Risk Factors"
       }
     },
     "consolidateSimilar": {
@@ -2282,11 +2282,11 @@
       }
     },
     "consolidate": {
-      "description": "Identify and consolidate duplicate assays",
+      "description": "Identify and pool duplicate assays",
       "casting": "Screening for duplicates…",
-      "title": "Consolidate Assays",
+      "title": "Pool Duplicate Assays",
       "button": "Screen Duplicates",
-      "success": "Consolidation complete"
+      "success": "Specimen pooling complete"
     },
     "geomancy": {
       "title": "Molecular Pattern Screen",
