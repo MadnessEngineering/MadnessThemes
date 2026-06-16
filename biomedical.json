@@ -1012,8 +1012,8 @@
       "copyIdPrefixExample": "Example: 'run get_todo on ' will sequence as 'run get_todo on abc123...'"
     },
     "tabs": {
-      "profile": "Profile",
-      "data": "Database",
+      "profile": "Researcher Profile",
+      "data": "Biorepository",
       "aiConfiguration": "AI Configuration",
       "mcpSetup": "MCP Setup",
       "apiKeys": "API Keys",
@@ -1028,10 +1028,10 @@
       "swarmDesk": "SwarmDesk",
       "support": "Consultation",
       "keyboardShortcuts": "Shortcuts",
-      "security": "Security",
+      "security": "Security Protocols",
       "notifications": "Alerts",
       "general": "General",
-      "ai": "AI"
+      "ai": "AI Diagnostics"
     },
     "swarmdesk": {
       "movementTitle": "Movement Speed Controls",
@@ -1060,9 +1060,9 @@
       "displayLabelHelper": "Human-readable designation shown in interface",
       "emoji": "Marker",
       "emojiHelper": "Single emoji marker for visual identification",
-      "coreRole": "Core Role",
+      "coreRole": "Primary Role",
       "hidden": "Suppressed",
-      "showRole": "Show role",
+      "showRole": "Activate role",
       "hideRole": "Suppress role",
       "saveChanges": "Record Changes",
       "cancel": "Withdraw",
@@ -1089,16 +1089,16 @@
       "duplicateAgentId": "A clinical specimen with this ID is already logged."
     },
     "theme": {
-      "title": "Interface Theme",
+      "title": "Display Theme",
       "colorTheme": "Color Scheme",
-      "textTheme": "Text Style",
+      "textTheme": "Lab Display Style",
       "description": "Configure laboratory display parameters",
-      "label": "Interface Theme"
+      "label": "Lab Interface Theme"
     },
     "account": {
-      "title": "Account",
+      "title": "Researcher Account",
       "profile": "Profile Configuration",
-      "preferences": "Preferences"
+      "preferences": "Lab Preferences"
     },
     "data": {
       "autoBackup": "Auto-snapshot",
