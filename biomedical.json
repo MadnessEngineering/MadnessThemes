@@ -2517,9 +2517,9 @@
       "flags": {
         "basic_todos": "Basic Assays",
         "chat_interface": "Lab Chat Interface",
-        "theme_selector": "Theme Selector",
-        "export_todos": "Export Assay Data",
-        "advanced_search": "Advanced Specimen Search",
+        "theme_selector": "Interface Theme",
+        "export_todos": "Export Assay Records",
+        "advanced_search": "Advanced Specimen Screening",
         "unlimited_todos": "Unlimited Assays",
         "mindmap_view": "Cellular Map View",
         "custom_themes": "Custom Lab Themes",
@@ -2543,24 +2543,24 @@
     },
     "users": {
       "title": "Personnel Management",
-      "loading": "Cataloging lab personnel...",
-      "refresh": "Refresh personnel list",
+      "loading": "Cataloging lab personnel…",
+      "refresh": "Rescan personnel list",
       "fallback": "(showing mock personnel data for development)",
-      "searchPlaceholder": "Search by email or researcher name...",
-      "showing": "Showing",
+      "searchPlaceholder": "Screen by email or researcher name…",
+      "showing": "Displaying",
       "users": "personnel",
       "filtered": "filtered from",
       "empty": "No personnel registered yet",
-      "noResults": "No personnel found matching your search",
+      "noResults": "No personnel found matching your screen criteria",
       "adminBadge": "DIRECTOR",
       "edit": {
-        "title": "Edit Personnel Record",
+        "title": "Amend Personnel Record",
         "email": "Email",
         "tier": "Classification",
         "isAdmin": "Grant Lab Director Access",
-        "cancel": "Cancel",
-        "save": "Save",
-        "saving": "Saving..."
+        "cancel": "Withdraw",
+        "save": "Record",
+        "saving": "Recording…"
       },
       "columns": {
         "email": "Email",
@@ -2574,17 +2574,17 @@
         "title": "Confirm Director Access Change",
         "grantMessage": "You are about to grant lab director privileges to this researcher. This will give them full access to the director panel, including personnel management, protocol flags, and diagnostic logs.",
         "revokeMessage": "You are about to revoke lab director privileges from this researcher. They will lose access to all director functionality.",
-        "cancel": "Cancel",
-        "confirm": "Yes, Confirm",
-        "saving": "Saving..."
+        "cancel": "Withdraw",
+        "confirm": "Confirm",
+        "saving": "Processing…"
       }
     },
     "common": {
-      "loading": "Processing...",
+      "loading": "Analyzing…",
       "error": "Diagnostic error detected",
-      "refresh": "Refresh",
-      "save": "Save",
-      "cancel": "Cancel"
+      "refresh": "Rescan",
+      "save": "Record",
+      "cancel": "Withdraw"
     }
   },
   "queuePane": {
@@ -2598,7 +2598,7 @@
     "allProjects": "All Studies",
     "cardActions": {
       "complete": "Validate",
-      "edit": "Modify",
+      "edit": "Amend Protocol",
       "remove": "Remove from Queue"
     },
     "incoming": {
