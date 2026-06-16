@@ -619,7 +619,7 @@
       "default": "Default"
     },
     "sections": {
-      "metadata": "Metadata (Optional)"
+      "metadata": "Optional Metadata"
     }
   },
   "todoList": {
