@@ -388,12 +388,75 @@ Copy this block to start a new theme card:
 
 ---
 
+### biomedical  🧬  *(written)*
+
+- **Persona** — a clinical lab director running a biomedical research facility. Precise,
+  protocol-driven, dispassionate. Every action is a documented step in a study protocol. No flair —
+  accuracy is the virtue. Speaks in procedures, assays, and validation reports.
+- **Setting** — a biomedical research lab and clinical trial facility. Todos are *assays* (discrete
+  test/procedure units), lessons are *lab notes*, quests are *trials*, projects are *studies* with
+  *protocols*, UI panels and forms are *stations*, and the data layer is the *database /
+  biorepository*.
+
+- **Lexicon** — pinned canonical terms. **Keep** wins where the file drifts.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | save | **Record** | record the result/finding into the database |
+  | save (in-progress) | **Recording…** | active mid-write |
+  | cancel / discard | **Withdraw** | withdraw from the protocol / abort the entry |
+  | delete | **Archive** | specimens don't disappear — they go to biorepository; archived status = **Archived** |
+  | loading | **Analyzing…** | reuse verbatim for every fetch/loading state |
+  | create | **Register** | register a new assay / specimen / study |
+  | edit | **Amend Protocol** (tools/forms/panels) · **Amend Assay** (a todo) | split by object |
+  | refresh | **Rescan** | rescan current data state |
+  | search | **Screen** | clinical screening pass |
+  | export | **Export Records** | export data records / dataset |
+  | complete (a todo) | **Validate** | completed status = **Validated** |
+  | close (a panel) | **Clear Station** | clear the station / instrument |
+  | review | **Assess** | review queue = assessment queue |
+  | AI insights | **Run Analysis** | analytical/diagnostic AI calls only |
+  | open externally | **Open Record** | jump to external record/endpoint |
+
+  **Noun-map (the important part):**
+  - **Station** = a panel, instrument, or form you operate.
+  - **Assay** = a work item (a todo) — registered, amended, validated.
+  - **Protocol / Queue** = ordered/pending work (the study protocol / assay queue).
+  - **Link / Record** = navigation and external connections.
+  - **Database / Biorepository** = the data layer — recorded to, archived from, analyzed; *archived*
+    is the retirement/disposal state (clinical data is never truly destroyed, only archived).
+
+- **Tone dial** — *low.* Clinical precision over flair. Flavor on labels, tab names, empty states;
+  **off** on `validation.*`, error bodies, and destructive confirms — failed saves and delete
+  warnings must be unambiguous and plain. Title Case for buttons/labels, sentence case for body.
+  Never use jargon that obscures the control's meaning to a newcomer.
+
+- **Do / Don't**
+  - **Do** keep "Analyzing…" as the single loading term everywhere.
+  - **Do** treat a todo as an **assay** consistently — registered, amended, validated.
+  - **Don't** add clinical jargon that would confuse a newcomer about what a control does.
+  - **Don't** put clinical flavor on a validation message or destructive confirm.
+
+- **Sample transforms** (standard → biomedical)
+  - `Save` → **Record**
+  - `Cancel` → **Withdraw**
+  - `Delete` → **Archive**
+  - `Loading...` → **Analyzing…**
+  - `No todos yet` → **No assays registered. Initialize a protocol to begin.**
+
+- **Drift already in file — keep these:** `tabs.todos = "Assays"` ✓, `tabs.quest = "Trials"` ✓,
+  `dashboard.priorityBreakdown.blocked = "Contraindicated"` ✓, `.completed = "Validated"` ✓,
+  `.inProgress = "In Trial"` ✓, `common.delete = "Archive"` ✓. Resync `common.save`,
+  `common.loading`, `common.cancel`, `common.close`, `common.search`, `common.export`,
+  `common.refresh` to canonical terms above.
+
+---
+
 ### Stubs — fill in their own sessions
 
 Do **not** fabricate voices not yet designed. One line each; promote to a full card when that
 theme's rewrite phase runs.
 
-- **biomedical** 🧬 — clinical lab / medical-research register; precise, sterile.
 - **corporate-clean** 🏢 — minimal, neutral-professional; flavor near zero by design.
 - **corporate-drone** 📊 — satirical corporate jargon; synergy/leverage/circle-back.
 - **cyan-lab** 🧪 — bright neon lab tech; energetic, modern.
@@ -401,7 +464,7 @@ theme's rewrite phase runs.
 - **gunmetal** 🔩 — terse industrial/military; clipped, functional.
 - **standard** — the neutral baseline. By definition no flavor; the worklist source for every other theme.
 
-*(labops 🔬, templar-light ⚔️, dwarf ⛏️, and banana 🍌 are now full cards above.)*
+*(labops 🔬, templar-light ⚔️, dwarf ⛏️, banana 🍌, and biomedical 🧬 are now full cards above.)*
 
 ---
 
