@@ -1101,12 +1101,12 @@
       "preferences": "Lab Preferences"
     },
     "data": {
-      "autoBackup": "Auto-snapshot",
-      "importFile": "Import Data File",
-      "exportAll": "Export Full Snapshot",
-      "backupFrequency": "Snapshot Frequency",
-      "clearAllData": "Purge All Data",
-      "confirmClear": "Purge all data? This cannot be undone."
+      "autoBackup": "Auto-Replicate Records",
+      "importFile": "Import Specimen Data",
+      "exportAll": "Export Full Biorepository",
+      "backupFrequency": "Replication Frequency",
+      "clearAllData": "Purge All Records",
+      "confirmClear": "Purge all records? This cannot be undone."
     },
     "about": {
       "build": "Build",
@@ -1118,16 +1118,16 @@
       "featureRequest": "Submit Equipment Request"
     },
     "sections": {
-      "ai": "AI Integration",
+      "ai": "AI Diagnostics",
       "security": "Security Protocol",
       "privacy": "Access Control",
-      "about": "System Info",
+      "about": "System Vitals",
       "account": "Researcher Profile",
       "notifications": "Alert Configuration",
-      "advanced": "Advanced",
+      "advanced": "Advanced Parameters",
       "appearance": "Display Configuration",
       "data": "Data Management",
-      "integrations": "Integrations"
+      "integrations": "Lab Integrations"
     },
     "ai": {
       "provider": "Provider",
