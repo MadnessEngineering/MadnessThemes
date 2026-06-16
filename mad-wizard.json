@@ -3452,5 +3452,13 @@
     "filterActive": "Experiment filter:",
     "emptyFilter": "No experiments match the current filter",
     "emptyQuestFilter": "No todos found in this experiment"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Arcane Forge",
+      "codeLab": "Astral Lab",
+      "dualCity": "Twin Realms",
+      "reviewQueue": "Rune Review"
+    }
   }
 }

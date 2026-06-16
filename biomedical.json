@@ -3452,5 +3452,13 @@
     "filterActive": "Trial filter:",
     "emptyFilter": "No trials match the current filter",
     "emptyQuestFilter": "No todos found in this trial"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Lab Bench",
+      "codeLab": "Code Lab",
+      "dualCity": "Dual Study",
+      "reviewQueue": "Peer Review"
+    }
   }
 }

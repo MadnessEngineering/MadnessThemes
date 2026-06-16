@@ -3432,5 +3432,13 @@
     "filterActive": "questCard.filterActive",
     "emptyFilter": "questCard.emptyFilter",
     "emptyQuestFilter": "questCard.emptyQuestFilter"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "projectCodeLab.actions.workshop",
+      "codeLab": "projectCodeLab.actions.codeLab",
+      "dualCity": "projectCodeLab.actions.dualCity",
+      "reviewQueue": "projectCodeLab.actions.reviewQueue"
+    }
   }
 }

@@ -3453,5 +3453,13 @@
     "filterActive": "Crusade filter:",
     "emptyFilter": "No crusades match the current filter",
     "emptyQuestFilter": "No todos found in this crusade"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Sanctum",
+      "codeLab": "Vault",
+      "dualCity": "Twin Keeps",
+      "reviewQueue": "Inquest"
+    }
   }
 }

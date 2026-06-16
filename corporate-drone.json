@@ -3452,5 +3452,13 @@
     "filterActive": "Initiative filter:",
     "emptyFilter": "No initiatives match the current filter",
     "emptyQuestFilter": "No todos found in this initiative"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Resource Hub",
+      "codeLab": "Architecture",
+      "dualCity": "Comparison",
+      "reviewQueue": "Approvals"
+    }
   }
 }

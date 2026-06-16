@@ -3452,5 +3452,13 @@
     "filterActive": "Quest filter:",
     "emptyFilter": "No quests match the current filter",
     "emptyQuestFilter": "No todos found in this quest"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Workshop",
+      "codeLab": "3D Code Lab",
+      "dualCity": "Dual City",
+      "reviewQueue": "Review Queue"
+    }
   }
 }

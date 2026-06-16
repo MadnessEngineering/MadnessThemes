@@ -3452,5 +3452,13 @@
     "filterActive": "Expedition filter:",
     "emptyFilter": "No expeditions match the current filter",
     "emptyQuestFilter": "No todos found in this expedition"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Dev Node",
+      "codeLab": "Code Matrix",
+      "dualCity": "Dual Grid",
+      "reviewQueue": "Queue Review"
+    }
   }
 }

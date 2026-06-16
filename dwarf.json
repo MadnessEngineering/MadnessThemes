@@ -3452,5 +3452,13 @@
     "filterActive": "Saga filter:",
     "emptyFilter": "No sagas match the current filter",
     "emptyQuestFilter": "No todos found in this saga"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Smithy",
+      "codeLab": "Deep Forge",
+      "dualCity": "Twin Holds",
+      "reviewQueue": "Inspection"
+    }
   }
 }

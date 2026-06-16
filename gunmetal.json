@@ -3452,5 +3452,13 @@
     "filterActive": "Campaign filter:",
     "emptyFilter": "No campaigns match the current filter",
     "emptyQuestFilter": "No todos found in this campaign"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Armory",
+      "codeLab": "Recon Lab",
+      "dualCity": "Dual Theater",
+      "reviewQueue": "Debrief"
+    }
   }
 }

@@ -3452,5 +3452,13 @@
     "filterActive": "Study filter:",
     "emptyFilter": "No studies match the current filter",
     "emptyQuestFilter": "No todos found in this study"
+  },
+  "projectCodeLab": {
+    "actions": {
+      "workshop": "Ops Bench",
+      "codeLab": "Code Console",
+      "dualCity": "Dual Console",
+      "reviewQueue": "Triage Queue"
+    }
   }
 }
