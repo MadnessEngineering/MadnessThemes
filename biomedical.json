@@ -1609,7 +1609,7 @@
         "title": "🎮 Welcome to SwarmDesk",
         "subtitle": "Interactive Research Management Interface",
         "description": "Welcome to the SwarmDesk environment! This is an interactive 3D interface for managing your studies and assays. Use the navigation controls to move around and interact with the various elements.",
-        "gettingStarted": "Getting Started:",
+        "gettingStarted": "Orientation Protocol:",
         "quickActions": [
           "📝 View and manage your study assays",
           "🎯 Create new assays and set priorities",
@@ -1631,11 +1631,11 @@
         }
       },
       "shortcuts": {
-        "title": "⌨️ Keyboard Shortcuts",
-        "subtitle": "Quick Controls Reference",
+        "title": "⌨️ Lab Keyboard Shortcuts",
+        "subtitle": "Protocol Controls Reference",
         "categories": {
           "navigation": {
-            "title": "🧭 Navigation",
+            "title": "🧭 Lab Navigation",
             "commands": [
               "WASD: Move camera around the environment",
               "Mouse Drag: Look around and rotate view",
@@ -1644,7 +1644,7 @@
             ]
           },
           "panels": {
-            "title": "📊 Panel Controls",
+            "title": "📊 Station Controls",
             "commands": [
               "F4: Open Assay Management Panel",
               "F5: Open Activity Log Panel",
@@ -1869,11 +1869,11 @@
           "resetDefaults": "🔄 Reset to Clinical Defaults"
         }
       },
-      "settings": "Config",
-      "chat": "AIs",
-      "insights": "Analytics",
-      "projects": "Projects",
-      "todos": "Todo Queue"
+      "settings": "Lab Config",
+      "chat": "Lab AIs",
+      "insights": "Diagnostics",
+      "projects": "Studies",
+      "todos": "Assay Queue"
     },
     "projectData": {
       "title": "📂 Study Information",
