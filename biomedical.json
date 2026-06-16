@@ -2232,41 +2232,41 @@
       "name": "Marker Identification"
     },
     "system": {
-      "title": "Spell System"
+      "title": "Analytical Tools"
     },
     "accessDenied": {
-      "title": "Access Denied",
-      "description": "You do not have permission to cast spells. Please log in or upgrade your account."
+      "title": "Access Restricted",
+      "description": "Insufficient clearance for diagnostic analysis. Please authenticate or upgrade your account."
     },
-    "noTodoSelected": "No todo selected",
-    "availableSpells": "Available Spells",
+    "noTodoSelected": "No assay selected",
+    "availableSpells": "Available Analyses",
     "keyboardShortcut": "Keyboard Shortcut",
-    "estimatedTime": "Estimated Time",
+    "estimatedTime": "Estimated Duration",
     "tip": {
-      "castMultiple": "You can cast multiple spells on the same task for combined insights"
+      "castMultiple": "Multiple analyses can be applied to the same assay for combined diagnostic insights"
     },
     "meta": {
-      "maxPerHour": "Max casts per hour",
-      "lastCast": "Last cast"
+      "maxPerHour": "Max analyses per hour",
+      "lastCast": "Last analysis"
     },
     "result": {
-      "confidence": "Confidence"
+      "confidence": "P-Value"
     },
     "error": {
       "unknown": "An unknown error occurred"
     },
     "enhanceDescription": {
       "result": {
-        "title": "Enhanced Description",
-        "before": "Before",
-        "after": "After",
-        "improvements": "Improvements"
+        "title": "Analyzed Description",
+        "before": "Pre-Analysis",
+        "after": "Post-Analysis",
+        "improvements": "Enhancements"
       }
     },
     "performGeomancy": {
       "result": {
-        "insights": "Insights",
-        "relatedProjects": "Related Projects"
+        "insights": "Findings",
+        "relatedProjects": "Related Studies"
       },
       "insights": {
         "complexity": "Complexity",
@@ -2275,17 +2275,17 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": "Detected {{count}} similar assays",
       "result": {
         "consolidated": "Consolidated Description",
-        "suggestions": "Merge Suggestions"
+        "suggestions": "Consolidation Candidates"
       }
     },
     "consolidate": {
-      "description": "Identify and merge duplicate todos",
-      "casting": "Scanning for duplicates…",
-      "title": "Consolidate Todos",
-      "button": "Find Duplicates",
+      "description": "Identify and consolidate duplicate assays",
+      "casting": "Screening for duplicates…",
+      "title": "Consolidate Assays",
+      "button": "Screen Duplicates",
       "success": "Consolidation complete"
     },
     "geomancy": {
@@ -2301,11 +2301,11 @@
       "enhance": "Enhance"
     },
     "enhance": {
-      "button": "Enhance Todo",
-      "description": "Use AI to improve todo description",
-      "success": "Todo enhanced",
-      "title": "Enhance Todo",
-      "casting": "Enhancing…"
+      "button": "Analyze Assay",
+      "description": "Use AI to improve assay description",
+      "success": "Assay analyzed",
+      "title": "Analyze Assay",
+      "casting": "Analyzing…"
     },
     "title": "🔬 AI Tools",
     "available": "Available diagnostics",
@@ -2454,9 +2454,9 @@
     },
     "analytics": {
       "title": "Clinical Analytics Suite",
-      "loading": "Loading diagnostic protocols...",
+      "loading": "Retrieving diagnostic records…",
       "comingSoon": "Analytics Lab Under Calibration",
-      "description": "Advanced clinical charts and diagnostic visualization instruments are currently being calibrated. Check back soon for powerful insights into personnel activity, system performance, and laboratory productivity metrics.",
+      "description": "Advanced clinical charts and diagnostic visualization instruments are currently being calibrated. Check back soon for insights into personnel activity, system performance, and laboratory productivity metrics.",
       "timeframe": {
         "day": "Last 24 Hours",
         "week": "Last 7 Days",
@@ -2472,18 +2472,18 @@
         "featureUsage": "Instrument Usage Distribution",
         "featureUsageDesc": "Which lab instruments are most utilized?",
         "performance": "System Diagnostic Metrics",
-        "performanceDesc": "API response times and error rates"
+        "performanceDesc": "API response latency and error rates"
       }
     },
     "logs": {
       "title": "Diagnostic Logs",
-      "loading": "Analyzing lab recordings...",
-      "refresh": "Refresh logs",
+      "loading": "Retrieving lab recordings…",
+      "refresh": "Rescan logs",
       "fallback": "(showing mock diagnostic data for development)",
-      "autoRefresh": "Auto-refresh (30s)",
-      "showing": "Showing",
+      "autoRefresh": "Auto-scan (30s)",
+      "showing": "Displaying",
       "entries": "entries",
-      "empty": "No anomalies detected - lab running within parameters!",
+      "empty": "No anomalies detected — lab running within parameters.",
       "columns": {
         "timestamp": "Timestamp",
         "level": "Severity",
@@ -2499,14 +2499,14 @@
     },
     "featureFlags": {
       "title": "Protocol Flags",
-      "loading": "Loading experimental protocols...",
-      "refresh": "Refresh protocols",
+      "loading": "Retrieving experimental protocols…",
+      "refresh": "Rescan protocols",
       "fallback": "(showing mock protocol data for development)",
       "lastUpdated": "Last reviewed",
       "unsavedChanges": "You have unsaved protocol changes. These will affect all personnel when applied!",
       "save": "Apply Protocol Changes",
-      "cancel": "Cancel",
-      "saving": "Applying...",
+      "cancel": "Withdraw",
+      "saving": "Applying…",
       "confirmSave": "Yes, Apply Protocol Changes",
       "tiers": {
         "free": "Intern Tier",
