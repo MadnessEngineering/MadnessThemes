@@ -1047,25 +1047,25 @@
       "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
     },
     "messaging": {
-      "title": "Message Roles Configuration",
-      "subtitle": "Configure which roles are allowed in chat messages. Core roles can be hidden but not deleted (they remain valid for backend validation).",
-      "allowedRoles": "Allowed Roles",
-      "addRole": "Add Role",
-      "editRole": "Edit Message Role",
-      "infoMessage": "These roles will be available when creating chat messages. Each role can have a custom emoji for visual identification. Core roles can be hidden but not deleted (they remain valid for backend validation).",
+      "title": "Communication Protocol Configuration",
+      "subtitle": "Configure which roles are permitted in lab communications. Core roles may be suppressed but not removed.",
+      "allowedRoles": "Permitted Roles",
+      "addRole": "Register Role",
+      "editRole": "Amend Protocol Role",
+      "infoMessage": "These roles are available when creating lab communications. Each role may have a designation marker. Core roles may be suppressed but not removed.",
       "roleId": "Role ID",
       "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
       "roleIdDisabled": "Role ID cannot be changed",
       "displayLabel": "Display Label",
-      "displayLabelHelper": "Human-readable name shown in UI",
-      "emoji": "Emoji",
-      "emojiHelper": "Single emoji character for visual identification",
+      "displayLabelHelper": "Human-readable designation shown in interface",
+      "emoji": "Marker",
+      "emojiHelper": "Single emoji marker for visual identification",
       "coreRole": "Core Role",
-      "hidden": "Hidden",
+      "hidden": "Suppressed",
       "showRole": "Show role",
-      "hideRole": "Hide role",
-      "saveChanges": "Save Changes",
-      "cancel": "Cancel",
+      "hideRole": "Suppress role",
+      "saveChanges": "Record Changes",
+      "cancel": "Withdraw",
       "npcConfig": "SwarmDesk NPC Configuration",
       "npcEnabled": "Spawn as SwarmDesk NPC",
       "npcCount": "NPC Count",
@@ -1089,15 +1089,15 @@
       "duplicateAgentId": "A clinical specimen with this ID is already logged."
     },
     "theme": {
-      "title": "Theme",
-      "colorTheme": "Color Theme",
+      "title": "Interface Theme",
+      "colorTheme": "Color Scheme",
       "textTheme": "Text Style",
-      "description": "Customize your laboratory appearance",
+      "description": "Configure laboratory display parameters",
       "label": "Interface Theme"
     },
     "account": {
       "title": "Account",
-      "profile": "Profile Settings",
+      "profile": "Profile Configuration",
       "preferences": "Preferences"
     },
     "data": {
@@ -1110,22 +1110,22 @@
     },
     "about": {
       "build": "Build",
-      "reportBug": "Report Incident",
+      "reportBug": "Report Anomaly",
       "version": "Version",
       "license": "License",
-      "documentation": "Lessons",
-      "changelog": "Release Notes",
-      "featureRequest": "Request Feature"
+      "documentation": "Lab Notes",
+      "changelog": "Release Record",
+      "featureRequest": "Submit Equipment Request"
     },
     "sections": {
       "ai": "AI Integration",
-      "security": "Security Config",
+      "security": "Security Protocol",
       "privacy": "Access Control",
       "about": "System Info",
-      "account": "User Profile",
-      "notifications": "Alert Config",
+      "account": "Researcher Profile",
+      "notifications": "Alert Configuration",
       "advanced": "Advanced",
-      "appearance": "Display Config",
+      "appearance": "Display Configuration",
       "data": "Data Management",
       "integrations": "Integrations"
     },
@@ -1143,8 +1143,8 @@
       "testing": "Testing…"
     },
     "security": {
-      "changePassword": "Change Password",
-      "loginHistory": "Login Log",
+      "changePassword": "Change Credentials",
+      "loginHistory": "Access Log",
       "revokeAll": "Revoke All Sessions",
       "sessions": "Active Sessions",
       "twoFactor": "Two-Factor Auth"
@@ -1163,28 +1163,28 @@
       "animations": "UI Animations"
     },
     "autoSave": {
-      "description": "Automatically commit configuration changes",
-      "label": "Auto-commit changes"
+      "description": "Automatically record configuration changes",
+      "label": "Auto-record changes"
     },
     "advanced": {
       "label": "Advanced",
       "resetSettings": "Reset to Defaults",
-      "importData": "Import Data",
+      "importData": "Import Records",
       "debugMode": "Debug Mode",
-      "exportData": "Export",
-      "experimentalFeatures": "Experimental Features",
+      "exportData": "Export Records",
+      "experimentalFeatures": "Experimental Protocols",
       "dangerZone": "Restricted Zone",
       "clearCache": "Purge Cache",
       "description": "Advanced configuration parameters"
     },
     "privacy": {
       "shareAnalytics": "Share usage telemetry",
-      "crashReports": "Submit crash reports",
+      "crashReports": "Submit incident reports",
       "label": "Access Control",
       "description": "Manage data access settings"
     },
     "reset": "Reset to Defaults",
-    "cancel": "Cancel",
+    "cancel": "Withdraw",
     "notifications": {
       "inApp": "In-Console Alerts",
       "email": "Email Alerts",
@@ -1192,9 +1192,9 @@
       "push": "Push Alerts",
       "label": "Alert Notifications"
     },
-    "save": "Save Config",
-    "error": "Configuration commit failed",
-    "saved": "Configuration committed"
+    "save": "Record Config",
+    "error": "Configuration record failed",
+    "saved": "Configuration recorded"
   },
   "auth": {
     "app": {
