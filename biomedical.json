@@ -1201,54 +1201,54 @@
       "title": "Lab Workspace"
     },
     "welcome": {
-      "message": "Welcome to your Lab Workspace!"
+      "message": "Welcome to your Lab Workspace. Authentication required."
     },
     "buttons": {
-      "demoLogin": "Login as Demo User",
+      "demoLogin": "Login as Demo Researcher",
       "googleLogin": "Continue with Google"
     },
     "status": {
-      "loggingOut": "Logging out..."
+      "loggingOut": "Terminating session…"
     },
     "errors": {
-      "demoLoginFailed": "Demo login failed",
+      "demoLoginFailed": "Demo authentication failed",
       "authRequired": "Authentication required",
       "configNotFound": "Authentication not configured",
       "tokenInvalid": "Access token has expired"
     }
   },
   "editableTodoCard": {
-    "confirmCancel": "You have unsaved changes. Are you sure you want to cancel?",
+    "confirmCancel": "Unsaved amendments pending. Withdraw changes?",
     "confirmDelete": {
-      "confirm": "Delete",
-      "cancel": "Cancel",
-      "message": "Delete this todo?",
-      "title": "Delete Todo"
+      "confirm": "Archive",
+      "cancel": "Withdraw",
+      "message": "Archive this assay?",
+      "title": "Archive Assay"
     },
     "sections": {
-      "metadata": "Metadata (Optional)"
+      "metadata": "Optional Metadata"
     },
     "errors": {
-      "descriptionRequired": "Description is required for AI analysis",
-      "aiEnhancementFailed": "AI analysis failed: {{error}}",
-      "saveFailed": "Failed to save changes"
+      "descriptionRequired": "Description is required for diagnostic analysis",
+      "aiEnhancementFailed": "Diagnostic analysis failed: {{error}}",
+      "saveFailed": "Failed to record changes"
     },
     "placeholders": {
-      "description": "Enter assay description...",
-      "clickToAdd": "Click to add description...",
-      "enhancedDescription": "AI-analyzed description will appear here...",
-      "notes": "Additional notes...",
-      "ticket": "Ticket reference..."
+      "description": "Enter assay description…",
+      "clickToAdd": "Click to add description…",
+      "enhancedDescription": "AI-analyzed description will appear here…",
+      "notes": "Additional clinical notes…",
+      "ticket": "Reference ID…"
     },
     "labels": {
-      "enhancedDescription": "Enhanced Description",
+      "enhancedDescription": "Analyzed Description",
       "aiEnhanced": "🧠 AI Analyzed Description:",
       "completionNotes": "✅ Validation Notes:",
       "completed": "Validated",
       "duration": "Duration",
-      "autoEnhanceOnSave": "Auto-enhance on save",
-      "enhance": "Enhance",
-      "enhancing": "Enhancing..."
+      "autoEnhanceOnSave": "Auto-analyze on record",
+      "enhance": "Analyze",
+      "enhancing": "Analyzing…"
     },
     "priority": {
       "low": "Low",
@@ -1260,58 +1260,58 @@
       "pending": "Pending",
       "in_progress": "In Trial",
       "blocked": "Contraindicated",
-      "review": "Review",
+      "review": "Under Assessment",
       "completed": "Validated",
       "initial": "Initialized",
       "cancelled": "Terminated",
-      "inProgress": "In Progress"
+      "inProgress": "In Trial"
     },
     "menu": {
-      "editTask": "Edit Assay",
+      "editTask": "Amend Assay",
       "deleteTask": "Archive Assay"
     },
     "messages": {
-      "noEnhancedDescription": "No analyzed description yet. Click the AI button to generate one."
+      "noEnhancedDescription": "No analyzed description on record. Run analysis to generate one."
     },
     "tooltips": {
-      "enhance": "AI enhances description, suggests tags and complexity"
+      "enhance": "AI analyzes description, suggests markers and complexity"
     },
     "actions": {
-      "save": "Save",
+      "save": "Record",
       "share": "Share",
       "unpin": "Unpin",
-      "edit": "Edit Todo",
-      "view": "View Details",
+      "edit": "Amend Assay",
+      "view": "Open Record",
       "pin": "Pin",
       "unflag": "Unflag",
-      "complete": "Complete",
+      "complete": "Validate",
       "clone": "Duplicate",
-      "delete": "Delete",
+      "delete": "Archive",
       "flag": "Flag",
       "move": "Reassign",
-      "cancel": "Cancel"
+      "cancel": "Withdraw"
     },
     "fields": {
       "description": "Description",
       "status": "Status",
-      "tags": "Tags",
+      "tags": "Markers",
       "priority": "Priority",
       "notes": "Notes",
       "dueDate": "Due Date",
-      "project": "Project"
+      "project": "Study"
     },
-    "placeholder": "Todo description…",
-    "saved": "Saveted",
-    "saving": "Saveting…",
+    "placeholder": "Assay description…",
+    "saved": "Recorded",
+    "saving": "Recording…",
     "viewMode": "View Mode",
-    "editMode": "Edit Mode",
-    "error": "Save failed"
+    "editMode": "Amend Mode",
+    "error": "Record failed"
   },
   "mindMap": {
     "controls": {
       "switchToWorldMap": "Switch to Lab Overview",
-      "switchToSphere": "Switch to Sphere",
-      "chaos": "Chaos",
+      "switchToSphere": "Switch to Radial View",
+      "chaos": "Entropy Mode",
       "fullscreen": "Full Screen",
       "fit": "Fit to Window",
       "center": "Center View",
@@ -1343,34 +1343,34 @@
     "tooltips": {
       "disableStaticMode": "Disable Static Mode",
       "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Clean Up Visual Effects"
+      "cleanUpEffects": "Clear Visual Artifacts"
     },
     "sequence": {
       "hideSequence": "Hide Assay Sequence",
       "showSequence": "Show AI Assay Sequence",
-      "analyzeSequences": "Analyze Sequences",
+      "analyzeSequences": "Sequence Analysis",
       "stopAnimation": "Stop Animation",
       "animateSequence": "Animate Sequence",
-      "shuffleSequence": "Shuffle Sequence Type"
+      "shuffleSequence": "Randomize Sequence Type"
     },
     "selection": {
-      "multipleNodes": "{{count}} nodes selected (Ctrl+Click to add/remove, max 3)"
+      "multipleNodes": "{{count}} specimens selected (Ctrl+Click to add/remove, max 3)"
     },
     "nodes": {
       "centerBrain": "⚡ LAB CORE",
       "centerWorkshop": "🧠 LAB BENCH",
-      "lesson": "Lesson",
-      "tag": "Tag",
-      "todo": "Todo",
-      "project": "Project"
+      "lesson": "Lab Note",
+      "tag": "Marker",
+      "todo": "Assay",
+      "project": "Study"
     },
     "modes": {
       "dynamic": "⚡ Dynamic Mode",
       "static": "📖 Static Mode"
     },
     "dialog": {
-      "createNode": "🧠 Create Node",
-      "nodeText": "Node Text"
+      "createNode": "🧠 Register Node",
+      "nodeText": "Node Label"
     },
     "nodeInfo": {
       "type": "Type",
@@ -1382,32 +1382,32 @@
       "svg": "Export SVG",
       "png": "Export PNG"
     },
-    "loading": "Querying topology…",
+    "loading": "Mapping neural topology…",
     "filters": {
       "all": "All Nodes",
-      "todos": "Todos Only",
-      "tags": "Tags Only",
-      "projects": "Projects Only"
+      "todos": "Assays Only",
+      "tags": "Markers Only",
+      "projects": "Studies Only"
     },
-    "disconnectNodes": "Unlink Nodes",
+    "disconnectNodes": "Sever Linkage",
     "layout": {
       "radial": "Radial Layout",
       "force": "Force Layout",
-      "tree": "Tree Layout",
+      "tree": "Hierarchical Layout",
       "grid": "Grid Layout"
     },
-    "error": "Mind Map query failed: {{error}}",
-    "connectNodes": "Link Nodes",
-    "addNode": "Add Node",
+    "error": "Neural map query failed: {{error}}",
+    "connectNodes": "Establish Linkage",
+    "addNode": "Insert Node",
     "deleteNode": "Remove Node",
     "empty": {
-      "action": "Open First Todo",
-      "message": "Add todos and projects to map the system topology.",
-      "title": "Mind Map empty"
+      "action": "Register First Assay",
+      "message": "Register assays and studies to map the network topology.",
+      "title": "Neural map empty"
     },
-    "editNode": "Edit Node",
-    "refresh": "Refresh Mind Map",
-    "title": "🗺️ Project Mind Map"
+    "editNode": "Amend Node",
+    "refresh": "Rescan Neural Map",
+    "title": "🗺️ Neural Pathway Map"
   },
   "chatAssistant": {
     "errors": {
@@ -1443,49 +1443,49 @@
     },
     "notConfigured": {
       "title": "AI Assistant Not Configured",
-      "description": "To use the AI assistant, please configure your AI provider in the Settings.",
+      "description": "To use the AI assistant, configure your AI provider in Lab Configuration.",
       "configureButton": "Configure AI Provider"
     },
     "header": {
       "title": "Lab Assistant",
-      "refreshTooltip": "Refresh context",
-      "settingsTooltip": "Settings"
+      "refreshTooltip": "Rescan context",
+      "settingsTooltip": "Configuration"
     },
     "menu": {
-      "refreshContext": "Refresh Context",
-      "aiSettings": "AI Settings (Go to Settings)",
-      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+      "refreshContext": "Rescan Context",
+      "aiSettings": "AI Configuration (Go to Settings)",
+      "aiSettingsRedirect": "AI configuration has been moved to Lab Configuration → AI Configuration"
     },
     "input": {
-      "placeholder": "Ask your lab assistant...",
-      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account!"
+      "placeholder": "Query your lab assistant…",
+      "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account."
     },
     "title": "Lab Assistant",
-    "placeholder": "Ask your lab assistant...",
-    "send": "Send",
-    "thinking": "Processing...",
+    "placeholder": "Query your lab assistant…",
+    "send": "Submit",
+    "thinking": "Analyzing…",
     "suggestions": {
-      "searchLessons": "Search research notes",
-      "listTodos": "List active tasks",
-      "createProject": "Create new project",
-      "summarize": "Generate summary",
-      "insights": "Run project diagnostics",
-      "blocked": "What is blocked?",
-      "critical": "Show critical todos",
-      "listAll": "List all open todos"
+      "searchLessons": "Screen research notes",
+      "listTodos": "List active assays",
+      "createProject": "Register new study",
+      "summarize": "Generate protocol summary",
+      "insights": "Run diagnostic analysis",
+      "blocked": "What is contraindicated?",
+      "critical": "Show critical assays",
+      "listAll": "List all open assays"
     },
     "history": "Session History",
-    "ai": "AIs",
+    "ai": "Lab AI",
     "tools": {
-      "createTodo": "Open Todo",
-      "analyzeTodos": "AI Insights",
-      "listTodos": "List Todos",
-      "searchTodos": "Query Todos"
+      "createTodo": "Register Assay",
+      "analyzeTodos": "Run Analysis",
+      "listTodos": "List Assays",
+      "searchTodos": "Screen Assays"
     },
     "empty": {
-      "title": "Chat ready",
-      "message": "Enter a query or request an analysis.",
-      "suggestion": "Try: 'What todos are blocked?'"
+      "title": "Assistant ready",
+      "message": "Submit a query or request a diagnostic analysis.",
+      "suggestion": "Try: 'What assays are contraindicated?'"
     },
     "error": {
       "send": "Transmission failed: {{error}}",
@@ -1501,63 +1501,63 @@
       "copy": "Copy",
       "delete": "Remove"
     },
-    "typing": "Processing…",
-    "you": "User",
+    "typing": "Analyzing…",
+    "you": "Researcher",
     "newConversation": "New Session",
     "confirmClear": "Purge all session history?",
     "clearHistory": "Purge History",
     "sending": "Transmitting…",
-    "noHistory": "No session history",
-    "loading": "Loading…"
+    "noHistory": "No session history on record",
+    "loading": "Analyzing…"
   },
   "mobileChatInterface": {
     "quickActions": {
-      "createTodo": "Create Assay",
+      "createTodo": "Register Assay",
       "listTodos": "List Assays",
       "projectStatus": "Study Status",
       "help": "Help",
-      "prioritize": "Prioritize",
+      "prioritize": "Triage",
       "summarize": "Summarize"
     },
     "actionMessages": {
-      "createTodo": "Help me create a new assay",
+      "createTodo": "Help me register a new assay",
       "createTodoPrefill": "Assay: ",
       "listTodos": "Show me my current assays",
       "projectStatus": "Give me a status update on my studies",
-      "help": "What can you help me with?",
-      "prioritize": "What should I prioritize working on today?",
-      "summarize": "Give me a quick summary of my current project"
+      "help": "What can you assist me with?",
+      "prioritize": "What should I prioritize in today's protocol?",
+      "summarize": "Give me a summary of my current study"
     },
     "header": {
       "title": "Lab Assistant",
-      "statusListening": "Listening...",
-      "statusTyping": "Typing...",
+      "statusListening": "Recording…",
+      "statusTyping": "Processing…",
       "statusOnline": "Online"
     },
     "emptyState": {
-      "greeting": "Hi! I'm your Lab Assistant",
+      "greeting": "Lab Assistant ready",
       "description": "I can help you manage assays, navigate studies, and answer questions about your workspace."
     },
     "status": {
-      "thinking": "AI is thinking..."
+      "thinking": "Analyzing…"
     },
     "input": {
-      "placeholder": "Type a message..."
+      "placeholder": "Enter query…"
     },
     "menu": {
-      "clearChat": "Clear Patient Log"
+      "clearChat": "Clear Session Log"
     },
     "attachFile": "Attach File",
     "empty": {
-      "message": "Run a query or request an analysis.",
-      "title": "Chat ready"
+      "message": "Submit a query or request a diagnostic analysis.",
+      "title": "Assistant ready"
     },
     "historyTitle": "Session History",
     "minimize": "Minimize",
-    "loading": "Loading…",
+    "loading": "Analyzing…",
     "expand": "Expand",
-    "stopVoice": "Stop Voice",
-    "noHistory": "No session history",
+    "stopVoice": "Stop Recording",
+    "noHistory": "No session history on record",
     "newSession": "New Session",
     "error": "Transmission failed",
     "connectionStatus": {
@@ -1565,11 +1565,11 @@
       "connected": "Connected",
       "reconnecting": "Reconnecting…"
     },
-    "send": "Send",
+    "send": "Submit",
     "placeholder": "Query the assistant…",
     "clearHistory": "Purge History",
-    "title": "Lab AIs",
-    "close": "Dismiss",
+    "title": "Lab Assistant",
+    "close": "Clear Station",
     "voiceInput": "Voice Input"
   },
   "swarmDesk": {
@@ -2039,44 +2039,44 @@
       "wasd": "WASD: Navigate"
     },
     "nodes": {
-      "edit": "Edit Todo",
-      "view": "View Details",
-      "delete": "Delete",
-      "complete": "Complete",
-      "create": "Open Todo",
+      "edit": "Amend Assay",
+      "view": "Open Record",
+      "delete": "Archive",
+      "complete": "Validate",
+      "create": "Register Assay",
       "move": "Reassign"
     },
     "filters": {
-      "inProgress": "In Progress",
-      "review": "Review",
-      "all": "All Todos",
+      "inProgress": "In Trial",
+      "review": "Under Assessment",
+      "all": "All Assays",
       "pending": "Pending",
-      "blocked": "Blocked"
+      "blocked": "Contraindicated"
     },
     "sort": {
-      "created": "Date Opened",
+      "created": "Date Registered",
       "name": "Alphabetical",
-      "updated": "Recently Updated",
+      "updated": "Recently Amended",
       "priority": "Priority"
     },
     "todoPanel": {
-      "loading": "Querying todos…",
-      "empty": "Board is clear.",
-      "title": "Todo Queue"
+      "loading": "Retrieving assays…",
+      "empty": "Lab bench clear.",
+      "title": "Assay Queue"
     },
     "empty": {
-      "message": "Open a todo to populate the ops center.",
-      "title": "No nodes in view"
+      "message": "Register an assay to populate the ops center.",
+      "title": "No specimens in view"
     },
     "createTodo": {
-      "placeholder": "Todo description…",
-      "cancel": "Cancel",
-      "submit": "Open Todo",
-      "title": "Open New Todo"
+      "placeholder": "Assay description…",
+      "cancel": "Withdraw",
+      "submit": "Register Assay",
+      "title": "Register New Assay"
     },
-    "loading": "Loading…",
+    "loading": "Analyzing…",
     "error": "SwarmDesk query failed: {{error}}",
-    "title": "🎪 SwarmDesk  Center"
+    "title": "🎪 SwarmDesk Lab Center"
   },
   "spells": {
     "names": {
@@ -2103,7 +2103,7 @@
       "placeholder": "Select a tool to analyze your assays..."
     },
     "effects": {
-      "particles": "Processing indicators active",
+      "particles": "Diagnostic indicators active",
       "energy": "System processing",
       "casting": "Analysis in progress",
       "complete": "Analysis completed successfully"
@@ -2170,10 +2170,10 @@
       "spellType": "Analysis type:",
       "target": "Target assay:",
       "result": "Result:",
-      "success": "✅ Successful",
-      "failed": "❌ Failed",
+      "success": "✅ Stable",
+      "failed": "❌ Adverse reaction",
       "duration": "Duration:",
-      "empty": "No analyses recorded",
+      "empty": "No analyses on record",
       "justNow": "Immediate post-op",
       "minutesAgo": "T+{{count}} minutes",
       "hoursAgo": "T+{{count}} hours",
