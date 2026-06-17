@@ -34,7 +34,7 @@
     "removeRepository": "Decommission Repository",
     "repositorySettings": "Repository Configuration",
     "openInTerminal": "Open Terminal Session",
-    "viewOnGitHub": "View on GitHub",
+    "viewOnGitHub": "Open on GitHub",
     "historyTitle": "Chronicle",
     "noHistory": "No records",
     "resolveConflicts": "Resolve Conflicts",
@@ -57,7 +57,7 @@
       "cancel": "Withdraw"
     },
     "demoMode": {
-      "label": "DEMO MODE",
+      "label": "OBSERVATION MODE",
       "title": "Demo Lab - Read Only Access",
       "description": "📖 You're in demo mode with read-only access. Protocol creation requires full lab credentials. Sign up to access complete lab features."
     },
@@ -68,7 +68,7 @@
       },
       "description": {
         "label": "Protocol Description",
-        "placeholder": "Describe your research objectives..."
+        "placeholder": "Describe your research objectives and methodology..."
       }
     },
     "validation": {
@@ -83,9 +83,9 @@
     "quest": "Trials",
     "project": "Study Protocol",
     "mindmap": "Neural Map",
-    "swarmdesk": "3D Lab",
-    "chat": "Lab Assistant",
-    "sessions": "Lab Sessions"
+    "swarmdesk": "3D Lab View",
+    "chat": "Lab Console",
+    "sessions": "Study Sessions"
   },
   "validation": {
     "nameRequired": "Project name is required",
@@ -116,21 +116,21 @@
     "error": "Error detected",
     "success": "Protocol complete",
     "failed": "Protocol failed",
-    "perPage": "per page",
+    "perPage": "per batch",
     "refreshNow": "Rescan Data",
-    "copyId": "Copy ID",
+    "copyId": "Copy Sample ID",
     "show": "Display",
-    "copy": "Copy",
+    "copy": "Replicate",
     "refresh": "Rescan",
     "confirm": "Confirm",
-    "back": "Back",
-    "next": "Next",
-    "previous": "Previous",
+    "back": "Previous Step",
+    "next": "Next Step",
+    "previous": "Previous Step",
     "search": "Screen",
     "filter": "Screen Filter",
-    "sort": "Sort",
-    "clear": "Clear",
-    "apply": "Apply",
+    "sort": "Sort Results",
+    "clear": "Clear Fields",
+    "apply": "Apply Protocol",
     "export": "Export Records",
     "import": "Import Records",
     "viewAll": "View All Records",
@@ -464,10 +464,10 @@
     "sessionResolved": "validated this session"
   },
   "demo": {
-    "label": "DEMO - Read Only"
+    "label": "OBSERVATION - Read Only"
   },
   "menu": {
-    "documentation": "Documentation",
+    "documentation": "Protocols",
     "github": "GitHub",
     "themeGallery": "Specimen Palette",
     "logout": "Sign Out",
@@ -516,7 +516,7 @@
     "enterButton": {
       "selected": "✅ ACTIVE STUDY",
       "enter": "🔬 ENTER",
-      "helpText": "Press Enter or #{{number}}"
+      "helpText": "Enter or #{{number}} to register"
     },
     "createCta": {
       "title": "Initiate New Research Study",
@@ -532,7 +532,7 @@
       "cancel": "Withdraw",
       "deleteButton": "Archive Study"
     },
-    "viewInSwarmDesk": "View in SwarmDesk"
+    "viewInSwarmDesk": "Open in SwarmDesk"
   },
   "projectSwarmdesk": {
     "title": "🔬 {{projectName}}",
@@ -587,7 +587,7 @@
     },
     "buttons": {
       "creating": "Registering…",
-      "demoMode": "Demo Mode",
+      "demoMode": "Observation Mode",
       "createProject": "REGISTER STUDY"
     },
     "deleteDialog": {
@@ -616,7 +616,7 @@
   "todoTab": {
     "project": {
       "label": "Study",
-      "default": "Default"
+      "default": "General Lab Work"
     },
     "sections": {
       "metadata": "Optional Metadata"
@@ -634,10 +634,10 @@
       "in_progress": "In Trial"
     },
     "sort": {
-      "newest": "Newest First",
-      "oldest": "Oldest First",
-      "priority": "Priority Order",
-      "madness": "Random Order",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "priority": "Priority",
+      "madness": "Randomized",
       "alphabetical": "Alphabetical",
       "updated": "Recently Amended"
     },
@@ -657,7 +657,7 @@
     },
     "pagination": {
       "show": "Show",
-      "perPage": "per page",
+      "perPage": "per batch",
       "all": "All",
       "results": "records",
       "page": "Page {{current}} of {{total}}",
@@ -689,7 +689,7 @@
       "discard": "Withdraw",
       "complete": "Validate",
       "edit": "Amend Assay",
-      "copyId": "Copy ID",
+      "copyId": "Copy Sample ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share Sample",
       "review": "Assess",
@@ -697,7 +697,7 @@
       "openInWarp": "Initialize Warp Protocol",
       "addToQueue": "Queue Specimen",
       "topOfQueue": "Priority Specimen",
-      "clone": "Duplicate",
+      "clone": "Replicate",
       "view": "Open Record",
       "move": "Reassign",
       "delete": "Archive",
@@ -708,7 +708,7 @@
     },
     "menu": {
       "editTask": "Edit Assay",
-      "copyId": "Copy ID",
+      "copyId": "Copy Sample ID",
       "copyJiraCmd": "Copy Jira Cmd",
       "share": "Share Sample",
       "openInWarp": "Initialize Warp Protocol",
@@ -722,20 +722,20 @@
       "completeTask": "Validate Assay",
       "exportTitle": "Export Records",
       "exportDescription": "Exporting {{count}} assay records",
-      "exportFilename": "Filename",
-      "exportFilenameHelp": "The name of your export file (extension will be added automatically)",
-      "exportFormat": "Format",
+      "exportFilename": "Output Filename",
+      "exportFilenameHelp": "Export file name (extension added automatically)",
+      "exportFormat": "Output Format",
       "exportButton": "Export Records",
-      "formatJSON": "JSON - Structured Data",
+      "formatJSON": "JSON — Structured Data",
       "formatJSONDesc": "Complete assay data in JSON format for reimport",
-      "formatCSV": "CSV - Spreadsheet",
-      "formatCSVDesc": "Spreadsheet-compatible format for Excel or Google Sheets",
-      "formatMarkdown": "Markdown - Documentation",
+      "formatCSV": "CSV — Spreadsheet",
+      "formatCSVDesc": "Spreadsheet format — compatible with Excel and Google Sheets",
+      "formatMarkdown": "Markdown — Documentation",
       "formatMarkdownDesc": "Human-readable format for documentation",
-      "formatHTML": "HTML - Web Page",
-      "formatHTMLDesc": "Styled web page with embedded CSS for browser viewing",
-      "formatJira": "Jira/Slack Commands",
-      "formatJiraDesc": "Ready-to-paste Slack commands for creating Jira tickets",
+      "formatHTML": "HTML — Web Page",
+      "formatHTMLDesc": "Styled web page for browser viewing",
+      "formatJira": "Jira/Slack Output",
+      "formatJiraDesc": "Ready-to-paste Slack commands for Jira tickets",
       "formatVariant": "Format Variant",
       "variantPretty": "Pretty (Readable)",
       "variantMinified": "Minified (Compact)",
@@ -743,11 +743,11 @@
       "variantStandard": "Standard",
       "variantExcel": "Excel-Optimized",
       "variantTable": "Table View",
-      "selectFields": "Select Fields",
-      "customizeFields": "Customize Field Names",
+      "selectFields": "Select Columns",
+      "customizeFields": "Customize Column Names",
       "renameFields": "Relabel Fields",
       "calculatedFields": "Derived Fields",
-      "fieldName": "Field Name",
+      "fieldName": "Field",
       "addCalculatedField": "Add Derived Field",
       "formula": {
         "ageInDays": "Age (days)",
@@ -758,7 +758,7 @@
       },
       "selectAll": "All",
       "selectNone": "None",
-      "advancedFilters": "Advanced Filters",
+      "advancedFilters": "Screening Filters",
       "dateRange": "Date Range",
       "startDate": "From",
       "endDate": "To",
@@ -776,7 +776,7 @@
       "pending": "Pending",
       "in_progress": "In Trial",
       "completed": "Validated",
-      "initial": "Initial",
+      "initial": "Initializing",
       "blocked": "Contraindicated",
       "review": "Under Assessment",
       "inProgress": "In Trial"
@@ -791,14 +791,14 @@
       "created": "Registered",
       "updated": "Amended",
       "metadata": "Metadata",
-      "source": "Source",
-      "notes": "Notes",
-      "ticket": "Ticket",
+      "source": "Origin",
+      "notes": "Annotations",
+      "ticket": "Ticket ID",
       "completed_at": "Validated At",
       "completed_by": "Validated By",
       "completion_comment": "Validation Notes",
       "duration": "Duration",
-      "duration_sec": "Duration (seconds)",
+      "duration_sec": "Duration (s)",
       "tags": "Markers",
       "complexity": "Complexity",
       "confidence": "Confidence",
@@ -854,9 +854,9 @@
       "delete": "Archive Assay",
       "archive": "Archive",
       "sendToReview": "Send for Assessment",
-      "reopen": "Reopen",
-      "prioritize": "Prioritize",
-      "unarchive": "Restore"
+      "reopen": "Reactivate",
+      "prioritize": "Escalate Priority",
+      "unarchive": "Restore from Archive"
     },
     "timestamps": {
       "due": "Due",
@@ -874,9 +874,9 @@
       "change": "Amend Due Date"
     },
     "notes": {
-      "add": "Add Note",
+      "add": "Add Annotation",
       "edit": "Amend Note",
-      "none": "No notes on record"
+      "none": "No annotations on record"
     },
     "viewDetails": "Open Record",
     "moveDialog": {
@@ -918,7 +918,7 @@
     },
     "successMove": "Assay reassigned",
     "dragHint": "Drag to reorder triage queue",
-    "deselectAll": "Deselect All",
+    "deselectAll": "Clear Selection",
     "loadMore": "Load More Records",
     "errorDeleting": "Archive failed: {{error}}",
     "confirmDelete": {
@@ -927,9 +927,9 @@
       "message": "Archive \"{{title}}\"? This cannot be undone.",
       "confirm": "Archive"
     },
-    "dropHere": "Drop here",
+    "dropHere": "Drop to insert",
     "successComplete": "Assay validated",
-    "hideDetails": "Hide Details",
+    "hideDetails": "Collapse Details",
     "count": "{{count}} assay(s)",
     "collapseAll": "Collapse All",
     "successDelete": "Assay archived",
@@ -962,7 +962,7 @@
       "dueDate": "Due Date",
       "priority": "Priority",
       "assignee": "Assigned Researcher",
-      "notes": "Notes",
+      "notes": "Annotations",
       "description": "Assay Description",
       "tags": "Markers",
       "status": "Status",
@@ -1014,7 +1014,7 @@
     "tabs": {
       "profile": "Researcher Profile",
       "data": "Biorepository",
-      "aiConfiguration": "AI Configuration",
+      "aiConfiguration": "Analysis Config",
       "mcpSetup": "MCP Setup",
       "apiKeys": "API Keys",
       "appearance": "Display Config",
@@ -1022,29 +1022,29 @@
       "hooks": "Clinical Automations",
       "privacy": "Access Control",
       "advanced": "Advanced",
-      "messaging": "Messaging",
-      "umlData": "Code Visualizations",
+      "messaging": "Role Config",
+      "umlData": "Code Map Archive",
       "npcAgents": "Research Assistants",
       "swarmDesk": "SwarmDesk",
       "support": "Consultation",
-      "keyboardShortcuts": "Shortcuts",
+      "keyboardShortcuts": "Hotkeys",
       "security": "Security Protocols",
-      "notifications": "Alerts",
+      "notifications": "Alert Channels",
       "general": "General",
       "ai": "AI Diagnostics"
     },
     "swarmdesk": {
-      "movementTitle": "Movement Speed Controls",
-      "movementDescription": "Adjust camera movement speeds for Orbital and FPS modes in SwarmDesk 3D environment.",
-      "resetDefaults": "Reset to Defaults",
+      "movementTitle": "Camera Movement Parameters",
+      "movementDescription": "Configure camera traversal rates for Orbital and FPS modes in the SwarmDesk 3D environment.",
+      "resetDefaults": "Reset to Baseline",
       "orbitalTitle": "Orbital Mode (O key)",
-      "orbitalDescription": "Controls camera movement when using orbital (free-fly) navigation.",
-      "orbitalBaseSpeed": "Base Speed",
+      "orbitalDescription": "Camera traversal config for orbital (free-fly) navigation mode.",
+      "orbitalBaseSpeed": "Base Rate",
       "orbitalSprintMultiplier": "Sprint Multiplier (Ctrl held)",
       "fpsTitle": "FPS Mode (F key)",
-      "fpsDescription": "Controls camera movement when using first-person navigation.",
-      "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsDescription": "Camera traversal config for first-person navigation mode.",
+      "fpsBaseSpeed": "Walk Rate",
+      "fpsSprintSpeed": "Sprint Rate (Ctrl held)"
     },
     "messaging": {
       "title": "Communication Protocol Configuration",
@@ -1055,7 +1055,7 @@
       "infoMessage": "These roles are available when creating lab communications. Each role may have a designation marker. Core roles may be suppressed but not removed.",
       "roleId": "Role ID",
       "roleIdHelper": "Lowercase, alphanumeric, and hyphens only (e.g., 'gpt-4', 'custom-ai')",
-      "roleIdDisabled": "Role ID cannot be changed",
+      "roleIdDisabled": "Role ID is locked",
       "displayLabel": "Display Label",
       "displayLabelHelper": "Human-readable designation shown in interface",
       "emoji": "Marker",
@@ -1066,16 +1066,16 @@
       "hideRole": "Suppress role",
       "saveChanges": "Record Changes",
       "cancel": "Withdraw",
-      "npcConfig": "SwarmDesk NPC Configuration",
-      "npcEnabled": "Spawn as SwarmDesk NPC",
-      "npcCount": "NPC Count",
-      "npcCountHelper": "Choose how many clones of this role should appear in SwarmDesk (0-5).",
+      "npcConfig": "SwarmDesk NPC Config",
+      "npcEnabled": "Register as SwarmDesk NPC",
+      "npcCount": "Instance Count",
+      "npcCountHelper": "Number of instances of this role to register in SwarmDesk (0-5).",
       "npcColor": "NPC Color",
       "npcColorHelper": "Used for the NPC body glow and sidebar identity color.",
-      "npcRole": "NPC Role Title",
-      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to use the display label.",
+      "npcRole": "NPC Role Label",
+      "npcRoleHelper": "Shown above the NPC in SwarmDesk. Leave blank to inherit the display label.",
       "npcPersonality": "NPC Personality",
-      "npcPersonalityHelper": "Controls the default vibe and fallback dialogue for this NPC.",
+      "npcPersonalityHelper": "Sets the default behavior profile and fallback dialogue for this NPC.",
       "npcPersonalities": {
         "helpful_assistant": "Helpful Assistant",
         "chaotic_genius": "Chaotic Genius",
@@ -1138,8 +1138,8 @@
       "model": "Model",
       "label": "AI Diagnostics",
       "maxTokens": "Max Tokens",
-      "failed": "Connection failed",
-      "connected": "Connection verified",
+      "failed": "Endpoint unreachable",
+      "connected": "Endpoint verified",
       "testing": "Analyzing…"
     },
     "security": {
@@ -1151,7 +1151,7 @@
     },
     "language": {
       "label": "Language",
-      "description": "Interface language"
+      "description": "Console interface language"
     },
     "display": {
       "reducedMotion": "Reduce motion",
@@ -1188,7 +1188,7 @@
     "notifications": {
       "inApp": "In-Console Alerts",
       "email": "Email Alerts",
-      "description": "Enable system alerts",
+      "description": "Enable alert routing",
       "push": "Push Alerts",
       "label": "Alert Notifications"
     },
@@ -1205,7 +1205,7 @@
     },
     "buttons": {
       "demoLogin": "Login as Demo Researcher",
-      "googleLogin": "Continue with Google"
+      "googleLogin": "Authenticate via Google"
     },
     "status": {
       "loggingOut": "Terminating session…"
@@ -1245,7 +1245,7 @@
       "aiEnhanced": "🧠 AI Analyzed Description:",
       "completionNotes": "✅ Validation Notes:",
       "completed": "Validated",
-      "duration": "Duration",
+      "duration": "Duration (elapsed)",
       "autoEnhanceOnSave": "Auto-analyze on record",
       "enhance": "Analyze",
       "enhancing": "Analyzing…"
@@ -1278,14 +1278,14 @@
     },
     "actions": {
       "save": "Record",
-      "share": "Share",
+      "share": "Share Record",
       "unpin": "Unpin",
       "edit": "Amend Assay",
       "view": "Open Record",
       "pin": "Pin",
       "unflag": "Unflag",
       "complete": "Validate",
-      "clone": "Duplicate",
+      "clone": "Replicate",
       "delete": "Archive",
       "flag": "Flag",
       "move": "Reassign",
@@ -1296,14 +1296,14 @@
       "status": "Status",
       "tags": "Markers",
       "priority": "Priority",
-      "notes": "Notes",
+      "notes": "Annotations",
       "dueDate": "Due Date",
       "project": "Study"
     },
     "placeholder": "Assay description…",
     "saved": "Recorded",
     "saving": "Recording…",
-    "viewMode": "View Mode",
+    "viewMode": "Read Mode",
     "editMode": "Amend Mode",
     "error": "Record failed"
   },
@@ -1312,44 +1312,44 @@
       "switchToWorldMap": "Switch to Lab Overview",
       "switchToSphere": "Switch to Radial View",
       "chaos": "Entropy Mode",
-      "fullscreen": "Full Screen",
+      "fullscreen": "Fullscreen",
       "fit": "Fit to Window",
-      "center": "Center View",
+      "center": "Recenter",
       "reset": "Reset View",
       "zoomOut": "Zoom Out",
-      "exitFullscreen": "Exit Full Screen",
+      "exitFullscreen": "Exit Fullscreen",
       "zoomIn": "Zoom In"
     },
     "info": {
-      "nodeCount": "{{count}} Nodes"
+      "nodeCount": "{{count}} nodes mapped"
     },
     "instructions": {
-      "dragToMove": "Drag to Move",
-      "dragging": "Dragging!",
+      "dragToMove": "Drag to Reposition",
+      "dragging": "Repositioning…",
       "touchAndDrag": "Touch & Drag",
-      "doubleTapBurst": "Double-tap for burst!",
-      "doubleTapPhysics": "Double-tap for physics!"
+      "doubleTapBurst": "Double-tap to burst",
+      "doubleTapPhysics": "Double-tap for physics"
     },
     "filter": {
       "title": "Study Filter",
       "allProjects": "All Studies",
       "projectCount": "{{selected}}/{{total}} Studies",
       "selectAll": "Select All",
-      "clearAll": "Clear All",
+      "clearAll": "Deselect All",
       "selectProjects": "Select Studies",
       "projectsSelected": "{{count}} studies selected",
       "selectedProjects": "Selected Studies ({{count}})"
     },
     "tooltips": {
-      "disableStaticMode": "Disable Static Mode",
-      "enableStaticMode": "Enable Static Mode",
+      "disableStaticMode": "Deactivate Static Mode",
+      "enableStaticMode": "Activate Static Mode",
       "cleanUpEffects": "Clear Visual Artifacts"
     },
     "sequence": {
       "hideSequence": "Hide Assay Sequence",
       "showSequence": "Show AI Assay Sequence",
       "analyzeSequences": "Sequence Analysis",
-      "stopAnimation": "Stop Animation",
+      "stopAnimation": "Halt Animation",
       "animateSequence": "Animate Sequence",
       "shuffleSequence": "Randomize Sequence Type"
     },
@@ -1373,9 +1373,9 @@
       "nodeText": "Node Label"
     },
     "nodeInfo": {
-      "type": "Type",
+      "type": "Node Type",
       "priority": "Priority",
-      "energy": "Energy"
+      "energy": "Load"
     },
     "export": {
       "json": "Export JSON",
@@ -1391,15 +1391,15 @@
     },
     "disconnectNodes": "Sever Linkage",
     "layout": {
-      "radial": "Radial Layout",
-      "force": "Force Layout",
+      "radial": "Radial",
+      "force": "Force-Directed",
       "tree": "Hierarchical Layout",
-      "grid": "Grid Layout"
+      "grid": "Grid"
     },
     "error": "Neural map query failed: {{error}}",
     "connectNodes": "Establish Linkage",
     "addNode": "Insert Node",
-    "deleteNode": "Remove Node",
+    "deleteNode": "Archive Node",
     "empty": {
       "action": "Register First Assay",
       "message": "Register assays and studies to map the network topology.",
@@ -1412,7 +1412,7 @@
   "chatAssistant": {
     "errors": {
       "notConfigured": "AI provider is not configured. Please go to Settings → AI Configuration to set up your AI provider.",
-      "noResponse": "I received your message but couldn't generate a proper response. Please try again.",
+      "noResponse": "Query received but no analysis returned. Please retry.",
       "demoUserRestricted": "🚫 AI chat is not available for demo users. Please sign up for a free account to access AI assistance."
     },
     "quickActions": {
@@ -1427,7 +1427,7 @@
       "summarize": "Generate Summary"
     },
     "status": {
-      "typing": "Assistant is typing",
+      "typing": "Analysis in progress",
       "loadingHistory": "Retrieving patient records..."
     },
     "emptyState": {
@@ -1442,9 +1442,9 @@
       ]
     },
     "notConfigured": {
-      "title": "AI Assistant Not Configured",
+      "title": "Analysis System Offline",
       "description": "To use the AI assistant, configure your AI provider in Lab Configuration.",
-      "configureButton": "Configure AI Provider"
+      "configureButton": "Configure Analysis"
     },
     "header": {
       "title": "Lab Assistant",
@@ -1460,7 +1460,7 @@
       "placeholder": "Query your lab assistant…",
       "demoPlaceholder": "AI chat is not available for demo users. Sign up for a free account."
     },
-    "title": "Lab Assistant",
+    "title": "🔬 Lab Console",
     "placeholder": "Query your lab assistant…",
     "send": "Submit",
     "thinking": "Analyzing…",
@@ -1499,7 +1499,7 @@
       },
       "retry": "Retry",
       "copy": "Copy",
-      "delete": "Remove"
+      "delete": "Purge"
     },
     "typing": "Analyzing…",
     "you": "Researcher",
@@ -1515,7 +1515,7 @@
       "createTodo": "Register Assay",
       "listTodos": "List Assays",
       "projectStatus": "Study Status",
-      "help": "Help",
+      "help": "Query Help",
       "prioritize": "Triage",
       "summarize": "Generate Summary"
     },
@@ -1532,7 +1532,7 @@
       "title": "Lab Assistant",
       "statusListening": "Recording…",
       "statusTyping": "Processing…",
-      "statusOnline": "Online"
+      "statusOnline": "Nominal"
     },
     "emptyState": {
       "greeting": "Lab Assistant ready",
@@ -1566,7 +1566,7 @@
       "reconnecting": "Reconnecting…"
     },
     "send": "Submit",
-    "placeholder": "Query the assistant…",
+    "placeholder": "Query the analysis system…",
     "clearHistory": "Purge History",
     "title": "Lab Assistant",
     "close": "Clear Station",
@@ -1585,8 +1585,8 @@
       },
       "navigation": {
         "controls": "🎮 Navigation Controls",
-        "movement": "⌨️ WASD: Move Camera | Mouse: Look Around",
-        "interaction": "🖱️ Click: Interact | E: Action | Space: Quick Action",
+        "movement": "⌨️ WASD: Traverse | Mouse: Orient",
+        "interaction": "🖱️ Click: Interact | E: Execute | Space: Quick Action",
         "escape": "🚪 ESC: Return to Lab Bench | M: Menu"
       },
       "status": {
@@ -1653,7 +1653,7 @@
             ]
           },
           "actions": {
-            "title": "⚡ Actions",
+            "title": "⚡ Operations",
             "commands": [
               "E: Interact with selected object",
               "Space: Quick action",
@@ -1676,9 +1676,9 @@
         "dock": "Dock portals - Drag near surgical edges to anchor"
       },
       "mcp": {
-        "title": "🔗 Model Context Protocol",
-        "subtitle": "System Integration Hub",
-        "description": "The Model Context Protocol (MCP) enables connections to external tools and services for enhanced functionality and automation.",
+        "title": "🔗 MCP Integration Hub",
+        "subtitle": "Service Integration Layer",
+        "description": "The Model Context Protocol (MCP) connects to external tools and services for enhanced automation and lab functionality.",
         "features": [
           "🔧 Tool Integration Framework",
           "📊 Automated Data Collection",
@@ -1686,7 +1686,7 @@
           "⚙️ Workflow Automation",
           "🔐 Secure Communication"
         ],
-        "gettingStarted": "Setup Instructions:",
+        "gettingStarted": "Setup instructions:",
         "deploymentSteps": [
           "Configure authentication settings",
           "Connect to desired services",
@@ -1700,7 +1700,7 @@
           "connecting": "No diagnostic tools available. Connecting to apparatus...",
           "serverStatus": "Apparatus Status: {{status}}",
           "retryConnection": "🔄 Retry Diagnostic Connection",
-          "connectedAs": "Connected as: {{username}}"
+          "connectedAs": "Authenticated as: {{username}}"
         },
         "history": {
           "title": "📜 Clinical Protocol Chronicle",
@@ -1708,7 +1708,7 @@
         },
         "debug": {
           "title": "🐛 Pathology Debug Information",
-          "authentication": "Authentication: {{status}}",
+          "authentication": "Auth: {{status}}",
           "user": "Specimen: {{user}}",
           "authMode": "Clinical Mode: {{mode}}",
           "mcpServer": "MCP Apparatus: {{status}}",
@@ -1844,7 +1844,7 @@
           "waitingTraffic": "Waiting for MQTT clinical traffic on port 4140",
           "reconnect": "🔄 Reconnect Vital Link",
           "messages": "Vital Messages: {{count}}",
-          "lastMessage": "Last: {{time}}",
+          "lastMessage": "Last event: {{time}}",
           "clearLogs": "🗑️ Clear Vital Logs",
           "export": "💾 Export Pathology Archive"
         },
@@ -1892,8 +1892,8 @@
           ]
         },
         "omnispindle": {
-          "title": "🔗 Omnispindle - Integration Platform",
-          "description": "Communication and coordination platform that connects various tools and services for streamlined workflow management.",
+          "title": "🔗 Omnispindle — Integration Platform",
+          "description": "Communication and coordination platform connecting tools and services for streamlined workflow.",
           "features": [
             "🔧 Multi-platform connectivity",
             "⚙️ Automated workflow processing",
@@ -1942,7 +1942,7 @@
     },
     "errors": {
       "connectionFailed": "❌ Connection Failed",
-      "loadingError": "⚠️ Loading Error",
+      "loadingError": "⚠️ Query Error",
       "permissionDenied": "🔒 Access Denied",
       "systemUnavailable": "🚫 System Unavailable",
       "unknownError": "❓ Unknown Error",
@@ -1977,7 +1977,7 @@
       "edit": "✏️ Amend Protocol",
       "delete": "🗑️ Archive Record",
       "refresh": "🔄 Rescan Data",
-      "connect": "🔗 Connect Service",
+      "connect": "🔗 Register Service",
       "deploy": "🚀 Deploy Protocol",
       "monitor": "📊 Monitor Diagnostic Metrics",
       "optimize": "⚡ Optimize Specimen Allocation",
@@ -1993,11 +1993,11 @@
     },
     "controls": {
       "reset": "Reset View",
-      "exitFullscreen": "Exit Full Screen",
+      "exitFullscreen": "Exit Fullscreen",
       "zoom": "Zoom",
-      "rotate": "Rotate",
-      "fullscreen": "Full Screen",
-      "move": "Move"
+      "rotate": "Orient",
+      "fullscreen": "Fullscreen",
+      "move": "Traverse"
     },
     "chatPanel": {
       "send": "Submit",
@@ -2009,14 +2009,14 @@
       "panels": "Use stations to screen assays and run diagnostics",
       "welcome": "Welcome to the Lab Environment",
       "interaction": "Click nodes to manage assay records",
-      "navigation": "WASD to navigate, mouse to look",
+      "navigation": "WASD to traverse, mouse to orient",
       "complete": "Lab environment ready"
     },
     "agentPanel": {
       "status": {
         "offline": "Offline",
         "idle": "On Standby",
-        "active": "Active"
+        "active": "Operational"
       },
       "title": "Research Agent Status",
       "loading": "Scanning agents…",
@@ -2031,12 +2031,12 @@
       "selected": "Active: {{name}}"
     },
     "hotkeys": {
-      "mouse": "Mouse: Look",
+      "mouse": "Mouse: Orient",
       "space": "Space: Select",
       "title": "Hotkey Reference",
       "escape": "ESC: Exit",
-      "tab": "TAB: Switch Panel",
-      "wasd": "WASD: Navigate"
+      "tab": "TAB: Switch Station",
+      "wasd": "WASD: Traverse"
     },
     "nodes": {
       "edit": "Amend Assay",
@@ -2138,8 +2138,8 @@
       "castingFailed": "Analysis failed: {{error}}",
       "noDescription": "Assay description is required for analysis",
       "rateLimited": "Analysis limit reached. Please wait: {{timeRemaining}}",
-      "aiError": "AI system encountered an error",
-      "networkError": "Network connection error",
+      "aiError": "Analysis system error",
+      "networkError": "Network error",
       "invalidSpell": "Unknown analysis tool requested",
       "unauthorized": "Insufficient permissions for this analysis"
     },
@@ -2172,7 +2172,7 @@
       "result": "Outcome:",
       "success": "✅ Stable",
       "failed": "❌ Adverse reaction",
-      "duration": "Duration:",
+      "duration": "Runtime:",
       "empty": "No analyses on record",
       "justNow": "Immediate post-op",
       "minutesAgo": "T+{{count}} minutes",
@@ -2307,7 +2307,7 @@
       "title": "Analyze Assay",
       "casting": "Analyzing…"
     },
-    "title": "🔬 AI Tools",
+    "title": "🔬 Analysis Tools",
     "available": "Available analytical tools",
     "description": "AI-powered diagnostics for assay management"
   },
@@ -2627,7 +2627,7 @@
     "upload": "Upload Structure Map",
     "errors": {
       "loadFailed": "Failed to retrieve UML datasets",
-      "uploadFailed": "Failed to upload UML file",
+      "uploadFailed": "Failed to upload map file",
       "deleteFailed": "Failed to archive UML data"
     },
     "delete": {
@@ -2644,12 +2644,12 @@
     },
     "instructions": {
       "title": "How to use:",
-      "step1": "Install the UML generator: npm install -g @madnessengineering/cartogomancy",
-      "step2": "Generate UML from your codebase: cartogomancy /path/to/project -o project-uml.json",
+      "step1": "Install the map generator: npm install -g @madnessengineering/cartogomancy",
+      "step2": "Generate map from codebase: cartogomancy /path/to/project -o project-uml.json",
       "step3": "Upload the generated JSON file using the button above"
     },
     "storage": {
-      "info": "You have {{count}} visualization(s). Storage limit: {{limit}}",
+      "info": "{{count}} visualization(s) on record. Storage limit: {{limit}}",
       "limit": "10 files per user (10MB each)"
     },
     "table": {
@@ -2664,7 +2664,7 @@
       "actions": "Actions"
     },
     "actions": {
-      "view": "View in SwarmDesk",
+      "view": "Open in SwarmDesk",
       "delete": "Archive"
     },
     "empty": {
@@ -2724,7 +2724,7 @@
       "title": "Lab Map Background",
       "description": "Set a custom background image for your Incident Command map",
       "presets": "Standard Presets",
-      "uploads": "Your Uploads",
+      "uploads": "Your Field Maps",
       "upload": "Upload Image",
       "noUploads": "No custom backgrounds on record",
       "opacity": "Opacity",
@@ -3128,7 +3128,7 @@
     "toolName": "Instrumentation",
     "parameters": "Reagents",
     "project": "Study",
-    "priority": "Priority",
+    "priority": "Urgency",
     "tags": "Biomarkers",
     "url": "Endpoint URL",
     "method": "Sample Method",
