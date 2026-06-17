@@ -1454,7 +1454,11 @@
     "menu": {
       "refreshContext": "Rescan Context",
       "aiSettings": "AI Configuration (Go to Settings)",
-      "aiSettingsRedirect": "AI configuration has been moved to Lab Configuration → AI Configuration"
+      "aiSettingsRedirect": "AI configuration has been moved to Lab Configuration → AI Configuration",
+      "downloadChat": "Export Session Records"
+    },
+    "download": {
+      "empty": "No session data recorded — this log is empty."
     },
     "input": {
       "placeholder": "Query your lab assistant…",

@@ -1553,7 +1553,11 @@
     "menu": {
       "refreshContext": "Refresh Context",
       "aiSettings": "Oracle Settings (Go to Settings)",
-      "aiSettingsRedirect": "Oracle configuration has been moved to Settings → Oracle Configuration"
+      "aiSettingsRedirect": "Oracle configuration has been moved to Settings → Oracle Configuration",
+      "downloadChat": "Transcribe Session"
+    },
+    "download": {
+      "empty": "Nothing to transcribe — this session holds no record."
     },
     "input": {
       "placeholder": "Seek counsel from the Oracle...",

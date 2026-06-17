@@ -2018,7 +2018,11 @@
     "menu": {
       "refreshContext": "chatAssistant.menu.refreshContext",
       "aiSettings": "chatAssistant.menu.aiSettings",
-      "aiSettingsRedirect": "chatAssistant.menu.aiSettingsRedirect"
+      "aiSettingsRedirect": "chatAssistant.menu.aiSettingsRedirect",
+      "downloadChat": "chatAssistant.menu.downloadChat"
+    },
+    "download": {
+      "empty": "chatAssistant.download.empty"
     },
     "input": {
       "placeholder": "chatAssistant.input.placeholder",

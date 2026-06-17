@@ -1960,7 +1960,11 @@
     "menu": {
       "refreshContext": "Refresh Banana Context",
       "aiSettings": "AI Apparatus Settings (Go to Jungle Settings)",
-      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Jungle Configuration"
+      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Jungle Configuration",
+      "downloadChat": "Pack to Go"
+    },
+    "download": {
+      "empty": "Nothing to pack — the chat is empty."
     },
     "input": {
       "placeholder": "Scratch your jungle inquiry...",

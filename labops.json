@@ -1552,7 +1552,11 @@
     "menu": {
       "refreshContext": "Resync Context",
       "aiSettings": "Diagnostics Config (Settings)",
-      "aiSettingsRedirect": "AI diagnostics config has moved to Settings → Diagnostics Config"
+      "aiSettingsRedirect": "AI diagnostics config has moved to Settings → Diagnostics Config",
+      "downloadChat": "Export Snapshot"
+    },
+    "download": {
+      "empty": "Nothing to export — session log is empty."
     },
     "input": {
       "placeholder": "Query the diagnostic system...",

@@ -1586,7 +1586,11 @@
     "menu": {
       "refreshContext": "Refresh Context",
       "aiSettings": "AI Settings (Go to Settings)",
-      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration"
+      "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration",
+      "downloadChat": "Download Chat"
+    },
+    "download": {
+      "empty": "Nothing to download — this chat is empty."
     },
     "input": {
       "placeholder": "Ask your assistant...",

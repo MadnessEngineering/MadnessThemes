@@ -1552,7 +1552,11 @@
     "menu": {
       "refreshContext": "Resync Tactical Data",
       "aiSettings": "AI Config (Cockpit Config)",
-      "aiSettingsRedirect": "AI configuration moved to Cockpit Config → AI Configuration"
+      "aiSettingsRedirect": "AI configuration moved to Cockpit Config → AI Configuration",
+      "downloadChat": "Download Transcript"
+    },
+    "download": {
+      "empty": "Nothing to retrieve — comms log is empty."
     },
     "input": {
       "placeholder": "Contact copilot...",

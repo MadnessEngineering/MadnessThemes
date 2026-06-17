@@ -2070,7 +2070,11 @@
     "menu": {
       "refreshContext": "Refresh Operational Context",
       "aiSettings": "AI System Configuration (Go to Settings)",
-      "aiSettingsRedirect": "AI system configuration has been moved to Settings → AI Configuration"
+      "aiSettingsRedirect": "AI system configuration has been moved to Settings → AI Configuration",
+      "downloadChat": "Download Chat Transcript"
+    },
+    "download": {
+      "empty": "Nothing to download — this communication log is empty."
     },
     "input": {
       "placeholder": "Submit productivity optimization request...",

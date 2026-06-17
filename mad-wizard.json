@@ -2136,7 +2136,11 @@
     "menu": {
       "refreshContext": "Refresh Mystical Context",
       "aiSettings": "AI Apparatus Settings (Go to Laboratory Settings)",
-      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Laboratory Configuration"
+      "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Laboratory Configuration",
+      "downloadChat": "Extract Research Transcript"
+    },
+    "download": {
+      "empty": "The apparatus holds no findings — this chronicle is blank."
     },
     "input": {
       "placeholder": "Channel your mystical inquiry...",
