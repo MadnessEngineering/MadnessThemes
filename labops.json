@@ -388,7 +388,8 @@
     "account": "👤 Operator Profile",
     "queue": "📥 Processing Queue",
     "inventory": "🗄️ Equipment Registry",
-    "quests": "⚔️ Objectives"
+    "quests": "⚔️ Objectives",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Return to Station",
@@ -3463,6 +3464,23 @@
       "codeLab": "Code Console",
       "dualCity": "Dual Console",
       "reviewQueue": "Triage Queue"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Needs Triage",
+      "project": "Service",
+      "operation": "Activity"
+    },
+    "review": {
+      "approveSuccess": "Resolved",
+      "approveFailed": "Failed to resolve",
+      "updateFailed": "Failed to update",
+      "batchApproveSuccess": "Resolved selected tickets",
+      "batchApproveFailed": "Batch resolve failed",
+      "approveN": "Resolve ({{count}})",
+      "empty": "Queue clear"
     }
   }
 }

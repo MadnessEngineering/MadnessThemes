@@ -322,7 +322,8 @@
     "account": "👤 User Profile",
     "queue": "📥 Pending Approvals",
     "inventory": "🗄️ Asset Registry",
-    "quests": "⚔️ Initiatives"
+    "quests": "⚔️ Initiatives",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Return to previous view",
@@ -3463,6 +3464,23 @@
       "codeLab": "Architecture",
       "dualCity": "Comparison",
       "reviewQueue": "Approvals"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Pending Approval",
+      "project": "Initiative",
+      "operation": "Action Item"
+    },
+    "review": {
+      "approveSuccess": "Approved",
+      "approveFailed": "Approval workflow failed",
+      "updateFailed": "Update deployment failed",
+      "batchApproveSuccess": "Bulk approval completed",
+      "batchApproveFailed": "Bulk approval workflow failed",
+      "approveN": "Approve Deliverables ({{count}})",
+      "empty": "No items pending approval"
     }
   }
 }

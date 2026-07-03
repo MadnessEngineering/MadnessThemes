@@ -388,7 +388,8 @@
     "account": "👤 Monkey Profile",
     "queue": "📥 Banana Queue",
     "inventory": "🗄️ Jungle Stash",
-    "quests": "⚔️ Quests"
+    "quests": "⚔️ Quests",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Swing Back",
@@ -3463,6 +3464,23 @@
       "codeLab": "Jungle Lab",
       "dualCity": "Twin Trees",
       "reviewQueue": "Peel Check"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Needs a Peek",
+      "project": "Bunch",
+      "operation": "Business"
+    },
+    "review": {
+      "approveSuccess": "Peeled and Approved",
+      "approveFailed": "Slipped on approval",
+      "updateFailed": "Update went bananas",
+      "batchApproveSuccess": "Whole bunch approved",
+      "batchApproveFailed": "Bunch approval slipped up",
+      "approveN": "Approve the Bunch ({{count}})",
+      "empty": "Nothing left to peek at"
     }
   }
 }

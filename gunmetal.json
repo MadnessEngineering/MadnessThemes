@@ -388,7 +388,8 @@
     "account": "👤 Operator Profile",
     "queue": "📥 Mission Queue",
     "inventory": "🗄️ Arsenal",
-    "quests": "⚔️ Quests"
+    "quests": "⚔️ Quests",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Fall Back",
@@ -3463,6 +3464,23 @@
       "codeLab": "Recon Lab",
       "dualCity": "Dual Theater",
       "reviewQueue": "Debrief"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Awaiting Clearance",
+      "project": "Operation",
+      "operation": "Action"
+    },
+    "review": {
+      "approveSuccess": "Cleared",
+      "approveFailed": "Clearance denied",
+      "updateFailed": "Update rejected",
+      "batchApproveSuccess": "Batch cleared",
+      "batchApproveFailed": "Batch clearance denied",
+      "approveN": "Clear Selected ({{count}})",
+      "empty": "Nothing awaiting clearance"
     }
   }
 }

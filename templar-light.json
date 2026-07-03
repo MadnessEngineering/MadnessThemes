@@ -388,7 +388,8 @@
     "account": "👤 Pilgrim Profile",
     "queue": "📥 Blessing Queue",
     "inventory": "🗄️ Relic Vault",
-    "quests": "⚔️ Crusades"
+    "quests": "⚔️ Crusades",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Return to Sanctuary",
@@ -3464,6 +3465,23 @@
       "codeLab": "Vault",
       "dualCity": "Twin Keeps",
       "reviewQueue": "Inquest"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Awaiting Judgment",
+      "project": "Crusade",
+      "operation": "Deed"
+    },
+    "review": {
+      "approveSuccess": "Sanctified",
+      "approveFailed": "Sanctification failed",
+      "updateFailed": "The record failed to update",
+      "batchApproveSuccess": "The gathered deeds are sanctified",
+      "batchApproveFailed": "The mass sanctification failed",
+      "approveN": "Sanctify ({{count}})",
+      "empty": "Nothing awaits judgment"
     }
   }
 }

@@ -388,7 +388,8 @@
     "account": "👤 Dwarf Ledger",
     "queue": "📥 Ore Queue",
     "inventory": "🗄️ Supply Cavern",
-    "quests": "⚔️ Guild Contracts"
+    "quests": "⚔️ Guild Contracts",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Retreat to Previous Tunnel",
@@ -3463,6 +3464,23 @@
       "codeLab": "Deep Forge",
       "dualCity": "Twin Holds",
       "reviewQueue": "Inspection"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Awaiting the Foreman",
+      "project": "Dig Site",
+      "operation": "Toil"
+    },
+    "review": {
+      "approveSuccess": "Stamped and Approved",
+      "approveFailed": "The stamp failed",
+      "updateFailed": "The ledger entry failed",
+      "batchApproveSuccess": "The haul is stamped",
+      "batchApproveFailed": "The bulk stamping failed",
+      "approveN": "Stamp the Haul ({{count}})",
+      "empty": "Nothing awaits the Foreman"
     }
   }
 }

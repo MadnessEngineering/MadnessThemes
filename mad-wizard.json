@@ -388,7 +388,8 @@
     "dashboard": "🏠 Sanctum Overview",
     "account": "👤 Wizard Profile",
     "queue": "📥 Pending Rituals",
-    "quests": "⚔️ Arcane Quests"
+    "quests": "⚔️ Arcane Quests",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Retreat to previous chamber",
@@ -3463,6 +3464,23 @@
       "codeLab": "Astral Lab",
       "dualCity": "Twin Realms",
       "reviewQueue": "Rune Review"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Awaiting Judgment",
+      "project": "Experiment",
+      "operation": "Working"
+    },
+    "review": {
+      "approveSuccess": "Sealed into the Chronicle",
+      "approveFailed": "The seal failed to hold",
+      "updateFailed": "The incantation faltered",
+      "batchApproveSuccess": "The gathered rites are sealed",
+      "batchApproveFailed": "The mass ritual collapsed",
+      "approveN": "Seal the Chronicle ({{count}})",
+      "empty": "No rites await judgment"
     }
   }
 }

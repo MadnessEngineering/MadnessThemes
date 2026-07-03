@@ -2355,7 +2355,8 @@
     "account": "👤 User Interface",
     "queue": "📥 Processing Stack",
     "inventory": "🗄️ Data Vault",
-    "quests": "⚔️ Quests"
+    "quests": "⚔️ Quests",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Rewind Protocol",
@@ -3463,6 +3464,23 @@
       "codeLab": "Code Matrix",
       "dualCity": "Dual Grid",
       "reviewQueue": "Queue Review"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Needs Review",
+      "project": "Node",
+      "operation": "Process"
+    },
+    "review": {
+      "approveSuccess": "Committed",
+      "approveFailed": "Commit failed",
+      "updateFailed": "Sync failed",
+      "batchApproveSuccess": "Batch committed",
+      "batchApproveFailed": "Batch commit failed",
+      "approveN": "Commit Selected ({{count}})",
+      "empty": "Queue clear"
     }
   }
 }

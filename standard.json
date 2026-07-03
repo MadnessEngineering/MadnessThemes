@@ -388,7 +388,8 @@
     "dashboard": "🏠 Dashboard",
     "account": "👤 Account",
     "queue": "📥 Queue",
-    "quests": "⚔️ Quests"
+    "quests": "⚔️ Quests",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Go back",
@@ -3463,6 +3464,23 @@
       "codeLab": "3D Code Lab",
       "dualCity": "Dual City",
       "reviewQueue": "Review Queue"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Needs Review",
+      "project": "Project",
+      "operation": "Activity"
+    },
+    "review": {
+      "approveSuccess": "Approved",
+      "approveFailed": "Failed to approve",
+      "updateFailed": "Failed to update",
+      "batchApproveSuccess": "Approved selected todos",
+      "batchApproveFailed": "Batch approve failed",
+      "approveN": "Approve ({{count}})",
+      "empty": "Nothing awaiting review"
     }
   }
 }

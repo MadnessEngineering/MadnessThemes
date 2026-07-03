@@ -388,7 +388,8 @@
     "account": "👤 Researcher Profile",
     "queue": "📥 Sample Queue",
     "inventory": "🗄️ Specimen Registry",
-    "quests": "⚔️ Trials"
+    "quests": "⚔️ Trials",
+    "chronicle": "📜 Chronicle"
   },
   "mobileNavigation": {
     "goBack": "Return to Previous Phase",
@@ -3463,6 +3464,23 @@
       "codeLab": "Code Lab",
       "dualCity": "Dual Study",
       "reviewQueue": "Peer Review"
+    }
+  },
+  "chronicle": {
+    "title": "The Chronicle",
+    "filters": {
+      "needsReview": "Needs Review",
+      "project": "Study",
+      "operation": "Procedure"
+    },
+    "review": {
+      "approveSuccess": "Reviewed and Signed Off",
+      "approveFailed": "Sign-off failed",
+      "updateFailed": "Record update failed",
+      "batchApproveSuccess": "Batch signed off",
+      "batchApproveFailed": "Batch sign-off failed",
+      "approveN": "Sign Off ({{count}})",
+      "empty": "Nothing pending review"
     }
   }
 }

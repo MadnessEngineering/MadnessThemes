@@ -388,7 +388,8 @@
     "account": "panels.account",
     "queue": "panels.queue",
     "inventory": "panels.inventory",
-    "quests": "panels.quests"
+    "quests": "panels.quests",
+    "chronicle": "panels.chronicle"
   },
   "mobileNavigation": {
     "goBack": "mobileNavigation.goBack",
@@ -3443,6 +3444,23 @@
       "codeLab": "projectCodeLab.actions.codeLab",
       "dualCity": "projectCodeLab.actions.dualCity",
       "reviewQueue": "projectCodeLab.actions.reviewQueue"
+    }
+  },
+  "chronicle": {
+    "title": "chronicle.title",
+    "filters": {
+      "needsReview": "chronicle.filters.needsReview",
+      "project": "chronicle.filters.project",
+      "operation": "chronicle.filters.operation"
+    },
+    "review": {
+      "approveSuccess": "chronicle.review.approveSuccess",
+      "approveFailed": "chronicle.review.approveFailed",
+      "updateFailed": "chronicle.review.updateFailed",
+      "batchApproveSuccess": "chronicle.review.batchApproveSuccess",
+      "batchApproveFailed": "chronicle.review.batchApproveFailed",
+      "approveN": "chronicle.review.approveN",
+      "empty": "chronicle.review.empty"
     }
   }
 }
