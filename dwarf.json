@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Shoo"
+    "dismiss": "Shoo",
+    "selectAll": "Claim All",
+    "clearAll": "Drop All"
   },
   "forms": {
     "name": "Quarry Claim Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "The haul is stamped",
       "batchApproveFailed": "The bulk stamping failed",
       "approveN": "Stamp the Haul ({{count}})",
-      "empty": "Nothing awaits the Foreman"
+      "empty": "Nothing awaits the Foreman",
+      "items": "hauls",
+      "approveSelected": "Stamp the Chosen"
+    },
+    "mode": {
+      "timeline": "The Dig Log",
+      "review": "Foreman's Review"
     }
   }
 }

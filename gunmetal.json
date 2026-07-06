@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Project Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Batch cleared",
       "batchApproveFailed": "Batch clearance denied",
       "approveN": "Clear Selected ({{count}})",
-      "empty": "Nothing awaiting clearance"
+      "empty": "Nothing awaiting clearance",
+      "items": "targets",
+      "approveSelected": "Clear Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Clearance Queue"
     }
   }
 }

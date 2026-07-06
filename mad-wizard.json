@@ -136,7 +136,9 @@
     "viewAll": "Reveal All",
     "collapse": "Fold",
     "expand": "Unfurl",
-    "dismiss": "Banish"
+    "dismiss": "Banish",
+    "selectAll": "Summon All",
+    "clearAll": "Banish Selection"
   },
   "forms": {
     "name": "Experiment Code Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "The gathered rites are sealed",
       "batchApproveFailed": "The mass ritual collapsed",
       "approveN": "Seal the Chronicle ({{count}})",
-      "empty": "No rites await judgment"
+      "empty": "No rites await judgment",
+      "items": "rites",
+      "approveSelected": "Seal the Chosen"
+    },
+    "mode": {
+      "timeline": "Chronology",
+      "review": "Judgment"
     }
   }
 }

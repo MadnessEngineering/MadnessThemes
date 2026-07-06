@@ -136,7 +136,9 @@
     "viewAll": "View Full Dataset",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Service Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Resolved selected tickets",
       "batchApproveFailed": "Batch resolve failed",
       "approveN": "Resolve ({{count}})",
-      "empty": "Queue clear"
+      "empty": "Queue clear",
+      "items": "tickets",
+      "approveSelected": "Resolve Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Triage"
     }
   }
 }

@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "common.dismiss"
+    "dismiss": "common.dismiss",
+    "selectAll": "common.selectAll",
+    "clearAll": "common.clearAll"
   },
   "forms": {
     "name": "forms.name",
@@ -3460,7 +3462,13 @@
       "batchApproveSuccess": "chronicle.review.batchApproveSuccess",
       "batchApproveFailed": "chronicle.review.batchApproveFailed",
       "approveN": "chronicle.review.approveN",
-      "empty": "chronicle.review.empty"
+      "empty": "chronicle.review.empty",
+      "items": "chronicle.review.items",
+      "approveSelected": "chronicle.review.approveSelected"
+    },
+    "mode": {
+      "timeline": "chronicle.mode.timeline",
+      "review": "chronicle.mode.review"
     }
   }
 }

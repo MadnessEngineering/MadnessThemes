@@ -136,7 +136,9 @@
     "viewAll": "View All Scrolls",
     "collapse": "Fold",
     "expand": "Unfurl",
-    "dismiss": "Seal"
+    "dismiss": "Seal",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Crusade Name",
@@ -3481,7 +3483,13 @@
       "batchApproveSuccess": "The gathered deeds are sanctified",
       "batchApproveFailed": "The mass sanctification failed",
       "approveN": "Sanctify ({{count}})",
-      "empty": "Nothing awaits judgment"
+      "empty": "Nothing awaits judgment",
+      "items": "deeds",
+      "approveSelected": "Sanctify Selected"
+    },
+    "mode": {
+      "timeline": "Chronicle",
+      "review": "Judgment"
     }
   }
 }

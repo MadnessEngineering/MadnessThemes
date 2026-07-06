@@ -136,7 +136,9 @@
     "viewAll": "View All Records",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Discard"
+    "dismiss": "Discard",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Study Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Batch signed off",
       "batchApproveFailed": "Batch sign-off failed",
       "approveN": "Sign Off ({{count}})",
-      "empty": "Nothing pending review"
+      "empty": "Nothing pending review",
+      "items": "cases",
+      "approveSelected": "Sign Off Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Review Queue"
     }
   }
 }

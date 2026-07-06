@@ -88,7 +88,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "selectAll": "Select All",
+    "clearAll": "Clear All"
   },
   "desktop": {
     "commitTo": "Commit to {branch}",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Approved selected todos",
       "batchApproveFailed": "Batch approve failed",
       "approveN": "Approve ({{count}})",
-      "empty": "Nothing awaiting review"
+      "empty": "Nothing awaiting review",
+      "items": "items",
+      "approveSelected": "Approve Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Review"
     }
   }
 }

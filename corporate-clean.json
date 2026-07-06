@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Project Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Approved selected items",
       "batchApproveFailed": "Batch approval failed",
       "approveN": "Approve ({{count}})",
-      "empty": "Nothing awaiting review"
+      "empty": "Nothing awaiting review",
+      "items": "items",
+      "approveSelected": "Approve Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Review"
     }
   }
 }

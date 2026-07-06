@@ -123,7 +123,9 @@
     "copyId": "Copy ID",
     "show": "Show",
     "copy": "Copy",
-    "dismiss": "Dismiss"
+    "dismiss": "Dismiss",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "dashboard": {
     "title": "🔬 Laboratory Dashboard",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Batch committed",
       "batchApproveFailed": "Batch commit failed",
       "approveN": "Commit Selected ({{count}})",
-      "empty": "Queue clear"
+      "empty": "Queue clear",
+      "items": "nodes",
+      "approveSelected": "Commit Selected"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Commit Queue"
     }
   }
 }

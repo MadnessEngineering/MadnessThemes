@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Peel Away"
+    "dismiss": "Peel Away",
+    "selectAll": "Grab All",
+    "clearAll": "Drop All"
   },
   "forms": {
     "name": "Branch Name",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Whole bunch approved",
       "batchApproveFailed": "Bunch approval slipped up",
       "approveN": "Approve the Bunch ({{count}})",
-      "empty": "Nothing left to peek at"
+      "empty": "Nothing left to peek at",
+      "items": "peels",
+      "approveSelected": "Approve the Picks"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Peek Pile"
     }
   }
 }

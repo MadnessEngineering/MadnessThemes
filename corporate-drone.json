@@ -136,7 +136,9 @@
     "viewAll": "View All",
     "collapse": "Collapse",
     "expand": "Expand",
-    "dismiss": "Acknowledge"
+    "dismiss": "Acknowledge",
+    "selectAll": "Select All",
+    "clearAll": "Clear Selection"
   },
   "forms": {
     "name": "Initiative Identifier",
@@ -3480,7 +3482,13 @@
       "batchApproveSuccess": "Bulk approval completed",
       "batchApproveFailed": "Bulk approval workflow failed",
       "approveN": "Approve Deliverables ({{count}})",
-      "empty": "No items pending approval"
+      "empty": "No items pending approval",
+      "items": "deliverables",
+      "approveSelected": "Approve Deliverables"
+    },
+    "mode": {
+      "timeline": "Timeline",
+      "review": "Approval Queue"
     }
   }
 }
