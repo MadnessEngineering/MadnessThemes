@@ -697,6 +697,7 @@
       "selectNone": "Clear Selection",
       "advancedFilters": "Advanced Filtering Options",
       "dateRange": "Date Range",
+      "projectScope": "Portfolio Scope Selection",
       "startDate": "From",
       "endDate": "To",
       "priorityFilter": "Priority Levels",

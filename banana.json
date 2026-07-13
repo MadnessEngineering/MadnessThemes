@@ -763,6 +763,7 @@
       "selectNone": "Clear Selection",
       "advancedFilters": "Advanced Banana Filters",
       "dateRange": "Swung Between Dates",
+      "projectScope": "Bunch Selection",
       "startDate": "Start Date",
       "endDate": "End Date",
       "priorityFilter": "Jungle Priority Levels",

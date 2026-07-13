@@ -763,6 +763,7 @@
       "selectNone": "Clear Selection",
       "advancedFilters": "Advanced Mystical Filters",
       "dateRange": "Created Between Dates",
+      "projectScope": "Realms of Focus",
       "startDate": "Start Date",
       "endDate": "End Date",
       "priorityFilter": "Mystical Priority Levels",

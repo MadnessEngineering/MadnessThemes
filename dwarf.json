@@ -763,6 +763,7 @@
       "selectNone": "Clear Selection",
       "advancedFilters": "Advanced Ore Filters",
       "dateRange": "Excavated Between Dates",
+      "projectScope": "Mine Shafts",
       "startDate": "Start Date",
       "endDate": "End Date",
       "priorityFilter": "Mining Priority Levels",

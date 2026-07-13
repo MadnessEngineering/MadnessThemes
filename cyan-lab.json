@@ -394,6 +394,7 @@
       "selectNone": "None",
       "advancedFilters": "Advanced Filters",
       "dateRange": "Date Range",
+      "projectScope": "Projects",
       "startDate": "From",
       "endDate": "To",
       "priorityFilter": "Priority",

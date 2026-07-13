@@ -763,6 +763,7 @@
       "selectNone": "None",
       "advancedFilters": "Advanced Edicts",
       "dateRange": "Date Range",
+      "projectScope": "Dominions",
       "startDate": "From",
       "endDate": "To",
       "priorityFilter": "Precedence",

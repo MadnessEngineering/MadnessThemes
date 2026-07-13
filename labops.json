@@ -763,6 +763,7 @@
       "selectNone": "None",
       "advancedFilters": "Query Filters",
       "dateRange": "Date Range",
+      "projectScope": "Project Scope",
       "startDate": "From",
       "endDate": "To",
       "priorityFilter": "Priority",
