@@ -3265,7 +3265,8 @@
     "installButton": "Install",
     "installDismiss": "Maybe Later",
     "installBenefit": "Works offline, loads instantly",
-    "installPrompt": "Install the app for a better experience"
+    "installPrompt": "Install the app for a better experience",
+    "iosInstallHint": "Tap Share, then \"Add to Home Screen\""
   },
   "lessonsViewer": {
     "title": "Lessons graph",

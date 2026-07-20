@@ -3265,7 +3265,8 @@
     "installButton": "Deploy",
     "installDismiss": "Defer",
     "installBenefit": "Maintains stability offline, rapid load protocols",
-    "installPrompt": "Install for the most precise clinical experience"
+    "installPrompt": "Install for the most precise clinical experience",
+    "iosInstallHint": "Tap Share, then select \"Add to Home Screen\" to install"
   },
   "lessonsViewer": {
     "title": "Specimen graph",

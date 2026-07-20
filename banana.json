@@ -3265,7 +3265,8 @@
     "installButton": "Nest",
     "installDismiss": "Later, oo oo",
     "installBenefit": "Works even when the vines are dry (offline), fast as a leopard",
-    "installPrompt": "Nest the app for a better jungle life"
+    "installPrompt": "Nest the app for a better jungle life",
+    "iosInstallHint": "Tap Share, then pick \"Add to Home Screen\", oo oo!"
   },
   "lessonsViewer": {
     "title": "Banana graph",

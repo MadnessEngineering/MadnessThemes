@@ -3266,7 +3266,8 @@
     "installButton": "Enshrine",
     "installDismiss": "Not Today",
     "installBenefit": "Faith endures in the dark (offline), swift as a prayer",
-    "installPrompt": "Enshrine the app for a more blessed journey"
+    "installPrompt": "Enshrine the app for a more blessed journey",
+    "iosInstallHint": "Tap Share, then choose \"Add to Home Screen\" to enshrine it"
   },
   "lessonsViewer": {
     "title": "Codex graph",

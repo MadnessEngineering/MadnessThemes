@@ -3265,7 +3265,8 @@
     "installButton": "Install",
     "installDismiss": "Ignore",
     "installBenefit": "Functions without uplink (offline), immediate response",
-    "installPrompt": "Install for optimal scientific workflow"
+    "installPrompt": "Install for optimal scientific workflow",
+    "iosInstallHint": "Tap Share, then select \"Add to Home Screen\" to calibrate"
   },
   "lessonsViewer": {
     "title": "Lesson lattice",

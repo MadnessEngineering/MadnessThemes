@@ -3265,7 +3265,8 @@
     "installButton": "Forge",
     "installDismiss": "Not Today",
     "installBenefit": "Stands strong without the draft (offline), fast as a falling pick",
-    "installPrompt": "Forge the app for a better mining experience"
+    "installPrompt": "Forge the app for a better mining experience",
+    "iosInstallHint": "Tap Share, then choose \"Add to Home Screen\" to forge it in stone"
   },
   "lessonsViewer": {
     "title": "Lore vein graph",

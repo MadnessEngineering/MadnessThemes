@@ -3245,7 +3245,8 @@
     "installButton": "pwa.installButton",
     "installDismiss": "pwa.installDismiss",
     "installBenefit": "pwa.installBenefit",
-    "installPrompt": "pwa.installPrompt"
+    "installPrompt": "pwa.installPrompt",
+    "iosInstallHint": "pwa.iosInstallHint"
   },
   "lessonsViewer": {
     "title": "lessons_graph",

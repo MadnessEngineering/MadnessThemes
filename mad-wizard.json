@@ -3265,7 +3265,8 @@
     "installButton": "Bind",
     "installDismiss": "Not Now",
     "installBenefit": "Endures beyond the veil (offline), manifests instantly",
-    "installPrompt": "Bind the workshop for a more potent experience"
+    "installPrompt": "Bind the workshop for a more potent experience",
+    "iosInstallHint": "Tap the Share sigil, then choose \"Add to Home Screen\" to bind it"
   },
   "lessonsViewer": {
     "title": "Grimoire graph",

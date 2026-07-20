@@ -3265,7 +3265,8 @@
     "installButton": "Deploy",
     "installDismiss": "Hold Fire",
     "installBenefit": "Mission ready offline, zero-lag deployment",
-    "installPrompt": "Deploy the app for maximum field efficiency"
+    "installPrompt": "Deploy the app for maximum field efficiency",
+    "iosInstallHint": "Tap Share, then select \"Add to Home Screen\" to deploy"
   },
   "lessonsViewer": {
     "title": "Intel graph",

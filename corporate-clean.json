@@ -3265,7 +3265,8 @@
     "installButton": "Install",
     "installDismiss": "Later",
     "installBenefit": "Offline support and faster loading",
-    "installPrompt": "Install for the best professional experience"
+    "installPrompt": "Install for the best professional experience",
+    "iosInstallHint": "Tap Share, then choose \"Add to Home Screen\""
   },
   "lessonsViewer": {
     "title": "Knowledge graph",

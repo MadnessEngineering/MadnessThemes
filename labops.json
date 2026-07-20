@@ -3265,7 +3265,8 @@
     "installButton": "Provision",
     "installDismiss": "Postpone",
     "installBenefit": "Operates without grid connection, instant execution",
-    "installPrompt": "Install to enhance laboratory operational efficiency"
+    "installPrompt": "Install to enhance laboratory operational efficiency",
+    "iosInstallHint": "Tap Share, then select \"Add to Home Screen\" to provision"
   },
   "lessonsViewer": {
     "title": "Knowledge ops graph",
