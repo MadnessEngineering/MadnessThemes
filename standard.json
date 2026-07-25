@@ -1082,7 +1082,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera movement when using first-person navigation.",
       "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)",
+      "cameraTitle": "Camera",
+      "refreshFlyoverLabel": "Refresh flyover",
+      "refreshFlyoverDescription": "On R-refresh, warp to an overhead view, watch nodes fly to their new spots, then warp back"
     },
     "messaging": {
       "title": "Message Roles Configuration",

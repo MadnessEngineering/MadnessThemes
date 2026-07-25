@@ -1048,7 +1048,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Camera traversal config for first-person navigation mode.",
       "fpsBaseSpeed": "Walk Rate",
-      "fpsSprintSpeed": "Sprint Rate (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Rate (Ctrl held)",
+      "cameraTitle": "Imaging",
+      "refreshFlyoverLabel": "Rescan Flyover",
+      "refreshFlyoverDescription": "On R-rescan, the imaging sweeps to an overhead pass, tracks nodes to their updated positions, then returns to baseline."
     },
     "messaging": {
       "title": "Communication Protocol Configuration",

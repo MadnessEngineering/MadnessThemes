@@ -834,7 +834,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera movement when using first-person navigation.",
       "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)",
+      "cameraTitle": "Camera Feed",
+      "refreshFlyoverLabel": "Flyover Sync",
+      "refreshFlyoverDescription": "On R-refresh, the feed cuts to an overhead view, tracks nodes syncing to their new positions, then cuts back."
     },
     "messaging": {
       "title": "Message Roles Configuration",

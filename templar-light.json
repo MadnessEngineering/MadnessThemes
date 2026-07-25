@@ -1048,7 +1048,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera when using first-person navigation.",
       "fpsBaseSpeed": "March Speed",
-      "fpsSprintSpeed": "Charge Speed (Ctrl held)"
+      "fpsSprintSpeed": "Charge Speed (Ctrl held)",
+      "cameraTitle": "The Sentinel's Eye",
+      "refreshFlyoverLabel": "Renewal Sortie",
+      "refreshFlyoverDescription": "On the R-renewal, the Eye ascends to a sweeping vantage, watches the nodes take their new posts, then returns to its watch."
     },
     "messaging": {
       "title": "Missive Roles Configuration",

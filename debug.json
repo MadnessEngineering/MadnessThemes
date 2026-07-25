@@ -1082,7 +1082,10 @@
       "fpsTitle": "settings.swarmdesk.fpsTitle",
       "fpsDescription": "settings.swarmdesk.fpsDescription",
       "fpsBaseSpeed": "settings.swarmdesk.fpsBaseSpeed",
-      "fpsSprintSpeed": "settings.swarmdesk.fpsSprintSpeed"
+      "fpsSprintSpeed": "settings.swarmdesk.fpsSprintSpeed",
+      "cameraTitle": "settings.swarmdesk.cameraTitle",
+      "refreshFlyoverLabel": "settings.swarmdesk.refreshFlyoverLabel",
+      "refreshFlyoverDescription": "settings.swarmdesk.refreshFlyoverDescription"
     },
     "messaging": {
       "title": "Message Roles Configuration",

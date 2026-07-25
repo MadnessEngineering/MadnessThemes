@@ -1016,7 +1016,10 @@
       "fpsTitle": "First-Person Navigation Mode (F key)",
       "fpsDescription": "Optimizes camera velocity for first-person navigation workflows.",
       "fpsBaseSpeed": "Standard Velocity",
-      "fpsSprintSpeed": "Accelerated Velocity (Ctrl held)"
+      "fpsSprintSpeed": "Accelerated Velocity (Ctrl held)",
+      "cameraTitle": "Camera Optimization",
+      "refreshFlyoverLabel": "Deploy Refresh Flyover",
+      "refreshFlyoverDescription": "On R-refresh, pivot to an overhead vantage point, monitor node repositioning in real time, then return to standard operating view."
     },
     "messaging": {
       "title": "Communication Role Management",

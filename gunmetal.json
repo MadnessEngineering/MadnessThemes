@@ -1090,7 +1090,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera movement when using first-person navigation.",
       "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)",
+      "cameraTitle": "Camera",
+      "refreshFlyoverLabel": "Flyover Sweep",
+      "refreshFlyoverDescription": "On R-refresh, camera sweeps to overhead position, tracks nodes to new coordinates, then returns to station."
     },
     "theme": {
       "title": "Theme",

@@ -1048,7 +1048,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera movement when using first-person navigation.",
       "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)",
+      "cameraTitle": "Treetop View",
+      "refreshFlyoverLabel": "Restock Flyover",
+      "refreshFlyoverDescription": "On R-restock, zoom up to the treetop for a bird's-eye view, watch the nodes resettle into place, then swoop back down."
     },
     "messaging": {
       "title": "Message Roles Configuration",

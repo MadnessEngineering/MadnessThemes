@@ -1048,7 +1048,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Controls camera movement when using first-person navigation.",
       "fpsBaseSpeed": "Walk Speed",
-      "fpsSprintSpeed": "Sprint Speed (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Speed (Ctrl held)",
+      "cameraTitle": "Lookout",
+      "refreshFlyoverLabel": "Resurvey Flyover",
+      "refreshFlyoverDescription": "On R-resurvey, the lookout climbs high, watches nodes settle into place, then climbs back down."
     },
     "messaging": {
       "title": "Clan Role Configuration",

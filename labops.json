@@ -1048,7 +1048,10 @@
       "fpsTitle": "FPS Mode (F key)",
       "fpsDescription": "Camera traversal config for first-person navigation mode.",
       "fpsBaseSpeed": "Walk Rate",
-      "fpsSprintSpeed": "Sprint Rate (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Rate (Ctrl held)",
+      "cameraTitle": "Camera",
+      "refreshFlyoverLabel": "Resync Flyover",
+      "refreshFlyoverDescription": "On R-resync, the camera cuts to an overhead view, tracks nodes into their new positions, then returns."
     },
     "messaging": {
       "title": "Message Role Configuration",

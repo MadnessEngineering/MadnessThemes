@@ -1082,7 +1082,10 @@
       "fpsTitle": "Terrestrial Mode (F key)",
       "fpsDescription": "Governs ground-level locomotion through the dimensional corridors.",
       "fpsBaseSpeed": "Walking Velocity",
-      "fpsSprintSpeed": "Sprint Velocity (Ctrl held)"
+      "fpsSprintSpeed": "Sprint Velocity (Ctrl held)",
+      "cameraTitle": "Scrying Lens",
+      "refreshFlyoverLabel": "Ritual Overflight",
+      "refreshFlyoverDescription": "On the R-refresh rite, the lens warps to a sweeping overview, watches the nodes drift into their new positions, then warps back."
     },
     "messaging": {
       "title": "Consciousness Persona Configuration",
