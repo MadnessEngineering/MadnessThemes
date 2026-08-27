@@ -283,6 +283,7 @@
     "revertFailed": "Dig reversal failed: {{error}}",
     "revertDeleteNotSupported": "Cannot restore collapsed tunnel - ore is scattered",
     "revertNotSupported": "Cannot reverse {{operation}} - tunnel too deep",
+    "revertNotPermitted": "That's another dwarf's dig — ye cannot undo it",
     "descriptions": {
       "projectCreated": "Quarry \"{{projectName}}\" was established",
       "projectUpdated": "Quarry \"{{projectName}}\" was modified",

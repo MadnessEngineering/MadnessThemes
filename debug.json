@@ -283,6 +283,7 @@
     "revertFailed": "activityLog.revertFailed",
     "revertDeleteNotSupported": "activityLog.revertDeleteNotSupported",
     "revertNotSupported": "activityLog.revertNotSupported",
+    "revertNotPermitted": "activityLog.revertNotPermitted",
     "descriptions": {
       "projectCreated": "activityLog.descriptions.projectCreated",
       "projectUpdated": "activityLog.descriptions.projectUpdated",

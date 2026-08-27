@@ -283,6 +283,7 @@
     "revertFailed": "Reversal protocol failed: {{error}}",
     "revertDeleteNotSupported": "Cannot restore archived specimen — sample is permanently decommissioned",
     "revertNotSupported": "Reversal not supported for {{operation}} procedure",
+    "revertNotPermitted": "Reversal denied — record belongs to another practitioner",
     "descriptions": {
       "projectCreated": "Study \"{{projectName}}\" registered",
       "projectUpdated": "Study \"{{projectName}}\" amended",

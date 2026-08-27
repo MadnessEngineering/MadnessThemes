@@ -283,6 +283,7 @@
     "revertFailed": "Revert operation failed: {{error}}",
     "revertDeleteNotSupported": "Cannot restore destroyed unit - mech lost",
     "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "revertNotPermitted": "Revert denied — entry belongs to another operator",
     "descriptions": {
       "projectCreated": "Mech \"{{projectName}}\" was registered",
       "projectUpdated": "Mech \"{{projectName}}\" was reconfigured",

@@ -584,6 +584,7 @@
     "revertFailed": "Failed to revert: {{error}}",
     "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
     "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "revertNotPermitted": "Cannot revert — this entry belongs to another user",
     "autoRefreshOn": "Auto-refresh enabled",
     "autoRefreshOff": "Auto-refresh disabled",
     "autoRefreshingInterval": " (auto-refreshing)",

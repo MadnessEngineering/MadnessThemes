@@ -283,6 +283,7 @@
     "revertFailed": "Swing reversal failed: {{error}}",
     "revertDeleteNotSupported": "Cannot restore dropped banana - already slipped away",
     "revertNotSupported": "Cannot reverse {{operation}} - too ripe to undo",
+    "revertNotPermitted": "Not your banana to un-peel",
     "descriptions": {
       "projectCreated": "Tree \"{{projectName}}\" was planted",
       "projectUpdated": "Tree \"{{projectName}}\" was groomed",

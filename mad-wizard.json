@@ -283,6 +283,7 @@
     "revertFailed": "Reversal spell failed: {{error}}",
     "revertDeleteNotSupported": "Cannot reverse deletion spell - essence is dispersed",
     "revertNotSupported": "Reversal not possible for {{operation}} enchantment",
+    "revertNotPermitted": "Cannot unweave another mage's working",
     "confirmRevert": "Confirm Mystical Reversal",
     "confirmRevertMessage": "Are you certain you wish to reverse this {{operation}} enchantment for: {{description}}?",
     "confirmRevertAction": "Reverse Enchantment",

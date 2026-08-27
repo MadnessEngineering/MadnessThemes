@@ -283,6 +283,7 @@
     "revertFailed": "Recantation failed: {{error}}",
     "revertDeleteNotSupported": "Recanting expungement is not permitted — inscription is gone",
     "revertNotSupported": "Recantation not permitted for {{operation}}",
+    "revertNotPermitted": "Recantation not permitted — the inscription is another's",
     "confirmRevert": "Confirm Recantation",
     "confirmRevertMessage": "Recant {{operation}} on: {{description}}?",
     "confirmRevertAction": "Recant",

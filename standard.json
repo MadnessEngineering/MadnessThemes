@@ -283,6 +283,7 @@
     "revertFailed": "Failed to revert: {{error}}",
     "revertDeleteNotSupported": "Cannot revert delete operation - data is lost",
     "revertNotSupported": "Revert not supported for {{operation}} operation",
+    "revertNotPermitted": "Cannot revert — this entry belongs to another user",
     "confirmRevert": "Confirm Revert Operation",
     "confirmRevertMessage": "Are you sure you want to revert this {{operation}} operation for: {{description}}?",
     "confirmRevertAction": "Revert Operation",

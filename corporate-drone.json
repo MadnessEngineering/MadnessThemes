@@ -2467,6 +2467,7 @@
     "revertFailed": "Rollback procedure failed: {{error}}",
     "revertDeleteNotSupported": "Cannot restore deleted resource - recovery SLA exceeded",
     "revertNotSupported": "Rollback protocol unavailable for {{operation}} action",
+    "revertNotPermitted": "Rollback denied — entry owned by another stakeholder",
     "confirmRevert": "Confirm Transaction Rollback",
     "confirmRevertMessage": "Please confirm you wish to reverse this {{operation}} transaction for: {{description}}?",
     "confirmRevertAction": "Execute Rollback",
