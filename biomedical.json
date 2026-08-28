@@ -284,6 +284,9 @@
     "revertDeleteNotSupported": "Cannot restore archived specimen — sample is permanently decommissioned",
     "revertNotSupported": "Reversal not supported for {{operation}} procedure",
     "revertNotPermitted": "Reversal denied — record belongs to another practitioner",
+    "revertCreateWarning": "Reverting creation withdraws this record. It can be reinstated afterwards.",
+    "revertDeleteNoData": "No archived record found — nothing to reinstate",
+    "revertDeleteAlreadyLive": "Already reinstated — record is active again",
     "descriptions": {
       "projectCreated": "Study \"{{projectName}}\" registered",
       "projectUpdated": "Study \"{{projectName}}\" amended",

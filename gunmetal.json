@@ -284,6 +284,9 @@
     "revertDeleteNotSupported": "Cannot restore destroyed unit - mech lost",
     "revertNotSupported": "Revert not supported for {{operation}} operation",
     "revertNotPermitted": "Revert denied — entry belongs to another operator",
+    "revertCreateWarning": "Reverting creation removes this entry. Recovery is still possible after.",
+    "revertDeleteNoData": "No recoverable record — nothing to restore",
+    "revertDeleteAlreadyLive": "Already restored — entry is back in service",
     "descriptions": {
       "projectCreated": "Mech \"{{projectName}}\" was registered",
       "projectUpdated": "Mech \"{{projectName}}\" was reconfigured",

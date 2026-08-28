@@ -284,6 +284,9 @@
     "revertDeleteNotSupported": "activityLog.revertDeleteNotSupported",
     "revertNotSupported": "activityLog.revertNotSupported",
     "revertNotPermitted": "activityLog.revertNotPermitted",
+    "revertCreateWarning": "activityLog.revertCreateWarning",
+    "revertDeleteNoData": "activityLog.revertDeleteNoData",
+    "revertDeleteAlreadyLive": "activityLog.revertDeleteAlreadyLive",
     "descriptions": {
       "projectCreated": "activityLog.descriptions.projectCreated",
       "projectUpdated": "activityLog.descriptions.projectUpdated",

@@ -284,6 +284,9 @@
     "revertDeleteNotSupported": "Cannot restore dropped banana - already slipped away",
     "revertNotSupported": "Cannot reverse {{operation}} - too ripe to undo",
     "revertNotPermitted": "Not your banana to un-peel",
+    "revertCreateWarning": "Un-creating tosses this banana. You can fish it back out after.",
+    "revertDeleteNoData": "The bin's empty — that banana's long gone",
+    "revertDeleteAlreadyLive": "Already fished out — it's back in the bunch",
     "descriptions": {
       "projectCreated": "Tree \"{{projectName}}\" was planted",
       "projectUpdated": "Tree \"{{projectName}}\" was groomed",
