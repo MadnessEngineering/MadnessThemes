@@ -2925,8 +2925,23 @@
     "none": "targetAgent.none"
   },
   "accountPanel": {
+    "export": {
+      "title": "accountPanel.export.title",
+      "description": "accountPanel.export.description",
+      "upgradeRequired": "accountPanel.export.upgradeRequired",
+      "action": "accountPanel.export.action",
+      "inProgress": "accountPanel.export.inProgress",
+      "successTitle": "accountPanel.export.successTitle",
+      "partialTitle": "accountPanel.export.partialTitle",
+      "partialDetail": "accountPanel.export.partialDetail",
+      "failedTitle": "accountPanel.export.failedTitle",
+      "todos": "accountPanel.export.todos",
+      "projects": "accountPanel.export.projects",
+      "activityLogs": "accountPanel.export.activityLogs"
+    },
     "title": "accountPanel.title",
     "tabs": {
+      "data": "accountPanel.tabs.data",
       "profile": "accountPanel.tabs.profile",
       "subscription": "accountPanel.tabs.subscription",
       "account": "accountPanel.tabs.account"

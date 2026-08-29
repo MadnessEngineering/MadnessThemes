@@ -2911,8 +2911,23 @@
     "none": "Unassigned"
   },
   "accountPanel": {
+    "export": {
+      "title": "Export operational data",
+      "description": "Produces a JSON artifact with your tasks, resources, configuration, and operational log. Store it in a safe location — it contains your full account state.",
+      "upgradeRequired": "Data export requires a Pro plan.",
+      "action": "Export all data",
+      "inProgress": "Exporting…",
+      "successTitle": "Export complete",
+      "partialTitle": "Export incomplete",
+      "partialDetail": "These sections could not be collected",
+      "failedTitle": "Export failed",
+      "todos": "Tasks",
+      "projects": "Resources",
+      "activityLogs": "Log entries"
+    },
     "title": "Operator Registry",
     "tabs": {
+      "data": "Your Data",
       "profile": "Operator Profile",
       "subscription": "Lab Access Level",
       "account": "Account Configuration"

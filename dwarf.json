@@ -2911,8 +2911,23 @@
     "none": "None"
   },
   "accountPanel": {
+    "export": {
+      "title": "Copy out yer hoard",
+      "description": "Writes every dig, seam, setting, and ledger line into one file. Keep it in a strongbox — it's the whole of what ye own.",
+      "upgradeRequired": "Haulin' out the hoard is a Pro-guild right.",
+      "action": "Haul out everything",
+      "inProgress": "Haulin'…",
+      "successTitle": "The hoard's copied",
+      "partialTitle": "Copied, but some seams were dry",
+      "partialDetail": "Couldn't reach these seams",
+      "failedTitle": "The haul failed",
+      "todos": "Diggings",
+      "projects": "Seams",
+      "activityLogs": "Ledger lines"
+    },
     "title": "The Forge Registry",
     "tabs": {
+      "data": "Yer Hoard",
       "profile": "Miner Profile",
       "subscription": "Ore Subscriptions",
       "account": "Vault Access"

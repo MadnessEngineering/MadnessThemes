@@ -2912,8 +2912,23 @@
     "none": "Unsworn"
   },
   "accountPanel": {
+    "export": {
+      "title": "Transcribe thy records",
+      "description": "Inscribes every charge, order, preference, and chronicle into a single file. Keep it under seal — it bears the whole of thy service.",
+      "upgradeRequired": "Transcription is granted to the Pro order.",
+      "action": "Transcribe all records",
+      "inProgress": "Transcribing…",
+      "successTitle": "The record is complete",
+      "partialTitle": "The record is incomplete",
+      "partialDetail": "These passages could not be inscribed",
+      "failedTitle": "The transcription failed",
+      "todos": "Charges",
+      "projects": "Orders",
+      "activityLogs": "Chronicle entries"
+    },
     "title": "Knight's Dossier",
     "tabs": {
+      "data": "Thy Records",
       "profile": "Knight's Record",
       "subscription": "Order Vows",
       "account": "Sanctum Access"

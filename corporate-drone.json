@@ -2945,8 +2945,23 @@
     "none": "Unallocated"
   },
   "accountPanel": {
+    "export": {
+      "title": "Data asset extraction",
+      "description": "Generates a JSON deliverable containing your action items, workstreams, configuration, and audit trail. Retain per your personal records policy.",
+      "upgradeRequired": "Data extraction is a Pro-tier entitlement.",
+      "action": "Initiate full extraction",
+      "inProgress": "Extraction in progress…",
+      "successTitle": "Extraction complete",
+      "partialTitle": "Extraction completed with gaps",
+      "partialDetail": "The following workstreams could not be sourced",
+      "failedTitle": "Extraction failed",
+      "todos": "Action items",
+      "projects": "Workstreams",
+      "activityLogs": "Audit entries"
+    },
     "title": "Employee Portal",
     "tabs": {
+      "data": "Data Assets",
       "profile": "Personnel File",
       "subscription": "Service Level Agreement",
       "account": "Account Administration"

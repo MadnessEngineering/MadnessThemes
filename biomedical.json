@@ -2911,8 +2911,23 @@
     "none": "No Assignment"
   },
   "accountPanel": {
+    "export": {
+      "title": "Export your records",
+      "description": "Generates a JSON file containing your records, studies, preferences, and chart history. Store it securely — it contains your complete file.",
+      "upgradeRequired": "Record export is available on the Pro plan.",
+      "action": "Export all records",
+      "inProgress": "Exporting…",
+      "successTitle": "Export complete",
+      "partialTitle": "Export incomplete",
+      "partialDetail": "These sections could not be retrieved",
+      "failedTitle": "Export failed",
+      "todos": "Records",
+      "projects": "Studies",
+      "activityLogs": "Chart entries"
+    },
     "title": "Patient Registry",
     "tabs": {
+      "data": "Your Records",
       "profile": "Specimen Profile",
       "subscription": "Treatment Subscriptions",
       "account": "Account Clearance"

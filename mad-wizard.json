@@ -2945,8 +2945,23 @@
     "none": "Lost Soul"
   },
   "accountPanel": {
+    "export": {
+      "title": "Transcribe thy grimoire",
+      "description": "Copies every working, sigil, setting, and remembered deed into a single scroll. Guard it well — it holds the whole of thy practice.",
+      "upgradeRequired": "Transcription is a rite of the Pro circle.",
+      "action": "Transcribe everything",
+      "inProgress": "Transcribing…",
+      "successTitle": "The scroll is complete",
+      "partialTitle": "The scroll has gaps",
+      "partialDetail": "These passages could not be recovered",
+      "failedTitle": "The transcription failed",
+      "todos": "Workings",
+      "projects": "Sigils",
+      "activityLogs": "Remembered deeds"
+    },
     "title": "My Laboratory Dossier",
     "tabs": {
+      "data": "Thy Grimoire",
       "profile": "Arcane Profile",
       "subscription": "Mystical Subscriptions",
       "account": "Account Sanctum"

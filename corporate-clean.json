@@ -2911,8 +2911,23 @@
     "none": "Unassigned"
   },
   "accountPanel": {
+    "export": {
+      "title": "Export your data",
+      "description": "Downloads a JSON file containing your todos, projects, settings, and activity history. Store it securely — it contains everything in your account.",
+      "upgradeRequired": "Data export is available on the Pro plan.",
+      "action": "Export all data",
+      "inProgress": "Exporting…",
+      "successTitle": "Export complete",
+      "partialTitle": "Exported, but incomplete",
+      "partialDetail": "These sections could not be collected",
+      "failedTitle": "Export failed",
+      "todos": "Todos",
+      "projects": "Projects",
+      "activityLogs": "Activity entries"
+    },
     "title": "Account Dashboard",
     "tabs": {
+      "data": "Your Data",
       "profile": "Profile",
       "subscription": "Subscription",
       "account": "Account Settings"

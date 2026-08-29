@@ -2911,8 +2911,23 @@
     "none": "Stray Monkey"
   },
   "accountPanel": {
+    "export": {
+      "title": "Bag up your bunch",
+      "description": "Packs every banana, bunch, setting, and slip into one JSON file. Keep it somewhere dry — it's the whole bunch.",
+      "upgradeRequired": "Bagging the bunch is a Pro perk.",
+      "action": "Bag it all up",
+      "inProgress": "Bagging…",
+      "successTitle": "All bagged up",
+      "partialTitle": "Bagged, but a few went missing",
+      "partialDetail": "Couldn't find these",
+      "failedTitle": "The bag split",
+      "todos": "Bananas",
+      "projects": "Bunches",
+      "activityLogs": "Slips"
+    },
     "title": "Monkey Business",
     "tabs": {
+      "data": "Your Bunch",
       "profile": "Peeled Profile",
       "subscription": "Banana Subscriptions",
       "account": "Account Treehouse"

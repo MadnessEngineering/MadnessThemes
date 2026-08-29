@@ -2911,8 +2911,23 @@
     "none": "Unassigned"
   },
   "accountPanel": {
+    "export": {
+      "title": "Export your data",
+      "description": "Writes a JSON file with your entries, operations, configuration, and log history. Secure the file — it contains the whole account.",
+      "upgradeRequired": "Export is a Pro-tier capability.",
+      "action": "Export all data",
+      "inProgress": "Exporting…",
+      "successTitle": "Export complete",
+      "partialTitle": "Export incomplete",
+      "partialDetail": "These sections could not be read",
+      "failedTitle": "Export failed",
+      "todos": "Entries",
+      "projects": "Operations",
+      "activityLogs": "Log entries"
+    },
     "title": "Operative Dossier",
     "tabs": {
+      "data": "Your Data",
       "profile": "Personnel Record",
       "subscription": "Service Contract",
       "account": "Account Command"
