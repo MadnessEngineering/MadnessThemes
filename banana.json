@@ -1972,7 +1972,9 @@
       "refreshContext": "Refresh Banana Context",
       "aiSettings": "AI Apparatus Settings (Go to Jungle Settings)",
       "aiSettingsRedirect": "AI apparatus configuration has been moved to Settings → AI Jungle Configuration",
-      "downloadChat": "Pack to Go"
+      "downloadChat": "Pack to Go",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to pack — the chat is empty."

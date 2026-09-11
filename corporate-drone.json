@@ -2078,7 +2078,9 @@
       "refreshContext": "Refresh Operational Context",
       "aiSettings": "AI System Configuration (Go to Settings)",
       "aiSettingsRedirect": "AI system configuration has been moved to Settings → AI Configuration",
-      "downloadChat": "Download Chat Transcript"
+      "downloadChat": "Download Chat Transcript",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to download — this communication log is empty."

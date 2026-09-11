@@ -1564,7 +1564,9 @@
       "refreshContext": "Resync Tactical Data",
       "aiSettings": "AI Config (Cockpit Config)",
       "aiSettingsRedirect": "AI configuration moved to Cockpit Config → AI Configuration",
-      "downloadChat": "Download Transcript"
+      "downloadChat": "Download Transcript",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to retrieve — comms log is empty."

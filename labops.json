@@ -1564,7 +1564,9 @@
       "refreshContext": "Resync Context",
       "aiSettings": "Diagnostics Config (Settings)",
       "aiSettingsRedirect": "AI diagnostics config has moved to Settings → Diagnostics Config",
-      "downloadChat": "Export Snapshot"
+      "downloadChat": "Export Snapshot",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to export — session log is empty."

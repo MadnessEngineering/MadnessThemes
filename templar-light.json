@@ -1565,7 +1565,9 @@
       "refreshContext": "Refresh Context",
       "aiSettings": "Oracle Settings (Go to Settings)",
       "aiSettingsRedirect": "Oracle configuration has been moved to Settings → Oracle Configuration",
-      "downloadChat": "Transcribe Session"
+      "downloadChat": "Transcribe Session",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to transcribe — this session holds no record."

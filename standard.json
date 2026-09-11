@@ -1598,7 +1598,9 @@
       "refreshContext": "Refresh Context",
       "aiSettings": "AI Settings (Go to Settings)",
       "aiSettingsRedirect": "AI configuration has been moved to Settings → AI Configuration",
-      "downloadChat": "Download Chat"
+      "downloadChat": "Download Chat",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to download — this chat is empty."

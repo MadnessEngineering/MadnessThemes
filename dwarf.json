@@ -1972,7 +1972,9 @@
       "refreshContext": "Refresh Ore Context",
       "aiSettings": "Forge Familiar Setup (Go to Forge Settings)",
       "aiSettingsRedirect": "Forge familiar binding has moved to Settings → Forge Familiar Setup",
-      "downloadChat": "Haul Out Chat Log"
+      "downloadChat": "Haul Out Chat Log",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "Nothing to haul — the chat log is empty."

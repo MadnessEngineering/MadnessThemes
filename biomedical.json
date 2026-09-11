@@ -1466,7 +1466,9 @@
       "refreshContext": "Rescan Context",
       "aiSettings": "AI Configuration (Go to Settings)",
       "aiSettingsRedirect": "AI configuration has been moved to Lab Configuration → AI Configuration",
-      "downloadChat": "Export Session Records"
+      "downloadChat": "Export Session Records",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "No session data recorded — this log is empty."

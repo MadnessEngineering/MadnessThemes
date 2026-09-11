@@ -2030,7 +2030,9 @@
       "refreshContext": "chatAssistant.menu.refreshContext",
       "aiSettings": "chatAssistant.menu.aiSettings",
       "aiSettingsRedirect": "chatAssistant.menu.aiSettingsRedirect",
-      "downloadChat": "chatAssistant.menu.downloadChat"
+      "downloadChat": "chatAssistant.menu.downloadChat",
+      "exportAllChats": "Export All Chats",
+      "exportingAll": "Exporting…"
     },
     "download": {
       "empty": "chatAssistant.download.empty"
