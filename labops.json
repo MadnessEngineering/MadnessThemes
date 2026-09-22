@@ -395,7 +395,8 @@
     "queue": "📥 Processing Queue",
     "inventory": "🗄️ Equipment Registry",
     "quests": "⚔️ Objectives",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Scratch Log"
   },
   "mobileNavigation": {
     "goBack": "Return to Station",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Triage"
     }
+  },
+  "notesDock": {
+    "title": "Scratch Log",
+    "placeholder": "+ log a note…",
+    "full": "Scratch log full — decommission a few entries",
+    "empty": "No entries logged.",
+    "promote": "Provision as a ticket",
+    "promoted": "Already provisioned",
+    "promoteInto": "↗ provision into",
+    "pickProject": "select a service"
   }
 }

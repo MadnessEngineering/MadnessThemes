@@ -395,7 +395,8 @@
     "queue": "📥 Sample Queue",
     "inventory": "🗄️ Specimen Registry",
     "quests": "⚔️ Trials",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Observation Log"
   },
   "mobileNavigation": {
     "goBack": "Return to Previous Phase",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Review Queue"
     }
+  },
+  "notesDock": {
+    "title": "Observation Log",
+    "placeholder": "+ log an observation…",
+    "full": "Log at capacity — archive a few observations",
+    "empty": "No observations logged yet.",
+    "promote": "Register as a study",
+    "promoted": "Already registered",
+    "promoteInto": "↗ register into",
+    "pickProject": "select a study"
   }
 }

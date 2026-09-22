@@ -395,7 +395,8 @@
     "queue": "📥 Mission Queue",
     "inventory": "🗄️ Arsenal",
     "quests": "⚔️ Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Field Notes"
   },
   "mobileNavigation": {
     "goBack": "Fall Back",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Clearance Queue"
     }
+  },
+  "notesDock": {
+    "title": "Field Notes",
+    "placeholder": "+ log a field note…",
+    "full": "Field log full — destroy a few notes",
+    "empty": "No field notes logged.",
+    "promote": "Deploy as a mission",
+    "promoted": "Already deployed",
+    "promoteInto": "↗ deploy into",
+    "pickProject": "select a mech"
   }
 }

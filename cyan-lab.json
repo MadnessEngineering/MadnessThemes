@@ -2368,7 +2368,8 @@
     "queue": "📥 Processing Stack",
     "inventory": "🗄️ Data Vault",
     "quests": "⚔️ Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Scratch Buffer"
   },
   "mobileNavigation": {
     "goBack": "Rewind Protocol",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Commit Queue"
     }
+  },
+  "notesDock": {
+    "title": "Scratch Buffer",
+    "placeholder": "+ buffer a note…",
+    "full": "Buffer full — clear a few entries",
+    "empty": "Buffer is empty.",
+    "promote": "Compile into a task",
+    "promoted": "Already compiled",
+    "promoteInto": "↗ compile into",
+    "pickProject": "select a project"
   }
 }

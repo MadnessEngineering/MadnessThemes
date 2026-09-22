@@ -395,7 +395,8 @@
     "account": "👤 Wizard Profile",
     "queue": "📥 Pending Rituals",
     "quests": "⚔️ Arcane Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Grimoire"
   },
   "mobileNavigation": {
     "goBack": "Retreat to previous chamber",
@@ -3516,5 +3517,15 @@
       "timeline": "Chronology",
       "review": "Judgment"
     }
+  },
+  "notesDock": {
+    "title": "Grimoire Scraps",
+    "placeholder": "+ inscribe a scrap…",
+    "full": "The grimoire is full — banish a few scraps",
+    "empty": "No scraps yet inscribed.",
+    "promote": "Conjure a task from this",
+    "promoted": "Already conjured",
+    "promoteInto": "↗ conjure into",
+    "pickProject": "choose a sanctum"
   }
 }

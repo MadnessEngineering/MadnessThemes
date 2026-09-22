@@ -395,7 +395,8 @@
     "queue": "panels.queue",
     "inventory": "panels.inventory",
     "quests": "panels.quests",
-    "chronicle": "panels.chronicle"
+    "chronicle": "panels.chronicle",
+    "notes": "panels.notes"
   },
   "mobileNavigation": {
     "goBack": "mobileNavigation.goBack",
@@ -3496,5 +3497,15 @@
       "timeline": "chronicle.mode.timeline",
       "review": "chronicle.mode.review"
     }
+  },
+  "notesDock": {
+    "title": "notesDock.title",
+    "placeholder": "notesDock.placeholder",
+    "full": "notesDock.full",
+    "empty": "notesDock.empty",
+    "promote": "notesDock.promote",
+    "promoted": "notesDock.promoted",
+    "promoteInto": "notesDock.promoteInto",
+    "pickProject": "notesDock.pickProject"
   }
 }

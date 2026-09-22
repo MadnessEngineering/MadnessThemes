@@ -395,7 +395,8 @@
     "queue": "📥 Processing Queue",
     "inventory": "🗄️ Asset Inventory",
     "quests": "⚔️ Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Notes"
   },
   "mobileNavigation": {
     "goBack": "Go Back",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Review"
     }
+  },
+  "notesDock": {
+    "title": "Notes",
+    "placeholder": "+ new note…",
+    "full": "Notes are full — remove a few",
+    "empty": "No notes yet.",
+    "promote": "Create a todo from this",
+    "promoted": "Already a todo",
+    "promoteInto": "↗ into",
+    "pickProject": "select a project"
   }
 }

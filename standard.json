@@ -395,7 +395,8 @@
     "account": "👤 Account",
     "queue": "📥 Queue",
     "quests": "⚔️ Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Notes"
   },
   "mobileNavigation": {
     "goBack": "Go back",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Review"
     }
+  },
+  "notesDock": {
+    "title": "Notes",
+    "placeholder": "+ new note…",
+    "full": "Note pad is full — clear a few",
+    "empty": "Nothing parked here yet.",
+    "promote": "Make a todo from this",
+    "promoted": "Already a todo",
+    "promoteInto": "↗ into",
+    "pickProject": "pick a project"
   }
 }

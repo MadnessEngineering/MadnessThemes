@@ -395,7 +395,8 @@
     "queue": "📥 Ore Queue",
     "inventory": "🗄️ Supply Cavern",
     "quests": "⚔️ Guild Contracts",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Scratchings"
   },
   "mobileNavigation": {
     "goBack": "Retreat to Previous Tunnel",
@@ -3516,5 +3517,15 @@
       "timeline": "The Dig Log",
       "review": "Foreman's Review"
     }
+  },
+  "notesDock": {
+    "title": "Chalk Scratchings",
+    "placeholder": "+ chalk a scratching…",
+    "full": "Slate's full — collapse a few scratchings",
+    "empty": "No scratchings on the slate.",
+    "promote": "Chisel into a dig",
+    "promoted": "Already chiseled",
+    "promoteInto": "↗ chisel into",
+    "pickProject": "pick a quarry"
   }
 }

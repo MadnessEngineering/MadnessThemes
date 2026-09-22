@@ -325,7 +325,8 @@
     "queue": "📥 Pending Approvals",
     "inventory": "🗄️ Asset Registry",
     "quests": "⚔️ Initiatives",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Quick Capture"
   },
   "mobileNavigation": {
     "goBack": "Return to previous view",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Approval Queue"
     }
+  },
+  "notesDock": {
+    "title": "Quick Capture",
+    "placeholder": "+ log an action item…",
+    "full": "Capture queue at max capacity — decommission a few",
+    "empty": "No action items captured yet.",
+    "promote": "Escalate to backlog item",
+    "promoted": "Already escalated",
+    "promoteInto": "↗ escalate to",
+    "pickProject": "select an initiative"
   }
 }

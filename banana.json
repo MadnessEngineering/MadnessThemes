@@ -395,7 +395,8 @@
     "queue": "📥 Banana Queue",
     "inventory": "🗄️ Jungle Stash",
     "quests": "⚔️ Quests",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Peel Notes"
   },
   "mobileNavigation": {
     "goBack": "Swing Back",
@@ -3516,5 +3517,15 @@
       "timeline": "Timeline",
       "review": "Peek Pile"
     }
+  },
+  "notesDock": {
+    "title": "Peel Notes",
+    "placeholder": "+ jot on a peel…",
+    "full": "Peel pile's full — chuck a few",
+    "empty": "No peels jotted yet.",
+    "promote": "Swing into a task",
+    "promoted": "Already swung",
+    "promoteInto": "↗ swing into",
+    "pickProject": "pick a branch"
   }
 }

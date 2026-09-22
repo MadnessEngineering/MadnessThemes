@@ -395,7 +395,8 @@
     "queue": "📥 Blessing Queue",
     "inventory": "🗄️ Relic Vault",
     "quests": "⚔️ Crusades",
-    "chronicle": "📜 Chronicle"
+    "chronicle": "📜 Chronicle",
+    "notes": "🗒️ Vow Scraps"
   },
   "mobileNavigation": {
     "goBack": "Return to Sanctuary",
@@ -3517,5 +3518,15 @@
       "timeline": "Chronicle",
       "review": "Judgment"
     }
+  },
+  "notesDock": {
+    "title": "Vow Scraps",
+    "placeholder": "+ inscribe a vow…",
+    "full": "The scroll is full — strike a few vows",
+    "empty": "No vows inscribed yet.",
+    "promote": "Pledge as a charge",
+    "promoted": "Already pledged",
+    "promoteInto": "↗ pledge into",
+    "pickProject": "choose a crusade"
   }
 }
