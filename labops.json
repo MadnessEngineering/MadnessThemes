@@ -3526,6 +3526,9 @@
     "promote": "Provision as a ticket",
     "promoted": "Already provisioned",
     "promoteInto": "↗ provision into",
-    "pickProject": "select a service"
+    "pickProject": "select a service",
+    "promoteQuest": "Provision as a pipeline",
+    "questedAlready": "Already pipelined",
+    "questFallbackName": "Ticket Pipeline"
   }
 }

@@ -3526,6 +3526,9 @@
     "promote": "Make a todo from this",
     "promoted": "Already a todo",
     "promoteInto": "↗ into",
-    "pickProject": "pick a project"
+    "pickProject": "pick a project",
+    "promoteQuest": "Make a quest from this",
+    "questedAlready": "Already a quest",
+    "questFallbackName": "Quest from Note"
   }
 }

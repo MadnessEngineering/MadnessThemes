@@ -3526,6 +3526,9 @@
     "promote": "Conjure a task from this",
     "promoted": "Already conjured",
     "promoteInto": "↗ conjure into",
-    "pickProject": "choose a sanctum"
+    "pickProject": "choose a sanctum",
+    "promoteQuest": "Weave a quest from this",
+    "questedAlready": "Already woven",
+    "questFallbackName": "Grimoire Saga"
   }
 }

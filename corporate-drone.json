@@ -3526,6 +3526,9 @@
     "promote": "Escalate to backlog item",
     "promoted": "Already escalated",
     "promoteInto": "↗ escalate to",
-    "pickProject": "select an initiative"
+    "pickProject": "select an initiative",
+    "promoteQuest": "Escalate to epic initiative",
+    "questedAlready": "Already an epic",
+    "questFallbackName": "Escalated Epic"
   }
 }

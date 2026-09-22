@@ -3526,6 +3526,9 @@
     "promote": "Deploy as a mission",
     "promoted": "Already deployed",
     "promoteInto": "↗ deploy into",
-    "pickProject": "select a mech"
+    "pickProject": "select a mech",
+    "promoteQuest": "Deploy as an operation",
+    "questedAlready": "Already an operation",
+    "questFallbackName": "Field Operation"
   }
 }

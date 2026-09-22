@@ -3526,6 +3526,9 @@
     "promote": "Chisel into a dig",
     "promoted": "Already chiseled",
     "promoteInto": "↗ chisel into",
-    "pickProject": "pick a quarry"
+    "pickProject": "pick a quarry",
+    "promoteQuest": "Chisel into a vein",
+    "questedAlready": "Already veined",
+    "questFallbackName": "Quarry Vein"
   }
 }

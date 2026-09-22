@@ -3506,6 +3506,9 @@
     "promote": "notesDock.promote",
     "promoted": "notesDock.promoted",
     "promoteInto": "notesDock.promoteInto",
-    "pickProject": "notesDock.pickProject"
+    "pickProject": "notesDock.pickProject",
+    "promoteQuest": "notesDock.promoteQuest",
+    "questedAlready": "notesDock.questedAlready",
+    "questFallbackName": "notesDock.questFallbackName"
   }
 }

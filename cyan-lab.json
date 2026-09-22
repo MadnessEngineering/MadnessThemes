@@ -3526,6 +3526,9 @@
     "promote": "Compile into a task",
     "promoted": "Already compiled",
     "promoteInto": "↗ compile into",
-    "pickProject": "select a project"
+    "pickProject": "select a project",
+    "promoteQuest": "Compile into a build",
+    "questedAlready": "Already built",
+    "questFallbackName": "Buffer Build"
   }
 }

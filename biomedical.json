@@ -3526,6 +3526,9 @@
     "promote": "Register as a study",
     "promoted": "Already registered",
     "promoteInto": "↗ register into",
-    "pickProject": "select a study"
+    "pickProject": "select a study",
+    "promoteQuest": "Register as a trial",
+    "questedAlready": "Already enrolled",
+    "questFallbackName": "Clinical Trial"
   }
 }

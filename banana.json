@@ -3526,6 +3526,9 @@
     "promote": "Swing into a task",
     "promoted": "Already swung",
     "promoteInto": "↗ swing into",
-    "pickProject": "pick a branch"
+    "pickProject": "pick a branch",
+    "promoteQuest": "Swing into a bunch",
+    "questedAlready": "Already bunched",
+    "questFallbackName": "Peel Bunch"
   }
 }

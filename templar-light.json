@@ -3527,6 +3527,9 @@
     "promote": "Pledge as a charge",
     "promoted": "Already pledged",
     "promoteInto": "↗ pledge into",
-    "pickProject": "choose a crusade"
+    "pickProject": "choose a crusade",
+    "promoteQuest": "Pledge as a crusade",
+    "questedAlready": "Already crusading",
+    "questFallbackName": "Sworn Crusade"
   }
 }
