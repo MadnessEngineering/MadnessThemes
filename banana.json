@@ -639,7 +639,8 @@
       "in_progress": "Peeling",
       "blocked": "Tangled in Vines",
       "all": "All Tasks",
-      "inProgress": "In Progress"
+      "inProgress": "In Progress",
+      "openQuestions": "Ripe for Answers"
     },
     "sort": {
       "newest": "Fresh Bananas",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Monkey See Mode",
       "review": "PEER GROOMING",
-      "notes": "Jungle Scribbles"
+      "notes": "Jungle Scribbles",
+      "openQuestion": "1 ripe question",
+      "openQuestions": "{{count}} ripe questions",
+      "openQuestionsHint": "Unripe questions — extract this todo as HTML to answer them",
+      "questions": "Ripe Questions",
+      "recommended": "top pick",
+      "answeredBy": "given the nod by",
+      "awaitingAnswer": "still ripening for an answer — extract as HTML to decide"
     },
     "aria": {
       "todoActions": "Swing task banana actions"

@@ -639,7 +639,8 @@
       "all": "All Tasks",
       "inProgress": "In Progress",
       "blocked": "Blocked",
-      "in_progress": "In Progress"
+      "in_progress": "In Progress",
+      "openQuestions": "Awaiting Orders"
     },
     "sort": {
       "newest": "Latest Briefing",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Locked",
       "review": "DEBRIEF",
-      "notes": "Field Notes"
+      "notes": "Field Notes",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unresolved questions — export this todo as HTML to answer them",
+      "questions": "Tactical Questions",
+      "recommended": "advised",
+      "answeredBy": "confirmed by",
+      "awaitingAnswer": "awaiting command input — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

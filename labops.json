@@ -639,7 +639,8 @@
       "all": "All Tickets",
       "inProgress": "Active",
       "blocked": "On Hold",
-      "in_progress": "Active"
+      "in_progress": "Active",
+      "openQuestions": "Awaiting Ack"
     },
     "sort": {
       "newest": "Newest",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Read-Only",
       "review": "TRIAGE",
-      "notes": "Operational Notes"
+      "notes": "Operational Notes",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unacked questions — export this ticket as HTML to answer them",
+      "questions": "Operational Questions",
+      "recommended": "canonical",
+      "answeredBy": "acked by",
+      "awaitingAnswer": "awaiting an ack — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Ticket actions"

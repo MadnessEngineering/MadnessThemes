@@ -639,7 +639,8 @@
       "all": "All Charges",
       "inProgress": "Under Arms",
       "blocked": "Hindered",
-      "in_progress": "Under Arms"
+      "in_progress": "Under Arms",
+      "openQuestions": "Awaiting Judgment"
     },
     "sort": {
       "newest": "Newest",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Sealed",
       "review": "EXAMINATION",
-      "notes": "Sacred Annotations"
+      "notes": "Sacred Annotations",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unanswered questions — transcribe this charge as HTML to answer them",
+      "questions": "Questions of Record",
+      "recommended": "blessed",
+      "answeredBy": "attested by",
+      "awaitingAnswer": "awaiting an answer — transcribe as HTML to decide"
     },
     "aria": {
       "todoActions": "Charge actions"

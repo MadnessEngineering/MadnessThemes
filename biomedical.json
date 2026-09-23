@@ -639,7 +639,8 @@
       "all": "All Assays",
       "inProgress": "In Trial",
       "blocked": "Contraindicated",
-      "in_progress": "In Trial"
+      "in_progress": "In Trial",
+      "openQuestions": "Awaiting Determination"
     },
     "sort": {
       "newest": "Newest",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Read-Only",
       "review": "ASSESSMENT",
-      "notes": "Clinical Notes"
+      "notes": "Clinical Notes",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unanswered questions — export this assay as HTML to answer them",
+      "questions": "Clinical Questions",
+      "recommended": "indicated",
+      "answeredBy": "reviewed by",
+      "awaitingAnswer": "pending clinician input — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Assay actions"

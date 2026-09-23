@@ -639,7 +639,8 @@
       "all": "All Tasks",
       "inProgress": "In Progress",
       "blocked": "Blocked",
-      "in_progress": "In Progress"
+      "in_progress": "In Progress",
+      "openQuestions": "Open Questions"
     },
     "sort": {
       "newest": "Newest First",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Read-Only",
       "review": "REVIEW",
-      "notes": "Notes"
+      "notes": "Notes",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unanswered questions — export this todo as HTML to answer them",
+      "questions": "Questions",
+      "recommended": "recommended",
+      "answeredBy": "answered by",
+      "awaitingAnswer": "awaiting an answer — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

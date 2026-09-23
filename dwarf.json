@@ -639,7 +639,8 @@
       "in_progress": "Mining",
       "blocked": "Cave-In",
       "all": "All Tasks",
-      "inProgress": "In Progress"
+      "inProgress": "In Progress",
+      "openQuestions": "Awaiting Word"
     },
     "sort": {
       "newest": "Fresh Claims",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "🔒 Stone Reader Mode",
       "review": "PEER SURVEY",
-      "notes": "Runic Scrawlings"
+      "notes": "Runic Scrawlings",
+      "openQuestion": "1 open question",
+      "openQuestions": "{{count}} open questions",
+      "openQuestionsHint": "Unanswered questions — extract this task as HTML to answer 'em",
+      "questions": "Unanswered Runes",
+      "recommended": "sound pick",
+      "answeredBy": "marked by",
+      "awaitingAnswer": "still waitin' on an answer — extract it as HTML to decide"
     },
     "aria": {
       "todoActions": "Mining task ore actions"

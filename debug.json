@@ -639,7 +639,8 @@
       "all": "All Tasks",
       "inProgress": "In Progress",
       "blocked": "Blocked",
-      "in_progress": "In Progress"
+      "in_progress": "In Progress",
+      "openQuestions": "todoList.filters.openQuestions"
     },
     "sort": {
       "newest": "todoList.sort.newest",
@@ -846,7 +847,14 @@
     "labels": {
       "readOnly": "todoList.labels.readOnly",
       "review": "todoList.labels.review",
-      "notes": "todoList.labels.notes"
+      "notes": "todoList.labels.notes",
+      "openQuestion": "todoList.labels.openQuestion",
+      "openQuestions": "todoList.labels.openQuestions",
+      "openQuestionsHint": "todoList.labels.openQuestionsHint",
+      "questions": "todoList.labels.questions",
+      "recommended": "todoList.labels.recommended",
+      "answeredBy": "todoList.labels.answeredBy",
+      "awaitingAnswer": "todoList.labels.awaitingAnswer"
     },
     "aria": {
       "todoActions": "todoList.aria.todoActions"

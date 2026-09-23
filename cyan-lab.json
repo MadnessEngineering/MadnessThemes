@@ -238,7 +238,8 @@
       "blocked": "Blocked",
       "allTasks": "All Tasks",
       "review": "Review",
-      "in_progress": "In Progress"
+      "in_progress": "In Progress",
+      "openQuestions": "Pending Queries"
     },
     "priority": {
       "critical": "Critical",
@@ -456,7 +457,14 @@
     "labels": {
       "readOnly": "🔒 Read-Only",
       "review": "REVIEW",
-      "notes": "Data Logs"
+      "notes": "Data Logs",
+      "openQuestion": "1 open query",
+      "openQuestions": "{{count}} open queries",
+      "openQuestionsHint": "Unanswered queries — export this todo as HTML to answer them",
+      "questions": "Query Log",
+      "recommended": "optimal",
+      "answeredBy": "logged by",
+      "awaitingAnswer": "awaiting input — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

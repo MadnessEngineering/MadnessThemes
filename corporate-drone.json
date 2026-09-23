@@ -569,7 +569,8 @@
       "in_progress": "Executing",
       "blocked": "Escalated",
       "all": "All Tasks",
-      "inProgress": "In Progress"
+      "inProgress": "In Progress",
+      "openQuestions": "Awaiting Sign-Off"
     },
     "sort": {
       "newest": "Recent Additions",
@@ -776,7 +777,14 @@
     "labels": {
       "readOnly": "🔒 Read-Only Access",
       "review": "UNDER REVIEW",
-      "notes": "Documentation"
+      "notes": "Documentation",
+      "openQuestion": "1 outstanding question",
+      "openQuestions": "{{count}} outstanding questions",
+      "openQuestionsHint": "Outstanding questions — export this todo as HTML to answer them",
+      "questions": "Outstanding Questions",
+      "recommended": "preferred",
+      "answeredBy": "actioned by",
+      "awaitingAnswer": "awaiting stakeholder input — export as HTML to decide"
     },
     "aria": {
       "todoActions": "Task management operations"
