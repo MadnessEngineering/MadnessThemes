@@ -53,7 +53,7 @@ Apply these to every theme. They are about *quality and consistency*, not a spec
    `standard.json` as a string still owed a voice pass. Regenerate the worklist:
 
    ```bash
-   cd src/locales/themes && node -e "const m=require('./THEME.json'),s=require('./standard.json');function f(o,p=''){let r={};for(const k in o){const v=o[k];const key=p?p+'.'+k:k;if(v&&typeof v==='object'&&!Array.isArray(v))Object.assign(r,f(v,key));else r[key]=v;}return r;}const fm=f(m),fs=f(s);for(const k in fm){if(typeof fm[k]==='string'&&fm[k]===fs[k]&&fm[k].length>2)console.log(k+' = '+JSON.stringify(fm[k]));}"
+   cd src/locales/themes && ./themetool.py worklist THEME
    ```
 
 10. **Read-aloud test.** Read the string out loud. Does it sound like a person *in this world* wrote

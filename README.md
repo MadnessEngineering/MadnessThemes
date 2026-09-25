@@ -36,6 +36,31 @@ Open **`palette-preview.html`** in your browser to see all themes side-by-side w
 - **UI Preview** — Mock dashboard rendered in each theme's colors
 - **Diff** — Before/after grid highlighting every changed color value
 
+## Tooling
+
+`themetool.py` is the one sanctioned way to batch-edit the `<theme>.json` string
+files. It exists so a voice pass doesn't mint yet another throwaway script with
+its own copy of `load`/`save`/`set_key` — that happened thirteen times before it
+did (see git history up to `5f4d927` if you want the archaeology).
+
+```bash
+./themetool.py validate                    # parse + shape check, every theme
+./themetool.py parity                      # key coverage vs standard.json
+./themetool.py worklist mad-wizard         # strings still identical to standard
+./themetool.py get labops settings.tabs.profile
+./themetool.py set labops settings.tabs.profile "Operator"
+./themetool.py patch labops patches.json   # {"dot.path": "value", ...}
+./themetool.py sync labops banana dwarf    # propagate keys a theme is missing
+```
+
+`patch` is the one that replaces the old `voice_pass_*.py` scripts: write the
+dot-path → string map to a JSON file, apply it, throw the JSON away. `patch` and
+`sync` both take `-n` / `--dry-run`. `parity --strict` exits non-zero on drift,
+for a pre-commit check.
+
+Palettes (`*-colors.json`) are a different shape and are left alone by every
+subcommand.
+
 ## Contributing
 
 We'd love contributions! Whether it's a whole new theme, a color tweak, or a fun personality translation — all are welcome.
