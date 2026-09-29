@@ -257,6 +257,7 @@
       "todosCreated": "Tickets Opened",
       "todosUpdated": "Tickets Updated",
       "todosCompleted": "Tickets Resolved",
+      "questionsAnswered": "Operational Questions Acked",
       "todosDeleted": "Tickets Decommissioned",
       "projectsCreated": "Projects Provisioned",
       "projectsUpdated": "Services Updated",

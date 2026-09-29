@@ -2457,6 +2457,7 @@
       "todosCreated": "Story Points Initiated",
       "todosUpdated": "Story Points Realigned",
       "todosCompleted": "Story Points Accomplished",
+      "questionsAnswered": "Outstanding Questions Actioned",
       "todosDeleted": "Story Points Sunsetted",
       "projectsCreated": "Initiatives Launched",
       "projectsUpdated": "Initiatives Optimized",

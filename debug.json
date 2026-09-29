@@ -257,6 +257,7 @@
       "todosCreated": "activityLog.filters.todosCreated",
       "todosUpdated": "activityLog.filters.todosUpdated",
       "todosCompleted": "activityLog.filters.todosCompleted",
+      "questionsAnswered": "activityLog.filters.questionsAnswered",
       "todosDeleted": "activityLog.filters.todosDeleted",
       "projectsCreated": "activityLog.filters.projectsCreated",
       "projectsUpdated": "activityLog.filters.projectsUpdated",
