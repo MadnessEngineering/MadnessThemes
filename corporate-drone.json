@@ -780,11 +780,12 @@
       "notes": "Documentation",
       "openQuestion": "1 outstanding question",
       "openQuestions": "{{count}} outstanding questions",
-      "openQuestionsHint": "Outstanding questions — export this todo as HTML to answer them",
+      "openQuestionsHint": "Outstanding questions — expand this todo to answer them",
       "questions": "Outstanding Questions",
       "recommended": "preferred",
       "answeredBy": "actioned by",
-      "awaitingAnswer": "awaiting stakeholder input — export as HTML to decide"
+      "savingAnswer": "processing…",
+      "awaitingAnswer": "awaiting stakeholder input — pick one to decide"
     },
     "aria": {
       "todoActions": "Task management operations"

@@ -460,11 +460,12 @@
       "notes": "Data Logs",
       "openQuestion": "1 open query",
       "openQuestions": "{{count}} open queries",
-      "openQuestionsHint": "Unanswered queries — export this todo as HTML to answer them",
+      "openQuestionsHint": "Unanswered queries — expand this todo to answer them",
       "questions": "Query Log",
       "recommended": "optimal",
       "answeredBy": "logged by",
-      "awaitingAnswer": "awaiting input — export as HTML to decide"
+      "savingAnswer": "saving…",
+      "awaitingAnswer": "awaiting input — pick one to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

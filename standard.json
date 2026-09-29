@@ -850,11 +850,12 @@
       "notes": "Notes",
       "openQuestion": "1 open question",
       "openQuestions": "{{count}} open questions",
-      "openQuestionsHint": "Unanswered questions — export this todo as HTML to answer them",
+      "openQuestionsHint": "Unanswered questions — expand this todo to answer them",
       "questions": "Questions",
       "recommended": "recommended",
       "answeredBy": "answered by",
-      "awaitingAnswer": "awaiting an answer — export as HTML to decide"
+      "savingAnswer": "saving…",
+      "awaitingAnswer": "awaiting an answer — pick one to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

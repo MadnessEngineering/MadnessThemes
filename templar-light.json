@@ -850,11 +850,12 @@
       "notes": "Sacred Annotations",
       "openQuestion": "1 open question",
       "openQuestions": "{{count}} open questions",
-      "openQuestionsHint": "Unanswered questions — transcribe this charge as HTML to answer them",
+      "openQuestionsHint": "Unanswered questions — unfurl this charge to answer them",
       "questions": "Questions of Record",
       "recommended": "blessed",
       "answeredBy": "attested by",
-      "awaitingAnswer": "awaiting an answer — transcribe as HTML to decide"
+      "savingAnswer": "inscribing…",
+      "awaitingAnswer": "awaiting an answer — pick one to decide"
     },
     "aria": {
       "todoActions": "Charge actions"

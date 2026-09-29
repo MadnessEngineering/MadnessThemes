@@ -850,11 +850,12 @@
       "notes": "Arcane Notes",
       "openQuestion": "1 arcane question",
       "openQuestions": "{{count}} arcane questions",
-      "openQuestionsHint": "Unanswered questions — extract this experiment as HTML to answer them",
+      "openQuestionsHint": "Unanswered questions — unfurl this experiment to answer them",
       "questions": "Arcane Questions",
       "recommended": "favored",
       "answeredBy": "settled by",
-      "awaitingAnswer": "awaiting the adept's answer — extract as HTML to decide"
+      "savingAnswer": "channeling…",
+      "awaitingAnswer": "awaiting the adept's answer — pick one to decide"
     },
     "aria": {
       "todoActions": "Research task mystical actions"

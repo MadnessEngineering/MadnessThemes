@@ -850,11 +850,12 @@
       "notes": "Field Notes",
       "openQuestion": "1 open question",
       "openQuestions": "{{count}} open questions",
-      "openQuestionsHint": "Unresolved questions — export this todo as HTML to answer them",
+      "openQuestionsHint": "Unresolved questions — expand this todo to answer them",
       "questions": "Tactical Questions",
       "recommended": "advised",
       "answeredBy": "confirmed by",
-      "awaitingAnswer": "awaiting command input — export as HTML to decide"
+      "savingAnswer": "saving…",
+      "awaitingAnswer": "awaiting command input — pick one to decide"
     },
     "aria": {
       "todoActions": "Todo actions"

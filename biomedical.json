@@ -850,11 +850,12 @@
       "notes": "Clinical Notes",
       "openQuestion": "1 open question",
       "openQuestions": "{{count}} open questions",
-      "openQuestionsHint": "Unanswered questions — export this assay as HTML to answer them",
+      "openQuestionsHint": "Unanswered questions — expand this assay to answer them",
       "questions": "Clinical Questions",
       "recommended": "indicated",
       "answeredBy": "reviewed by",
-      "awaitingAnswer": "pending clinician input — export as HTML to decide"
+      "savingAnswer": "recording…",
+      "awaitingAnswer": "pending clinician input — pick one to decide"
     },
     "aria": {
       "todoActions": "Assay actions"

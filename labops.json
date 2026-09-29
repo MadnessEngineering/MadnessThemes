@@ -850,11 +850,12 @@
       "notes": "Operational Notes",
       "openQuestion": "1 open question",
       "openQuestions": "{{count}} open questions",
-      "openQuestionsHint": "Unacked questions — export this ticket as HTML to answer them",
+      "openQuestionsHint": "Unacked questions — expand this ticket to answer them",
       "questions": "Operational Questions",
       "recommended": "canonical",
       "answeredBy": "acked by",
-      "awaitingAnswer": "awaiting an ack — export as HTML to decide"
+      "savingAnswer": "applying…",
+      "awaitingAnswer": "awaiting an ack — pick one to decide"
     },
     "aria": {
       "todoActions": "Ticket actions"
