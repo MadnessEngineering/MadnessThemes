@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Review Queue"
+      "review": "Review Queue",
+      "questions": "Clinical Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Clinical Questions Awaiting Determination",
+    "waiting": "{{count}} pending determination",
+    "refresh": "Rescan",
+    "empty": "Nothing pending determination",
+    "buriedTitle": "Validated with the clinical question unresolved",
+    "buriedHint": "These assays were validated before a determination was ever recorded. Either the question lapsed, or the call was lost in the record on the way out.",
+    "buriedHelp": "Recording a determination here closes the question without reopening the assay.",
+    "saving": "recording…",
+    "recommended": "indicated",
+    "noProject": "no study",
+    "loadFailed": "Unable to rescan clinical questions",
+    "saveFailed": "Failed to record determination"
   },
   "notesDock": {
     "title": "Observation Log",

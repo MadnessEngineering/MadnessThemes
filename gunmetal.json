@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Clearance Queue"
+      "review": "Clearance Queue",
+      "questions": "Tactical Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Awaiting Orders",
+    "waiting": "{{count}} awaiting orders",
+    "refresh": "Rescan",
+    "empty": "No orders pending",
+    "buriedTitle": "Cleared with orders unconfirmed",
+    "buriedHint": "These tasks were cleared before confirmation was given. Either the order went stale, or it got lost in the queue on the way out.",
+    "buriedHelp": "Confirming here closes the order without reopening the task.",
+    "saving": "saving…",
+    "recommended": "advised",
+    "noProject": "no project",
+    "loadFailed": "Failed to rescan tactical questions",
+    "saveFailed": "Confirmation rejected"
   },
   "notesDock": {
     "title": "Field Notes",

@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Approval Queue"
+      "review": "Approval Queue",
+      "questions": "Outstanding Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Outstanding Questions Awaiting Sign-Off",
+    "waiting": "{{count}} awaiting sign-off",
+    "refresh": "Synchronize Data Feed",
+    "empty": "No action items pending your sign-off",
+    "buriedTitle": "Closed out with the ask still outstanding",
+    "buriedHint": "These action items were closed out before a decision was ever actioned. Either the ask went stale, or it got deprioritized on the way out the door.",
+    "buriedHelp": "Actioning an answer here closes the loop without reopening the item.",
+    "saving": "processing…",
+    "recommended": "preferred",
+    "noProject": "no project",
+    "loadFailed": "Data feed failed to surface outstanding questions",
+    "saveFailed": "Answer deployment failed"
   },
   "notesDock": {
     "title": "Quick Capture",

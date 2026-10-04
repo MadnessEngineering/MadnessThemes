@@ -3509,8 +3509,23 @@
     },
     "mode": {
       "timeline": "chronicle.mode.timeline",
-      "review": "chronicle.mode.review"
+      "review": "chronicle.mode.review",
+      "questions": "chronicle.mode.questions"
     }
+  },
+  "questionsLane": {
+    "title": "questionsLane.title",
+    "waiting": "questionsLane.waiting",
+    "refresh": "questionsLane.refresh",
+    "empty": "questionsLane.empty",
+    "buriedTitle": "questionsLane.buriedTitle",
+    "buriedHint": "questionsLane.buriedHint",
+    "buriedHelp": "questionsLane.buriedHelp",
+    "saving": "questionsLane.saving",
+    "recommended": "questionsLane.recommended",
+    "noProject": "questionsLane.noProject",
+    "loadFailed": "questionsLane.loadFailed",
+    "saveFailed": "questionsLane.saveFailed"
   },
   "notesDock": {
     "title": "notesDock.title",

@@ -3530,8 +3530,23 @@
     },
     "mode": {
       "timeline": "Chronicle",
-      "review": "Judgment"
+      "review": "Judgment",
+      "questions": "Questions of Record"
     }
+  },
+  "questionsLane": {
+    "title": "Questions of Record Awaiting Judgment",
+    "waiting": "{{count}} awaiting judgment",
+    "refresh": "Renew",
+    "empty": "No questions of record await your judgment",
+    "buriedTitle": "Fulfilled with the question still unanswered",
+    "buriedHint": "These charges were fulfilled before a decision was ever recorded. Either the question went stale, or the call was lost to the Archive on the way out.",
+    "buriedHelp": "Inscribing an answer here settles the record without reopening the charge.",
+    "saving": "inscribing…",
+    "recommended": "blessed",
+    "noProject": "no crusade",
+    "loadFailed": "The Archive failed to surface the Questions of Record",
+    "saveFailed": "Your answer failed to inscribe into the record"
   },
   "notesDock": {
     "title": "Vow Scraps",

@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Peek Pile"
+      "review": "Peek Pile",
+      "questions": "Ripe Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Ripe for Answers",
+    "waiting": "{{count}} ripe for picking",
+    "refresh": "Restock",
+    "empty": "Nothing left to pick",
+    "buriedTitle": "Peeled with the question still ripe",
+    "buriedHint": "These bananas got peeled before a pick was ever made. Either the question went soft, or the call got lost in the compost on the way out.",
+    "buriedHelp": "Stashing a pick here settles it without reopening the banana.",
+    "saving": "stashing…",
+    "recommended": "top pick",
+    "noProject": "no project",
+    "loadFailed": "Slipped loading the ripe questions",
+    "saveFailed": "Saving your pick went bananas"
   },
   "notesDock": {
     "title": "Peel Notes",

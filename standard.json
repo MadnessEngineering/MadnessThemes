@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Review"
+      "review": "Review",
+      "questions": "Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Open Questions",
+    "waiting": "{{count}} waiting",
+    "refresh": "Refresh",
+    "empty": "Nothing waiting on you.",
+    "buriedTitle": "Closed with the question still open",
+    "buriedHint": "These todos were completed while a decision on them was never made. Either the question went stale, or the call got buried on the way out.",
+    "buriedHelp": "Answering one here records the decision without reopening the todo.",
+    "saving": "saving…",
+    "recommended": "recommended",
+    "noProject": "no project",
+    "loadFailed": "Failed to load open questions",
+    "saveFailed": "Failed to record answer"
   },
   "notesDock": {
     "title": "Notes",

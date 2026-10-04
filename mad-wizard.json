@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Chronology",
-      "review": "Judgment"
+      "review": "Judgment",
+      "questions": "Arcane Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Questions Awaiting the Adept",
+    "waiting": "{{count}} awaiting the adept",
+    "refresh": "Refresh Apparatus",
+    "empty": "No arcane questions await an answer",
+    "buriedTitle": "Sealed with the question still open",
+    "buriedHint": "These experiments were sealed before a decision was ever reached. Either the question went stale, or the call got lost in the void on the way out.",
+    "buriedHelp": "Archiving your answer here settles the question without reopening the experiment.",
+    "saving": "channeling…",
+    "recommended": "favored",
+    "noProject": "no project",
+    "loadFailed": "The void refused to surface the Arcane Questions",
+    "saveFailed": "The void refused to archive your answer"
   },
   "notesDock": {
     "title": "Grimoire Scraps",

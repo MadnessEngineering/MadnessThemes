@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Commit Queue"
+      "review": "Commit Queue",
+      "questions": "Query Log"
     }
+  },
+  "questionsLane": {
+    "title": "Pending Queries",
+    "waiting": "{{count}} pending",
+    "refresh": "Refresh",
+    "empty": "Queue clear",
+    "buriedTitle": "Committed with the query still pending",
+    "buriedHint": "These entries were committed before a decision was ever logged. Either the query went stale, or the call got lost in the pipeline on the way out.",
+    "buriedHelp": "Logging an answer here commits the decision without reopening the entry.",
+    "saving": "saving…",
+    "recommended": "optimal",
+    "noProject": "no project",
+    "loadFailed": "Failed to sync pending queries",
+    "saveFailed": "Failed to commit answer"
   },
   "notesDock": {
     "title": "Scratch Buffer",

@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "Timeline",
-      "review": "Triage"
+      "review": "Triage",
+      "questions": "Operational Questions"
     }
+  },
+  "questionsLane": {
+    "title": "Questions Awaiting Ack",
+    "waiting": "{{count}} awaiting ack",
+    "refresh": "Rescan",
+    "empty": "Queue clear",
+    "buriedTitle": "Resolved with the ack still pending",
+    "buriedHint": "These tickets were resolved before a decision was ever filed. Either the ack went stale, or the call got lost in the queue on the way out.",
+    "buriedHelp": "Filing an ack here commits the decision without reopening the ticket.",
+    "saving": "applying…",
+    "recommended": "canonical",
+    "noProject": "no service",
+    "loadFailed": "Failed to query open questions",
+    "saveFailed": "Failed to file the ack"
   },
   "notesDock": {
     "title": "Scratch Log",

@@ -3529,8 +3529,23 @@
     },
     "mode": {
       "timeline": "The Dig Log",
-      "review": "Foreman's Review"
+      "review": "Foreman's Review",
+      "questions": "Unanswered Runes"
     }
+  },
+  "questionsLane": {
+    "title": "Runes Awaiting Word",
+    "waiting": "{{count}} awaiting word",
+    "refresh": "Resurvey",
+    "empty": "Nothing waitin' on ye",
+    "buriedTitle": "Struck done with the rune unmarked",
+    "buriedHint": "These jobs got struck done before the rune was ever marked. Either the word went stale, or the call got buried in the tailings on the way out.",
+    "buriedHelp": "Engraving an answer here marks the call without reopening the job.",
+    "saving": "engraving…",
+    "recommended": "sound pick",
+    "noProject": "no project",
+    "loadFailed": "Couldn't mine the unanswered runes",
+    "saveFailed": "Couldn't engrave the answer"
   },
   "notesDock": {
     "title": "Chalk Scratchings",
