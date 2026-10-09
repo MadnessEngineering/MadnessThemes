@@ -465,7 +465,8 @@
       "recommended": "optimal",
       "answeredBy": "logged by",
       "savingAnswer": "saving…",
-      "awaitingAnswer": "awaiting input — pick one to decide"
+      "awaitingAnswer": "awaiting input — pick one to decide",
+      "clearFreeTextAnswer": "free-text input — click to clear"
     },
     "aria": {
       "todoActions": "Todo actions"
@@ -3545,7 +3546,8 @@
     "recommended": "optimal",
     "noProject": "no project",
     "loadFailed": "Failed to sync pending queries",
-    "saveFailed": "Failed to commit answer"
+    "saveFailed": "Failed to commit answer",
+    "noteFailed": "Failed to commit note"
   },
   "notesDock": {
     "title": "Scratch Buffer",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Compile into a build",
     "questedAlready": "Already built",
     "questFallbackName": "Buffer Build"
+  },
+  "choices": {
+    "noteLabel": "Log Entry",
+    "notePlaceholder": "Log a note — why this call, or what the options missed",
+    "notedBy": "recorded by"
   }
 }

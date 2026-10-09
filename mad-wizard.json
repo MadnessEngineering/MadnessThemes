@@ -856,7 +856,8 @@
       "recommended": "favored",
       "answeredBy": "settled by",
       "savingAnswer": "channeling…",
-      "awaitingAnswer": "awaiting the adept's answer — pick one to decide"
+      "awaitingAnswer": "awaiting the adept's answer — pick one to decide",
+      "clearFreeTextAnswer": "the adept's own words — click to banish"
     },
     "aria": {
       "todoActions": "Research task mystical actions"
@@ -3545,7 +3546,8 @@
     "recommended": "favored",
     "noProject": "no project",
     "loadFailed": "The void refused to surface the Arcane Questions",
-    "saveFailed": "The void refused to archive your answer"
+    "saveFailed": "The void refused to archive your answer",
+    "noteFailed": "The void refused to archive your note"
   },
   "notesDock": {
     "title": "Grimoire Scraps",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Weave a quest from this",
     "questedAlready": "Already woven",
     "questFallbackName": "Grimoire Saga"
+  },
+  "choices": {
+    "noteLabel": "Arcane Note",
+    "notePlaceholder": "Scrawl a note — why this call, or what the options missed",
+    "notedBy": "scrawled by"
   }
 }

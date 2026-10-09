@@ -856,7 +856,8 @@
       "recommended": "canonical",
       "answeredBy": "acked by",
       "savingAnswer": "applying…",
-      "awaitingAnswer": "awaiting an ack — pick one to decide"
+      "awaitingAnswer": "awaiting an ack — pick one to decide",
+      "clearFreeTextAnswer": "free-text ack — click to clear"
     },
     "aria": {
       "todoActions": "Ticket actions"
@@ -3545,7 +3546,8 @@
     "recommended": "canonical",
     "noProject": "no service",
     "loadFailed": "Failed to query open questions",
-    "saveFailed": "Failed to file the ack"
+    "saveFailed": "Failed to file the ack",
+    "noteFailed": "Failed to commit the annotation"
   },
   "notesDock": {
     "title": "Scratch Log",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Provision as a pipeline",
     "questedAlready": "Already pipelined",
     "questFallbackName": "Ticket Pipeline"
+  },
+  "choices": {
+    "noteLabel": "Annotation",
+    "notePlaceholder": "Annotate — why this call, or what the options missed",
+    "notedBy": "annotated by"
   }
 }

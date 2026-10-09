@@ -856,7 +856,8 @@
       "recommended": "sound pick",
       "answeredBy": "marked by",
       "savingAnswer": "engraving…",
-      "awaitingAnswer": "still waitin' on an answer — pick one to decide"
+      "awaitingAnswer": "still waitin' on an answer — pick one to decide",
+      "clearFreeTextAnswer": "yer own words — click to melt"
     },
     "aria": {
       "todoActions": "Mining task ore actions"
@@ -3545,7 +3546,8 @@
     "recommended": "sound pick",
     "noProject": "no project",
     "loadFailed": "Couldn't mine the unanswered runes",
-    "saveFailed": "Couldn't engrave the answer"
+    "saveFailed": "Couldn't engrave the answer",
+    "noteFailed": "Couldn't engrave the note"
   },
   "notesDock": {
     "title": "Chalk Scratchings",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Chisel into a vein",
     "questedAlready": "Already veined",
     "questFallbackName": "Quarry Vein"
+  },
+  "choices": {
+    "noteLabel": "Scrawl",
+    "notePlaceholder": "Engrave a note — why this call, or what the options missed",
+    "notedBy": "engraved by"
   }
 }

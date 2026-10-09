@@ -856,7 +856,8 @@
       "recommended": "recommended",
       "answeredBy": "answered by",
       "savingAnswer": "saving…",
-      "awaitingAnswer": "awaiting an answer — pick one to decide"
+      "awaitingAnswer": "awaiting an answer — pick one to decide",
+      "clearFreeTextAnswer": "free-text answer — click to clear"
     },
     "aria": {
       "todoActions": "Todo actions"
@@ -3545,7 +3546,8 @@
     "recommended": "recommended",
     "noProject": "no project",
     "loadFailed": "Failed to load open questions",
-    "saveFailed": "Failed to record answer"
+    "saveFailed": "Failed to record answer",
+    "noteFailed": "Failed to record note"
   },
   "notesDock": {
     "title": "Notes",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Create a quest from this",
     "questedAlready": "Already a quest",
     "questFallbackName": "Quest from Note"
+  },
+  "choices": {
+    "noteLabel": "Note",
+    "notePlaceholder": "Add a note — why this call, or what the options missed",
+    "notedBy": "noted by"
   }
 }

@@ -856,7 +856,8 @@
       "recommended": "top pick",
       "answeredBy": "given the nod by",
       "savingAnswer": "stashing…",
-      "awaitingAnswer": "still ripening for an answer — pick one to decide"
+      "awaitingAnswer": "still ripening for an answer — pick one to decide",
+      "clearFreeTextAnswer": "your own words — click to compost"
     },
     "aria": {
       "todoActions": "Swing task banana actions"
@@ -3545,7 +3546,8 @@
     "recommended": "top pick",
     "noProject": "no project",
     "loadFailed": "Slipped loading the ripe questions",
-    "saveFailed": "Saving your pick went bananas"
+    "saveFailed": "Saving your pick went bananas",
+    "noteFailed": "Stashing your note went bananas"
   },
   "notesDock": {
     "title": "Peel Notes",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Swing into a bunch",
     "questedAlready": "Already bunched",
     "questFallbackName": "Peel Bunch"
+  },
+  "choices": {
+    "noteLabel": "Side Note",
+    "notePlaceholder": "Stash a note — why this call, or what the options missed",
+    "notedBy": "stashed by"
   }
 }

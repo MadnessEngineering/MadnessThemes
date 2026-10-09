@@ -856,7 +856,8 @@
       "recommended": "blessed",
       "answeredBy": "attested by",
       "savingAnswer": "inscribing…",
-      "awaitingAnswer": "awaiting an answer — pick one to decide"
+      "awaitingAnswer": "awaiting an answer — pick one to decide",
+      "clearFreeTextAnswer": "your own testimony — click to expunge"
     },
     "aria": {
       "todoActions": "Charge actions"
@@ -3546,7 +3547,8 @@
     "recommended": "blessed",
     "noProject": "no crusade",
     "loadFailed": "The Archive failed to surface the Questions of Record",
-    "saveFailed": "Your answer failed to inscribe into the record"
+    "saveFailed": "Your answer failed to inscribe into the record",
+    "noteFailed": "Your note failed to inscribe into the record"
   },
   "notesDock": {
     "title": "Vow Scraps",
@@ -3560,5 +3562,10 @@
     "promoteQuest": "Pledge as a crusade",
     "questedAlready": "Already crusading",
     "questFallbackName": "Sworn Crusade"
+  },
+  "choices": {
+    "noteLabel": "Annotation",
+    "notePlaceholder": "Inscribe a note — why this call, or what the options missed",
+    "notedBy": "inscribed by"
   }
 }

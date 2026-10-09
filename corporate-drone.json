@@ -785,7 +785,8 @@
       "recommended": "preferred",
       "answeredBy": "actioned by",
       "savingAnswer": "processing…",
-      "awaitingAnswer": "awaiting stakeholder input — pick one to decide"
+      "awaitingAnswer": "awaiting stakeholder input — pick one to decide",
+      "clearFreeTextAnswer": "freeform stakeholder input — click to clear"
     },
     "aria": {
       "todoActions": "Task management operations"
@@ -3545,7 +3546,8 @@
     "recommended": "preferred",
     "noProject": "no project",
     "loadFailed": "Data feed failed to surface outstanding questions",
-    "saveFailed": "Answer deployment failed"
+    "saveFailed": "Answer deployment failed",
+    "noteFailed": "Note deployment failed"
   },
   "notesDock": {
     "title": "Quick Capture",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Escalate to epic initiative",
     "questedAlready": "Already an epic",
     "questFallbackName": "Escalated Epic"
+  },
+  "choices": {
+    "noteLabel": "Rationale",
+    "notePlaceholder": "Add color — why this call, or what the options missed",
+    "notedBy": "captured by"
   }
 }

@@ -856,7 +856,8 @@
       "recommended": "todoList.labels.recommended",
       "answeredBy": "todoList.labels.answeredBy",
       "savingAnswer": "todoList.labels.savingAnswer",
-      "awaitingAnswer": "todoList.labels.awaitingAnswer"
+      "awaitingAnswer": "todoList.labels.awaitingAnswer",
+      "clearFreeTextAnswer": "todoList.labels.clearFreeTextAnswer"
     },
     "aria": {
       "todoActions": "todoList.aria.todoActions"
@@ -3525,7 +3526,8 @@
     "recommended": "questionsLane.recommended",
     "noProject": "questionsLane.noProject",
     "loadFailed": "questionsLane.loadFailed",
-    "saveFailed": "questionsLane.saveFailed"
+    "saveFailed": "questionsLane.saveFailed",
+    "noteFailed": "questionsLane.noteFailed"
   },
   "notesDock": {
     "title": "notesDock.title",
@@ -3539,5 +3541,10 @@
     "promoteQuest": "notesDock.promoteQuest",
     "questedAlready": "notesDock.questedAlready",
     "questFallbackName": "notesDock.questFallbackName"
+  },
+  "choices": {
+    "noteLabel": "choices.noteLabel",
+    "notePlaceholder": "choices.notePlaceholder",
+    "notedBy": "choices.notedBy"
   }
 }

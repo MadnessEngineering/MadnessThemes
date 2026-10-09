@@ -856,7 +856,8 @@
       "recommended": "advised",
       "answeredBy": "confirmed by",
       "savingAnswer": "saving…",
-      "awaitingAnswer": "awaiting command input — pick one to decide"
+      "awaitingAnswer": "awaiting command input — pick one to decide",
+      "clearFreeTextAnswer": "unstructured input — click to clear"
     },
     "aria": {
       "todoActions": "Todo actions"
@@ -3545,7 +3546,8 @@
     "recommended": "advised",
     "noProject": "no project",
     "loadFailed": "Failed to rescan tactical questions",
-    "saveFailed": "Confirmation rejected"
+    "saveFailed": "Confirmation rejected",
+    "noteFailed": "Note rejected"
   },
   "notesDock": {
     "title": "Field Notes",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Deploy as an operation",
     "questedAlready": "Already an operation",
     "questFallbackName": "Field Operation"
+  },
+  "choices": {
+    "noteLabel": "Field Note",
+    "notePlaceholder": "Log a note — why this call, or what the options missed",
+    "notedBy": "logged by"
   }
 }

@@ -856,7 +856,8 @@
       "recommended": "indicated",
       "answeredBy": "reviewed by",
       "savingAnswer": "recording…",
-      "awaitingAnswer": "pending clinician input — pick one to decide"
+      "awaitingAnswer": "pending clinician input — pick one to decide",
+      "clearFreeTextAnswer": "free-text entry — click to clear"
     },
     "aria": {
       "todoActions": "Assay actions"
@@ -3545,7 +3546,8 @@
     "recommended": "indicated",
     "noProject": "no study",
     "loadFailed": "Unable to rescan clinical questions",
-    "saveFailed": "Failed to record determination"
+    "saveFailed": "Failed to record determination",
+    "noteFailed": "Failed to record note"
   },
   "notesDock": {
     "title": "Observation Log",
@@ -3559,5 +3561,10 @@
     "promoteQuest": "Register as a trial",
     "questedAlready": "Already enrolled",
     "questFallbackName": "Clinical Trial"
+  },
+  "choices": {
+    "noteLabel": "Clinical Note",
+    "notePlaceholder": "Record a note — why this call, or what the options missed",
+    "notedBy": "recorded by"
   }
 }
