@@ -32,7 +32,7 @@
       "contrast": "#ffffff",
       "disabled": "rgba(0, 0, 0, 0.2)",
       "success": "#1b5e20",
-      "warning": "#e65100",
+      "warning": "#c64600",
       "error": "#b71c1c",
       "info": "#01579b",
       "critical": "#b71c1c",

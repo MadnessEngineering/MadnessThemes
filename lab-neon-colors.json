@@ -27,9 +27,9 @@
     "text": {
       "primary": "#e0e0e0",
       "secondary": "#a0a0b0",
-      "tertiary": "#707080",
+      "tertiary": "#7b7b8a",
       "muted": "#707080",
-      "contrast": "#ffffff",
+      "contrast": "#0a0a0f",
       "success": "#00ff88",
       "warning": "#ffb300",
       "error": "#ff5252",

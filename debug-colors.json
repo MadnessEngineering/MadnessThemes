@@ -38,7 +38,7 @@
       "medium": "#ffb300",
       "low": "#8d6e63",
       "disabled": "rgba(255, 255, 255, 0.65)",
-      "contrast": "#ffffff"
+      "contrast": "#000000"
     },
     "border": {
       "primary": "#ff00ff",

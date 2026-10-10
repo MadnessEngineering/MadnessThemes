@@ -19,13 +19,28 @@ Each theme has up to two files:
 | **Corporate Drone** | 💼 | Business jargon personality | Strings only |
 | **Gunmetal Arsenal** | 🔫 | Industrial steel & polished metal | Dark |
 | **Debug Mode** | 🐛 | Hot pink & lime, high contrast | Dark |
-| **Cyan Laboratory** | 🧪 | Soft cyan accents, muted surfaces | Light |
-| **LabOps** | 🔬 | Teal-blue, scientific precision | Light |
+| **Cyan Laboratory** | 🧪 | Soft cyan accents on a dark teal ground | Dark |
+| **LabOps** | 🔬 | Teal-blue, scientific precision, dark blue ground | Dark |
+| **Lab Neon** | 💡 | Neon accents on near-black | Dark |
+| **Alchemist** | ⚗️ | Amber on dark brown | Dark (core tokens only) |
+| **Deep Space** | 🌌 | Violet and cyan on near-black | Dark (core tokens only) |
+| **Hazmat** | ☢️ | Safety yellow on near-black | Dark (core tokens only) |
+| **Terminal** | 🖥️ | Phosphor green on black | Dark (core tokens only) |
 | **Templar Light** | ⚔️ | Gold & red, knights templar | Light |
 | **Banana** | 🍌 | Banana themed | Strings only |
 | **Biomedical** | 🧬 | Biomedical research themed | Strings only |
 | **Dwarf** | ⛏️ | Mining, lava, and magma | Strings only |
 | **Mad Wizard** | 🧙‍♂️ | Mystical laboratory terminology | Strings only |
+
+## The colour contract
+
+Every `<theme>-colors.json` must declare `mode` (`"light"` or `"dark"`), carry the core
+tokens, and keep its text readable on its surfaces. The rules live in
+`src/utils/themeContract.js` in Inventorium and are enforced by `node scripts/check-themes.js`
+(exit 1 on any failure). Core is surfaces, text tiers, borders, status text and accents;
+effects, tags, dashboard and threeJS tokens are optional and resolve through fallbacks, which is
+why the four "core tokens only" themes pass. `mode` is cross-checked against what the theme paints,
+so a mislabelled theme fails.
 
 ## Preview
 
