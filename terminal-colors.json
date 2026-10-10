@@ -21,13 +21,14 @@
       },
       "paper": "rgba(51, 255, 51, 0.04)",
       "header": "rgba(51, 255, 51, 0.08)",
-      "input": "rgba(51, 255, 51, 0.05)"
+      "input": "rgba(51, 255, 51, 0.05)",
+      "topBar": "linear-gradient(90deg, #000000 0%, #0a1a0a 50%, #000000 100%)"
     },
     "text": {
       "primary": "#33ff33",
       "secondary": "#22aa22",
       "muted": "#157015",
-      "tertiary": "#1d8f1d",
+      "tertiary": "#2b962b",
       "contrast": "#000000",
       "disabled": "#0e4a0e",
       "success": "#33ff33",

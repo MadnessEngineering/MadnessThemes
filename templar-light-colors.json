@@ -27,7 +27,7 @@
     "text": {
       "primary": "rgba(0, 0, 0, 0.87)",
       "secondary": "rgba(0, 0, 0, 0.6)",
-      "tertiary": "rgba(0, 0, 0, 0.55)",
+      "tertiary": "#686868",
       "muted": "rgba(0, 0, 0, 0.5)",
       "contrast": "#ffffff",
       "disabled": "rgba(0, 0, 0, 0.2)",

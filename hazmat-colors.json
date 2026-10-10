@@ -21,7 +21,8 @@
       },
       "paper": "rgba(255, 255, 255, 0.03)",
       "header": "rgba(255, 214, 0, 0.06)",
-      "input": "rgba(255, 255, 255, 0.05)"
+      "input": "rgba(255, 255, 255, 0.05)",
+      "topBar": "linear-gradient(90deg, #0a0800 0%, #1c1700 50%, #0a0800 100%)"
     },
     "text": {
       "primary": "#ede8c8",

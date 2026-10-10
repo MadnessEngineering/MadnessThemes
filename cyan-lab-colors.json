@@ -33,7 +33,7 @@
       "disabled": "rgba(224, 247, 250, 0.38)",
       "success": "#69F0AE",
       "warning": "#FFB74D",
-      "error": "#FF5252",
+      "error": "#ff6767",
       "info": "#00BCD4",
       "critical": "#FF5252",
       "high": "#FFB74D",
