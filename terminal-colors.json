@@ -1,6 +1,7 @@
 {
   "themeName": "terminal",
   "displayName": "Terminal",
+  "mode": "dark",
   "description": "Classic phosphor green on pure black",
   "icon": "🖥️",
   "version": "1.0.0",
@@ -17,16 +18,27 @@
         "normal": "rgba(51, 255, 51, 0.03)",
         "selected": "rgba(51, 255, 51, 0.1)",
         "hover": "rgba(51, 255, 51, 0.06)"
-      }
+      },
+      "paper": "rgba(51, 255, 51, 0.04)",
+      "header": "rgba(51, 255, 51, 0.08)",
+      "input": "rgba(51, 255, 51, 0.05)"
     },
     "text": {
       "primary": "#33ff33",
       "secondary": "#22aa22",
-      "muted": "#157015"
+      "muted": "#157015",
+      "tertiary": "#1d8f1d",
+      "contrast": "#000000",
+      "disabled": "#0e4a0e",
+      "success": "#33ff33",
+      "warning": "#ffcc00",
+      "error": "#ff5555",
+      "info": "#33ccff"
     },
     "border": {
       "primary": "#33ff33",
-      "subtle": "rgba(51, 255, 51, 0.15)"
+      "subtle": "rgba(51, 255, 51, 0.15)",
+      "secondary": "#22aa22"
     },
     "shadows": {
       "medium": "rgba(0, 0, 0, 0.6)"

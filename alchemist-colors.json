@@ -1,6 +1,7 @@
 {
   "themeName": "alchemist",
   "displayName": "Alchemist",
+  "mode": "dark",
   "description": "Molten gold and ember orange on burnt-umber black",
   "icon": "⚗️",
   "version": "1.0.0",
@@ -17,16 +18,27 @@
         "normal": "rgba(255, 255, 255, 0.02)",
         "selected": "rgba(200, 134, 10, 0.08)",
         "hover": "rgba(255, 255, 255, 0.04)"
-      }
+      },
+      "paper": "rgba(255, 255, 255, 0.03)",
+      "header": "rgba(200, 134, 10, 0.06)",
+      "input": "rgba(255, 255, 255, 0.05)"
     },
     "text": {
       "primary": "#ede0c8",
       "secondary": "#b8a880",
-      "muted": "#807058"
+      "muted": "#807058",
+      "tertiary": "#9a8a68",
+      "contrast": "#1a1000",
+      "disabled": "#5a4e3a",
+      "success": "#8fc255",
+      "warning": "#ffc233",
+      "error": "#ff7a70",
+      "info": "#6ab4d8"
     },
     "border": {
       "primary": "#c8860a",
-      "subtle": "rgba(255, 255, 255, 0.06)"
+      "subtle": "rgba(255, 255, 255, 0.06)",
+      "secondary": "#ff6b00"
     },
     "shadows": {
       "medium": "rgba(0, 0, 0, 0.5)"

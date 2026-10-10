@@ -1,6 +1,7 @@
 {
   "themeName": "deep-space",
   "displayName": "Deep Space",
+  "mode": "dark",
   "description": "Violet and electric cyan over void black",
   "icon": "🌌",
   "version": "1.0.0",
@@ -17,16 +18,27 @@
         "normal": "rgba(255, 255, 255, 0.02)",
         "selected": "rgba(124, 77, 255, 0.08)",
         "hover": "rgba(255, 255, 255, 0.04)"
-      }
+      },
+      "paper": "rgba(255, 255, 255, 0.03)",
+      "header": "rgba(124, 77, 255, 0.06)",
+      "input": "rgba(255, 255, 255, 0.05)"
     },
     "text": {
       "primary": "#e0e0f0",
       "secondary": "#a0a0c0",
-      "muted": "#707088"
+      "muted": "#707088",
+      "tertiary": "#8888a8",
+      "contrast": "#ffffff",
+      "disabled": "#4a4a60",
+      "success": "#69f0ae",
+      "warning": "#ffab40",
+      "error": "#ff6b6b",
+      "info": "#82d4ff"
     },
     "border": {
       "primary": "#7c4dff",
-      "subtle": "rgba(255, 255, 255, 0.06)"
+      "subtle": "rgba(255, 255, 255, 0.06)",
+      "secondary": "#40c4ff"
     },
     "shadows": {
       "medium": "rgba(0, 0, 0, 0.5)"

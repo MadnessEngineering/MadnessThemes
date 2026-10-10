@@ -1,6 +1,7 @@
 {
   "themeName": "corporate-clean",
   "displayName": "Corporate Clean",
+  "mode": "dark",
   "description": "Professional blue and gray - maximum productivity efficiency",
   "icon": "💼",
   "version": "1.0.0",

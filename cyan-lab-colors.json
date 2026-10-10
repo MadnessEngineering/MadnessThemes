@@ -1,6 +1,7 @@
 {
   "themeName": "cyan-lab",
   "displayName": "Cyan Laboratory",
+  "mode": "dark",
   "description": "Cyan Laboratory dark theme: deep teal-black surfaces, vivid cyan accents, orange highlights.",
   "icon": "🧪",
   "version": "2.0.0",

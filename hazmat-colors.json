@@ -1,6 +1,7 @@
 {
   "themeName": "hazmat",
   "displayName": "Hazmat",
+  "mode": "dark",
   "description": "Caution yellow and warning orange on toxic black",
   "icon": "☢️",
   "version": "1.0.0",
@@ -17,16 +18,27 @@
         "normal": "rgba(255, 255, 255, 0.02)",
         "selected": "rgba(255, 214, 0, 0.08)",
         "hover": "rgba(255, 255, 255, 0.04)"
-      }
+      },
+      "paper": "rgba(255, 255, 255, 0.03)",
+      "header": "rgba(255, 214, 0, 0.06)",
+      "input": "rgba(255, 255, 255, 0.05)"
     },
     "text": {
       "primary": "#ede8c8",
       "secondary": "#b8b080",
-      "muted": "#807858"
+      "muted": "#807858",
+      "tertiary": "#9a9268",
+      "contrast": "#0a0800",
+      "disabled": "#5a5238",
+      "success": "#4cf08e",
+      "warning": "#ffd600",
+      "error": "#ff6a40",
+      "info": "#5cc8ff"
     },
     "border": {
       "primary": "#ffd600",
-      "subtle": "rgba(255, 255, 255, 0.06)"
+      "subtle": "rgba(255, 255, 255, 0.06)",
+      "secondary": "#ff6d00"
     },
     "shadows": {
       "medium": "rgba(0, 0, 0, 0.5)"

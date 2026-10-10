@@ -1,6 +1,7 @@
 {
   "themeName": "gunmetal",
   "displayName": "Gunmetal Arsenal",
+  "mode": "dark",
   "description": "Sleek industrial theme with gunmetal grays, steel blues, and polished metal accents",
   "icon": "🔫",
   "version": "1.0.0",

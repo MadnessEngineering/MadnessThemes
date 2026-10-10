@@ -1,6 +1,7 @@
 {
   "themeName": "debug",
   "displayName": "Debug Mode",
+  "mode": "dark",
   "description": "High contrast hot pink and lime - for visual debugging and testing",
   "icon": "🐛",
   "version": "1.0.0",

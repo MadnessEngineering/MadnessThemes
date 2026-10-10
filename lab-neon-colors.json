@@ -1,6 +1,7 @@
 {
   "themeName": "lab-neon",
   "displayName": "Lab Neon",
+  "mode": "dark",
   "description": "Inventorium landing palette - neon green and electric cyan on near-black",
   "icon": "🟢",
   "version": "1.0.0",

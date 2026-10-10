@@ -1,6 +1,7 @@
 {
   "themeName": "templar-light",
   "displayName": "Templar Light",
+  "mode": "light",
   "description": "A light theme inspired by knights templar, with a clean white base and gold and red accents.",
   "icon": "⚔️",
   "version": "1.0.0",

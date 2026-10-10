@@ -1,6 +1,7 @@
 {
   "themeName": "standard",
   "displayName": "Standard Laboratory",
+  "mode": "dark",
   "description": "Classic Inventorium color scheme - cyan and orange with dark backgrounds",
   "icon": "📝",
   "version": "1.0.0",

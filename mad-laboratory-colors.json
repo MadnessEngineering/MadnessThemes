@@ -1,6 +1,7 @@
 {
   "themeName": "mad-laboratory",
   "displayName": "Mad Laboratory",
+  "mode": "dark",
   "description": "Mystical purple and toxic green - for the true mad scientist aesthetic",
   "icon": "🧪",
   "version": "1.1.0",

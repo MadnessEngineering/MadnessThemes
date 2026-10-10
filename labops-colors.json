@@ -1,6 +1,7 @@
 {
   "themeName": "labops",
   "displayName": "LabOps",
+  "mode": "dark",
   "description": "LabOps dark theme: deep teal-navy surfaces, vivid teal-blue accents, scientific precision.",
   "icon": "🔬",
   "version": "1.4.0",
