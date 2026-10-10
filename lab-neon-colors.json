@@ -27,7 +27,7 @@
     "text": {
       "primary": "#e0e0e0",
       "secondary": "#a0a0b0",
-      "tertiary": "#7b7b8a",
+      "tertiary": "#7e7e8c",
       "muted": "#707080",
       "contrast": "#0a0a0f",
       "success": "#00ff88",
@@ -37,7 +37,7 @@
       "critical": "#ff5252",
       "high": "#00cc6a",
       "medium": "#ffb300",
-      "low": "#707080",
+      "low": "#7e7e8d",
       "disabled": "#707080"
     },
     "border": {

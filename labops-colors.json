@@ -35,10 +35,10 @@
       "warning": "#F5C127",
       "error": "#ff7a7a",
       "info": "#13B5D8",
-      "critical": "#FF6B6B",
+      "critical": "#ff7a7a",
       "high": "#F5C127",
       "medium": "#13B5D8",
-      "low": "#7AA0B8"
+      "low": "#85a8be"
     },
     "border": {
       "primary": "#13B5D8",
