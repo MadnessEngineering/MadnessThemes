@@ -28,7 +28,7 @@
       "primary": "rgba(236, 239, 241, 0.95)",
       "secondary": "rgba(207, 216, 220, 0.9)",
       "tertiary": "#b1babf",
-      "muted": "#839198",
+      "muted": "#8f9ca2",
       "contrast": "#263238",
       "disabled": "rgba(120, 144, 156, 0.6)",
       "success": "#81c784",
