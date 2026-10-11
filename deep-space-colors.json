@@ -6,7 +6,7 @@
   "icon": "🌌",
   "version": "1.0.0",
   "colors": {
-    "primary": "#895fff",
+    "primary": "#8e65ff",
     "primaryButton": "#6a3de0",
     "secondary": "#40c4ff",
     "success": "#69f0ae",
@@ -19,7 +19,7 @@
         "selected": "rgba(124, 77, 255, 0.08)",
         "hover": "rgba(255, 255, 255, 0.04)"
       },
-      "paper": "rgba(255, 255, 255, 0.03)",
+      "paper": "rgba(255, 255, 255, 0.06)",
       "header": "rgba(124, 77, 255, 0.06)",
       "input": "rgba(255, 255, 255, 0.05)",
       "topBar": "linear-gradient(90deg, #050510 0%, #10102a 50%, #050510 100%)"
@@ -27,8 +27,8 @@
     "text": {
       "primary": "#e0e0f0",
       "secondary": "#a0a0c0",
-      "muted": "#707088",
-      "tertiary": "#8888a8",
+      "muted": "#73738a",
+      "tertiary": "#8d8dab",
       "contrast": "#050510",
       "disabled": "#4a4a60",
       "success": "#69f0ae",

@@ -20,7 +20,7 @@
         "hover": "rgba(26, 52, 72, 0.94)"
       },
       "header": "linear-gradient(135deg, #162F42 0%, #0E2234 100%)",
-      "paper": "rgba(30, 55, 75, 0.95)",
+      "paper": "rgba(44, 67, 86, 0.95)",
       "topBar": "linear-gradient(90deg, #162F42 0%, #0E2234 100%)",
       "input": "rgba(38, 62, 82, 0.99)"
     },
@@ -33,8 +33,8 @@
       "disabled": "rgba(226, 238, 247, 0.38)",
       "success": "#38C977",
       "warning": "#F5C127",
-      "error": "#ff7f7f",
-      "info": "#13B5D8",
+      "error": "#ff8989",
+      "info": "#26bbdb",
       "critical": "#ff7a7a",
       "high": "#F5C127",
       "medium": "#13B5D8",

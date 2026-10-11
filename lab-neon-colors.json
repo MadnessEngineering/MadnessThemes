@@ -20,15 +20,15 @@
         "hover": "rgba(255, 255, 255, 0.04)"
       },
       "header": "rgba(10, 10, 15, 0.85)",
-      "paper": "rgba(15, 15, 20, 0.9)",
+      "paper": "rgba(25, 25, 29, 0.9)",
       "topBar": "rgba(10, 10, 15, 0.85)",
       "input": "rgba(15, 15, 20, 0.9)"
     },
     "text": {
       "primary": "#e0e0e0",
       "secondary": "#a0a0b0",
-      "tertiary": "#888895",
-      "muted": "#707080",
+      "tertiary": "#8f8f9b",
+      "muted": "#767685",
       "contrast": "#0a0a0f",
       "success": "#00ff88",
       "warning": "#ffb300",
@@ -37,7 +37,7 @@
       "critical": "#ff5252",
       "high": "#00cc6a",
       "medium": "#ffb300",
-      "low": "#7e7e8d",
+      "low": "#838392",
       "disabled": "#707080"
     },
     "border": {

@@ -20,7 +20,7 @@
         "hover": "rgba(20, 20, 30, 0.95)"
       },
       "header": "linear-gradient(135deg, #1a1a28 0%, #1e2535 100%)",
-      "paper": "rgba(20, 25, 35, 0.9)",
+      "paper": "rgba(22, 27, 37, 0.9)",
       "topBar": "linear-gradient(90deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)",
       "input": "rgba(20, 25, 35, 0.9)"
     },
