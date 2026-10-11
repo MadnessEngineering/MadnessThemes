@@ -17,7 +17,7 @@
       "card": {
         "normal": "rgba(30, 55, 75, 0.95)",
         "selected": "rgba(22, 48, 68, 0.97)",
-        "hover": "rgba(26, 52, 72, 0.94)"
+        "hover": "rgba(35, 60, 79, 0.94)"
       },
       "header": "linear-gradient(135deg, #162F42 0%, #0E2234 100%)",
       "paper": "rgba(44, 67, 86, 0.95)",

@@ -15,9 +15,9 @@
     "background": {
       "main": "linear-gradient(135deg, #0a0a0a 0%, #1a0a2e 50%, #16103e 100%)",
       "card": {
-        "normal": "rgba(22, 12, 35, 0.92)",
+        "normal": "rgba(24, 14, 37, 0.92)",
         "selected": "rgba(35, 15, 50, 0.95)",
-        "hover": "rgba(30, 14, 45, 0.93)"
+        "hover": "rgba(35, 19, 49, 0.93)"
       },
       "header": "linear-gradient(135deg, #1a0a2e 0%, #16103e 100%)",
       "paper": "rgba(29, 20, 39, 0.9)",

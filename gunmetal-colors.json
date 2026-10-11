@@ -15,7 +15,7 @@
     "background": {
       "main": "linear-gradient(135deg, #263238 0%, #37474f 50%, #455a64 100%)",
       "card": {
-        "normal": "rgba(38, 50, 56, 0.95)",
+        "normal": "rgba(42, 54, 60, 0.95)",
         "selected": "rgba(55, 71, 79, 0.98)",
         "hover": "rgba(48, 63, 70, 0.95)"
       },
@@ -35,10 +35,10 @@
       "warning": "#ffb74d",
       "error": "#f69795",
       "info": "#4fc3f7",
-      "critical": "#f77066",
-      "high": "#ff6f00",
+      "critical": "#f7766c",
+      "high": "#ff750a",
       "medium": "#ffa726",
-      "low": "#889da8"
+      "low": "#8da1ab"
     },
     "border": {
       "primary": "#78909c",

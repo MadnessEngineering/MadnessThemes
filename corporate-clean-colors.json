@@ -15,9 +15,9 @@
     "background": {
       "main": "linear-gradient(135deg, #0f0f0f 0%, #1a1a28 50%, #1e2535 100%)",
       "card": {
-        "normal": "rgba(15, 15, 20, 0.9)",
+        "normal": "rgba(25, 25, 29, 0.9)",
         "selected": "rgba(20, 20, 30, 0.95)",
-        "hover": "rgba(20, 20, 30, 0.95)"
+        "hover": "rgba(32, 32, 41, 0.95)"
       },
       "header": "linear-gradient(135deg, #1a1a28 0%, #1e2535 100%)",
       "paper": "rgba(22, 27, 37, 0.9)",
@@ -36,7 +36,7 @@
       "critical": "#ff1744",
       "high": "#ff6f00",
       "medium": "#ffb300",
-      "low": "#94776c",
+      "low": "#987c72",
       "disabled": "rgba(255, 255, 255, 0.6)",
       "contrast": "#0f0f0f"
     },

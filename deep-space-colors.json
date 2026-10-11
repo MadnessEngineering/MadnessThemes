@@ -6,7 +6,7 @@
   "icon": "🌌",
   "version": "1.0.0",
   "colors": {
-    "primary": "#8e65ff",
+    "primary": "#936bff",
     "primaryButton": "#6a3de0",
     "secondary": "#40c4ff",
     "success": "#69f0ae",
@@ -15,9 +15,9 @@
     "background": {
       "main": "#050510",
       "card": {
-        "normal": "rgba(255, 255, 255, 0.02)",
+        "normal": "rgba(255, 255, 255, 0.04)",
         "selected": "rgba(124, 77, 255, 0.08)",
-        "hover": "rgba(255, 255, 255, 0.04)"
+        "hover": "rgba(255, 255, 255, 0.07)"
       },
       "paper": "rgba(255, 255, 255, 0.06)",
       "header": "rgba(124, 77, 255, 0.06)",
@@ -27,8 +27,8 @@
     "text": {
       "primary": "#e0e0f0",
       "secondary": "#a0a0c0",
-      "muted": "#73738a",
-      "tertiary": "#8d8dab",
+      "muted": "#79798f",
+      "tertiary": "#9292ae",
       "contrast": "#050510",
       "disabled": "#4a4a60",
       "success": "#69f0ae",

@@ -15,7 +15,7 @@
     "background": {
       "main": "linear-gradient(135deg, #0D2B2E 0%, #071F22 100%)",
       "card": {
-        "normal": "rgba(13, 45, 50, 0.95)",
+        "normal": "rgba(18, 49, 54, 0.95)",
         "selected": "rgba(8, 38, 43, 0.97)",
         "hover": "rgba(11, 42, 47, 0.94)"
       },
@@ -35,7 +35,7 @@
       "warning": "#FFB74D",
       "error": "#ff6767",
       "info": "#00BCD4",
-      "critical": "#FF5252",
+      "critical": "#ff5c5c",
       "high": "#FFB74D",
       "medium": "#00BCD4",
       "low": "#4DD0E1"

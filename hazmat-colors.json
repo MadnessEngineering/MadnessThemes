@@ -15,9 +15,9 @@
     "background": {
       "main": "#0a0800",
       "card": {
-        "normal": "rgba(255, 255, 255, 0.02)",
+        "normal": "rgba(255, 255, 255, 0.04)",
         "selected": "rgba(255, 214, 0, 0.08)",
-        "hover": "rgba(255, 255, 255, 0.04)"
+        "hover": "rgba(255, 255, 255, 0.07)"
       },
       "paper": "rgba(255, 255, 255, 0.05)",
       "header": "rgba(255, 214, 0, 0.06)",
@@ -27,8 +27,8 @@
     "text": {
       "primary": "#ede8c8",
       "secondary": "#b8b080",
-      "muted": "#807858",
-      "tertiary": "#9a9268",
+      "muted": "#837b5b",
+      "tertiary": "#9c946b",
       "contrast": "#0a0800",
       "disabled": "#5a5238",
       "success": "#4cf08e",
