@@ -3566,5 +3566,151 @@
     "noteLabel": "Side Note",
     "notePlaceholder": "Stash a note — why this call, or what the options missed",
     "notedBy": "stashed by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Stand toggles for the canopy",
+      "TOGGLE_DASHBOARD": "Pack up all stands (press again to set them back up)",
+      "TOGGLE_TODOS": "Toggle Swing Tasks",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Swing Logs",
+      "TOGGLE_CHAT": "Toggle AI Assistant",
+      "TOGGLE_CREATE": "Toggle New Swing",
+      "TOGGLE_PROJECTS": "Toggle Tree Branches",
+      "TOGGLE_MINDMAP": "Toggle Canopy Map",
+      "TOGGLE_LESSONS": "Toggle Jungle Notes",
+      "TOGGLE_SETTINGS": "Toggle Tree Config",
+      "TOGGLE_SWARMDESK": "Toggle SwarmDesk Portal mode",
+      "TOGGLE_QUEUE": "Toggle Banana Queue",
+      "TOGGLE_QUESTS": "Toggle Quests",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Hop between projects",
+      "NEXT_PROJECT": "Hop to the next project",
+      "PREV_PROJECT": "Hop to the previous project",
+      "EXIT_PROJECT": "Exit to the Canopy Overview",
+      "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk Portal mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Project grid controls",
+      "NAVIGATE_RIGHT": "Navigate right in project grid",
+      "NAVIGATE_LEFT": "Navigate left in project grid",
+      "NAVIGATE_DOWN": "Navigate down in project grid",
+      "NAVIGATE_UP": "Navigate up in project grid",
+      "SELECT_PROJECT": "Hop into the highlighted project",
+      "REFRESH_PROJECTS": "Restock the project list",
+      "MAIN_SWARMDESK": "Hop to the main SwarmDesk Portal",
+      "SELECT_PROJECT_1": "Hop to project 1",
+      "SELECT_PROJECT_2": "Hop to project 2",
+      "SELECT_PROJECT_3": "Hop to project 3",
+      "SELECT_PROJECT_4": "Hop to project 4",
+      "SELECT_PROJECT_5": "Hop to project 5",
+      "SELECT_PROJECT_6": "Hop to project 6",
+      "SELECT_PROJECT_7": "Hop to project 7",
+      "SELECT_PROJECT_8": "Hop to project 8",
+      "SELECT_PROJECT_9": "Hop to project 9"
+    },
+    "MIND_MAP": {
+      "description": "Canopy Map controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Stash node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Banana Vine Tangle controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Tree Config tab navigation",
+      "NEXT_TAB": "Next Tree Config tab",
+      "PREV_TAB": "Previous Tree Config tab",
+      "SAVE": "Stash config"
+    },
+    "FANTASY_MAP": {
+      "description": "War Room position history (undo, redo, checkpoint)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust brightness across the jungle",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Handy tools that work everywhere",
+      "SEARCH": "Focus the search box of the stand you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Peel Notes",
+      "SHOW_HOTKEYS": "Show the keyboard shortcuts for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Pro tip: press",
+      "tipGotIt": "Got It",
+      "tipStop": "No More Tips",
+      "hintsSwitch": "Show hotkey hints",
+      "hintsSwitchHelp": "Hover a button to see the key that does the same thing.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, suggest its key once.",
+      "tipsReset": "Reset Tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay off here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Canopy Overview",
+      "logoClear": "Pack up all stands. Press again to set them back up.",
+      "logoRestore": "Set your stands back up",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous project",
+      "nextProject": "Next project",
+      "guideTitle": "Keyboard shortcuts",
+      "guideClose": "Pack Up",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind Keys",
+      "guideSwarmDeskNote": "SwarmDesk Portal has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Tree Branches",
+        "mindMap": "Canopy Map",
+        "fantasyMap": "War Room",
+        "constellation": "Banana Vine Tangle",
+        "settings": "Tree Config"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "New Swing",
+    "quickNotes": "Peel Notes",
+    "priorityQueue": "Banana Queue",
+    "chatSessions3d": "3D Assistant Sessions"
   }
 }

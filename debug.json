@@ -3546,5 +3546,151 @@
     "noteLabel": "choices.noteLabel",
     "notePlaceholder": "choices.notePlaceholder",
     "notedBy": "choices.notedBy"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "hotkeys.PANELS.description",
+      "TOGGLE_DASHBOARD": "hotkeys.PANELS.TOGGLE_DASHBOARD",
+      "TOGGLE_TODOS": "hotkeys.PANELS.TOGGLE_TODOS",
+      "TOGGLE_ACTIVITY_LOG": "hotkeys.PANELS.TOGGLE_ACTIVITY_LOG",
+      "TOGGLE_CHAT": "hotkeys.PANELS.TOGGLE_CHAT",
+      "TOGGLE_CREATE": "hotkeys.PANELS.TOGGLE_CREATE",
+      "TOGGLE_PROJECTS": "hotkeys.PANELS.TOGGLE_PROJECTS",
+      "TOGGLE_MINDMAP": "hotkeys.PANELS.TOGGLE_MINDMAP",
+      "TOGGLE_LESSONS": "hotkeys.PANELS.TOGGLE_LESSONS",
+      "TOGGLE_SETTINGS": "hotkeys.PANELS.TOGGLE_SETTINGS",
+      "TOGGLE_SWARMDESK": "hotkeys.PANELS.TOGGLE_SWARMDESK",
+      "TOGGLE_QUEUE": "hotkeys.PANELS.TOGGLE_QUEUE",
+      "TOGGLE_QUESTS": "hotkeys.PANELS.TOGGLE_QUESTS",
+      "TOGGLE_CHRONICLE": "hotkeys.PANELS.TOGGLE_CHRONICLE"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "hotkeys.PROJECT_NAVIGATION.description",
+      "NEXT_PROJECT": "hotkeys.PROJECT_NAVIGATION.NEXT_PROJECT",
+      "PREV_PROJECT": "hotkeys.PROJECT_NAVIGATION.PREV_PROJECT",
+      "EXIT_PROJECT": "hotkeys.PROJECT_NAVIGATION.EXIT_PROJECT",
+      "TOGGLE_SWARMDESK_MODE": "hotkeys.PROJECT_NAVIGATION.TOGGLE_SWARMDESK_MODE"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "hotkeys.PROJECT_NAVIGATOR.description",
+      "NAVIGATE_RIGHT": "hotkeys.PROJECT_NAVIGATOR.NAVIGATE_RIGHT",
+      "NAVIGATE_LEFT": "hotkeys.PROJECT_NAVIGATOR.NAVIGATE_LEFT",
+      "NAVIGATE_DOWN": "hotkeys.PROJECT_NAVIGATOR.NAVIGATE_DOWN",
+      "NAVIGATE_UP": "hotkeys.PROJECT_NAVIGATOR.NAVIGATE_UP",
+      "SELECT_PROJECT": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT",
+      "REFRESH_PROJECTS": "hotkeys.PROJECT_NAVIGATOR.REFRESH_PROJECTS",
+      "MAIN_SWARMDESK": "hotkeys.PROJECT_NAVIGATOR.MAIN_SWARMDESK",
+      "SELECT_PROJECT_1": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_1",
+      "SELECT_PROJECT_2": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_2",
+      "SELECT_PROJECT_3": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_3",
+      "SELECT_PROJECT_4": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_4",
+      "SELECT_PROJECT_5": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_5",
+      "SELECT_PROJECT_6": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_6",
+      "SELECT_PROJECT_7": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_7",
+      "SELECT_PROJECT_8": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_8",
+      "SELECT_PROJECT_9": "hotkeys.PROJECT_NAVIGATOR.SELECT_PROJECT_9"
+    },
+    "MIND_MAP": {
+      "description": "hotkeys.MIND_MAP.description",
+      "ZOOM_IN": "hotkeys.MIND_MAP.ZOOM_IN",
+      "ZOOM_OUT": "hotkeys.MIND_MAP.ZOOM_OUT",
+      "RESET_VIEW": "hotkeys.MIND_MAP.RESET_VIEW",
+      "SAVE_POSITIONS": "hotkeys.MIND_MAP.SAVE_POSITIONS",
+      "LOAD_POSITIONS": "hotkeys.MIND_MAP.LOAD_POSITIONS",
+      "TOGGLE_STATIC_MODE": "hotkeys.MIND_MAP.TOGGLE_STATIC_MODE",
+      "TOGGLE_EXPLOSION_MODE": "hotkeys.MIND_MAP.TOGGLE_EXPLOSION_MODE",
+      "SELECT_ALL": "hotkeys.MIND_MAP.SELECT_ALL",
+      "DESELECT_ALL": "hotkeys.MIND_MAP.DESELECT_ALL",
+      "TOGGLE_FILTER": "hotkeys.MIND_MAP.TOGGLE_FILTER",
+      "PAN_LEFT": "hotkeys.MIND_MAP.PAN_LEFT",
+      "PAN_RIGHT": "hotkeys.MIND_MAP.PAN_RIGHT",
+      "PAN_UP": "hotkeys.MIND_MAP.PAN_UP",
+      "PAN_DOWN": "hotkeys.MIND_MAP.PAN_DOWN",
+      "CLEAR_POSITIONS": "hotkeys.MIND_MAP.CLEAR_POSITIONS",
+      "CENTER_SELECTION": "hotkeys.MIND_MAP.CENTER_SELECTION"
+    },
+    "CONSTELLATION": {
+      "description": "hotkeys.CONSTELLATION.description",
+      "TOGGLE_FULLSCREEN": "hotkeys.CONSTELLATION.TOGGLE_FULLSCREEN",
+      "ZOOM_IN": "hotkeys.CONSTELLATION.ZOOM_IN",
+      "ZOOM_OUT": "hotkeys.CONSTELLATION.ZOOM_OUT",
+      "RECENTER": "hotkeys.CONSTELLATION.RECENTER"
+    },
+    "SETTINGS": {
+      "description": "hotkeys.SETTINGS.description",
+      "NEXT_TAB": "hotkeys.SETTINGS.NEXT_TAB",
+      "PREV_TAB": "hotkeys.SETTINGS.PREV_TAB",
+      "SAVE": "hotkeys.SETTINGS.SAVE"
+    },
+    "FANTASY_MAP": {
+      "description": "hotkeys.FANTASY_MAP.description",
+      "UNDO": "hotkeys.FANTASY_MAP.UNDO",
+      "REDO": "hotkeys.FANTASY_MAP.REDO",
+      "QUICKSAVE": "hotkeys.FANTASY_MAP.QUICKSAVE"
+    },
+    "BRIGHTNESS": {
+      "description": "hotkeys.BRIGHTNESS.description",
+      "INCREASE_BRIGHTNESS": "hotkeys.BRIGHTNESS.INCREASE_BRIGHTNESS",
+      "DECREASE_BRIGHTNESS": "hotkeys.BRIGHTNESS.DECREASE_BRIGHTNESS",
+      "RESET_BRIGHTNESS": "hotkeys.BRIGHTNESS.RESET_BRIGHTNESS"
+    },
+    "GLOBAL": {
+      "description": "hotkeys.GLOBAL.description",
+      "SEARCH": "hotkeys.GLOBAL.SEARCH",
+      "UNFOCUS_INPUTS": "hotkeys.GLOBAL.UNFOCUS_INPUTS",
+      "TOGGLE_NOTES": "hotkeys.GLOBAL.TOGGLE_NOTES",
+      "SHOW_HOTKEYS": "hotkeys.GLOBAL.SHOW_HOTKEYS"
+    },
+    "ui": {
+      "or": "hotkeys.ui.or",
+      "here": "hotkeys.ui.here",
+      "fullPage": "hotkeys.ui.fullPage",
+      "tipPress": "hotkeys.ui.tipPress",
+      "tipGotIt": "hotkeys.ui.tipGotIt",
+      "tipStop": "hotkeys.ui.tipStop",
+      "hintsSwitch": "hotkeys.ui.hintsSwitch",
+      "hintsSwitchHelp": "hotkeys.ui.hintsSwitchHelp",
+      "tipsSwitch": "hotkeys.ui.tipsSwitch",
+      "tipsSwitchHelp": "hotkeys.ui.tipsSwitchHelp",
+      "tipsReset": "hotkeys.ui.tipsReset",
+      "touchOnlyNote": "hotkeys.ui.touchOnlyNote",
+      "logoMobile": "hotkeys.ui.logoMobile",
+      "logoClear": "hotkeys.ui.logoClear",
+      "logoRestore": "hotkeys.ui.logoRestore",
+      "checkpoint": "hotkeys.ui.checkpoint",
+      "checkpointBlocked": "hotkeys.ui.checkpointBlocked",
+      "checkpointBlockedShort": "hotkeys.ui.checkpointBlockedShort",
+      "checkpointFailed": "hotkeys.ui.checkpointFailed",
+      "select": "hotkeys.ui.select",
+      "reviewCard": {
+        "select": "hotkeys.ui.reviewCard.select"
+      },
+      "prevNextTab": "hotkeys.ui.prevNextTab",
+      "brightnessUp": "hotkeys.ui.brightnessUp",
+      "brightnessDown": "hotkeys.ui.brightnessDown",
+      "brightnessReset": "hotkeys.ui.brightnessReset",
+      "prevProject": "hotkeys.ui.prevProject",
+      "nextProject": "hotkeys.ui.nextProject",
+      "guideTitle": "hotkeys.ui.guideTitle",
+      "guideClose": "hotkeys.ui.guideClose",
+      "guideHere": "hotkeys.ui.guideHere",
+      "guideEverywhere": "hotkeys.ui.guideEverywhere",
+      "guideUnbound": "hotkeys.ui.guideUnbound",
+      "guideRebind": "hotkeys.ui.guideRebind",
+      "guideSwarmDeskNote": "hotkeys.ui.guideSwarmDeskNote",
+      "contexts": {
+        "projectNavigator": "hotkeys.ui.contexts.projectNavigator",
+        "mindMap": "hotkeys.ui.contexts.mindMap",
+        "fantasyMap": "hotkeys.ui.contexts.fantasyMap",
+        "constellation": "hotkeys.ui.contexts.constellation",
+        "settings": "hotkeys.ui.contexts.settings"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "fab.newTodo",
+    "quickNotes": "fab.quickNotes",
+    "priorityQueue": "fab.priorityQueue",
+    "chatSessions3d": "fab.chatSessions3d"
   }
 }

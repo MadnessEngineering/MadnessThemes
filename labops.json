@@ -3566,5 +3566,151 @@
     "noteLabel": "Annotation",
     "notePlaceholder": "Annotate — why this call, or what the options missed",
     "notedBy": "annotated by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Console toggles for the operations dashboard",
+      "TOGGLE_DASHBOARD": "Dismiss all consoles (press again to bring them back)",
+      "TOGGLE_TODOS": "Toggle Tickets",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Telemetry",
+      "TOGGLE_CHAT": "Toggle Diagnostics",
+      "TOGGLE_CREATE": "Toggle Provision console",
+      "TOGGLE_PROJECTS": "Toggle Services",
+      "TOGGLE_MINDMAP": "Toggle Topology",
+      "TOGGLE_LESSONS": "Toggle Runbooks",
+      "TOGGLE_SETTINGS": "Toggle Config",
+      "TOGGLE_SWARMDESK": "Toggle SwarmDesk mode",
+      "TOGGLE_QUEUE": "Toggle Processing Queue",
+      "TOGGLE_QUESTS": "Toggle Objectives",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Service navigation and cycling",
+      "NEXT_PROJECT": "Cycle to next service",
+      "PREV_PROJECT": "Cycle to previous service",
+      "EXIT_PROJECT": "Exit to Operations Dashboard",
+      "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Service navigator controls",
+      "NAVIGATE_RIGHT": "Navigate right in service grid",
+      "NAVIGATE_LEFT": "Navigate left in service grid",
+      "NAVIGATE_DOWN": "Navigate down in service grid",
+      "NAVIGATE_UP": "Navigate up in service grid",
+      "SELECT_PROJECT": "Select highlighted service",
+      "REFRESH_PROJECTS": "Resync service list",
+      "MAIN_SWARMDESK": "Go to main SwarmDesk",
+      "SELECT_PROJECT_1": "Select service 1",
+      "SELECT_PROJECT_2": "Select service 2",
+      "SELECT_PROJECT_3": "Select service 3",
+      "SELECT_PROJECT_4": "Select service 4",
+      "SELECT_PROJECT_5": "Select service 5",
+      "SELECT_PROJECT_6": "Select service 6",
+      "SELECT_PROJECT_7": "Select service 7",
+      "SELECT_PROJECT_8": "Select service 8",
+      "SELECT_PROJECT_9": "Select service 9"
+    },
+    "MIND_MAP": {
+      "description": "Topology controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Commit node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Dependency Topology controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Config tab navigation",
+      "NEXT_TAB": "Next Config tab",
+      "PREV_TAB": "Previous Config tab",
+      "SAVE": "Commit config"
+    },
+    "FANTASY_MAP": {
+      "description": "War Room position history (undo, redo, checkpoint)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust site-wide brightness",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Utilities available in every console",
+      "SEARCH": "Focus the query box of the console you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Scratch Log",
+      "SHOW_HOTKEYS": "Show the hotkeys for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Ops tip: press",
+      "tipGotIt": "Ack",
+      "tipStop": "Mute Tips",
+      "hintsSwitch": "Show hotkey hints",
+      "hintsSwitchHelp": "Hover a button to see the hotkey that does the same thing.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, suggest its hotkey once.",
+      "tipsReset": "Reset Tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay off here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Operations Dashboard",
+      "logoClear": "Dismiss all consoles. Press again to bring them back.",
+      "logoRestore": "Bring back the consoles you dismissed",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous service",
+      "nextProject": "Next service",
+      "guideTitle": "Hotkeys",
+      "guideClose": "Dismiss",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind Keys",
+      "guideSwarmDeskNote": "SwarmDesk has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Services",
+        "mindMap": "Topology",
+        "fantasyMap": "War Room",
+        "constellation": "Dependency Topology",
+        "settings": "Config"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "Provision Ticket",
+    "quickNotes": "Scratch Log",
+    "priorityQueue": "Processing Queue",
+    "chatSessions3d": "3D Diagnostic Sessions"
   }
 }

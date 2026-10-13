@@ -3567,5 +3567,151 @@
     "noteLabel": "Annotation",
     "notePlaceholder": "Inscribe a note — why this call, or what the options missed",
     "notedBy": "inscribed by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Chamber toggles for the Grand Hall",
+      "TOGGLE_DASHBOARD": "Seal all chambers (press again to bring them back)",
+      "TOGGLE_TODOS": "Toggle Charges",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Chronicle of Deeds",
+      "TOGGLE_CHAT": "Toggle Order Oracle",
+      "TOGGLE_CREATE": "Toggle Pledge chamber",
+      "TOGGLE_PROJECTS": "Toggle Crusades",
+      "TOGGLE_MINDMAP": "Toggle Battle Map",
+      "TOGGLE_LESSONS": "Toggle Teachings",
+      "TOGGLE_SETTINGS": "Toggle Chapter Config",
+      "TOGGLE_SWARMDESK": "Toggle War Council mode",
+      "TOGGLE_QUEUE": "Toggle Blessing Queue",
+      "TOGGLE_QUESTS": "Toggle Quests (Crusades)",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Crusade navigation and cycling",
+      "NEXT_PROJECT": "Proceed to the next crusade",
+      "PREV_PROJECT": "Return to the previous crusade",
+      "EXIT_PROJECT": "Exit to the Grand Hall",
+      "TOGGLE_SWARMDESK_MODE": "Toggle War Council mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Crusade navigator controls",
+      "NAVIGATE_RIGHT": "Navigate right in crusade grid",
+      "NAVIGATE_LEFT": "Navigate left in crusade grid",
+      "NAVIGATE_DOWN": "Navigate down in crusade grid",
+      "NAVIGATE_UP": "Navigate up in crusade grid",
+      "SELECT_PROJECT": "Select highlighted crusade",
+      "REFRESH_PROJECTS": "Renew crusade list",
+      "MAIN_SWARMDESK": "Go to the main War Council",
+      "SELECT_PROJECT_1": "Select crusade 1",
+      "SELECT_PROJECT_2": "Select crusade 2",
+      "SELECT_PROJECT_3": "Select crusade 3",
+      "SELECT_PROJECT_4": "Select crusade 4",
+      "SELECT_PROJECT_5": "Select crusade 5",
+      "SELECT_PROJECT_6": "Select crusade 6",
+      "SELECT_PROJECT_7": "Select crusade 7",
+      "SELECT_PROJECT_8": "Select crusade 8",
+      "SELECT_PROJECT_9": "Select crusade 9"
+    },
+    "MIND_MAP": {
+      "description": "Battle Map controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Inscribe node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Sacred Order Constellation controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Chapter Config tab navigation",
+      "NEXT_TAB": "Next Chapter Config tab",
+      "PREV_TAB": "Previous Chapter Config tab",
+      "SAVE": "Inscribe config"
+    },
+    "FANTASY_MAP": {
+      "description": "War Room position history (undo, redo, checkpoint)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust the light across every hall",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Utilities that serve every chamber",
+      "SEARCH": "Focus the search box of the chamber you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Vow Scraps",
+      "SHOW_HOTKEYS": "Show the rune bindings for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Scribe's tip: press",
+      "tipGotIt": "Understood",
+      "tipStop": "No More Tips",
+      "hintsSwitch": "Show hotkey hints",
+      "hintsSwitchHelp": "Hover a button to see the key that does the same thing.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, suggest its key once.",
+      "tipsReset": "Reset Tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay off here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Grand Hall",
+      "logoClear": "Seal all chambers. Press again to bring them back.",
+      "logoRestore": "Bring back the chambers you sealed",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous crusade",
+      "nextProject": "Next crusade",
+      "guideTitle": "Rune Bindings",
+      "guideClose": "Seal",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind Keys",
+      "guideSwarmDeskNote": "The War Council has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Crusades",
+        "mindMap": "Battle Map",
+        "fantasyMap": "War Room",
+        "constellation": "Sacred Order Constellation",
+        "settings": "Chapter Config"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "Pledge Charge",
+    "quickNotes": "Vow Scraps",
+    "priorityQueue": "Blessing Queue",
+    "chatSessions3d": "3D Oracle Sessions"
   }
 }

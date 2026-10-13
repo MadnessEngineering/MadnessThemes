@@ -3566,5 +3566,151 @@
     "noteLabel": "Arcane Note",
     "notePlaceholder": "Scrawl a note — why this call, or what the options missed",
     "notedBy": "scrawled by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Apparatus toggles for the sanctum",
+      "TOGGLE_DASHBOARD": "Seal all apparatus (press again to bring them back)",
+      "TOGGLE_TODOS": "Toggle Research Tasks",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Lab Logs",
+      "TOGGLE_CHAT": "Toggle AI Assistant",
+      "TOGGLE_CREATE": "Toggle New Experiment",
+      "TOGGLE_PROJECTS": "Toggle Experiments",
+      "TOGGLE_MINDMAP": "Toggle Knowledge Map",
+      "TOGGLE_LESSONS": "Toggle Research Notes",
+      "TOGGLE_SETTINGS": "Toggle Apparatus Config",
+      "TOGGLE_SWARMDESK": "Toggle SwarmDesk Portal mode",
+      "TOGGLE_QUEUE": "Toggle Pending Rituals",
+      "TOGGLE_QUESTS": "Toggle Arcane Quests",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Warp navigation and project cycling",
+      "NEXT_PROJECT": "Warp to the next project",
+      "PREV_PROJECT": "Warp to the previous project",
+      "EXIT_PROJECT": "Exit to the Sanctum Overview",
+      "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk Portal mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Project portal controls",
+      "NAVIGATE_RIGHT": "Navigate right in project grid",
+      "NAVIGATE_LEFT": "Navigate left in project grid",
+      "NAVIGATE_DOWN": "Navigate down in project grid",
+      "NAVIGATE_UP": "Navigate up in project grid",
+      "SELECT_PROJECT": "Warp into the highlighted project",
+      "REFRESH_PROJECTS": "Refresh project list",
+      "MAIN_SWARMDESK": "Warp to the main SwarmDesk Portal",
+      "SELECT_PROJECT_1": "Warp to project 1",
+      "SELECT_PROJECT_2": "Warp to project 2",
+      "SELECT_PROJECT_3": "Warp to project 3",
+      "SELECT_PROJECT_4": "Warp to project 4",
+      "SELECT_PROJECT_5": "Warp to project 5",
+      "SELECT_PROJECT_6": "Warp to project 6",
+      "SELECT_PROJECT_7": "Warp to project 7",
+      "SELECT_PROJECT_8": "Warp to project 8",
+      "SELECT_PROJECT_9": "Warp to project 9"
+    },
+    "MIND_MAP": {
+      "description": "Knowledge Map controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Archive node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Astral Dependency Web controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Apparatus Config tab navigation",
+      "NEXT_TAB": "Next Apparatus Config tab",
+      "PREV_TAB": "Previous Apparatus Config tab",
+      "SAVE": "Archive config"
+    },
+    "FANTASY_MAP": {
+      "description": "War Room position history (undo, redo, checkpoint)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust the laboratory's brightness",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Utilities that work anywhere in the lab",
+      "SEARCH": "Focus the search box of the apparatus you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Grimoire",
+      "SHOW_HOTKEYS": "Show the keyboard shortcuts for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Wizard's tip: press",
+      "tipGotIt": "Noted",
+      "tipStop": "No More Tips",
+      "hintsSwitch": "Reveal hotkey hints",
+      "hintsSwitchHelp": "Hover a control to see the key that casts the same spell.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, the lab suggests its key once.",
+      "tipsReset": "Reset Tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay dormant here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Sanctum Overview",
+      "logoClear": "Seal all apparatus. Press again to bring them back.",
+      "logoRestore": "Bring back the apparatus you sealed",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous project",
+      "nextProject": "Next project",
+      "guideTitle": "Keyboard shortcuts",
+      "guideClose": "Seal Apparatus",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind Keys",
+      "guideSwarmDeskNote": "SwarmDesk Portal has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Experiments",
+        "mindMap": "Knowledge Map",
+        "fantasyMap": "War Room",
+        "constellation": "Astral Dependency Web",
+        "settings": "Apparatus Config"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "New Experiment",
+    "quickNotes": "Grimoire",
+    "priorityQueue": "Pending Rituals",
+    "chatSessions3d": "3D Assistant Sessions"
   }
 }

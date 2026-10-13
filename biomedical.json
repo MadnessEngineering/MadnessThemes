@@ -3566,5 +3566,151 @@
     "noteLabel": "Clinical Note",
     "notePlaceholder": "Record a note — why this call, or what the options missed",
     "notedBy": "recorded by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Station toggles for the diagnostic overview",
+      "TOGGLE_DASHBOARD": "Clear all stations (press again to bring them back)",
+      "TOGGLE_TODOS": "Toggle Assays",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Assay Log",
+      "TOGGLE_CHAT": "Toggle Lab Assistant",
+      "TOGGLE_CREATE": "Toggle Register station",
+      "TOGGLE_PROJECTS": "Toggle Studies",
+      "TOGGLE_MINDMAP": "Toggle Neural Map",
+      "TOGGLE_LESSONS": "Toggle Lab Notes",
+      "TOGGLE_SETTINGS": "Toggle Lab Configuration",
+      "TOGGLE_SWARMDESK": "Toggle Lab Environment mode",
+      "TOGGLE_QUEUE": "Toggle Sample Queue",
+      "TOGGLE_QUESTS": "Toggle Trials",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Study navigation and cycling",
+      "NEXT_PROJECT": "Cycle to next study",
+      "PREV_PROJECT": "Cycle to previous study",
+      "EXIT_PROJECT": "Exit to Diagnostic Overview",
+      "TOGGLE_SWARMDESK_MODE": "Toggle Lab Environment mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Study navigator controls",
+      "NAVIGATE_RIGHT": "Navigate right in study grid",
+      "NAVIGATE_LEFT": "Navigate left in study grid",
+      "NAVIGATE_DOWN": "Navigate down in study grid",
+      "NAVIGATE_UP": "Navigate up in study grid",
+      "SELECT_PROJECT": "Select highlighted study",
+      "REFRESH_PROJECTS": "Rescan study list",
+      "MAIN_SWARMDESK": "Go to main Lab Environment",
+      "SELECT_PROJECT_1": "Select study 1",
+      "SELECT_PROJECT_2": "Select study 2",
+      "SELECT_PROJECT_3": "Select study 3",
+      "SELECT_PROJECT_4": "Select study 4",
+      "SELECT_PROJECT_5": "Select study 5",
+      "SELECT_PROJECT_6": "Select study 6",
+      "SELECT_PROJECT_7": "Select study 7",
+      "SELECT_PROJECT_8": "Select study 8",
+      "SELECT_PROJECT_9": "Select study 9"
+    },
+    "MIND_MAP": {
+      "description": "Neural Map controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Record node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Specimen Dependency Network controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Lab Configuration tab navigation",
+      "NEXT_TAB": "Next Lab Configuration tab",
+      "PREV_TAB": "Previous Lab Configuration tab",
+      "SAVE": "Record config"
+    },
+    "FANTASY_MAP": {
+      "description": "War Room position history (undo, redo, checkpoint)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust site-wide brightness",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Utilities available at every station",
+      "SEARCH": "Focus the search box of the station you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Observation Log",
+      "SHOW_HOTKEYS": "Show the hotkeys for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Tip: press",
+      "tipGotIt": "Acknowledged",
+      "tipStop": "No More Tips",
+      "hintsSwitch": "Show hotkey hints",
+      "hintsSwitchHelp": "Hover a button to see the hotkey that does the same thing.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, suggest its hotkey once.",
+      "tipsReset": "Reset Tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay off here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Diagnostic Overview",
+      "logoClear": "Clear all stations. Press again to bring them back.",
+      "logoRestore": "Bring back the stations you cleared",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous study",
+      "nextProject": "Next study",
+      "guideTitle": "Hotkeys",
+      "guideClose": "Clear Station",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind Keys",
+      "guideSwarmDeskNote": "Lab Environment has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Studies",
+        "mindMap": "Neural Map",
+        "fantasyMap": "War Room",
+        "constellation": "Specimen Dependency Network",
+        "settings": "Lab Configuration"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "Register Assay",
+    "quickNotes": "Observation Log",
+    "priorityQueue": "Sample Queue",
+    "chatSessions3d": "3D Assistant Sessions"
   }
 }

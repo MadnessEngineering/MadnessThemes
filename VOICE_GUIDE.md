@@ -468,11 +468,35 @@ theme's rewrite phase runs.
 
 ---
 
+## Hotkey hint copy (`hotkeys.*`, `fab.*`)
+
+Hover hints, the Settings → Keyboard table and the `?` sheet read these through
+`src/utils/hotkeyDescription.js` (theme → `standard.json` → the registry's own English, silently), so a
+missing key never breaks anything; it just speaks English. Layout: `hotkeys.<CATEGORY>.<ACTION>` and
+`hotkeys.<CATEGORY>.description` (UPPER_SNAKE exactly as in `src/config/hotkeys.js`), `hotkeys.ui.<name>`
+(hint chrome) and `fab.*` (the action-fan labels). `src/utils/hotkeyDescription.parity.test.js` pins it.
+
+- **Never name a key in a description.** The caps are drawn separately and follow rebinds.
+- **PANELS toggles reuse the file's own `panels.*` tile noun** (emoji stripped): `panels.todos` =
+  "Research Tasks" gives "Toggle Research Tasks". When a file gives two tiles the same name, tell the
+  rows apart with the panel's own title instead of shipping two identical hints. Context labels
+  (`hotkeys.ui.contexts.*`) reuse the view's own noun.
+- **Pinned verbs, no new ones.** save / refresh / close come from the card's Keep column. Neutral
+  controls (zoom, pan, undo/redo, next/previous, select all) stay plain; "node" and proper nouns
+  (SwarmDesk, Chronosnap, War Room) stay literal. Error-ish status text (`checkpointFailed`) stays plain.
+- **Stub themes get noun swaps only.** A string changes only where the file already voices that surface
+  differently from `standard.json`'s tile, and the standard sentence skeleton stays ("Toggle Missions panel").
+- `debug.json` is mechanical: value == its own key path (so it drops `{{placeholders}}`, like the rest of that file).
+- `SWARMDESK` and `PORTALS` are deferred (`DEFERRED_CATEGORIES` in the parity test).
+
+---
+
 ## Workflow reminders
 
-- Themes live in a **git submodule** (`src/locales/themes/`, branch `dev`). Commit **inside** the
-  submodule first, push, then `git add --force src/locales/themes` in the parent repo — the parent
-  hides pointer drift via `ignore=all`.
+- Themes live in a **git submodule** (`src/locales/themes/`, branch `main`; `dev` is stale). Commit
+  **inside** the submodule first and push `origin main`, then a plain `git add src/locales/themes` in the
+  parent repo to bump the pointer. `ignore=all` has been removed, so pointer drift shows in `git status`
+  like any other change and no `--force` is needed.
 - Verify parity with `node scripts/check-themes.js` (run from repo root) before and after a pass.
 - Use the **theme-keeper agent** for bulk propagation across many theme files; author editorial
   voice work (like this guide and the mad-wizard pilot) by hand.

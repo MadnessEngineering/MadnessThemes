@@ -3566,5 +3566,151 @@
     "noteLabel": "Field Note",
     "notePlaceholder": "Log a note — why this call, or what the options missed",
     "notedBy": "logged by"
+  },
+  "hotkeys": {
+    "PANELS": {
+      "description": "Panel toggling hotkeys for dashboard",
+      "TOGGLE_DASHBOARD": "Clear the board (press again to bring it back)",
+      "TOGGLE_TODOS": "Toggle Missions panel",
+      "TOGGLE_ACTIVITY_LOG": "Toggle Sortie Logs panel",
+      "TOGGLE_CHAT": "Toggle AI Copilot panel",
+      "TOGGLE_CREATE": "Toggle Deploy panel",
+      "TOGGLE_PROJECTS": "Toggle Mechs panel",
+      "TOGGLE_MINDMAP": "Toggle Tactical Map panel",
+      "TOGGLE_LESSONS": "Toggle Combat Data panel",
+      "TOGGLE_SETTINGS": "Toggle Cockpit Config panel",
+      "TOGGLE_SWARMDESK": "Toggle SwarmDesk mode",
+      "TOGGLE_QUEUE": "Toggle Mission Queue panel",
+      "TOGGLE_QUESTS": "Toggle Quests",
+      "TOGGLE_CHRONICLE": "Toggle Chronicle"
+    },
+    "PROJECT_NAVIGATION": {
+      "description": "Project navigation and cycling",
+      "NEXT_PROJECT": "Cycle to next project",
+      "PREV_PROJECT": "Cycle to previous project",
+      "EXIT_PROJECT": "Exit to Command Center view",
+      "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
+    },
+    "PROJECT_NAVIGATOR": {
+      "description": "Project navigator interface controls",
+      "NAVIGATE_RIGHT": "Navigate right in project grid",
+      "NAVIGATE_LEFT": "Navigate left in project grid",
+      "NAVIGATE_DOWN": "Navigate down in project grid",
+      "NAVIGATE_UP": "Navigate up in project grid",
+      "SELECT_PROJECT": "Select highlighted project",
+      "REFRESH_PROJECTS": "Refresh project list",
+      "MAIN_SWARMDESK": "Go to main SwarmDesk",
+      "SELECT_PROJECT_1": "Select project 1",
+      "SELECT_PROJECT_2": "Select project 2",
+      "SELECT_PROJECT_3": "Select project 3",
+      "SELECT_PROJECT_4": "Select project 4",
+      "SELECT_PROJECT_5": "Select project 5",
+      "SELECT_PROJECT_6": "Select project 6",
+      "SELECT_PROJECT_7": "Select project 7",
+      "SELECT_PROJECT_8": "Select project 8",
+      "SELECT_PROJECT_9": "Select project 9"
+    },
+    "MIND_MAP": {
+      "description": "Tactical Map visualization controls",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RESET_VIEW": "Reset view to center",
+      "SAVE_POSITIONS": "Save node positions",
+      "LOAD_POSITIONS": "Load saved positions",
+      "TOGGLE_STATIC_MODE": "Toggle static/animation mode",
+      "TOGGLE_EXPLOSION_MODE": "Toggle explosion mode",
+      "SELECT_ALL": "Select all nodes",
+      "DESELECT_ALL": "Deselect all nodes",
+      "TOGGLE_FILTER": "Toggle filter panel",
+      "PAN_LEFT": "Pan view left",
+      "PAN_RIGHT": "Pan view right",
+      "PAN_UP": "Pan view up",
+      "PAN_DOWN": "Pan view down",
+      "CLEAR_POSITIONS": "Clear saved positions",
+      "CENTER_SELECTION": "Center on selected nodes"
+    },
+    "CONSTELLATION": {
+      "description": "Asset Dependency Grid view controls",
+      "TOGGLE_FULLSCREEN": "Toggle fullscreen",
+      "ZOOM_IN": "Zoom in",
+      "ZOOM_OUT": "Zoom out",
+      "RECENTER": "Recenter view"
+    },
+    "SETTINGS": {
+      "description": "Cockpit Config panel tab navigation",
+      "NEXT_TAB": "Next Cockpit Config tab",
+      "PREV_TAB": "Previous Cockpit Config tab",
+      "SAVE": "Save settings"
+    },
+    "FANTASY_MAP": {
+      "description": "Fantasy world map position history (undo/redo/quicksave)",
+      "UNDO": "Undo node position change",
+      "REDO": "Redo node position change",
+      "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "BRIGHTNESS": {
+      "description": "Adjust site-wide brightness",
+      "INCREASE_BRIGHTNESS": "Increase brightness",
+      "DECREASE_BRIGHTNESS": "Decrease brightness",
+      "RESET_BRIGHTNESS": "Reset brightness to 100%"
+    },
+    "GLOBAL": {
+      "description": "Global utility hotkeys",
+      "SEARCH": "Focus the search box of the panel you are working in",
+      "UNFOCUS_INPUTS": "Unfocus active input fields",
+      "TOGGLE_NOTES": "Toggle the Field Notes pad",
+      "SHOW_HOTKEYS": "Show the keyboard shortcuts for this view"
+    },
+    "ui": {
+      "or": "or",
+      "here": "here",
+      "fullPage": "full page",
+      "tipPress": "Tip: press",
+      "tipGotIt": "Got it",
+      "tipStop": "No more tips",
+      "hintsSwitch": "Show hotkey hints",
+      "hintsSwitchHelp": "Hover a button to see the key that does the same thing.",
+      "tipsSwitch": "Hotkey tips",
+      "tipsSwitchHelp": "After you click a button {{count}} times, suggest its key once.",
+      "tipsReset": "Reset tips",
+      "touchOnlyNote": "This screen has no hover, so hints and tips stay off here. The switches still apply on your other devices.",
+      "logoMobile": "Back to the Command Center",
+      "logoClear": "Clear the board. Press again to bring it back.",
+      "logoRestore": "Bring back the board you cleared",
+      "checkpoint": "Checkpoint",
+      "checkpointBlocked": "Exit Chronosnap to checkpoint. The map is showing a preview.",
+      "checkpointBlockedShort": "Exit Chronosnap to checkpoint",
+      "checkpointFailed": "Checkpoint failed",
+      "select": "Select",
+      "reviewCard": {
+        "select": "Select"
+      },
+      "prevNextTab": "Previous / next tab",
+      "brightnessUp": "brighter",
+      "brightnessDown": "dimmer",
+      "brightnessReset": "reset",
+      "prevProject": "Previous project",
+      "nextProject": "Next project",
+      "guideTitle": "Keyboard shortcuts",
+      "guideClose": "Close",
+      "guideHere": "Here: {{context}}",
+      "guideEverywhere": "Everywhere",
+      "guideUnbound": "not bound",
+      "guideRebind": "Rebind keys",
+      "guideSwarmDeskNote": "SwarmDesk has its own board: press {{key}} inside it.",
+      "contexts": {
+        "projectNavigator": "Mechs",
+        "mindMap": "Tactical Map",
+        "fantasyMap": "War Room",
+        "constellation": "Asset Dependency Grid",
+        "settings": "Cockpit Config"
+      }
+    }
+  },
+  "fab": {
+    "newTodo": "New todo",
+    "quickNotes": "Field Notes",
+    "priorityQueue": "Mission Queue",
+    "chatSessions3d": "3D chat sessions"
   }
 }
