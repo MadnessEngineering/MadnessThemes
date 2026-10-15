@@ -503,7 +503,6 @@
     "title": "🚀 MINING HALL PORTAL",
     "subtitle": "Select yer quarry domain • Enter deep mining environments",
     "cacheStatus": "🏪 Ore cache • Last surveyed: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Re-Survey • M: Main Mining Hall • 1-9: Quick tunnel",
     "manageTooltip": {
       "admin": "Manage All Quarries (Master Miner)",
       "personal": "Manage Personal Mining Claims"

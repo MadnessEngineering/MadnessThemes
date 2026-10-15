@@ -503,7 +503,6 @@
     "title": "🚀 MOBILE SUIT SELECTOR",
     "subtitle": "Choose your mech • Deploy to mission zones",
     "cacheStatus": "🏪 Cached telemetry • Last sync: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Launch • R: Rescan • M: Main Hangar • 1-9: Quick deploy",
     "manageTooltip": {
       "admin": "Manage Fleet (Commander)",
       "personal": "Manage Personal Units"

@@ -2463,7 +2463,6 @@
     "title": "🚀 PROJECT NAVIGATOR",
     "subtitle": "Select your project node • Enter focused development environments",
     "cacheStatus": "🏪 Cached data • Last synced: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main Swarmdesk • 1-9: Quick select",
     "manageTooltip": {
       "admin": "Manage Projects (Admin)",
       "personal": "Manage Personal Projects"

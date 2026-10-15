@@ -432,7 +432,6 @@
     "title": "🚀 PROJECT PORTFOLIO DASHBOARD",
     "subtitle": "Select operational domain • Access dedicated productivity environments",
     "cacheStatus": "🏪 Cached data • Last updated: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh Data • M: Main Platform • 1-9: Quick access",
     "manageTooltip": {
       "admin": "Manage All Projects (Administrator Access)",
       "personal": "Manage Personal Project Portfolio"

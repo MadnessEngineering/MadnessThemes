@@ -503,7 +503,6 @@
     "title": "⚔️ CRUSADE NAVIGATOR",
     "subtitle": "Select your crusade • Enter focused vigil environments",
     "cacheStatus": "📜 Cached • Last consulted: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Renew • M: Main War Council • 1-9: Quick select",
     "manageTooltip": {
       "admin": "Manage Crusades (Grand Master)",
       "personal": "Manage Personal Crusades"

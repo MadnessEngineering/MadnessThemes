@@ -503,7 +503,6 @@
     "title": "🚀 STUDY NAVIGATOR",
     "subtitle": "Choose your research study • Access focused lab environments",
     "cacheStatus": "🏪 Cached records • Last scanned: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh • M: Main View • 1-9: Quick select",
     "manageTooltip": {
       "admin": "Manage Studies (Admin)",
       "personal": "Manage Personal Studies"

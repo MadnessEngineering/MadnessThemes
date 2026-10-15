@@ -503,7 +503,6 @@
     "title": "projectNavigator.title",
     "subtitle": "projectNavigator.subtitle",
     "cacheStatus": "projectNavigator.cacheStatus",
-    "keyboardShortcuts": "projectNavigator.keyboardShortcuts",
     "manageTooltip": {
       "admin": "projectNavigator.manageTooltip.admin",
       "personal": "projectNavigator.manageTooltip.personal"

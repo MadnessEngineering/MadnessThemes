@@ -503,7 +503,6 @@
     "title": "🚀 JUNGLE TREE PORTAL",
     "subtitle": "Select your tree domain • Enter primate development environments",
     "cacheStatus": "🏪 Banana cache • Last foraged: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Shake Tree • M: Main Jungle • 1-9: Quick vine",
     "manageTooltip": {
       "admin": "Manage All Trees (Alpha Ape)",
       "personal": "Manage Personal Tree Branches"

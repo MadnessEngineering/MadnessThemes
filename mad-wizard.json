@@ -503,7 +503,6 @@
     "title": "🚀 LABORATORY PORTAL",
     "subtitle": "Select your research domain • Enter mystical experimental environments",
     "cacheStatus": "🏪 Mystical cache • Last summoned: {{time}}",
-    "keyboardShortcuts": "⌨️ Arrow keys: Navigate • Enter/Space: Select • R: Refresh Apparatus • M: Main Laboratory • 1-9: Quick portal",
     "manageTooltip": {
       "admin": "Manage All Experiments (Master Alchemist)",
       "personal": "Manage Personal Research Projects"
