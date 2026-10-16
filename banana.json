@@ -2183,18 +2183,8 @@
     },
     "tooltip": {
       "castSpell": "Channel banana energies (🪄)",
-      "enhanceDescription": "Enhance with banana AI wisdom (Ctrl+E)",
-      "performGeomancy": "Forage jungle patterns (Ctrl+G)",
-      "consolidateSimilar": "Groom similar tasks (Ctrl+C)",
       "spellHistory": "View banana spell chronicle",
       "clearHistory": "Purge banana spell records"
-    },
-    "keyboard": {
-      "shortcuts": "🪄 Jungle Vines:",
-      "enhance": "Ctrl+E - Banana Enhancement",
-      "geomancy": "Ctrl+G - Jungle Forage",
-      "consolidate": "Ctrl+C - Convergence Grooming",
-      "cancel": "Esc - Drop Ritual"
     },
     "history": {
       "timestamp": "Banana timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Reverse the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted banana",
       "TOGGLE_QUESTIONS": "Switch between ripe questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Cast spells on the banana you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Extra Yellow; press again to cast",
+      "PERFORM_GEOMANCY": "Choose Jungle Navigation; press again to cast",
+      "CONSOLIDATE_SIMILAR": "Choose Bunch Bonding; press again to cast"
     },
     "BRIGHTNESS": {
       "description": "Adjust brightness across the jungle",

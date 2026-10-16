@@ -2183,18 +2183,8 @@
     },
     "tooltip": {
       "castSpell": "Channel ore energies (🪄)",
-      "enhanceDescription": "Enhance with rune-sage wisdom (Ctrl+E)",
-      "performGeomancy": "Survey mining patterns (Ctrl+G)",
-      "consolidateSimilar": "Forge similar tasks (Ctrl+C)",
       "spellHistory": "View ore spell chronicle",
       "clearHistory": "Purge ore spell records"
-    },
-    "keyboard": {
-      "shortcuts": "🪄 Mining Runes:",
-      "enhance": "Ctrl+E - Ore Enhancement",
-      "geomancy": "Ctrl+G - Mining Survey",
-      "consolidate": "Ctrl+C - Convergence Forging",
-      "cancel": "Esc - Abandon Ritual"
     },
     "history": {
       "timestamp": "Ore timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Reverse the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted task",
       "TOGGLE_QUESTIONS": "Switch between unanswered runes and the dig log"
+    },
+    "TODO_SPELLS": {
+      "description": "Work runes on the task you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Polishing Gems; press again to strike",
+      "PERFORM_GEOMANCY": "Choose Vein Tracking; press again to strike",
+      "CONSOLIDATE_SIMILAR": "Choose Smelting Down; press again to strike"
     },
     "BRIGHTNESS": {
       "description": "Adjust brightness across the mine",

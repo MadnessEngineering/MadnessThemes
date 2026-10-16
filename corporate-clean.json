@@ -2325,18 +2325,8 @@
     },
     "tooltip": {
       "castSpell": "Apply AI enhancement (🪄)",
-      "enhanceDescription": "Enhance with AI insights (Ctrl+E)",
-      "performGeomancy": "Analyze patterns (Ctrl+G)",
-      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
       "spellHistory": "View enhancement history",
       "clearHistory": "Clear enhancement history"
-    },
-    "keyboard": {
-      "shortcuts": "🪄 Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - AI Enhancement",
-      "geomancy": "Ctrl+G - Pattern Analysis",
-      "consolidate": "Ctrl+C - Task Consolidation",
-      "cancel": "Esc - Cancel"
     },
     "history": {
       "timestamp": "Timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Revert the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted card",
       "TOGGLE_QUESTIONS": "Switch between open questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Cast spells on the todo you are editing",
+      "ENHANCE_DESCRIPTION": "Choose AI Task Enhancement; press again to cast",
+      "PERFORM_GEOMANCY": "Choose Pattern Analysis; press again to cast",
+      "CONSOLIDATE_SIMILAR": "Choose Task Consolidation; press again to cast"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

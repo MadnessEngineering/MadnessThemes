@@ -2183,18 +2183,8 @@
     },
     "tooltip": {
       "castSpell": "Apply AI analysis (🪄)",
-      "enhanceDescription": "Analyze with AI insights (Ctrl+E)",
-      "performGeomancy": "Screen for patterns (Ctrl+G)",
-      "consolidateSimilar": "Consolidate similar assays (Ctrl+C)",
       "spellHistory": "View analysis history",
       "clearHistory": "Clear analysis history"
-    },
-    "keyboard": {
-      "shortcuts": "⌨️ Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - Run Analysis",
-      "geomancy": "Ctrl+G - Pattern Screen",
-      "consolidate": "Ctrl+C - Consolidate Assays",
-      "cancel": "Esc - Withdraw"
     },
     "history": {
       "timestamp": "Logged at:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Reverse the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted assay",
       "TOGGLE_QUESTIONS": "Switch between open clinical questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Run analyses on the assay you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Clinical Interpretation; press again to run",
+      "PERFORM_GEOMANCY": "Choose Molecular Docking; press again to run",
+      "CONSOLIDATE_SIMILAR": "Choose Serum Pooling; press again to run"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

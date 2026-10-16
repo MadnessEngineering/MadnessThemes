@@ -2288,18 +2288,8 @@
     },
     "tooltip": {
       "castSpell": "Deploy AI enhancement protocol (🤖)",
-      "enhanceDescription": "Optimize with AI insights (Ctrl+E)",
-      "performGeomancy": "Execute strategic analysis (Ctrl+G)",
-      "consolidateSimilar": "Deploy consolidation protocol (Ctrl+C)",
       "spellHistory": "View enhancement execution history",
       "clearHistory": "Archive process enhancement records"
-    },
-    "keyboard": {
-      "shortcuts": "🤖 Productivity Shortcuts:",
-      "enhance": "Ctrl+E - AI Task Optimization",
-      "geomancy": "Ctrl+G - Strategic Analysis",
-      "consolidate": "Ctrl+C - Process Consolidation",
-      "cancel": "Esc - Abort Enhancement"
     },
     "history": {
       "timestamp": "Process timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Revert the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted deliverable",
       "TOGGLE_QUESTIONS": "Switch between outstanding questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Leverage optimizations on the deliverable you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Value-Add Optimization; press again to execute",
+      "PERFORM_GEOMANCY": "Choose Vertical Integration; press again to execute",
+      "CONSOLIDATE_SIMILAR": "Choose Synergistic Consolidation; press again to execute"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

@@ -2281,18 +2281,8 @@
     },
     "tooltip": {
       "castSpell": "Deploy tactical system (🪄)",
-      "enhanceDescription": "AI tactical analysis (Ctrl+E)",
-      "performGeomancy": "Combat pattern scan (Ctrl+G)",
-      "consolidateSimilar": "Mission consolidation (Ctrl+C)",
       "spellHistory": "View deployment history",
       "clearHistory": "Purge deployment log"
-    },
-    "keyboard": {
-      "shortcuts": "🪄 Tactical Commands:",
-      "enhance": "Ctrl+E - Tactical Analysis",
-      "geomancy": "Ctrl+G - Pattern Scan",
-      "consolidate": "Ctrl+C - Mission Merge",
-      "cancel": "Esc - Abort"
     },
     "history": {
       "timestamp": "Deployment time:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Revert the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted card",
       "TOGGLE_QUESTIONS": "Switch between open tactical questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Deploy tactics on the card you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Tactical Overhaul; press again to deploy",
+      "PERFORM_GEOMANCY": "Choose Grid Mapping; press again to deploy",
+      "CONSOLIDATE_SIMILAR": "Choose Squad Merging; press again to deploy"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

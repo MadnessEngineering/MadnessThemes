@@ -2241,18 +2241,8 @@
     },
     "tooltip": {
       "castSpell": "spells.tooltip.castSpell",
-      "enhanceDescription": "spells.tooltip.enhanceDescription",
-      "performGeomancy": "spells.tooltip.performGeomancy",
-      "consolidateSimilar": "spells.tooltip.consolidateSimilar",
       "spellHistory": "spells.tooltip.spellHistory",
       "clearHistory": "spells.tooltip.clearHistory"
-    },
-    "keyboard": {
-      "shortcuts": "spells.keyboard.shortcuts",
-      "enhance": "spells.keyboard.enhance",
-      "geomancy": "spells.keyboard.geomancy",
-      "consolidate": "spells.keyboard.consolidate",
-      "cancel": "spells.keyboard.cancel"
     },
     "history": {
       "timestamp": "spells.history.timestamp",
@@ -3648,6 +3638,12 @@
       "REVERT": "hotkeys.CHRONICLE.REVERT",
       "TOGGLE_SELECT": "hotkeys.CHRONICLE.TOGGLE_SELECT",
       "TOGGLE_QUESTIONS": "hotkeys.CHRONICLE.TOGGLE_QUESTIONS"
+    },
+    "TODO_SPELLS": {
+      "description": "hotkeys.TODO_SPELLS.description",
+      "ENHANCE_DESCRIPTION": "hotkeys.TODO_SPELLS.ENHANCE_DESCRIPTION",
+      "PERFORM_GEOMANCY": "hotkeys.TODO_SPELLS.PERFORM_GEOMANCY",
+      "CONSOLIDATE_SIMILAR": "hotkeys.TODO_SPELLS.CONSOLIDATE_SIMILAR"
     },
     "BRIGHTNESS": {
       "description": "hotkeys.BRIGHTNESS.description",

@@ -2652,18 +2652,8 @@
     },
     "tooltip": {
       "castSpell": "Execute AI augmentation (🔧)",
-      "enhanceDescription": "Augment with AI analysis (Ctrl+E)",
-      "performGeomancy": "Run pattern analysis (Ctrl+G)",
-      "consolidateSimilar": "Consolidate similar tasks (Ctrl+C)",
       "spellHistory": "View augmentation history",
       "clearHistory": "Clear augmentation history"
-    },
-    "keyboard": {
-      "shortcuts": "🔧 Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - AI Augmentation",
-      "geomancy": "Ctrl+G - Pattern Analysis",
-      "consolidate": "Ctrl+C - Task Consolidation",
-      "cancel": "Esc - Cancel"
     },
     "history": {
       "timestamp": "Timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Revert the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted card",
       "TOGGLE_QUESTIONS": "Switch between pending queries and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Run scripts on the card you are editing",
+      "ENHANCE_DESCRIPTION": "Choose reformat_text; press again to run",
+      "PERFORM_GEOMANCY": "Choose map_network; press again to run",
+      "CONSOLIDATE_SIMILAR": "Choose dedupe; press again to run"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

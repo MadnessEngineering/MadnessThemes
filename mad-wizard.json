@@ -2359,18 +2359,8 @@
     },
     "tooltip": {
       "castSpell": "Channel mystical energies (🪄)",
-      "enhanceDescription": "Enhance with ethereal AI wisdom (Ctrl+E)",
-      "performGeomancy": "Divine mystical patterns (Ctrl+G)",
-      "consolidateSimilar": "Transmute similar tasks (Ctrl+C)",
       "spellHistory": "View mystical spell chronicle",
       "clearHistory": "Purge arcane spell records"
-    },
-    "keyboard": {
-      "shortcuts": "🪄 Mystical Incantations:",
-      "enhance": "Ctrl+E - Ethereal Enhancement",
-      "geomancy": "Ctrl+G - Mystical Geomancy",
-      "consolidate": "Ctrl+C - Convergence Transmutation",
-      "cancel": "Esc - Abandon Ritual"
     },
     "history": {
       "timestamp": "Mystical timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Reverse the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted experiment",
       "TOGGLE_QUESTIONS": "Switch between open arcane questions and the chronology"
+    },
+    "TODO_SPELLS": {
+      "description": "Cast spells on the experiment you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Arcane Clarification; press again to cast",
+      "PERFORM_GEOMANCY": "Choose Ley Line Alignment; press again to cast",
+      "CONSOLIDATE_SIMILAR": "Choose Alchemical Fusion; press again to cast"
     },
     "BRIGHTNESS": {
       "description": "Adjust the laboratory's brightness",

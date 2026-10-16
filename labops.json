@@ -2325,18 +2325,8 @@
     },
     "tooltip": {
       "castSpell": "Run diagnostic",
-      "enhanceDescription": "Enhance ticket (Ctrl+E)",
-      "performGeomancy": "Run pattern analysis (Ctrl+G)",
-      "consolidateSimilar": "Find duplicates (Ctrl+C)",
       "spellHistory": "View diagnostic history",
       "clearHistory": "Purge diagnostic history"
-    },
-    "keyboard": {
-      "shortcuts": "⌨️ Keyboard Shortcuts:",
-      "enhance": "Ctrl+E - Enhance Ticket",
-      "geomancy": "Ctrl+G - Run Pattern Analysis",
-      "consolidate": "Ctrl+C - Find Duplicates",
-      "cancel": "Esc - Abort"
     },
     "history": {
       "timestamp": "Run timestamp:",
@@ -3668,6 +3658,12 @@
       "REVERT": "Roll back the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted ticket",
       "TOGGLE_QUESTIONS": "Switch between open operational questions and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Run diagnostics on the ticket you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Abstract Refinement; press again to run",
+      "PERFORM_GEOMANCY": "Choose LIMS Integration; press again to run",
+      "CONSOLIDATE_SIMILAR": "Choose Sample Batching; press again to run"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

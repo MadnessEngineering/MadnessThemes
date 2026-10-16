@@ -2326,18 +2326,8 @@
     },
     "tooltip": {
       "castSpell": "Invoke sacred rite",
-      "enhanceDescription": "Illuminate charge (Ctrl+E)",
-      "performGeomancy": "Seek patterns (Ctrl+G)",
-      "consolidateSimilar": "Find duplicates (Ctrl+C)",
       "spellHistory": "View rite chronicle",
       "clearHistory": "Purge rite chronicle"
-    },
-    "keyboard": {
-      "shortcuts": "⌨️ Keyboard Shortcuts:",
-      "enhance": "Ctrl+E — Illuminate Charge",
-      "geomancy": "Ctrl+G — Seek Patterns",
-      "consolidate": "Ctrl+C — Find Duplicates",
-      "cancel": "Esc — Withdraw"
     },
     "history": {
       "timestamp": "Time:",
@@ -3669,6 +3659,12 @@
       "REVERT": "Recant the highlighted change",
       "TOGGLE_SELECT": "Select or unselect the highlighted charge",
       "TOGGLE_QUESTIONS": "Switch between open questions of record and the timeline"
+    },
+    "TODO_SPELLS": {
+      "description": "Perform rites on the charge you are editing",
+      "ENHANCE_DESCRIPTION": "Choose Divine Revelation; press again to perform",
+      "PERFORM_GEOMANCY": "Choose Hallowed Ground; press again to perform",
+      "CONSOLIDATE_SIMILAR": "Choose Sacred Union; press again to perform"
     },
     "BRIGHTNESS": {
       "description": "Adjust the light across every hall",
