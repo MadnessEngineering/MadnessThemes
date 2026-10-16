@@ -486,6 +486,9 @@ missing key never breaks anything; it just speaks English. Layout: `hotkeys.<CAT
   (SwarmDesk, Chronosnap, War Room) stay literal. Error-ish status text (`checkpointFailed`) stays plain.
 - **Stub themes get noun swaps only.** A string changes only where the file already voices that surface
   differently from `standard.json`'s tile, and the standard sentence skeleton stays ("Toggle Missions panel").
+- **Category captions are user copy** (`hotkeys.<CATEGORY>.description`): a phrase with no closing period
+  (the Keyboard board adds its own sentence after it) that never names a key. They're the one exception to
+  noun-swaps-only: stub themes voice them from the file's own lexicon. corporate-clean mirrors standard.
 - `debug.json` is mechanical: value == its own key path (so it drops `{{placeholders}}`, like the rest of that file).
 - `SWARMDESK` and `PORTALS` are deferred (`DEFERRED_CATEGORIES` in the parity test).
 

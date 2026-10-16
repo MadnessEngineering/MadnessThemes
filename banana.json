@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "⚡ PORTAL ACTIVE",
-      "enter": "🚀 ENTER TREE",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "🚀 ENTER TREE"
     },
     "createCta": {
       "title": "Plant a New Banana Tree",
@@ -3587,7 +3586,7 @@
       "description": "Hop between projects",
       "NEXT_PROJECT": "Hop to the next project",
       "PREV_PROJECT": "Hop to the previous project",
-      "EXIT_PROJECT": "Exit to the Canopy Overview",
+      "EXIT_PROJECT": "Hop out of the project",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk Portal mode"
     },
     "PROJECT_NAVIGATOR": {

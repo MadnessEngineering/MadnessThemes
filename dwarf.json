@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "⚡ PORTAL ACTIVE",
-      "enter": "🚀 ENTER MINE",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "🚀 ENTER MINE"
     },
     "createCta": {
       "title": "Stake a New Claim",
@@ -3587,7 +3586,7 @@
       "description": "Quarry navigation and cycling",
       "NEXT_PROJECT": "Cycle to next quarry",
       "PREV_PROJECT": "Cycle to previous quarry",
-      "EXIT_PROJECT": "Exit to Mine Overview",
+      "EXIT_PROJECT": "Climb out of the quarry",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk Portal mode"
     },
     "PROJECT_NAVIGATOR": {

@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "⚡ PORTAL ACTIVE",
-      "enter": "🚀 ENTER REALM",
-      "helpText": "Invoke with Enter or #{{number}}"
+      "enter": "🚀 ENTER REALM"
     },
     "createCta": {
       "title": "Conjure a New Experiment",
@@ -3587,7 +3586,7 @@
       "description": "Warp navigation and project cycling",
       "NEXT_PROJECT": "Warp to the next project",
       "PREV_PROJECT": "Warp to the previous project",
-      "EXIT_PROJECT": "Exit to the Sanctum Overview",
+      "EXIT_PROJECT": "Warp out of the project",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk Portal mode"
     },
     "PROJECT_NAVIGATOR": {

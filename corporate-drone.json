@@ -452,8 +452,7 @@
     },
     "enterButton": {
       "selected": "⚡ ENVIRONMENT ACTIVE",
-      "enter": "🚀 ACCESS PROJECT",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "🚀 ACCESS PROJECT"
     },
     "createCta": {
       "title": "Initialize New Workstream",
@@ -3568,7 +3567,7 @@
   },
   "hotkeys": {
     "PANELS": {
-      "description": "Panel toggling hotkeys for dashboard",
+      "description": "Activate and deactivate Executive Summary panels",
       "TOGGLE_DASHBOARD": "Clear the board (press again to bring it back)",
       "TOGGLE_TODOS": "Toggle Backlog panel",
       "TOGGLE_ACTIVITY_LOG": "Toggle Delivery KPIs panel",
@@ -3584,14 +3583,14 @@
       "TOGGLE_CHRONICLE": "Toggle Chronicle"
     },
     "PROJECT_NAVIGATION": {
-      "description": "Project navigation and cycling",
+      "description": "Pivot between projects",
       "NEXT_PROJECT": "Cycle to next project",
       "PREV_PROJECT": "Cycle to previous project",
-      "EXIT_PROJECT": "Exit to Executive Summary view",
+      "EXIT_PROJECT": "Offboard from the project",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
     },
     "PROJECT_NAVIGATOR": {
-      "description": "Project navigator interface controls",
+      "description": "Within the Project Portfolio",
       "NAVIGATE_RIGHT": "Navigate right in project grid",
       "NAVIGATE_LEFT": "Navigate left in project grid",
       "NAVIGATE_DOWN": "Navigate down in project grid",
@@ -3610,7 +3609,7 @@
       "SELECT_PROJECT_9": "Select project 9"
     },
     "MIND_MAP": {
-      "description": "Strategy Roadmap visualization controls",
+      "description": "Navigate and realign the Strategy Roadmap",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RESET_VIEW": "Reset view to center",
@@ -3629,20 +3628,20 @@
       "CENTER_SELECTION": "Center on selected nodes"
     },
     "CONSTELLATION": {
-      "description": "Dependency Matrix view controls",
+      "description": "Drill down into the Dependency Matrix",
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RECENTER": "Recenter view"
     },
     "SETTINGS": {
-      "description": "Policy Ops panel tab navigation",
+      "description": "Policy Ops tabs and sign-off",
       "NEXT_TAB": "Next Policy Ops tab",
       "PREV_TAB": "Previous Policy Ops tab",
       "SAVE": "Save settings"
     },
     "FANTASY_MAP": {
-      "description": "Fantasy world map position history (undo/redo/quicksave)",
+      "description": "War Room position audit trail (undo, redo, checkpoint)",
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
@@ -3654,7 +3653,7 @@
       "RESET_BRIGHTNESS": "Reset brightness to 100%"
     },
     "GLOBAL": {
-      "description": "Global utility hotkeys",
+      "description": "Cross-functional keys that work on every page",
       "SEARCH": "Focus the search box of the panel you are working in",
       "UNFOCUS_INPUTS": "Unfocus active input fields",
       "TOGGLE_NOTES": "Toggle the Quick Capture pad",

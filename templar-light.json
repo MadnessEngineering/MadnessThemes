@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "📦 PLEDGED",
-      "enter": "⚔️ RIDE FORTH",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "⚔️ RIDE FORTH"
     },
     "createCta": {
       "title": "Declare New Crusade",
@@ -3588,7 +3587,7 @@
       "description": "Crusade navigation and cycling",
       "NEXT_PROJECT": "Proceed to the next crusade",
       "PREV_PROJECT": "Return to the previous crusade",
-      "EXIT_PROJECT": "Exit to the Grand Hall",
+      "EXIT_PROJECT": "Depart the crusade",
       "TOGGLE_SWARMDESK_MODE": "Toggle War Council mode"
     },
     "PROJECT_NAVIGATOR": {

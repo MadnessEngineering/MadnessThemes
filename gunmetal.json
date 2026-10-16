@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "🎯 LOCKED",
-      "enter": "🔫 DEPLOY",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "🔫 DEPLOY"
     },
     "createCta": {
       "title": "Deploy New Operation",
@@ -3568,7 +3567,7 @@
   },
   "hotkeys": {
     "PANELS": {
-      "description": "Panel toggling hotkeys for dashboard",
+      "description": "Open and dock Command Center panels",
       "TOGGLE_DASHBOARD": "Clear the board (press again to bring it back)",
       "TOGGLE_TODOS": "Toggle Missions panel",
       "TOGGLE_ACTIVITY_LOG": "Toggle Sortie Logs panel",
@@ -3584,14 +3583,14 @@
       "TOGGLE_CHRONICLE": "Toggle Chronicle"
     },
     "PROJECT_NAVIGATION": {
-      "description": "Project navigation and cycling",
+      "description": "Redeploy between projects",
       "NEXT_PROJECT": "Cycle to next project",
       "PREV_PROJECT": "Cycle to previous project",
-      "EXIT_PROJECT": "Exit to Command Center view",
+      "EXIT_PROJECT": "Pull out of the project",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
     },
     "PROJECT_NAVIGATOR": {
-      "description": "Project navigator interface controls",
+      "description": "On the Mechs page",
       "NAVIGATE_RIGHT": "Navigate right in project grid",
       "NAVIGATE_LEFT": "Navigate left in project grid",
       "NAVIGATE_DOWN": "Navigate down in project grid",
@@ -3610,7 +3609,7 @@
       "SELECT_PROJECT_9": "Select project 9"
     },
     "MIND_MAP": {
-      "description": "Tactical Map visualization controls",
+      "description": "Maneuver around and arrange the Tactical Map",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RESET_VIEW": "Reset view to center",
@@ -3629,20 +3628,20 @@
       "CENTER_SELECTION": "Center on selected nodes"
     },
     "CONSTELLATION": {
-      "description": "Asset Dependency Grid view controls",
+      "description": "Maneuver around the Asset Dependency Grid",
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RECENTER": "Recenter view"
     },
     "SETTINGS": {
-      "description": "Cockpit Config panel tab navigation",
+      "description": "Cockpit Config tabs and saving",
       "NEXT_TAB": "Next Cockpit Config tab",
       "PREV_TAB": "Previous Cockpit Config tab",
       "SAVE": "Save settings"
     },
     "FANTASY_MAP": {
-      "description": "Fantasy world map position history (undo/redo/quicksave)",
+      "description": "War Room position log (undo, redo, checkpoint)",
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
@@ -3654,7 +3653,7 @@
       "RESET_BRIGHTNESS": "Reset brightness to 100%"
     },
     "GLOBAL": {
-      "description": "Global utility hotkeys",
+      "description": "Standard-issue keys for every page",
       "SEARCH": "Focus the search box of the panel you are working in",
       "UNFOCUS_INPUTS": "Unfocus active input fields",
       "TOGGLE_NOTES": "Toggle the Field Notes pad",

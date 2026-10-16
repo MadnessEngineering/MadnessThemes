@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "📦 STAGED",
-      "enter": "🚀 DEPLOY",
-      "helpText": "Enter or #{{number}} to deploy"
+      "enter": "🚀 DEPLOY"
     },
     "createCta": {
       "title": "Provision New Project",
@@ -3587,7 +3586,7 @@
       "description": "Service navigation and cycling",
       "NEXT_PROJECT": "Cycle to next service",
       "PREV_PROJECT": "Cycle to previous service",
-      "EXIT_PROJECT": "Exit to Operations Dashboard",
+      "EXIT_PROJECT": "Exit the service",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
     },
     "PROJECT_NAVIGATOR": {

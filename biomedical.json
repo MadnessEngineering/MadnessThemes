@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "✅ ACTIVE STUDY",
-      "enter": "🔬 ENTER",
-      "helpText": "Enter or #{{number}} to register"
+      "enter": "🔬 ENTER"
     },
     "createCta": {
       "title": "Initiate New Research Study",
@@ -3587,7 +3586,7 @@
       "description": "Study navigation and cycling",
       "NEXT_PROJECT": "Cycle to next study",
       "PREV_PROJECT": "Cycle to previous study",
-      "EXIT_PROJECT": "Exit to Diagnostic Overview",
+      "EXIT_PROJECT": "Exit the study",
       "TOGGLE_SWARMDESK_MODE": "Toggle Lab Environment mode"
     },
     "PROJECT_NAVIGATOR": {

@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "projectNavigator.enterButton.selected",
-      "enter": "projectNavigator.enterButton.enter",
-      "helpText": "projectNavigator.enterButton.helpText"
+      "enter": "projectNavigator.enterButton.enter"
     },
     "createCta": {
       "title": "projectNavigator.createCta.title",

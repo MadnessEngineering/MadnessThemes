@@ -523,8 +523,7 @@
     },
     "enterButton": {
       "selected": "SELECTED",
-      "enter": "ENTER",
-      "helpText": "Press Enter or #{{number}}"
+      "enter": "ENTER"
     },
     "createCta": {
       "title": "Create a New Project",
@@ -3568,7 +3567,7 @@
   },
   "hotkeys": {
     "PANELS": {
-      "description": "Panel toggling hotkeys for dashboard",
+      "description": "Open and close dashboard panels",
       "TOGGLE_DASHBOARD": "Clear the board (press again to bring it back)",
       "TOGGLE_TODOS": "Toggle Todo List panel",
       "TOGGLE_ACTIVITY_LOG": "Toggle Activity Log panel",
@@ -3584,14 +3583,14 @@
       "TOGGLE_CHRONICLE": "Toggle Chronicle"
     },
     "PROJECT_NAVIGATION": {
-      "description": "Project navigation and cycling",
+      "description": "Move between projects",
       "NEXT_PROJECT": "Cycle to next project",
       "PREV_PROJECT": "Cycle to previous project",
-      "EXIT_PROJECT": "Exit to dashboard view",
+      "EXIT_PROJECT": "Leave the project",
       "TOGGLE_SWARMDESK_MODE": "Toggle SwarmDesk mode"
     },
     "PROJECT_NAVIGATOR": {
-      "description": "Project navigator interface controls",
+      "description": "On the Projects page",
       "NAVIGATE_RIGHT": "Navigate right in project grid",
       "NAVIGATE_LEFT": "Navigate left in project grid",
       "NAVIGATE_DOWN": "Navigate down in project grid",
@@ -3610,7 +3609,7 @@
       "SELECT_PROJECT_9": "Select project 9"
     },
     "MIND_MAP": {
-      "description": "Mind map visualization controls",
+      "description": "Move around and arrange the Mind Map",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RESET_VIEW": "Reset view to center",
@@ -3629,20 +3628,20 @@
       "CENTER_SELECTION": "Center on selected nodes"
     },
     "CONSTELLATION": {
-      "description": "Dependency constellation view controls",
+      "description": "Move around the Dependency Constellation",
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
       "RECENTER": "Recenter view"
     },
     "SETTINGS": {
-      "description": "Settings panel tab navigation",
+      "description": "Settings tabs and saving",
       "NEXT_TAB": "Next settings tab",
       "PREV_TAB": "Previous settings tab",
       "SAVE": "Save settings"
     },
     "FANTASY_MAP": {
-      "description": "Fantasy world map position history (undo/redo/quicksave)",
+      "description": "War Room position history (undo, redo, checkpoint)",
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
@@ -3654,7 +3653,7 @@
       "RESET_BRIGHTNESS": "Reset brightness to 100%"
     },
     "GLOBAL": {
-      "description": "Global utility hotkeys",
+      "description": "Keys that work on every page",
       "SEARCH": "Focus the search box of the panel you are working in",
       "UNFOCUS_INPUTS": "Unfocus active input fields",
       "TOGGLE_NOTES": "Toggle the quick notes pad",
