@@ -3632,7 +3632,10 @@
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
-      "RECENTER": "Recenter view"
+      "RECENTER": "Recenter view",
+      "NEXT_NODE": "Select the next node",
+      "PREV_NODE": "Select the previous node",
+      "OPEN_NODE": "Open the selected node's details"
     },
     "SETTINGS": {
       "description": "Settings tabs and saving",
@@ -3645,6 +3648,26 @@
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "CHRONOSNAP": {
+      "description": "Chronosnap, the War Room time-lapse (while it is online)",
+      "STEP_BACK": "Step back one todo",
+      "STEP_FORWARD": "Step forward one todo",
+      "PLAY": "Play or pause the timeline",
+      "LOOP": "Turn looping on or off",
+      "PREVIEW": "Preview the layout (nothing is saved), or drop the preview",
+      "BAKE": "Bake the preview into the map",
+      "SNAP_NEXT": "Place the current todo at the cursor, then step to the next",
+      "RESET": "Back to the first todo"
+    },
+    "CHRONICLE": {
+      "description": "Navigate the Chronicle, approve and revert",
+      "NEXT": "Next item",
+      "PREV": "Previous item",
+      "APPROVE": "Approve the highlighted or selected cards",
+      "REVERT": "Revert the highlighted change",
+      "TOGGLE_SELECT": "Select or unselect the highlighted card",
+      "TOGGLE_QUESTIONS": "Switch between pending queries and the timeline"
     },
     "BRIGHTNESS": {
       "description": "Adjust site-wide brightness",

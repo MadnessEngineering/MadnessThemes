@@ -3612,7 +3612,10 @@
       "TOGGLE_FULLSCREEN": "hotkeys.CONSTELLATION.TOGGLE_FULLSCREEN",
       "ZOOM_IN": "hotkeys.CONSTELLATION.ZOOM_IN",
       "ZOOM_OUT": "hotkeys.CONSTELLATION.ZOOM_OUT",
-      "RECENTER": "hotkeys.CONSTELLATION.RECENTER"
+      "RECENTER": "hotkeys.CONSTELLATION.RECENTER",
+      "NEXT_NODE": "hotkeys.CONSTELLATION.NEXT_NODE",
+      "PREV_NODE": "hotkeys.CONSTELLATION.PREV_NODE",
+      "OPEN_NODE": "hotkeys.CONSTELLATION.OPEN_NODE"
     },
     "SETTINGS": {
       "description": "hotkeys.SETTINGS.description",
@@ -3625,6 +3628,26 @@
       "UNDO": "hotkeys.FANTASY_MAP.UNDO",
       "REDO": "hotkeys.FANTASY_MAP.REDO",
       "QUICKSAVE": "hotkeys.FANTASY_MAP.QUICKSAVE"
+    },
+    "CHRONOSNAP": {
+      "description": "hotkeys.CHRONOSNAP.description",
+      "STEP_BACK": "hotkeys.CHRONOSNAP.STEP_BACK",
+      "STEP_FORWARD": "hotkeys.CHRONOSNAP.STEP_FORWARD",
+      "PLAY": "hotkeys.CHRONOSNAP.PLAY",
+      "LOOP": "hotkeys.CHRONOSNAP.LOOP",
+      "PREVIEW": "hotkeys.CHRONOSNAP.PREVIEW",
+      "BAKE": "hotkeys.CHRONOSNAP.BAKE",
+      "SNAP_NEXT": "hotkeys.CHRONOSNAP.SNAP_NEXT",
+      "RESET": "hotkeys.CHRONOSNAP.RESET"
+    },
+    "CHRONICLE": {
+      "description": "hotkeys.CHRONICLE.description",
+      "NEXT": "hotkeys.CHRONICLE.NEXT",
+      "PREV": "hotkeys.CHRONICLE.PREV",
+      "APPROVE": "hotkeys.CHRONICLE.APPROVE",
+      "REVERT": "hotkeys.CHRONICLE.REVERT",
+      "TOGGLE_SELECT": "hotkeys.CHRONICLE.TOGGLE_SELECT",
+      "TOGGLE_QUESTIONS": "hotkeys.CHRONICLE.TOGGLE_QUESTIONS"
     },
     "BRIGHTNESS": {
       "description": "hotkeys.BRIGHTNESS.description",

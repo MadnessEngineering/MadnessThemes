@@ -3632,7 +3632,10 @@
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
-      "RECENTER": "Recenter view"
+      "RECENTER": "Recenter view",
+      "NEXT_NODE": "Select the next node",
+      "PREV_NODE": "Select the previous node",
+      "OPEN_NODE": "Inspect the selected node's details"
     },
     "SETTINGS": {
       "description": "Forge tab navigation",
@@ -3645,6 +3648,26 @@
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "CHRONOSNAP": {
+      "description": "Chronosnap, the War Room time-lapse hall (while it is open)",
+      "STEP_BACK": "Step back one task",
+      "STEP_FORWARD": "Step forward one task",
+      "PLAY": "Play or pause the timeline",
+      "LOOP": "Turn looping on or off",
+      "PREVIEW": "Preview the layout (nothing is saved), or abandon the preview",
+      "BAKE": "Engrave the preview into the map",
+      "SNAP_NEXT": "Place the current task at the cursor, then step to the next",
+      "RESET": "Back to the first task"
+    },
+    "CHRONICLE": {
+      "description": "Move through the Chronicle, stamp and reverse",
+      "NEXT": "Next item",
+      "PREV": "Previous item",
+      "APPROVE": "Stamp the highlighted or selected tasks",
+      "REVERT": "Reverse the highlighted change",
+      "TOGGLE_SELECT": "Select or unselect the highlighted task",
+      "TOGGLE_QUESTIONS": "Switch between unanswered runes and the dig log"
     },
     "BRIGHTNESS": {
       "description": "Adjust brightness across the mine",

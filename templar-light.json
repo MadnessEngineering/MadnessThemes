@@ -3633,7 +3633,10 @@
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
-      "RECENTER": "Recenter view"
+      "RECENTER": "Recenter view",
+      "NEXT_NODE": "Select the next node",
+      "PREV_NODE": "Select the previous node",
+      "OPEN_NODE": "Consult the selected node's details"
     },
     "SETTINGS": {
       "description": "Chapter Config tab navigation",
@@ -3646,6 +3649,26 @@
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "CHRONOSNAP": {
+      "description": "Chronosnap, the War Room time-lapse chamber (while it is open)",
+      "STEP_BACK": "Step back one charge",
+      "STEP_FORWARD": "Step forward one charge",
+      "PLAY": "Play or pause the timeline",
+      "LOOP": "Turn looping on or off",
+      "PREVIEW": "Preview the layout (nothing is saved), or withdraw the preview",
+      "BAKE": "Inscribe the preview into the map",
+      "SNAP_NEXT": "Place the current charge at the cursor, then step to the next",
+      "RESET": "Back to the first charge"
+    },
+    "CHRONICLE": {
+      "description": "Move through the Chronicle, sanctify and recant",
+      "NEXT": "Next item",
+      "PREV": "Previous item",
+      "APPROVE": "Sanctify the highlighted or selected charges",
+      "REVERT": "Recant the highlighted change",
+      "TOGGLE_SELECT": "Select or unselect the highlighted charge",
+      "TOGGLE_QUESTIONS": "Switch between open questions of record and the timeline"
     },
     "BRIGHTNESS": {
       "description": "Adjust the light across every hall",

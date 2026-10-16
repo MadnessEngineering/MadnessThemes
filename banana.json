@@ -3632,7 +3632,10 @@
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
-      "RECENTER": "Recenter view"
+      "RECENTER": "Recenter view",
+      "NEXT_NODE": "Select the next node",
+      "PREV_NODE": "Select the previous node",
+      "OPEN_NODE": "Peel open the selected node's details"
     },
     "SETTINGS": {
       "description": "Tree Config tab navigation",
@@ -3645,6 +3648,26 @@
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "CHRONOSNAP": {
+      "description": "Chronosnap, the War Room time-lapse stand (while it is open)",
+      "STEP_BACK": "Step back one banana",
+      "STEP_FORWARD": "Step forward one banana",
+      "PLAY": "Play or pause the timeline",
+      "LOOP": "Turn looping on or off",
+      "PREVIEW": "Preview the layout (nothing is saved), or scrap the preview",
+      "BAKE": "Stash the preview in the map",
+      "SNAP_NEXT": "Place the current banana at the cursor, then step to the next",
+      "RESET": "Back to the first banana"
+    },
+    "CHRONICLE": {
+      "description": "Hop through the Chronicle, approve and reverse",
+      "NEXT": "Next item",
+      "PREV": "Previous item",
+      "APPROVE": "Approve the highlighted or selected bananas",
+      "REVERT": "Reverse the highlighted change",
+      "TOGGLE_SELECT": "Select or unselect the highlighted banana",
+      "TOGGLE_QUESTIONS": "Switch between ripe questions and the timeline"
     },
     "BRIGHTNESS": {
       "description": "Adjust brightness across the jungle",

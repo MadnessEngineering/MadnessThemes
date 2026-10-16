@@ -3632,7 +3632,10 @@
       "TOGGLE_FULLSCREEN": "Toggle fullscreen",
       "ZOOM_IN": "Zoom in",
       "ZOOM_OUT": "Zoom out",
-      "RECENTER": "Recenter view"
+      "RECENTER": "Recenter view",
+      "NEXT_NODE": "Select the next node",
+      "PREV_NODE": "Select the previous node",
+      "OPEN_NODE": "Peer into the selected node's details"
     },
     "SETTINGS": {
       "description": "Apparatus Config tab navigation",
@@ -3645,6 +3648,26 @@
       "UNDO": "Undo node position change",
       "REDO": "Redo node position change",
       "QUICKSAVE": "Quick checkpoint of node positions"
+    },
+    "CHRONOSNAP": {
+      "description": "Chronosnap, the War Room time-lapse apparatus (while it is open)",
+      "STEP_BACK": "Step back one experiment",
+      "STEP_FORWARD": "Step forward one experiment",
+      "PLAY": "Play or pause the timeline",
+      "LOOP": "Turn looping on or off",
+      "PREVIEW": "Preview the layout (nothing is saved), or abandon the preview",
+      "BAKE": "Archive the preview into the map",
+      "SNAP_NEXT": "Place the current experiment at the cursor, then step to the next",
+      "RESET": "Back to the first experiment"
+    },
+    "CHRONICLE": {
+      "description": "Move through the Chronicle, seal and reverse",
+      "NEXT": "Next item",
+      "PREV": "Previous item",
+      "APPROVE": "Seal the highlighted or selected experiments",
+      "REVERT": "Reverse the highlighted change",
+      "TOGGLE_SELECT": "Select or unselect the highlighted experiment",
+      "TOGGLE_QUESTIONS": "Switch between open arcane questions and the chronology"
     },
     "BRIGHTNESS": {
       "description": "Adjust the laboratory's brightness",
