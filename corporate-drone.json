@@ -2271,7 +2271,6 @@
       "summary": "{{count}} optimization outcomes tracked"
     },
     "errors": {
-      "castingFailed": "Enhancement protocol failed: {{error}}",
       "noDescription": "Task description required for AI optimization process",
       "rateLimited": "System capacity limit reached. Enhancement resources recharge in: {{timeRemaining}}",
       "aiError": "AI productivity system encountered processing limitations",

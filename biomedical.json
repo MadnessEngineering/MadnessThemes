@@ -2166,7 +2166,6 @@
       "summary": "{{count}} analytical results shown"
     },
     "errors": {
-      "castingFailed": "Analysis failed: {{error}}",
       "noDescription": "Assay description is required for analysis",
       "rateLimited": "Analysis limit reached. Please wait: {{timeRemaining}}",
       "aiError": "Analysis system error",

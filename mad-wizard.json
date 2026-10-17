@@ -2342,7 +2342,6 @@
       "summary": "{{count}} ethereal manifestations observed"
     },
     "errors": {
-      "castingFailed": "Mystical ritual failed: {{error}}",
       "noDescription": "Task description is required for mystical enhancement",
       "rateLimited": "Mystical energies depleted. Await ethereal recharge: {{timeRemaining}}",
       "aiError": "Arcane AI familiar encountered mystical interference",

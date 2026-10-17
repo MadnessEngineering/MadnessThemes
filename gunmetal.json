@@ -2264,7 +2264,6 @@
       "summary": "{{count}} spell results shown"
     },
     "errors": {
-      "castingFailed": "System deployment failed: {{error}}",
       "noDescription": "Mission brief required for tactical analysis",
       "rateLimited": "System overheating. Cooldown time: {{timeRemaining}}",
       "aiError": "AI copilot encountered critical error",

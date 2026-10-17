@@ -2308,7 +2308,6 @@
       "summary": "{{count}} spell results shown"
     },
     "errors": {
-      "castingFailed": "Enhancement failed: {{error}}",
       "noDescription": "Task description is required for enhancement",
       "rateLimited": "Enhancement limit reached. Please wait: {{timeRemaining}}",
       "aiError": "AI system encountered an error",

@@ -2166,7 +2166,6 @@
       "summary": "{{count}} forgings complete"
     },
     "errors": {
-      "castingFailed": "Ore ritual failed: {{error}}",
       "noDescription": "Task description be required fer ore enhancement",
       "rateLimited": "Ore energies depleted. Await mining recharge: {{timeRemaining}}",
       "aiError": "The rune-sage stumbled in the dust",

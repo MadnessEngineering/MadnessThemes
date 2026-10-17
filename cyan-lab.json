@@ -2635,7 +2635,6 @@
       "summary": "{{count}} spell results shown"
     },
     "errors": {
-      "castingFailed": "Augmentation failed: {{error}}",
       "noDescription": "Task directive is required for augmentation",
       "rateLimited": "Augmentation rate limit reached. Cooldown: {{timeRemaining}}",
       "aiError": "AI subsystem encountered an anomaly",

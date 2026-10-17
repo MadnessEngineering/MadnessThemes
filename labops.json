@@ -2308,7 +2308,6 @@
       "summary": "{{count}} diagnostic results"
     },
     "errors": {
-      "castingFailed": "Diagnostic failed: {{error}}",
       "noDescription": "Ticket description required for enhancement",
       "rateLimited": "Rate limit reached. Wait: {{timeRemaining}}",
       "aiError": "AI system error",

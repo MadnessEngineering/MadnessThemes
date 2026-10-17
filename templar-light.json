@@ -2309,7 +2309,6 @@
       "summary": "{{count}} rite results"
     },
     "errors": {
-      "castingFailed": "Invocation failed: {{error}}",
       "noDescription": "Charge description required for illumination",
       "rateLimited": "Rite limit reached. Wait: {{timeRemaining}}",
       "aiError": "Oracle system error",

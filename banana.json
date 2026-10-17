@@ -2166,7 +2166,6 @@
       "summary": "{{count}} spell results shown"
     },
     "errors": {
-      "castingFailed": "Banana ritual failed: {{error}}",
       "noDescription": "Task description is required for banana enhancement",
       "rateLimited": "Banana energies depleted. Await jungle recharge: {{timeRemaining}}",
       "aiError": "Banana AI ape encountered jungle interference",
