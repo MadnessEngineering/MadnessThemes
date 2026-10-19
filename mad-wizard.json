@@ -2339,7 +2339,10 @@
       "title": "Arcane Manifestations",
       "latest": "Recent Visions",
       "noResults": "The crystal ball is clear. Cast an incantation to manifest results here.",
-      "summary": "{{count}} ethereal manifestations observed"
+      "summary": {
+        "one": "{{count}} ethereal manifestation observed",
+        "other": "{{count}} ethereal manifestations observed"
+      }
     },
     "errors": {
       "noDescription": "Task description is required for mystical enhancement",
@@ -2371,9 +2374,18 @@
       "duration": "Ritual duration:",
       "empty": "No mystical rituals recorded in the arcane chronicles",
       "justNow": "This very instant!",
-      "minutesAgo": "{{count}} moments ago",
-      "hoursAgo": "{{count}} turnings of the glass ago",
-      "daysAgo": "{{count}} sunrises ago",
+      "minutesAgo": {
+        "one": "{{count}} moment ago",
+        "other": "{{count}} moments ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}} turning of the glass ago",
+        "other": "{{count}} turnings of the glass ago"
+      },
+      "daysAgo": {
+        "one": "{{count}} sunrise ago",
+        "other": "{{count}} sunrises ago"
+      },
       "filter": "Sift Essences",
       "filters": {
         "all": "All Incantations",
@@ -2395,7 +2407,20 @@
       "castFailed": "The spell recoiled!",
       "showing": "Observing",
       "totalCasts": "Total Rituals",
-      "toggle": "Unveil Ritual Chronicle"
+      "toggle": "Unveil Ritual Chronicle",
+      "output": {
+        "enhanced": "Manifested Refinement",
+        "insights": "Ethereal Epiphanies",
+        "insightCount": {
+          "one": "{{count}} epiphany divined",
+          "other": "{{count}} epiphanies divined"
+        },
+        "found": "Discovered",
+        "similarCount": {
+          "one": "{{count}} echoed specimen",
+          "other": "{{count}} echoed specimens"
+        }
+      }
     },
     "status": {
       "idle": "Mystical energies at rest",
@@ -2471,7 +2496,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Discovered {{count}} echoed specimens",
+      "found": {
+        "one": "Discovered {{count}} echoed specimen",
+        "other": "Discovered {{count}} echoed specimens"
+      },
       "result": {
         "consolidated": "Crystallized Conflux",
         "suggestions": "Oracle's Fusion Edicts"

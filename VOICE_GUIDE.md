@@ -2,8 +2,9 @@
 
 This is "the helps": the theme-agnostic guide for writing personality translation files
 (`src/locales/themes/*.json`). Every theme shares the same ~1918 keys (`debug.json` is the master
-checklist — each value there equals its own dotted key path). What differs between themes is
-**voice**, and without a rubric every pass drifts. This document fixes that.
+checklist — each value there equals its own dotted key path; a counted key's plural forms read
+`<key>.one ({{count}})` / `<key>.other ({{count}})`, see Part A rule 11). What differs between
+themes is **voice**, and without a rubric every pass drifts. This document fixes that.
 
 Two parts:
 - **Part A — Global principles.** Apply to every theme, every string.
@@ -58,6 +59,16 @@ Apply these to every theme. They are about *quality and consistency*, not a spec
 
 10. **Read-aloud test.** Read the string out loud. Does it sound like a person *in this world* wrote
     it, or like a model filling a slot? If the latter, rewrite it.
+
+11. **Counted strings carry plural forms.** A string that shows a number is an object of forms,
+    not a flat string: `{ "one": "…", "other": "…" }`, plus an optional `"zero"`. `t(key, { count })`
+    picks by `count` (`one` for 1, `zero` for 0 when present, else `other`), so a day-old cast can't
+    read "1 days ago". Every form keeps `{{count}}`: `other` is the line you'd have written flat,
+    `one` is that line at 1, in the theme's own noun ("1 charge", not "1 charges"). A key has the
+    same shape in every theme (parity). `debug.json` writes its forms as `<key>.one ({{count}})` /
+    `<key>.other ({{count}})`, so you can see which one `t()` picked. Counted keys today:
+    `spells.history.{minutes,hours,days}Ago`, `spells.results.summary`,
+    `spells.consolidateSimilar.found`, `spells.history.output.{insightCount,similarCount}`.
 
 ### On lexicons: pin the noun-map, not just the verb
 

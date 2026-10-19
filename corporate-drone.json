@@ -2268,7 +2268,10 @@
       "title": "Optimization Outcomes",
       "latest": "Most Recent",
       "noResults": "No outcomes generated yet. Deploy an optimization to populate this dashboard.",
-      "summary": "{{count}} optimization outcomes tracked"
+      "summary": {
+        "one": "{{count}} optimization outcome tracked",
+        "other": "{{count}} optimization outcomes tracked"
+      }
     },
     "errors": {
       "noDescription": "Task description required for AI optimization process",
@@ -2300,9 +2303,18 @@
       "duration": "Process duration:",
       "empty": "No enhancement protocols recorded in operational history",
       "justNow": "Real-time",
-      "minutesAgo": "{{count}}m ago",
-      "hoursAgo": "{{count}}h ago",
-      "daysAgo": "{{count}}d ago",
+      "minutesAgo": {
+        "one": "{{count}}m ago",
+        "other": "{{count}}m ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}}h ago",
+        "other": "{{count}}h ago"
+      },
+      "daysAgo": {
+        "one": "{{count}}d ago",
+        "other": "{{count}}d ago"
+      },
       "filter": "KPI Filter",
       "filters": {
         "all": "Full Portfolio",
@@ -2324,7 +2336,20 @@
       "castFailed": "Systemic failure detected.",
       "showing": "Visualizing",
       "totalCasts": "Total Implementations",
-      "toggle": "Toggle activity log"
+      "toggle": "Toggle activity log",
+      "output": {
+        "enhanced": "Optimized",
+        "insights": "Actionable Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Identified",
+        "similarCount": {
+          "one": "{{count}} redundant action item",
+          "other": "{{count}} redundant action items"
+        }
+      }
     },
     "status": {
       "idle": "AI enhancement system ready",
@@ -2400,7 +2425,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Identified {{count}} redundant action items",
+      "found": {
+        "one": "Identified {{count}} redundant action item",
+        "other": "Identified {{count}} redundant action items"
+      },
       "result": {
         "consolidated": "Consolidated Deliverable",
         "suggestions": "Streamlining Recommendations"

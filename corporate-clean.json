@@ -2305,7 +2305,10 @@
       "title": "Spell Results",
       "latest": "Latest",
       "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "summary": {
+        "one": "{{count}} spell result shown",
+        "other": "{{count}} spell results shown"
+      }
     },
     "errors": {
       "noDescription": "Task description is required for enhancement",
@@ -2337,9 +2340,18 @@
       "duration": "Duration:",
       "empty": "No enhancements recorded",
       "justNow": "Just now",
-      "minutesAgo": "{{count}} minutes ago",
-      "hoursAgo": "{{count}} hours ago",
-      "daysAgo": "{{count}} days ago",
+      "minutesAgo": {
+        "one": "{{count}} minute ago",
+        "other": "{{count}} minutes ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}} hour ago",
+        "other": "{{count}} hours ago"
+      },
+      "daysAgo": {
+        "one": "{{count}} day ago",
+        "other": "{{count}} days ago"
+      },
       "filter": "Filter",
       "filters": {
         "all": "All Items",
@@ -2361,7 +2373,20 @@
       "castFailed": "Action failed.",
       "showing": "Showing",
       "totalCasts": "Total actions",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle spell history",
+      "output": {
+        "enhanced": "Enhanced",
+        "insights": "Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar task",
+          "other": "{{count}} similar tasks"
+        }
+      }
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -2437,7 +2462,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": {
+        "one": "Found {{count}} similar task",
+        "other": "Found {{count}} similar tasks"
+      },
       "result": {
         "consolidated": "Consolidated Description",
         "suggestions": "Merge Suggestions"

@@ -2261,7 +2261,10 @@
       "title": "Spell Results",
       "latest": "Latest",
       "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "summary": {
+        "one": "{{count}} spell result shown",
+        "other": "{{count}} spell results shown"
+      }
     },
     "errors": {
       "noDescription": "Mission brief required for tactical analysis",
@@ -2293,9 +2296,18 @@
       "duration": "Duration:",
       "empty": "No system deployments logged",
       "justNow": "Actual",
-      "minutesAgo": "M+{{count}}",
-      "hoursAgo": "H+{{count}}",
-      "daysAgo": "D+{{count}}",
+      "minutesAgo": {
+        "one": "M+{{count}}",
+        "other": "M+{{count}}"
+      },
+      "hoursAgo": {
+        "one": "H+{{count}}",
+        "other": "H+{{count}}"
+      },
+      "daysAgo": {
+        "one": "D+{{count}}",
+        "other": "D+{{count}}"
+      },
       "filter": "Triage",
       "filters": {
         "all": "Full Roster",
@@ -2317,7 +2329,20 @@
       "castFailed": "Operation compromised.",
       "showing": "Visualizing",
       "totalCasts": "Total Sorties",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle spell history",
+      "output": {
+        "enhanced": "Enhanced",
+        "insights": "Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar task",
+          "other": "{{count}} similar tasks"
+        }
+      }
     },
     "status": {
       "idle": "Tactical systems ready",
@@ -2393,7 +2418,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": {
+        "one": "Found {{count}} similar task",
+        "other": "Found {{count}} similar tasks"
+      },
       "result": {
         "consolidated": "Consolidated Description",
         "suggestions": "Merge Suggestions"

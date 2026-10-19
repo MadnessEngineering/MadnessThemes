@@ -2221,7 +2221,10 @@
       "title": "[DEBUG] spells.results.title",
       "latest": "[DEBUG] latest",
       "noResults": "[DEBUG] resultsToShow.length===0",
-      "summary": "[DEBUG] {{count}} results rendered"
+      "summary": {
+        "one": "spells.results.summary.one ({{count}})",
+        "other": "spells.results.summary.other ({{count}})"
+      }
     },
     "errors": {
       "noDescription": "spells.errors.noDescription",
@@ -2253,9 +2256,18 @@
       "duration": "spells.history.duration",
       "empty": "spells.history.empty",
       "justNow": "spells.history.justNow",
-      "minutesAgo": "spells.history.minutesAgo ({{count}})",
-      "hoursAgo": "spells.history.hoursAgo ({{count}})",
-      "daysAgo": "spells.history.daysAgo ({{count}})",
+      "minutesAgo": {
+        "one": "spells.history.minutesAgo.one ({{count}})",
+        "other": "spells.history.minutesAgo.other ({{count}})"
+      },
+      "hoursAgo": {
+        "one": "spells.history.hoursAgo.one ({{count}})",
+        "other": "spells.history.hoursAgo.other ({{count}})"
+      },
+      "daysAgo": {
+        "one": "spells.history.daysAgo.one ({{count}})",
+        "other": "spells.history.daysAgo.other ({{count}})"
+      },
       "filter": "spells.history.filter",
       "filters": {
         "all": "spells.history.filters.all",
@@ -2277,7 +2289,20 @@
       "castFailed": "spells.history.castFailed",
       "showing": "spells.history.showing",
       "totalCasts": "spells.history.totalCasts",
-      "toggle": "[DEBUG] spells.history.toggle"
+      "toggle": "[DEBUG] spells.history.toggle",
+      "output": {
+        "enhanced": "spells.history.output.enhanced",
+        "insights": "spells.history.output.insights",
+        "insightCount": {
+          "one": "spells.history.output.insightCount.one ({{count}})",
+          "other": "spells.history.output.insightCount.other ({{count}})"
+        },
+        "found": "spells.history.output.found",
+        "similarCount": {
+          "one": "spells.history.output.similarCount.one ({{count}})",
+          "other": "spells.history.output.similarCount.other ({{count}})"
+        }
+      }
     },
     "status": {
       "idle": "spells.status.idle",
@@ -2353,7 +2378,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "[DEBUG] similar_todos.length={{count}}",
+      "found": {
+        "one": "spells.consolidateSimilar.found.one ({{count}})",
+        "other": "spells.consolidateSimilar.found.other ({{count}})"
+      },
       "result": {
         "consolidated": "[DEBUG] consolidated_description",
         "suggestions": "[DEBUG] merge_suggestions[]"

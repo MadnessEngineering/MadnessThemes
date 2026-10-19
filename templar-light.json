@@ -2306,7 +2306,10 @@
       "title": "Rite Results",
       "latest": "Latest",
       "noResults": "No results yet. Invoke a rite to see results here.",
-      "summary": "{{count}} rite results"
+      "summary": {
+        "one": "{{count}} rite result",
+        "other": "{{count}} rite results"
+      }
     },
     "errors": {
       "noDescription": "Charge description required for illumination",
@@ -2338,9 +2341,18 @@
       "duration": "Duration:",
       "empty": "No rites recorded",
       "justNow": "In this holy hour",
-      "minutesAgo": "{{count}} prayers ago",
-      "hoursAgo": "{{count}} vigils ago",
-      "daysAgo": "{{count}} pilgrimages ago",
+      "minutesAgo": {
+        "one": "{{count}} prayer ago",
+        "other": "{{count}} prayers ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}} vigil ago",
+        "other": "{{count}} vigils ago"
+      },
+      "daysAgo": {
+        "one": "{{count}} pilgrimage ago",
+        "other": "{{count}} pilgrimages ago"
+      },
       "filter": "Purify",
       "filters": {
         "all": "The Whole Order",
@@ -2362,7 +2374,20 @@
       "castFailed": "The light faded.",
       "showing": "Witnessing",
       "totalCasts": "Total Miracles",
-      "toggle": "Toggle rite chronicle"
+      "toggle": "Toggle rite chronicle",
+      "output": {
+        "enhanced": "Illuminated",
+        "insights": "Revelations",
+        "insightCount": {
+          "one": "{{count}} revelation granted",
+          "other": "{{count}} revelations granted"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar charge",
+          "other": "{{count}} similar charges"
+        }
+      }
     },
     "status": {
       "idle": "Rites ready",
@@ -2438,7 +2463,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar charges",
+      "found": {
+        "one": "Found {{count}} similar charge",
+        "other": "Found {{count}} similar charges"
+      },
       "result": {
         "consolidated": "United Description",
         "suggestions": "Union Suggestions"

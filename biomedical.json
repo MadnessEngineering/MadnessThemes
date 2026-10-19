@@ -2163,7 +2163,10 @@
       "title": "Analytical Results",
       "latest": "Most Recent",
       "noResults": "No results yet. Run an analysis to see results here.",
-      "summary": "{{count}} analytical results shown"
+      "summary": {
+        "one": "{{count}} analytical result shown",
+        "other": "{{count}} analytical results shown"
+      }
     },
     "errors": {
       "noDescription": "Assay description is required for analysis",
@@ -2195,9 +2198,18 @@
       "duration": "Runtime:",
       "empty": "No analyses on record",
       "justNow": "Immediate post-op",
-      "minutesAgo": "T+{{count}} minutes",
-      "hoursAgo": "T+{{count}} hours",
-      "daysAgo": "T+{{count}} days",
+      "minutesAgo": {
+        "one": "T+{{count}} minute",
+        "other": "T+{{count}} minutes"
+      },
+      "hoursAgo": {
+        "one": "T+{{count}} hour",
+        "other": "T+{{count}} hours"
+      },
+      "daysAgo": {
+        "one": "T+{{count}} day",
+        "other": "T+{{count}} days"
+      },
       "filter": "Screening",
       "filters": {
         "all": "All Specimens",
@@ -2219,7 +2231,20 @@
       "castFailed": "Adverse reaction detected.",
       "showing": "Monitoring",
       "totalCasts": "Total Interventions",
-      "toggle": "Toggle analysis history"
+      "toggle": "Toggle analysis history",
+      "output": {
+        "enhanced": "Analyzed",
+        "insights": "Findings",
+        "insightCount": {
+          "one": "{{count}} finding generated",
+          "other": "{{count}} findings generated"
+        },
+        "found": "Detected",
+        "similarCount": {
+          "one": "{{count}} similar assay",
+          "other": "{{count}} similar assays"
+        }
+      }
     },
     "status": {
       "idle": "Analysis tools ready",
@@ -2295,7 +2320,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Detected {{count}} similar assays",
+      "found": {
+        "one": "Detected {{count}} similar assay",
+        "other": "Detected {{count}} similar assays"
+      },
       "result": {
         "consolidated": "Pooled Description",
         "suggestions": "Consolidation Candidates"

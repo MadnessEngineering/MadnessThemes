@@ -2343,7 +2343,10 @@
       "title": "Spell Results",
       "latest": "Latest",
       "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown",
+      "summary": {
+        "one": "{{count}} spell result shown",
+        "other": "{{count}} spell results shown"
+      },
       "enhance": {
         "success": "🧠 Task enhanced with AI insights!",
         "improvement": "Enhancement applied to task description",
@@ -2396,9 +2399,18 @@
       "duration": "Duration:",
       "empty": "No enhancements recorded",
       "justNow": "just now",
-      "minutesAgo": "{{count}}m ago",
-      "hoursAgo": "{{count}}h ago",
-      "daysAgo": "{{count}}d ago",
+      "minutesAgo": {
+        "one": "{{count}}m ago",
+        "other": "{{count}}m ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}}h ago",
+        "other": "{{count}}h ago"
+      },
+      "daysAgo": {
+        "one": "{{count}}d ago",
+        "other": "{{count}}d ago"
+      },
       "filter": "Filter",
       "filters": {
         "all": "All",
@@ -2419,7 +2431,20 @@
       "castSuccessfully": "Applied successfully",
       "castFailed": "Application failed",
       "showing": "Showing",
-      "totalCasts": "Total requests"
+      "totalCasts": "Total requests",
+      "output": {
+        "enhanced": "Enhanced",
+        "insights": "Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar task",
+          "other": "{{count}} similar tasks"
+        }
+      }
     },
     "status": {
       "idle": "Enhancement tools ready",
@@ -2471,7 +2496,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": {
+        "one": "Found {{count}} similar task",
+        "other": "Found {{count}} similar tasks"
+      },
       "result": {
         "consolidated": "Consolidated Description",
         "suggestions": "Merge Suggestions"

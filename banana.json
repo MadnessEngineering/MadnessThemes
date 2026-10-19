@@ -2163,7 +2163,10 @@
       "title": "Spell Results",
       "latest": "Latest",
       "noResults": "No results yet. Cast a spell to see results here.",
-      "summary": "{{count}} spell results shown"
+      "summary": {
+        "one": "{{count}} spell result shown",
+        "other": "{{count}} spell results shown"
+      }
     },
     "errors": {
       "noDescription": "Task description is required for banana enhancement",
@@ -2195,9 +2198,18 @@
       "duration": "Ritual duration:",
       "empty": "No banana rituals recorded in the jungle chronicles",
       "justNow": "A split second ago",
-      "minutesAgo": "{{count}} bananas ago",
-      "hoursAgo": "{{count}} bunches ago",
-      "daysAgo": "{{count}} harvests ago",
+      "minutesAgo": {
+        "one": "{{count}} banana ago",
+        "other": "{{count}} bananas ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}} bunch ago",
+        "other": "{{count}} bunches ago"
+      },
+      "daysAgo": {
+        "one": "{{count}} harvest ago",
+        "other": "{{count}} harvests ago"
+      },
       "filter": "Peel",
       "filters": {
         "all": "Whole Bunch",
@@ -2219,7 +2231,20 @@
       "castFailed": "Slipped on a peel.",
       "showing": "Munching",
       "totalCasts": "Total Peels",
-      "toggle": "Toggle spell history"
+      "toggle": "Toggle spell history",
+      "output": {
+        "enhanced": "Enhanced",
+        "insights": "Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar task",
+          "other": "{{count}} similar tasks"
+        }
+      }
     },
     "status": {
       "idle": "Banana energies at rest",
@@ -2295,7 +2320,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tasks",
+      "found": {
+        "one": "Found {{count}} similar task",
+        "other": "Found {{count}} similar tasks"
+      },
       "result": {
         "consolidated": "Consolidated Description",
         "suggestions": "Merge Suggestions"

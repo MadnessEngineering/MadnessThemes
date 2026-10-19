@@ -2163,7 +2163,10 @@
       "title": "Forge Output",
       "latest": "Fresh from Anvil",
       "noResults": "Forge cold. Strike a rune to see results here.",
-      "summary": "{{count}} forgings complete"
+      "summary": {
+        "one": "{{count}} forging complete",
+        "other": "{{count}} forgings complete"
+      }
     },
     "errors": {
       "noDescription": "Task description be required fer ore enhancement",
@@ -2195,9 +2198,18 @@
       "duration": "Ritual duration:",
       "empty": "No ore rituals recorded in the mining chronicles",
       "justNow": "By my beard!",
-      "minutesAgo": "{{count}} strikes ago",
-      "hoursAgo": "{{count}} shifts ago",
-      "daysAgo": "{{count}} moons ago",
+      "minutesAgo": {
+        "one": "{{count}} strike ago",
+        "other": "{{count}} strikes ago"
+      },
+      "hoursAgo": {
+        "one": "{{count}} shift ago",
+        "other": "{{count}} shifts ago"
+      },
+      "daysAgo": {
+        "one": "{{count}} moon ago",
+        "other": "{{count}} moons ago"
+      },
       "filter": "Sift Ore",
       "filters": {
         "all": "The Whole Vein",
@@ -2219,7 +2231,20 @@
       "castFailed": "Hammer broke.",
       "showing": "Gazing",
       "totalCasts": "Total Ingots",
-      "toggle": "Unroll forge ledger"
+      "toggle": "Unroll forge ledger",
+      "output": {
+        "enhanced": "Reforged",
+        "insights": "Vein Readings",
+        "insightCount": {
+          "one": "{{count}} reading unearthed",
+          "other": "{{count}} readings unearthed"
+        },
+        "found": "Struck",
+        "similarCount": {
+          "one": "{{count}} similar vein",
+          "other": "{{count}} similar veins"
+        }
+      }
     },
     "status": {
       "idle": "Ore energies at rest",
@@ -2295,7 +2320,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Struck {{count}} similar veins",
+      "found": {
+        "one": "Struck {{count}} similar vein",
+        "other": "Struck {{count}} similar veins"
+      },
       "result": {
         "consolidated": "Consolidated Ore Deposit",
         "suggestions": "Merger Proposals from the Mining Guild"

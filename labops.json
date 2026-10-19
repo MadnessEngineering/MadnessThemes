@@ -2305,7 +2305,10 @@
       "title": "Diagnostic Results",
       "latest": "Most Recent",
       "noResults": "No results yet. Run a diagnostic to see results here.",
-      "summary": "{{count}} diagnostic results"
+      "summary": {
+        "one": "{{count}} diagnostic result",
+        "other": "{{count}} diagnostic results"
+      }
     },
     "errors": {
       "noDescription": "Ticket description required for enhancement",
@@ -2337,9 +2340,18 @@
       "duration": "Runtime:",
       "empty": "No diagnostics logged",
       "justNow": "Current",
-      "minutesAgo": "{{count}} mins elapsed",
-      "hoursAgo": "{{count}} hrs elapsed",
-      "daysAgo": "{{count}} days elapsed",
+      "minutesAgo": {
+        "one": "{{count}} min elapsed",
+        "other": "{{count}} mins elapsed"
+      },
+      "hoursAgo": {
+        "one": "{{count}} hr elapsed",
+        "other": "{{count}} hrs elapsed"
+      },
+      "daysAgo": {
+        "one": "{{count}} day elapsed",
+        "other": "{{count}} days elapsed"
+      },
       "filter": "Isolate",
       "filters": {
         "all": "Full Inventory",
@@ -2361,7 +2373,20 @@
       "castFailed": "Execution error.",
       "showing": "Displaying",
       "totalCasts": "Total Runs",
-      "toggle": "Toggle diagnostic history"
+      "toggle": "Toggle diagnostic history",
+      "output": {
+        "enhanced": "Enhanced",
+        "insights": "Diagnostic Insights",
+        "insightCount": {
+          "one": "{{count}} insight generated",
+          "other": "{{count}} insights generated"
+        },
+        "found": "Found",
+        "similarCount": {
+          "one": "{{count}} similar ticket",
+          "other": "{{count}} similar tickets"
+        }
+      }
     },
     "status": {
       "idle": "Diagnostics ready",
@@ -2437,7 +2462,10 @@
       }
     },
     "consolidateSimilar": {
-      "found": "Found {{count}} similar tickets",
+      "found": {
+        "one": "Found {{count}} similar ticket",
+        "other": "Found {{count}} similar tickets"
+      },
       "result": {
         "consolidated": "Merged Description",
         "suggestions": "Consolidation Recommendations"
