@@ -60,14 +60,15 @@ Apply these to every theme. They are about *quality and consistency*, not a spec
 10. **Read-aloud test.** Read the string out loud. Does it sound like a person *in this world* wrote
     it, or like a model filling a slot? If the latter, rewrite it.
 
-11. **Counted strings carry plural forms.** A string that shows a number is an object of forms,
-    not a flat string: `{ "one": "…", "other": "…" }`, plus an optional `"zero"`. `t(key, { count })`
-    picks by `count` (`one` for 1, `zero` for 0 when present, else `other`), so a day-old cast can't
-    read "1 days ago". Every form keeps `{{count}}`: `other` is the line you'd have written flat,
-    `one` is that line at 1, in the theme's own noun ("1 charge", not "1 charges"). A key has the
-    same shape in every theme (parity). `debug.json` writes its forms as `<key>.one ({{count}})` /
-    `<key>.other ({{count}})`, so you can see which one `t()` picked. Counted keys today:
-    `spells.history.{minutes,hours,days}Ago`, `spells.results.summary`,
+11. **A counted string can carry plural forms.** Optional, not owed: a flat `"{{count}} items"`
+    reading "1 items" is fine, and most counted strings stay flat on purpose (Dan, 2026-10-19). Don't
+    convert one just because it's flat. Where a key does use them, it's an object of forms:
+    `{ "one": "…", "other": "…" }`, plus an optional `"zero"`. `t(key, { count })` picks by `count`
+    (`one` for 1, `zero` for 0 when present, else `other`). Every form keeps `{{count}}`: `other` is
+    the line you'd have written flat, `one` is that line at 1, in the theme's own noun ("1 charge",
+    not "1 charges"). A key has the same shape in every theme (parity). `debug.json` writes its forms
+    as `<key>.one ({{count}})` / `<key>.other ({{count}})`, so you can see which one `t()` picked.
+    Keys with forms today: `spells.history.{minutes,hours,days}Ago`, `spells.results.summary`,
     `spells.consolidateSimilar.found`, `spells.history.output.{insightCount,similarCount}`.
 
 ### On lexicons: pin the noun-map, not just the verb
