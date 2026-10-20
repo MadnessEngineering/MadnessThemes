@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted deliverable",
       "TOGGLE_QUESTIONS": "Switch between outstanding questions and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Pivot through the orphaned deliverables, select, remediate and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted deliverable",
+      "ACCEPT": "Remediate the highlighted group, or select the highlighted deliverable",
+      "ARCHIVE": "Archive the highlighted deliverable",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Leverage optimizations on the deliverable you are editing",
       "ENHANCE_DESCRIPTION": "Choose Value-Add Optimization; press again to execute",

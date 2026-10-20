@@ -3670,6 +3670,15 @@
       "TOGGLE_SELECT": "hotkeys.CHRONICLE.TOGGLE_SELECT",
       "TOGGLE_QUESTIONS": "hotkeys.CHRONICLE.TOGGLE_QUESTIONS"
     },
+    "LAB_MAINTENANCE": {
+      "description": "hotkeys.LAB_MAINTENANCE.description",
+      "NEXT": "hotkeys.LAB_MAINTENANCE.NEXT",
+      "PREV": "hotkeys.LAB_MAINTENANCE.PREV",
+      "TOGGLE_SELECT": "hotkeys.LAB_MAINTENANCE.TOGGLE_SELECT",
+      "ACCEPT": "hotkeys.LAB_MAINTENANCE.ACCEPT",
+      "ARCHIVE": "hotkeys.LAB_MAINTENANCE.ARCHIVE",
+      "CLEAR_SELECTION": "hotkeys.LAB_MAINTENANCE.CLEAR_SELECTION"
+    },
     "TODO_SPELLS": {
       "description": "hotkeys.TODO_SPELLS.description",
       "ENHANCE_DESCRIPTION": "hotkeys.TODO_SPELLS.ENHANCE_DESCRIPTION",

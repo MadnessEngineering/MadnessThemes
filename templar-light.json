@@ -3691,6 +3691,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted charge",
       "TOGGLE_QUESTIONS": "Switch between open questions of record and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned charges, select, amend and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted charge",
+      "ACCEPT": "Amend the highlighted group, or select the highlighted charge",
+      "ARCHIVE": "Archive the highlighted charge",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Perform rites on the charge you are editing",
       "ENHANCE_DESCRIPTION": "Choose Divine Revelation; press again to perform",

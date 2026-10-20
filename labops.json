@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted ticket",
       "TOGGLE_QUESTIONS": "Switch between open operational questions and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned tickets, select, resolve and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted ticket",
+      "ACCEPT": "Resolve the highlighted group, or select the highlighted ticket",
+      "ARCHIVE": "Archive the highlighted ticket",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Run diagnostics on the ticket you are editing",
       "ENHANCE_DESCRIPTION": "Choose Abstract Refinement; press again to run",

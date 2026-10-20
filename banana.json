@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted banana",
       "TOGGLE_QUESTIONS": "Switch between ripe questions and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Hop through the orphaned bananas, select, fix and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted banana",
+      "ACCEPT": "Fix the highlighted group, or select the highlighted banana",
+      "ARCHIVE": "Archive the highlighted banana",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Cast spells on the banana you are editing",
       "ENHANCE_DESCRIPTION": "Choose Extra Yellow; press again to cast",

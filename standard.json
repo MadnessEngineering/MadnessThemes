@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted card",
       "TOGGLE_QUESTIONS": "Switch between open questions and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned todos, select, fix and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted todo",
+      "ACCEPT": "Fix the highlighted group, or select the highlighted todo",
+      "ARCHIVE": "Archive the highlighted todo",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Cast spells on the todo you are editing",
       "ENHANCE_DESCRIPTION": "Choose AI Task Enhancement; press again to cast",

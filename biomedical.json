@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted assay",
       "TOGGLE_QUESTIONS": "Switch between open clinical questions and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned specimens, select, correct and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted assay",
+      "ACCEPT": "Correct the highlighted group, or select the highlighted assay",
+      "ARCHIVE": "Archive the highlighted assay",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Run analyses on the assay you are editing",
       "ENHANCE_DESCRIPTION": "Choose Clinical Interpretation; press again to run",

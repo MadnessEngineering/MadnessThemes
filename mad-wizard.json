@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted experiment",
       "TOGGLE_QUESTIONS": "Switch between open arcane questions and the chronology"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned experiments, select, mend and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted experiment",
+      "ACCEPT": "Mend the highlighted group, or select the highlighted experiment",
+      "ARCHIVE": "Archive the highlighted experiment",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Cast spells on the experiment you are editing",
       "ENHANCE_DESCRIPTION": "Choose Arcane Clarification; press again to cast",

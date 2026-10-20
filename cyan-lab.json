@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted card",
       "TOGGLE_QUESTIONS": "Switch between pending queries and the timeline"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Navigate the orphaned cards, select, fix and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted card",
+      "ACCEPT": "Fix the highlighted group, or select the highlighted card",
+      "ARCHIVE": "Archive the highlighted card",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Run scripts on the card you are editing",
       "ENHANCE_DESCRIPTION": "Choose reformat_text; press again to run",

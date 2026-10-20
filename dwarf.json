@@ -3690,6 +3690,15 @@
       "TOGGLE_SELECT": "Select or unselect the highlighted task",
       "TOGGLE_QUESTIONS": "Switch between unanswered runes and the dig log"
     },
+    "LAB_MAINTENANCE": {
+      "description": "Walk the orphaned tasks, select, mend and archive",
+      "NEXT": "Next row",
+      "PREV": "Previous row",
+      "TOGGLE_SELECT": "Select or unselect the highlighted task",
+      "ACCEPT": "Mend the highlighted group, or select the highlighted task",
+      "ARCHIVE": "Archive the highlighted task",
+      "CLEAR_SELECTION": "Clear the selection"
+    },
     "TODO_SPELLS": {
       "description": "Work runes on the task you are editing",
       "ENHANCE_DESCRIPTION": "Choose Polishing Gems; press again to strike",
