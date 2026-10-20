@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Failed to rescan tactical questions",
     "saveFailed": "Confirmation rejected",
-    "noteFailed": "Note rejected"
+    "noteFailed": "Note rejected",
+    "record": "Confirm",
+    "recorded": "Confirmed: “{{question}}” → {{answer}}",
+    "undo": "Rescind"
   },
   "notesDock": {
     "title": "Field Notes",

@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Data feed failed to surface outstanding questions",
     "saveFailed": "Answer deployment failed",
-    "noteFailed": "Note deployment failed"
+    "noteFailed": "Note deployment failed",
+    "record": "Deploy",
+    "recorded": "Deployed: “{{question}}” → {{answer}}",
+    "undo": "Roll Back"
   },
   "notesDock": {
     "title": "Quick Capture",

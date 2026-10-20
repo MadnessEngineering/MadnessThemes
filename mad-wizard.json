@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "The void refused to surface the Arcane Questions",
     "saveFailed": "The void refused to archive your answer",
-    "noteFailed": "The void refused to archive your note"
+    "noteFailed": "The void refused to archive your note",
+    "record": "Archive",
+    "recorded": "Archived: “{{question}}” → {{answer}}",
+    "undo": "Unseal"
   },
   "notesDock": {
     "title": "Grimoire Scraps",

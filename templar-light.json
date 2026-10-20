@@ -3564,7 +3564,10 @@
     "noProject": "no crusade",
     "loadFailed": "The Archive failed to surface the Questions of Record",
     "saveFailed": "Your answer failed to inscribe into the record",
-    "noteFailed": "Your note failed to inscribe into the record"
+    "noteFailed": "Your note failed to inscribe into the record",
+    "record": "Inscribe",
+    "recorded": "Inscribed: “{{question}}” → {{answer}}",
+    "undo": "Strike"
   },
   "notesDock": {
     "title": "Vow Scraps",

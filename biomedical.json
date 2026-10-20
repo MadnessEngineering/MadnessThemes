@@ -3563,7 +3563,10 @@
     "noProject": "no study",
     "loadFailed": "Unable to rescan clinical questions",
     "saveFailed": "Failed to record determination",
-    "noteFailed": "Failed to record note"
+    "noteFailed": "Failed to record note",
+    "record": "Record",
+    "recorded": "Recorded: “{{question}}” → {{answer}}",
+    "undo": "Retract"
   },
   "notesDock": {
     "title": "Observation Log",

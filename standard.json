@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Failed to load open questions",
     "saveFailed": "Failed to record answer",
-    "noteFailed": "Failed to record note"
+    "noteFailed": "Failed to record note",
+    "record": "Record",
+    "recorded": "Recorded: “{{question}}” → {{answer}}",
+    "undo": "Undo"
   },
   "notesDock": {
     "title": "Notes",

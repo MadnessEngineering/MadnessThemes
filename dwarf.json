@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Couldn't mine the unanswered runes",
     "saveFailed": "Couldn't engrave the answer",
-    "noteFailed": "Couldn't engrave the note"
+    "noteFailed": "Couldn't engrave the note",
+    "record": "Engrave",
+    "recorded": "Engraved: “{{question}}” → {{answer}}",
+    "undo": "Scrape Off"
   },
   "notesDock": {
     "title": "Chalk Scratchings",

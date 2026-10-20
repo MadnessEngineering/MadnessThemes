@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Failed to sync pending queries",
     "saveFailed": "Failed to commit answer",
-    "noteFailed": "Failed to commit note"
+    "noteFailed": "Failed to commit note",
+    "record": "Commit",
+    "recorded": "Committed: “{{question}}” → {{answer}}",
+    "undo": "Revert"
   },
   "notesDock": {
     "title": "Scratch Buffer",

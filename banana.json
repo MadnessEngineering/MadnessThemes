@@ -3563,7 +3563,10 @@
     "noProject": "no project",
     "loadFailed": "Slipped loading the ripe questions",
     "saveFailed": "Saving your pick went bananas",
-    "noteFailed": "Stashing your note went bananas"
+    "noteFailed": "Stashing your note went bananas",
+    "record": "Stash Pick",
+    "recorded": "Stashed: “{{question}}” → {{answer}}",
+    "undo": "Put Back"
   },
   "notesDock": {
     "title": "Peel Notes",

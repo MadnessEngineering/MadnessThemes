@@ -3563,7 +3563,10 @@
     "noProject": "no service",
     "loadFailed": "Failed to query open questions",
     "saveFailed": "Failed to file the ack",
-    "noteFailed": "Failed to commit the annotation"
+    "noteFailed": "Failed to commit the annotation",
+    "record": "File Ack",
+    "recorded": "Filed: “{{question}}” → {{answer}}",
+    "undo": "Revert"
   },
   "notesDock": {
     "title": "Scratch Log",

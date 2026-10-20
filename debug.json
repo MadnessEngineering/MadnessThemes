@@ -3543,7 +3543,10 @@
     "noProject": "questionsLane.noProject",
     "loadFailed": "questionsLane.loadFailed",
     "saveFailed": "questionsLane.saveFailed",
-    "noteFailed": "questionsLane.noteFailed"
+    "noteFailed": "questionsLane.noteFailed",
+    "record": "questionsLane.record",
+    "recorded": "questionsLane.recorded",
+    "undo": "questionsLane.undo"
   },
   "notesDock": {
     "title": "notesDock.title",
