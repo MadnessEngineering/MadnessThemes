@@ -2222,7 +2222,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Static Mode",
       "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Clear Visual Effects"
+      "cleanUpEffects": "Clear Visual Effects",
+      "resetLayout": "Reset Layout"
     },
     "sequence": {
       "hideSequence": "Hide Task Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Neural Map",
         "fantasyMap": "War Room",
         "constellation": "Node Dependency Graph",
-        "settings": "Settings"
+        "settings": "Settings",
+        "chronicle": "Chronicle"
       }
     }
   },

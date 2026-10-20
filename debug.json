@@ -1402,7 +1402,8 @@
     "tooltips": {
       "disableStaticMode": "mindMap.tooltips.disableStaticMode",
       "enableStaticMode": "mindMap.tooltips.enableStaticMode",
-      "cleanUpEffects": "mindMap.tooltips.cleanUpEffects"
+      "cleanUpEffects": "mindMap.tooltips.cleanUpEffects",
+      "resetLayout": "mindMap.tooltips.resetLayout"
     },
     "sequence": {
       "hideSequence": "mindMap.sequence.hideSequence",
@@ -3727,7 +3728,8 @@
         "mindMap": "hotkeys.ui.contexts.mindMap",
         "fantasyMap": "hotkeys.ui.contexts.fantasyMap",
         "constellation": "hotkeys.ui.contexts.constellation",
-        "settings": "hotkeys.ui.contexts.settings"
+        "settings": "hotkeys.ui.contexts.settings",
+        "chronicle": "hotkeys.ui.contexts.chronicle"
       }
     }
   },

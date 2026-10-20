@@ -1500,7 +1500,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Stasis Enchantment",
       "enableStaticMode": "Enable Stasis Enchantment",
-      "cleanUpEffects": "Purify Mystical Aura"
+      "cleanUpEffects": "Purify Mystical Aura",
+      "resetLayout": "Reset Arcane Layout"
     },
     "sequence": {
       "hideSequence": "Conceal Mystical Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Knowledge Map",
         "fantasyMap": "War Room",
         "constellation": "Astral Dependency Web",
-        "settings": "Apparatus Config"
+        "settings": "Apparatus Config",
+        "chronicle": "Chronicle"
       }
     }
   },

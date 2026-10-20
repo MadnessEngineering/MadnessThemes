@@ -1368,7 +1368,8 @@
     "tooltips": {
       "disableStaticMode": "Deactivate Static Mode",
       "enableStaticMode": "Activate Static Mode",
-      "cleanUpEffects": "Clear Visual Artifacts"
+      "cleanUpEffects": "Clear Visual Artifacts",
+      "resetLayout": "Reinitialize Layout"
     },
     "sequence": {
       "hideSequence": "Hide Assay Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Neural Map",
         "fantasyMap": "War Room",
         "constellation": "Specimen Dependency Network",
-        "settings": "Lab Configuration"
+        "settings": "Lab Configuration",
+        "chronicle": "Chronicle"
       }
     }
   },

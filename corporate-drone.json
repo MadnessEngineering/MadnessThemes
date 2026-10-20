@@ -1429,7 +1429,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Static Analysis Mode",
       "enableStaticMode": "Enable Static Analysis Mode",
-      "cleanUpEffects": "Optimize Visual Analytics"
+      "cleanUpEffects": "Optimize Visual Analytics",
+      "resetLayout": "Re-baseline Layout"
     },
     "sequence": {
       "hideSequence": "Hide Workflow Visualization",
@@ -3747,7 +3748,8 @@
         "mindMap": "Strategy Roadmap",
         "fantasyMap": "War Room",
         "constellation": "Dependency Matrix",
-        "settings": "Policy Ops"
+        "settings": "Policy Ops",
+        "chronicle": "Chronicle"
       }
     }
   },

@@ -1467,7 +1467,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Static Mode",
       "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Cleanse Visual Effects"
+      "cleanUpEffects": "Cleanse Visual Effects",
+      "resetLayout": "Restore Default Formation"
     },
     "sequence": {
       "hideSequence": "Conceal Task Sequence",
@@ -3748,7 +3749,8 @@
         "mindMap": "Battle Map",
         "fantasyMap": "War Room",
         "constellation": "Sacred Order Constellation",
-        "settings": "Chapter Config"
+        "settings": "Chapter Config",
+        "chronicle": "Chronicle"
       }
     }
   },

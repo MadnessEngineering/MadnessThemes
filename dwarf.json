@@ -1368,7 +1368,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Stone Enchantment",
       "enableStaticMode": "Enable Stone Enchantment",
-      "cleanUpEffects": "Purify Ore Aura"
+      "cleanUpEffects": "Purify Ore Aura",
+      "resetLayout": "Reset Stone Layout"
     },
     "sequence": {
       "hideSequence": "Conceal Mining Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Cavern Survey",
         "fantasyMap": "War Room",
         "constellation": "Ore Vein Constellation",
-        "settings": "Forge"
+        "settings": "Forge",
+        "chronicle": "Chronicle"
       }
     }
   },

@@ -1368,7 +1368,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Tree Enchantment",
       "enableStaticMode": "Enable Tree Enchantment",
-      "cleanUpEffects": "Purify Banana Aura"
+      "cleanUpEffects": "Purify Banana Aura",
+      "resetLayout": "Reset Tree Layout"
     },
     "sequence": {
       "hideSequence": "Conceal Swing Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Canopy Map",
         "fantasyMap": "War Room",
         "constellation": "Banana Vine Tangle",
-        "settings": "Tree Config"
+        "settings": "Tree Config",
+        "chronicle": "Chronicle"
       }
     }
   },

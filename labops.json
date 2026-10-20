@@ -1466,7 +1466,8 @@
     "tooltips": {
       "disableStaticMode": "Deactivate Static Mode",
       "enableStaticMode": "Activate Static Mode",
-      "cleanUpEffects": "Purge Visual Effects"
+      "cleanUpEffects": "Purge Visual Effects",
+      "resetLayout": "Reset Topology Layout"
     },
     "sequence": {
       "hideSequence": "Hide Execution Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Topology",
         "fantasyMap": "War Room",
         "constellation": "Dependency Topology",
-        "settings": "Config"
+        "settings": "Config",
+        "chronicle": "Chronicle"
       }
     }
   },

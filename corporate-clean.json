@@ -1466,7 +1466,8 @@
     "tooltips": {
       "disableStaticMode": "Disable Static Mode",
       "enableStaticMode": "Enable Static Mode",
-      "cleanUpEffects": "Clean Up Visual Effects"
+      "cleanUpEffects": "Clean Up Visual Effects",
+      "resetLayout": "Reset Layout"
     },
     "sequence": {
       "hideSequence": "Hide Task Sequence",
@@ -3747,7 +3748,8 @@
         "mindMap": "Mind Map",
         "fantasyMap": "War Room",
         "constellation": "Dependency Constellation",
-        "settings": "Settings"
+        "settings": "Settings",
+        "chronicle": "Chronicle"
       }
     }
   },
