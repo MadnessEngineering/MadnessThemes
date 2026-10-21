@@ -3214,6 +3214,12 @@
       "modified": "Patched"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Ticket Events",
+    "sessionRites": "Session Events",
+    "contentSigils": "Runbook & Service Events",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Query dependency graph...",
     "loading": "Mapping dependencies...",

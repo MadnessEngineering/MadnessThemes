@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Task Triggers",
+    "sessionRites": "Session Triggers",
+    "contentSigils": "Stonecraft Updates",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Prospect the ore veins…",
     "loading": "Hewing the tunnel network…",

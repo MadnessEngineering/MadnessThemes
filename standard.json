@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Todo Events",
+    "sessionRites": "Session Events",
+    "contentSigils": "Content Events",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Search constellation…",
     "loading": "Initializing constellation…",

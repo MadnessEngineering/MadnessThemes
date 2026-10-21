@@ -3194,6 +3194,12 @@
       "modified": "automationRecipes.tagNormalization.modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "grimoire.todoCatalysts",
+    "sessionRites": "grimoire.sessionRites",
+    "contentSigils": "grimoire.contentSigils",
+    "manualScheduled": "grimoire.manualScheduled"
+  },
   "constellation": {
     "searchPlaceholder": "constellation.searchPlaceholder",
     "loading": "constellation.loading",

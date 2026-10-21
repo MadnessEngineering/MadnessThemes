@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Task Lifecycle Triggers",
+    "sessionRites": "Session Touchpoints",
+    "contentSigils": "Knowledge Asset Updates",
+    "manualScheduled": "Manual & Scheduled Cadence"
+  },
   "constellation": {
     "searchPlaceholder": "Search dependency matrix…",
     "loading": "Initializing dependency matrix…",

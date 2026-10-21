@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Task Signals",
+    "sessionRites": "Session Signals",
+    "contentSigils": "Content Signals",
+    "manualScheduled": "Manual & Timed Signals"
+  },
   "constellation": {
     "searchPlaceholder": "Query node network…",
     "loading": "Bootstrapping node graph…",

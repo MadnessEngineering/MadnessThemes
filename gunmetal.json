@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Task Triggers",
+    "sessionRites": "Session Triggers",
+    "contentSigils": "Intel Triggers",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Scan asset network…",
     "loading": "Initializing asset grid…",

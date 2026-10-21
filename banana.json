@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Banana Triggers",
+    "sessionRites": "Session Swings",
+    "contentSigils": "Jungle Wisdom Updates",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Sniff out the bunches…",
     "loading": "Peeling back the jungle…",

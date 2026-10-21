@@ -3214,6 +3214,12 @@
       "modified": "Normalized"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Assay Events",
+    "sessionRites": "Session Events",
+    "contentSigils": "Lab Note & Study Events",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Query specimen catalog…",
     "loading": "Initializing specimen network…",

@@ -3215,6 +3215,12 @@
       "modified": "Revised"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Charge Events",
+    "sessionRites": "Session Rites",
+    "contentSigils": "Chronicle & Crusade Updates",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Seek within the sacred order…",
     "loading": "Inscribing the sacred order…",

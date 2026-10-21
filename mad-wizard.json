@@ -3214,6 +3214,12 @@
       "modified": "Modified"
     }
   },
+  "grimoire": {
+    "todoCatalysts": "Experiment Catalysts",
+    "sessionRites": "Session Rites",
+    "contentSigils": "Content Sigils",
+    "manualScheduled": "Manual & Scheduled"
+  },
   "constellation": {
     "searchPlaceholder": "Scry the arcane web…",
     "loading": "Weaving the astral web…",
