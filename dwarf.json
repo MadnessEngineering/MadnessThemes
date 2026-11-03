@@ -3776,5 +3776,14 @@
     "quickNotes": "Scratchings",
     "priorityQueue": "Ore Queue",
     "chatSessions3d": "3D Familiar Sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Horn Heard",
+    "linkedTitle": "A SwarmDesk tab is listening: what agents arrange or show reaches it now.",
+    "alsoWaiting": "{{count}} earlier messages wait at the gate, in your world inbox.",
+    "waiting": "📥 {{count}} at the Gate",
+    "waitingTitle": "No SwarmDesk tab is listening, and {{count}} messages from agents wait at the gate, in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Hall Silent",
+    "offTitle": "No SwarmDesk tab is listening. What agents send waits at the gate, in your world inbox, until you open SwarmDesk."
   }
 }

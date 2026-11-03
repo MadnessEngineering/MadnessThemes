@@ -3756,5 +3756,14 @@
     "quickNotes": "fab.quickNotes",
     "priorityQueue": "fab.priorityQueue",
     "chatSessions3d": "fab.chatSessions3d"
+  },
+  "worldLink": {
+    "linked": "worldLink.linked",
+    "linkedTitle": "worldLink.linkedTitle",
+    "alsoWaiting": "worldLink.alsoWaiting",
+    "waiting": "worldLink.waiting",
+    "waitingTitle": "worldLink.waitingTitle",
+    "off": "worldLink.off",
+    "offTitle": "worldLink.offTitle"
   }
 }

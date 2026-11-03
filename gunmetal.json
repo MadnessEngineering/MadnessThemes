@@ -3776,5 +3776,14 @@
     "quickNotes": "Field Notes",
     "priorityQueue": "Mission Queue",
     "chatSessions3d": "3D chat sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Comms Up",
+    "linkedTitle": "A SwarmDesk tab is on comms: agent arrange and show orders reach it now.",
+    "alsoWaiting": "{{count}} earlier orders are holding in your world inbox.",
+    "waiting": "📥 {{count}} Holding",
+    "waitingTitle": "No SwarmDesk tab is on comms, and {{count}} agent orders are holding in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Comms Down",
+    "offTitle": "No SwarmDesk tab is on comms. Agent orders hold in your world inbox until you open SwarmDesk."
   }
 }

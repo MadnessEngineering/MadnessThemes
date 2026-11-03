@@ -3776,5 +3776,14 @@
     "quickNotes": "Grimoire",
     "priorityQueue": "Pending Rituals",
     "chatSessions3d": "3D Assistant Sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Link Open",
+    "linkedTitle": "A SwarmDesk scrying window is open: what familiars arrange or show reaches it now.",
+    "alsoWaiting": "{{count}} earlier missives wait in your world inbox.",
+    "waiting": "📥 {{count}} Missives",
+    "waitingTitle": "No SwarmDesk window is open, and {{count}} missives from familiars wait in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Link Dormant",
+    "offTitle": "No SwarmDesk window is open. What familiars send waits in your world inbox until you open SwarmDesk."
   }
 }

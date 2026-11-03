@@ -3776,5 +3776,14 @@
     "quickNotes": "Scratch Buffer",
     "priorityQueue": "Processing Stack",
     "chatSessions3d": "3D chat sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Uplink Live",
+    "linkedTitle": "A SwarmDesk tab holds the uplink: what agents arrange or show reaches it now.",
+    "alsoWaiting": "{{count}} earlier pushes are buffered in your world inbox.",
+    "waiting": "📥 {{count}} Buffered",
+    "waitingTitle": "No SwarmDesk tab holds the uplink, and {{count}} agent pushes are buffered in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Uplink Idle",
+    "offTitle": "No SwarmDesk tab holds the uplink. Agent pushes buffer in your world inbox until you open SwarmDesk."
   }
 }

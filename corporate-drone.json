@@ -3776,5 +3776,14 @@
     "quickNotes": "Quick Capture",
     "priorityQueue": "Pending Approvals",
     "chatSessions3d": "3D chat sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Synced",
+    "linkedTitle": "A SwarmDesk tab is online: agent deliverables (arrangements, shows) are received in real time.",
+    "alsoWaiting": "{{count}} earlier action items are pending in your world inbox.",
+    "waiting": "📥 {{count}} Action Items",
+    "waitingTitle": "No SwarmDesk tab is online, and {{count}} agent action items are pending in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Out of Office",
+    "offTitle": "No SwarmDesk tab is online. Agent deliverables are held in your world inbox until you open SwarmDesk."
   }
 }

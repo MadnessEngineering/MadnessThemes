@@ -3776,5 +3776,14 @@
     "quickNotes": "Observation Log",
     "priorityQueue": "Sample Queue",
     "chatSessions3d": "3D Assistant Sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Link Active",
+    "linkedTitle": "A SwarmDesk session is monitoring: agent arrange and show requests are received now.",
+    "alsoWaiting": "{{count}} earlier requests are pending in your world inbox.",
+    "waiting": "📥 {{count}} Pending",
+    "waitingTitle": "No SwarmDesk session is monitoring; {{count}} agent requests are pending in your world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 Link Inactive",
+    "offTitle": "No SwarmDesk session is monitoring. Agent requests are held in your world inbox until you open SwarmDesk."
   }
 }

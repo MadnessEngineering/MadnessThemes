@@ -3777,5 +3777,14 @@
     "quickNotes": "Vow Scraps",
     "priorityQueue": "Blessing Queue",
     "chatSessions3d": "3D Oracle Sessions"
+  },
+  "worldLink": {
+    "linked": "🛰 Herald Present",
+    "linkedTitle": "A SwarmDesk tab keeps watch: what agents arrange or show reaches it now.",
+    "alsoWaiting": "{{count}} earlier dispatches await you in the world inbox.",
+    "waiting": "📥 {{count}} Dispatches",
+    "waitingTitle": "No SwarmDesk tab keeps watch, and {{count}} dispatches from agents await you in the world inbox. Open SwarmDesk to run or dismiss them.",
+    "off": "🛰 No Herald",
+    "offTitle": "No SwarmDesk tab keeps watch. What agents send awaits you in the world inbox until you open SwarmDesk."
   }
 }
