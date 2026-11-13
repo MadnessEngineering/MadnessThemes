@@ -3804,6 +3804,13 @@
       "updated": "Shellomancy plugin updated. Restart the session to activate.",
       "claudeInstalled": "Shellomancy plugin installed. Run /reload-plugins to activate.",
       "claudeUpdated": "Shellomancy plugin updated. Run /reload-plugins to activate."
+    },
+    "settings": {
+      "voice": {
+        "category": "Voice",
+        "label": "Language style for Shellomancy's text",
+        "restartNote": "Applies after Shellomancy restarts."
+      }
     }
   }
 }

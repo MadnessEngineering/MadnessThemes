@@ -3804,6 +3804,13 @@
       "updated": "Familiar rebound. Restart the session to wake it.",
       "claudeInstalled": "Familiar bound. Run /reload-plugins to wake it.",
       "claudeUpdated": "Familiar rebound. Run /reload-plugins to wake it."
+    },
+    "settings": {
+      "voice": {
+        "category": "Voice",
+        "label": "Who's doing the talking",
+        "restartNote": "Takes hold after Shellomancy restarts. Words already spoken stay spoken."
+      }
     }
   }
 }

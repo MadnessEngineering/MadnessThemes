@@ -3784,6 +3784,13 @@
       "updated": "shellomancy.plugin.updated",
       "claudeInstalled": "shellomancy.plugin.claudeInstalled",
       "claudeUpdated": "shellomancy.plugin.claudeUpdated"
+    },
+    "settings": {
+      "voice": {
+        "category": "shellomancy.settings.voice.category",
+        "label": "shellomancy.settings.voice.label",
+        "restartNote": "shellomancy.settings.voice.restartNote"
+      }
     }
   }
 }
