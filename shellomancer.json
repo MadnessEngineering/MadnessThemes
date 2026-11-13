@@ -3955,6 +3955,23 @@
       "notificationsDenied": "macOS won't let Shellomancy send you notifications.",
       "initScriptOutput": "Shellomancy's initialization script output is shown above to help with debugging.",
       "vimMode": "Enable Shellomancy's Vim keybindings?"
+    },
+    "account": {
+      "madness": {
+        "title": "Madness Interactive account",
+        "description": "Bind Shellomancy to madnessinteractive.cc with an Omnispindle API key (omni_…). Until you do, it talks to no one.",
+        "keyPlaceholder": "Paste an omni_ API key",
+        "signIn": "Bind",
+        "checking": "Checking the key…",
+        "signedInAs": "Bound to {{who}}",
+        "signOut": "Unbind",
+        "getKey": "Get a key at madnessinteractive.cc",
+        "errorNotKey": "That isn't an Omnispindle API key; those start with omni_.",
+        "errorRejected": "madnessinteractive.cc didn't accept that key (HTTP {{status}}).",
+        "errorNetwork": "Couldn't reach madnessinteractive.cc: {{error}}",
+        "errorStorage": "The key works, but the Keychain wouldn't keep it: {{error}}"
+      },
+      "cloudOnlyFeature": "That one needed a cloud Shellomancy cut loose."
     }
   }
 }

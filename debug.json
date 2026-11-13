@@ -3935,6 +3935,23 @@
       "notificationsDenied": "shellomancy.terminal.notificationsDenied",
       "initScriptOutput": "shellomancy.terminal.initScriptOutput",
       "vimMode": "shellomancy.terminal.vimMode"
+    },
+    "account": {
+      "madness": {
+        "title": "shellomancy.account.madness.title",
+        "description": "shellomancy.account.madness.description",
+        "keyPlaceholder": "shellomancy.account.madness.keyPlaceholder",
+        "signIn": "shellomancy.account.madness.signIn",
+        "checking": "shellomancy.account.madness.checking",
+        "signedInAs": "shellomancy.account.madness.signedInAs",
+        "signOut": "shellomancy.account.madness.signOut",
+        "getKey": "shellomancy.account.madness.getKey",
+        "errorNotKey": "shellomancy.account.madness.errorNotKey",
+        "errorRejected": "shellomancy.account.madness.errorRejected",
+        "errorNetwork": "shellomancy.account.madness.errorNetwork",
+        "errorStorage": "shellomancy.account.madness.errorStorage"
+      },
+      "cloudOnlyFeature": "shellomancy.account.cloudOnlyFeature"
     }
   }
 }

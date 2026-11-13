@@ -3955,6 +3955,23 @@
       "notificationsDenied": "Shellomancy isn't allowed to send you notifications.",
       "initScriptOutput": "Shellomancy's initialization script output is shown above to help with debugging.",
       "vimMode": "Enable Shellomancy's Vim keybindings?"
+    },
+    "account": {
+      "madness": {
+        "title": "Madness Interactive account",
+        "description": "Sign in with an Omnispindle API key (omni_…) from madnessinteractive.cc to connect Shellomancy to your todos, lessons and quests. Shellomancy stays offline until you sign in.",
+        "keyPlaceholder": "Paste an omni_ API key",
+        "signIn": "Sign in",
+        "checking": "Checking the key…",
+        "signedInAs": "Signed in as {{who}}",
+        "signOut": "Sign out",
+        "getKey": "Get a key at madnessinteractive.cc",
+        "errorNotKey": "That isn't an Omnispindle API key; those start with omni_.",
+        "errorRejected": "madnessinteractive.cc didn't accept that key (HTTP {{status}}).",
+        "errorNetwork": "Couldn't reach madnessinteractive.cc: {{error}}",
+        "errorStorage": "The key works, but it couldn't be saved to the Keychain: {{error}}"
+      },
+      "cloudOnlyFeature": "That feature needs a cloud service Shellomancy doesn't use."
     }
   }
 }
