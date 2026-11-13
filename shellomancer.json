@@ -3810,7 +3810,64 @@
         "category": "Voice",
         "label": "Who's doing the talking",
         "restartNote": "Takes hold after Shellomancy restarts. Words already spoken stay spoken."
+      },
+      "appearance": {
+        "toggleInputModeBinding": "Toggle Input Mode (Shellomancy/Classic)",
+        "inputPinnedBottom": "Pin to the bottom (Shellomancy mode)",
+        "showInDock": "Show Shellomancy in Dock",
+        "iconRestartNote": "macOS may not honor the new icon until Shellomancy restarts.",
+        "toolsPanelDrive": "Mana Bar",
+        "toolsPanelDriveDescription": "Show the Mana Bar in the tools panel.",
+        "promptTypeShellomancy": "Shellomancy"
+      },
+      "features": {
+        "makeDefaultTerminal": "Make Shellomancy the default terminal",
+        "startAtLoginMac": "Start Shellomancy at login (requires macOS 13+)",
+        "startAtLogin": "Start Shellomancy at login",
+        "isDefaultTerminal": "Shellomancy is the default terminal",
+        "desktopNotifications": "Receive desktop notifications from Shellomancy",
+        "completions": "Shellomancy completions",
+        "restartForX11": "\n\nRestart Shellomancy for changes to take effect."
+      },
+      "warpify": {
+        "sshToggleBinding": "SSH enchantment",
+        "sshSubtitle": "Enchant SSH sessions so spells, scrying, and completions work there too.",
+        "title": "Enchant",
+        "sshSessions": "Enchant SSH sessions",
+        "reuseControlMasterDescription": "Attach to a live SSH ControlMaster you already have configured for the destination host instead of creating a Shellomancy-owned one. Takes effect in new tabs.",
+        "extensionInstallDescription": "Controls the installation behavior for Shellomancy's SSH extension when a remote host doesn't have it installed."
+      },
+      "scripting": {
+        "cliCommand": "The shellomancy command",
+        "cliCommandDescription": "Install the shellomancy command so scripts can reach into Shellomancy from any terminal.",
+        "modeDescription": "The shellomancy command can script Shellomancy's UI. It does exactly what it's told.",
+        "installed": "Control CLI bound. '{{command}}' now answers from any terminal.",
+        "installFailed": "Failed to install the Shellomancy control command: {{error}}"
+      },
+      "externalEditor": {
+        "shellomancy": "Shellomancy",
+        "layout": "Choose a layout to open files in Shellomancy",
+        "markdownViewer": "Open Markdown files in Shellomancy's own viewer by default"
+      },
+      "codeEditor": {
+        "autosave": "Automatically saves changes in Shellomancy's text editor as you type and when the editor loses focus."
+      },
+      "cliAgents": {
+        "requiresPlugin": "Requires the Shellomancy plugin for your familiar"
+      },
+      "nav": {
+        "drive": "Mana Bar",
+        "agent": "Familiars"
       }
+    },
+    "menu": {
+      "app": "Shellomancy",
+      "setDefaultTerminal": "Set Shellomancy as Default Terminal",
+      "useShellomancyPrompt": "Use Shellomancy's Prompt",
+      "showSshBlocks": "Show Enchanted SSH Spells",
+      "hideSshBlocks": "Hide Enchanted SSH Spells",
+      "documentation": "Shellomancy Documentation...",
+      "issues": "Shellomancy Issues..."
     }
   }
 }

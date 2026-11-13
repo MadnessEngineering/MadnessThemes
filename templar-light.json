@@ -3811,7 +3811,64 @@
         "category": "Voice",
         "label": "Language style for Shellomancy's text",
         "restartNote": "Applies after Shellomancy restarts."
+      },
+      "appearance": {
+        "toggleInputModeBinding": "Toggle Input Mode (Shellomancy/Classic)",
+        "inputPinnedBottom": "Pin to the bottom (Shellomancy mode)",
+        "showInDock": "Show Shellomancy in Dock",
+        "iconRestartNote": "You may need to restart Shellomancy for macOS to apply the icon style.",
+        "toolsPanelDrive": "Drive",
+        "toolsPanelDriveDescription": "Show the Drive tab in the tools panel.",
+        "promptTypeShellomancy": "Shellomancy"
+      },
+      "features": {
+        "makeDefaultTerminal": "Make Shellomancy the default terminal",
+        "startAtLoginMac": "Start Shellomancy at login (requires macOS 13+)",
+        "startAtLogin": "Start Shellomancy at login",
+        "isDefaultTerminal": "Shellomancy is the default terminal",
+        "desktopNotifications": "Receive desktop notifications from Shellomancy",
+        "completions": "Shellomancy completions",
+        "restartForX11": "\n\nRestart Shellomancy for changes to take effect."
+      },
+      "warpify": {
+        "sshToggleBinding": "SSH integration",
+        "sshSubtitle": "Integrate Shellomancy with your interactive SSH sessions.",
+        "title": "Shell integration",
+        "sshSessions": "Integrate SSH sessions",
+        "reuseControlMasterDescription": "Attach to a live SSH ControlMaster you already have configured for the destination host instead of creating a Shellomancy-owned one. Takes effect in new tabs.",
+        "extensionInstallDescription": "Controls the installation behavior for Shellomancy's SSH extension when a remote host doesn't have it installed."
+      },
+      "scripting": {
+        "cliCommand": "Shellomancy control CLI command",
+        "cliCommandDescription": "Install the shellomancy command for scripting Shellomancy from your terminal.",
+        "modeDescription": "The shellomancy command can script Shellomancy's UI. Use with care.",
+        "installed": "Installed the Shellomancy control CLI. You can now run '{{command}}' from the command line.",
+        "installFailed": "Failed to install the Shellomancy control command: {{error}}"
+      },
+      "externalEditor": {
+        "shellomancy": "Shellomancy",
+        "layout": "Choose a layout to open files in Shellomancy",
+        "markdownViewer": "Open Markdown files in Shellomancy's Markdown viewer by default"
+      },
+      "codeEditor": {
+        "autosave": "Automatically saves changes in Shellomancy's text editor as you type and when the editor loses focus."
+      },
+      "cliAgents": {
+        "requiresPlugin": "Requires the Shellomancy plugin for your coding agent"
+      },
+      "nav": {
+        "drive": "Drive",
+        "agent": "Agent"
       }
+    },
+    "menu": {
+      "app": "Shellomancy",
+      "setDefaultTerminal": "Set Shellomancy as Default Terminal",
+      "useShellomancyPrompt": "Use Shellomancy's Prompt",
+      "showSshBlocks": "Show Integrated SSH Blocks",
+      "hideSshBlocks": "Hide Integrated SSH Blocks",
+      "documentation": "Shellomancy Documentation...",
+      "issues": "Shellomancy Issues..."
     }
   }
 }

@@ -3790,7 +3790,64 @@
         "category": "shellomancy.settings.voice.category",
         "label": "shellomancy.settings.voice.label",
         "restartNote": "shellomancy.settings.voice.restartNote"
+      },
+      "appearance": {
+        "toggleInputModeBinding": "shellomancy.settings.appearance.toggleInputModeBinding",
+        "inputPinnedBottom": "shellomancy.settings.appearance.inputPinnedBottom",
+        "showInDock": "shellomancy.settings.appearance.showInDock",
+        "iconRestartNote": "shellomancy.settings.appearance.iconRestartNote",
+        "toolsPanelDrive": "shellomancy.settings.appearance.toolsPanelDrive",
+        "toolsPanelDriveDescription": "shellomancy.settings.appearance.toolsPanelDriveDescription",
+        "promptTypeShellomancy": "shellomancy.settings.appearance.promptTypeShellomancy"
+      },
+      "features": {
+        "makeDefaultTerminal": "shellomancy.settings.features.makeDefaultTerminal",
+        "startAtLoginMac": "shellomancy.settings.features.startAtLoginMac",
+        "startAtLogin": "shellomancy.settings.features.startAtLogin",
+        "isDefaultTerminal": "shellomancy.settings.features.isDefaultTerminal",
+        "desktopNotifications": "shellomancy.settings.features.desktopNotifications",
+        "completions": "shellomancy.settings.features.completions",
+        "restartForX11": "shellomancy.settings.features.restartForX11"
+      },
+      "warpify": {
+        "sshToggleBinding": "shellomancy.settings.warpify.sshToggleBinding",
+        "sshSubtitle": "shellomancy.settings.warpify.sshSubtitle",
+        "title": "shellomancy.settings.warpify.title",
+        "sshSessions": "shellomancy.settings.warpify.sshSessions",
+        "reuseControlMasterDescription": "shellomancy.settings.warpify.reuseControlMasterDescription",
+        "extensionInstallDescription": "shellomancy.settings.warpify.extensionInstallDescription"
+      },
+      "scripting": {
+        "cliCommand": "shellomancy.settings.scripting.cliCommand",
+        "cliCommandDescription": "shellomancy.settings.scripting.cliCommandDescription",
+        "modeDescription": "shellomancy.settings.scripting.modeDescription",
+        "installed": "shellomancy.settings.scripting.installed",
+        "installFailed": "shellomancy.settings.scripting.installFailed"
+      },
+      "externalEditor": {
+        "shellomancy": "shellomancy.settings.externalEditor.shellomancy",
+        "layout": "shellomancy.settings.externalEditor.layout",
+        "markdownViewer": "shellomancy.settings.externalEditor.markdownViewer"
+      },
+      "codeEditor": {
+        "autosave": "shellomancy.settings.codeEditor.autosave"
+      },
+      "cliAgents": {
+        "requiresPlugin": "shellomancy.settings.cliAgents.requiresPlugin"
+      },
+      "nav": {
+        "drive": "shellomancy.settings.nav.drive",
+        "agent": "shellomancy.settings.nav.agent"
       }
+    },
+    "menu": {
+      "app": "shellomancy.menu.app",
+      "setDefaultTerminal": "shellomancy.menu.setDefaultTerminal",
+      "useShellomancyPrompt": "shellomancy.menu.useShellomancyPrompt",
+      "showSshBlocks": "shellomancy.menu.showSshBlocks",
+      "hideSshBlocks": "shellomancy.menu.hideSshBlocks",
+      "documentation": "shellomancy.menu.documentation",
+      "issues": "shellomancy.menu.issues"
     }
   }
 }
