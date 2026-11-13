@@ -3867,7 +3867,36 @@
       "showSshBlocks": "Show Enchanted SSH Spells",
       "hideSshBlocks": "Hide Enchanted SSH Spells",
       "documentation": "Shellomancy Documentation...",
-      "issues": "Shellomancy Issues..."
+      "issues": "Shellomancy Issues...",
+      "about": "About Shellomancy",
+      "configureWarpify": "Configure Enchantments...",
+      "blocks": "Spells"
+    },
+    "app": {
+      "name": "Shellomancy"
+    },
+    "palette": {
+      "quit": "Quit Shellomancy",
+      "installControlCli": "Install the shellomancy command for use from any terminal",
+      "uninstallControlCli": "Remove the global shellomancy command (it still works inside Shellomancy)",
+      "openSettingsWarpify": "Open Settings: Enchant",
+      "viewLogs": "View Shellomancy logs"
+    },
+    "cliInstall": {
+      "adminPromptInstall": "Shellomancy needs administrator privileges to install the command in /usr/local/bin.",
+      "adminPromptUninstall": "Shellomancy needs administrator privileges to uninstall the command from /usr/local/bin.",
+      "wrapperMissing": "Cannot install the shellomancy command: bundled wrapper not found at {{path}}",
+      "label": "shellomancy command"
+    },
+    "workspace": {
+      "controlCli": {
+        "installed": "The shellomancy command is bound. '{{command}}' now answers from any terminal.",
+        "installFailed": "Failed to install the shellomancy command",
+        "removed": "Removed the global shellomancy command. It still works inside Shellomancy.",
+        "uninstallFailed": "Failed to uninstall the shellomancy command"
+      },
+      "notificationsDenied": "macOS won't let Shellomancy send desktop notifications.",
+      "resourceCenter": "Field Guide"
     }
   }
 }

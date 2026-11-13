@@ -3847,7 +3847,36 @@
       "showSshBlocks": "shellomancy.menu.showSshBlocks",
       "hideSshBlocks": "shellomancy.menu.hideSshBlocks",
       "documentation": "shellomancy.menu.documentation",
-      "issues": "shellomancy.menu.issues"
+      "issues": "shellomancy.menu.issues",
+      "about": "shellomancy.menu.about",
+      "configureWarpify": "shellomancy.menu.configureWarpify",
+      "blocks": "shellomancy.menu.blocks"
+    },
+    "app": {
+      "name": "shellomancy.app.name"
+    },
+    "palette": {
+      "quit": "shellomancy.palette.quit",
+      "installControlCli": "shellomancy.palette.installControlCli",
+      "uninstallControlCli": "shellomancy.palette.uninstallControlCli",
+      "openSettingsWarpify": "shellomancy.palette.openSettingsWarpify",
+      "viewLogs": "shellomancy.palette.viewLogs"
+    },
+    "cliInstall": {
+      "adminPromptInstall": "shellomancy.cliInstall.adminPromptInstall",
+      "adminPromptUninstall": "shellomancy.cliInstall.adminPromptUninstall",
+      "wrapperMissing": "shellomancy.cliInstall.wrapperMissing",
+      "label": "shellomancy.cliInstall.label"
+    },
+    "workspace": {
+      "controlCli": {
+        "installed": "shellomancy.workspace.controlCli.installed",
+        "installFailed": "shellomancy.workspace.controlCli.installFailed",
+        "removed": "shellomancy.workspace.controlCli.removed",
+        "uninstallFailed": "shellomancy.workspace.controlCli.uninstallFailed"
+      },
+      "notificationsDenied": "shellomancy.workspace.notificationsDenied",
+      "resourceCenter": "shellomancy.workspace.resourceCenter"
     }
   }
 }

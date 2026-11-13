@@ -3868,7 +3868,36 @@
       "showSshBlocks": "Show Integrated SSH Blocks",
       "hideSshBlocks": "Hide Integrated SSH Blocks",
       "documentation": "Shellomancy Documentation...",
-      "issues": "Shellomancy Issues..."
+      "issues": "Shellomancy Issues...",
+      "about": "About Shellomancy",
+      "configureWarpify": "Configure Shell Integration...",
+      "blocks": "Blocks"
+    },
+    "app": {
+      "name": "Shellomancy"
+    },
+    "palette": {
+      "quit": "Quit Shellomancy",
+      "installControlCli": "Install the shellomancy command globally for use outside of Shellomancy",
+      "uninstallControlCli": "Undo the global shellomancy command installation (it still works inside Shellomancy)",
+      "openSettingsWarpify": "Open Settings: Shell integration",
+      "viewLogs": "View Shellomancy logs"
+    },
+    "cliInstall": {
+      "adminPromptInstall": "Shellomancy needs administrator privileges to install the command in /usr/local/bin.",
+      "adminPromptUninstall": "Shellomancy needs administrator privileges to uninstall the command from /usr/local/bin.",
+      "wrapperMissing": "Cannot install the shellomancy command: bundled wrapper not found at {{path}}",
+      "label": "shellomancy command"
+    },
+    "workspace": {
+      "controlCli": {
+        "installed": "Installed the shellomancy command globally. You can now run '{{command}}' from any terminal.",
+        "installFailed": "Failed to install the shellomancy command",
+        "removed": "Removed the global shellomancy command. It still works inside Shellomancy.",
+        "uninstallFailed": "Failed to uninstall the shellomancy command"
+      },
+      "notificationsDenied": "Shellomancy doesn't have permission to send desktop notifications.",
+      "resourceCenter": "Shellomancy Essentials"
     }
   }
 }
