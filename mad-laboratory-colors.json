@@ -204,6 +204,33 @@
       }
     }
   },
+  "terminal": {
+    "background": "#0a0a0a",
+    "foreground": "#e6e6e6",
+    "accent": "#ba68c8",
+    "cursor": "#00ff88",
+    "details": "darker",
+    "normal": {
+      "black": "#323232",
+      "red": "#ef5350",
+      "green": "#00ff88",
+      "yellow": "#ffa726",
+      "blue": "#4b78d2",
+      "magenta": "#ba68c8",
+      "cyan": "#29b6f6",
+      "white": "#b6b6b6"
+    },
+    "bright": {
+      "black": "#6d6d6d",
+      "red": "#f78785",
+      "green": "#3dffa5",
+      "yellow": "#ffc063",
+      "blue": "#789ce2",
+      "magenta": "#d191dc",
+      "cyan": "#60ccfd",
+      "white": "#e6e6e6"
+    }
+  },
   "threeJS": {
     "colors": {
       "primary": "0x9c27b0",

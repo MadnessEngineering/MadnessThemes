@@ -204,6 +204,33 @@
       "userBubbleText": "#ffffff"
     }
   },
+  "terminal": {
+    "background": "#000000",
+    "foreground": "#ffffff",
+    "accent": "#ff00ff",
+    "cursor": "#00ff00",
+    "details": "darker",
+    "normal": {
+      "black": "#2e2e2e",
+      "red": "#ef5350",
+      "green": "#00ff00",
+      "yellow": "#ffa726",
+      "blue": "#4775d1",
+      "magenta": "#ff00ff",
+      "cyan": "#29b6f6",
+      "white": "#c7c7c7"
+    },
+    "bright": {
+      "black": "#737373",
+      "red": "#f78785",
+      "green": "#3dff3d",
+      "yellow": "#ffc063",
+      "blue": "#7499e2",
+      "magenta": "#ff3dff",
+      "cyan": "#60ccfd",
+      "white": "#ffffff"
+    }
+  },
   "threeJS": {
     "colors": {
       "primary": "0xff00ff",

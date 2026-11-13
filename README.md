@@ -77,6 +77,26 @@ for a pre-commit check.
 Palettes (`*-colors.json`) are a different shape and are left alone by every
 subcommand.
 
+### Terminal colours
+
+Every palette also carries a `terminal` block beside `colors`: background,
+foreground, accent, cursor, `details` (`darker`/`lighter`) and the 16 ANSI
+colours, for a terminal to wear the theme ([Shellomancy](https://github.com/MadnessEngineering/shellomancy)
+does). `palettetool.py` derived them from each palette's own tokens: the theme's
+primary and secondary claim the ANSI slots nearest their hue, the status colours
+fill the rest (red is kept for `text.error`), and everything clears contrast on
+the background. Tune a block by hand after that; the tool won't touch a stored
+block without `--force`.
+
+```bash
+./palettetool.py check                     # contrast report, exits 1 on a failure
+./palettetool.py preview sheet.svg         # every palette's terminal colours, one row each
+./palettetool.py terminal --write          # derive blocks for palettes lacking one
+```
+
+Inventorium's `themeContract.js` validates the block when present
+(`node scripts/check-themes.js`).
+
 ## Contributing
 
 We'd love contributions! Whether it's a whole new theme, a color tweak, or a fun personality translation — all are welcome.

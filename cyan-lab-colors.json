@@ -204,6 +204,33 @@
       "userBubbleText": "#ffffff"
     }
   },
+  "terminal": {
+    "background": "#0d2b2e",
+    "foreground": "#e0f7fa",
+    "accent": "#00bcd4",
+    "cursor": "#f57c00",
+    "details": "darker",
+    "normal": {
+      "black": "#335053",
+      "red": "#ff6767",
+      "green": "#69f0ae",
+      "yellow": "#f57c00",
+      "blue": "#7194db",
+      "magenta": "#d271db",
+      "cyan": "#00bcd4",
+      "white": "#b2cacd"
+    },
+    "bright": {
+      "black": "#6c878a",
+      "red": "#ffa4a4",
+      "green": "#9ef8cc",
+      "yellow": "#ff9a33",
+      "blue": "#9fb8eb",
+      "magenta": "#e49feb",
+      "cyan": "#12e4ff",
+      "white": "#e0f7fa"
+    }
+  },
   "threeJS": {
     "colors": {
       "primary": "0x00BCD4",
@@ -228,13 +255,13 @@
     },
     "materials": {
       "metalness": 0.25,
-      "roughness": 0.60,
+      "roughness": 0.6,
       "emissiveIntensity": 0.08
     },
     "lighting": {
-      "ambientIntensity": 0.70,
-      "directionalIntensity": 0.80,
-      "pointIntensity": 0.70
+      "ambientIntensity": 0.7,
+      "directionalIntensity": 0.8,
+      "pointIntensity": 0.7
     }
   }
 }
