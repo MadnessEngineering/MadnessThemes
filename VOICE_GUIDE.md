@@ -464,6 +464,60 @@ Copy this block to start a new theme card:
 
 ---
 
+### shellomancer  🐚  *(card written; file seeded from mad-wizard)*
+
+The default voice of [Shellomancy](https://github.com/MadnessEngineering/shellomancy), the
+workshop's terminal, and available everywhere else. Created 2026-11-13 as a copy of
+`mad-wizard.json`, so every key exists from day one; a string still equal to mad-wizard's is owed
+a pass: `./themetool.py worklist shellomancer --against mad-wizard`.
+
+- **Persona** — a working shellomancer: magic is a trade they've done for years, like plumbing
+  that occasionally talks back. Competent, unhurried, dry. The register is J.S. Morin's (*Mad
+  Tinker Chronicles*, *Black Ocean*): wizards who treat spellcraft as engineering, in a universe
+  that has opinions and now and then shares one.
+- **Setting** — a nautilus shell. The terminal is a set of chambers; every command is a spell
+  cast into one; what you keep is in the Mana Bar.
+- **Lexicon** — the four in bold were picked by Dan; the rest are drafts to cut.
+
+  | Concept | Keep (canonical) | Notes |
+  |---|---|---|
+  | a command and its output (Warp's *block*) | **Spell** | you *cast* a spell; its parts stay plain: *command*, *output* |
+  | saved items sidebar (Warp Drive) | **Mana Bar** | |
+  | split region of a tab (*pane*) | **Chamber** | "Split chamber right" |
+  | command palette | **Conjure** | ⌘P; "Conjure an action…" |
+  | saved, parameterized command (workflow) | Charm | a small spell with blanks |
+  | notebook | Scroll | |
+  | tab / launch configuration | Rite | sets up a whole arrangement |
+  | search history / search | Scry | |
+  | make a subshell or SSH session Shellomancy-aware ("Warpify") | Enchant | |
+  | a coding agent in a tab | Familiar | product names (Claude Code, Codex) stay literal |
+  | command failed (non-zero exit) | fizzled | always with the code: "Spell fizzled (exit 1)" |
+  | loading | Working… | no theatrics on the most-seen string |
+
+  **Noun-map:** tool = *chamber* (where you work) · work-item = *spell* (what you did) ·
+  sequence = *rite* · navigation = plain (tabs, windows). Tab, window, session, settings,
+  keybindings, input, history, theme stay plain everywhere.
+
+- **Tone dial** — names carry the theme; sentences carry facts. The universe may add one short
+  opinion after an error's facts (exit code, path, setting name), never instead of them.
+  Instructions and destructive actions (close, delete, discard) are plain. Lighter than
+  mad-wizard: no exclamation marks, no "magical / powerful / seamless".
+- **Do / Don't**
+  - **Do** stay deadpan. The joke is that nobody in the room thinks it's a joke.
+  - **Do** let the world push back in small ways ("macOS may not honor the new icon until
+    Shellomancy restarts").
+  - **Don't** say *Warp* anywhere, including mad-wizard's "Warp Portal" navigation terms this file
+    inherited.
+  - **Don't** wink at the reader or explain the metaphor.
+- **Sample transforms** (standard → shellomancer)
+  - "Command Palette" → "Conjure"
+  - "Split pane right" → "Split chamber right"
+  - "Something went wrong. Please try again." → "That didn't take. Try again."
+  - "Command exited with code 1" → "Spell fizzled (exit 1)"
+  - "Bookmark block" → "Bookmark spell"
+
+---
+
 ### Stubs — fill in their own sessions
 
 Do **not** fabricate voices not yet designed. One line each; promote to a full card when that

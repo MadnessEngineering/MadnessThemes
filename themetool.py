@@ -6,6 +6,7 @@ the `<theme>.json` personality files in this directory; `*-colors.json` palettes
 are left alone.
 
     ./themetool.py worklist mad-wizard          # strings still identical to standard
+    ./themetool.py worklist shellomancer --against mad-wizard   # still the seed's words
     ./themetool.py parity                       # missing/extra keys, every theme
     ./themetool.py get labops settings.tabs.profile
     ./themetool.py set labops settings.tabs.profile "Operator"
@@ -98,7 +99,7 @@ def deep_merge(base, overrides):
 
 def cmd_worklist(args):
     """Strings a theme shares verbatim with standard — the unvoiced backlog."""
-    base = flatten(load(BASELINE))
+    base = flatten(load(args.against))
     theme = flatten(load(args.theme))
     hits = [
         (k, v) for k, v in theme.items()
@@ -106,7 +107,7 @@ def cmd_worklist(args):
     ]
     for k, v in hits:
         print(f"{k} = {json.dumps(v, ensure_ascii=False)}")
-    print(f"\n{len(hits)} of {len(theme)} keys still match {BASELINE}", file=sys.stderr)
+    print(f"\n{len(hits)} of {len(theme)} keys still match {args.against}", file=sys.stderr)
 
 
 def cmd_parity(args):
@@ -211,6 +212,9 @@ def main():
     w.add_argument("theme")
     w.add_argument("--min-len", type=int, default=2,
                    help="skip strings this short or shorter (default: 2)")
+    w.add_argument("--against", default=BASELINE,
+                   help="compare with this theme instead of standard; for a voice "
+                        "seeded from another (shellomancer from mad-wizard)")
     w.set_defaults(func=cmd_worklist)
 
     pa = sub.add_parser("parity", help="key coverage against standard.json")

@@ -31,6 +31,7 @@ Each theme has up to two files:
 | **Biomedical** | 🧬 | Biomedical research themed | Strings only |
 | **Dwarf** | ⛏️ | Mining, lava, and magma | Strings only |
 | **Mad Wizard** | 🧙‍♂️ | Mystical laboratory terminology | Strings only |
+| **Shellomancer** | 🐚 | Practical magic, dryly delivered; Shellomancy's default voice | Strings only |
 
 ## The colour contract
 
