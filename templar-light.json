@@ -3890,7 +3890,7 @@
       "documentation": "Shellomancy Documentation...",
       "issues": "Shellomancy Issues...",
       "about": "About Shellomancy",
-      "configureWarpify": "Configure Shell Integration...",
+      "configureIntegration": "Configure Shell Integration...",
       "blocks": "Blocks"
     },
     "app": {
@@ -3900,7 +3900,7 @@
       "quit": "Quit Shellomancy",
       "installControlCli": "Install the shellomancy command globally for use outside of Shellomancy",
       "uninstallControlCli": "Undo the global shellomancy command installation (it still works inside Shellomancy)",
-      "openSettingsWarpify": "Open Settings: Shell integration",
+      "openSettingsIntegration": "Open Settings: Shell integration",
       "viewLogs": "View Shellomancy logs"
     },
     "cliInstall": {
@@ -3933,7 +3933,7 @@
       "openInShellomancy": "Open in Shellomancy",
       "p10kSupport": "Powerlevel10k works with Shellomancy.  ",
       "a11y": {
-        "openedWarpifySettings": "Opened shell integration settings"
+        "openedIntegrationSettings": "Opened shell integration settings"
       },
       "openFileIn": "Open {{path}} in Shellomancy",
       "openBanner": {
@@ -3947,10 +3947,10 @@
       },
       "warpifySubshell": "Integrate subshell",
       "warpifySessionTooltip": "Enable Shellomancy shell integration in this session",
-      "neverWarpifyHost": "Never integrate with this host",
+      "neverIntegrationHost": "Never integrate with this host",
       "warpifyRunInFuture": "Run the following to integrate automatically in the future:",
       "warpifyRemoteNote": "In remote subshells, Shellomancy runs commands in the background to power completions, syntax highlighting, and other features.",
-      "sessionWarpified": "Session integrated",
+      "sessionIntegrated": "Session integrated",
       "showNetworkLog": "Show network log",
       "aliasExpansion": "Shellomancy can auto-expand aliases.",
       "notificationsDenied": "Shellomancy isn't allowed to send you notifications.",

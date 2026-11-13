@@ -3869,7 +3869,7 @@
       "documentation": "shellomancy.menu.documentation",
       "issues": "shellomancy.menu.issues",
       "about": "shellomancy.menu.about",
-      "configureWarpify": "shellomancy.menu.configureWarpify",
+      "configureIntegration": "shellomancy.menu.configureIntegration",
       "blocks": "shellomancy.menu.blocks"
     },
     "app": {
@@ -3879,7 +3879,7 @@
       "quit": "shellomancy.palette.quit",
       "installControlCli": "shellomancy.palette.installControlCli",
       "uninstallControlCli": "shellomancy.palette.uninstallControlCli",
-      "openSettingsWarpify": "shellomancy.palette.openSettingsWarpify",
+      "openSettingsIntegration": "shellomancy.palette.openSettingsIntegration",
       "viewLogs": "shellomancy.palette.viewLogs"
     },
     "cliInstall": {
@@ -3912,7 +3912,7 @@
       "openInShellomancy": "shellomancy.terminal.openInShellomancy",
       "p10kSupport": "shellomancy.terminal.p10kSupport",
       "a11y": {
-        "openedWarpifySettings": "shellomancy.terminal.a11y.openedWarpifySettings"
+        "openedIntegrationSettings": "shellomancy.terminal.a11y.openedIntegrationSettings"
       },
       "openFileIn": "shellomancy.terminal.openFileIn",
       "openBanner": {
@@ -3926,10 +3926,10 @@
       },
       "warpifySubshell": "shellomancy.terminal.warpifySubshell",
       "warpifySessionTooltip": "shellomancy.terminal.warpifySessionTooltip",
-      "neverWarpifyHost": "shellomancy.terminal.neverWarpifyHost",
+      "neverIntegrationHost": "shellomancy.terminal.neverIntegrationHost",
       "warpifyRunInFuture": "shellomancy.terminal.warpifyRunInFuture",
       "warpifyRemoteNote": "shellomancy.terminal.warpifyRemoteNote",
-      "sessionWarpified": "shellomancy.terminal.sessionWarpified",
+      "sessionIntegrated": "shellomancy.terminal.sessionIntegrated",
       "showNetworkLog": "shellomancy.terminal.showNetworkLog",
       "aliasExpansion": "shellomancy.terminal.aliasExpansion",
       "notificationsDenied": "shellomancy.terminal.notificationsDenied",
