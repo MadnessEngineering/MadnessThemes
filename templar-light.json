@@ -3786,5 +3786,25 @@
     "waitingTitle": "No SwarmDesk tab keeps watch, and {{count}} dispatches from agents await you in the world inbox. Open SwarmDesk to run or dismiss them.",
     "off": "🛰 No Herald",
     "offTitle": "No SwarmDesk tab keeps watch. What agents send awaits you in the world inbox until you open SwarmDesk."
+  },
+  "shellomancy": {
+    "plugin": {
+      "enable": "Enable notifications",
+      "enableTooltip": "Install the Shellomancy plugin so the agent can report its status here",
+      "setupInstructions": "Notifications setup instructions",
+      "setupInstructionsTooltip": "View instructions to install the Shellomancy plugin",
+      "update": "Update Shellomancy plugin",
+      "updateTooltip": "This build carries a newer Shellomancy plugin",
+      "updateInstructions": "Plugin update instructions",
+      "updateInstructionsTooltip": "View instructions to update the Shellomancy plugin",
+      "installing": "Installing Shellomancy plugin...",
+      "installFailed": "Failed to install Shellomancy plugin",
+      "installed": "Shellomancy plugin installed. Restart the session to activate.",
+      "updating": "Updating Shellomancy plugin...",
+      "updateFailed": "Failed to update Shellomancy plugin",
+      "updated": "Shellomancy plugin updated. Restart the session to activate.",
+      "claudeInstalled": "Shellomancy plugin installed. Run /reload-plugins to activate.",
+      "claudeUpdated": "Shellomancy plugin updated. Run /reload-plugins to activate."
+    }
   }
 }

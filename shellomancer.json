@@ -3785,5 +3785,25 @@
     "waitingTitle": "No SwarmDesk window is open, and {{count}} missives from familiars wait in your world inbox. Open SwarmDesk to run or dismiss them.",
     "off": "🛰 Link Dormant",
     "offTitle": "No SwarmDesk window is open. What familiars send waits in your world inbox until you open SwarmDesk."
+  },
+  "shellomancy": {
+    "plugin": {
+      "enable": "Bind Familiar",
+      "enableTooltip": "Install the Shellomancy plugin so your familiar can report what it's up to here",
+      "setupInstructions": "Binding Instructions",
+      "setupInstructionsTooltip": "How to install the Shellomancy plugin by hand",
+      "update": "Rebind Familiar",
+      "updateTooltip": "This build carries a newer Shellomancy plugin than the one your familiar is wearing",
+      "updateInstructions": "Rebinding Instructions",
+      "updateInstructionsTooltip": "How to update the Shellomancy plugin by hand",
+      "installing": "Binding familiar…",
+      "installFailed": "Shellomancy plugin install failed. The binding didn't take.",
+      "installed": "Familiar bound. Restart the session to wake it.",
+      "updating": "Rebinding familiar…",
+      "updateFailed": "Shellomancy plugin update failed. The binding didn't take.",
+      "updated": "Familiar rebound. Restart the session to wake it.",
+      "claudeInstalled": "Familiar bound. Run /reload-plugins to wake it.",
+      "claudeUpdated": "Familiar rebound. Run /reload-plugins to wake it."
+    }
   }
 }

@@ -3765,5 +3765,25 @@
     "waitingTitle": "worldLink.waitingTitle",
     "off": "worldLink.off",
     "offTitle": "worldLink.offTitle"
+  },
+  "shellomancy": {
+    "plugin": {
+      "enable": "shellomancy.plugin.enable",
+      "enableTooltip": "shellomancy.plugin.enableTooltip",
+      "setupInstructions": "shellomancy.plugin.setupInstructions",
+      "setupInstructionsTooltip": "shellomancy.plugin.setupInstructionsTooltip",
+      "update": "shellomancy.plugin.update",
+      "updateTooltip": "shellomancy.plugin.updateTooltip",
+      "updateInstructions": "shellomancy.plugin.updateInstructions",
+      "updateInstructionsTooltip": "shellomancy.plugin.updateInstructionsTooltip",
+      "installing": "shellomancy.plugin.installing",
+      "installFailed": "shellomancy.plugin.installFailed",
+      "installed": "shellomancy.plugin.installed",
+      "updating": "shellomancy.plugin.updating",
+      "updateFailed": "shellomancy.plugin.updateFailed",
+      "updated": "shellomancy.plugin.updated",
+      "claudeInstalled": "shellomancy.plugin.claudeInstalled",
+      "claudeUpdated": "shellomancy.plugin.claudeUpdated"
+    }
   }
 }

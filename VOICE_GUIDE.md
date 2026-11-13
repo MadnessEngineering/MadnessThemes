@@ -471,6 +471,12 @@ workshop's terminal, and available everywhere else. Created 2026-11-13 as a copy
 `mad-wizard.json`, so every key exists from day one; a string still equal to mad-wizard's is owed
 a pass: `./themetool.py worklist shellomancer --against mad-wizard`.
 
+Shellomancy's own strings live in the `shellomancy` section of every voice
+(`shellomancy.<area>.<element>`, like madnessDesktop's `desktop`), compiled into the app at
+build time. A new key goes into `standard` (plain English), `shellomancer`, and `debug` (its own
+path), then `./themetool.py sync standard <the other voices>` so every voice has it and the
+standard wording marks it as owed.
+
 - **Persona** — a working shellomancer: magic is a trade they've done for years, like plumbing
   that occasionally talks back. Competent, unhurried, dry. The register is J.S. Morin's (*Mad
   Tinker Chronicles*, *Black Ocean*): wizards who treat spellcraft as engineering, in a universe
