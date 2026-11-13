@@ -3783,7 +3783,27 @@
       "updateFailed": "shellomancy.plugin.updateFailed",
       "updated": "shellomancy.plugin.updated",
       "claudeInstalled": "shellomancy.plugin.claudeInstalled",
-      "claudeUpdated": "shellomancy.plugin.claudeUpdated"
+      "claudeUpdated": "shellomancy.plugin.claudeUpdated",
+      "claudeUpdateSubtitle": "shellomancy.plugin.claudeUpdateSubtitle",
+      "codex": {
+        "installed": "shellomancy.plugin.codex.installed",
+        "updated": "shellomancy.plugin.codex.updated",
+        "installTitle": "shellomancy.plugin.codex.installTitle",
+        "updateTitle": "shellomancy.plugin.codex.updateTitle",
+        "enableNotificationsTitle": "shellomancy.plugin.codex.enableNotificationsTitle",
+        "enableNotificationsSubtitle": "shellomancy.plugin.codex.enableNotificationsSubtitle"
+      },
+      "gemini": {
+        "installed": "shellomancy.plugin.gemini.installed",
+        "updated": "shellomancy.plugin.gemini.updated",
+        "installTitle": "shellomancy.plugin.gemini.installTitle",
+        "updateTitle": "shellomancy.plugin.gemini.updateTitle"
+      },
+      "opencode": {
+        "installTitle": "shellomancy.plugin.opencode.installTitle",
+        "installSubtitle": "shellomancy.plugin.opencode.installSubtitle",
+        "updateTitle": "shellomancy.plugin.opencode.updateTitle"
+      }
     },
     "settings": {
       "voice": {
@@ -3877,6 +3897,44 @@
       },
       "notificationsDenied": "shellomancy.workspace.notificationsDenied",
       "resourceCenter": "shellomancy.workspace.resourceCenter"
+    },
+    "terminal": {
+      "notify": {
+        "longRunning": "shellomancy.terminal.notify.longRunning",
+        "agentDone": "shellomancy.terminal.notify.agentDone",
+        "attention": "shellomancy.terminal.notify.attention",
+        "password": "shellomancy.terminal.notify.password",
+        "permissionHint": "shellomancy.terminal.notify.permissionHint"
+      },
+      "shellIncompatible": "shellomancy.terminal.shellIncompatible",
+      "warpifyHintWithKey": "shellomancy.terminal.warpifyHintWithKey",
+      "warpifyHint": "shellomancy.terminal.warpifyHint",
+      "openInShellomancy": "shellomancy.terminal.openInShellomancy",
+      "p10kSupport": "shellomancy.terminal.p10kSupport",
+      "a11y": {
+        "openedWarpifySettings": "shellomancy.terminal.a11y.openedWarpifySettings"
+      },
+      "openFileIn": "shellomancy.terminal.openFileIn",
+      "openBanner": {
+        "close": "shellomancy.terminal.openBanner.close",
+        "learnMore": "shellomancy.terminal.openBanner.learnMore",
+        "markdown": "shellomancy.terminal.openBanner.markdown",
+        "editLanguage": "shellomancy.terminal.openBanner.editLanguage",
+        "editCode": "shellomancy.terminal.openBanner.editCode",
+        "view": "shellomancy.terminal.openBanner.view",
+        "edit": "shellomancy.terminal.openBanner.edit"
+      },
+      "warpifySubshell": "shellomancy.terminal.warpifySubshell",
+      "warpifySessionTooltip": "shellomancy.terminal.warpifySessionTooltip",
+      "neverWarpifyHost": "shellomancy.terminal.neverWarpifyHost",
+      "warpifyRunInFuture": "shellomancy.terminal.warpifyRunInFuture",
+      "warpifyRemoteNote": "shellomancy.terminal.warpifyRemoteNote",
+      "sessionWarpified": "shellomancy.terminal.sessionWarpified",
+      "showNetworkLog": "shellomancy.terminal.showNetworkLog",
+      "aliasExpansion": "shellomancy.terminal.aliasExpansion",
+      "notificationsDenied": "shellomancy.terminal.notificationsDenied",
+      "initScriptOutput": "shellomancy.terminal.initScriptOutput",
+      "vimMode": "shellomancy.terminal.vimMode"
     }
   }
 }
