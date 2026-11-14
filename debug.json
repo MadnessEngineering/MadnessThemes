@@ -3986,6 +3986,17 @@
       "todoFailed": "shellomancy.spell.todoFailed",
       "signInFirst": "shellomancy.spell.signInFirst",
       "openTodo": "shellomancy.spell.openTodo"
+    },
+    "notifications": {
+      "noPermission": "shellomancy.notifications.noPermission",
+      "failed": "shellomancy.notifications.failed"
+    },
+    "tips": {
+      "palette": "shellomancy.tips.palette",
+      "themes": "shellomancy.tips.themes"
+    },
+    "settingsImport": {
+      "reset": "shellomancy.settingsImport.reset"
     }
   }
 }

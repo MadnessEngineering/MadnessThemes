@@ -4006,6 +4006,17 @@
       "todoFailed": "The todo fizzled: {{error}}",
       "signInFirst": "Bind your account on the Account page first. Omnispindle doesn't take spells from strangers.",
       "openTodo": "Open"
+    },
+    "notifications": {
+      "noPermission": "A spell finished and Shellomancy tried to tell you, but macOS hasn't granted it the right to speak.",
+      "failed": "A spell finished and Shellomancy tried to tell you, but the message fizzled."
+    },
+    "tips": {
+      "palette": "Conjure finds everything Shellomancy can do, and your hands never leave the keyboard.",
+      "themes": "Pick a palette and Shellomancy wears it. Or mix your own; nobody here will stop you."
+    },
+    "settingsImport": {
+      "reset": "Reset to defaults"
     }
   }
 }

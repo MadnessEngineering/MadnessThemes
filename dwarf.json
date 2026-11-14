@@ -4006,6 +4006,17 @@
       "todoFailed": "Couldn't make a todo: {{error}}",
       "signInFirst": "Sign in on the Account page to send spells to Omnispindle.",
       "openTodo": "Open"
+    },
+    "notifications": {
+      "noPermission": "Shellomancy tried to notify you about the last block but doesn't have permission.",
+      "failed": "Shellomancy tried to notify you about the last block, but something went wrong."
+    },
+    "tips": {
+      "palette": "Discover everything Shellomancy can do without your hands leaving the keyboard.",
+      "themes": "Make Shellomancy your own by choosing a built-in theme. Or create your own."
+    },
+    "settingsImport": {
+      "reset": "Reset to defaults"
     }
   }
 }
