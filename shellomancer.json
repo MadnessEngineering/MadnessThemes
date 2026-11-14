@@ -3877,7 +3877,8 @@
       },
       "nav": {
         "drive": "Mana Bar",
-        "agent": "Familiars"
+        "agent": "Familiars",
+        "codeMaps": "Cartogomancy"
       }
     },
     "menu": {
@@ -3972,6 +3973,26 @@
         "errorStorage": "The key works, but the Keychain wouldn't keep it: {{error}}"
       },
       "cloudOnlyFeature": "That one needed a cloud Shellomancy cut loose."
+    },
+    "codeMaps": {
+      "pageTitle": "Cartogomancy",
+      "description": "Cartogomancy reads a folder and draws what it finds: the classes, the complexity waiting to bite someone, the exports nobody imports. Maps are kept in ~/.mad/shellomancy/maps/. While you're bound to madnessinteractive.cc, SwarmDesk gets a copy and builds the city.",
+      "mapFolder": "Map a folder",
+      "mapNow": "Map now",
+      "forget": "Forget",
+      "mapping": "Charting…",
+      "empty": "No maps yet. The territory remains unexplored, which it is fine with.",
+      "uploadLabel": "Send maps to SwarmDesk",
+      "uploadDescription": "Every new map goes to madnessinteractive.cc as a new version, so you can see what changed and who to blame.",
+      "uploadSignedOut": "Bind your account on the Account page and the maps will follow.",
+      "summary": "{{classes}} classes in {{packages}} packages · {{critical}} critical and {{high}} high threats · {{unused}} exports nobody imports",
+      "mappedAt": "Charted {{when}}",
+      "uploaded": "SwarmDesk holds version {{version}}",
+      "keptLocal": "kept local",
+      "uploadFailed": "the upload fizzled: {{error}}",
+      "failed": "The map fizzled: {{error}}",
+      "notFound": "Neither cartogomancy nor npx is anywhere on your PATH. Summon it with: npm install -g @madnessengineering/cartogomancy",
+      "openInInventorium": "Visit the city"
     }
   }
 }

@@ -3857,7 +3857,8 @@
       },
       "nav": {
         "drive": "shellomancy.settings.nav.drive",
-        "agent": "shellomancy.settings.nav.agent"
+        "agent": "shellomancy.settings.nav.agent",
+        "codeMaps": "shellomancy.settings.nav.codeMaps"
       }
     },
     "menu": {
@@ -3952,6 +3953,26 @@
         "errorStorage": "shellomancy.account.madness.errorStorage"
       },
       "cloudOnlyFeature": "shellomancy.account.cloudOnlyFeature"
+    },
+    "codeMaps": {
+      "pageTitle": "shellomancy.codeMaps.pageTitle",
+      "description": "shellomancy.codeMaps.description",
+      "mapFolder": "shellomancy.codeMaps.mapFolder",
+      "mapNow": "shellomancy.codeMaps.mapNow",
+      "forget": "shellomancy.codeMaps.forget",
+      "mapping": "shellomancy.codeMaps.mapping",
+      "empty": "shellomancy.codeMaps.empty",
+      "uploadLabel": "shellomancy.codeMaps.uploadLabel",
+      "uploadDescription": "shellomancy.codeMaps.uploadDescription",
+      "uploadSignedOut": "shellomancy.codeMaps.uploadSignedOut",
+      "summary": "shellomancy.codeMaps.summary",
+      "mappedAt": "shellomancy.codeMaps.mappedAt",
+      "uploaded": "shellomancy.codeMaps.uploaded",
+      "keptLocal": "shellomancy.codeMaps.keptLocal",
+      "uploadFailed": "shellomancy.codeMaps.uploadFailed",
+      "failed": "shellomancy.codeMaps.failed",
+      "notFound": "shellomancy.codeMaps.notFound",
+      "openInInventorium": "shellomancy.codeMaps.openInInventorium"
     }
   }
 }

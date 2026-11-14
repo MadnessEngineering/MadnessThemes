@@ -3878,7 +3878,8 @@
       },
       "nav": {
         "drive": "Drive",
-        "agent": "Agent"
+        "agent": "Agent",
+        "codeMaps": "Code maps and projects"
       }
     },
     "menu": {
@@ -3973,6 +3974,26 @@
         "errorStorage": "The key works, but it couldn't be saved to the Keychain: {{error}}"
       },
       "cloudOnlyFeature": "That feature needs a cloud service Shellomancy doesn't use."
+    },
+    "codeMaps": {
+      "pageTitle": "Code Maps",
+      "description": "Map a folder with cartogomancy to see its classes, complexity hotspots and unused exports. Maps are saved in ~/.mad/shellomancy/maps/ and, when you're signed in, sent to Inventorium so SwarmDesk can build the code city.",
+      "mapFolder": "Map a folder",
+      "mapNow": "Map now",
+      "forget": "Remove",
+      "mapping": "Mapping…",
+      "empty": "No folders mapped yet.",
+      "uploadLabel": "Send maps to Inventorium",
+      "uploadDescription": "Upload each new map to madnessinteractive.cc. Every upload is kept as a new version you can compare.",
+      "uploadSignedOut": "Sign in on the Account page to send maps.",
+      "summary": "{{classes}} classes in {{packages}} packages · {{critical}} critical and {{high}} high complexity · {{unused}} unused exports",
+      "mappedAt": "Mapped {{when}}",
+      "uploaded": "sent to Inventorium as version {{version}}",
+      "keptLocal": "kept local",
+      "uploadFailed": "upload failed: {{error}}",
+      "failed": "Mapping failed: {{error}}",
+      "notFound": "Neither cartogomancy nor npx is on your PATH. Install it with: npm install -g @madnessengineering/cartogomancy",
+      "openInInventorium": "Open in Inventorium"
     }
   }
 }
