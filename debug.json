@@ -3979,6 +3979,13 @@
       "projectFoldersTitle": "shellomancy.codeMaps.projectFoldersTitle",
       "projectFoldersEmpty": "shellomancy.codeMaps.projectFoldersEmpty",
       "addProjectFolder": "shellomancy.codeMaps.addProjectFolder"
+    },
+    "spell": {
+      "makeTodo": "shellomancy.spell.makeTodo",
+      "todoCreated": "shellomancy.spell.todoCreated",
+      "todoFailed": "shellomancy.spell.todoFailed",
+      "signInFirst": "shellomancy.spell.signInFirst",
+      "openTodo": "shellomancy.spell.openTodo"
     }
   }
 }

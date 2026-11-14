@@ -3999,6 +3999,13 @@
       "projectFoldersTitle": "Known territories",
       "projectFoldersEmpty": "No known territories yet. Add a folder and its language servers will be summoned.",
       "addProjectFolder": "Add a folder"
+    },
+    "spell": {
+      "makeTodo": "Make it a todo",
+      "todoCreated": "Omnispindle has it, filed under {{project}}: {{description}}",
+      "todoFailed": "The todo fizzled: {{error}}",
+      "signInFirst": "Bind your account on the Account page first. Omnispindle doesn't take spells from strangers.",
+      "openTodo": "Open"
     }
   }
 }

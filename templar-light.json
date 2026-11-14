@@ -4000,6 +4000,13 @@
       "projectFoldersTitle": "Project folders",
       "projectFoldersEmpty": "No project folders yet. Add one to set up its language servers.",
       "addProjectFolder": "Add a folder"
+    },
+    "spell": {
+      "makeTodo": "Make a todo",
+      "todoCreated": "Todo added to {{project}}: {{description}}",
+      "todoFailed": "Couldn't make a todo: {{error}}",
+      "signInFirst": "Sign in on the Account page to send spells to Omnispindle.",
+      "openTodo": "Open"
     }
   }
 }
