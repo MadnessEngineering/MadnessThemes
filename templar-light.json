@@ -3996,7 +3996,10 @@
       "openInInventorium": "Open in Inventorium",
       "autoRemapLabel": "Map again when main moves",
       "autoRemapDescription": "When a mapped repo's default branch moves (a merge or pull) or a new version is tagged, map it again, and send it if uploads are on. At most once an hour per folder; commits on other branches never trigger it.",
-      "watching": "watching {{branch}} and tags"
+      "watching": "watching {{branch}} and tags",
+      "projectFoldersTitle": "Project folders",
+      "projectFoldersEmpty": "No project folders yet. Add one to set up its language servers.",
+      "addProjectFolder": "Add a folder"
     }
   }
 }

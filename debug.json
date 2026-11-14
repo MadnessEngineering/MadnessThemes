@@ -3975,7 +3975,10 @@
       "openInInventorium": "shellomancy.codeMaps.openInInventorium",
       "autoRemapLabel": "shellomancy.codeMaps.autoRemapLabel",
       "autoRemapDescription": "shellomancy.codeMaps.autoRemapDescription",
-      "watching": "shellomancy.codeMaps.watching"
+      "watching": "shellomancy.codeMaps.watching",
+      "projectFoldersTitle": "shellomancy.codeMaps.projectFoldersTitle",
+      "projectFoldersEmpty": "shellomancy.codeMaps.projectFoldersEmpty",
+      "addProjectFolder": "shellomancy.codeMaps.addProjectFolder"
     }
   }
 }

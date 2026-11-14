@@ -3995,7 +3995,10 @@
       "openInInventorium": "Visit the city",
       "autoRemapLabel": "Redraw when main moves",
       "autoRemapDescription": "When the default branch moves or a new version gets tagged, the map is redrawn (and sent, if sending is on). Once an hour at most per folder. Commits on side branches are beneath its notice.",
-      "watching": "keeping an eye on {{branch}} and the tags"
+      "watching": "keeping an eye on {{branch}} and the tags",
+      "projectFoldersTitle": "Known territories",
+      "projectFoldersEmpty": "No known territories yet. Add a folder and its language servers will be summoned.",
+      "addProjectFolder": "Add a folder"
     }
   }
 }
