@@ -3972,7 +3972,10 @@
       "uploadFailed": "shellomancy.codeMaps.uploadFailed",
       "failed": "shellomancy.codeMaps.failed",
       "notFound": "shellomancy.codeMaps.notFound",
-      "openInInventorium": "shellomancy.codeMaps.openInInventorium"
+      "openInInventorium": "shellomancy.codeMaps.openInInventorium",
+      "autoRemapLabel": "shellomancy.codeMaps.autoRemapLabel",
+      "autoRemapDescription": "shellomancy.codeMaps.autoRemapDescription",
+      "watching": "shellomancy.codeMaps.watching"
     }
   }
 }

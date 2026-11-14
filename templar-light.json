@@ -3993,7 +3993,10 @@
       "uploadFailed": "upload failed: {{error}}",
       "failed": "Mapping failed: {{error}}",
       "notFound": "Neither cartogomancy nor npx is on your PATH. Install it with: npm install -g @madnessengineering/cartogomancy",
-      "openInInventorium": "Open in Inventorium"
+      "openInInventorium": "Open in Inventorium",
+      "autoRemapLabel": "Map again when main moves",
+      "autoRemapDescription": "When a mapped repo's default branch moves (a merge or pull) or a new version is tagged, map it again, and send it if uploads are on. At most once an hour per folder; commits on other branches never trigger it.",
+      "watching": "watching {{branch}} and tags"
     }
   }
 }

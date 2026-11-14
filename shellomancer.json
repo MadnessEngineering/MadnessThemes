@@ -3992,7 +3992,10 @@
       "uploadFailed": "the upload fizzled: {{error}}",
       "failed": "The map fizzled: {{error}}",
       "notFound": "Neither cartogomancy nor npx is anywhere on your PATH. Summon it with: npm install -g @madnessengineering/cartogomancy",
-      "openInInventorium": "Visit the city"
+      "openInInventorium": "Visit the city",
+      "autoRemapLabel": "Redraw when main moves",
+      "autoRemapDescription": "When the default branch moves or a new version gets tagged, the map is redrawn (and sent, if sending is on). Once an hour at most per folder. Commits on side branches are beneath its notice.",
+      "watching": "keeping an eye on {{branch}} and the tags"
     }
   }
 }
