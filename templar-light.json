@@ -4007,7 +4007,10 @@
       "todoCreated": "Todo added to {{project}}: {{description}}",
       "todoFailed": "Couldn't make a todo: {{error}}",
       "signInFirst": "Sign in on the Account page to send spells to Omnispindle.",
-      "openTodo": "Open"
+      "openTodo": "Open",
+      "recordLesson": "Record a lesson",
+      "lessonCreated": "Lesson recorded: {{topic}}",
+      "lessonFailed": "Couldn't record a lesson: {{error}}"
     },
     "notifications": {
       "noPermission": "Shellomancy tried to notify you about the last block but doesn't have permission.",

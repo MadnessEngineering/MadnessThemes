@@ -3986,7 +3986,10 @@
       "todoCreated": "shellomancy.spell.todoCreated",
       "todoFailed": "shellomancy.spell.todoFailed",
       "signInFirst": "shellomancy.spell.signInFirst",
-      "openTodo": "shellomancy.spell.openTodo"
+      "openTodo": "shellomancy.spell.openTodo",
+      "recordLesson": "shellomancy.spell.recordLesson",
+      "lessonCreated": "shellomancy.spell.lessonCreated",
+      "lessonFailed": "shellomancy.spell.lessonFailed"
     },
     "notifications": {
       "noPermission": "shellomancy.notifications.noPermission",

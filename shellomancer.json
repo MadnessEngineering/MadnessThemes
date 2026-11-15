@@ -4006,7 +4006,10 @@
       "todoCreated": "Omnispindle has it, filed under {{project}}: {{description}}",
       "todoFailed": "The todo fizzled: {{error}}",
       "signInFirst": "Bind your account on the Account page first. Omnispindle doesn't take spells from strangers.",
-      "openTodo": "Open"
+      "openTodo": "Open",
+      "recordLesson": "Write it down as a lesson",
+      "lessonCreated": "Written into the lessons: {{topic}}",
+      "lessonFailed": "The lesson fizzled: {{error}}"
     },
     "notifications": {
       "noPermission": "A spell finished and Shellomancy tried to tell you, but macOS hasn't granted it the right to speak.",
