@@ -4021,6 +4021,40 @@
     },
     "settingsImport": {
       "reset": "Reset to defaults"
+    },
+    "manaBar": {
+      "title": "Mana Bar",
+      "binding": "Left Panel: Mana Bar",
+      "signedOutTitle": "The Mana Bar is empty",
+      "signedOutDescription": "Bind your account in Settings > Account and the Mana Bar fills with your todos, quests and scrolls.",
+      "openAccount": "Open Account settings",
+      "refresh": "Refresh",
+      "loading": "Working…",
+      "error": "Couldn't reach madnessinteractive.cc: {{error}}",
+      "todosHeading": "Owed in {{project}}",
+      "todosHeadingAll": "Owed, every project",
+      "allProjects": "All projects",
+      "thisProject": "This project",
+      "noProject": "No project here, so: everything.",
+      "todosEmpty": "Nothing owed in {{project}}.",
+      "todosEmptyAll": "Nothing owed anywhere. Enjoy it while it lasts.",
+      "markDone": "Mark done",
+      "done": "Struck off: {{description}}",
+      "doneFailed": "It wouldn't come off the list: {{error}}",
+      "priorityCritical": "Critical",
+      "priorityHigh": "High",
+      "priorityMedium": "Medium",
+      "priorityLow": "Low",
+      "priorityNone": "No priority",
+      "questsHeading": "Quests",
+      "questsEmpty": "No quests underway.",
+      "questProgress": "{{done}} of {{total}} done ({{pct}}%)",
+      "questNext": "Next step: {{description}}",
+      "lessonsHeading": "Scrolls",
+      "lessonsFilter": "Search the scrolls",
+      "lessonsEmpty": "No scrolls yet.",
+      "lessonsNoMatch": "No scroll mentions \"{{query}}\".",
+      "openOnSite": "Open on madnessinteractive.cc"
     }
   }
 }

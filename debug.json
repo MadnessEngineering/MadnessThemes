@@ -4001,6 +4001,40 @@
     },
     "settingsImport": {
       "reset": "shellomancy.settingsImport.reset"
+    },
+    "manaBar": {
+      "title": "shellomancy.manaBar.title",
+      "binding": "shellomancy.manaBar.binding",
+      "signedOutTitle": "shellomancy.manaBar.signedOutTitle",
+      "signedOutDescription": "shellomancy.manaBar.signedOutDescription",
+      "openAccount": "shellomancy.manaBar.openAccount",
+      "refresh": "shellomancy.manaBar.refresh",
+      "loading": "shellomancy.manaBar.loading",
+      "error": "shellomancy.manaBar.error",
+      "todosHeading": "shellomancy.manaBar.todosHeading",
+      "todosHeadingAll": "shellomancy.manaBar.todosHeadingAll",
+      "allProjects": "shellomancy.manaBar.allProjects",
+      "thisProject": "shellomancy.manaBar.thisProject",
+      "noProject": "shellomancy.manaBar.noProject",
+      "todosEmpty": "shellomancy.manaBar.todosEmpty",
+      "todosEmptyAll": "shellomancy.manaBar.todosEmptyAll",
+      "markDone": "shellomancy.manaBar.markDone",
+      "done": "shellomancy.manaBar.done",
+      "doneFailed": "shellomancy.manaBar.doneFailed",
+      "priorityCritical": "shellomancy.manaBar.priorityCritical",
+      "priorityHigh": "shellomancy.manaBar.priorityHigh",
+      "priorityMedium": "shellomancy.manaBar.priorityMedium",
+      "priorityLow": "shellomancy.manaBar.priorityLow",
+      "priorityNone": "shellomancy.manaBar.priorityNone",
+      "questsHeading": "shellomancy.manaBar.questsHeading",
+      "questsEmpty": "shellomancy.manaBar.questsEmpty",
+      "questProgress": "shellomancy.manaBar.questProgress",
+      "questNext": "shellomancy.manaBar.questNext",
+      "lessonsHeading": "shellomancy.manaBar.lessonsHeading",
+      "lessonsFilter": "shellomancy.manaBar.lessonsFilter",
+      "lessonsEmpty": "shellomancy.manaBar.lessonsEmpty",
+      "lessonsNoMatch": "shellomancy.manaBar.lessonsNoMatch",
+      "openOnSite": "shellomancy.manaBar.openOnSite"
     }
   }
 }

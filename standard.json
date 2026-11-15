@@ -4021,6 +4021,40 @@
     },
     "settingsImport": {
       "reset": "Reset to defaults"
+    },
+    "manaBar": {
+      "title": "Omnispindle",
+      "binding": "Left Panel: Omnispindle",
+      "signedOutTitle": "Sign in to see your Omnispindle work",
+      "signedOutDescription": "Sign in with your Madness Interactive account in Settings > Account to see your todos, quests and lessons here.",
+      "openAccount": "Open Account settings",
+      "refresh": "Refresh",
+      "loading": "Loading…",
+      "error": "Couldn't load from madnessinteractive.cc: {{error}}",
+      "todosHeading": "Todos in {{project}}",
+      "todosHeadingAll": "Todos in all projects",
+      "allProjects": "All projects",
+      "thisProject": "This project",
+      "noProject": "This folder isn't a project, so all projects are shown.",
+      "todosEmpty": "No active todos in {{project}}.",
+      "todosEmptyAll": "No active todos.",
+      "markDone": "Mark done",
+      "done": "Done: {{description}}",
+      "doneFailed": "Couldn't mark it done: {{error}}",
+      "priorityCritical": "Critical",
+      "priorityHigh": "High",
+      "priorityMedium": "Medium",
+      "priorityLow": "Low",
+      "priorityNone": "No priority",
+      "questsHeading": "Quests",
+      "questsEmpty": "No active quests.",
+      "questProgress": "{{done}} of {{total}} done ({{pct}}%)",
+      "questNext": "Next: {{description}}",
+      "lessonsHeading": "Recent lessons",
+      "lessonsFilter": "Filter lessons",
+      "lessonsEmpty": "No lessons yet.",
+      "lessonsNoMatch": "No lessons match \"{{query}}\".",
+      "openOnSite": "Open on madnessinteractive.cc"
     }
   }
 }

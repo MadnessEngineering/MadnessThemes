@@ -492,7 +492,7 @@ standard wording marks it as owed.
   | split region of a tab (*pane*) | **Chamber** | "Split chamber right" |
   | command palette | **Conjure** | ⌘P; "Conjure an action…" |
   | saved, parameterized command (workflow) | Charm | a small spell with blanks |
-  | notebook | Scroll | |
+  | lesson or note (Omnispindle lessons; Warp's notebooks) | Scroll | what you learned, written down; the Mana Bar lists them |
   | tab / launch configuration | Rite | sets up a whole arrangement |
   | search history / search | Scry | |
   | make a subshell or SSH session Shellomancy-aware ("Warpify") | Enchant | |
