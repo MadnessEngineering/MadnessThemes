@@ -3862,7 +3862,8 @@
         "cliCommandDescription": "Install the shellomancy command for scripting Shellomancy from your terminal.",
         "modeDescription": "The shellomancy command can script Shellomancy's UI. Use with care.",
         "installed": "Installed the Shellomancy control CLI. You can now run '{{command}}' from the command line.",
-        "installFailed": "Failed to install the Shellomancy control command: {{error}}"
+        "installFailed": "Failed to install the Shellomancy control command: {{error}}",
+        "controlAccess": "Scripting access"
       },
       "externalEditor": {
         "shellomancy": "Shellomancy",

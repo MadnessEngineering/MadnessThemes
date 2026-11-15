@@ -3862,7 +3862,8 @@
         "cliCommandDescription": "Install the shellomancy command so scripts can reach into Shellomancy from any terminal.",
         "modeDescription": "The shellomancy command can script Shellomancy's UI. It does exactly what it's told.",
         "installed": "Control CLI bound. '{{command}}' now answers from any terminal.",
-        "installFailed": "Failed to install the Shellomancy control command: {{error}}"
+        "installFailed": "Failed to install the Shellomancy control command: {{error}}",
+        "controlAccess": "Who may pull the strings"
       },
       "externalEditor": {
         "shellomancy": "Shellomancy",

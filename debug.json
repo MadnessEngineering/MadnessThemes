@@ -3842,7 +3842,8 @@
         "cliCommandDescription": "shellomancy.settings.scripting.cliCommandDescription",
         "modeDescription": "shellomancy.settings.scripting.modeDescription",
         "installed": "shellomancy.settings.scripting.installed",
-        "installFailed": "shellomancy.settings.scripting.installFailed"
+        "installFailed": "shellomancy.settings.scripting.installFailed",
+        "controlAccess": "shellomancy.settings.scripting.controlAccess"
       },
       "externalEditor": {
         "shellomancy": "shellomancy.settings.externalEditor.shellomancy",
