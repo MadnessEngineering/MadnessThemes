@@ -3809,7 +3809,10 @@
       "voice": {
         "category": "shellomancy.settings.voice.category",
         "label": "shellomancy.settings.voice.label",
-        "restartNote": "shellomancy.settings.voice.restartNote"
+        "restartNote": "shellomancy.settings.voice.restartNote",
+        "followInventorium": "shellomancy.settings.voice.followInventorium",
+        "followNote": "shellomancy.settings.voice.followNote",
+        "pendingRestart": "shellomancy.settings.voice.pendingRestart"
       },
       "appearance": {
         "toggleInputModeBinding": "shellomancy.settings.appearance.toggleInputModeBinding",
@@ -3860,6 +3863,24 @@
         "drive": "shellomancy.settings.nav.drive",
         "agent": "shellomancy.settings.nav.agent",
         "codeMaps": "shellomancy.settings.nav.codeMaps"
+      },
+      "sync": {
+        "toggle": "shellomancy.settings.sync.toggle",
+        "description": "shellomancy.settings.sync.description",
+        "syncNow": "shellomancy.settings.sync.syncNow",
+        "statusIdle": "shellomancy.settings.sync.statusIdle",
+        "statusSyncing": "shellomancy.settings.sync.statusSyncing",
+        "statusSynced": "shellomancy.settings.sync.statusSynced",
+        "statusPending": "shellomancy.settings.sync.statusPending",
+        "statusOffline": "shellomancy.settings.sync.statusOffline",
+        "statusRefused": "shellomancy.settings.sync.statusRefused",
+        "statusError": "shellomancy.settings.sync.statusError",
+        "signedOut": "shellomancy.settings.sync.signedOut"
+      },
+      "theme": {
+        "followInventorium": "shellomancy.settings.theme.followInventorium",
+        "followNote": "shellomancy.settings.theme.followNote",
+        "followUnavailable": "shellomancy.settings.theme.followUnavailable"
       }
     },
     "menu": {

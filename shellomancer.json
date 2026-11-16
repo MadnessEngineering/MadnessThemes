@@ -3829,7 +3829,10 @@
       "voice": {
         "category": "Voice",
         "label": "Who's doing the talking",
-        "restartNote": "Takes hold after Shellomancy restarts. Words already spoken stay spoken."
+        "restartNote": "Takes hold after Shellomancy restarts. Words already spoken stay spoken.",
+        "followInventorium": "Speak as Inventorium speaks",
+        "followNote": "Borrow whatever voice madnessinteractive.cc is using. Pick one here and this lets go.",
+        "pendingRestart": "Restart and {{voice}} takes over."
       },
       "appearance": {
         "toggleInputModeBinding": "Toggle Input Mode (Shellomancy/Classic)",
@@ -3880,6 +3883,24 @@
         "drive": "Mana Bar",
         "agent": "Familiars",
         "codeMaps": "Cartogomancy"
+      },
+      "sync": {
+        "toggle": "Keep every machine in step",
+        "description": "Your theme and voice follow you to every machine bound to this account. Nothing moves until you say so.",
+        "syncNow": "Sync now",
+        "statusIdle": "Not syncing.",
+        "statusSyncing": "Comparing notes…",
+        "statusSynced": "In step as of {{when}}.",
+        "statusPending": "A change is waiting to go out…",
+        "statusOffline": "madnessinteractive.cc isn't answering; trying again later.",
+        "statusRefused": "madnessinteractive.cc won't take settings from this key yet: {{error}}",
+        "statusError": "The sync fizzled: {{error}}",
+        "signedOut": "Bind your account above and your settings can travel."
+      },
+      "theme": {
+        "followInventorium": "Wear Inventorium's colours",
+        "followNote": "Take whatever colours madnessinteractive.cc is wearing. Pick a theme here and this lets go.",
+        "followUnavailable": "Bind your account on the Account page first."
       }
     },
     "menu": {

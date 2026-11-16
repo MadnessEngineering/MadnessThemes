@@ -3830,7 +3830,10 @@
       "voice": {
         "category": "Voice",
         "label": "Language style for Shellomancy's text",
-        "restartNote": "Applies after Shellomancy restarts."
+        "restartNote": "Applies after Shellomancy restarts.",
+        "followInventorium": "Follow Inventorium's voice",
+        "followNote": "Use the voice picked on madnessinteractive.cc. Picking a voice here turns this off.",
+        "pendingRestart": "Restart to switch to {{voice}}."
       },
       "appearance": {
         "toggleInputModeBinding": "Toggle Input Mode (Shellomancy/Classic)",
@@ -3881,6 +3884,24 @@
         "drive": "Drive",
         "agent": "Agent",
         "codeMaps": "Code maps and projects"
+      },
+      "sync": {
+        "toggle": "Sync settings",
+        "description": "Keep your theme and voice the same on every machine signed in to this account. Off until you turn it on.",
+        "syncNow": "Sync now",
+        "statusIdle": "Not syncing.",
+        "statusSyncing": "Syncing…",
+        "statusSynced": "Synced at {{when}}.",
+        "statusPending": "Waiting to send a change…",
+        "statusOffline": "Couldn't reach madnessinteractive.cc; will try again.",
+        "statusRefused": "madnessinteractive.cc doesn't accept settings sync from this key yet: {{error}}",
+        "statusError": "Sync failed: {{error}}",
+        "signedOut": "Sign in above to sync your settings."
+      },
+      "theme": {
+        "followInventorium": "Follow Inventorium's colour scheme",
+        "followNote": "Use the colour scheme picked on madnessinteractive.cc. Picking a theme here turns this off.",
+        "followUnavailable": "Sign in on the Account page to follow madnessinteractive.cc."
       }
     },
     "menu": {
