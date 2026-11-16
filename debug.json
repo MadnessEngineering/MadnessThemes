@@ -4034,7 +4034,20 @@
       "lessonsFilter": "shellomancy.manaBar.lessonsFilter",
       "lessonsEmpty": "shellomancy.manaBar.lessonsEmpty",
       "lessonsNoMatch": "shellomancy.manaBar.lessonsNoMatch",
-      "openOnSite": "shellomancy.manaBar.openOnSite"
+      "openOnSite": "shellomancy.manaBar.openOnSite",
+      "tabTodos": "shellomancy.manaBar.tabTodos",
+      "tabQuests": "shellomancy.manaBar.tabQuests",
+      "tabScrolls": "shellomancy.manaBar.tabScrolls",
+      "tabLog": "shellomancy.manaBar.tabLog",
+      "logHeading": "shellomancy.manaBar.logHeading",
+      "logHeadingAll": "shellomancy.manaBar.logHeadingAll",
+      "logAll": "shellomancy.manaBar.logAll",
+      "logCreated": "shellomancy.manaBar.logCreated",
+      "logUpdated": "shellomancy.manaBar.logUpdated",
+      "logCompleted": "shellomancy.manaBar.logCompleted",
+      "logEmpty": "shellomancy.manaBar.logEmpty",
+      "logChanged": "shellomancy.manaBar.logChanged",
+      "showMore": "shellomancy.manaBar.showMore"
     }
   }
 }

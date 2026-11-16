@@ -4055,7 +4055,20 @@
       "lessonsFilter": "Filter lessons",
       "lessonsEmpty": "No lessons yet.",
       "lessonsNoMatch": "No lessons match \"{{query}}\".",
-      "openOnSite": "Open on madnessinteractive.cc"
+      "openOnSite": "Open on madnessinteractive.cc",
+      "tabTodos": "Todos",
+      "tabQuests": "Quests",
+      "tabScrolls": "Lessons",
+      "tabLog": "Log",
+      "logHeading": "Activity in {{project}}",
+      "logHeadingAll": "Activity in all projects",
+      "logAll": "All",
+      "logCreated": "Created",
+      "logUpdated": "Updated",
+      "logCompleted": "Completed",
+      "logEmpty": "No activity yet.",
+      "logChanged": "Changed: {{fields}}",
+      "showMore": "Show {{count}} more ({{hidden}} hidden)"
     }
   }
 }

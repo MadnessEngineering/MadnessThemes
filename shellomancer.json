@@ -4054,7 +4054,20 @@
       "lessonsFilter": "Search the scrolls",
       "lessonsEmpty": "No scrolls yet.",
       "lessonsNoMatch": "No scroll mentions \"{{query}}\".",
-      "openOnSite": "Open on madnessinteractive.cc"
+      "openOnSite": "Open on madnessinteractive.cc",
+      "tabTodos": "Owed",
+      "tabQuests": "Quests",
+      "tabScrolls": "Scrolls",
+      "tabLog": "Chronicle",
+      "logHeading": "The chronicle of {{project}}",
+      "logHeadingAll": "The chronicle, every project",
+      "logAll": "Everything",
+      "logCreated": "Begun",
+      "logUpdated": "Altered",
+      "logCompleted": "Finished",
+      "logEmpty": "Nothing has happened yet. Suspicious.",
+      "logChanged": "Altered: {{fields}}",
+      "showMore": "Unroll {{count}} more ({{hidden}} still rolled up)"
     }
   }
 }
