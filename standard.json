@@ -3898,7 +3898,7 @@
         "signedOut": "Sign in above to sync your settings."
       },
       "theme": {
-        "followInventorium": "Follow Inventorium's colour scheme",
+        "followInventorium": "Match Inventorium",
         "followNote": "Use the colour scheme picked on madnessinteractive.cc. Picking a theme here turns this off.",
         "followUnavailable": "Sign in on the Account page to follow madnessinteractive.cc."
       }
