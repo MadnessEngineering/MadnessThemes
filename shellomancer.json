@@ -3895,7 +3895,10 @@
         "statusOffline": "madnessinteractive.cc isn't answering; trying again later.",
         "statusRefused": "madnessinteractive.cc won't take settings from this key yet: {{error}}",
         "statusError": "The sync fizzled: {{error}}",
-        "signedOut": "Bind your account above and your settings can travel."
+        "signedOut": "Bind your account above and your settings can travel.",
+        "syncNowBinding": "Sync settings now",
+        "interval": "Check in every",
+        "intervalMinutes": "{{minutes}} min"
       },
       "theme": {
         "followInventorium": "Wear Inventorium's colours",

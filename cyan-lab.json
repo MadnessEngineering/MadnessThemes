@@ -3895,7 +3895,10 @@
         "statusOffline": "Couldn't reach madnessinteractive.cc; will try again.",
         "statusRefused": "madnessinteractive.cc doesn't accept settings sync from this key yet: {{error}}",
         "statusError": "Sync failed: {{error}}",
-        "signedOut": "Sign in above to sync your settings."
+        "signedOut": "Sign in above to sync your settings.",
+        "syncNowBinding": "Sync settings now",
+        "interval": "Check every",
+        "intervalMinutes": "{{minutes}} min"
       },
       "theme": {
         "followInventorium": "Follow Inventorium's colour scheme",

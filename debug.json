@@ -3875,7 +3875,10 @@
         "statusOffline": "shellomancy.settings.sync.statusOffline",
         "statusRefused": "shellomancy.settings.sync.statusRefused",
         "statusError": "shellomancy.settings.sync.statusError",
-        "signedOut": "shellomancy.settings.sync.signedOut"
+        "signedOut": "shellomancy.settings.sync.signedOut",
+        "syncNowBinding": "shellomancy.settings.sync.syncNowBinding",
+        "interval": "shellomancy.settings.sync.interval",
+        "intervalMinutes": "shellomancy.settings.sync.intervalMinutes"
       },
       "theme": {
         "followInventorium": "shellomancy.settings.theme.followInventorium",
