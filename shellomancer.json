@@ -4136,6 +4136,24 @@
         "started": "Comparing notes with Inventorium.",
         "off": "Settings sync is off, so there's nothing to compare. Turn it on in Settings > Account."
       }
+    },
+    "agentTab": {
+      "todoShort": "todo {{id}}",
+      "running": "casting {{command}}",
+      "editing": "inscribing {{file}}",
+      "reading": "reading {{file}}",
+      "searching": "scrying",
+      "browsing": "consulting the outer world",
+      "delegating": "sending a familiar",
+      "omnispindle": "spinning Omnispindle",
+      "calling": "calling on {{tool}}",
+      "using": "using {{tool}}",
+      "thinking": "thinking",
+      "permission": "awaits your permission",
+      "waiting": "waiting on you",
+      "done": "done",
+      "failed": "fizzled",
+      "cancelled": "cancelled"
     }
   }
 }

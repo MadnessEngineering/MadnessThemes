@@ -4137,6 +4137,24 @@
         "started": "Syncing with Inventorium.",
         "off": "Settings sync is off. Turn it on in Settings > Account."
       }
+    },
+    "agentTab": {
+      "todoShort": "todo {{id}}",
+      "running": "running {{command}}",
+      "editing": "editing {{file}}",
+      "reading": "reading {{file}}",
+      "searching": "searching",
+      "browsing": "browsing the web",
+      "delegating": "delegating to a subagent",
+      "omnispindle": "updating Omnispindle",
+      "calling": "calling {{tool}}",
+      "using": "using {{tool}}",
+      "thinking": "thinking",
+      "permission": "needs your permission",
+      "waiting": "waiting for you",
+      "done": "done",
+      "failed": "failed",
+      "cancelled": "cancelled"
     }
   }
 }

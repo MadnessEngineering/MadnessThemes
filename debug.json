@@ -4116,6 +4116,24 @@
         "started": "shellomancy.slash.sync.started",
         "off": "shellomancy.slash.sync.off"
       }
+    },
+    "agentTab": {
+      "todoShort": "shellomancy.agentTab.todoShort",
+      "running": "shellomancy.agentTab.running",
+      "editing": "shellomancy.agentTab.editing",
+      "reading": "shellomancy.agentTab.reading",
+      "searching": "shellomancy.agentTab.searching",
+      "browsing": "shellomancy.agentTab.browsing",
+      "delegating": "shellomancy.agentTab.delegating",
+      "omnispindle": "shellomancy.agentTab.omnispindle",
+      "calling": "shellomancy.agentTab.calling",
+      "using": "shellomancy.agentTab.using",
+      "thinking": "shellomancy.agentTab.thinking",
+      "permission": "shellomancy.agentTab.permission",
+      "waiting": "shellomancy.agentTab.waiting",
+      "done": "shellomancy.agentTab.done",
+      "failed": "shellomancy.agentTab.failed",
+      "cancelled": "shellomancy.agentTab.cancelled"
     }
   }
 }
