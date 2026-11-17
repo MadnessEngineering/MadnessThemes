@@ -4114,8 +4114,10 @@
       "map": {
         "description": "Have cartogomancy survey this repo",
         "noFolder": "Nothing to survey yet; cast a spell here first so we know where here is.",
-        "started": "Cartogomancy is surveying {{folder}}. The map lands in Settings > Code Maps.",
-        "alreadyMapping": "Cartogomancy is already surveying {{folder}}. It doesn't go faster when watched."
+        "started": "Cartogomancy is surveying {{folder}}. It'll report back.",
+        "alreadyMapping": "Cartogomancy is already surveying {{folder}}. It doesn't go faster when watched, but it'll report back.",
+        "done": "Cartogomancy is back from {{folder}}: {{summary}} ({{upload}}).",
+        "failed": "The survey of {{folder}} fizzled: {{error}}"
       },
       "quest": {
         "description": "Ask what this repo's quest wants from you next",

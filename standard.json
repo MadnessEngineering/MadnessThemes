@@ -4114,8 +4114,10 @@
       "map": {
         "description": "Map this repo with cartogomancy (Code Maps)",
         "noFolder": "There's no folder to map yet. Run a command here first.",
-        "started": "Mapping {{folder}}. The map shows up in Settings > Code Maps.",
-        "alreadyMapping": "{{folder}} is already being mapped."
+        "started": "Mapping {{folder}}. You'll get a note when it's done.",
+        "alreadyMapping": "{{folder}} is already being mapped. You'll get a note when it's done.",
+        "done": "Mapped {{folder}}: {{summary}} ({{upload}}).",
+        "failed": "Mapping {{folder}} failed: {{error}}"
       },
       "quest": {
         "description": "Show this repo's active quest and its next step",

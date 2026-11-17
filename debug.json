@@ -4095,7 +4095,9 @@
         "description": "shellomancy.slash.map.description",
         "noFolder": "shellomancy.slash.map.noFolder",
         "started": "shellomancy.slash.map.started",
-        "alreadyMapping": "shellomancy.slash.map.alreadyMapping"
+        "alreadyMapping": "shellomancy.slash.map.alreadyMapping",
+        "done": "shellomancy.slash.map.done",
+        "failed": "shellomancy.slash.map.failed"
       },
       "quest": {
         "description": "shellomancy.slash.quest.description",
