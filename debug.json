@@ -4071,7 +4071,11 @@
       "logCompleted": "shellomancy.manaBar.logCompleted",
       "logEmpty": "shellomancy.manaBar.logEmpty",
       "logChanged": "shellomancy.manaBar.logChanged",
-      "showMore": "shellomancy.manaBar.showMore"
+      "showMore": "shellomancy.manaBar.showMore",
+      "copy": "shellomancy.manaBar.copy",
+      "copied": "shellomancy.manaBar.copied",
+      "copyText": "shellomancy.manaBar.copyText",
+      "open": "shellomancy.manaBar.open"
     },
     "chips": {
       "omnispindleTitle": "shellomancy.chips.omnispindleTitle",

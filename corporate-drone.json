@@ -4091,7 +4091,11 @@
       "logCompleted": "Completed",
       "logEmpty": "No activity yet.",
       "logChanged": "Changed: {{fields}}",
-      "showMore": "Show {{count}} more ({{hidden}} hidden)"
+      "showMore": "Show {{count}} more ({{hidden}} hidden)",
+      "copy": "copy",
+      "copied": "copied ✓",
+      "copyText": "copy text",
+      "open": "open ↗"
     },
     "chips": {
       "omnispindleTitle": "Omnispindle todos",

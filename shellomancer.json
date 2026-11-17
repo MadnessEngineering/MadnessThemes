@@ -4091,7 +4091,11 @@
       "logCompleted": "Finished",
       "logEmpty": "Nothing has happened yet. Suspicious.",
       "logChanged": "Altered: {{fields}}",
-      "showMore": "Unroll {{count}} more ({{hidden}} still rolled up)"
+      "showMore": "Unroll {{count}} more ({{hidden}} still rolled up)",
+      "copy": "copy",
+      "copied": "copied ✓",
+      "copyText": "copy the scroll",
+      "open": "open ↗"
     },
     "chips": {
       "omnispindleTitle": "What's owed",
