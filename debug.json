@@ -4079,6 +4079,37 @@
       "owed": "shellomancy.chips.owed",
       "doing": "shellomancy.chips.doing",
       "quest": "shellomancy.chips.quest"
+    },
+    "slash": {
+      "todo": {
+        "description": "shellomancy.slash.todo.description",
+        "hint": "shellomancy.slash.todo.hint",
+        "empty": "shellomancy.slash.todo.empty"
+      },
+      "lesson": {
+        "description": "shellomancy.slash.lesson.description",
+        "hint": "shellomancy.slash.lesson.hint",
+        "empty": "shellomancy.slash.lesson.empty"
+      },
+      "map": {
+        "description": "shellomancy.slash.map.description",
+        "noFolder": "shellomancy.slash.map.noFolder",
+        "started": "shellomancy.slash.map.started",
+        "alreadyMapping": "shellomancy.slash.map.alreadyMapping"
+      },
+      "quest": {
+        "description": "shellomancy.slash.quest.description",
+        "next": "shellomancy.slash.quest.next",
+        "noNext": "shellomancy.slash.quest.noNext",
+        "more": "shellomancy.slash.quest.more",
+        "none": "shellomancy.slash.quest.none",
+        "noneAnywhere": "shellomancy.slash.quest.noneAnywhere"
+      },
+      "sync": {
+        "description": "shellomancy.slash.sync.description",
+        "started": "shellomancy.slash.sync.started",
+        "off": "shellomancy.slash.sync.off"
+      }
     }
   }
 }

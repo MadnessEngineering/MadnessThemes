@@ -4099,6 +4099,37 @@
       "owed": "{{count}} owed",
       "doing": "{{count}} in progress",
       "quest": "{{name}} {{done}}/{{total}}"
+    },
+    "slash": {
+      "todo": {
+        "description": "Add a todo to this repo's Omnispindle project",
+        "hint": "<what needs doing, !high or !low first to set priority>",
+        "empty": "Say what the todo is after /todo."
+      },
+      "lesson": {
+        "description": "Record a lesson tagged with this repo",
+        "hint": "<what you learned; the first line becomes the topic>",
+        "empty": "Say what the lesson is after /lesson."
+      },
+      "map": {
+        "description": "Map this repo with cartogomancy (Code Maps)",
+        "noFolder": "There's no folder to map yet. Run a command here first.",
+        "started": "Mapping {{folder}}. The map shows up in Settings > Code Maps.",
+        "alreadyMapping": "{{folder}} is already being mapped."
+      },
+      "quest": {
+        "description": "Show this repo's active quest and its next step",
+        "next": "{{quest}}: {{progress}} done. Next: {{next}}",
+        "noNext": "{{quest}}: {{progress}} done. Nothing is ready to start.",
+        "more": "({{count}} more in the Mana Bar.)",
+        "none": "No active quest in {{project}}.",
+        "noneAnywhere": "No active quests."
+      },
+      "sync": {
+        "description": "Sync settings with Inventorium now",
+        "started": "Syncing with Inventorium.",
+        "off": "Settings sync is off. Turn it on in Settings > Account."
+      }
     }
   }
 }

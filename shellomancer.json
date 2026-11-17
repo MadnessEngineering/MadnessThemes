@@ -4099,6 +4099,37 @@
       "owed": "{{count}} owed",
       "doing": "{{count}} underway",
       "quest": "{{name}} {{done}}/{{total}}"
+    },
+    "slash": {
+      "todo": {
+        "description": "Hand Omnispindle a todo for this repo",
+        "hint": "<what needs doing; lead with !high or !low if it matters>",
+        "empty": "/todo needs something to do. Omnispindle won't file a blank."
+      },
+      "lesson": {
+        "description": "Write down what the universe just taught you",
+        "hint": "<what you learned; the first line is the topic>",
+        "empty": "/lesson needs the lesson. Knowing you learned something isn't the same as writing it down."
+      },
+      "map": {
+        "description": "Have cartogomancy survey this repo",
+        "noFolder": "Nothing to survey yet; cast a spell here first so we know where here is.",
+        "started": "Cartogomancy is surveying {{folder}}. The map lands in Settings > Code Maps.",
+        "alreadyMapping": "Cartogomancy is already surveying {{folder}}. It doesn't go faster when watched."
+      },
+      "quest": {
+        "description": "Ask what this repo's quest wants from you next",
+        "next": "{{quest}}, {{progress}} done. Next it wants: {{next}}",
+        "noNext": "{{quest}}, {{progress}} done. Everything left is waiting on something else.",
+        "more": "({{count}} more in the Mana Bar.)",
+        "none": "{{project}} has no quest underway. Enjoy it while it lasts.",
+        "noneAnywhere": "No quests underway anywhere. Suspicious."
+      },
+      "sync": {
+        "description": "Compare notes with Inventorium now",
+        "started": "Comparing notes with Inventorium.",
+        "off": "Settings sync is off, so there's nothing to compare. Turn it on in Settings > Account."
+      }
     }
   }
 }
