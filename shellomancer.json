@@ -4092,6 +4092,13 @@
       "logEmpty": "Nothing has happened yet. Suspicious.",
       "logChanged": "Altered: {{fields}}",
       "showMore": "Unroll {{count}} more ({{hidden}} still rolled up)"
+    },
+    "chips": {
+      "omnispindleTitle": "What's owed",
+      "questTitle": "Current quest",
+      "owed": "{{count}} owed",
+      "doing": "{{count}} underway",
+      "quest": "{{name}} {{done}}/{{total}}"
     }
   }
 }

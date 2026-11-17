@@ -4072,6 +4072,13 @@
       "logEmpty": "shellomancy.manaBar.logEmpty",
       "logChanged": "shellomancy.manaBar.logChanged",
       "showMore": "shellomancy.manaBar.showMore"
+    },
+    "chips": {
+      "omnispindleTitle": "shellomancy.chips.omnispindleTitle",
+      "questTitle": "shellomancy.chips.questTitle",
+      "owed": "shellomancy.chips.owed",
+      "doing": "shellomancy.chips.doing",
+      "quest": "shellomancy.chips.quest"
     }
   }
 }

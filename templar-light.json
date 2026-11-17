@@ -4093,6 +4093,13 @@
       "logEmpty": "No activity yet.",
       "logChanged": "Changed: {{fields}}",
       "showMore": "Show {{count}} more ({{hidden}} hidden)"
+    },
+    "chips": {
+      "omnispindleTitle": "Omnispindle todos",
+      "questTitle": "Active quest",
+      "owed": "{{count}} owed",
+      "doing": "{{count}} in progress",
+      "quest": "{{name}} {{done}}/{{total}}"
     }
   }
 }
