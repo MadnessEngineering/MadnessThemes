@@ -4097,7 +4097,10 @@
       "copy": "copy",
       "copied": "copied ✓",
       "copyText": "copy text",
-      "open": "open ↗"
+      "open": "open ↗",
+      "questBlocked": "{{count}} blocked",
+      "questDeleted": "(deleted todo)",
+      "copyAll": "copy all"
     },
     "chips": {
       "omnispindleTitle": "Omnispindle todos",

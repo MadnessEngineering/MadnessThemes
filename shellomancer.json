@@ -4096,7 +4096,10 @@
       "copy": "copy",
       "copied": "copied ✓",
       "copyText": "copy the scroll",
-      "open": "open ↗"
+      "open": "open ↗",
+      "questBlocked": "{{count}} warded",
+      "questDeleted": "(struck from the record)",
+      "copyAll": "copy the lot"
     },
     "chips": {
       "omnispindleTitle": "What's owed",
