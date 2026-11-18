@@ -3662,6 +3662,7 @@
       "STEP_FORWARD": "hotkeys.CHRONOSNAP.STEP_FORWARD",
       "PLAY": "hotkeys.CHRONOSNAP.PLAY",
       "LOOP": "hotkeys.CHRONOSNAP.LOOP",
+      "MOOD": "hotkeys.CHRONOSNAP.MOOD",
       "PREVIEW": "hotkeys.CHRONOSNAP.PREVIEW",
       "BAKE": "hotkeys.CHRONOSNAP.BAKE",
       "SNAP_NEXT": "hotkeys.CHRONOSNAP.SNAP_NEXT",

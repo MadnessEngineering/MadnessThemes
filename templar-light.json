@@ -3683,6 +3683,7 @@
       "STEP_FORWARD": "Step forward one charge",
       "PLAY": "Play or pause the timeline",
       "LOOP": "Turn looping on or off",
+      "MOOD": "Show or hide the Nebula mood band under the time axis",
       "PREVIEW": "Preview the layout (nothing is saved), or withdraw the preview",
       "BAKE": "Inscribe the preview into the map",
       "SNAP_NEXT": "Place the current charge at the cursor, then step to the next",

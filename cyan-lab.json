@@ -3682,6 +3682,7 @@
       "STEP_FORWARD": "Step forward one todo",
       "PLAY": "Play or pause the timeline",
       "LOOP": "Turn looping on or off",
+      "MOOD": "Show or hide the Nebula mood band under the time axis",
       "PREVIEW": "Preview the layout (nothing is saved), or drop the preview",
       "BAKE": "Bake the preview into the map",
       "SNAP_NEXT": "Place the current todo at the cursor, then step to the next",
