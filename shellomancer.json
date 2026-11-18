@@ -4158,6 +4158,29 @@
       "done": "done",
       "failed": "fizzled",
       "cancelled": "cancelled"
+    },
+    "search": {
+      "scopeFiles": "Files",
+      "scopeSpells": "Spells",
+      "scopeScrolls": "Scrolls",
+      "placeholderFiles": "Search in files",
+      "placeholderSpells": "Search every spell you've cast",
+      "placeholderScrolls": "Search the scrolls",
+      "spellsRecent": "Recently cast. Click one to put it back on your tongue.",
+      "spellsCount": "{{count}} spells match",
+      "spellsEmpty": "You've never cast anything like that. Or you did it somewhere else.",
+      "spellsNoHistory": "No spells cast yet. Cast one; history needs something to remember.",
+      "run": "cast",
+      "copy": "copy",
+      "copied": "copied ✓",
+      "copyId": "copy id",
+      "toScroll": "scroll it",
+      "open": "open ↗",
+      "scrollsSignedOut": "Bind your account on the Account page and the scrolls open up.",
+      "scrollsLoading": "Unrolling…",
+      "scrollsCount": "{{count}} scrolls",
+      "scrollsEmpty": "No scroll mentions that. Maybe nobody learned it yet.",
+      "scrollsError": "The scrolls are out of reach: {{error}}"
     }
   }
 }

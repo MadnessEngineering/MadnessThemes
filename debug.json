@@ -4138,6 +4138,29 @@
       "done": "shellomancy.agentTab.done",
       "failed": "shellomancy.agentTab.failed",
       "cancelled": "shellomancy.agentTab.cancelled"
+    },
+    "search": {
+      "scopeFiles": "shellomancy.search.scopeFiles",
+      "scopeSpells": "shellomancy.search.scopeSpells",
+      "scopeScrolls": "shellomancy.search.scopeScrolls",
+      "placeholderFiles": "shellomancy.search.placeholderFiles",
+      "placeholderSpells": "shellomancy.search.placeholderSpells",
+      "placeholderScrolls": "shellomancy.search.placeholderScrolls",
+      "spellsRecent": "shellomancy.search.spellsRecent",
+      "spellsCount": "shellomancy.search.spellsCount",
+      "spellsEmpty": "shellomancy.search.spellsEmpty",
+      "spellsNoHistory": "shellomancy.search.spellsNoHistory",
+      "run": "shellomancy.search.run",
+      "copy": "shellomancy.search.copy",
+      "copied": "shellomancy.search.copied",
+      "copyId": "shellomancy.search.copyId",
+      "toScroll": "shellomancy.search.toScroll",
+      "open": "shellomancy.search.open",
+      "scrollsSignedOut": "shellomancy.search.scrollsSignedOut",
+      "scrollsLoading": "shellomancy.search.scrollsLoading",
+      "scrollsCount": "shellomancy.search.scrollsCount",
+      "scrollsEmpty": "shellomancy.search.scrollsEmpty",
+      "scrollsError": "shellomancy.search.scrollsError"
     }
   }
 }

@@ -4158,6 +4158,29 @@
       "done": "done",
       "failed": "failed",
       "cancelled": "cancelled"
+    },
+    "search": {
+      "scopeFiles": "Files",
+      "scopeSpells": "Commands",
+      "scopeScrolls": "Lessons",
+      "placeholderFiles": "Search in files",
+      "placeholderSpells": "Search command history",
+      "placeholderScrolls": "Search your lessons",
+      "spellsRecent": "Recent commands. Click one to put it back in the input.",
+      "spellsCount": "{{count}} matching commands",
+      "spellsEmpty": "No command in the history matches.",
+      "spellsNoHistory": "No history yet. Run a command in a terminal first.",
+      "run": "run",
+      "copy": "copy",
+      "copied": "copied ✓",
+      "copyId": "copy id",
+      "toScroll": "lesson",
+      "open": "open ↗",
+      "scrollsSignedOut": "Sign in on the Account page to search your lessons.",
+      "scrollsLoading": "Searching…",
+      "scrollsCount": "{{count}} lessons",
+      "scrollsEmpty": "No lesson matches.",
+      "scrollsError": "Couldn't reach madnessinteractive.cc: {{error}}"
     }
   }
 }
