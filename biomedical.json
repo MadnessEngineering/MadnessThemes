@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 View Assays",
       "chatAssistant": "🤖 Lab Assistant",
-      "activityLog": "📋 Assay Log",
+      "activityLog": "📒 Assay Log",
       "projects": "📂 Studies"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Lab Activity"
   },
   "activityLog": {
-    "title": "📋 Lab Activity Log",
+    "title": "📒 Lab Activity Log",
     "autoRefreshOn": "Auto-scan ON",
     "autoRefreshOff": "Auto-scan OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📝 Assays",
-    "logs": "📋 Assay Log",
+    "logs": "📒 Assay Log",
     "aiChat": "🤖 Lab Assistant",
     "create": "➕ Register",
     "projects": "📂 Studies",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Show",
       "perPage": "per batch",
+      "ofTotal": "of {{total}}",
       "all": "All",
       "results": "records",
       "page": "Page {{current}} of {{total}}",

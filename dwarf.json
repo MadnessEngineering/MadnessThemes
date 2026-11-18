@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 Mining Tasks",
       "chatAssistant": "🗣️ Forge Familiar",
-      "activityLog": "📋 Mining Logs",
+      "activityLog": "📒 Mining Logs",
       "projects": "📂 Quarries"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Mining Activity"
   },
   "activityLog": {
-    "title": "📋 Mining Activity Chronicle",
+    "title": "📒 Mining Activity Chronicle",
     "autoRefreshOn": "Auto-survey ON",
     "autoRefreshOff": "Auto-survey OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📝 Mining Tasks",
-    "logs": "📋 Dig Logs",
+    "logs": "📒 Dig Logs",
     "aiChat": "🗣️ Forge Familiar",
     "create": "➕ New Dig",
     "projects": "📂 Quarries",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Display",
       "perPage": "per mineshaft",
+      "ofTotal": "of {{total}}",
       "all": "All Mining",
       "results": "results",
       "page": "Page {{current}} of {{total}}",

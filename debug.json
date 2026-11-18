@@ -666,6 +666,7 @@
     "pagination": {
       "show": "todoList.pagination.show",
       "perPage": "todoList.pagination.perPage",
+      "ofTotal": "todoList.pagination.ofTotal",
       "all": "todoList.pagination.all",
       "results": "results",
       "page": "todoList.pagination.page",

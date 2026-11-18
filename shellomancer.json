@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 Research Tasks",
       "chatAssistant": "🤖 AI Laboratory Assistant",
-      "activityLog": "📋 Research Logs",
+      "activityLog": "📒 Research Logs",
       "projects": "📂 Experiments"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Findings"
   },
   "activityLog": {
-    "title": "📋 Laboratory Activity Chronicle",
+    "title": "📒 Laboratory Activity Chronicle",
     "autoRefreshOn": "Auto-scrying ON",
     "autoRefreshOff": "Auto-scrying OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📝 Research Tasks",
-    "logs": "📋 Lab Logs",
+    "logs": "📒 Lab Logs",
     "aiChat": "🤖 AI Assistant",
     "create": "➕ New Experiment",
     "projects": "📂 Experiments",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Display",
       "perPage": "per laboratory",
+      "ofTotal": "of {{total}}",
       "all": "All Research",
       "results": "findings",
       "page": "Page {{current}} of {{total}}",

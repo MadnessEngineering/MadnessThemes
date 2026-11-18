@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 Action Item Pipeline",
       "chatAssistant": "🤖 Conversational Productivity Liaison",
-      "activityLog": "📋 Operational Trace Reports",
+      "activityLog": "📒 Operational Trace Reports",
       "projects": "📂 Initiative Portfolio"
     },
     "filters": {
@@ -308,7 +308,7 @@
   },
   "panels": {
     "todos": "📝 Backlog",
-    "logs": "📋 Delivery KPIs",
+    "logs": "📒 Delivery KPIs",
     "aiChat": "🤖 AI Assistant",
     "create": "➕ New Initiative",
     "projects": "📂 Project Portfolio",
@@ -595,6 +595,7 @@
     "pagination": {
       "show": "Display",
       "perPage": "per page",
+      "ofTotal": "of {{total}}",
       "all": "All Items",
       "results": "results",
       "page": "Page {{current}} of {{total}}",
@@ -2466,7 +2467,7 @@
     "description": "AI-powered analytics for todo management"
   },
   "activityLog": {
-    "title": "📋 Operational Performance Ledger",
+    "title": "📒 Operational Performance Ledger",
     "autoRefreshOn": "Auto-sync ENABLED",
     "autoRefreshOff": "Auto-sync DISABLED",
     "filters": {

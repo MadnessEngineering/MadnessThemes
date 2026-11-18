@@ -144,7 +144,7 @@
     "quickActions": {
       "openTodos": "📝 Tasks",
       "chatAssistant": "🤖 AI Assistant",
-      "activityLog": "📋 Activity Log",
+      "activityLog": "📒 Activity Log",
       "projects": "📂 Projects"
     },
     "projectStats": {
@@ -271,6 +271,7 @@
     "pagination": {
       "show": "Show",
       "perPage": "per page",
+      "ofTotal": "of {{total}}",
       "results": "results",
       "all": "All",
       "page": "Page {{current}} of {{total}}",
@@ -2367,7 +2368,7 @@
   },
   "panels": {
     "todos": "📝 Tasks",
-    "logs": "📋 Logs",
+    "logs": "📒 Logs",
     "aiChat": "🤖 AI Terminal",
     "create": "➕ Create",
     "projects": "📂 Projects",

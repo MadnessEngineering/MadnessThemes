@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📜 Open Quests",
       "chatAssistant": "🔮 Order Oracle",
-      "activityLog": "📋 Chronicle Log",
+      "activityLog": "📒 Chronicle Log",
       "projects": "🏰 Crusades"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Deeds"
   },
   "activityLog": {
-    "title": "📜 Chronicle of Deeds",
+    "title": "📒 Chronicle of Deeds",
     "autoRefreshOn": "Vigil: ON",
     "autoRefreshOff": "Vigil: OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📜 Charges",
-    "logs": "📋 Chronicle",
+    "logs": "📒 Chronicle",
     "aiChat": "🤖 Order Oracle",
     "create": "➕ Pledge",
     "projects": "📂 Crusades",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Display",
       "perPage": "per folio",
+      "ofTotal": "of {{total}}",
       "all": "All",
       "results": "inscriptions",
       "page": "Folio {{current}} of {{total}}",

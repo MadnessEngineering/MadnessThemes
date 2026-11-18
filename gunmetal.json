@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 Mission Board",
       "chatAssistant": "🤖 AI Copilot",
-      "activityLog": "📋 Sortie Log",
+      "activityLog": "📒 Sortie Log",
       "projects": "📂 Mechs"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Activity"
   },
   "activityLog": {
-    "title": "📋 Sortie Log",
+    "title": "📒 Sortie Log",
     "autoRefreshOn": "Auto-scan ON",
     "autoRefreshOff": "Auto-scan OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📝 Missions",
-    "logs": "📋 Sortie Logs",
+    "logs": "📒 Sortie Logs",
     "aiChat": "🤖 AI Copilot",
     "create": "➕ Deploy",
     "projects": "📂 Mechs",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Display",
       "perPage": "per sortie",
+      "ofTotal": "of {{total}}",
       "all": "All",
       "results": "results",
       "page": "Page {{current}} of {{total}}",

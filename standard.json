@@ -197,7 +197,7 @@
     "quickActions": {
       "openTodos": "📝 Open Todos",
       "chatAssistant": "🤖 Chat Assistant",
-      "activityLog": "📋 Activity Log",
+      "activityLog": "📒 Activity Log",
       "projects": "📂 Projects"
     },
     "filters": {
@@ -249,7 +249,7 @@
     "recentActivity": "Recent Activity"
   },
   "activityLog": {
-    "title": "📋 Activity Log",
+    "title": "📒 Activity Log",
     "autoRefreshOn": "Auto-refresh ON",
     "autoRefreshOff": "Auto-refresh OFF",
     "filters": {
@@ -379,7 +379,7 @@
   },
   "panels": {
     "todos": "📝 Todos",
-    "logs": "📋 Logs",
+    "logs": "📒 Logs",
     "aiChat": "🤖 AI Chat",
     "create": "➕ Create",
     "projects": "📂 Projects",
@@ -666,6 +666,7 @@
     "pagination": {
       "show": "Show",
       "perPage": "per page",
+      "ofTotal": "of {{total}}",
       "all": "All",
       "results": "results",
       "page": "Page {{current}} of {{total}}",
