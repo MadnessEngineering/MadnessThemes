@@ -3907,6 +3907,13 @@
         "followInventorium": "Follow Inventorium's colour scheme",
         "followNote": "Use the colour scheme picked on madnessinteractive.cc. Picking a theme here turns this off.",
         "followUnavailable": "Sign in on the Account page to follow madnessinteractive.cc."
+      },
+      "manaBar": {
+        "openTarget": "Open todos from the Mana Bar",
+        "openTargetNote": "Where a todo's open button goes. In place unrolls a quest's todo under its row; Agent tab starts claude on the todo in a new tab, in the focused terminal's repo.",
+        "openInPlace": "In place",
+        "openBrowser": "Browser",
+        "openAgentTab": "Agent tab"
       }
     },
     "menu": {
@@ -4101,7 +4108,9 @@
       "open": "open ↗",
       "questBlocked": "{{count}} blocked",
       "questDeleted": "(deleted todo)",
-      "copyAll": "copy all"
+      "copyAll": "copy all",
+      "agentShort": "agent",
+      "openAgent": "send to agent"
     },
     "chips": {
       "omnispindleTitle": "Omnispindle todos",

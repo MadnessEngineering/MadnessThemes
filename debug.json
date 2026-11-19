@@ -3886,6 +3886,13 @@
         "followInventorium": "shellomancy.settings.theme.followInventorium",
         "followNote": "shellomancy.settings.theme.followNote",
         "followUnavailable": "shellomancy.settings.theme.followUnavailable"
+      },
+      "manaBar": {
+        "openTarget": "shellomancy.settings.manaBar.openTarget",
+        "openTargetNote": "shellomancy.settings.manaBar.openTargetNote",
+        "openInPlace": "shellomancy.settings.manaBar.openInPlace",
+        "openBrowser": "shellomancy.settings.manaBar.openBrowser",
+        "openAgentTab": "shellomancy.settings.manaBar.openAgentTab"
       }
     },
     "menu": {
@@ -4080,7 +4087,9 @@
       "open": "shellomancy.manaBar.open",
       "questBlocked": "shellomancy.manaBar.questBlocked",
       "questDeleted": "shellomancy.manaBar.questDeleted",
-      "copyAll": "shellomancy.manaBar.copyAll"
+      "copyAll": "shellomancy.manaBar.copyAll",
+      "agentShort": "shellomancy.manaBar.agentShort",
+      "openAgent": "shellomancy.manaBar.openAgent"
     },
     "chips": {
       "omnispindleTitle": "shellomancy.chips.omnispindleTitle",

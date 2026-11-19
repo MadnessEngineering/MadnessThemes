@@ -3906,6 +3906,13 @@
         "followInventorium": "Wear Inventorium's colours",
         "followNote": "Take whatever colours madnessinteractive.cc is wearing. Pick a theme here and this lets go.",
         "followUnavailable": "Bind your account on the Account page first."
+      },
+      "manaBar": {
+        "openTarget": "Open todos from the Mana Bar",
+        "openTargetNote": "Where a todo's open button leads. In place unrolls a quest's todo under its row; Agent tab sends a familiar (claude) after it in a new tab, in the focused terminal's repo.",
+        "openInPlace": "In place",
+        "openBrowser": "Browser",
+        "openAgentTab": "Familiar tab"
       }
     },
     "menu": {
@@ -4100,7 +4107,9 @@
       "open": "open ↗",
       "questBlocked": "{{count}} warded",
       "questDeleted": "(struck from the record)",
-      "copyAll": "copy the lot"
+      "copyAll": "copy the lot",
+      "agentShort": "familiar",
+      "openAgent": "send a familiar"
     },
     "chips": {
       "omnispindleTitle": "What's owed",
