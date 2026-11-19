@@ -3895,6 +3895,10 @@
         "openAgentTab": "shellomancy.settings.manaBar.openAgentTab",
         "logCommits": "shellomancy.settings.manaBar.logCommits",
         "logCommitsNote": "shellomancy.settings.manaBar.logCommitsNote"
+      },
+      "updates": {
+        "automatic": "shellomancy.settings.updates.automatic",
+        "automaticNote": "shellomancy.settings.updates.automaticNote"
       }
     },
     "menu": {

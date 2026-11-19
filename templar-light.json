@@ -3916,6 +3916,10 @@
         "openAgentTab": "Agent tab",
         "logCommits": "Show commits in the Log",
         "logCommitsNote": "Mixes the focused terminal's repo's recent git commits in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
+      },
+      "updates": {
+        "automatic": "Check for updates automatically",
+        "automaticNote": "Asks GitHub for a new Shellomancy release now and then. Off by default; Check for updates always works. Updates install only if they're signed the same way as this copy."
       }
     },
     "menu": {

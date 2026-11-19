@@ -3915,6 +3915,10 @@
         "openAgentTab": "Familiar tab",
         "logCommits": "Show commits in the Log",
         "logCommitsNote": "Weaves the focused terminal's repo history in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
+      },
+      "updates": {
+        "automatic": "Watch for new releases",
+        "automaticNote": "Asks GitHub for a new Shellomancy release now and then. Off by default; Check for updates always works. Only a release sealed the same way as this copy is let in."
       }
     },
     "menu": {
