@@ -3912,7 +3912,9 @@
         "openTargetNote": "Where a todo's open button leads. In place unrolls a quest's todo under its row; Agent tab sends a familiar (claude) after it in a new tab, in the focused terminal's repo.",
         "openInPlace": "In place",
         "openBrowser": "Browser",
-        "openAgentTab": "Familiar tab"
+        "openAgentTab": "Familiar tab",
+        "logCommits": "Show commits in the Log",
+        "logCommitsNote": "Weaves the focused terminal's repo history in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
       }
     },
     "menu": {
@@ -4109,7 +4111,12 @@
       "questDeleted": "(struck from the record)",
       "copyAll": "copy the lot",
       "agentShort": "familiar",
-      "openAgent": "send a familiar"
+      "openAgent": "send a familiar",
+      "logCommits": "Commits",
+      "commitPill": "commit",
+      "commitsFailed": "The repo's history wouldn't speak: {{error}}",
+      "linkedCommit": "↔ commit {{sha}} {{subject}}",
+      "linkedTodo": "↔ todo: {{description}}"
     },
     "chips": {
       "omnispindleTitle": "What's owed",

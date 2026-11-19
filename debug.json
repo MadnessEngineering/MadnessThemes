@@ -3892,7 +3892,9 @@
         "openTargetNote": "shellomancy.settings.manaBar.openTargetNote",
         "openInPlace": "shellomancy.settings.manaBar.openInPlace",
         "openBrowser": "shellomancy.settings.manaBar.openBrowser",
-        "openAgentTab": "shellomancy.settings.manaBar.openAgentTab"
+        "openAgentTab": "shellomancy.settings.manaBar.openAgentTab",
+        "logCommits": "shellomancy.settings.manaBar.logCommits",
+        "logCommitsNote": "shellomancy.settings.manaBar.logCommitsNote"
       }
     },
     "menu": {
@@ -4089,7 +4091,12 @@
       "questDeleted": "shellomancy.manaBar.questDeleted",
       "copyAll": "shellomancy.manaBar.copyAll",
       "agentShort": "shellomancy.manaBar.agentShort",
-      "openAgent": "shellomancy.manaBar.openAgent"
+      "openAgent": "shellomancy.manaBar.openAgent",
+      "logCommits": "shellomancy.manaBar.logCommits",
+      "commitPill": "shellomancy.manaBar.commitPill",
+      "commitsFailed": "shellomancy.manaBar.commitsFailed",
+      "linkedCommit": "shellomancy.manaBar.linkedCommit",
+      "linkedTodo": "shellomancy.manaBar.linkedTodo"
     },
     "chips": {
       "omnispindleTitle": "shellomancy.chips.omnispindleTitle",

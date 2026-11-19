@@ -3913,7 +3913,9 @@
         "openTargetNote": "Where a todo's open button goes. In place unrolls a quest's todo under its row; Agent tab starts claude on the todo in a new tab, in the focused terminal's repo.",
         "openInPlace": "In place",
         "openBrowser": "Browser",
-        "openAgentTab": "Agent tab"
+        "openAgentTab": "Agent tab",
+        "logCommits": "Show commits in the Log",
+        "logCommitsNote": "Mixes the focused terminal's repo's recent git commits in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
       }
     },
     "menu": {
@@ -4110,7 +4112,12 @@
       "questDeleted": "(deleted todo)",
       "copyAll": "copy all",
       "agentShort": "agent",
-      "openAgent": "send to agent"
+      "openAgent": "send to agent",
+      "logCommits": "Commits",
+      "commitPill": "commit",
+      "commitsFailed": "Couldn't read this repo's commits: {{error}}",
+      "linkedCommit": "↔ commit {{sha}} {{subject}}",
+      "linkedTodo": "↔ todo: {{description}}"
     },
     "chips": {
       "omnispindleTitle": "Omnispindle todos",
