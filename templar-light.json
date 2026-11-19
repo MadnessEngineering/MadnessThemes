@@ -4198,7 +4198,37 @@
       "scrollsLoading": "Searching…",
       "scrollsCount": "{{count}} lessons",
       "scrollsEmpty": "No lesson matches.",
-      "scrollsError": "Couldn't reach madnessinteractive.cc: {{error}}"
+      "scrollsError": "Couldn't reach madnessinteractive.cc: {{error}}",
+      "scopeGrimoire": "Scratchpad",
+      "placeholderGrimoire": "Search your notes and workflows",
+      "inscribe": "save",
+      "inscribed": "Saved as a workflow: {{path}}",
+      "grimoireBlank": "Nothing saved in {{path}} yet."
+    },
+    "grimoire": {
+      "title": "Scratchpad",
+      "binding": "Left Panel: Scratchpad",
+      "filter": "Filter notes, workflows and scripts",
+      "loading": "Reading the folder…",
+      "newNotebook": "New notebook",
+      "newIncantation": "New workflow",
+      "openFolder": "Show the folder",
+      "refresh": "Read the folder again",
+      "writeFailed": "Couldn't write to {{path}}: {{error}}",
+      "repoShelf": "This repo · {{repo}}",
+      "repoNone": "No notes kept in {{path}} yet.",
+      "repoStart": "start one",
+      "globalShelf": "This machine",
+      "noMatch": "Nothing matches.",
+      "count": "{{count}} matches",
+      "empty": "Nothing here yet. Notes (.md), workflows (.yaml) and scripts in {{path}} show up here, and Search › Commands can save a command here.",
+      "repoBadge": "repo",
+      "asksFor": "asks for {{args}}",
+      "read": "open",
+      "cast": "run",
+      "edit": "edit",
+      "peek": "preview",
+      "unpeek": "hide"
     }
   }
 }

@@ -4177,7 +4177,37 @@
       "scrollsLoading": "shellomancy.search.scrollsLoading",
       "scrollsCount": "shellomancy.search.scrollsCount",
       "scrollsEmpty": "shellomancy.search.scrollsEmpty",
-      "scrollsError": "shellomancy.search.scrollsError"
+      "scrollsError": "shellomancy.search.scrollsError",
+      "scopeGrimoire": "shellomancy.search.scopeGrimoire",
+      "placeholderGrimoire": "shellomancy.search.placeholderGrimoire",
+      "inscribe": "shellomancy.search.inscribe",
+      "inscribed": "shellomancy.search.inscribed",
+      "grimoireBlank": "shellomancy.search.grimoireBlank"
+    },
+    "grimoire": {
+      "title": "shellomancy.grimoire.title",
+      "binding": "shellomancy.grimoire.binding",
+      "filter": "shellomancy.grimoire.filter",
+      "loading": "shellomancy.grimoire.loading",
+      "newNotebook": "shellomancy.grimoire.newNotebook",
+      "newIncantation": "shellomancy.grimoire.newIncantation",
+      "openFolder": "shellomancy.grimoire.openFolder",
+      "refresh": "shellomancy.grimoire.refresh",
+      "writeFailed": "shellomancy.grimoire.writeFailed",
+      "repoShelf": "shellomancy.grimoire.repoShelf",
+      "repoNone": "shellomancy.grimoire.repoNone",
+      "repoStart": "shellomancy.grimoire.repoStart",
+      "globalShelf": "shellomancy.grimoire.globalShelf",
+      "noMatch": "shellomancy.grimoire.noMatch",
+      "count": "shellomancy.grimoire.count",
+      "empty": "shellomancy.grimoire.empty",
+      "repoBadge": "shellomancy.grimoire.repoBadge",
+      "asksFor": "shellomancy.grimoire.asksFor",
+      "read": "shellomancy.grimoire.read",
+      "cast": "shellomancy.grimoire.cast",
+      "edit": "shellomancy.grimoire.edit",
+      "peek": "shellomancy.grimoire.peek",
+      "unpeek": "shellomancy.grimoire.unpeek"
     }
   }
 }

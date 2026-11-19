@@ -4197,7 +4197,37 @@
       "scrollsLoading": "Unrolling…",
       "scrollsCount": "{{count}} scrolls",
       "scrollsEmpty": "No scroll mentions that. Maybe nobody learned it yet.",
-      "scrollsError": "The scrolls are out of reach: {{error}}"
+      "scrollsError": "The scrolls are out of reach: {{error}}",
+      "scopeGrimoire": "Grimoire",
+      "placeholderGrimoire": "Search every page of the grimoire",
+      "inscribe": "inscribe",
+      "inscribed": "Inscribed in the grimoire: {{path}}",
+      "grimoireBlank": "The grimoire at {{path}} is blank."
+    },
+    "grimoire": {
+      "title": "Grimoire",
+      "binding": "Left Panel: Grimoire",
+      "filter": "Search the pages",
+      "loading": "Turning pages…",
+      "newNotebook": "New page",
+      "newIncantation": "New incantation",
+      "openFolder": "Open the grimoire's folder",
+      "refresh": "Reread the pages",
+      "writeFailed": "The ink won't take at {{path}}: {{error}}",
+      "repoShelf": "This repo · {{repo}}",
+      "repoNone": "This repo keeps no pages yet ({{path}}).",
+      "repoStart": "start one",
+      "globalShelf": "The grimoire",
+      "noMatch": "No page mentions that.",
+      "count": "{{count}} pages answer",
+      "empty": "The grimoire is blank. Pages (.md), incantations (.yaml) and scripts dropped in {{path}} appear here, and Search › Spells can inscribe one.",
+      "repoBadge": "repo",
+      "asksFor": "asks for {{args}}",
+      "read": "read",
+      "cast": "cast",
+      "edit": "edit",
+      "peek": "peek",
+      "unpeek": "close"
     }
   }
 }
