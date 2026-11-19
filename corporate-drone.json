@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Pending Approval",
       "project": "Initiative",
-      "operation": "Action Item"
+      "operation": "Action Item",
+      "allProjects": "All Strategic Initiatives"
     },
     "review": {
       "approveSuccess": "Approved",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Note deployment failed",
     "record": "Deploy",
     "recorded": "Deployed: “{{question}}” → {{answer}}",
-    "undo": "Roll Back"
+    "undo": "Roll Back",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Quick Capture",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Rationale",
     "notePlaceholder": "Add color — why this call, or what the options missed",
-    "notedBy": "captured by"
+    "notedBy": "captured by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

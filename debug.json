@@ -3518,7 +3518,8 @@
     "filters": {
       "needsReview": "chronicle.filters.needsReview",
       "project": "chronicle.filters.project",
-      "operation": "chronicle.filters.operation"
+      "operation": "chronicle.filters.operation",
+      "allProjects": "chronicle.filters.allProjects"
     },
     "review": {
       "approveSuccess": "chronicle.review.approveSuccess",
@@ -3553,7 +3554,9 @@
     "noteFailed": "questionsLane.noteFailed",
     "record": "questionsLane.record",
     "recorded": "questionsLane.recorded",
-    "undo": "questionsLane.undo"
+    "undo": "questionsLane.undo",
+    "buriedMore": "questionsLane.buriedMore",
+    "backToOpen": "questionsLane.backToOpen"
   },
   "notesDock": {
     "title": "notesDock.title",
@@ -3571,7 +3574,8 @@
   "choices": {
     "noteLabel": "choices.noteLabel",
     "notePlaceholder": "choices.notePlaceholder",
-    "notedBy": "choices.notedBy"
+    "notedBy": "choices.notedBy",
+    "addNote": "choices.addNote"
   },
   "hotkeys": {
     "PANELS": {

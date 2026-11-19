@@ -3539,7 +3539,8 @@
     "filters": {
       "needsReview": "Awaiting Judgment",
       "project": "Crusade",
-      "operation": "Deed"
+      "operation": "Deed",
+      "allProjects": "All Crusades"
     },
     "review": {
       "approveSuccess": "Sanctified",
@@ -3574,7 +3575,9 @@
     "noteFailed": "Your note failed to inscribe into the record",
     "record": "Inscribe",
     "recorded": "Inscribed: “{{question}}” → {{answer}}",
-    "undo": "Strike"
+    "undo": "Strike",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Vow Scraps",
@@ -3592,7 +3595,8 @@
   "choices": {
     "noteLabel": "Annotation",
     "notePlaceholder": "Inscribe a note — why this call, or what the options missed",
-    "notedBy": "inscribed by"
+    "notedBy": "inscribed by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

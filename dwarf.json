@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Awaiting the Foreman",
       "project": "Dig Site",
-      "operation": "Toil"
+      "operation": "Toil",
+      "allProjects": "All Ore Quarries"
     },
     "review": {
       "approveSuccess": "Stamped and Approved",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Couldn't engrave the note",
     "record": "Engrave",
     "recorded": "Engraved: “{{question}}” → {{answer}}",
-    "undo": "Scrape Off"
+    "undo": "Scrape Off",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Chalk Scratchings",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Scrawl",
     "notePlaceholder": "Engrave a note — why this call, or what the options missed",
-    "notedBy": "engraved by"
+    "notedBy": "engraved by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Awaiting Judgment",
       "project": "Experiment",
-      "operation": "Working"
+      "operation": "Working",
+      "allProjects": "All Arcane Experiments"
     },
     "review": {
       "approveSuccess": "Sealed into the Chronicle",
@@ -3573,7 +3574,9 @@
     "noteFailed": "The void refused to archive your note",
     "record": "Archive",
     "recorded": "Archived: “{{question}}” → {{answer}}",
-    "undo": "Unseal"
+    "undo": "Unseal",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Grimoire Scraps",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Arcane Note",
     "notePlaceholder": "Scrawl a note — why this call, or what the options missed",
-    "notedBy": "scrawled by"
+    "notedBy": "scrawled by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Needs Triage",
       "project": "Service",
-      "operation": "Activity"
+      "operation": "Activity",
+      "allProjects": "All Services"
     },
     "review": {
       "approveSuccess": "Resolved",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Failed to commit the annotation",
     "record": "File Ack",
     "recorded": "Filed: “{{question}}” → {{answer}}",
-    "undo": "Revert"
+    "undo": "Revert",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Scratch Log",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Annotation",
     "notePlaceholder": "Annotate — why this call, or what the options missed",
-    "notedBy": "annotated by"
+    "notedBy": "annotated by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

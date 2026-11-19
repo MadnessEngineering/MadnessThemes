@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Needs Review",
       "project": "Study",
-      "operation": "Procedure"
+      "operation": "Procedure",
+      "allProjects": "All Studies"
     },
     "review": {
       "approveSuccess": "Reviewed and Signed Off",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Failed to record note",
     "record": "Record",
     "recorded": "Recorded: “{{question}}” → {{answer}}",
-    "undo": "Retract"
+    "undo": "Retract",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Observation Log",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Clinical Note",
     "notePlaceholder": "Record a note — why this call, or what the options missed",
-    "notedBy": "recorded by"
+    "notedBy": "recorded by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

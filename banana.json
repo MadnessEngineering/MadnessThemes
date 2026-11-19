@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Needs a Peek",
       "project": "Bunch",
-      "operation": "Business"
+      "operation": "Business",
+      "allProjects": "All Tree Branches"
     },
     "review": {
       "approveSuccess": "Peeled and Approved",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Stashing your note went bananas",
     "record": "Stash Pick",
     "recorded": "Stashed: “{{question}}” → {{answer}}",
-    "undo": "Put Back"
+    "undo": "Put Back",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Peel Notes",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Side Note",
     "notePlaceholder": "Stash a note — why this call, or what the options missed",
-    "notedBy": "stashed by"
+    "notedBy": "stashed by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

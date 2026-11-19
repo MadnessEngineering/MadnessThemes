@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Needs Review",
       "project": "Project",
-      "operation": "Activity"
+      "operation": "Activity",
+      "allProjects": "All Projects"
     },
     "review": {
       "approveSuccess": "Approved",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Failed to record note",
     "record": "Record",
     "recorded": "Recorded: “{{question}}” → {{answer}}",
-    "undo": "Undo"
+    "undo": "Undo",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Notes",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Note",
     "notePlaceholder": "Add a note — why this call, or what the options missed",
-    "notedBy": "noted by"
+    "notedBy": "noted by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

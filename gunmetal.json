@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Awaiting Clearance",
       "project": "Operation",
-      "operation": "Action"
+      "operation": "Action",
+      "allProjects": "All Projects"
     },
     "review": {
       "approveSuccess": "Cleared",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Note rejected",
     "record": "Confirm",
     "recorded": "Confirmed: “{{question}}” → {{answer}}",
-    "undo": "Rescind"
+    "undo": "Rescind",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Field Notes",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Field Note",
     "notePlaceholder": "Log a note — why this call, or what the options missed",
-    "notedBy": "logged by"
+    "notedBy": "logged by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {

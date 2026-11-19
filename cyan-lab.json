@@ -3538,7 +3538,8 @@
     "filters": {
       "needsReview": "Needs Review",
       "project": "Node",
-      "operation": "Process"
+      "operation": "Process",
+      "allProjects": "All Projects"
     },
     "review": {
       "approveSuccess": "Committed",
@@ -3573,7 +3574,9 @@
     "noteFailed": "Failed to commit note",
     "record": "Commit",
     "recorded": "Committed: “{{question}}” → {{answer}}",
-    "undo": "Revert"
+    "undo": "Revert",
+    "buriedMore": "{{count}} more on closed todos",
+    "backToOpen": "Back to the {{count}} waiting"
   },
   "notesDock": {
     "title": "Scratch Buffer",
@@ -3591,7 +3594,8 @@
   "choices": {
     "noteLabel": "Log Entry",
     "notePlaceholder": "Log a note — why this call, or what the options missed",
-    "notedBy": "recorded by"
+    "notedBy": "recorded by",
+    "addNote": "Add a note"
   },
   "hotkeys": {
     "PANELS": {
