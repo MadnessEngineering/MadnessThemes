@@ -4211,7 +4211,10 @@
       "cast": "shellomancy.grimoire.cast",
       "edit": "shellomancy.grimoire.edit",
       "peek": "shellomancy.grimoire.peek",
-      "unpeek": "shellomancy.grimoire.unpeek"
+      "unpeek": "shellomancy.grimoire.unpeek",
+      "privateShelf": "shellomancy.grimoire.privateShelf",
+      "privateNone": "shellomancy.grimoire.privateNone",
+      "privateBadge": "shellomancy.grimoire.privateBadge"
     }
   }
 }

@@ -4231,7 +4231,10 @@
       "cast": "run",
       "edit": "edit",
       "peek": "preview",
-      "unpeek": "hide"
+      "unpeek": "hide",
+      "privateShelf": "Private · {{repo}}",
+      "privateNone": "No private notes for {{repo}} on this machine yet.",
+      "privateBadge": "private"
     }
   }
 }

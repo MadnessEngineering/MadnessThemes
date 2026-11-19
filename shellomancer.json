@@ -4231,7 +4231,10 @@
       "cast": "cast",
       "edit": "edit",
       "peek": "peek",
-      "unpeek": "close"
+      "unpeek": "close",
+      "privateShelf": "Private · {{repo}}",
+      "privateNone": "No private pages for {{repo}} on this machine yet.",
+      "privateBadge": "private"
     }
   }
 }
