@@ -3918,7 +3918,9 @@
         "openBrowser": "Browser",
         "openAgentTab": "Familiar tab",
         "logCommits": "Show commits in the Log",
-        "logCommitsNote": "Weaves the focused terminal's repo history in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
+        "logCommitsNote": "Weaves the focused terminal's repo history in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other.",
+        "sort": "Order of the owed in the Mana Bar",
+        "sortNote": "The order of the Owed tab; the chip beside its heading cycles through the same four, like the dashboard's sort button. Urgency order puts Critical first, work in progress first within each urgency, then the freshest. Chaos mode shuffles once each time you summon it."
       },
       "updates": {
         "automatic": "Watch for new releases",
@@ -4124,7 +4126,12 @@
       "commitPill": "commit",
       "commitsFailed": "The repo's history wouldn't speak: {{error}}",
       "linkedCommit": "↔ commit {{sha}} {{subject}}",
-      "linkedTodo": "↔ todo: {{description}}"
+      "linkedTodo": "↔ todo: {{description}}",
+      "sortNewest": "Fresh contraptions",
+      "sortOldest": "Ancient artifacts",
+      "sortPriority": "Urgency order",
+      "sortMadness": "Chaos mode",
+      "sortBinding": "Mana Bar owed: {{sort}}"
     },
     "chips": {
       "omnispindleTitle": "What's owed",

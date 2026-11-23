@@ -3898,7 +3898,9 @@
         "openBrowser": "shellomancy.settings.manaBar.openBrowser",
         "openAgentTab": "shellomancy.settings.manaBar.openAgentTab",
         "logCommits": "shellomancy.settings.manaBar.logCommits",
-        "logCommitsNote": "shellomancy.settings.manaBar.logCommitsNote"
+        "logCommitsNote": "shellomancy.settings.manaBar.logCommitsNote",
+        "sort": "shellomancy.settings.manaBar.sort",
+        "sortNote": "shellomancy.settings.manaBar.sortNote"
       },
       "updates": {
         "automatic": "shellomancy.settings.updates.automatic",
@@ -4104,7 +4106,12 @@
       "commitPill": "shellomancy.manaBar.commitPill",
       "commitsFailed": "shellomancy.manaBar.commitsFailed",
       "linkedCommit": "shellomancy.manaBar.linkedCommit",
-      "linkedTodo": "shellomancy.manaBar.linkedTodo"
+      "linkedTodo": "shellomancy.manaBar.linkedTodo",
+      "sortNewest": "shellomancy.manaBar.sortNewest",
+      "sortOldest": "shellomancy.manaBar.sortOldest",
+      "sortPriority": "shellomancy.manaBar.sortPriority",
+      "sortMadness": "shellomancy.manaBar.sortMadness",
+      "sortBinding": "shellomancy.manaBar.sortBinding"
     },
     "chips": {
       "omnispindleTitle": "shellomancy.chips.omnispindleTitle",

@@ -3919,7 +3919,9 @@
         "openBrowser": "Browser",
         "openAgentTab": "Agent tab",
         "logCommits": "Show commits in the Log",
-        "logCommitsNote": "Mixes the focused terminal's repo's recent git commits in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other."
+        "logCommitsNote": "Mixes the focused terminal's repo's recent git commits in with the todo activity, newest first. A commit and a todo whose completion note names its sha link to each other.",
+        "sort": "Todo order in the Mana Bar",
+        "sortNote": "The order of the Todos tab; the chip beside its heading cycles through the same four, like the dashboard's sort button. Priority order puts Critical first, work in progress first within each priority, then newest. Random order shuffles once each time you pick it."
       },
       "updates": {
         "automatic": "Check for updates automatically",
@@ -4125,7 +4127,12 @@
       "commitPill": "commit",
       "commitsFailed": "Couldn't read this repo's commits: {{error}}",
       "linkedCommit": "↔ commit {{sha}} {{subject}}",
-      "linkedTodo": "↔ todo: {{description}}"
+      "linkedTodo": "↔ todo: {{description}}",
+      "sortNewest": "Newest first",
+      "sortOldest": "Oldest first",
+      "sortPriority": "Priority order",
+      "sortMadness": "Random order",
+      "sortBinding": "Mana Bar todos: {{sort}}"
     },
     "chips": {
       "omnispindleTitle": "Omnispindle todos",
