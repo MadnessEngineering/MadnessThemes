@@ -4219,6 +4219,14 @@
       "privateShelf": "shellomancy.grimoire.privateShelf",
       "privateNone": "shellomancy.grimoire.privateNone",
       "privateBadge": "shellomancy.grimoire.privateBadge"
+    },
+    "tab": {
+      "moveToWindow": "shellomancy.tab.moveToWindow",
+      "quakeWindow": "shellomancy.tab.quakeWindow",
+      "newWindow": "shellomancy.tab.newWindow",
+      "untitledWindow": "shellomancy.tab.untitledWindow",
+      "windowWithMoreTabs": "shellomancy.tab.windowWithMoreTabs",
+      "quakeBinding": "shellomancy.tab.quakeBinding"
     }
   }
 }

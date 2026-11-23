@@ -4239,6 +4239,14 @@
       "privateShelf": "Private · {{repo}}",
       "privateNone": "No private notes for {{repo}} on this machine yet.",
       "privateBadge": "private"
+    },
+    "tab": {
+      "moveToWindow": "Move to window",
+      "quakeWindow": "Quake window",
+      "newWindow": "New window",
+      "untitledWindow": "Untitled window",
+      "windowWithMoreTabs": "{{title}} +{{more}}",
+      "quakeBinding": "Send tab to the quake window and back"
     }
   }
 }
