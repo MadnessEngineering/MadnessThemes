@@ -4234,6 +4234,23 @@
       "untitledWindow": "shellomancy.tab.untitledWindow",
       "windowWithMoreTabs": "shellomancy.tab.windowWithMoreTabs",
       "quakeBinding": "shellomancy.tab.quakeBinding"
+    },
+    "tabColor": {
+      "bright": "shellomancy.tabColor.bright",
+      "ember": "shellomancy.tabColor.ember",
+      "gold": "shellomancy.tabColor.gold",
+      "lime": "shellomancy.tabColor.lime",
+      "mint": "shellomancy.tabColor.mint",
+      "teal": "shellomancy.tabColor.teal",
+      "sky": "shellomancy.tabColor.sky",
+      "indigo": "shellomancy.tabColor.indigo",
+      "violet": "shellomancy.tabColor.violet",
+      "orchid": "shellomancy.tabColor.orchid",
+      "rose": "shellomancy.tabColor.rose",
+      "crimson": "shellomancy.tabColor.crimson",
+      "copper": "shellomancy.tabColor.copper",
+      "moss": "shellomancy.tabColor.moss",
+      "slate": "shellomancy.tabColor.slate"
     }
   }
 }

@@ -4254,6 +4254,23 @@
       "untitledWindow": "Untitled window",
       "windowWithMoreTabs": "{{title}} +{{more}}",
       "quakeBinding": "Send tab to the quake window and back"
+    },
+    "tabColor": {
+      "bright": "Bright {{color}}",
+      "ember": "Ember",
+      "gold": "Gilt",
+      "lime": "Lichen",
+      "mint": "Verdigris",
+      "teal": "Brine",
+      "sky": "Aether",
+      "indigo": "Ink",
+      "violet": "Wisteria",
+      "orchid": "Orchid",
+      "rose": "Rose",
+      "crimson": "Blood",
+      "copper": "Copper",
+      "moss": "Moss",
+      "slate": "Ash"
     }
   }
 }
